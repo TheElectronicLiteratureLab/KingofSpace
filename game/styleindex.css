@@ -13,12 +13,28 @@ body  {
   
 
   }
-  
-.rectanglelarge {
+  .rectanglelargeblack {
   position: relative;
   height: 660px;
   width: 1000px;
- 
+ background-color: black;
+  margin: 1%;
+  float: left;
+  border: 2px solid black;
+  position: relative;
+  opacity: 1;
+  font-size: 10px;
+  text-align: cent;
+  vertical-align: middle;
+  line-height: 40px; 
+
+}
+
+.rectanglelarge {
+  position: absolute;
+  height: 660px;
+  width: 1000px;
+ 	top: 1%;
   margin: 1%;
   float: left;
   border: 2px solid black;
@@ -151,4 +167,32 @@ font-size: 20px;
 	left: 45px;
 }
 
+#Next{
+	position: fixed;
+	height: 20px;
+	width: 60px;
+	top: 500px;
+	left: 130px;
+}
 
+#choiseone{
+	position: fixed;
+	height: 20px;
+	width: 60px;
+	top: 500px;
+	left: 230px;
+	
+}
+#choisetwo{
+	position: fixed;
+	height: 20px;
+	width: 60px;
+	top: 500px;
+	left: 290px;
+	
+}
+#playboxmain{
+	color: white; 
+text-align: center;
+font-size: 20px;
+}

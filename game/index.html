@@ -4,21 +4,35 @@
 <head> 
 <meta charset="utf-8">
 <title>King Of Space </title>
-<link rel="stylesheet" type="text/css" href="css/styleindex.css">
+<link rel="stylesheet" type="text/css" href="styleindex.css">
+<!--<link rel="stylesheet" type="text/css" href="styleindex2.css">
+<script type="text/javascript" src="radar.js"></script>-->
+<script type="text/javascript" src="story.js"></script>
 
 
 
 
 </head>
 
-<body>
-
+<body onload="hide()"  onload="story()">
 
 <div id="wrapper">
 	<p id="completted"> </p>
+  <div  id="mainstory", class="rectanglelargeblack">
+  <p id="playboxmain" > 
+      </p>
+     <button id="choiseone", class="S1" onclick="story('one')">O</button>
+
+<button id="choisetwo", class="S2"  onclick="story('two')">T</button>
+
+<button id="Next", onclick="story('next')">N</button>
 
   <div id = "main", class="rectanglelarge">
   
+  
+
+ 
+
   
  <button id="switchone", class="S1" onclick="radar('switchone')"></button>
 
@@ -50,6 +64,8 @@
   		Oxigen Reserves Critical</p>
 
   </div>
+  	</div>
+  
 
    <!-- <audio id="audio" loop>
 	<source src="" type="audio/mp3">  
@@ -59,7 +75,12 @@
 
 
 </div>
-<script type="text/javascript" src="./js/radar.js"></script>
+
+<script type="text/javascript" src="radar.js"></script>
+	
+
+
+
 
 </body>
 </html>

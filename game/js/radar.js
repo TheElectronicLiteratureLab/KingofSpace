@@ -5,9 +5,9 @@
 
 
 
-	let wrapper = document.getElementById('wrapper');
+	//let wrapper = document.getElementById('wrapper');
 	let box = document.getElementById('main');
-	box.style.backgroundImage =  "url(img/radar1.jpg)";
+		box.style.backgroundImage =  "url(./img/radar1.jpg)";
 	
 	let S1 = document.getElementById('switchone');
 	S1.style.backgroundImage =  "url(img/switch1.jpg)";
@@ -62,6 +62,11 @@
 	    x.style.display = "none";
 	  }
 	}
+
+
+function radarstart(){
+	hide();
+}
 
 
 const Emergency = [" Oxigen Reserves Critical<br>"];
