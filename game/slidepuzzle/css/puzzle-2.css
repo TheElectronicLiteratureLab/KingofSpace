@@ -2,6 +2,7 @@ BODY {
     background: gray;
     }
     
+    /* sizing and styling for all tiles in the table except tile 16 */
     .tiles {
       display: table-cell;
       width: 120px;
@@ -10,6 +11,7 @@ BODY {
       cursor: pointer;
     }
     
+    /* position on the image within each tile. Starts in the upper left corner as tile 1 and snakes down to finish with tile 16. This uses a single background image called in the .tiles class */
     .tile1 {
       background-position: 0 0;
     }
@@ -55,6 +57,8 @@ BODY {
     .tile15 {
       background-position: 67% 100%;
     }
+
+    /* styled individually as it is needed to keep the white tile separate from the other tiles. */
     .tile16 {
       background-color: white;
       display: table-cell;
