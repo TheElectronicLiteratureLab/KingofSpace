@@ -6,7 +6,7 @@
 
 
 	//let wrapper = document.getElementById('wrapper');
-	let box = document.getElementById('main');
+	let box = document.getElementById('puzzle');
 		box.style.backgroundImage =  "url(./img/radar1.jpg)";
 	
 	let S1 = document.getElementById('switchone');
@@ -54,8 +54,9 @@
 
 	//need to add print array for the readout 
 
-	function hide() {
-	  var x = document.getElementById("main");
+	function hide(button) {
+		var temp = button;
+	  var x = document.getElementById(temp);
 	  if (x.style.display === "none") {
 	    x.style.display = "block";
 	  } else {
@@ -65,7 +66,7 @@
 
 
 function radarstart(){
-	hide();
+	hide('radar-puzzle');
 }
 
 
@@ -227,10 +228,10 @@ if (temp === 'switchsix'){
 	}
 	if (Sone === true && Stwo === true && Sthree === true && Sfour === true && Sfive === true && Ssix === true && Btwo === true){
 		
-		document.getElementById('completted').innerHTML = ` congrats you compleete the puzzle`;
+		//document.getElementById('completted').innerHTML = ` congrats you compleete the puzzle`;
 		
 
-		hide();
+		hide('radar-puzzle');
 
 		
 		//return current = 8;

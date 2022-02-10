@@ -7,17 +7,17 @@
 <link rel="stylesheet" type="text/css" href="styleindex.css">
 <!--<link rel="stylesheet" type="text/css" href="styleindex2.css">
 <script type="text/javascript" src="radar.js"></script>-->
-<script type="text/javascript" src="story.js"></script>
+<script type="text/javascript" src="js/story.js"></script>
 
 
 
 
 </head>
 
-<body onload="hide()"  onload="story()">
-
+<body onload="onstart()" >
+<div onload="onstart()">  </div>
 <div id="wrapper">
-	<p id="completted"> </p>
+	<!--<p id="completted"> </p>-->
   <div  id="mainstory", class="rectanglelargeblack">
   <p id="playboxmain" > 
       </p>
@@ -26,45 +26,78 @@
 <button id="choisetwo", class="S2"  onclick="story('two')">T</button>
 
 <button id="Next", onclick="story('next')">N</button>
-
-  <div id = "main", class="rectanglelarge">
+  <!-- this is the beggingin of the radar puzzle -->
+  <div id ="radar-puzzle">
+    <div id="puzzle" class="rectanglelarge">
   
-  
+       <button id="switchone", class="S1" onclick="radar('switchone')"></button>
 
- 
+      <button id="switchtwo", class="S2"  onclick="radar('switchtwo')"></button>
 
-  
- <button id="switchone", class="S1" onclick="radar('switchone')"></button>
+      <button id="switchthree", onclick="radar('switchthree')"></button>
 
-<button id="switchtwo", class="S2"  onclick="radar('switchtwo')"></button>
+      <button id="switchfour", onclick="radar('switchfour')"></button>
 
-<button id="switchthree", onclick="radar('switchthree')"></button>
+      <button id="switchfive", onclick="radar('switchfive')"></button>
 
-<button id="switchfour", onclick="radar('switchfour')"></button>
-
-<button id="switchfive", onclick="radar('switchfive')"></button>
-
-<button id="switchsix", onclick="radar('switchsix')"></button>
+      <button id="switchsix", onclick="radar('switchsix')"></button>
 
 
-<button id="buttonone", onclick="radar('buttonone')">one</button>
+      <button id="buttonone", onclick="radar('buttonone')">one</button>
 
-<button id="buttontwo", onclick="radar('buttontwo')">two</button>
+      <button id="buttontwo", onclick="radar('buttontwo')">two</button>
 
-<button id="buttonthree", onclick="radar('buttonthree')">three</button>
+      <button id="buttonthree", onclick="radar('buttonthree')">three</button>
 
-<button id="buttonfour", onclick="radar('buttonfour')">four</button>
+      <button id="buttonfour", onclick="radar('buttonfour')">four</button>
 
-<button id="buttonfive", onclick="radar('buttonfive')">five</button>
+      <button id="buttonfive", onclick="radar('buttonfive')">five</button>
 
-<div class="rectanglelsmaller"> 
+      <div class="rectanglelsmaller"> 
 
-	<p id="const" > EMERGENCY </p>
-  	<p id="playbox" > <br>
-  		Oxigen Reserves Critical</p>
+      	<p id="const" > EMERGENCY </p>
+        	<p id="playbox" > <br>
+        		Oxigen Reserves Critical</p>
 
-  </div>
+        </div>
   	</div>
+  </div>
+<!-- this is the end of the radar puzzle -->
+<!-- this is the begging of the tigar puzzle -->
+   <div id ="tiger-puzzle">
+    <div id="puzzle" class="rectanglelarge">
+      <div id="table">
+        <div id="row1">
+            <div id="cell11" class="tile1 tiles" onClick="clickTile(1,1);"></div>
+            <div id="cell12" class="tile2 tiles" onClick="clickTile(1,2);"></div>
+            <div id="cell13" class="tile3 tiles" onClick="clickTile(1,3);"></div>
+            <div id="cell14" class="tile4 tiles" onClick="clickTile(1,4);"></div>
+        </div>
+        <div id="row2">
+            <div id="cell21" class="tile5 tiles" onClick="clickTile(2,1);"></div>
+            <div id="cell22" class="tile6 tiles" onClick="clickTile(2,2);"></div>
+            <div id="cell23" class="tile7 tiles" onClick="clickTile(2,3);"></div>
+            <div id="cell24" class="tile8 tiles" onClick="clickTile(2,4);"></div>
+        </div>
+        <div id="row3">
+            <div id="cell31" class="tile9 tiles" onClick="clickTile(3,1);"></div>
+            <div id="cell32" class="tile10 tiles" onClick="clickTile(3,2);"></div>
+            <div id="cell33" class="tile11 tiles" onClick="clickTile(3,3);"></div>
+            <div id="cell34" class="tile12 tiles" onClick="clickTile(3,4);"></div>
+        </div>
+        <div id="row4">
+            <div id="cell41" class="tile13 tiles" onClick="clickTile(4,1);"></div>
+            <div id="cell42" class="tile14 tiles" onClick="clickTile(4,2);"></div>
+            <div id="cell43" class="tile15 tiles" onClick="clickTile(4,3);"></div>
+            <div id="cell44" class="tile16" onClick="clickTile(4,4);"></div>
+        </div>
+    </div>
+    <button onClick="shuffle();">New Game</button>
+
+
+   </div>
+ </div>
+<!-- this is the end of the tiger puzzle -->
   
 
    <!-- <audio id="audio" loop>
@@ -76,8 +109,8 @@
 
 </div>
 
-<script type="text/javascript" src="radar.js"></script>
-	
+<script type="text/javascript" src="js/radar.js"></script>
+<script type="text/javascript" src="js/puzzle-2.js"></script>
 
 
 
