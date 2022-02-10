@@ -1,18 +1,8 @@
-//story 
+//array 
 
-//  JavaScript start here
-
+function getstory (current){
 	
-
-
-	let wrapper = document.getElementById('wrapper');
-	let boxmain = document.getElementById('mainstory');
-	//box.style.backgroundImage =  "url(radar1.jpg)";
-	
-	let current = 0;
-   
-	
-/*let array = ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretches from Venus to Mars. The Emperor reigns here with his  Children, the Priestess and the Red King. The Terrans  flourish on three  worlds, two inhabited moons, and hundreds of bata, the spacebore colonies run by the Six Houses. <br> Darkside lies the Lo-EuropaComplex, home of  the inhumans, rebels against the Empire. <br> Between them  are  the Rocks-the Asteroid Belt,  quarantined against men and unmen.",
+let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretches from Venus to Mars. The Emperor reigns here with his  Children, the Priestess and the Red King. The Terrans  flourish on three  worlds, two inhabited moons, and hundreds of bata, the spacebore colonies run by the Six Houses. <br> Darkside lies the Lo-EuropaComplex, home of  the inhumans, rebels against the Empire. <br> Between them  are  the Rocks-the Asteroid Belt,  quarantined against men and unmen.",
 
 "It is a  place of unimaginable  emptiness. In 690 billion square miles, only three asteroids can support a Class A town: Pallas the Whorehouse,  Circe the prison, and Ceres the Bureaucracy. From these three asteroids, hidden  behind  glass screens  and virus filters, the Terran administrators try to hold a territory  larger than all of the Empire.   <br> The Independent Trading Colonies scratch out a living in Beltspace. Each ITC supports perhaps 50 to 100 humans. But between the ITCs and the three, there is emptiness, desertion, and silence. <br> 50 years ago, it was different.  But then the Incarnations came, the Priestess and the Red King…  <br>  And after them, the Plague…",
 
@@ -59,86 +49,7 @@
 
 "Tam slips the knife into its external sheath and keeps working on the  lock. But his right hand is clumsy with cold,  his left  is  useless.  <br> <br> The warmth is draining out of Tam’s body. The skintite’s heat circuits  are cutting in.  <br> <br> He’s beginning to shake with cold. He remembers the cold, the endless cold, of the Circe mines. ",//(blocks around the edges)
 
+];
 
-];*/
-/*	
-function onstart(){
-	console.log('it got here onstart');
-  hide('radar-puzzle');
-  hide('tiger-puzzle');
-}*/
-
-	//function playAudio(){
-	//audio.play();
-	//}
-
-	//need to add print array for the readout 
-
-	function hide(button) {
-		var temp = button;
-	  var x = document.getElementById('radar-puzzle');
-	  if (x.style.display === "none") {
-	    x.style.display = "block";
-	  } else {
-	    x.style.display = "none";
-	  }
-	}
-
-
-// need to change to if statements 
-
- function story(button) {
-	
-	var temp = button;
-	console.log(temp);
-	
-	getstory(current);
-	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
-
-	if(temp === 'next' || temp === 'one' || temp === 'two'){
-
-	
-		//console.log ("made it to while loop");
-		switch(current){
-			case 7 : 
-				// print out array 
-				window.alert('radar game');
-				//radarstart();
-				// pop up option for mini game 
-				console.log ("case  8");
-				 current = 9;
-				break; 
-			case 13:
-				// unhide choise buttons 
-				// hide next 
-				if(temp === 'one'){
-					current = 14;// Life ship
-					// print out array
-
-				}
-				if(temp === 'two'){
-					current = 14 ; // Great ship 
-					// print out array
-
-				}
-				 break;
-
-			case 15:  
-				window.alert('tiger game');
-				//tigarstart();
-				// pop up option for mini game 
-				console.log ("case  15");
-				 current = 16;
-			default:
-				
-				current++;
-				//print out array
-			
-		}
-
-	
-}
-	//document.getElementById('playbox').innerHTML = `  ${array[current]} `
-
-
+document.getElementById('playboxmain').innerHTML = `  ${story[current]} `
 }
