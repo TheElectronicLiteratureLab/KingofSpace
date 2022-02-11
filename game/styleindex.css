@@ -49,7 +49,13 @@ body  {
 }
 
 
-
+#Playgame{
+	position: fixed;
+	height: 50px;
+	width: 100px;
+	top: 300px;
+	left: 450px;
+}
 
 
 
@@ -58,8 +64,15 @@ body  {
 	position: fixed;
 	height: 20px;
 	width: 60px;
-	top: 500px;
-	left: 130px;
+	top: 600px;
+	left: 60px;
+}
+#Back{
+	position: fixed;
+	height: 20px;
+	width: 60px;
+	top: 600px;
+	left: 900px;
 }
 
 #choiseone{
