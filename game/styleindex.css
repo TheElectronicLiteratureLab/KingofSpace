@@ -77,18 +77,18 @@ body  {
 
 #choiseone{
 	position: fixed;
-	height: 20px;
-	width: 60px;
+	height: 40px;
+	width: 200px;
 	top: 500px;
-	left: 230px;
+	left: 130px;
 	
 }
 #choisetwo{
 	position: fixed;
-	height: 20px;
-	width: 60px;
+	height: 40px;
+	width: 200px;
 	top: 500px;
-	left: 290px;
+	left: 400px;
 	
 }
 #playboxmain{

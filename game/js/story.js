@@ -91,21 +91,34 @@ function onstart(){
 				console.log ("case  8");
 				 current = 9;
 				break; 
-			case 13:
+
+			case 10:
+				//play animation of great ship or life ship...?
+				current++;
+				break;
+
+			case 12:
 				// unhide choise buttons 
 				// hide next 
 				hide('Next');
 				hide('Back');
 				hide('choiseone');
 				hide('choisetwo');
+				document.getElementById('choiseone').innerHTML = ` Life Ship `
+				document.getElementById('choisetwo').innerHTML = ` Great Ship `
 
 				if(temp === 'one'){
-					current = 14;// Life ship
+
+					
+
+					current = 13;// Life ship
 					// print out array
 					getstory(current);
 
 				}
 				else if(temp === 'two'){
+					
+
 					current = 14 ; // Great ship 
 					// print out array
 					getstory(current);
@@ -113,7 +126,7 @@ function onstart(){
 				}
 				 break;
 
-			case 15:  
+			case 16:  
 				window.alert('tiger game');
 				//tigarstart();
 				// pop up option for mini game 
