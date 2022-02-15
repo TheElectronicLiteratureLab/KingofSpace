@@ -9,3 +9,7 @@ table {
 .fields {
     float: right;
 }
+
+#table-2 {
+    display: none;
+}
