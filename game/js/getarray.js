@@ -18,7 +18,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "His eyes blur as he tries to read nav charts. He is only twenty-tree but his hands shake as he keys in chart coordinates. <br> He remembers his dream and smiles mirthlessly. They burned his hand on Pallas, trying to make him give names of the others who were trying to breed Plague resistance. Some Priestess's slave-King burned the gene tattoo off his palm, skin, nerves  and all. He clenches and unclenches it, holding his anger in his bad hand. <br> There is no inhabited asteroid within a halfmonth, not even a miner's claim. And he has less that a shipday worth of air.", //7
 
-// Game here radar....
+// Game here radar.... 9
 
 "The radar beacon has locked on to something. <br> Barely visible, a shadow-shape blocks the stars. <br> Eternal Mother! - it's a ship. An old one, and huge. <br> It's the size of a Class A town, a great irregular cloud of modules and environments, furred with the junk of a thousand System journeys, revolving around itself in a vast complexity of orbits. At its edges he can see the stars though the cloud, but in its center the pods swarm so thickly that the ship looks like a single vast solid object. <br> And it is dark. No lights shine from it: no red warning lamps, no yellow haze of sunlights.",//8
 
@@ -26,7 +26,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 " Abandoned since the Plague struck. <br> Fifty years abandoned. <br> Yet this ship, Nii, may still have some life. Oxygen, algae… <br> Enough to live on. Enough to make a place with, in these dead asteroids. By the Emperor and his Mother, Tam could live… <br> And Tam's are supposed to be resistant to Plague. <br> How resistant?",//10
 
-//image of great ship or life  ship? 
+//" ",//image of great ship or life  ship? animation 13
  
 " What in the Lady's name is that? <br> It is an opal set in jet, a white smoothness, curved roundly like a woman. A lifeship. <br> Tam throws  back his head and laughs.<br> What a present from the Emperor-worshippers! Lifeship are full of genetic material. The little white moon can restoc an entire planet. <br> It can restock a Greatship.",//11
 
@@ -36,7 +36,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 " At the door of the lifeship <br> he looks around warily,<br> drawing his heartsblood knife from its sheath.<br><br> The ship of the Fertile Worlds is smooth and white inside, brightly lit, the inside of a star's egg. Its smell is stange, cool, intoxicating.<br><br> Warily, he breathes clear air into his lungs. <br><br> At the center of the spere, in coldsleep, lies a girl. ", //13
 
-// image of tam looking over at sleeping aster
+// image of tam looking over at sleeping aster 17
 
 "She is encased in a half moon of ice, and sparkles of silver ray out from her body. Her skin is the dusky color of twilight  on the Fertile Worlds, and  on it, faintly, glow stars. Piercing her right ear is a silver  erring in the shape of a sickle moon.", // 14
 

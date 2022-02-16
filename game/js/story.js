@@ -78,16 +78,23 @@ function onstart(){
 
 		//console.log ("made it to while loop");
 		switch(current){
-			case 7 : 
+			case 8 : 
 				// print out array 
-				window.alert('radar game');
+				//window.alert('radar game');
+				if(confirm("do you want to play a mini game?")){
+					//radarstart()
+					txt = "You  pressed Ok!";
+				}
+				else{
+					txt = "You pressed Cancel!";
+				}
 				//radarstart();
 				// pop up option for mini game 
 				console.log ("case  8");
-				 current = 9;
+				 current ++;
 				break; 
 
-			case 10:
+			case 11:
 				//play animation of great ship or life ship...?
 				current++;
 				break;
@@ -149,7 +156,7 @@ function onstart(){
 				 break;
 
 			case 67: 
-				current = 173;
+				current = 173;//an end 
 
 				break;
 
@@ -166,7 +173,8 @@ function onstart(){
 
 				//hide('choiseone');
 				//document.getElementById('choiseone').innerHTML = `Acnologments  `;
-				current = 0;
+				current = -1;// staets story over. 
+				
 
 			default:
 				
