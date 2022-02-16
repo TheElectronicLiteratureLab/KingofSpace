@@ -21,7 +21,7 @@ function onstart(){
   	hide('choiseone');
 	hide('choisetwo');
 	hide('Next');
-	hide('Back');
+	
 
 
 }
@@ -46,7 +46,6 @@ function onstart(){
 
 		getstory(current);
 		hide('Next');
-		hide('Back');
 		hide('Playgame');
 	}
 
@@ -71,15 +70,11 @@ function onstart(){
 
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
-	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'back' ){
+	if(temp === 'next' || temp === 'one' || temp === 'two'  ){
 		console.log('im here in next')
 		
 	
-		//if(temp === 'back'){ // not working do not know why
-			//current = current - 1;
-			//console.log('im here in back');
-
-		//}
+		
 
 		//console.log ("made it to while loop");
 		switch(current){
@@ -101,11 +96,11 @@ function onstart(){
 				// unhide choise buttons 
 				// hide next 
 				hide('Next');
-				hide('Back');
+				
 				hide('choiseone');
 				hide('choisetwo');
-				document.getElementById('choiseone').innerHTML = ` Life Ship `
-				document.getElementById('choisetwo').innerHTML = ` Great Ship `
+				document.getElementById('choiseone').innerHTML = `Tam Rosse brings his ship in to Synchronized orbit with the Lifeship `
+				document.getElementById('choisetwo').innerHTML = ` Tam Rosse brings his ship in to Synchronized orbit with the Greatship `
 
 				if(temp === 'one'){
 
@@ -119,19 +114,60 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 14 ; // Great ship 
+					current = 31 ; // Great ship 
+					// print out array
+					getstory(current);
+
+				}
+				 break;
+			case 19:
+				// unhide choise buttons 
+				// hide next 
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				document.getElementById('choiseone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. `;
+				document.getElementById('choisetwo').innerHTML = ` Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
+
+				if(temp === 'one'){
+
+					
+
+					current = 20;// Life ship
+					// print out array
+					getstory(current);
+
+				}
+				else if(temp === 'two'){
+					
+
+					current = 68 ; // Great ship 
 					// print out array
 					getstory(current);
 
 				}
 				 break;
 
-			case 16:  
+			case 67: 
+				current = 173;
+
+				break;
+
+			case 83:  
 				window.alert('tiger game');
 				//tigarstart();
 				// pop up option for mini game 
 				console.log ("case  15");
-				 current = 16;
+				 current = 34;
+
+				break;
+				
+			case 173:
+
+				//hide('choiseone');
+				//document.getElementById('choiseone').innerHTML = `Acnologments  `;
+				current = 0;
+
 			default:
 				
 				current++;

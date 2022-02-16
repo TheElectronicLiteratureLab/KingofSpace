@@ -164,13 +164,13 @@ if (temp === 'switchsix'){
 	if (temp === 'buttonone'){
 		if( Bone === true){
 			Bone = false;
-			document.getElementById('playbox').innerHTML = `  ${Bone} `;
+			//document.getElementById('playbox').innerHTML = ` `;
 			B1.style.backgroundImage =  "url(img/lightradar.jpg)";
 
 		}
 		else{
 			Bone = true;
-			//document.getElementById('playbox').innerHTML = ` switchone is true`;
+			document.getElementById('playbox').innerHTML = `ignition!`;
 			B1.style.backgroundImage =  "url(img/lightradaron.jpg)";
 	}
 	}
@@ -196,7 +196,7 @@ if (temp === 'switchsix'){
 		}
 		else{
 			Bthree = true;
-			//document.getElementById('playbox').innerHTML = ` switchone is true`;
+			document.getElementById('playbox').innerHTML = `laser inoperative `;
 			B3.style.backgroundImage =  "url(img/lightradaron.jpg)";
 	}
 	}
@@ -209,7 +209,7 @@ if (temp === 'switchsix'){
 		}
 		else{
 			Bfour = true;
-			//document.getElementById('playbox').innerHTML = ` switchone is true`;
+			document.getElementById('playbox').innerHTML = ` beam inoperative`;
 			B4.style.backgroundImage =  "url(img/lightradaron.jpg)";
 	}
 	}
@@ -222,7 +222,7 @@ if (temp === 'switchsix'){
 		}
 		else{
 			Bfive = true;
-			//document.getElementById('playbox').innerHTML = ` switchone is true`;
+			document.getElementById('playbox').innerHTML = ` not docked`;
 			B5.style.backgroundImage =  "url(img/lightradaron.jpg)";
 	}
 	}
