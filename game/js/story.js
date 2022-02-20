@@ -121,7 +121,7 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 31 ; // Great ship 
+					current = 82 ; // Great ship 
 					// print out array
 					getstory(current);
 
@@ -160,12 +160,12 @@ function onstart(){
 
 				break;
 
-			case 83:  
+			case 85:  
 				window.alert('tiger game');
 				//tigarstart();
 				// pop up option for mini game 
 				console.log ("case  15");
-				 current = 34;
+				 current ++;
 
 				break;
 				
@@ -173,8 +173,8 @@ function onstart(){
 
 				//hide('choiceone');
 				//document.getElementById('choiseone').innerHTML = `Acnologments  `;
+
 				current = -1;// states story over. 
-				
 
 			default:
 				

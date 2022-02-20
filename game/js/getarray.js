@@ -58,11 +58,11 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "''I know who I am,'' she says. '' I'm Aster. I'm supposed to go to a party. it's called the Ceremony.'' <br><br> She  looks down at her body again. All over she is shaped like a grownup. She frowns. She touches she strange round breasts. They bob and tug as she gets up, and there is some king of ID stud in her ear, something that hurts and tingles. They have something to do with the party.<br><br> She is afraid of the Ceremony, somehow.<br><br> ''Lets look in the ship,''  the man says.",//22
 
-"He goes in front of her, Propelling himself down a snaky corridor. It is dark and she is afraid. she asks him to wait for her while she looks for a suit, but he tells her she dosen't need one. '' Not you. Your're spacehabbed.'' <br><br> ''What does that mean?'' <br><br> ''It means you're important,'' he says roughly. ''Almost as good as a Terran.'' <br><br> He takes her by the arm  and leads her down the cooridor. In  his other hand he holds some kind of dagger, like a dress-up for St. Nicholsun's. He gesturees to the lock. <br><br> There are forst-flowers around the massive old doors. she remembers not to touch froseted metal, but to put her hand only on the touchplate.",//23
+"He goes in front of her, Propelling himself down a snaky corridor. It is dark and she is afraid. she asks him to wait for her while she looks for a suit, but he tells her she dosen't need one. '' Not you. Your're spacehabbed.'' <br><br> ''What does that mean?'' <br><br> ''It means you're important,'' he says roughly. ''Almost as good as a Terran.'' <br><br> He takes her by the arm  and leads her down the cooridor. In  his other hand he holds some kind of dagger, like a dress-up for St. Nicholsun's. He gesturees to the lock. <br><br> There are frost-flowers around the massive old doors. she remembers not to touch froseted metal, but to put her hand only on the touchplate.",//23
 
 "Her fingers seem to work by themselves, and through the metal of the ship they feel a vibration. <br><br> The lock-picture makes a pattern and the door unlocks for her. <br><br> It's nice feeling, like a tickling, like a koi kissing her hand. <br><br> She feels the ship somehow. She almost smells it.",//24
 
-"The leaces of the Airlock creak open slowly like a rusted door.<br><br> Inside it's completely dark.",//25
+"The leaves of the Airlock creak open slowly like a rusted door.<br><br> Inside it's completely dark.",//25
 
 "  ",//26 
 
@@ -179,15 +179,104 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 //Tigerpuzzle 
 //Maintenance Panel 
 
+" The Priestess diddles with the lock, caressing it with  long  fingers. The pictures on the lock change. Tam looks, looks again, blinks, and feels  himself blushing. <br><br> ''Stop that!'' he mutters to her. <br><br> Think of the Uprising.<br><br>He feels an uncomfortable pressure on his skintite, between his legs. <br><br>Think of the ... <br>No. <br><br> The leaves of the  airlock iris slowly  open, creaking like a  frog prince  in a foul mood.",
+
+" ",//black 
+
+"",// black with boxs
+
+"Inside the airlock waits an old,old man. <br><br> The dirt on him would set records. Lice crawl in his matted gray hair(lice! Who let oose the genes for those?). He looks past them as if he is trying  to see  beyonf their sholders all the  way to  Terra. <br><br>  And then he  focusess on the Priestess.  His  eyes light up with a filthy gleam.",//
+
+"''Priestess'' says the old man, awed. <br><br> The priestess does something to the stars on her body. For a moment she glows like a sunlight. The old man blinks and smiles all over his dirty face. <br><br> ''My Priestess,'' he coos. <br><br> In the glare, Tam Rosse blinks and looks around the place where they're standing. Maybe one time it was a standared airlock/decontaminationroom. Not big-- freight goes in to the ship onthe  lower-G levels, Not  up here at 1.0-- but after the supply  ship  and  the lifeship, it looks like you could fit Saturn into it, rings and all.",//
+
+"And the place looks like a glactiv garage sale. An  old hardshell vacuum suit. with the front  smashed in, looks like it got hit with  a cannon. Laser sear marks  scar the walls. Laser practice, yes, right here in this airlock, just a wall away form the Big Zero. <br><br> There's personal- pos luggage piled up  i corners. Whoever  left, left  quick.<br><br> The decon equipment looks like the last person who used it was john  Glenn. <br><br> The Priestess switches herself back  to  normal. Tam sees little green dazzles.",
+
+"The old man clears his throat. <br><br> ''You Favored   to her?'' the old man asks him. ''You her King?''<br><br> ''Of course not,''Tam says, a little nettled. He can feel himself blushing. The old man sounds so eager. <br><br> ''What? You woke her?'' the oldman asks increduolusly. ''And she's a virgin Priestess, and she didn't Favor you?''<br><br>''I  didn't favor her,'' Tam says firmly.<br><br> The  old man snickers.",
+
+"''Well, then, boy!'' Brady chuckles. ''You can  just get off this ship.''",
+
+"Too late, Tam sees  what he should  have done.<br><br> Tam's trapped his head in a door iris, all right.  <br><br> Stuck his head right outside the airlock door to  see if it was cold.",
+
+"''Priestess's  got Ship's Favor,'' the  old  man says.  ''She can stay here without paying because the ship thinks she's valuable.'' the old man snorts.''Ship's right, too. Ain't you, Nii?''<br><br> Tam hears something like a subvocal murmur: a woman's voice, agreeing.<br><br> ''And I'm King here,'' Brady says to Tam. ''That makes me valuable.'' <br><br> Tamnods. If he trusted the air lock walls he'd bang his  head against them. <br><br>''But you?'' ",
+
+"''You're worthless, far as I can see. <br><br> ''You're breathin' my air. Cuttin'  my  oxygen supply. Usin' up  all kinds  of  stuff. Producin too much shit. <br><br> ''You can swear Favor to me. <br><br>''You can jump in the recycler. <br><br> ''Or you can leave.''",
+
+"There's no choice.<br><br> Tam Rosse sighs. <br><br> ''Old man, I ask a Favor from you.''", // favor button links to trades and favors. in library.
+
+"The old man is looking  for something. He straightens up, carefully holding something heavy by its stem. <br><br> ''Priestess. For you,'' the old man says. <br><br> The priestess looks into the cup. She smiles. Tam Rosse gets  all odd inside when she smiles.<br><br> But her smile is for the old man, the filthy old  man, Brady.",
+
+"The Priestess raises the  cup between her two hands. Studded with jewels,  the dark cup blends in to her dusky hands. Tam's heart melts. He  can feel it dripping away.<br><br> ''The Ceremony begins,'' she murmurs. ''I plege you King.'' She sips. <br><br> The old man drinks. ''I  pledge you, Mistress. Tour my ship wit me.'' <br><br>''First the tour,'' she agrees,''then the  banquet and dancing.''<br><br> The old man chuckles. ''Gotta get my attendants, Mistress. My Ceremony  clothes.'' <br><br> ''Of course.'' <br><br> ''Attendant!''",
+
+"''Attendant!'' <br><br> ''Wait a second,'' Tam says. ''Even I know you have to do Ceremony witha young man.'' Not that he wants to.<br><br> The Priestess smiles at him. ''But there is no young man, Tam Rosse. Will you prepare out banquet? The kitchen will show you how.'' The Priestess waves her hand like  a lady of   the Empire dismissing a servant.",
+
+"Brady smiles meanly at him.<br><br> He's going to deck the old leacher. He cocks his fist--",
+
+"  ",//black screen
+
+"What happened? <br><br> everything went  darkand now they've gone. <br><br>  The candle blinks  back into life. The last of the wine is still in the cup. He can smell the stuff from here. Half Old Granddad and  half Spirits of Girl. <br><br> It literally smells like sex.<br><br> HE picks up the goblet. In the candle- dark it's hard to see. But the wine seems to be  refilling.",
+
+`The wine is rising in the cup, but at the same time swirling, drawing him down into it like a hand- sized maelstorom.<br><br><hr width="100%" color="black"><br><br> Somehow he knows this wine is  wrong. Counterrevolutionary. Evil. It he knows what's good for him he won't  touch it.  `,
+
+// choises 1 The Priestess would like him to drink it. He's not going to give her the satisfaction. No.
+
+"''Servant!'' Tam Rosse snorts. ''I'm not their servant. And I'm nto playing magic tricks with her.'' <br><br> There's got to be some way out of this place. <br><br> Tam starts banging on the walls. <br><br>Gently",
+
+"Nothing. <br><br> There are two lockers here- right behind this, looks like half a Sherman tank.  ",
+
+//choice 1 Door 1 
+
+" Ugh. Feh. Close it quick <br><br> hehehehheh", // back to choices
+
+//choice 2 Door 2
+
+"Brady keeps his old rigidsuit liners in here. <br><br> Hasn't the man ever heard of the concept' clean'? ", // back to choises
+
+//Choice 3 next
+
+"Maybe the kitchen.. <br><br> ''Getting thirsty?'' the walls murmur. ",
+
+"An iris in the wall creaks open. Flickering streaks of red light point the way leftward down a corridor. <br><br> They spell out in small letters, ''This Way to the Kitchen!'' <br><br> With an exclamation Point, yet. <br><br> The corridor also leads off rightward.",
+
+// choise 1 Go left 
+
+"Look, here's a handy Horizator. <br><br> The door  iris open.  Inside the  horizator it  is small, dark and crowded with  obscure  controls. The  floo is worn and the machine has the jaded air of an old taxi in a developing country. <br><br> There are two large buttons on the panel.  <br><br> Directions and Help <br><br> The horizator begins to hum. It  seen to  be  hummin the ''Internationale.''  ",
+
+// Button 1 Directions 
+
+"Unionize! ", // back to buttons 
+
+// Button 2 Help 
+
+"Read Marx!<br><br> Read Lenin! <br><br> Recycle  the rich! <br><br>''Property is theft... intellecture property is intellectual theft.''", //back to buttons
+
+// button 3 next 
+
+"Before Tam can rethink this trip, the door snicks efficiently shut. <br><br> ''Predictabliity is a capitalist tool! You just want to Get Somewhere... You just like to stare at the little numbers...'' <br><br>The horizator grinds dangerously. <br><br> ''Liberty, Equality, Machinery! Robots never, never, never shall be slaves!'' ",
+
+// horizator puzzle 
+
+" ",
+
+
+// Choise 2 Go right 
+
+" ",
+
+//Choise 3 Getting thirsty? 
+
+
+//choises 2 It doesn't matter, she's pledged ti Brady anyway. Why not? 
+
 " ",
 
 // InterShip Communicatior 
+
 
 " ",
 
 // choise 2 He says  no
 
-
+" ",
 
 // choise 2 Tam Rosse doesn't give her the seeds.
 
@@ -274,7 +363,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
  "‘‘She’ll come  after us,’’ the Priestess says. <br> <br> ‘‘Sure. But she  dosen’t  know where to find  us.’’  Tam squint  down the long  black  tube. ‘‘Airtube’s the safest place to hide out. No spybots. Union law.’’ <br> <br> ‘‘Union– ?’’ The Priestess looks curiously at his new scar though the transparent glove of his skintite. He polarizes the gloves  dark so she can’t see her work. <br> <br> ‘‘Yeah. I was a good Union airtube  repairman. Then I was  a terrorist. Then I was in  the cold mines on Circe. Thant’s me.’’ ",//(blocks around the edges)
 
 "‘‘I  could  change Nii’s programming,’’ the Priestess says. <br> <br> he looks at  her. ‘‘How?’’ <br> <br> ‘‘If I can get into core memory. I could change your status  too. Give you Ship’s Favor so she  won’t kill you.’’  <br> <br> ‘‘What do you need?’’ <br> <br> ‘‘My powers.’’  She touches  the silver sickle moon in her ear. ",
-//113
+
 " ‘‘Your choice,’’ she says. Sure, he thinks. My choice.",//
 
 // 3 choices - 1. “I could give the  Priestess her  powers.  The  way I figure it, out  best chance  is to  reprogram the  Nii.”,
