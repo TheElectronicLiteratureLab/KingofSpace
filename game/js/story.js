@@ -18,8 +18,8 @@ function onstart(){
 	console.log('it got here onstart');
   //hide('radar-puzzle');
  // hide('tiger-puzzle');
-  	hide('choiseone');
-	hide('choisetwo');
+  	hide('choiceone');
+	hide('choicetwo');
 	hide('Next');
 	
 
@@ -53,8 +53,8 @@ function onstart(){
 
 
 // need to change to if statements 
-	//hide('choiseone');
-	//hide('choisetwo');
+	//hide('choiceone');
+	//hide('choicetwo');
 
  function story(button) {
 	
@@ -104,10 +104,10 @@ function onstart(){
 				// hide next 
 				hide('Next');
 				
-				hide('choiseone');
-				hide('choisetwo');
-				document.getElementById('choiseone').innerHTML = `Tam Rosse brings his ship in to Synchronized orbit with the Lifeship `
-				document.getElementById('choisetwo').innerHTML = ` Tam Rosse brings his ship in to Synchronized orbit with the Greatship `
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `Tam Rosse brings his ship in to Synchronized orbit with the Lifeship `
+				document.getElementById('choicetwo').innerHTML = ` Tam Rosse brings his ship in to Synchronized orbit with the Greatship `
 
 				if(temp === 'one'){
 
@@ -121,7 +121,7 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 31 ; // Great ship 
+					current = 82 ; // Great ship 
 					// print out array
 					getstory(current);
 
@@ -131,10 +131,10 @@ function onstart(){
 				// unhide choise buttons 
 				// hide next 
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				document.getElementById('choiseone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. `;
-				document.getElementById('choisetwo').innerHTML = ` Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. `;
+				document.getElementById('chocsetwo').innerHTML = ` Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
 
 				if(temp === 'one'){
 
@@ -160,21 +160,21 @@ function onstart(){
 
 				break;
 
-			case 83:  
+			case 85:  
 				window.alert('tiger game');
 				//tigarstart();
 				// pop up option for mini game 
 				console.log ("case  15");
-				 current = 34;
+				 current ++;
 
 				break;
 				
 			case 173:
 
-				//hide('choiseone');
+				//hide('choiceone');
 				//document.getElementById('choiseone').innerHTML = `Acnologments  `;
-				current = -1;// staets story over. 
-				
+
+				current = -1;// states story over. 
 
 			default:
 				

@@ -29,3 +29,11 @@
   padding: 15px 30px;
   cursor: pointer;
 }
+
+img {
+  position: fixed;
+  width: 490;
+  height: 470;
+  top: 480px;
+  left: 170px;
+}
