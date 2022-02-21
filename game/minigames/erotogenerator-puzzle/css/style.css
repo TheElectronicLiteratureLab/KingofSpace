@@ -1,8 +1,15 @@
+#wrapper {
+    margin: auto;
+    width: 70%;
+}
+
+/*----TABLE----*/
 td, th {
     border: 1px solid black;  
 }
 
 table {
+    width: 100%;
     text-align: left;
 }
 
