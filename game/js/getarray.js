@@ -10,7 +10,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "Tam touches the edge of the sleeping pod and wriggles out the seam. The cool damp air raises goosebumps on his skin. He runs over the prickly- grassed nutrient floor and climbs up the ladder to the biggest tank. <br> He jumps in and begins swimming among the koi,  in the cold early-morning water, and the big fish rub their bodies against his and kiss him, asking for food.", // 3 (sleeping pod image ?) 
 
-"But in the dream, the Rice Emperor reaches up to his puppet frame and breaks the strings that hold him. He strides across the air toward Tam, across the surface of the water. He stands on the water, glaring with rage, pointing at Tam, and the Imperial Soldiers surround them. <br> 'Blasphemer! Traitor!' <br> He grabs Tam tight by the left hand and draws his fingernail across the complex gene-tattoo that covers Tam's palm. The tattoo that shows his plague resistance. The pain claws at Tam's chest and he cannot breath. the gene-tattoo bubbles and burst.", //4(corner image)
+"But in the dream, the Rice Emperor reaches up to his puppet frame and breaks the strings that hold him. He strides across the air toward Tam, across the surface of the water. He stands on the water, glaring with rage, pointing at Tam, and the Imperial Soldiers surround them. <br> <i>'Blasphemer! Traitor!' </i> <br> He grabs Tam tight by the left hand and draws his fingernail across the complex gene-tattoo that covers Tam's palm. The tattoo that shows his plague resistance. The pain claws at Tam's chest and he cannot breath. the gene-tattoo bubbles and burst.", //4(corner image)
 
 "'The Uprising shall fail!' <br> The soldiers grab him by the neck, drag him- <br> Tam cannot  get air- he must breathe- ",//5(corner image)
 
@@ -215,7 +215,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "What happened? <br><br> everything went  darkand now they've gone. <br><br>  The candle blinks  back into life. The last of the wine is still in the cup. He can smell the stuff from here. Half Old Granddad and  half Spirits of Girl. <br><br> It literally smells like sex.<br><br> HE picks up the goblet. In the candle- dark it's hard to see. But the wine seems to be  refilling.",
 
-`The wine is rising in the cup, but at the same time swirling, drawing him down into it like a hand- sized maelstorom.<br><br><hr width="100%" color="black"><br><br> Somehow he knows this wine is  wrong. Counterrevolutionary. Evil. It he knows what's good for him he won't  touch it.  `,
+`The wine is rising in the cup, but at the same time swirling, drawing him down into it like a hand- sized maelstorom.<br><br><hr width="100%" color="white"><br><br> Somehow he knows this wine is  wrong. Counterrevolutionary. Evil. It he knows what's good for him he won't  touch it.  `,
 
 // choises 1 The Priestess would like him to drink it. He's not going to give her the satisfaction. No.
 

@@ -18,8 +18,8 @@ function onstart(){
 	console.log('it got here onstart');
   //hide('radar-puzzle');
  // hide('tiger-puzzle');
-  	hide('choiceone');
-	hide('choicetwo');
+  	hide('choiseone');
+	hide('choisetwo');
 	hide('Next');
 	
 
@@ -53,8 +53,8 @@ function onstart(){
 
 
 // need to change to if statements 
-	//hide('choiceone');
-	//hide('choicetwo');
+	//hide('choiseone');
+	//hide('choisetwo');
 
  function story(button) {
 	
@@ -104,10 +104,10 @@ function onstart(){
 				// hide next 
 				hide('Next');
 				
-				hide('choiceone');
-				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `Tam Rosse brings his ship in to Synchronized orbit with the Lifeship `
-				document.getElementById('choicetwo').innerHTML = ` Tam Rosse brings his ship in to Synchronized orbit with the Greatship `
+				hide('choiseone');
+				hide('choisetwo');
+				document.getElementById('choiseone').innerHTML = `Tam Rosse brings his ship in to Synchronized orbit with the Lifeship `
+				document.getElementById('choisetwo').innerHTML = ` Tam Rosse brings his ship in to Synchronized orbit with the Greatship `
 
 				if(temp === 'one'){
 
@@ -131,10 +131,10 @@ function onstart(){
 				// unhide choise buttons 
 				// hide next 
 				hide('Next');
-				hide('choiceone');
-				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. `;
-				document.getElementById('chocsetwo').innerHTML = ` Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
+				hide('choiseone');
+				hide('choisetwo');
+				document.getElementById('choiseone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. `;
+				document.getElementById('choisetwo').innerHTML = ` Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
 
 				if(temp === 'one'){
 
