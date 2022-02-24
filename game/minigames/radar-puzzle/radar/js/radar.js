@@ -67,6 +67,7 @@
 
 function radarstart(){
 	hide('radar-puzzle');
+		hide('Next');
 }
 
 
@@ -235,7 +236,7 @@ if (temp === 'switchsix'){
 		//document.getElementById('completted').innerHTML = ` congrats you compleete the puzzle`;
 		document.getElementById('playbox').innerHTML = ` locked on to beacon`;
 
-		setTimeout(hide('radar-puzzle'),3000);
+		hide('Next');
 
 		
 		//return current = 8;

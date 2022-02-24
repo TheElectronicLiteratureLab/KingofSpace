@@ -90,7 +90,7 @@ function onstart(){
 				}
 				//radarstart();
 				// pop up option for mini game 
-				console.log ("case  8");
+				//console.log ("case  8");
 				 current ++;
 				break; 
 

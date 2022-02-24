@@ -18,7 +18,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "His eyes blur as he tries to read nav charts. He is only twenty-tree but his hands shake as he keys in chart coordinates. <br> He remembers his dream and smiles mirthlessly. They burned his hand on Pallas, trying to make him give names of the others who were trying to breed Plague resistance. Some Priestess's slave-King burned the gene tattoo off his palm, skin, nerves  and all. He clenches and unclenches it, holding his anger in his bad hand. <br> There is no inhabited asteroid within a halfmonth, not even a miner's claim. And he has less that a shipday worth of air.", //7
 
-// Game here radar.... 9
+// Game here radar.... between 7 and 8 
 
 "The radar beacon has locked on to something. <br> Barely visible, a shadow-shape blocks the stars. <br> Eternal Mother! - it's a ship. An old one, and huge. <br> It's the size of a Class A town, a great irregular cloud of modules and environments, furred with the junk of a thousand System journeys, revolving around itself in a vast complexity of orbits. At its edges he can see the stars though the cloud, but in its center the pods swarm so thickly that the ship looks like a single vast solid object. <br> And it is dark. No lights shine from it: no red warning lamps, no yellow haze of sunlights.",//8
 
@@ -26,17 +26,17 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 " Abandoned since the Plague struck. <br> Fifty years abandoned. <br> Yet this ship, Nii, may still have some life. Oxygen, algae… <br> Enough to live on. Enough to make a place with, in these dead asteroids. By the Emperor and his Mother, Tam could live… <br> And Tam's are supposed to be resistant to Plague. <br> How resistant?",//10
 
-//" ",//image of great ship or life  ship? animation 13
+//" ",//image of great ship or life  ship? animation 11
  
 " What in the Lady's name is that? <br> It is an opal set in jet, a white smoothness, curved roundly like a woman. A lifeship. <br> Tam throws  back his head and laughs.<br> What a present from the Emperor-worshippers! Lifeship are full of genetic material. The little white moon can restock an entire planet. <br> It can restock a Greatship.",//11
 
 " But there will be a crew. <br> A Priestess and her Red King. The chief Imperial servants in the Asteroids. <br> The Priestess with her powers controls life and death in the Rocks. The Red King is her lover, her helper, her bodyguard. A condemned criminal, a violent man, he is linked to her by bonds as strong as life. <br> They’re trouble. But so is Tam. ",//12
 
-// choice one - life ship 
+// 13 w/o animation at 11 or 14 w/ animation at 11 choice one - life ship 
 
 " At the door of the lifeship <br> he looks around warily,<br> drawing his heartsblood knife from its sheath.<br><br> The ship of the Fertile Worlds is smooth and white inside, brightly lit, the inside of a star's egg. Its smell is strange, cool, intoxicating.<br><br> Warily, he breathes clear air into his lungs. <br><br> At the center of the sphere, in coldsleep, lies a girl. ", //13
 
-// image of tam looking over at sleeping aster 17
+// image of tam looking over at sleeping aster 15 
 
 "She is encased in a half moon of ice, and sparkles of silver ray out from her body. Her skin is the dusky color of twilight  on the Fertile Worlds, and on it, faintly, glow stars. Piercing her right ear is a silver earring in the shape of a sickle moon.", // 14
 
@@ -50,7 +50,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "Tam Rosse looks down at his red prison jumpsuit and grins wryly. The Red King.<br> &emsp; <i> And all who love the Emporer's Saughter shall know and love the Emperor.</i> <br> He makes his sacred left hand into  a fist. Nothing makes him love the Emperor. But he needs the Priestess's knowledge.",//19
 
-//19 ch1 The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally.
+//22 ch1 The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally.
 
 "Tam Rosses reaches through the ''ice '' and tries to slip the earring out of her ear. <br><br> It  won't move. <br><br> The half-mmon  of ice  turns into water, rivulets flowing down into  the surface of the egg-ship. There is a flash of great hear, a warmth and wetness. Tam Rosse breaks  into a sweat. The girl opens her eyes and reaches  up her  hand  to her ear. <br><br> Her eyes are utterly black. <br><br>  Is the Ceremony all rational? look into her eyes...  ",//20
 
@@ -64,11 +64,11 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "The leaves of the Airlock creak open slowly like a rusted door.<br><br> Inside it's completely dark.",//25
 
-"  ",//26 
+"  ",//29   
 
-" ",//27// blank but button on screen 
+" ",//30// blank but button on screen 
 
-"Inside the airlock waits an old,old man.",//28
+"Inside the airlock waits an old,old man.",//31
 
 "Bugs crawl  in his hair and his skin is yellow-gray. Even in the thin air by the airlock, he smells like old dirt. <br><br> But he is a captain, because he has an wire crown on his head. <br><br> ''I am king,'' he says, staring at Aster. <br><br> His red jumpsuit, stiff with dirt, hangs on his body. He scratches at his withered crotch. He plucks at the Imperial name-patch and looks at it curiousley as though it is the instructions for a machine he does not use. <br><br> ''I am King Brady.'' ",//29
 
@@ -116,7 +116,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "''Your lover has left you a child, and you want to make gardens in my belly. Your child will necer nurse form me or wear the powercrown. Your lover is the dung in  your  gardens, and your child shall  die, and  you will starve while your gardens crumble to dust.'' <br><br> the old woman puts the power crown on her own wild hait. <br><br> ''I am steel. Why do I need gardens? I will support human life no more.''",//51
 
-"In the Water Center it is cold.",//52
+"In the Water Center it is cold.",//55
 
 "Nii dose not speak to her, not even through illusions. <br><br> The ship's grief is like a steel wall",//53
 
@@ -146,11 +146,11 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "Nii vanishes. <br><br> They are alone, in the Water Center. The Priestess sits, Tam's head cradled in her lap. In her belly, the child is  already a third peron with them.<br><br> Who will the child be? Aster of Pallas, a four-year-old girl, who snatched at a cup of wine? A girl who knew on oldman's life counted less thatn a lover's? A woman who can choose nightmares? For a momne she looks around in panic. <br><br> What drives up? What made us cme to this empty place, these steel walls, to drive ourselves in to the airless belly of space? <br><br> But this is not a question she can ask of steel. ",//66
 
-"''I'll win Nii,'' she says to the Ship, to her unconscious lover, to the child in her. <br><br> And she bends, like a  mother, and murmurs into her lover's ear.",//67
+"''I'll win Nii,'' she says to the Ship, to her unconscious lover, to the child in her. <br><br> And she bends, like a  mother, and murmurs into her lover's ear.",//70
 
-// an end 
+// an end  last element in array
 
-// 19ch2 Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. 
+// 22 choice 2 Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. 
 //68
 "On one wall of the lifeship there is a control to bring her out of sleep. <br><br> The half-moon of ice melts slowly, rivulets flowing down in to the surface of the egg-ship. <br><br> The rich air becomes even richer, intoxicating, like the air of spring. it's too much for him, coming from Circe prison, and he steps back and lick his lips  nervously. He know it;s a trick, scents of grass and vegtables mingling with the smell of womansex, but it makes him want to rool with her in taht grass, he can smell the crished scent of it underneath their bodies. ",//68
 
@@ -160,7 +160,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "She begins to pick seeds from the shoulder of his suit. ''These will grow here. Give them to me''",
 
-// choice 1 Tam Rosse gives her the seeds 
+// 74 choice 1 Tam Rosse gives her the seeds 
 
 "He does not want to touch her. The woman is a black hole. A gravity well. He can feel himself falling into her. <br><br> He shrugs her hand away and brushes the seeds toward her, half giving them, half pushing her away. <br><br> '' Ah,'' he says. ''There's a  deserted station outside. It's derelict. My ship'd oxygen-producing  algae  are dead.  I need live algae.'' <br><br> I've got to stop breathing the same air with this woman <br><br> He fumbles for his siot's air supply and befins breathing through it. It's not exausted  yet.",
 
@@ -168,7 +168,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "She smiles and looks into  his eyes.<br><br> ''I can give you much more than that,'' she says, ''if you'll do hust a little thing for me.'' ",
 
-// choice 1 He says yes 
+// 77 choice 1 He says yes 
 
 "It's  as if she's done something, turned  up the power on his feeling. He wants her, he can't help  himself. <br><br> He can't stand it. <br><br> ''Yes!'' he babbles. ''You want me?  Sure! I'm a blasphemer! I don't even believe in you! Hate your  guts! The Emperor your father too-'' <br><br> He  clenches his teeth on the nouthpiece of his  air supply tube.  Wow. Rubber. Foul horrible ozone-tasting tank-smelling air. Close your eyes and think of the Uprising. <br><br> He propels himself down the corridor, away fromher  and the girl-laden air. But he looks over  his shoulder to make sure she is following.",
 
@@ -176,14 +176,13 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "The outside of the ship is scarred  from meteors and hard radiation.  ",
 
-//Tigerpuzzle 
-//Maintenance Panel 
+//80-81 Tigerpuzzle / Maintenance Panel 
 
 " The Priestess diddles with the lock, caressing it with  long  fingers. The pictures on the lock change. Tam looks, looks again, blinks, and feels  himself blushing. <br><br> ''Stop that!'' he mutters to her. <br><br> Think of the Uprising.<br><br>He feels an uncomfortable pressure on his skintite, between his legs. <br><br>Think of the ... <br>No. <br><br> The leaves of the  airlock iris slowly  open, creaking like a  frog prince  in a foul mood.",
 
-" ",//black 
+" ",//82black 
 
-"",// black with boxs
+"",// 83 black with boxs
 
 "Inside the airlock waits an old,old man. <br><br> The dirt on him would set records. Lice crawl in his matted gray hair(lice! Who let oose the genes for those?). He looks past them as if he is trying  to see  beyonf their sholders all the  way to  Terra. <br><br>  And then he  focusess on the Priestess.  His  eyes light up with a filthy gleam.",//
 
@@ -209,58 +208,58 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "''Attendant!'' <br><br> ''Wait a second,'' Tam says. ''Even I know you have to do Ceremony witha young man.'' Not that he wants to.<br><br> The Priestess smiles at him. ''But there is no young man, Tam Rosse. Will you prepare out banquet? The kitchen will show you how.'' The Priestess waves her hand like  a lady of   the Empire dismissing a servant.",
 
-"Brady smiles meanly at him.<br><br> He's going to deck the old leacher. He cocks his fist--",
+"Brady smiles meanly at him.<br><br> He's going to deck the old leacher. He cocks his fist--",//96
 
-"  ",//black screen
+"  ",//97 black screen
 
 "What happened? <br><br> everything went  darkand now they've gone. <br><br>  The candle blinks  back into life. The last of the wine is still in the cup. He can smell the stuff from here. Half Old Granddad and  half Spirits of Girl. <br><br> It literally smells like sex.<br><br> HE picks up the goblet. In the candle- dark it's hard to see. But the wine seems to be  refilling.",
 
 `The wine is rising in the cup, but at the same time swirling, drawing him down into it like a hand- sized maelstorom.<br><br><hr width="100%" color="white"><br><br> Somehow he knows this wine is  wrong. Counterrevolutionary. Evil. It he knows what's good for him he won't  touch it.  `,
 
-// choice 1 The Priestess would like him to drink it. He's not going to give her the satisfaction. No.
+// 99 choice 1 The Priestess would like him to drink it. He's not going to give her the satisfaction. No.
 
 "''Servant!'' Tam Rosse snorts. ''I'm not their servant. And I'm nto playing magic tricks with her.'' <br><br> There's got to be some way out of this place. <br><br> Tam starts banging on the walls. <br><br>Gently",
 
 "Nothing. <br><br> There are two lockers here- right behind this, looks like half a Sherman tank.  ",
 
-//choice 1 Door 1 
+//101 choice 1 Door 1 
 
-" Ugh. Feh. Close it quick <br><br> hehehehheh", // back to choices
+" Ugh. Feh. Close it quick <br><br> hehehehheh", // back to 101 choices
 
-//choice 2 Door 2
+//101 choice 2 Door 2
 
-"Brady keeps his old rigidsuit liners in here. <br><br> Hasn't the man ever heard of the concept' clean'? ", // back to choises
+"Brady keeps his old rigidsuit liners in here. <br><br> Hasn't the man ever heard of the concept' clean'? ", // back to 101 choises
 
-//Choice 3 next
+//101 Choice 3 next
 
-"Maybe the kitchen.. <br><br> ''Getting thirsty?'' the walls murmur. ",
+"Maybe the kitchen.. <br><br> ''Getting thirsty?'' the walls murmur. ",//104
 
 "An iris in the wall creaks open. Flickering streaks of red light point the way leftward down a corridor. <br><br> They spell out in small letters, ''This Way to the Kitchen!'' <br><br> With an exclamation Point, yet. <br><br> The corridor also leads off rightward.",
 
-// choice 1 Go left 
+// 105 choice 1 Go left 
 
 "Look, here's a handy Horizator. <br><br> The door  iris open.  Inside the  horizator it  is small, dark and crowded with  obscure  controls. The  floo is worn and the machine has the jaded air of an old taxi in a developing country. <br><br> There are two large buttons on the panel.  <br><br> Directions and Help <br><br> The horizator begins to hum. It  seen to  be  hummin the ''Internationale.''  ",
 
-// Button 1 Directions 
+// 106 Button 1 Directions 
 
-"Unionize! ", // back to buttons 
+"Unionize! ", // back to 106 buttons 
 
-// Button 2 Help 
+// 106 Button 2 Help 
 
-"Read Marx!<br><br> Read Lenin! <br><br> Recycle  the rich! <br><br>''Property is theft... intellecture property is intellectual theft.''", //back to buttons
+"Read Marx!<br><br> Read Lenin! <br><br> Recycle  the rich! <br><br>''Property is theft... intellecture property is intellectual theft.''", //back to 106 buttons
 
-// button 3 next 
+// 106 button 3 next 
 
-"Before Tam can rethink this trip, the door snicks efficiently shut. <br><br> ''Predictabliity is a capitalist tool! You just want to Get Somewhere... You just like to stare at the little numbers...'' <br><br>The horizator grinds dangerously. <br><br> ''Liberty, Equality, Machinery! Robots never, never, never shall be slaves!'' ",
+"Before Tam can rethink this trip, the door snicks efficiently shut. <br><br> ''Predictabliity is a capitalist tool! You just want to Get Somewhere... You just like to stare at the little numbers...'' <br><br>The horizator grinds dangerously. <br><br> ''Liberty, Equality, Machinery! Robots never, never, never shall be slaves!'' ",//109
 
-// horizator puzzle 
+// horizator puzzle between 109 and 110 
 
-" ",
+" ",//110
 
 
-// Choice 2 Go right 
+// 105 Choice 2 Go right 
 
-"A long, low, dark corridor stretches away into the distance.",
+"A long, low, dark corridor stretches away into the distance.",//
 
 // Choice 1 "Go back" -> this loops back to the main page of go left, right, or getting thirsty
 
@@ -283,20 +282,20 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 
 
-//choices 2 It doesn't matter, she's pledged to Brady anyway. Why not? 
+//99 choices 2 It doesn't matter, she's pledged to Brady anyway. Why not? 
 
 " ",
 
-// InterShip Communicatior 
+// 80-81 InterShip Communicatior 
 
 
 " ",
 
-// choice 2 He says no
+// 77 choice 2 He says no
 
 " ",
 
-// choice 2 Tam Rosse doesn't give her the seeds.
+// 74 choice 2 Tam Rosse doesn't give her the seeds.
 
 "She has the look of somebody who's not thinking about five sunseeds on his shoulder. <br> <br> He doesn't believe in her religion. The emperor is a Terran. The Emperor takes some dumb girl kid or some thirteen-year-old stud. Tells them they're incarnations, Daughters of the Emperor, Red Kings. Teaches them to worship Terra and the Emperor. Sends them out with a shipful of hallucinogens and sex manuals to spread the worship of Terra. <br> <br> Politics as pornography. People act as if their brains were between their legs. ",
 
@@ -308,10 +307,10 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // ^^^^ loop back to the tiger puzzle above after the option of saying yes to the seeds
 
-,// 19Ch 3 He has sexual power too; her powers depend on him. he can control  the situation. - rape 
+,// 19 Choice 3 He has sexual power too; her powers depend on him. he can control  the situation. - rape 
 
 
-// great ship 
+// 13 - great ship 
 
 "He looks toward the little moon for a moment. What good will it do him to go to the lifeship? <br> <br> There will be two people in it: a dark-skinned Priestess  and her lover, a Red King. Two self-deluded pretend-priests in the Terran bureaucracy. They’ll take one look at the blasphemer’s mark across his tattoo and  send him  back to Circe. <br> <br> He shudders. <br> <br> He was in the mines in Circe four years.  <br> <br> Maybe he’ll have better luck in the greatship. ", 
 
