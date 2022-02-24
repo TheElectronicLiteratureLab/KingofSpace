@@ -160,7 +160,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "She begins to pick seeds from the shoulder of his suit. ''These will grow here. Give them to me''",
 
-// choise 1 Tam Rosse gives her the seeds 
+// choice 1 Tam Rosse gives her the seeds 
 
 "He does not want to touch her. The woman is a black hole. A gravity well. He can feel himself falling into her. <br><br> He shrugs her hand away and brushes the seeds toward her, half giving them, half pushing her away. <br><br> '' Ah,'' he says. ''There's a  deserted station outside. It's derelict. My ship'd oxygen-producing  algae  are dead.  I need live algae.'' <br><br> I've got to stop breathing the same air with this woman <br><br> He fumbles for his siot's air supply and befins breathing through it. It's not exausted  yet.",
 
@@ -168,7 +168,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "She smiles and looks into  his eyes.<br><br> ''I can give you much more than that,'' she says, ''if you'll do hust a little thing for me.'' ",
 
-// choises 1 He says yes 
+// choice 1 He says yes 
 
 "It's  as if she's done something, turned  up the power on his feeling. He wants her, he can't help  himself. <br><br> He can't stand it. <br><br> ''Yes!'' he babbles. ''You want me?  Sure! I'm a blasphemer! I don't even believe in you! Hate your  guts! The Emperor your father too-'' <br><br> He  clenches his teeth on the nouthpiece of his  air supply tube.  Wow. Rubber. Foul horrible ozone-tasting tank-smelling air. Close your eyes and think of the Uprising. <br><br> He propels himself down the corridor, away fromher  and the girl-laden air. But he looks over  his shoulder to make sure she is following.",
 
@@ -189,7 +189,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "''Priestess'' says the old man, awed. <br><br> The priestess does something to the stars on her body. For a moment she glows like a sunlight. The old man blinks and smiles all over his dirty face. <br><br> ''My Priestess,'' he coos. <br><br> In the glare, Tam Rosse blinks and looks around the place where they're standing. Maybe one time it was a standared airlock/decontaminationroom. Not big-- freight goes in to the ship onthe  lower-G levels, Not  up here at 1.0-- but after the supply  ship  and  the lifeship, it looks like you could fit Saturn into it, rings and all.",//
 
-"And the place looks like a glactiv garage sale. An  old hardshell vacuum suit. with the front  smashed in, looks like it got hit with  a cannon. Laser sear marks  scar the walls. Laser practice, yes, right here in this airlock, just a wall away form the Big Zero. <br><br> There's personal- pos luggage piled up  i corners. Whoever  left, left  quick.<br><br> The decon equipment looks like the last person who used it was john  Glenn. <br><br> The Priestess switches herself back  to  normal. Tam sees little green dazzles.",
+"And the place looks like a glactic garage sale. An  old hardshell vacuum suit with the front smashed in, looks like it got hit with a cannon. Laser sear marks scar the walls. Laser practice, yes, right here in this airlock, just a wall away form the Big Zero. <br><br> There's personal-pod luggage piled up in corners. Whoever  left, left quick.<br><br> The decon equipment looks like the last person who used it was John Glenn. <br><br> The Priestess switches herself back to normal. Tam sees little green dazzles.",
 
 "The old man clears his throat. <br><br> ''You Favored   to her?'' the old man asks him. ''You her King?''<br><br> ''Of course not,''Tam says, a little nettled. He can feel himself blushing. The old man sounds so eager. <br><br> ''What? You woke her?'' the oldman asks increduolusly. ''And she's a virgin Priestess, and she didn't Favor you?''<br><br>''I  didn't favor her,'' Tam says firmly.<br><br> The  old man snickers.",
 
@@ -217,7 +217,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 `The wine is rising in the cup, but at the same time swirling, drawing him down into it like a hand- sized maelstorom.<br><br><hr width="100%" color="white"><br><br> Somehow he knows this wine is  wrong. Counterrevolutionary. Evil. It he knows what's good for him he won't  touch it.  `,
 
-// choises 1 The Priestess would like him to drink it. He's not going to give her the satisfaction. No.
+// choice 1 The Priestess would like him to drink it. He's not going to give her the satisfaction. No.
 
 "''Servant!'' Tam Rosse snorts. ''I'm not their servant. And I'm nto playing magic tricks with her.'' <br><br> There's got to be some way out of this place. <br><br> Tam starts banging on the walls. <br><br>Gently",
 
@@ -237,7 +237,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "An iris in the wall creaks open. Flickering streaks of red light point the way leftward down a corridor. <br><br> They spell out in small letters, ''This Way to the Kitchen!'' <br><br> With an exclamation Point, yet. <br><br> The corridor also leads off rightward.",
 
-// choise 1 Go left 
+// choice 1 Go left 
 
 "Look, here's a handy Horizator. <br><br> The door  iris open.  Inside the  horizator it  is small, dark and crowded with  obscure  controls. The  floo is worn and the machine has the jaded air of an old taxi in a developing country. <br><br> There are two large buttons on the panel.  <br><br> Directions and Help <br><br> The horizator begins to hum. It  seen to  be  hummin the ''Internationale.''  ",
 
@@ -258,14 +258,32 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 " ",
 
 
-// Choise 2 Go right 
+// Choice 2 Go right 
 
-" ",
+"A long, low, dark corridor stretches away into the distance.",
 
-//Choise 3 Getting thirsty? 
+// Choice 1 "Go back" -> this loops back to the main page of go left, right, or getting thirsty
+
+//Choice 3 Getting thirsty? 
+
+"The wine cup is right where he left it. <br.<br> ''Servant,'' he mutters. ''I'll show them.'' <br><br>Through the teeth and over the gums, hold your nose cause here it comes. . .",
+
+"WHAM!", // make this a 2D design?? 
+
+"Somebody's trying to get his attention. All Tam wants to do is snuggle up against the nice soft laser cannon. <br><br> But there's a sound like a re-entry vehicle throttling right beside his ear. The roar ricochets around Tam's skull, shredding neurons as it goes. <br><br> It's somebody. . . speaking. . .  Why would anybody want to say anything, when a man needs to sleep? <br><br> ''This is Lady Nii. . .Please proceed to the Ceremony'' <br><br> ''Oh, go away''",
+
+"Somebody sits crosslegged next to him. he groans and curls uptighter. <br><br> ''Look, Tam baby'' it's his old political advisor in the Cadre, John Goorey. Goorey is wearing the same loud, tasteless sweater. ''The first duty of a political man is to survive. Why don't you play along with the Priestess? She has agenda but she sympathizes. there are disaffected people inside the Empire, you know.'' <br><br> Tam Rosse sits upright. His skull comes completely loose, caroms around the airlock, strikes painfully against several large and heavy objects, and miraculously comes to rest balancing on top of his neck. Tam clutches the top of his head to keep it from getting away again. ''You're just an illusion,'' he informs Goorey. ''And what's more. You. Are. Drunk.'' <br><br> Goorey giggles and a star fluoresces briefly on his forehead before he disappears.",
+
+"The air shimmers. An old Japanese women stands in front og him. <br><br> She bows. <br><br> ''OK, who are you?'' <br><br> ''i am Nii, please. Spirit of the ship.'' Mournfully, the old women holds out the sleeve of her ragged and torn kimono. ''Very bad condition. Need much repair, wish to be useful. Wish to invite to great banquet, to good work for all Asteroids-'' <br><br> ''Get lost'' <br><br> The Priestess appears beside Nii. ''Very foolish stubborn man,'' Nii remarks to the Priestess, and they both grin and disappear.",
+
+"He curls up again, wondering what she has planned for him next. <br><br> This time it's the Priestess herself. She's wrapped a dark robe around her, some thin material. She sits down beside him in a rustle of darkness. ''I'll make a deal,'' she says. <br><br> He groans Even now he keeps thinking what she looks beneath that robe. <br><br> ''Do the favor that you've been asked. Go to the Ceremony and serve the banquet for the old man. In return, the ship will give you favor.'' <br.<br> ''What does that do for me?''",
+
+"''She'll give you whatever you want. Recycling algae. Supplies. She;s got a ship you can have, larger than the one you came with. <br><br> He squints. <br><br> ''That's all there is to it? Serving the banquet? And I can get supplies and a ship?'' <br><br> ''Just tell the horizator to take you to the Great Hall.'' <br><br> The Priestess disappears.",
 
 
-//choises 2 It doesn't matter, she's pledged ti Brady anyway. Why not? 
+
+
+//choices 2 It doesn't matter, she's pledged to Brady anyway. Why not? 
 
 " ",
 
@@ -274,13 +292,21 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 " ",
 
-// choise 2 He says  no
+// choice 2 He says no
 
 " ",
 
-// choise 2 Tam Rosse doesn't give her the seeds.
+// choice 2 Tam Rosse doesn't give her the seeds.
 
-"",
+"She has the look of somebody who's not thinking about five sunseeds on his shoulder. <br> <br> He doesn't believe in her religion. The emperor is a Terran. The Emperor takes some dumb girl kid or some thirteen-year-old stud. Tells them they're incarnations, Daughters of the Emperor, Red Kings. Teaches them to worship Terra and the Emperor. Sends them out with a shipful of hallucinogens and sex manuals to spread the worship of Terra. <br> <br> Politics as pornography. People act as if their brains were between their legs. ",
+
+"But still... <br> <br> Her eyes are beautiful. He looks down, away from them. Mistake her body is gorgeous. <br> <br>''Um,'' he says. ''There's a station outside. It's dead--derelict. My ship's oxygen production algae are dead. I need algae for both ships. . . This is really important. Can we talk about the, uh, seeds later?'' <br> <br> ''Of course,'' she says. She frowns. She opens her mouth, then closes it again. She touches her single earing, silver and shaped like the moon. She sighs. <br> <br> ''It'll wait''",
+
+"He propels himself down the pitted and murky port-corridor toward the greatship. He can see the white plume of air leaking from his suit. He slaps a seal-patch over it. <br> <br> The priestess needs no suit here. She is spacehabbed. <br> <br> Around the lock is a little delta of old water impurities. <br> <br> Great. Atmosphere leaks.",
+
+"The outside of the ship is scarred from meteors and hard radiation",
+
+// ^^^^ loop back to the tiger puzzle above after the option of saying yes to the seeds
 
 ,// 19Ch 3 He has sexual power too; her powers depend on him. he can control  the situation. - rape 
 
