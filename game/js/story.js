@@ -78,6 +78,12 @@ function onstart(){
 
 		//console.log ("made it to while loop");
 		switch(current){
+			//case 3: 
+					//library(15);
+					//setTimeout(()=>{library(16);}, 10000);
+					
+					//current ++;
+				//break;
 			case 8 : 
 				// print out array 
 				//window.alert('radar game');
@@ -168,13 +174,18 @@ function onstart(){
 				 current ++;
 
 				break;
+
+			case 110: 
+					window.alert('horizator');
+					//horizatorstart();	
+					current++;
 				
 			case 173:
 
 				//hide('choiceone');
 				//document.getElementById('choiseone').innerHTML = `Acnologments  `;
 
-				current = -1;// states story over. 
+				//current = -1;// states story over. 
 
 			default:
 				
