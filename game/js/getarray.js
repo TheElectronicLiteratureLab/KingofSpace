@@ -279,6 +279,62 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "''She'll give you whatever you want. Recycling algae. Supplies. She's got a ship you can have, larger than the one you came with. <br><br> He squints. <br><br> ''That's all there is to it? Serving the banquet? And I can get supplies and a ship?'' <br><br> ''Just tell the horizator to take you to the Great Hall.'' <br><br> The Priestess disappears.",
 
+// the line below has three buttons that need to jump to horizator, Directions, and Help
+
+"Look, here's a handy horizator(this is a button to horizator) <br><br> The door iris open. Inside the horizator it is small, dark and crowded with obscure controls. The floor is worn and the machine has the jaded air of an old taxi in a developing country. <br><br> There are two large buttons on the panel. <br><br> Directions Help (these are buttons as well) <br><br> The horizator begins to hum. It seems to be humming the ''Internationale''",
+
+"Before Tam can rethink this trip, the door snicks efficiently shut. <br><br> ''Predictability is a capitalist tool! You just want to get somewhere... You just like to stare at the little numbers...'' <br><br> The horizator grinds dangerously. <br><br> ''Liberty, Equality, Machinery! Robots never, never, never shall be slaves!''",
+
+"''You're drunk too,'' Tam realizes. ''You're completely shozzled. Intoxicated!'' <br><br> ''Rule Mechanica!'' the horizator hums, startled. <br><br> ''Opium is the religion of the masses!'' Tam hugs the horizator controls in a comradely fashion. ''Poverty is theft!'' he confides, sliding slowly down the control board. ''Take me to your leader,'' he orders the floor.",
+
+"Tam wakes up, remembering he has to get to the Great Hall. <br><br> The horizator is humming to itself, ''...oil and roses, oil and roooo-seees...'' <br><br> On the wall is displayed a control panel with some buttons. <br><br> Tam staggers to his feet. The control panel buttons dance a brief polka. ''One more effort, lest we become slaves!'' the horizator encourages,",
+
+"Tam sees seven buttons on the panel", // insert buttons to jump too locations 
+
+// choice program a Route 
+
+// Choice The Water Center
+
+"A short journey: the horizator engines hiss for less than a minute. When the doors open Tam is almost knocked down by the smells of rot and decay. <br><br> The Water Center looks like a collection of huge tanks, but the sunlights that should shine on it are barely visible. From the gloom comes dripping, a sound of feeble scratching. Something white and decayed floats on the surface of the biggest tank. <br><br> Tam Rosse gags and punches the ''Close Door'' button.",
+
+//Choice Drydock
+
+"The door iris open onto vast space. Tam Gulps dizzily, his eyes telling him he's falling. <br><br> This is a vast, dim, derelict chamber, half a klick across. It must have been used as a drydock. The ruins of a J7 yacht hang like a broken spiderweb between two dock-struts. <br><br> The chamber must be the inside of some comet or space debris. The thin air inside the chamber has the spiritless never-alive smell of cometary ice.",
+
+"''The air inside this chamber has not beem filtered recently. It may contain plague viruses, bacteria, or other mutant or unknown pathogens...'' the horizator drones with some satisfaction. <br><br> Tam has drifted out of reach of the horizator door. He grabs for the edge, but that only spins him further out of reach. <br><br> The horizator shoots an oxygen mask and a safety linr toward him. <br><br> Tam Rosse scrambles up the line and punches the ''Close Door'' button.",
+
+//Choice The Exercise Room
+
+"The horizator door screech open. <br><br> Tam Rosse falls to the floor of the horizator, feeling as if an elephant has sat on him. <br><br> ''Posted gravity of this area is 1.6 G,'' the horizator announces blandly. ''Until repairs are completed in this area, actual gravity may vary. Current gravity in this area is approximately 14.7 G, with some lightening forecast for later in the day. Temporary gravity warnings are in effect. Please consult your Gravity Forecast for more details. WOuld you like to go to another area?'' <br><br> ''Ung'' says Tam Rosse. <br><br> The horizator doors squel shut.",
+
+//Choice Central Storage
+
+"The hiss of the horizator engine rises to a wide scream, keens like a buzzsaw through Tam's aching head, then cuts off except for a tiny vibration in the hull. <br><br> The horizator walls go transparent. <br><br> He is floating in space. <br><br> Central Storage has no walls, it is open to a hard vacuum. The web of stars is blocked by immense darknesses, cargo pods that shut out all light, all sense of place. <br><br> Drifting, drelict pieces of cargo tick against the horizator walls.",
+
+"Something is making a scratching sound against the hull. <br><br> Something in the darkness.",
+
+"Tam fumbles for at the exterior light switch. <br><br>The cabin dims. The two cones of light cut through the darkness. <br><br> A tiny blind store-robot scuttles across the viewplate with a piece of space-junk in its claws. <br><br> ''Take me back,'' Tam says.",
+
+//Choice Central Control
+
+"The horizator passes close to the Central Control module. <br><br> It is a great dim bubble of silicon. Inside it a thousand small dark shapes scurry like ants in a glass anthill, doing whatever memory maintenance robots do, replacing memory tubes or feeding the crystals. Half the suncatchers are dead, the leaflike structures shriveked or broken. <br><br> The Lady Nii stands on the fragile surface of her brain, weightless in a vacuum, in a heavy kimono of fern-latterened suncatcher glass. <br><br> ''Recycle the rich!'' the horizator advises <br><br> ''Go to the Great Hall!'' the Nii says, quite audibly even through the vacuum.",
+
+//Choice The Great Hall
+
+"A moment of darknessm and Tam finds himself in the Great Hall. In the middle of it, standing face to face, are three people, two women and a man. <br><br> The first is the priestess. <br><br> The second looks like Tam. Is this an illusion, or Brady, or himself? <br><br> The third is a straight-backed old Japanese woman, dressed in a magnificient kimono dyed with flowers. Tam can see the steel robot faintly beneath the glow her clear skin and the pattern of her robe. <br><br> The old woman turns toward him. ''I am Nii''",
+
+"''You're an illusion,'' he says. <br><br> She smiles and bows, In the dyed flowers of her kimono hover hummingbirds sewn from golden thred, <br><br> The man who looks like tam is throwing his body from side to side in front of the Priestess, the Priestess turns her head to look at him. <br><br> ''What's he doing? Tam asks the Priestess. <br><br> ''He is dancing,'' Nii replies, ''An illusion of dancing. For the Emperor and Terra.'' <br><br> ''He shouldn't look like me. Give me back my body,'' Tam says to the Priestess. ",
+
+"''Which body do you want, old man, young man? When your life is the body that is yours? What part of it is yours, and not mine, or his, or hers?'' <br><br> Nii draws from her obi a simple dancing fan. She snaps it open and shows him both sides. One side is gilded, showing the sun, a hummingbird, a spray goldenrod. The other is silvered, showing the moon, a mirror, a trickle of water.",
+
+"She fans the silver side at him, and he is standing rotting trash, and old man, bent, cramped with pain, in a broken control room. <br><br> She fans the golden side at him, and he has his own body again, but he is dressed in red ceremony robes and standing in a vaulted rich place. A crowd of people press around him holding candles, and the walls are mirrored as far as he can see.",
+
+"''Illusions, Tam Rosse,'' the Nii murmurs. <br><br> The silver side fans at him. He is an old man wearing a glowing white skintite thick with insulation. A flag floats in the low gravity: the flag of the Free Asteroids. <br><br> ''Will the uprising succeed? Will we be free?'' <br><br> ''You scorn illusions,'' smiles the Nii, ''but you talk about freedom.'' <br><br> She fans him again. This time the fan is red. He is standing facing the Priestess, in brady's place. The Lady Nii stands beside them. King Brady is lying on the floor, and another Nii kneels beside him.",
+
+
+//Choice follow Brady and Aster
+
+
 
 
 
