@@ -2,26 +2,43 @@ let table1 = document.getElementById("table-1");
 let table2 = document.getElementById("table-2");
 let wrapper = document.getElementById("wrapper");
 let button1 = document.getElementById("table1-btn");
+let button2 = document.getElementById("table2-btn");
 
 /*counter to be used for switching to the larger table */
 let choiceCounter = 0;
 function addToCounter(){
     choiceCounter ++;
     console.log(choiceCounter)
+    if (choiceCounter == 3) {
+        document.getElementById("table1-btn").addEventListener("click", swapTables());
+    }
+}
+
+function swapTables(){
+    document.getElementById("table-1").style.display = "none";
+    document.getElementById("table-2").style.display = "revert";
+    document.getElementById("table2-btn").style.display = "revert";
+    document.getElementById("table1-btn").style.display = "none";
+    document.getElementById("wrapper").removeChild(document.getElementById("text-1"));
+    document.getElementById("wrapper").removeChild(document.getElementById("text-2"));
+    document.getElementById("wrapper").removeChild(document.getElementById("text-3"));
+    document.getElementById("wrapper").removeChild(document.getElementById("text-4"));
+    document.getElementById("wrapper").removeChild(document.getElementById("text-5"));
+    document.getElementById("wrapper").removeChild(document.getElementById("text-6"));
+    document.getElementById("wrapper").removeChild(document.getElementById("continue"));
 }
 
 /* This function retrieves the colors from the selected radio buttons. It them determines which randomly generated  paragraphs to display */
 function getText(){
     /*getting the value of each selected attribute in each column*/
     let hairColor = document.querySelector('input[name="hair"]:checked').value;
-        hairColor = `<span id="${hairColor}" style="color: ${hairColor}">` + hairColor + "</span>";
+        hairColor = `<span style="color: ${hairColor}">` + hairColor + "</span>";
     let eyeColor = document.querySelector('input[name="eyes"]:checked').value;
-        eyeColor = `<span id="${eyeColor}" style="color: ${eyeColor}">` + eyeColor + "</span>";
+        eyeColor = `<span style="color: ${eyeColor}">` + eyeColor + "</span>";
     let skinColor = document.querySelector('input[name="skin"]:checked').value;
-        skinColor = `<span id="${skinColor}" style="color: ${skinColor}">` + skinColor + "</span>";
+        skinColor = `<span style="color: ${skinColor}">` + skinColor + "</span>";
     let clothes = document.querySelector('input[name="clothes"]:checked').value;
-        clothes = `<span id="${clothes}" style="color: ${clothes}">` + clothes + "</span>";
-    console.log(hairColor);
+        clothes = `<span style="color: ${clothes}">` + clothes + "</span>";
     
     /*first group of text options*/
     let textOption1 = ["Out of the mirror drifts a woman with " + hairColor + " hair and " + eyeColor + " eyes.", " He does not know where she comes from, this woman with " + hairColor + " hair. ", "There is a tap on his shoulder. He turns to look in the radiant " + eyeColor + " eyes of a beautiful woman. ", "A woman walks slowly toward him. Her body is almost hidden by the wealth of her " + hairColor + " hair. ", "Suddenly in the many mirrors stir images of a superb woman with " + hairColor + " hair and " + eyeColor + " eyes. "];
@@ -51,11 +68,40 @@ function getText(){
     document.getElementById("wrapper").innerHTML += "<p id=\"text-5\">" + textOption5[randText2] + "</p>";
     document.getElementById("wrapper").innerHTML += "<p id=\"text-6\">" + textOption6 + "</p>";
 
-    /*create a button to go displayu the original choose lover table*/
+    /*create a button to go display the original choose lover table*/
     document.getElementById("wrapper").innerHTML += "<button id=\"continue\" onClick=\"changeDom()\">Continue</button>";
 
     document.getElementById("table-1").style.display = "none";
     document.getElementById("table1-btn").style.display = "none";
+}
+
+function getText2(){
+    /*getting the value of each selected attribute in each column*/
+    let hair = document.querySelector('input[name="hair"]:checked').value;
+        hairColor = `<span style="color: ${hair}">` + hair + "</span>";
+    let eye= document.querySelector('input[name="eyes"]:checked').value;
+        eyeColor = `<span style="color: ${eye}">` + eye + "</span>";
+    let skin = document.querySelector('input[name="skin"]:checked').value;
+        skinColor = `<span style="color: ${skin}">` + skin + "</span>";
+    let clothes = document.querySelector('input[name="clothes"]:checked').value;
+        clothesColor = `<span style="color: ${clothes}">` + clothes + "</span>";
+
+    console.log(hair, eye, skin, clothes);
+
+    /* All red or all red and golden skin */
+    let allRed = "A woman scorching as the sun walks towar him out of the mirror. Flames billow over her golden, red-flecked skin. \"Do you ask my love? Do you feel my anger?\" The mirrors blacken as she walks back into them. They clear slowly, but she is gone.";
+   
+    /* All blue or all blue with green skin or hair */
+    let allBlue = `Sad and sorrowing, Venus stands before him. Her ${skinColor} skin is pale and around them the mirrors are covered in blue-green algae. "See? The algae are dying. Have you seen a woman whose skin is ccovered with stars?" she sobs. "Where is my priestess?" Venus fades slowly but the blue-green stain persists, a shadow in the mirrors.`;
+
+    /* All green or all green with golden or silver skin */
+    let allGreen = `He is plunged in water. No woman here, only the great koi, the huge carp, scintillating in green water like ${skinColor} reflections of light. Their diaphanous fins swirl around him. A tiny green and golden dragon dances in the water, spreading its wings, curling into the 8-shape of infinity. <br> As he watches, the water turns clouded and foul. The fish swim jerkily, then drift to the bottom. As he takes a beath, the vision disappears.`;
+
+    /*all orange or orange and brown */
+    let allOrange = `Mars sucks the water from his nose and eyes, freezes and crack his skin. An old woman crosses the gritty orange sand toward him. her ${skinColor} breasts are ${skinColor} phantoms in the mirror, and a moment later, nothing at all. <br> "Oh,cruel! Cruel!" she murmurs, and nothing is lef of her but a last kiss and a ${skinColor} agony of desire. <br> "Remember me," she murmurs, and points at her own image in the phantom painting. A shimmer in the air, and she is gone.`;
+
+    let textOption6 = "He is in agony, but he cannot sleep or die or love.";
+
 }
 
 function changeDom(){
@@ -72,3 +118,6 @@ function changeDom(){
     document.getElementById("wrapper").removeChild(document.getElementById("text-6"));
     document.getElementById("wrapper").removeChild(document.getElementById("continue"));
 }
+
+
+/*adding this comment for testing github saves*/

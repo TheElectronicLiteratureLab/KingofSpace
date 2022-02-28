@@ -9,6 +9,7 @@ BODY {
       height: 120px;
       background-image: url(../img/tigerface.png); 
       cursor: pointer;
+      border: 1px solid white;
     }
     
     /* position on the image within each tile. Starts in the upper left corner as tile 1 and snakes down to finish with tile 16. This uses a single background image called in the .tiles class */
@@ -65,4 +66,5 @@ BODY {
       width: 120px;
       height: 120px;
       cursor: pointer;
+      border: 1px solid white;
     }
