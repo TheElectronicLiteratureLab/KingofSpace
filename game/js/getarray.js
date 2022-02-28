@@ -18,7 +18,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "His eyes blur as he tries to read nav charts. He is only twenty-tree but his hands shake as he keys in chart coordinates. <br> He remembers his dream and smiles mirthlessly. They burned his hand on Pallas, trying to make him give names of the others who were trying to breed Plague resistance. Some Priestess's slave-King burned the gene tattoo off his palm, skin, nerves  and all. He clenches and unclenches it, holding his anger in his bad hand. <br> There is no inhabited asteroid within a halfmonth, not even a miner's claim. And he has less that a shipday worth of air.", //7
 
-// Game here radar.... between 7 and 8 
+// Game here radar.... between 7 and 8
 
 "The radar beacon has locked on to something. <br> Barely visible, a shadow-shape blocks the stars. <br> Eternal Mother! - it's a ship. An old one, and huge. <br> It's the size of a Class A town, a great irregular cloud of modules and environments, furred with the junk of a thousand System journeys, revolving around itself in a vast complexity of orbits. At its edges he can see the stars though the cloud, but in its center the pods swarm so thickly that the ship looks like a single vast solid object. <br> And it is dark. No lights shine from it: no red warning lamps, no yellow haze of sunlights.",//8
 
@@ -26,7 +26,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 " Abandoned since the Plague struck. <br> Fifty years abandoned. <br> Yet this ship, Nii, may still have some life. Oxygen, algae… <br> Enough to live on. Enough to make a place with, in these dead asteroids. By the Emperor and his Mother, Tam could live… <br> And Tam's are supposed to be resistant to Plague. <br> How resistant?",//10
 
-//" ",//image of great ship or life  ship? animation 11
+//" ",//image of great ship or life  ship? animation 11 
  
 " What in the Lady's name is that? <br> It is an opal set in jet, a white smoothness, curved roundly like a woman. A lifeship. <br> Tam throws  back his head and laughs.<br> What a present from the Emperor-worshippers! Lifeship are full of genetic material. The little white moon can restock an entire planet. <br> It can restock a Greatship.",//11
 
@@ -152,69 +152,69 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // 22 choice 2 Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. 
 //68
-"On one wall of the lifeship there is a control to bring her out of sleep. <br><br> The half-moon of ice melts slowly, rivulets flowing down in to the surface of the egg-ship. <br><br> The rich air becomes even richer, intoxicating, like the air of spring. it's too much for him, coming from Circe prison, and he steps back and lick his lips  nervously. He know it;s a trick, scents of grass and vegtables mingling with the smell of womansex, but it makes him want to rool with her in taht grass, he can smell the crished scent of it underneath their bodies. ",//68
+"On one wall of the lifeship there is a control to bring her out of sleep. <br><br> The half-moon of ice melts slowly, rivulets flowing down in to the surface of the egg-ship. <br><br> The rich air becomes even richer, intoxicating, like the air of spring. It's too much for him, coming from Circe prison, and he steps back and lick his lips  nervously. He know it's a trick, scents of grass and vegtables mingling with the smell of woman sex, but it makes him want to rool with her in that grass, he can smell the crished scent of it underneath their bodies. ",//68
 
 "He want to worship her, to protect her. He want to give her his whole loyalty.<br> The feeling is as strong as a mell inside his head.<br><br> Wow.<br><br> What's happening? <br><br> Slowly the girl sits up. He tries not to look at the stars glowing on her bare skin.",//
 
-"She shakes the drops of jelly from her dusky skin. She looks him up and down; she is seeing his jumpsuit, the red of Circe prison. <br><br> ''Uh, I won't hurt you,'' he stammers. <br><br> He could no more  hut her than turn his dagger against himself. The stars glow on her glowing skin, he smells the fragrance of her body, fresh from the coldsleep, and he is overwhelmed by helpless tenderness, a violent sweet loyalty. He wants to fall down in front of her,  worship her body inch by inch, protect her, love her, live for her until he dies.<br><br> Whoa. Reset. These are NOT HIS FEELINGS. ",
+"She shakes the drops of jelly from her dusky skin. She looks him up down; she is seeing his jumpsuit, the red of Circe prison. <br><br> ''Uh, I won't hurt you,'' he stammers. <br><br> He could no more hut her than turn his dagger against himself. The stars glow on her glowing skin, he smells the fragrance of her body, fresh from the coldsleep, and he is overwhelmed by helpless tenderness, a violent sweet loyalty. He wants to fall down in front of her,  worship her body inch by inch, protect her, love her, live for her until he dies.<br><br> Whoa. Reset. These are NOT HIS FEELINGS. ",
 
 "She begins to pick seeds from the shoulder of his suit. ''These will grow here. Give them to me''",
 
 // 74 choice 1 Tam Rosse gives her the seeds 
 
-"He does not want to touch her. The woman is a black hole. A gravity well. He can feel himself falling into her. <br><br> He shrugs her hand away and brushes the seeds toward her, half giving them, half pushing her away. <br><br> '' Ah,'' he says. ''There's a  deserted station outside. It's derelict. My ship'd oxygen-producing  algae  are dead.  I need live algae.'' <br><br> I've got to stop breathing the same air with this woman <br><br> He fumbles for his siot's air supply and befins breathing through it. It's not exausted  yet.",
+"He does not want to touch her. The woman is a black hole. A gravity well. He can feel himself falling into her. <br><br> He shrugs her hand away and brushes the seeds toward her, half giving them, half pushing her away. <br><br> '' Ah,'' he says. ''There's a  deserted station outside. It's derelict. My ship'd oxygen-producing  algae  are dead.  I need live algae.'' <br><br> I've got to stop breathing the same air with this woman <br><br> He fumbles for his siot's air supply and begins breathing through it. It's not exausted  yet.",
 
-"She touches a small moon-shaped earring  in her  right ear. <br><br> ''I don't  hace my full powers yet,'' she says, ''but I  can do this much.'' <br><br> Suprising him, she runs her long fingers across the nerve scars  on his wrist. Deadend nerves tingle and flare back to life. <br><br> ''Ouch!'' <br><br> He looks in amazement at his palm. It's heald. The scar is pink.",
+"She touches a small moon-shaped earring in her right ear. <br><br> ''I don't have my full powers yet,'' she says, ''but I  can do this much.'' <br><br> Suprising him, she runs her long fingers across the nerve scars  on his wrist. Deadend nerves tingle and flare back to life. <br><br> ''Ouch!'' <br><br> He looks in amazement at his palm. It's healed. The scar is pink.",
 
 "She smiles and looks into  his eyes.<br><br> ''I can give you much more than that,'' she says, ''if you'll do hust a little thing for me.'' ",
 
 // 77 choice 1 He says yes 
 
-"It's  as if she's done something, turned  up the power on his feeling. He wants her, he can't help  himself. <br><br> He can't stand it. <br><br> ''Yes!'' he babbles. ''You want me?  Sure! I'm a blasphemer! I don't even believe in you! Hate your  guts! The Emperor your father too-'' <br><br> He  clenches his teeth on the nouthpiece of his  air supply tube.  Wow. Rubber. Foul horrible ozone-tasting tank-smelling air. Close your eyes and think of the Uprising. <br><br> He propels himself down the corridor, away fromher  and the girl-laden air. But he looks over  his shoulder to make sure she is following.",
+"It's  as if she's done something, turned up the power on his feeling. He wants her, he can't help himself. <br><br> He can't stand it. <br><br> ''Yes!'' he babbles. ''You want me?  Sure! I'm a blasphemer! I don't even believe in you! Hate your guts! The Emperor your father too-'' <br><br> He clenches his teeth on the nouthpiece of his  air supply tube.  Wow. Rubber. Foul horrible ozone-tasting tank-smelling air. Close your eyes and think of the Uprising. <br><br> He propels himself down the corridor, away fromher  and the girl-laden air. But he looks over his shoulder to make sure she is following.",
 
-"He propels himself down the pitted and murky prot-corridor towards the greatship. He can see the white  plume of  air  leaking from his suit. He slaps a  seal-patch over it. <br><br> The  priestess needs no sit here. She is spacehabbed. <br><br>  Around the lock is a little delta of old water impurities Great. Atmosphere leaks.",
+"He propels himself down the pitted and murky prot-corridor towards the greatship. He can see the white  plume of  air  leaking from his suit. He slaps a seal-patch over it. <br><br> The priestess needs no sit here. She is spacehabbed. <br><br>  Around the lock is a little delta of old water impurities Great. Atmosphere leaks.",
 
-"The outside of the ship is scarred  from meteors and hard radiation.  ",
+"The outside of the ship is scarred from meteors and hard radiation.  ",
 
 //80-81 Tigerpuzzle / Maintenance Panel 
 
-" The Priestess diddles with the lock, caressing it with  long  fingers. The pictures on the lock change. Tam looks, looks again, blinks, and feels  himself blushing. <br><br> ''Stop that!'' he mutters to her. <br><br> Think of the Uprising.<br><br>He feels an uncomfortable pressure on his skintite, between his legs. <br><br>Think of the ... <br>No. <br><br> The leaves of the  airlock iris slowly  open, creaking like a  frog prince  in a foul mood.",
+" The Priestess diddles with the lock, caressing it with long fingers. The pictures on the lock change. Tam looks, looks again, blinks, and feels  himself blushing. <br><br> ''Stop that!'' he mutters to her. <br><br> Think of the Uprising.<br><br>He feels an uncomfortable pressure on his skintite, between his legs. <br><br>Think of the ... <br>No. <br><br> The leaves of the airlock iris slowly open, creaking like a  frog prince  in a foul mood.",
 
 " ",//82black 
 
 "",// 83 black with boxs
 
-"Inside the airlock waits an old,old man. <br><br> The dirt on him would set records. Lice crawl in his matted gray hair(lice! Who let oose the genes for those?). He looks past them as if he is trying  to see  beyonf their sholders all the  way to  Terra. <br><br>  And then he  focusess on the Priestess.  His  eyes light up with a filthy gleam.",//
+"Inside the airlock waits an old, old man. <br><br> The dirt on him would set records. Lice crawl in his matted gray hair(lice! Who let oose the genes for those?). He looks past them as if he is trying  to see  beyonf their sholders all the  way to  Terra. <br><br>  And then he focuses on the Priestess.  His eyes light up with a filthy gleam.",//
 
-"''Priestess'' says the old man, awed. <br><br> The priestess does something to the stars on her body. For a moment she glows like a sunlight. The old man blinks and smiles all over his dirty face. <br><br> ''My Priestess,'' he coos. <br><br> In the glare, Tam Rosse blinks and looks around the place where they're standing. Maybe one time it was a standared airlock/decontaminationroom. Not big-- freight goes in to the ship onthe  lower-G levels, Not  up here at 1.0-- but after the supply  ship  and  the lifeship, it looks like you could fit Saturn into it, rings and all.",//
+"''Priestess'' says the old man, awed. <br><br> The priestess does something to the stars on her body. For a moment she glows like a sunlight. The old man blinks and smiles all over his dirty face. <br><br> ''My Priestess,'' he coos. <br><br> In the glare, Tam Rosse blinks and looks around the place where they're standing. Maybe one time it was a standared airlock/decontaminationroom. Not big-- freight goes in to the ship onthe lower-G levels, Not up here at 1.0-- but after the supply  ship  and  the lifeship, it looks like you could fit Saturn into it, rings and all.",//
 
-"And the place looks like a glactic garage sale. An  old hardshell vacuum suit with the front smashed in, looks like it got hit with a cannon. Laser sear marks scar the walls. Laser practice, yes, right here in this airlock, just a wall away form the Big Zero. <br><br> There's personal-pod luggage piled up in corners. Whoever  left, left quick.<br><br> The decon equipment looks like the last person who used it was John Glenn. <br><br> The Priestess switches herself back to normal. Tam sees little green dazzles.",
+"And the place looks like a glactic garage sale. An old hardshell vacuum suit with the front smashed in, looks like it got hit with a cannon. Laser sear marks scar the walls. Laser practice, yes, right here in this airlock, just a wall away form the Big Zero. <br><br> There's personal-pod luggage piled up in corners. Whoever  left, left quick.<br><br> The decon equipment looks like the last person who used it was John Glenn. <br><br> The Priestess switches herself back to normal. Tam sees little green dazzles.",
 
-"The old man clears his throat. <br><br> ''You Favored   to her?'' the old man asks him. ''You her King?''<br><br> ''Of course not,''Tam says, a little nettled. He can feel himself blushing. The old man sounds so eager. <br><br> ''What? You woke her?'' the oldman asks increduolusly. ''And she's a virgin Priestess, and she didn't Favor you?''<br><br>''I  didn't favor her,'' Tam says firmly.<br><br> The  old man snickers.",
+"The old man clears his throat. <br><br> ''You Favored to her?'' the old man asks him. ''You her King?''<br><br> ''Of course not,''Tam says, a little nettled. He can feel himself blushing. The old man sounds so eager. <br><br> ''What? You woke her?'' the old man asks increduolusly. ''And she's a virgin Priestess, and she didn't Favor you?''<br><br>''I  didn't favor her,'' Tam says firmly.<br><br> The  old man snickers.",
 
-"''Well, then, boy!'' Brady chuckles. ''You can  just get off this ship.''",
+"''Well, then, boy!'' Brady chuckles. ''You can just get off this ship.''",
 
-"Too late, Tam sees  what he should  have done.<br><br> Tam's trapped his head in a door iris, all right.  <br><br> Stuck his head right outside the airlock door to  see if it was cold.",
+"Too late, Tam sees what he should have done.<br><br> Tam's trapped his head in a door iris, all right.  <br><br> Stuck his head right outside the airlock door to  see if it was cold.",
 
-"''Priestess's  got Ship's Favor,'' the  old  man says.  ''She can stay here without paying because the ship thinks she's valuable.'' the old man snorts.''Ship's right, too. Ain't you, Nii?''<br><br> Tam hears something like a subvocal murmur: a woman's voice, agreeing.<br><br> ''And I'm King here,'' Brady says to Tam. ''That makes me valuable.'' <br><br> Tamnods. If he trusted the air lock walls he'd bang his  head against them. <br><br>''But you?'' ",
+"''Priestess's got Ship's Favor,'' the  old man says. ''She can stay here without paying because the ship thinks she's valuable.'' the old man snorts.''Ship's right, too. Ain't you, Nii?''<br><br> Tam hears something like a subvocal murmur: a woman's voice, agreeing.<br><br> ''And I'm King here,'' Brady says to Tam. ''That makes me valuable.'' <br><br> Tamnods. If he trusted the air lock walls he'd bang his head against them. <br><br>''But you?'' ",
 
-"''You're worthless, far as I can see. <br><br> ''You're breathin' my air. Cuttin'  my  oxygen supply. Usin' up  all kinds  of  stuff. Producin too much shit. <br><br> ''You can swear Favor to me. <br><br>''You can jump in the recycler. <br><br> ''Or you can leave.''",
+"''You're worthless, far as I can see. <br><br> ''You're breathin' my air. Cuttin' my oxygen supply. Usin' up all kinds of stuff. Producing too much shit. <br><br> ''You can swear favor to me. <br><br>''You can jump in the recycler. <br><br> ''Or you can leave.''",
 
 "There's no choice.<br><br> Tam Rosse sighs. <br><br> ''Old man, I ask a Favor from you.''", // favor button links to trades and favors. in library.
 
-"The old man is looking  for something. He straightens up, carefully holding something heavy by its stem. <br><br> ''Priestess. For you,'' the old man says. <br><br> The priestess looks into the cup. She smiles. Tam Rosse gets  all odd inside when she smiles.<br><br> But her smile is for the old man, the filthy old  man, Brady.",
+"The old man is looking for something. He straightens up, carefully holding something heavy by its stem. <br><br> ''Priestess. For you,'' the old man says. <br><br> The priestess looks into the cup. She smiles. Tam Rosse gets  all odd inside when she smiles.<br><br> But her smile is for the old man, the filthy old  man, Brady.",
 
-"The Priestess raises the  cup between her two hands. Studded with jewels,  the dark cup blends in to her dusky hands. Tam's heart melts. He  can feel it dripping away.<br><br> ''The Ceremony begins,'' she murmurs. ''I plege you King.'' She sips. <br><br> The old man drinks. ''I  pledge you, Mistress. Tour my ship wit me.'' <br><br>''First the tour,'' she agrees,''then the  banquet and dancing.''<br><br> The old man chuckles. ''Gotta get my attendants, Mistress. My Ceremony  clothes.'' <br><br> ''Of course.'' <br><br> ''Attendant!''",
+"The Priestess raises the cup between her two hands. Studded with jewels, the dark cup blends in to her dusky hands. Tam's heart melts. He can feel it dripping away.<br><br> ''The Ceremony begins,'' she murmurs. ''I plege you King.'' She sips. <br><br> The old man drinks. ''I  pledge you, Mistress. Tour my ship wit me.'' <br><br>''First the tour,'' she agrees,''then the  banquet and dancing.''<br><br> The old man chuckles. ''Gotta get my attendants, Mistress. My Ceremony  clothes.'' <br><br> ''Of course.'' <br><br> ''Attendant!''",
 
-"''Attendant!'' <br><br> ''Wait a second,'' Tam says. ''Even I know you have to do Ceremony witha young man.'' Not that he wants to.<br><br> The Priestess smiles at him. ''But there is no young man, Tam Rosse. Will you prepare out banquet? The kitchen will show you how.'' The Priestess waves her hand like  a lady of   the Empire dismissing a servant.",
+"''Attendant!'' <br><br> ''Wait a second,'' Tam says. ''Even I know you have to do Ceremony with a young man.'' Not that he wants to.<br><br> The Priestess smiles at him. ''But there is no young man, Tam Rosse. Will you prepare our banquet? The kitchen will show you how.'' The Priestess waves her hand like  a lady of the Empire dismissing a servant.",
 
 "Brady smiles meanly at him.<br><br> He's going to deck the old leacher. He cocks his fist--",//96
 
 "  ",//97 black screen
 
-"What happened? <br><br> everything went  darkand now they've gone. <br><br>  The candle blinks  back into life. The last of the wine is still in the cup. He can smell the stuff from here. Half Old Granddad and  half Spirits of Girl. <br><br> It literally smells like sex.<br><br> HE picks up the goblet. In the candle- dark it's hard to see. But the wine seems to be  refilling.",
+"What happened? <br><br> everything went dark and now they've gone. <br><br>  The candle blinks back into life. The last of the wine is still in the cup. He can smell the stuff from here. Half Old Granddad and  half Spirits of Girl. <br><br> It literally smells like sex.<br><br> He picks up the goblet. In the candle- dark it's hard to see. But the wine seems to be  refilling.",
 
-`The wine is rising in the cup, but at the same time swirling, drawing him down into it like a hand- sized maelstorom.<br><br><hr width="100%" color="white"><br><br> Somehow he knows this wine is  wrong. Counterrevolutionary. Evil. It he knows what's good for him he won't  touch it.  `,
+`The wine is rising in the cup, but at the same time swirling, drawing him down into it like a hand- sized maelstorom.<br><br><hr width="100%" color="white"><br><br> Somehow he knows this wine is wrong. Counterrevolutionary. Evil. It he knows what's good for him he won't  touch it.  `,
 
 // 99 choice 1 The Priestess would like him to drink it. He's not going to give her the satisfaction. No.
 
@@ -228,7 +228,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 //101 choice 2 Door 2
 
-"Brady keeps his old rigidsuit liners in here. <br><br> Hasn't the man ever heard of the concept' clean'? ", // back to 101 choises
+"Brady keeps his old rigid suit liners in here. <br><br> Hasn't the man ever heard of the concept' clean'? ", // back to 101 choices
 
 //101 Choice 3 next
 
@@ -238,7 +238,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // 105 choice 1 Go left 
 
-"Look, here's a handy Horizator. <br><br> The door  iris open.  Inside the  horizator it  is small, dark and crowded with  obscure  controls. The  floo is worn and the machine has the jaded air of an old taxi in a developing country. <br><br> There are two large buttons on the panel.  <br><br> Directions and Help <br><br> The horizator begins to hum. It  seen to  be  hummin the ''Internationale.''  ",
+"Look, here's a handy Horizator. <br><br> The door  iris open.  Inside the  horizator it  is small, dark and crowded with  obscure  controls. The floor is worn and the machine has the jaded air of an old taxi in a developing country. <br><br> There are two large buttons on the panel.  <br><br> Directions and Help <br><br> The horizator begins to hum. It seen to be humming the ''Internationale.''  ",
 
 // 106 Button 1 Directions 
 
@@ -246,11 +246,11 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // 106 Button 2 Help 
 
-"Read Marx!<br><br> Read Lenin! <br><br> Recycle  the rich! <br><br>''Property is theft... intellecture property is intellectual theft.''", //back to 106 buttons
+"Read Marx!<br><br> Read Lenin! <br><br> Recycle the rich! <br><br>''Property is theft... intellecture property is intellectual theft.''", //back to 106 buttons
 
 // 106 button 3 next 
 
-"Before Tam can rethink this trip, the door snicks efficiently shut. <br><br> ''Predictabliity is a capitalist tool! You just want to Get Somewhere... You just like to stare at the little numbers...'' <br><br>The horizator grinds dangerously. <br><br> ''Liberty, Equality, Machinery! Robots never, never, never shall be slaves!'' ",//109
+"Before Tam can rethink this trip, the door snicks efficiently shut. <br><br> ''Predictability is a capitalist tool! You just want to get somewhere... You just like to stare at the little numbers...'' <br><br>The horizator grinds dangerously. <br><br> ''Liberty, Equality, Machinery! Robots never, never, never shall be slaves!'' ",//109
 
 // horizator puzzle between 109 and 110 
 
@@ -331,11 +331,11 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "''Illusions, Tam Rosse,'' the Nii murmurs. <br><br> The silver side fans at him. He is an old man wearing a glowing white skintite thick with insulation. A flag floats in the low gravity: the flag of the Free Asteroids. <br><br> ''Will the uprising succeed? Will we be free?'' <br><br> ''You scorn illusions,'' smiles the Nii, ''but you talk about freedom.'' <br><br> She fans him again. This time the fan is red. He is standing facing the Priestess, in brady's place. The Lady Nii stands beside them. King Brady is lying on the floor, and another Nii kneels beside him.",
 
+"''No more illusions!'' Tam Rosse says. <br><br> The fan is black, like the broken pods in Central Storage. It is dum and dusty like drydock. The old man twitches on pain on the floor. The Priestess stands by him, young and pale, not with her powers and never to get them, and beside her stands a dented guard-robot holding a piece of broken metal in the shape of a fan. <br><br> The old lady Nii holds out her left hand, palm up. Her palm is broad, small, creased with many lines. On it is a single winged seed. The seed is an obvious illusion. Its edges shimmer faintly as if it is not quite in synch with the illusion of the Nii. <br><br> She shakes her left hand in the air and the seed slies, many seeds fly through the air, glowing. ",
+
+"''There is nothing on the Nii but space and death,'' says the Lady Nii. <br><br> ''Everything else is illusion, and therefore possible, Even freedom''", // animation 
 
 //Choice follow Brady and Aster
-
-
-
 
 
 //99 choices 2 It doesn't matter, she's pledged to Brady anyway. Why not? 
@@ -382,7 +382,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // choice go back to the life ship  
 
-" Tam Rosse staggers  down  the ship corridor toward  the lifeship, but  he is already  so cold that his legs won’t hold  him.",//(blocks around the edges) 
+" Tam Rosse staggers down the ship corridor toward the lifeship, but  he is already so cold that his legs won’t hold him.",//(blocks around the edges) 
 
 // go back to previous page with  choice. 1 backwards  
 
@@ -598,7 +598,5 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 
 
-document.getElementById('playboxmain').innerHTML = `  ${story[current]} `;
+document.getElementById('playboxmain').innerHTML = `  ${story[current]} `
 }
-
-/*ADDING FOR TESTING PURPOSES - Cullen*/
