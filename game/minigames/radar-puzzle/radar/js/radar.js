@@ -6,8 +6,8 @@
 
 
 	//let wrapper = document.getElementById('wrapper');
-	let box = document.getElementById('main');
-		box.style.backgroundImage =  "url(img/radar1.jpg)";
+	let box = document.getElementById('puzzle');
+		box.style.backgroundImage =  "url(./img/radar1.jpg)";
 	
 	let S1 = document.getElementById('switchone');
 	S1.style.backgroundImage =  "url(img/switch1.jpg)";
@@ -54,8 +54,9 @@
 
 	//need to add print array for the readout 
 
-	function hide() {
-	  var x = document.getElementById("main");
+	function hide(button) {
+		var temp = button;
+	  var x = document.getElementById(temp);
 	  if (x.style.display === "none") {
 	    x.style.display = "block";
 	  } else {
@@ -65,7 +66,8 @@
 
 
 function radarstart(){
-	hide();
+	hide('radar-puzzle');
+		hide('Next');
 }
 
 
@@ -163,13 +165,13 @@ if (temp === 'switchsix'){
 	if (temp === 'buttonone'){
 		if( Bone === true){
 			Bone = false;
-			document.getElementById('playbox').innerHTML = `  ${Bone} `;
+			//document.getElementById('playbox').innerHTML = ` `;
 			B1.style.backgroundImage =  "url(img/lightradar.jpg)";
 
 		}
 		else{
 			Bone = true;
-			//document.getElementById('playbox').innerHTML = ` switchone is true`;
+			document.getElementById('playbox').innerHTML = `ignition!`;
 			B1.style.backgroundImage =  "url(img/lightradaron.jpg)";
 	}
 	}
@@ -195,7 +197,7 @@ if (temp === 'switchsix'){
 		}
 		else{
 			Bthree = true;
-			//document.getElementById('playbox').innerHTML = ` switchone is true`;
+			document.getElementById('playbox').innerHTML = `laser inoperative `;
 			B3.style.backgroundImage =  "url(img/lightradaron.jpg)";
 	}
 	}
@@ -208,7 +210,7 @@ if (temp === 'switchsix'){
 		}
 		else{
 			Bfour = true;
-			//document.getElementById('playbox').innerHTML = ` switchone is true`;
+			document.getElementById('playbox').innerHTML = ` beam inoperative`;
 			B4.style.backgroundImage =  "url(img/lightradaron.jpg)";
 	}
 	}
@@ -221,16 +223,20 @@ if (temp === 'switchsix'){
 		}
 		else{
 			Bfive = true;
-			//document.getElementById('playbox').innerHTML = ` switchone is true`;
+			document.getElementById('playbox').innerHTML = ` not docked`;
 			B5.style.backgroundImage =  "url(img/lightradaron.jpg)";
 	}
 	}
+
+	if(Sone === false && Btwo === true){
+		document.getElementById('playbox').innerHTML = ` engine inoperative`;
+	}
 	if (Sone === true && Stwo === true && Sthree === true && Sfour === true && Sfive === true && Ssix === true && Btwo === true){
 		
-		document.getElementById('completted').innerHTML = ` congrats you compleete the puzzle`;
-		
+		//document.getElementById('completted').innerHTML = ` congrats you compleete the puzzle`;
+		document.getElementById('playbox').innerHTML = ` locked on to beacon`;
 
-		hide();
+		hide('Next');
 
 		
 		//return current = 8;
