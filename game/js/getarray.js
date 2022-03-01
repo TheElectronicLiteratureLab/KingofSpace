@@ -388,7 +388,29 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // ^^^^ loop back to the tiger puzzle above after the option of saying yes to the seeds
 
-,// 19 Choice 3 He has sexual power too; her powers depend on him. he can control  the situation. - rape 
+// 19 Choice 3 He has sexual power too; her powers depend on him. he can control  the situation. - rape Are we taking this out??????? 
+
+"He's heard in prison that the earring is the key. <br><br> There is no mystery about the Priestesses. They're arco-engineers. They're zapped full of nanocomputers that do all the work while they play Sex Goddess of the Universe. Removing the earring kickes in their programming. The rest is smoke and mirrors. <br.<br> And bodies. <br><br> ''Fuck the Emperor,'' he mutters.",
+
+"He touches his red prison suit and it opens down to his groin. The ''ice'' is not ice, but it is cold, jellylike on his bare skin. Her body slips greasily under his, He holds her down on the slab, rough, his left arm with its half-useless hand pinning her across her shoulder blades, He needs more hands than he has. For four year he has though of the first woman he would have after prison. A Pallas womam, perfumed in a thousand places. This girl is cold and unlubricated, like an iced rubber glove. <br><br> With the icy cold white light and the ice jelly, it's like making love to the dead in a morgue.",
+
+"He rides his brutality, he pushes against it like G-force. He feels power like the prison trusties on Circe must have felt toward him. <br><br> He sees a silver of her eyeballs under her partly closed eyelids. She is waking up. Suddenly he is uncontrollable, shuddering, coming in a spasm of revenge. <br><br> He rips her virgin's earing and throws it onto the floor. A globe of blood swells in the ice near her ear, then spreads.",
+
+"No more virgin Priestess. And she hasn't turned him into her slave. <br><br> The ship's heat cricuits out in as he fastens his jumpsuit. He begins to sweat, smelling his bodystink over the cool neutral air of the lifeship. The half-moon of the ice dissolves, rivulets flowing down into the surface if the egg-ship. Her blood flows with it, down in a watery delta. The lifeship will use it. <br><br> The girl opens her eyes and reaches up her hand to her bloodied ear.",
+
+"She looks up at him, her eyes ageless and unfathomable. ''You did the Ceremony,'' she says. He nods. He has power over her. he feels it in what his body has done to hers. <br>,br> ''Now I have my powers,'' she murmurs. <br><br> Not over me, Tam thinks. ''I did you a favor. I woke you up. Now I need your help to get the ship going,'' he says. <br><br> She looks him deep in the eyes. The blood is still flowing from her ear. She pinches the lobe between two fingers and the blood stops. <br><br> ''Oh, yes,'' she says, ''I can heal the Lady Nii.'' He puts his hand on her arm but she draws back, following him without touching him.",
+
+"He goes first, propelling himself down the pitted and murky port corridor toward the greatship. He can see the white plume of air leaking from his suit. He slaps a seal-patch pver it. <br><br> The priestess needs no suit here. She is spacehabbed. <br><br. He has only a dagger, a prison weapon, made from the Circean mineral called heartsblood, chipped and edged in the long nights in the mines. The thongs that wrap the handle are a man's skin. <br><br> Around the lock there are only the fossilized pale marks of water impurities; it has been so long since the lock was opened that no ice crystals blur its metal leaves.",
+
+"The outside of the ship is scarred from meteors and hard radiation",
+
+// insert tiger puzzle maintenance panel
+
+"The Priestess steps up to the picturelock. Her fingers work by themselves, and through the metal of the ship Tam feels a vibration. <br><br> The leaves of the airlock iris slowly open, as if they are doing something unnatural, moving against the flow of time.",
+
+// black screen
+
+// add the rest off lifeship option three here 
 
 
 // 13 - great ship 
@@ -474,7 +496,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // 3 choices - 1. “I could give the  Priestess her  powers.  The  way I figure it, out  best chance  is to  reprogram the  Nii.”,
 
-" ",
+"Sure, their best chance is to reprogram the Nii. But it means total surrender to an Emperor's Daughter. <br><br> Not Tam Rosse. <br><br> Not yet. ",
 
 // 2. “ I’m not cooperating with the Priestess. But there may be weapons somewhere aboard,  or a ship I can use  to escape.”,
 
@@ -512,7 +534,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // choices - go back to the Nii
 
-"  " ,
+"No, that won't work now. brady wants him dead and the Lady nii will be glad to help. <br><br> First see whether there's any canned air... " ,
 
 // or look for auxiliary air tanks, going further into the troop carrier.
 
