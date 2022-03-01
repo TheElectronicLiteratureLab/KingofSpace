@@ -335,6 +335,24 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "''There is nothing on the Nii but space and death,'' says the Lady Nii. <br><br> ''Everything else is illusion, and therefore possible, Even freedom''", // animation 
 
+//page is continued from path ^ but gives a choice
+"One seed drifts down and lights on Tam Rosse's scarred, healed palm. He feels the scratchy no-weight of its wings."; // choice he takes it or doesn't take it 
+
+// choice he takes it
+"The lovers are gone and the Lady Nii's Captain is sleeping. The sunlights have faded into moonlights. Lady Nii does what she has never done before, create an illusion with no human watching. She kneels on a cushion. She conjures a koto out of the air and plucks its long strings. <br><br> She sings to herself. <br><br> Everything is illusion. The ship Nii is illusion. The emperor is illusion and his consort Terra, the Earth. <br><br> The Empire is illusion, and the uprising against the Emprire. <br><br> Priestess and Red Kings are illusion, and so are Captains. And so are ships and fans flying seeds.";
+
+"In his sleep, King Brady snorts and pushes his blanket away from him. <br><br> The Lady Nii smiles, conjures her koto away, and bends down to tuck him in. <br><br>Aboard the Lady Nii, the lovers have joined themselves together. The Priestess's silver seeds are spreading throughout the ship. The Lady Nii feels like stirring underneath her skin. Life and death, the web of illusion. <br><br> God was lonely, so she created from her body Adam and Eve, who were illusions. Then no one was illusion. <br><br> One alone is always illusion. Two become truth. <br><br> The Ceremony is completed."; // a end button
+
+"An End <br><br> Not The End. Not one end, inevitable, inexorable, inflexible, but many ends. <br><br> Today, tomorrow, forever. <br><br> Remember the old man and his machines. The women of Pallas, soft and warm. The little black flies. Remember revolution. <br><br> Next time you read this tale, the end will be different. To change is to be human. Only the Nii will be the same.", // add a restart button
+
+// choice he doesn't take it 
+"He brushes it aside and looks at his palm. A young man's palm. Then he looks at the Priestess. <br><bbr> ''Look,'' says Tam Rosse. ''You've pushed me around with illusions. I don't know whether you healed my hand or not, or how many people are really on this ship or what it looks like. But I have a dream, and this it it: <br><br> ''There's a ship here, something I can take on a long trip. Maybe that yacht in drydock. It'll take me some time to fix it up. We'll get to know each other. You'll tell me about being a goddess. I'll tell you about politics. Then my ship'll be fixed. And you'll let me go, and I'll go back to fighting the Emperor.'' He hesitates, ''And if I can do for you-- what you need done -- The Nii could use you. But I won't be your Red King.''",
+
+"''Promised.'' The Priestess sighs a long, very human sigh. ''I must be careful to let you go. Gods take what they need, Tam Rosse. And you are handsome. But--'' <br><br> ''Maybe someday I'll come back. If the politics go right'' <br><br> She smiles and shakes her head. Her foot knocks against something on the floor. <br><br> ''Want a sandwhich?'' he asks her. <br><br> They have a picnic on the floor, eating and laughing; and the silver gene-seeds hover around them, a memory of Ceremony, put off for the moment, but not banished.", // a end button
+
+"An End <br><br> Not The End. Not one end, inevitable, inexorable, inflexible, but many ends. <br><br> Today, tomorrow, forever. <br><br> Remember the old man and his machines. The women of Pallas, soft and warm. The little black flies. Remember revolution. <br><br> Next time you read this tale, the end will be different. To change is to be human. Only the Nii will be the same.", // add a restart button
+
+
 //Choice follow Brady and Aster
 
 
