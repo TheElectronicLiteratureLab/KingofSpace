@@ -214,13 +214,19 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "What happened? <br><br> everything went dark and now they've gone. <br><br>  The candle blinks back into life. The last of the wine is still in the cup. He can smell the stuff from here. Half Old Granddad and  half Spirits of Girl. <br><br> It literally smells like sex.<br><br> He picks up the goblet. In the candle- dark it's hard to see. But the wine seems to be  refilling.",
 
-`The wine is rising in the cup, but at the same time swirling, drawing him down into it like a hand- sized maelstorom.<br><br><hr width="100%" color="white"><br><br> Somehow he knows this wine is wrong. Counterrevolutionary. Evil. It he knows what's good for him he won't  touch it.  `,
+`The wine is rising in the cup, but at the same time swirling, drawing him down into it like a hand- sized maelstorom.<br><br><hr width="100%" color="white"><br><br> Somehow he knows this wine is wrong. Counterrevolutionary. Evil. It he knows what's good for him he won't  touch it.  `, // choice no or why not instert buttons
 
 // 99 choice 1 The Priestess would like him to drink it. He's not going to give her the satisfaction. No.
 
 "''Servant!'' Tam Rosse snorts. ''I'm not their servant. And I'm nto playing magic tricks with her.'' <br><br> There's got to be some way out of this place. <br><br> Tam starts banging on the walls. <br><br>Gently",
 
 "Nothing. <br><br> There are two lockers here- right behind this, looks like half a Sherman tank.  ",
+
+// choice 2 "why not"
+"It doesn't matter, she's pledged to Brady anyway. Why Not?", // why not is a button
+
+"The wine cup is right where he left it. <br><br> ''Servant,'' he mutters, ''I'll show them.'' <br><br> Through the teeth and over the gums, hold your nose cause here it comes...", // after this page direct to the "WHAM" page
+
 
 //101 choice 1 Door 1 
 
@@ -336,7 +342,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 "''There is nothing on the Nii but space and death,'' says the Lady Nii. <br><br> ''Everything else is illusion, and therefore possible, Even freedom''", // animation 
 
 //page is continued from path ^ but gives a choice
-"One seed drifts down and lights on Tam Rosse's scarred, healed palm. He feels the scratchy no-weight of its wings."; // choice he takes it or doesn't take it 
+"One seed drifts down and lights on Tam Rosse's scarred, healed palm. He feels the scratchy no-weight of its wings.", // choice he takes it or doesn't take it 
 
 // choice he takes it
 "The lovers are gone and the Lady Nii's Captain is sleeping. The sunlights have faded into moonlights. Lady Nii does what she has never done before, create an illusion with no human watching. She kneels on a cushion. She conjures a koto out of the air and plucks its long strings. <br><br> She sings to herself. <br><br> Everything is illusion. The ship Nii is illusion. The emperor is illusion and his consort Terra, the Earth. <br><br> The Empire is illusion, and the uprising against the Emprire. <br><br> Priestess and Red Kings are illusion, and so are Captains. And so are ships and fans flying seeds.";
@@ -354,6 +360,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 
 //Choice follow Brady and Aster
+
 
 
 //99 choices 2 It doesn't matter, she's pledged to Brady anyway. Why not? 
