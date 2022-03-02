@@ -20,6 +20,8 @@ function onstart(){
  // hide('tiger-puzzle');
   	hide('choiseone');
 	hide('choisetwo');
+	hide('choisethree');
+
 	hide('Next');
 	
 
@@ -59,19 +61,19 @@ function onstart(){
  function story(button) {
 	
 	var temp = button;
-	console.log(temp);
+	//console.log(temp);
 	
 	getstory(current);
 
 	
-
+	var x = document.getElementById('mainstory');
 
 
 
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
-	if(temp === 'next' || temp === 'one' || temp === 'two'  ){
-		console.log('im here in next')
+	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'three' ){
+		//console.log('im here in next')
 		
 	
 		
@@ -87,7 +89,7 @@ function onstart(){
 			case 8 : 
 				// print out array 
 				//window.alert('radar game');
-				if(confirm("do you want to play a mini game?")){
+				if(confirm("do you want to play a mini game? radar game")){
 					//radarstart()
 					txt = "You  pressed Ok!";
 				}
@@ -99,6 +101,12 @@ function onstart(){
 				//console.log ("case  8");
 				 current ++;
 				break; 
+			case 9:
+				// x.style.backgroundImage= "url(img/TamencountersAster.png)" ;
+				// or jump to black and back 
+				current++
+
+				break;	
 
 			case 11:
 				//play animation of great ship or life ship...?
@@ -133,7 +141,17 @@ function onstart(){
 
 				}
 				 break;
-			case 19:
+			case 14:
+						x.style.backgroundImage= "url(img/TamencountersAster.png)" ;
+						
+						current++;
+					break;
+			case 15:
+				x.style.backgroundImage = "url(img/black.png)";
+				current++;
+					break;
+
+			case 20:
 				// unhide choise buttons 
 				// hide next 
 				hide('Next');
@@ -146,7 +164,7 @@ function onstart(){
 
 					
 
-					current = 20;// Life ship
+					current = 21;// Life ship
 					// print out array
 					getstory(current);
 
@@ -154,28 +172,175 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 68 ; // Great ship 
+					current = 69 ; // Great ship 
 					// print out array
 					getstory(current);
 
 				}
 				 break;
 
-			case 67: 
-				current = 173;//an end 
+			case 68: 
+				current = 373;//an end 
 
 				break;
 
-			case 85:  
-				window.alert('tiger game');
+			case 72:	
+			// unhide choise buttons 
+				// hide next 
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				document.getElementById('choiseone').innerHTML = `Tam Rosse gives her the seeds`;
+				document.getElementById('choisetwo').innerHTML = ` Tam Rosse doesn't give her the seeds`;
+
+				if(temp === 'one'){
+					current = 73;// Life ship
+					// print out array
+					getstory(current);
+
+				}
+				else if(temp === 'two'){
+					
+
+					current = 300 ; // Great ship 
+					// print out array
+					getstory(current);
+				}
+				 break;
+
+			case 75:	
+			// unhide choise buttons 
+				// hide next 
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				document.getElementById('choiseone').innerHTML = `He says yes `;
+				document.getElementById('choisetwo').innerHTML = ` He says no `;
+
+				if(temp === 'one'){
+					current = 76;// Life ship
+					// print out array
+					getstory(current);
+
+				}
+				else if(temp === 'two'){
+					
+
+					current = 300 ; // Great ship 
+					// print out array
+					getstory(current);
+				}
+				 break;
+
+
+
+			case 79:  
+				//window.alert('tiger game');
+				if(confirm("do you want to play a mini game? tiger game")){
+					//radarstart()
+					txt = "You  pressed Ok!";
+				}
+				else{
+					txt = "You pressed Cancel!";
+				}
 				//tigarstart();
 				// pop up option for mini game 
-				console.log ("case  15");
+				//console.log ("case  15");
 				 current ++;
 
 				break;
 
-			case 110: 
+
+			case 90:
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				document.getElementById('choiseone').innerHTML = `next `;
+				document.getElementById('choisetwo').innerHTML = ` Favor `;
+
+				if(temp === 'one'){
+					current ++;
+					// print out array
+					getstory(current);
+
+				}
+				else if(temp === 'two'){
+					
+					library(14);
+
+					current ++; // Great ship 
+					// print out array
+					//getstory(current);
+				}
+				 break;
+
+				 case 97:	
+			// unhide choise buttons 
+				// hide next 
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				document.getElementById('choiseone').innerHTML = `The Priestess would like him to drink it. He's not going to give her the satisfaction. No.`;
+				document.getElementById('choisetwo').innerHTML = ` It doesn't matter, she's pledged to Brady anyway. Why Not? `;
+
+				if(temp === 'one'){
+					current = 98;// no
+					// print out array
+					getstory(current);
+
+				}
+				else if(temp === 'two'){
+					
+
+					current = 300 ; // why not 
+					// print out array
+					getstory(current);
+				}
+				 break;
+
+				 
+
+				 case 99:	
+			// unhide choise buttons 
+				
+				hide('next');
+				hide('choiseone');
+				hide('choisetwo');
+				hide('choisethree');
+				document.getElementById('choiseone').innerHTML = `Door one `;
+				document.getElementById('choisetwo').innerHTML = ` Door two `;
+				document.getElementById('choisethree').innerHTML = ` Next `;
+				if(temp === 'one'){
+					current = 100;// 
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'two'){
+					
+
+					current = 101 ; // 
+					// print out array
+					getstory(current);
+				}
+				else if (temp  === 'three'){
+					current = 102;
+					getstory(current);
+				}
+
+				 break;
+
+			case 100:
+
+				current = 99;
+				break;
+
+			case 101:
+
+				current = 99;
+				break;
+
+			case 301: 
 					window.alert('horizator');
 					//horizatorstart();	
 					current++;

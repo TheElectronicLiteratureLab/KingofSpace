@@ -236,7 +236,7 @@ if (temp === 'switchsix'){
 		//document.getElementById('completted').innerHTML = ` congrats you compleete the puzzle`;
 		document.getElementById('playbox').innerHTML = ` locked on to beacon`;
 
-		hide('Next');
+		setTimeout(()=>{hide('radar-puzzle');}, 5000);
 
 		
 		//return current = 8;
