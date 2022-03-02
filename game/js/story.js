@@ -21,6 +21,7 @@ function onstart(){
   	hide('choiseone');
 	hide('choisetwo');
 	hide('choisethree');
+	hide('choisefour');
 
 	hide('Next');
 	
@@ -72,7 +73,7 @@ function onstart(){
 
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
-	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'three' ){
+	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'three'|| temp === 'four' ){
 		//console.log('im here in next')
 		
 	
@@ -101,19 +102,13 @@ function onstart(){
 				//console.log ("case  8");
 				 current ++;
 				break; 
-			case 9:
-				// x.style.backgroundImage= "url(img/TamencountersAster.png)" ;
-				// or jump to black and back 
-				current++
-
-				break;	
 
 			case 11:
 				//play animation of great ship or life ship...?
 				current++;
 				break;
 
-			case 12:
+			case 13:
 				// unhide choise buttons 
 				// hide next 
 				hide('Next');
@@ -127,7 +122,7 @@ function onstart(){
 
 					
 
-					current = 13;// Life ship
+					current = 14;// Life ship
 					// print out array
 					getstory(current);
 
@@ -135,23 +130,23 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 82 ; // Great ship 
+					current = 83 ; // Great ship 
 					// print out array
 					getstory(current);
 
 				}
 				 break;
-			case 14:
+			case 15:
 						x.style.backgroundImage= "url(img/TamencountersAster.png)" ;
 						
 						current++;
 					break;
-			case 15:
+			case 16:
 				x.style.backgroundImage = "url(img/black.png)";
 				current++;
 					break;
 
-			case 20:
+			case 21:
 				// unhide choise buttons 
 				// hide next 
 				hide('Next');
@@ -164,7 +159,7 @@ function onstart(){
 
 					
 
-					current = 21;// Life ship
+					current = 22;// forgets memory 
 					// print out array
 					getstory(current);
 
@@ -172,19 +167,19 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 69 ; // Great ship 
+					current = 70 ; // wake her up with controles  
 					// print out array
 					getstory(current);
 
 				}
 				 break;
 
-			case 68: 
+			case 69: 
 				current = 373;//an end 
 
 				break;
 
-			case 72:	
+			case 73:	
 			// unhide choise buttons 
 				// hide next 
 				hide('Next');
@@ -194,7 +189,7 @@ function onstart(){
 				document.getElementById('choisetwo').innerHTML = ` Tam Rosse doesn't give her the seeds`;
 
 				if(temp === 'one'){
-					current = 73;// Life ship
+					current = 74;// give seeds
 					// print out array
 					getstory(current);
 
@@ -202,13 +197,13 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 300 ; // Great ship 
+					current = 300 ; // not give seeds 
 					// print out array
 					getstory(current);
 				}
 				 break;
 
-			case 75:	
+			case 76:	
 			// unhide choise buttons 
 				// hide next 
 				hide('Next');
@@ -218,7 +213,7 @@ function onstart(){
 				document.getElementById('choisetwo').innerHTML = ` He says no `;
 
 				if(temp === 'one'){
-					current = 76;// Life ship
+					current = 77;// yes
 					// print out array
 					getstory(current);
 
@@ -226,7 +221,7 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 300 ; // Great ship 
+					current = 300 ; // no 
 					// print out array
 					getstory(current);
 				}
@@ -234,7 +229,7 @@ function onstart(){
 
 
 
-			case 79:  
+			case 80:  
 				//window.alert('tiger game');
 				if(confirm("do you want to play a mini game? tiger game")){
 					//radarstart()
@@ -251,22 +246,22 @@ function onstart(){
 				break;
 
 
-			case 90:
+			case 91:
 				hide('Next');
 				hide('choiseone');
 				hide('choisetwo');
 				document.getElementById('choiseone').innerHTML = `next `;
 				document.getElementById('choisetwo').innerHTML = ` Favor `;
 
-				if(temp === 'one'){
-					current ++;
+				if(temp === 'one'){ 
+					current ++; // next
 					// print out array
 					getstory(current);
 
 				}
 				else if(temp === 'two'){
 					
-					library(14);
+					library(14); // favor def. 
 
 					current ++; // Great ship 
 					// print out array
@@ -274,7 +269,7 @@ function onstart(){
 				}
 				 break;
 
-				 case 97:	
+				 case 98:	
 			// unhide choise buttons 
 				// hide next 
 				hide('Next');
@@ -284,7 +279,7 @@ function onstart(){
 				document.getElementById('choisetwo').innerHTML = ` It doesn't matter, she's pledged to Brady anyway. Why Not? `;
 
 				if(temp === 'one'){
-					current = 98;// no
+					current = 99;// no
 					// print out array
 					getstory(current);
 
@@ -300,10 +295,10 @@ function onstart(){
 
 				 
 
-				 case 99:	
+				 case 100:	
 			// unhide choise buttons 
 				
-				hide('next');
+				hide('Next');
 				hide('choiseone');
 				hide('choisetwo');
 				hide('choisethree');
@@ -311,7 +306,7 @@ function onstart(){
 				document.getElementById('choisetwo').innerHTML = ` Door two `;
 				document.getElementById('choisethree').innerHTML = ` Next `;
 				if(temp === 'one'){
-					current = 100;// 
+					current = 101;//  door one
 					// print out array
 					getstory(current);
 
@@ -319,33 +314,185 @@ function onstart(){
 				if(temp === 'two'){
 					
 
-					current = 101 ; // 
+					current = 102 ; // door two
 					// print out array
 					getstory(current);
 				}
 				else if (temp  === 'three'){
-					current = 102;
+					current = 103; // next
 					getstory(current);
 				}
 
 				 break;
 
-			case 100:
-
-				current = 99;
-				break;
-
 			case 101:
 
-				current = 99;
+				current = 100;
 				break;
+
+			case 102:
+
+				current = 100;
+				break;
+			case 104:
+			// unhide choise buttons 
+				
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				hide('choisethree');
+				document.getElementById('choiseone').innerHTML = `Go left `;
+				document.getElementById('choisetwo').innerHTML = ` Go Right `;
+				document.getElementById('choisethree').innerHTML = ` Getting thirsty `;
+				if(temp === 'one'){
+					current = 105;// go left
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'two'){
+					
+
+					current = 302 ; // go right
+					// print out array
+					getstory(current);
+				}
+				else if (temp  === 'three'){
+					current = 303; // getting thirsty
+					getstory(current);
+				}
+
+				 break;
+
+			case 105:
+					// unhide choise buttons 
+				
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				hide('choisethree');
+				hide('choisefour');
+				document.getElementById('choiseone').innerHTML = `Horizator `;
+				document.getElementById('choisetwo').innerHTML = ` Directions `;
+				document.getElementById('choisethree').innerHTML = ` Help `;
+				document.getElementById('choisefour').innerHTML = ` Next `;
+				if(temp === 'one'){
+					current = 106;// horizator
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'two'){ 
+					current = 109 ; // directions
+					// print out array
+					getstory(current);
+				}
+				else if (temp  === 'three'){
+					current = 110; // help
+					getstory(current);
+				}
+				else if (temp  === 'four'){
+					current = 111; // next 
+					getstory(current);
+				}
+
+				 break;
+
+
+			case 106:
+	// unhide choise buttons 
+				
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				hide('choisethree');
+				hide('choisefour');
+				document.getElementById('choiseone').innerHTML = `Library Fuction`;
+				document.getElementById('choisetwo').innerHTML = ` Important note `;
+				document.getElementById('choisethree').innerHTML = ` Back to Horizator `;
+				document.getElementById('choisefour').innerHTML = ` Next `;
+				if(temp === 'one'){
+					current = 107;// library function 
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'two'){
+					current = 108 ; // Important note
+					// print out array
+					getstory(current);
+				}
+				else if (temp  === 'three'){
+					current = 105; //Back to horizator
+					getstory(current);
+				}
+				else if (temp  === 'four'){
+					current = 108; // next
+					getstory(current);
+				}
+
+				 break;
+
+			case 107:
+
+				current = 106;
+				break;
+
+			case 108:
+				current = 106;
+				break;
+
+			case 109:
+
+				current = 105
+				break;
+			case 110:
+
+				current = 105
+				break;
+
+
+			case 112:
+
+				//window.alert('horizator');
+				if(confirm("do you want to play a mini game? horizator ")){
+					//radarstart()
+					txt = "You  pressed Ok!";
+				}
+				else{
+					txt = "You pressed Cancel!";
+				}
+				//horizatorstart();
+				// pop up option for mini game 
+				//console.log ("case  15");
+				 current ++;
+
+				break;
+
+			case 114
+				//window.alert('kitchen');
+				if(confirm("do you want to play a mini game? kitchen ")){
+					//radarstart()
+					txt = "You  pressed Ok!";
+				}
+				else{
+					txt = "You pressed Cancel!";
+				}
+				//kitchnstart();
+				// pop up option for mini game 
+				//console.log ("case  15");
+				 current ++;
+
+				break;
+
+
 
 			case 301: 
 					window.alert('horizator');
 					//horizatorstart();	
 					current++;
 				
-			case 173:
+			case 174:
 
 				//hide('choiceone');
 				//document.getElementById('choiseone').innerHTML = `Acnologments  `;
