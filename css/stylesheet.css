@@ -1,1 +1,185 @@
-/*KoS CSS*/
+/* RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* end reset */
+
+/* GLOBAL STYLES */ 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body { 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; 
+  margin: 0; 
+  }
+
+nav {
+  background: #151E24;
+  padding: 0 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-decoration-color: #769979;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+.logo {
+  height: 100px;
+  width: 200px;
+  
+}
+
+.item {
+  padding: 10px;
+}
+
+.item-btn {
+  padding: 9px 5px;
+}
+
+/*Mobile Nav*/
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar li a {
+  display: block;
+  padding: 15px 5px;
+}
+
+.toggle {
+  order: 1;
+  font-size: 20px;
+}
+
+.item-btn {
+  order: 2;
+}
+
+.item {
+  order: 3;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.active .item {
+  display: block;
+}
+
+
+/* Tablet Nav*/
+
+@media all and (min-width: 700px) {
+  .menu {
+    justify-content: center;
+  }
+  .logo {
+    flex: 1;
+  }
+  .item-btn {
+    width: auto;
+    order: 1;
+    display: block;
+  }
+  .toggle {
+    flex: 1;
+    text-align: right;
+    order: 2;
+  }
+  .navbar li.item-btn a {
+    padding: 10px 15px;
+    margin: 5px 0;
+  }
+  .item-btn a {
+    background: #151E24;
+    border: 2px #769979 solid;
+  }
+
+  .item-btn a:hover {
+    text-decoration: none;
+    background: #769979;
+  }
+}
+
+/*Desktop Nav*/
+@media all and (min-width: 1001px) {
+  .item {
+    order: 1;
+    position: relative;
+    display: block;
+    width: auto
+  }
+
+  .item:hover {
+    text-decoration: underline;
+  }
+
+  .item-btn {
+    order: 2;
+    float: right;
+  }
+
+  .toggle {
+    display: none;
+  }
+}
+
