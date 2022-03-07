@@ -3,6 +3,7 @@ let table2 = document.getElementById("table-2");
 let wrapper = document.getElementById("wrapper");
 let button1 = document.getElementById("table1-btn");
 let button2 = document.getElementById("table2-btn");
+let gameOver = [];
 
 /*counter to be used for switching to the larger table */
 let choiceCounter = 0;
@@ -150,6 +151,24 @@ function getText2(){
         /*Last text option to be displayed after a certain number of cycles*/
         let textOption6 = "He is in agony, but he cannot sleep or die or love.";
 
+        if(hair == "Silver" && eyes == "Silver" && skin == "Silver" && clothes == "Silver"){
+            gameOver.push("Silver");
+        }
+        if(hair == "Black" && eyes == "Black" && skin == "Black" && clothes == "Black"){
+            gameOver.push("Black");
+            if(gameOver.includes("Silver")){
+                window.location.assign("../../index.html"); //change redirect to actual location once integration takes place. Currently redirects to the start of the main game.
+                
+                document.getElementById("wrapper").removeChild(document.getElementById("text-1"));
+                document.getElementById("wrapper").removeChild(document.getElementById("text-2"));
+                document.getElementById("wrapper").removeChild(document.getElementById("text-3"));
+                document.getElementById("wrapper").removeChild(document.getElementById("text-4"));
+                document.getElementById("wrapper").removeChild(document.getElementById("text-5"));
+                document.getElementById("wrapper").removeChild(document.getElementById("text-6"));
+                document.getElementById("wrapper").removeChild(document.getElementById("continue"));
+            }
+        }
+
         /*takes a random indext and writes its value to the dom. This is done 5 times, once for each option group.*/
         randText = Math.floor(Math.random() * 5);
         document.getElementById("wrapper").innerHTML += "<p id=\"text-1\">" + textOption1[randText] + "</p>";
@@ -188,6 +207,7 @@ function changeDom2(){
     document.getElementById("table-2").style.display = 'revert';
     document.getElementById("table2-btn").style.display = "revert";
 
+     /*removes these elements from the dom so that only the table and button appear. */
     if(document.getElementById('all-red')){
         document.getElementById("wrapper").removeChild(document.getElementById("all-red"));
         document.getElementById("wrapper").removeChild(document.getElementById("continue"));
