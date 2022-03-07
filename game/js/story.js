@@ -469,7 +469,7 @@ function onstart(){
 
 				break;
 
-			case 114
+			case 114:
 				//window.alert('kitchen');
 				if(confirm("do you want to play a mini game? kitchen ")){
 					//radarstart()
