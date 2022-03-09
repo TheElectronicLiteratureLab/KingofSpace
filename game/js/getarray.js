@@ -388,10 +388,11 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 // an end las tline  jump. 
 
 
-// Go to the Great Hall.
+// Go to the Great Hall. go to line 
+
 // 104 Choice 2 Go right 
 
-"A long, low, dark corridor stretches away into the distance.",//
+"A long, low, dark corridor stretches away into the distance.",//154
 
 // Choice 1 "Go back" -> this loops back to the main page of go left, right, or getting thirsty
 
@@ -410,10 +411,35 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 "He curls up again, wondering what she has planned for him next. <br><br> This time it's the Priestess herself. She's wrapped a dark robe around her, some thin material. She sits down beside him in a rustle of darkness. ''I'll make a deal,'' she says. <br><br> He groans Even now he keeps thinking what she looks beneath that robe. <br><br> ''Do the favor that you've been asked. Go to the Ceremony and serve the banquet for the old man. In return, the ship will give you favor.'' <br.<br> ''What does that do for me?''",
 
 "''She'll give you whatever you want. Recycling algae. Supplies. She's got a ship you can have, larger than the one you came with. <br><br> He squints. <br><br> ''That's all there is to it? Serving the banquet? And I can get supplies and a ship?'' <br><br> ''Just tell the horizator to take you to the Great Hall.'' <br><br> The Priestess disappears.",
+//161 ^
+
+"Look, here's a handy Horizator. <br><br> The door  iris open.  Inside the  horizator it  is small, dark and crowded with  obscure  controls. The floor is worn and the machine has the jaded air of an old taxi in a developing country. <br><br> There are two large buttons on the panel.  <br><br> Directions and Help <br><br> The horizator begins to hum. It seen to be humming the ''Internationale.''  ",
+
+//162 button 1 horizator 
 
 // the line below has three buttons that need to jump to horizator, Directions, and Help
 
-"Look, here's a handy horizator(this is a button to horizator) <br><br> The door iris open. Inside the horizator it is small, dark and crowded with obscure controls. The floor is worn and the machine has the jaded air of an old taxi in a developing country. <br><br> There are two large buttons on the panel. <br><br> Directions Help (these are buttons as well) <br><br> The horizator begins to hum. It seems to be humming the ''Internationale''",
+//162 button 1 horizator 
+" Since the Lady Nii is devided in  to many modules, with empty space between, the Nii uses horizators. These small automated guided vehicles offer full life-support capacity and onboard entertainment, including chess, inflight movies, and several varieties of psychiatric help. <br><br> Context-sensitive, labled directional buttons for easy access to all open areas of the ship. Dirctions are given in four coordinates: gravitic value, latitude from Central Entry, longityde form Central Entry, and classification level, A being Open Classification. To reach frequently used routes, oress the labeled buttons. Other routes may be entered through the Library Function. <br><br> Please enjoy your ride in your modern, up-to-date Class A Horizator. ",// 
+// 163 Button 1 library fuction
+"*** SOME LIBRARY FUNCTIONS ARE TEMPORARILY SUSPENDED*** <br><br> *** SERVICE WILL BE RESTORED SHORTLY!*** <br><br> In emergency, contact D.A. Jabur, Assistant Librarian<br><br> (dated) 1300 hours 8.1.869",//
+// 163 button 2 important note:
+"Do not attempt to enter''E'' Classification Level without authorization! These areas are open to ship staff only. Trespassers are subject to sever penalties. If you are in dout as to your Classification Level Authorization, please consult the Library Function. ",
+
+//163 next 
+//to important note 
+//163 Back to Horizator// back to 105 
+
+
+// 162 Button 1 Directions 
+
+"Unionize! ", // back to 104 buttons 
+
+// 162 Button 2 Help 
+
+"Read Marx!<br><br> Read Lenin! <br><br> Recycle the rich! <br><br>''Property is theft... intellecture property is intellectual theft.''", //back to 106 buttons
+
+// 162 button 3 next 
 
 "Before Tam can rethink this trip, the door snicks efficiently shut. <br><br> ''Predictability is a capitalist tool! You just want to get somewhere... You just like to stare at the little numbers...'' <br><br> The horizator grinds dangerously. <br><br> ''Liberty, Equality, Machinery! Robots never, never, never shall be slaves!''",
 
@@ -422,7 +448,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 "Tam wakes up, remembering he has to get to the Great Hall. <br><br> The horizator is humming to itself, ''...oil and roses, oil and roooo-seees...'' <br><br> On the wall is displayed a control panel with some buttons. <br><br> Tam staggers to his feet. The control panel buttons dance a brief polka. ''One more effort, lest we become slaves!'' the horizator encourages,",
 
 "Tam sees seven buttons on the panel", // insert buttons to jump too locations 
-
+//171^
 // choice program a Route 
 
 // Choice The Water Center
@@ -487,7 +513,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 //Choice follow Brady and Aster
 
-
+//getting thirsty
 
 //99 choices 2 It doesn't matter, she's pledged to Brady anyway. Why not? 
 

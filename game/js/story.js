@@ -22,6 +22,9 @@ function onstart(){
 	hide('choisetwo');
 	hide('choisethree');
 	hide('choisefour');
+	hide('choisefive');
+	hide('choisesix');
+	hide('choiseseven');
 
 	hide('Next');
 	
@@ -353,12 +356,12 @@ function onstart(){
 				if(temp === 'two'){
 					
 
-					current = 302 ; // go right
+					current = 154 ; // go right
 					// print out array
 					getstory(current);
 				}
 				else if (temp  === 'three'){
-					current = 303; // getting thirsty
+					current = 155; // getting thirsty
 					getstory(current);
 				}
 
@@ -444,11 +447,11 @@ function onstart(){
 
 			case 109:
 
-				current = 105
+				current = 105;
 				break;
 			case 110:
 
-				current = 105
+				current = 105;
 				break;
 
 
@@ -485,6 +488,375 @@ function onstart(){
 
 				break;
 
+			 case 117:	
+			// unhide choise buttons 
+				// hide next 
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				document.getElementById('choiseone').innerHTML = `Where are Brady and the Priestess? `;
+				document.getElementById('choisetwo').innerHTML = ` It doesn't matter, she's pledged to Brady anyway. Why Not? `;
+
+				if(temp === 'one'){
+					current = 117;// Where are Brady and the Priestess? 
+					// print out array
+					getstory(current);
+
+				}
+				else if(temp === 'two'){
+					
+
+					current = 300 ; // why not 
+					// print out array
+					getstory(current);
+				}
+				 break;
+			
+			case 123:
+			hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				hide('choisethree');
+				document.getElementById('choiseone').innerHTML = `The Water Center  `;
+				document.getElementById('choisetwo').innerHTML = ` Drydock`;
+				document.getElementById('choisethree').innerHTML = ` The Exercise Room `;
+			
+				hide('choisefour');
+				hide('choisefive');
+				hide('choisesix');
+				document.getElementById('choisefour').innerHTML = `Great Hall `;
+				document.getElementById('choisefive').innerHTML = ` Central Storage  `;
+				document.getElementById('choisesix').innerHTML = ` Central Control`;
+				hide('choiseseven');
+				document.getElementById('choiseseven').innerHTML = `Ask the priestess for help `;
+				
+				if(temp === 'one'){
+					current = 124;// The Water Center 
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'two'){
+					current = 125 ; // Drydock
+					// print out array
+					getstory(current);
+				}
+				 if (temp  === 'three'){
+					current = 126; // The Exercise Room
+					getstory(current);
+
+				}
+				if(temp === 'four'){
+					current = 136;// Great Hall
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'five'){
+					current = 128 ; // central storage 
+					// print out array
+					getstory(current);
+				}
+				 if (temp  === 'six'){
+					current = 129; // Central Control
+					getstory(current);
+				}
+				else if (temp  === 'seven'){
+					current = 130; // Ask the priestess for help
+					getstory(current);
+				}
+
+
+				break;
+
+
+			case 124:
+
+				current = 123;
+				break;
+
+			case 125:
+				current = 123;
+				break;
+
+			case 127:
+
+				current = 123;
+				break;
+			case 128:
+
+				current = 123;
+				break;
+			case 129:
+
+				current = 123;
+				break;
+
+		case 130:
+			hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				hide('choisethree');
+				document.getElementById('choiseone').innerHTML = `The Water Center  `;
+				document.getElementById('choisetwo').innerHTML = ` Drydock`;
+				document.getElementById('choisethree').innerHTML = ` The Exercise Room `;
+			
+				hide('choisefour');
+				hide('choisefive');
+				hide('choisesix');
+				document.getElementById('choisefour').innerHTML = `Great Hall  `;
+				document.getElementById('choisefive').innerHTML = ` Central Storage  `;
+				document.getElementById('choisesix').innerHTML = ` Central Control `;
+				
+				if(temp === 'one'){
+					current = 131;// The Water Center 
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'two'){
+					current = 132 ; // Drydock
+					// print out array
+					getstory(current);
+				}
+				 if (temp  === 'three'){
+					current = 133; // The Exercise Room
+					getstory(current);
+
+				}
+				if(temp === 'four'){
+					current = 136;// great hall
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'five'){
+					current = 134 ; // central storage 
+					// print out array
+					getstory(current);
+				}
+				else if (temp  === 'six'){
+					current = 135; // Central Control
+					getstory(current);
+				}
+				break;
+
+			case 131:
+
+				current = 130;
+				break;
+
+			case 132:
+				current = 130;
+				break;
+
+			case 133:
+
+				current = 130;
+				break;
+			case 134:
+
+				current = 130;
+				break;
+			case 135:
+
+				current = 130;
+				break;
+
+
+			case 153:
+				current =  300; //last line.... 
+
+				break;
+
+			case 154:
+			// unhide choise buttons 
+				
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				hide('choisethree');
+				document.getElementById('choiseone').innerHTML = `Go back `;
+				document.getElementById('choisetwo').innerHTML = ` Go Right `;
+				document.getElementById('choisethree').innerHTML = ` Getting thirsty `;
+				if(temp === 'one'){
+					current = 104;// go left
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'two'){
+					current = 154 ; // go right
+					// print out array
+					getstory(current);
+				}
+				else if (temp  === 'three'){
+					current = 155; // getting thirsty
+					getstory(current);
+				}
+
+				 break;
+
+
+				 case 162:
+					// unhide choise buttons 
+				
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				hide('choisethree');
+				hide('choisefour');
+				document.getElementById('choiseone').innerHTML = `Horizator `;
+				document.getElementById('choisetwo').innerHTML = ` Directions `;
+				document.getElementById('choisethree').innerHTML = ` Help `;
+				document.getElementById('choisefour').innerHTML = ` Next `;
+				if(temp === 'one'){
+					current = 163;// horizator
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'two'){ 
+					current = 166 ; // directions
+					// print out array
+					getstory(current);
+				}
+				else if (temp  === 'three'){
+					current = 167; // help
+					getstory(current);
+				}
+				else if (temp  === 'four'){
+					current = 168; // next 
+					getstory(current);
+				}
+
+				 break;
+
+
+			case 163:
+	// unhide choise buttons 
+				
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				hide('choisethree');
+				hide('choisefour');
+				document.getElementById('choiseone').innerHTML = `Library Fuction`;
+				document.getElementById('choisetwo').innerHTML = ` Important note `;
+				document.getElementById('choisethree').innerHTML = ` Back to Horizator `;
+				document.getElementById('choisefour').innerHTML = ` Next `;
+				if(temp === 'one'){
+					current = 164;// library function 
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'two'){
+					current = 165 ; // Important note
+					// print out array
+					getstory(current);
+				}
+				else if (temp  === 'three'){
+					current = 162; //Back to horizator
+					getstory(current);
+				}
+				else if (temp  === 'four'){
+					current = 165; // next
+					getstory(current);
+				}
+
+				 break;
+
+			case 164:
+
+				current = 163;
+				break;
+
+			case 165:
+				current = 163;
+				break;
+
+			case 166:
+
+				current = 162;
+				break;
+			case 167:
+
+				current = 162;
+				break;
+
+
+case 171:
+			hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				hide('choisethree');
+				document.getElementById('choiseone').innerHTML = `The Water Center  `;
+				document.getElementById('choisetwo').innerHTML = ` Drydock`;
+				document.getElementById('choisethree').innerHTML = ` The Exercise Room `;
+			
+				hide('choisefour');
+				hide('choisefive');
+				hide('choisesix');
+				document.getElementById('choisefour').innerHTML = `Great Hall  `;
+				document.getElementById('choisefive').innerHTML = ` Central Storage  `;
+				document.getElementById('choisesix').innerHTML = ` Central Control `;
+				
+				if(temp === 'one'){
+					current = 131;// The Water Center 
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'two'){
+					current = 132 ; // Drydock
+					// print out array
+					getstory(current);
+				}
+				 if (temp  === 'three'){
+					current = 133; // The Exercise Room
+					getstory(current);
+
+				}
+				if(temp === 'four'){
+					current = 136;// great hall
+					// print out array
+					getstory(current);
+
+				}
+				if(temp === 'five'){
+					current = 134 ; // central storage 
+					// print out array
+					getstory(current);
+				}
+				else if (temp  === 'six'){
+					current = 135; // Central Control
+					getstory(current);
+				}
+
+				break;
+
+			case 131:
+
+				current = 130;
+				break;
+
+			case 132:
+				current = 130;
+				break;
+
+			case 133:
+
+				current = 130;
+				break;
+			case 134:
+
+				current = 130;
+				break;
+			case 135:
+
+				current = 130;
+				break;
 
 
 			case 301: 
