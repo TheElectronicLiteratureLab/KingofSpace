@@ -384,11 +384,30 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "And now they are back in the mirrored Great Hall, and the dance is over. The flutes whistle and the drums beat. The Attendants of the Bedchamber cover the lovers in red and blue silk robes. Someone has brought a try of food to refresh the lovers. The doors of the inner chamber open and the lovers withdraw., followed by their attendants. There is only one person left in the Great Hall,  an old man lying on the floor. <br><br> Someone brings a blanket to cover him and put a pillow under  his head. Some one sits down by him <br><br> <<Nii?>>",
 
-"He ahs not seen her like this before. She is old, her eyes surrounded by laughing wrinkles, her long  black  hair streaked with gray. She wears a magnigicent cortesan's kimono dyed with a design  of apple blossoms. Sh has brought green tea and sandwiches  for him. Her hand against his cheek is soft and thin as old silk.She spreads her wide sleeves.  <<Am I not beautiful?>> the old woman says.<br><br> <<You are always beautiful.>> <br><br> <<Spring is coming,>> she smiles, <<even if we are old.>> <br><br> Far away, the attendants of the bedchamber rejoice. The Priestess and the RedKing have come. <br><br> All  through the ship it begins to be spring",// go to end
-// an end las tline  jump. 
+"He has not seen her like this before. She is old, her eyes surrounded by laughing wrinkles, her long  black  hair streaked with gray. She wears a magnigicent cortesan's kimono dyed with a design  of apple blossoms. Sh has brought green tea and sandwiches  for him. Her hand against his cheek is soft and thin as old silk.She spreads her wide sleeves.  <<Am I not beautiful?>> the old woman says.<br><br> <<You are always beautiful.>> <br><br> <<Spring is coming,>> she smiles, <<even if we are old.>> <br><br> Far away, the attendants of the bedchamber rejoice. The Priestess and the RedKing have come. <br><br> All  through the ship it begins to be spring",// go to end
+// an end last line  jump. 
 
 
 // Go to the Great Hall. go to line 
+//go to the great hall
+
+"A moment of darkness, and Tam finds himself in the Great Hall. In the middle of it, standing face to face, are three people, two women and a man. <br><br> The first priestess. <br><br> The second looks like Tam. Is this an illusion, or Brady, or himself? <br><br> The third is a straight-backed old japanese woman, dressed in a magnificent kimono dyed with flowers. Tam can see the steel robot faintly beneath the glow of her clear skin and the pattern of her robe. <br><br> The old woman turns toward him. ''I am Nii.''",
+
+"''You're an illusion,'' he says. <br><br> She smiles and bows. In the dyed flowers of her kimono hover hummingbirds sewn from golden thread. <br><br>The man who looks like Tam is throwing his body from side to side in front of the Priestess. The Priestess turns her head to look at him. <br><br> ''What's he doing?'' Tam asks the Priestess. <br><br> ''He is dancing,'' Nii replies. ''An illusion of dancing. For the Emperor and Terra.'' <br><br>''He shouldn't look like me. Give me back my body,'' Tam says to the Priestess.",
+
+"''Which body do you want, old man, young man? When in your life is the body that is yours? What part of it is yours, and not mine, or his, or hers?'' <br><br> Nii draws from her obi a simple dancing fan. She snaps it ope and shows him both sides. One side is gilded, showing the sun, a hummingbird, a spray of goldenrod. The other is silvered, showing the moon, a mirror, a trickle of water.",
+
+"She fans the silver side at him, and he is standing in rotting trash, an old man, bent, cramped with pain, in a broken control room. <br><br> She fans the golden side at him, and he has his own body again, but he is dressed in red Ceremony robes and standing in a vaulted rich place, A crowd of people press around him holding candles, and the walls are mirrored as far as he can see.",
+
+"''Illusions, Tam Rosse,'' the Nii murmurs. <br><br> The silver side fans at him. He is an old man wearing a glowing white skintite thick with insulation. A flag floats in the low gravity: the flag of the Free Asteroids. <br><br> ''Will the uprising succeed? Will we be free?'' <br><br> ''You scorn illusions'' smiles the Nii, ''but you talk about freedom.'' <br><br> She fans him again, This time the fan is red. He is standing facing the Priestess, in Brady's place. The Lady Nii stands beside them. King Brady is lying on the floor, and another Nii kneels beside him.",
+
+"''No more illutions!'' Tam Rosse says. <br><br> The fan is black, like the broken pods in the Central Storage. It is dim and dusty like the drydock. The old man twitches in pain on the floor. The Priestess stands by him, young and pale, not with her powers and never to get them, and beside her stands a dented guard-robot holding a piece of broken metal in the shape of a fan. <br><br> The old lady Nii holds out her left hand, palm up. Her palm is broad, small, creased with many lines. On it is a single winged seed. The seed is an obvious illusion. Its edges shimmer faintly as if it is not quite in synch with the illusion of the Nii. <br><br> She shakes her left hand in the air and the seed flies, many seeds fly through the air, glowing.",
+
+"''There is nothing on the Nii but space and death,'' says the Lady Nii. <br><br> ''Everything else is illusion, and therefore possible. Even freedom.''",
+
+// leads into he takes it or doesn't take it 
+
+
 
 // 104 Choice 2 Go right 
 
@@ -529,7 +548,21 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // 75 choice 2 He says no
 
-" ",
+// he says no 
+
+"If you don't breathe, a Priestess can't get you. That's what Corporal Laughton said, the night before they all got captured. <br><br> He holds his breath hard. Pressing at the edge of his nostrils are sensations no one has ever described. Pink sensations, tickling feelings, wonderful wonderful wonderful- <br><br> ''No!'' he gasps and clutches his air supply tube with his teeth. Foul air never tasted so politically correct. <br><br> She looks up at him, eyes wide, then smiles slowly. He almost drowns in the wonder of her smile. <br><br> ''There's plenty of time,'' she murmurs.",
+
+"He propels himself down the pitted and murky port-corridor toward the greatship. He can see the white plume of air leaking from his suit. He slaps a seal-patch over it. <br><br> The priestess needs no suit here. She is spacehabbed. <br><br> Around the lock is a little delta of old water impurities. <br><br> Great. Atmosphere leaks.",
+
+"The outside of the ship is scarred from meteors and hard radiation.",
+
+// Tiger Puzzle 
+
+"The Priestess diddles with the lock, caressing it with long fingers. The pictures on the lock change. Tam looks, looks again, blinks, and feels himself blushing. <br><br> ''Stop that!'' he mutters to her. <br><br> Think of the uprising. <br><br> He feels an uncomfortable pressure on his skintite, between his legs. <br><br> Think of the...<br>No. <br><br> The leaves of the airlock iris slowly open, creaking like a frog prince in a foul mood.",
+
+// black screen 
+
+// link back to yes script from here
 
 // 72 choice 2 Tam Rosse doesn't give her the seeds.
 
@@ -652,7 +685,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // 3 choices - 1. “I could give the  Priestess her  powers.  The  way I figure it, out  best chance  is to  reprogram the  Nii.”,
 
-"Sure, their best chance is to reprogram the Nii. But it means total surrender to an Emperor's Daughter. <br><br> Not Tam Rosse. <br><br> Not yet. ",
+"Sure, their best chance is to reprogram the Nii. But it means total surrender to an Emperor's Daughter. <br><br> Not Tam Rosse. <br><br> Not yet. ",// bake to 3 choises
 
 // 2. “ I’m not cooperating with the Priestess. But there may be weapons somewhere aboard,  or a ship I can use  to escape.”,
 
@@ -690,7 +723,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // choices - go back to the Nii
 
-"No, that won't work now. brady wants him dead and the Lady nii will be glad to help. <br><br> First see whether there's any canned air... " ,
+"No, that won't work now. brady wants him dead and the Lady Nii will be glad to help. <br><br> First see whether there's any canned air... " ,// jump to troop careior game
 
 // or look for auxiliary air tanks, going further into the troop carrier.
 
