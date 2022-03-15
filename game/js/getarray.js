@@ -534,6 +534,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 //getting thirsty
 
+
 //99 choices 2 It doesn't matter, she's pledged to Brady anyway. Why not? 
 
 "The wine cup is right where he left it. <br><br> ''Servant,'' he mutters, ''I'll show them.'' <br><br> Through the teeth and over the gums, hold your nose cause here it comes...", // after this page direct to the "WHAM" page
@@ -541,10 +542,6 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 " ",
 
-// 80-81 InterShip Communicatior 
-
-
-" ",
 
 // 75 choice 2 He says no
 
@@ -564,7 +561,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // link back to yes script from here
 
-// 72 choice 2 Tam Rosse doesn't give her the seeds.
+// 72 choice 2 Tam Rosse doesn't give her the seeds. this sec. was typed by Kayci Miles
 
 "She has the look of somebody who's not thinking about five sunseeds on his shoulder. <br> <br> He doesn't believe in her religion. The emperor is a Terran. The Emperor takes some dumb girl kid or some thirteen-year-old stud. Tells them they're incarnations, Daughters of the Emperor, Red Kings. Teaches them to worship Terra and the Emperor. Sends them out with a shipful of hallucinogens and sex manuals to spread the worship of Terra. <br> <br> Politics as pornography. People act as if their brains were between their legs. ",
 
@@ -577,29 +574,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 // ^^^^ loop back to the tiger puzzle above after the option of saying yes to the seeds
 
 
-// 19 Choice 3 He has sexual power too; her powers depend on him. he can control  the situation. - rape Are we taking this out??????? 
 
-"He's heard in prison that the earring is the key. <br><br> There is no mystery about the Priestesses. They're arco-engineers. They're zapped full of nanocomputers that do all the work while they play Sex Goddess of the Universe. Removing the earring kickes in their programming. The rest is smoke and mirrors. <br.<br> And bodies. <br><br> ''Fuck the Emperor,'' he mutters.",
-
-"He touches his red prison suit and it opens down to his groin. The ''ice'' is not ice, but it is cold, jellylike on his bare skin. Her body slips greasily under his, He holds her down on the slab, rough, his left arm with its half-useless hand pinning her across her shoulder blades, He needs more hands than he has. For four year he has though of the first woman he would have after prison. A Pallas womam, perfumed in a thousand places. This girl is cold and unlubricated, like an iced rubber glove. <br><br> With the icy cold white light and the ice jelly, it's like making love to the dead in a morgue.",
-
-"He rides his brutality, he pushes against it like G-force. He feels power like the prison trusties on Circe must have felt toward him. <br><br> He sees a silver of her eyeballs under her partly closed eyelids. She is waking up. Suddenly he is uncontrollable, shuddering, coming in a spasm of revenge. <br><br> He rips her virgin's earing and throws it onto the floor. A globe of blood swells in the ice near her ear, then spreads.",
-
-"No more virgin Priestess. And she hasn't turned him into her slave. <br><br> The ship's heat cricuits out in as he fastens his jumpsuit. He begins to sweat, smelling his bodystink over the cool neutral air of the lifeship. The half-moon of the ice dissolves, rivulets flowing down into the surface if the egg-ship. Her blood flows with it, down in a watery delta. The lifeship will use it. <br><br> The girl opens her eyes and reaches up her hand to her bloodied ear.",
-
-"She looks up at him, her eyes ageless and unfathomable. ''You did the Ceremony,'' she says. He nods. He has power over her. he feels it in what his body has done to hers. <br>,br> ''Now I have my powers,'' she murmurs. <br><br> Not over me, Tam thinks. ''I did you a favor. I woke you up. Now I need your help to get the ship going,'' he says. <br><br> She looks him deep in the eyes. The blood is still flowing from her ear. She pinches the lobe between two fingers and the blood stops. <br><br> ''Oh, yes,'' she says, ''I can heal the Lady Nii.'' He puts his hand on her arm but she draws back, following him without touching him.",
-
-"He goes first, propelling himself down the pitted and murky port corridor toward the greatship. He can see the white plume of air leaking from his suit. He slaps a seal-patch pver it. <br><br> The priestess needs no suit here. She is spacehabbed. <br><br. He has only a dagger, a prison weapon, made from the Circean mineral called heartsblood, chipped and edged in the long nights in the mines. The thongs that wrap the handle are a man's skin. <br><br> Around the lock there are only the fossilized pale marks of water impurities; it has been so long since the lock was opened that no ice crystals blur its metal leaves.",
-
-"The outside of the ship is scarred from meteors and hard radiation",
-
-// insert tiger puzzle maintenance panel
-
-"The Priestess steps up to the picturelock. Her fingers work by themselves, and through the metal of the ship Tam feels a vibration. <br><br> The leaves of the airlock iris slowly open, as if they are doing something unnatural, moving against the flow of time.",
-
-// black screen
-
-// add the rest off lifeship option three here 
 
 
 // 13 - great ship 
@@ -813,9 +788,96 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 " ",
 
-// Yes…
+// Yes… was typed by Kayci Miles
+//greatship option yes 
 
-" ",
+"His body decides for him. His bursting lungs open and he gasps. <br><br> Almost immediately her black magic begins to work on him. The smell of her, that Earth smell, growing things, it grows in him too, as insidious as cancer, scattered all through him like seeds. He holds his breath to try to stop it, but his lungs breathe for him, his body pushes him aside and works on its own. <br><br> They gasp in rhythm, she pushes breath into his lungs, he pushes back against her breasts, but he can't stop her. <br><br> His hands begin caressing her breasts, the soft inside of her thighs. She is body to body with him, mouth to mouth, groin to groin.",
+
+"They are breathing in rhythm now, matches in struggle. He's laughing because he can't believe what they're doing, because he's so afraid, so overwhelmed by sexual need for her, he doesn't know where it's coming from. Inside his skintite he is rigid and aching. He touches the skintite and the front falls open, he pushes himself inside her, plushing with her warmth, gasping... <br><br> This isn't happening to me <br><br> I can't help myself.",
+
+"He screams <br><br> and is drained, <br><br> he is released, <br><br> let go, abondoned.",
+
+"The horizator is still, lying in the lee of a small meteorite that has become part of the Nii's cargo hold. Tam is lying on the floor against the warmth of the Priestess. <br><br> She sleeps like an ordinary woman. Ordinarily warm and soft. <br><br> He feels a terrible tenderness for her. He must give her his protection. he needs to be with her always. The smell of their sex is in the air- the smell - it's the key to something about himself he didn't even know, he needs to have it, he needs to rub the smell of her over himself... <br><br> And another part of his mind screams. <br><br> ''So you got what you wanted,'' he whispers, forcing his bitterness to fight against his need for her.",
+
+"She moves in her sleep but doesn't wake. <br><br> Do the other Red Kings hate the women they serve? <br><br> He has his heartsblood dagger in his hand...",
+
+"He tries. <br><br> He tries. <br><br> His hands turn the dagger toward his own chest. <br><br> The dagger falls out of his hand. <br><br> She has changed him. <br><br> He is hers.",
+
+"Let out the air. The horizator's airvent is high, near the ceiling. He punches out the correct sequence. <br><br> There is a whine, then the sudden intense deafness that means vacuum in space. <br><br> Instead of the jolt he expects, the horizator hardly moves. He looks at the digital readout. <br><br> Zero. <br><br> No air, no pressure.",
+
+"He should be dead. <br><br>His skin chills. <br><br> He exhales: no plume of moisture, He inhales. In vacuum. <br><br> Of course. She spacehabs her lovers, doesn't she? The better to have them die for her. <br><br> But that fast? Changed that fast to what she needed?",
+
+"He shakes her. She opens her eyes. Somehow she is older now. She looks straight into his eyes, He holds himself back dizzily from falling deep into them, from simply accepting whatever she has for him. <br><br> ''You screwed me and spacehabbed me.'' He hears his own voice tinny through his suit controls. She replies on the same wavelength. <br><br> ''You're more danger now. brady told Nii to kill you after I had you.'' <br><br> ''After I had you... Fuck the Emperor's mother! Didn't I have anything to say about it?'' <br><br> She shakes her head. ''No.''",
+
+"''So you thought I'd be happy once I did it. Did you persuade yourself that I'd be a happy little lickass for the Emperor, once I'd screwed you? How long before I lose my memory? Before I think I always loved the Emperor? And you?'' <br><br> She shakes her head again.",
+
+"''You've killed me!'' he cries out. He raises his hand to her but he can't strike her, and the knowledge that he can never strike her makes him turn and drive his strong Red King guardian fist at the horizator wall, again and again. It makes only a jar, no sound.''",
+
+"He slumps against the horizator wall. She moves to touch him. He jerks away.",
+
+"''I'm going to reprogram the ship,'' she says. <br><br> ''For the Emperor. Go on. Go ahead.'' She touches the horizator control panel. Under her fingers it changes. Rows of buttons, some dark, some blinking orange, a surprising few their normal colors of blue and green.",
+
+// add check boxes to page for the options
+"''See what you can find to help us.'' <br><br> Oh, yes, Mistress, I hear and obey. add buttons for library, decontamination procedures, ship passenger list",
+
+//Library.js file for library
+
+//Decontamination Procedures
+"DECONTAMINATION PROCEDURES <br>1. All personnel must report to screening. You will be tested for the presence of Nicholsun's Virus. Any of the following may occur. <br> a. You may be found to be disease-free. <br> b. You may be found to be a carrier of the Nicholsun's Virus. <br> c. You may be found to have symptoms of the virus. <br> 2. If you are found to be disease-free, you will REPORT IMMEDIATELY to Debarkation. DO NOT ATTEMPT TO RETURN to other parts of the ship. DO NOT ATTEMPT TO COMMUNICATE WITH ANY OTHER SHIP MEMBER. There are no exceptions to tbis rule. <br> 3. If you are found to be infected, please RETURN IMMEDIATELY to your sleeping area aboard ship. Your civil rights are temporarily suspended.",
+
+//Ship Passenger list
+"Ship's Population: Lady Nii <br><br> Nii / interface coordination <br><br> Brady, Andrew /Captain(acting) <br>/Ship's Favor <br>/Red King <br><br> Passengers <br><br> aster Palladis /Ship's Favor <br> /Priestess <br>Rosse, Thomas Tamotsu /Red King",
+
+// After the three boxes above this is the next "..." button
+
+"''This is all Terran propaganda,'' Tam Rosse says. <br><br> The Priestess turns briefly to look at the wall. <br><br> ''Give it my clearance number. AP7829044P",
+
+//AP7829044P
+"This time there's only one line. <br><br> Encyclopedia Galactica: Index (entries selected as immediately relevant) <br><br> ''Nicholsun's Plague'' ***CLASSIFIED MATERIAL--TERRANS ONLY***",
+
+//Nicholsun's Plague
+
+"Nicholsun's Virus or Plague <br><br> The origin of Nicholsun's Virus, or Nicholsun's Plague, is to be found in the genetics of small populations. Without intervention, small populations rapidly lose genetic identity with their ancestors. To maintan a common gene pool, breeding programs and mutation control are vital, especially in areas of high background radiation. Crossbreeding is also a necessity. <br><br> During the early stages of the settlement of the Asteroids, it was realized that genetic updating would become a necessary part of the health of each Asteroid ITC.",
+
+"About sixty-five years ago a man named Harry Nicholsun bid for and received the contract to update the ITCs' genetic pool. It was a hazardous job, because it often meant being exposed to, and exposing others to, new diseases, as well as introducing new genes into the pool. <br><br> On the surface, Nicholsun's contribution to Asteroid culture seemed innocuous if a little crude. Nicholsun was fortunate to start his business at the time when live pornographic theater was being replaced by 3D sense-linked vids (''illusions''). He could call on a wide range of live-theater actors, most of whom would go anywhere and do anything. <br><br> Nicholsun linked genetic distribution to sex.",
+
+"Nicholsun orgies began with prayer and ceremonies, feasting, intoxication, and fireworks; they ended in mass copulation and the spread of the new germ plasm throughout the ship. Their ceremonial center was the Priestess, a nubile, sensual woman who performed naked except for her sacred glowing tattoos. Her consort was the Red Man or Red King. Invariably a condemned criminial, the Red King was chosen for his strength, skill with weapons, and virility, and was bound to the Priesyess for life by ''secret ceremonies.'' <br><br> Drawn from the uneducated parts of society and cut off from Terran culture by the sterility of the Asteroids, Asteroid dwellers eagerly sought the color and excitement that ''Great-day'' provided. A few comparatively sophisticated minds thought they saw through to Nicholsun's secret. For them, the Priestess and her Consort were simply an assistant genetic engineer and her bodyguard. Of course--until far to late--they did not see what Nicholsun was doing at all.",
+
+"More surprisingly, of the Terran officials who dealt with Nicholsun, only one suspected his treachery. Lieut. Gregor Marczak, a minor official in the Genetics Bureau on Pallas, realized the truth when he observed his own extreme emotional reaction to a Priestess's visit in San-gatsu 867. <br><br> Nicholsun had not merely distributed genetic material; he had changed it. he had contaminated almost the entire genetic pool of the Asteroids with a sensitivity to a rho-pheromone he himself had engineered. <br><br> Nicholsun pioneered the concept of pheromonic linkage.",
+
+"His terrible plot depended on two linked stages of infection. The first generation of victims were infected by a rhinovirus, which modified cells in the nasopharyngeal passages. The modified cells responded strongly to a kinship pheromone, developed by Nicholsun and given off by his genetically modified Priestesses and Red Kings. Stem cells were not affected and, as the modified cells died, the effect eventually wore off. bu the virus remained among the Asteroids, modifying itself like a cold virus, so that the population was subject to frequent reinfection. <br><br> The second infection was more insidious and more lasting. It entered the body through sexual contact and lived silently in the blood. On the first generation it had no apparent effect. But insidiously, in sperm and egg, it altered the very genetics of the population. On the children of the first generation, it produced the same effect as the rhinovirus did on the first. <br><br> Permanetly.",
+
+"The effect of the victims was blind, loving loyalty to Nicholsun and all of his subordinates--who were genetically modified to emit rho-phermonone, but who could not pass the modification. <br><br> In other words, Nicholsun had created a new species, a race of workers genetically engineered for loyalty. red Kings were phermonically linked to their Priestesses. Priestesses and Kings, in turn, were pheromonically linked to Nicholsun himself. <br><br> Smell is an unanswerable arguement. The rhinocephalon, the part of the brain governing smell, is one of the oldest parts of the brain, unchanged since the reptiles. No one could resist a Priestess or a Red King. Intellectual convictions, no matter how sincerely held, simply made no difference. During the Riots of 869, infected Terran officials laid down their lives to protect ant-Terran Priestesses and Red Kings. Ironically, one of those was Marczak himself, shot for treason.",
+
+"Nicholsun was executed at Castra Martis in 873. But by the time his ultimste treachery was punished, the modifications had spread too far. Most of the adults then living on the Asteroid Stations were carriers. All of their children- and Nicholsun's orgies had produced many children-carried the genetic plague. <br><br> Now, incapable of democracy, incapable of rational thought when their rulers are present, the populations of the Asteroids live in limbo. The plague has expressed itself in three generations of these unfortunate beings. The Asteroid population has been allowed to drop preciptously. <br><br> the large Hermes-Eccentric cargo ships, once the lifeblood of the Asteroids, have almost all been moved Sunward orbits, since Asteroids trade involves the risk of genetic contamination.",
+
+"Unless the plague is cured, all of the population of the Asteroids will be allowed to die. <br><br> The most stringent precautions are taken to avoid contact between the true Terran stock and the Asteroid dwellers, who can merely be called humanlike. These necessary precautions have led to several small revolts, with regrettable loss of life. Nicholsun, and Nicholsun alone, is to blame for these deaths. <br><br> Ironically, Nicholsun's false ''religion'' is now the only hope for the Asteroid dwellers. Terran technology has made the role of Priestesses and Red Kings a benevolent one. The Priestess, moving from asteroid to dying asteroid, is now a Terran genetic technician, carrying with her the latest experimental weapons against Nicholsun's plague. Today she is phermonically linked, not to a mad dictator, but to the Terran bureaucracy and to the welfare of the ship or outpost she serves.",
+
+"She and her Red King, still her protector in these wild outposts, link the Asteroid dwellers genetically with their Terran cousins. They distribute all Terran gene modifications to even the smallest operating Asteroid. They add all improvements to algae, flora, fauna--all the benefits of continuiing Terran arcoculture--to the arcology of each Asteroid. <br><br> Up to the present, no one has found a way of reversing the effects of Nicholsun's plague. But the search continues. SOmeday the Asteroid dwellers will be freed of this curse. Someday they will be full members of the human race again.",
+
+//Readout Ends
+
+"Tam looks up at her in shock. <br><br> ''Nicholsun and the Priestess fought against the Emperor?'' For a moment he's not able to talk. <br><br> Suddenly a huge concussion reverberates through the horizator. ",
+
+"''Eternal Mother! What's that?'' <br><br> Outside, in the dark, <br><br> starlight glitters off huge half-seen claws.",
+
+"Grapples thump on to the horizator from all sides. The Priestess jabs at the horizator jets. <br><br> ''Don't waste your time!'' Tam yells at her. ''That's a cargo robot! It can handle a ship fifty times our size.'' A huge steel claw comes at them out of the darkness. It touches the side of the horizator's hull, and the ship vibrates around them. <br><br> ''I'll do the fighting--you get through to the Nii!''",
+
+"He jumps for the lasergun and its shield. <br><br> rearing above them, the claw looms, its blind shark end flexing like a wasp's sting. then it rips down. Soundlessly it tears the horizator in half. <br><br> One half spirals away, smooth and fast, blinking off into an infinity of darkness. <br><br> the other half, with both of them clinging to it, is still clutched in the monster claws.",
+
+"Whatever the Priestess has made Tam, it is quick and deadly. He's an animal, uncontrollable, stuffed with reflexes to the end of his fingers. <br><br> Frantically they struggle with unfamiliar controls. The repair system spews out replacement parts faster than he can catch them. Fragments of memory flash across the monitor screens.",
+
+"The entry port irises open. Force fields play around it, lambient white. Laser fire shoots out toward them. <br><br> Behind them stands Brady, invulnverable. And beside him seems to stand an old japanese woman, wild grey hair streaming down to her waist, shrieking in mad glee.",
+
+//Tetris puzzle 
+
+// link to no/tetris puzzle from here
+
+
+
+
+
+
 
  
 // 3. “Once Brady is dead, the Nii  may be more reasonable.  Kill Brady…”,
@@ -824,9 +886,36 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // next takes you back to the 3 choices.  
 
-// interShipCommunicator
 
-"",
+
+
+
+
+
+
+// 19 Choice 3 He has sexual power too; her powers depend on him. he can control  the situation. - rape Are we taking this out??????? 
+
+"He's heard in prison that the earring is the key. <br><br> There is no mystery about the Priestesses. They're arco-engineers. They're zapped full of nanocomputers that do all the work while they play Sex Goddess of the Universe. Removing the earring kickes in their programming. The rest is smoke and mirrors. <br.<br> And bodies. <br><br> ''Fuck the Emperor,'' he mutters.",
+
+"He touches his red prison suit and it opens down to his groin. The ''ice'' is not ice, but it is cold, jellylike on his bare skin. Her body slips greasily under his, He holds her down on the slab, rough, his left arm with its half-useless hand pinning her across her shoulder blades, He needs more hands than he has. For four year he has though of the first woman he would have after prison. A Pallas womam, perfumed in a thousand places. This girl is cold and unlubricated, like an iced rubber glove. <br><br> With the icy cold white light and the ice jelly, it's like making love to the dead in a morgue.",
+
+"He rides his brutality, he pushes against it like G-force. He feels power like the prison trusties on Circe must have felt toward him. <br><br> He sees a silver of her eyeballs under her partly closed eyelids. She is waking up. Suddenly he is uncontrollable, shuddering, coming in a spasm of revenge. <br><br> He rips her virgin's earing and throws it onto the floor. A globe of blood swells in the ice near her ear, then spreads.",
+
+"No more virgin Priestess. And she hasn't turned him into her slave. <br><br> The ship's heat cricuits out in as he fastens his jumpsuit. He begins to sweat, smelling his bodystink over the cool neutral air of the lifeship. The half-moon of the ice dissolves, rivulets flowing down into the surface if the egg-ship. Her blood flows with it, down in a watery delta. The lifeship will use it. <br><br> The girl opens her eyes and reaches up her hand to her bloodied ear.",
+
+"She looks up at him, her eyes ageless and unfathomable. ''You did the Ceremony,'' she says. He nods. He has power over her. he feels it in what his body has done to hers. <br>,br> ''Now I have my powers,'' she murmurs. <br><br> Not over me, Tam thinks. ''I did you a favor. I woke you up. Now I need your help to get the ship going,'' he says. <br><br> She looks him deep in the eyes. The blood is still flowing from her ear. She pinches the lobe between two fingers and the blood stops. <br><br> ''Oh, yes,'' she says, ''I can heal the Lady Nii.'' He puts his hand on her arm but she draws back, following him without touching him.",
+
+"He goes first, propelling himself down the pitted and murky port corridor toward the greatship. He can see the white plume of air leaking from his suit. He slaps a seal-patch pver it. <br><br> The priestess needs no suit here. She is spacehabbed. <br><br. He has only a dagger, a prison weapon, made from the Circean mineral called heartsblood, chipped and edged in the long nights in the mines. The thongs that wrap the handle are a man's skin. <br><br> Around the lock there are only the fossilized pale marks of water impurities; it has been so long since the lock was opened that no ice crystals blur its metal leaves.",
+
+"The outside of the ship is scarred from meteors and hard radiation",
+
+// insert tiger puzzle maintenance panel
+
+"The Priestess steps up to the picturelock. Her fingers work by themselves, and through the metal of the ship Tam feels a vibration. <br><br> The leaves of the airlock iris slowly open, as if they are doing something unnatural, moving against the flow of time.",
+
+// black screen
+
+// add the rest off lifeship option three here 
 
 "An End <br><br> Not The End. Not one end, ineitable, inexortable, inflexible, but may ends. <br><br>  Today,tomarrow, forever.  <br><br> Remember the old man  and his machines. The woman of Pallas, soft and warm. The little black flies. Remember the rebolution. <br><br>  Next  time you read this tale,  the end will be differnt. To change is to be human. Only the Nii will be the same.",//ending lines
 ];
