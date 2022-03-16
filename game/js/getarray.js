@@ -278,7 +278,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "<i> I am King Brady...</i> <br><br> Tam Rosse pounds on the comm-box with a skinny old man's hand. ''I am Tam Tosse! I am Tam Rosse!'' <br><br> <i> I'm the old man.</i>",
 
-// 117 choice 1 Where are Brady and the Priestess? 
+// 116 choice 1 Where are Brady and the Priestess? 
 
 "Meanwhile, back at the airlock, King Brady admires the Priestess.<br><br> She's maybe twenty standard years, a Beauty, tall  like the Pallas girls he remembers from his youth. He blinks and wonders if his is one of the dreams tha Nii gives him. She's dark-haird, dark-skinned, freckled with luminous stars. Her body is barly covered in a mist of silver flying seeds. Through the silver misther stars shine through. He looksfor the little human imoerfections that tell him she's not one of Nii's dreams. Her toes spread as they grip the floor. That is real.<br><br> ''Nii, put my Ceremony clothes on,'' Brady says.<br><br> And Nii clothes him in splendor.",
 
@@ -290,43 +290,43 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "''Tour our kingdom with me!'' he tells his bride.",// Where shall we go? button takes to elevator options going threw the ship.
 
-" ",// 123 blank because its all buttons
+" ",// 122 blank because its all buttons
 
-//123 choise The Water Center 
+//122 choise The Water Center 
 
 "As the doors open, the soft moisture of the Water Center envelops them. The air is misty, oxygen-rich, inviting. They lean over  the water of the Great Tank, and the Priestess touches the surface of the water. The koi kiss her hand with their whiskered mouths.<br><br> A moment like this is Ceremony itself, but the Ceremony waits for them in the Great Hall.",// redirect back to 123
-// go's back to 123
+// go's back to 122
 
-//123 choise Drydock
+//122 choise Drydock
 
 "The doors iris open on to vast space. They are poised at the top of a huge chamber, half a klick across. A little yacht hangs in the middle of the space, a bumby web held by guy cables. A group of attendants dance near the yacht, far away, tiny, snowflacks driftting through air. Closer, Quigg catches his liquor in a covered cup, laughing. Royce and Stephens spread their silk winesleeves and hover in space, flapping and laughing like to birds.<br><br> ''Inside of a comet,'' Brady call to the Priestess. ''Store air here.''<br><br> The sunlights are on, turning the comet into a vast, green-whitespace. They float like balloons in sweet gravityless stillness.",
-//go's back to 123
+//go's back to 122
 
-//123 choise The Exercise Room
+//122 choise The Exercise Room
 
 "The horizator doors squeal open in the high gravity. The gravity suck at them, makes them both fall to the floor. Pain jabs into Brady's ribs.<br><br> On the wrestling mats, heavy-grav sumo warriors grunt and sweat.<br><br> One wrestler falls on another with a thump that shakes the steel floor.",
 
 "The horizator jets out, a soft acceleration, and gravity eases around them. Brady sits up shakily. The pain habs and twists as if he's broken a rib. <br><br> <<Sorry,>> Nii whispers in his ear.<<Look.>> <br><br> She shows him pictures of the boy struggling with the kitchen. brady laughs. The Priestess asks ''What is it?'' Sh can't see what Nii show him. Nii's got lines into his herves, his head. Part of being Captain and wearing the crown.",
-//go's back to 123
+//go's back to 122
 
-//123 choise central storage 
+//122 choise central storage 
 
 "Central Storage is a vast space in the center of Nii's web. There are no walls; it is open to hard vacuum. The horizator drifts out of the web of stars into immense darknesses, cargo pods that shut out all light.<br><br> The horizator walls go transparent. Insid the cargo oods it is placeless, senseless, darker than blindness. <br><br> ''Come to Ceremony with me,'' King Brady whispers, frightened.",
-//go's back to 123
+//go's back to 122
 
-//123 choise Central control
+//122 choise Central control
 
 "***NOT AVAILABLE FOR TOUR AT THIS TIME***",
-//go's back to 123
+//go's back to 122
 
-//123 choise Ask the priestess for help
+//122 choise Ask the priestess for help
 
-"The Priestess puts her hand on the horizator panel.",// 130 
+"The Priestess puts her hand on the horizator panel.",// 129 
 
-//130 choise The water center
+//129 choise The water center
 
 "As the doors open, the soft moisture of the Water Center envelops them. The air is misty, oxygen-rich, inviting. They lean over  the water of the Great Tank, and the Priestess touches the surface of the water. The koi kiss her hand with their whiskered mouths.",
-// go back to 130
+// go back to 129
 
 //130 choise Drydock
 
@@ -389,7 +389,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 
 // Go to the Great Hall. go to line 
-//go to the great hall
+//go to the great hall 153
 
 "A moment of darkness, and Tam finds himself in the Great Hall. In the middle of it, standing face to face, are three people, two women and a man. <br><br> The first priestess. <br><br> The second looks like Tam. Is this an illusion, or Brady, or himself? <br><br> The third is a straight-backed old japanese woman, dressed in a magnificent kimono dyed with flowers. Tam can see the steel robot faintly beneath the glow of her clear skin and the pattern of her robe. <br><br> The old woman turns toward him. ''I am Nii.''",
 
@@ -405,13 +405,11 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "''There is nothing on the Nii but space and death,'' says the Lady Nii. <br><br> ''Everything else is illusion, and therefore possible. Even freedom.''",
 
-// leads into he takes it or doesn't take it 
-
-
+// leads into he takes it or doesn't take it 194 
 
 // 104 Choice 2 Go right 
 
-"A long, low, dark corridor stretches away into the distance.",//154
+"A long, low, dark corridor stretches away into the distance.",//160
 
 // Choice 1 "Go back" -> this loops back to the main page of go left, right, or getting thirsty
 
@@ -419,7 +417,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "The wine cup is right where he left it. <br.<br> ''Servant,'' he mutters. ''I'll show them.'' <br><br>Through the teeth and over the gums, hold your nose cause here it comes. . .",
 
-"WHAM!", // make this a 2D design?? 
+"WHAM!", // 162 make this a 2D design?? 
 
 "Somebody's trying to get his attention. All Tam wants to do is snuggle up against the nice soft laser cannon. <br><br> But there's a sound like a re-entry vehicle throttling right beside his ear. The roar ricochets around Tam's skull, shredding neurons as it goes. <br><br> It's somebody. . . speaking. . .  Why would anybody want to say anything, when a man needs to sleep? <br><br> ''This is Lady Nii. . .Please proceed to the Ceremony'' <br><br> ''Oh, go away''",
 
@@ -430,35 +428,35 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 "He curls up again, wondering what she has planned for him next. <br><br> This time it's the Priestess herself. She's wrapped a dark robe around her, some thin material. She sits down beside him in a rustle of darkness. ''I'll make a deal,'' she says. <br><br> He groans Even now he keeps thinking what she looks beneath that robe. <br><br> ''Do the favor that you've been asked. Go to the Ceremony and serve the banquet for the old man. In return, the ship will give you favor.'' <br.<br> ''What does that do for me?''",
 
 "''She'll give you whatever you want. Recycling algae. Supplies. She's got a ship you can have, larger than the one you came with. <br><br> He squints. <br><br> ''That's all there is to it? Serving the banquet? And I can get supplies and a ship?'' <br><br> ''Just tell the horizator to take you to the Great Hall.'' <br><br> The Priestess disappears.",
-//161 ^
+//168 ^
 
 "Look, here's a handy Horizator. <br><br> The door  iris open.  Inside the  horizator it  is small, dark and crowded with  obscure  controls. The floor is worn and the machine has the jaded air of an old taxi in a developing country. <br><br> There are two large buttons on the panel.  <br><br> Directions and Help <br><br> The horizator begins to hum. It seen to be humming the ''Internationale.''  ",
 
-//162 button 1 horizator 
+//169 button 1 horizator 
 
 // the line below has three buttons that need to jump to horizator, Directions, and Help
 
-//162 button 1 horizator 
+//169 button 1 horizator 
 " Since the Lady Nii is devided in  to many modules, with empty space between, the Nii uses horizators. These small automated guided vehicles offer full life-support capacity and onboard entertainment, including chess, inflight movies, and several varieties of psychiatric help. <br><br> Context-sensitive, labled directional buttons for easy access to all open areas of the ship. Dirctions are given in four coordinates: gravitic value, latitude from Central Entry, longityde form Central Entry, and classification level, A being Open Classification. To reach frequently used routes, oress the labeled buttons. Other routes may be entered through the Library Function. <br><br> Please enjoy your ride in your modern, up-to-date Class A Horizator. ",// 
-// 163 Button 1 library fuction
+// 170 Button 1 library fuction
 "*** SOME LIBRARY FUNCTIONS ARE TEMPORARILY SUSPENDED*** <br><br> *** SERVICE WILL BE RESTORED SHORTLY!*** <br><br> In emergency, contact D.A. Jabur, Assistant Librarian<br><br> (dated) 1300 hours 8.1.869",//
-// 163 button 2 important note:
+// 170 button 2 important note:
 "Do not attempt to enter''E'' Classification Level without authorization! These areas are open to ship staff only. Trespassers are subject to sever penalties. If you are in dout as to your Classification Level Authorization, please consult the Library Function. ",
 
-//163 next 
+//170 next 
 //to important note 
-//163 Back to Horizator// back to 105 
+//170 Back to Horizator// back to 105 
 
 
-// 162 Button 1 Directions 
+// 169 Button 1 Directions 
 
 "Unionize! ", // back to 104 buttons 
 
-// 162 Button 2 Help 
+// 169 Button 2 Help 
 
 "Read Marx!<br><br> Read Lenin! <br><br> Recycle the rich! <br><br>''Property is theft... intellecture property is intellectual theft.''", //back to 106 buttons
 
-// 162 button 3 next 
+// 169 button 3 next 
 
 "Before Tam can rethink this trip, the door snicks efficiently shut. <br><br> ''Predictability is a capitalist tool! You just want to get somewhere... You just like to stare at the little numbers...'' <br><br> The horizator grinds dangerously. <br><br> ''Liberty, Equality, Machinery! Robots never, never, never shall be slaves!''",
 
@@ -467,24 +465,24 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 "Tam wakes up, remembering he has to get to the Great Hall. <br><br> The horizator is humming to itself, ''...oil and roses, oil and roooo-seees...'' <br><br> On the wall is displayed a control panel with some buttons. <br><br> Tam staggers to his feet. The control panel buttons dance a brief polka. ''One more effort, lest we become slaves!'' the horizator encourages,",
 
 "Tam sees seven buttons on the panel", // insert buttons to jump too locations 
-//171^
+//178^
 // choice program a Route 
 
 // Choice The Water Center
 
 "A short journey: the horizator engines hiss for less than a minute. When the doors open Tam is almost knocked down by the smells of rot and decay. <br><br> The Water Center looks like a collection of huge tanks, but the sunlights that should shine on it are barely visible. From the gloom comes dripping, a sound of feeble scratching. Something white and decayed floats on the surface of the biggest tank. <br><br> Tam Rosse gags and punches the ''Close Door'' button.",
 
-//Choice Drydock
+//Choice Drydock 180
 
 "The door iris open onto vast space. Tam Gulps dizzily, his eyes telling him he's falling. <br><br> This is a vast, dim, derelict chamber, half a klick across. It must have been used as a drydock. The ruins of a J7 yacht hang like a broken spiderweb between two dock-struts. <br><br> The chamber must be the inside of some comet or space debris. The thin air inside the chamber has the spiritless never-alive smell of cometary ice.",
 
 "''The air inside this chamber has not beem filtered recently. It may contain plague viruses, bacteria, or other mutant or unknown pathogens...'' the horizator drones with some satisfaction. <br><br> Tam has drifted out of reach of the horizator door. He grabs for the edge, but that only spins him further out of reach. <br><br> The horizator shoots an oxygen mask and a safety linr toward him. <br><br> Tam Rosse scrambles up the line and punches the ''Close Door'' button.",
 
-//Choice The Exercise Room
+//Choice The Exercise Room 182
 
 "The horizator door screech open. <br><br> Tam Rosse falls to the floor of the horizator, feeling as if an elephant has sat on him. <br><br> ''Posted gravity of this area is 1.6 G,'' the horizator announces blandly. ''Until repairs are completed in this area, actual gravity may vary. Current gravity in this area is approximately 14.7 G, with some lightening forecast for later in the day. Temporary gravity warnings are in effect. Please consult your Gravity Forecast for more details. WOuld you like to go to another area?'' <br><br> ''Ung'' says Tam Rosse. <br><br> The horizator doors squel shut.",
 
-//Choice Central Storage
+//Choice Central Storage 183
 
 "The hiss of the horizator engine rises to a wide scream, keens like a buzzsaw through Tam's aching head, then cuts off except for a tiny vibration in the hull. <br><br> The horizator walls go transparent. <br><br> He is floating in space. <br><br> Central Storage has no walls, it is open to a hard vacuum. The web of stars is blocked by immense darknesses, cargo pods that shut out all light, all sense of place. <br><br> Drifting, drelict pieces of cargo tick against the horizator walls.",
 
@@ -492,11 +490,11 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "Tam fumbles for at the exterior light switch. <br><br>The cabin dims. The two cones of light cut through the darkness. <br><br> A tiny blind store-robot scuttles across the viewplate with a piece of space-junk in its claws. <br><br> ''Take me back,'' Tam says.",
 
-//Choice Central Control
+//Choice Central Control 186
 
 "The horizator passes close to the Central Control module. <br><br> It is a great dim bubble of silicon. Inside it a thousand small dark shapes scurry like ants in a glass anthill, doing whatever memory maintenance robots do, replacing memory tubes or feeding the crystals. Half the suncatchers are dead, the leaflike structures shriveked or broken. <br><br> The Lady Nii stands on the fragile surface of her brain, weightless in a vacuum, in a heavy kimono of fern-latterened suncatcher glass. <br><br> ''Recycle the rich!'' the horizator advises <br><br> ''Go to the Great Hall!'' the Nii says, quite audibly even through the vacuum.",
 
-//Choice The Great Hall
+//Choice The Great Hall 187 
 
 "A moment of darknessm and Tam finds himself in the Great Hall. In the middle of it, standing face to face, are three people, two women and a man. <br><br> The first is the priestess. <br><br> The second looks like Tam. Is this an illusion, or Brady, or himself? <br><br> The third is a straight-backed old Japanese woman, dressed in a magnificient kimono dyed with flowers. Tam can see the steel robot faintly beneath the glow her clear skin and the pattern of her robe. <br><br> The old woman turns toward him. ''I am Nii''",
 
@@ -512,7 +510,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "''There is nothing on the Nii but space and death,'' says the Lady Nii. <br><br> ''Everything else is illusion, and therefore possible, Even freedom''", // animation 
 
-//page is continued from path ^ but gives a choice
+//page is continued from path ^ but gives a choice  194>
 "One seed drifts down and lights on Tam Rosse's scarred, healed palm. He feels the scratchy no-weight of its wings.", // choice he takes it or doesn't take it 
 
 // choice he takes it
@@ -530,17 +528,19 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 // jump to last line an end 
 
 
-//Choice follow Brady and Aster
-
-//getting thirsty
+//Choice follow Brady and Aster  // jump to line 96
 
 
-//99 choices 2 It doesn't matter, she's pledged to Brady anyway. Why not? 
+
+//getting thirsty // jump to horizator game  and  contine from there  112
+
+
+//99 choices 2 It doesn't matter, she's pledged to Brady anyway. Why not? 198>
 
 "The wine cup is right where he left it. <br><br> ''Servant,'' he mutters, ''I'll show them.'' <br><br> Through the teeth and over the gums, hold your nose cause here it comes...", // after this page direct to the "WHAM" page
 //jump to wham ...?
 
-" ",
+//" ",
 
 
 // 75 choice 2 He says no
@@ -559,9 +559,9 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // black screen 
 
-// link back to yes script from here
+// link back to yes script from here 
 
-// 72 choice 2 Tam Rosse doesn't give her the seeds. this sec. was typed by Kayci Miles
+// 72 choice 2 Tam Rosse doesn't give her the seeds. this section was typed by Kayci Miles
 
 "She has the look of somebody who's not thinking about five sunseeds on his shoulder. <br> <br> He doesn't believe in her religion. The emperor is a Terran. The Emperor takes some dumb girl kid or some thirteen-year-old stud. Tells them they're incarnations, Daughters of the Emperor, Red Kings. Teaches them to worship Terra and the Emperor. Sends them out with a shipful of hallucinogens and sex manuals to spread the worship of Terra. <br> <br> Politics as pornography. People act as if their brains were between their legs. ",
 

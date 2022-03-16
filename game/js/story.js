@@ -200,7 +200,7 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 300 ; // not give seeds 
+					current = 203 ; // not give seeds 
 					// print out array
 					getstory(current);
 				}
@@ -224,7 +224,7 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 300 ; // no 
+					current = 199 ; // no 
 					// print out array
 					getstory(current);
 				}
@@ -290,7 +290,7 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 300 ; // why not 
+					current = 199 ; // why not 
 					// print out array
 					getstory(current);
 				}
@@ -356,12 +356,12 @@ function onstart(){
 				if(temp === 'two'){
 					
 
-					current = 154 ; // go right
+					current = 161 ; // go right
 					// print out array
 					getstory(current);
 				}
 				else if (temp  === 'three'){
-					current = 155; // getting thirsty
+					current = 162; // getting thirsty
 					getstory(current);
 				}
 
@@ -472,7 +472,7 @@ function onstart(){
 
 				break;
 
-			case 114:
+			case 113:
 				//window.alert('kitchen');
 				if(confirm("do you want to play a mini game? kitchen ")){
 					//radarstart()
@@ -488,14 +488,14 @@ function onstart(){
 
 				break;
 
-			 case 117:	
+			 case 116:	
 			// unhide choise buttons 
 				// hide next 
 				hide('Next');
 				hide('choiseone');
 				hide('choisetwo');
 				document.getElementById('choiseone').innerHTML = `Where are Brady and the Priestess? `;
-				document.getElementById('choisetwo').innerHTML = ` It doesn't matter, she's pledged to Brady anyway. Why Not? `;
+				document.getElementById('choisetwo').innerHTML = `  Go to Great Hall`;
 
 				if(temp === 'one'){
 					current = 117;// Where are Brady and the Priestess? 
@@ -506,13 +506,13 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 300 ; // why not 
+					current = 153 ; // Great Hall 
 					// print out array
 					getstory(current);
 				}
 				 break;
 			
-			case 123:
+			case 122:
 			hide('Next');
 				hide('choiseone');
 				hide('choisetwo');
@@ -531,38 +531,38 @@ function onstart(){
 				document.getElementById('choiseseven').innerHTML = `Ask the priestess for help `;
 				
 				if(temp === 'one'){
-					current = 124;// The Water Center 
+					current = 123;// The Water Center 
 					// print out array
 					getstory(current);
 
 				}
 				if(temp === 'two'){
-					current = 125 ; // Drydock
+					current = 124 ; // Drydock
 					// print out array
 					getstory(current);
 				}
 				 if (temp  === 'three'){
-					current = 126; // The Exercise Room
+					current = 125; // The Exercise Room
 					getstory(current);
 
 				}
 				if(temp === 'four'){
-					current = 136;// Great Hall
+					current = 135;// Great Hall
 					// print out array
 					getstory(current);
 
 				}
 				if(temp === 'five'){
-					current = 128 ; // central storage 
+					current = 127 ; // central storage 
 					// print out array
 					getstory(current);
 				}
 				 if (temp  === 'six'){
-					current = 129; // Central Control
+					current = 128; // Central Control
 					getstory(current);
 				}
 				else if (temp  === 'seven'){
-					current = 130; // Ask the priestess for help
+					current = 129; // Ask the priestess for help
 					getstory(current);
 				}
 
@@ -570,29 +570,29 @@ function onstart(){
 				break;
 
 
+			case 123:
+
+				current = 122;
+				break;
+
 			case 124:
-
-				current = 123;
+				current = 122;
 				break;
 
-			case 125:
-				current = 123;
-				break;
+			case 126:
 
+				current = 122;
+				break;
 			case 127:
 
-				current = 123;
+				current = 122;
 				break;
 			case 128:
 
-				current = 123;
-				break;
-			case 129:
-
-				current = 123;
+				current = 122;
 				break;
 
-		case 130:
+		case 129:
 			hide('Next');
 				hide('choiseone');
 				hide('choisetwo');
@@ -609,67 +609,75 @@ function onstart(){
 				document.getElementById('choisesix').innerHTML = ` Central Control `;
 				
 				if(temp === 'one'){
-					current = 131;// The Water Center 
+					current = 130;// The Water Center 
 					// print out array
 					getstory(current);
 
 				}
 				if(temp === 'two'){
-					current = 132 ; // Drydock
+					current = 131 ; // Drydock
 					// print out array
 					getstory(current);
 				}
 				 if (temp  === 'three'){
-					current = 133; // The Exercise Room
+					current = 132; // The Exercise Room
 					getstory(current);
 
 				}
 				if(temp === 'four'){
-					current = 136;// great hall
+					current = 135;// great hall
 					// print out array
 					getstory(current);
 
 				}
 				if(temp === 'five'){
-					current = 134 ; // central storage 
+					current = 133 ; // central storage 
 					// print out array
 					getstory(current);
 				}
 				else if (temp  === 'six'){
-					current = 135; // Central Control
+					current = 134; // Central Control
 					getstory(current);
 				}
 				break;
 
-			case 131:
+			case 130:
 
-				current = 130;
+				current = 129;
+				break;
+
+			case 131:
+				current = 129;
 				break;
 
 			case 132:
-				current = 130;
-				break;
 
+				current = 129;
+				break;
 			case 133:
 
-				current = 130;
+				current = 129;
 				break;
 			case 134:
 
-				current = 130;
-				break;
-			case 135:
-
-				current = 130;
+				current = 129;
 				break;
 
 
-			case 153:
+			case 152:
 				current =  300; //last line.... 
 
 				break;
 
-			case 154:
+
+
+			case 160:
+					current = 194
+				 break;
+
+
+			case 160:
+				 
 			// unhide choise buttons 
 				
 				hide('Next');
@@ -686,19 +694,21 @@ function onstart(){
 
 				}
 				if(temp === 'two'){
-					current = 154 ; // go right
+					
+
+					current = 160 ; // go right
 					// print out array
 					getstory(current);
 				}
 				else if (temp  === 'three'){
-					current = 155; // getting thirsty
+					current = 161; // getting thirsty
 					getstory(current);
 				}
 
 				 break;
 
 
-				 case 162:
+				 case 168:
 					// unhide choise buttons 
 				
 				hide('Next');
@@ -711,29 +721,29 @@ function onstart(){
 				document.getElementById('choisethree').innerHTML = ` Help `;
 				document.getElementById('choisefour').innerHTML = ` Next `;
 				if(temp === 'one'){
-					current = 163;// horizator
+					current = 169;// horizator
 					// print out array
 					getstory(current);
 
 				}
 				if(temp === 'two'){ 
-					current = 166 ; // directions
+					current = 172 ; // directions
 					// print out array
 					getstory(current);
 				}
 				else if (temp  === 'three'){
-					current = 167; // help
+					current = 173; // help
 					getstory(current);
 				}
 				else if (temp  === 'four'){
-					current = 168; // next 
+					current = 174; // next 
 					getstory(current);
 				}
 
 				 break;
 
 
-			case 163:
+			case 169:
 	// unhide choise buttons 
 				
 				hide('Next');
@@ -746,47 +756,47 @@ function onstart(){
 				document.getElementById('choisethree').innerHTML = ` Back to Horizator `;
 				document.getElementById('choisefour').innerHTML = ` Next `;
 				if(temp === 'one'){
-					current = 164;// library function 
+					current = 170;// library function 
 					// print out array
 					getstory(current);
 
 				}
 				if(temp === 'two'){
-					current = 165 ; // Important note
+					current = 171 ; // Important note
 					// print out array
 					getstory(current);
 				}
 				else if (temp  === 'three'){
-					current = 162; //Back to horizator
+					current = 168; //Back to horizator
 					getstory(current);
 				}
 				else if (temp  === 'four'){
-					current = 165; // next
+					current = 171; // next
 					getstory(current);
 				}
 
 				 break;
 
-			case 164:
+			case 170:
 
-				current = 163;
+				current = 169;
 				break;
 
-			case 165:
-				current = 163;
+			case 171:
+				current = 169;
 				break;
 
-			case 166:
+			case 172:
 
-				current = 162;
+				current = 168;
 				break;
-			case 167:
+			case 173:
 
-				current = 162;
+				current = 168;
 				break;
 
 
-case 171:
+case 177:
 			hide('Next');
 				hide('choiseone');
 				hide('choisetwo');
@@ -801,80 +811,144 @@ case 171:
 				document.getElementById('choisefour').innerHTML = `Great Hall  `;
 				document.getElementById('choisefive').innerHTML = ` Central Storage  `;
 				document.getElementById('choisesix').innerHTML = ` Central Control `;
-				
+				hide('choiseseven');
+				hide('choiseeight');
+				document.getElementById('choiseseven').innerHTML = `Follow Brady and Aster  `;
+				document.getElementById('choiseeight').innerHTML = ` Getting Thirsty  `;
 				if(temp === 'one'){
-					current = 131;// The Water Center 
+					current = 178;// The Water Center 
 					// print out array
 					getstory(current);
 
 				}
 				if(temp === 'two'){
-					current = 132 ; // Drydock
+					current = 179 ; // Drydock
 					// print out array
 					getstory(current);
 				}
 				 if (temp  === 'three'){
-					current = 133; // The Exercise Room
+					current = 181; // The Exercise Room
 					getstory(current);
 
 				}
 				if(temp === 'four'){
-					current = 136;// great hall
+					current = 186;// great hall
 					// print out array
 					getstory(current);
 
 				}
 				if(temp === 'five'){
-					current = 134 ; // central storage 
+					current = 182 ; // central storage 
+					// print out array
+					getstory(current);
+				}
+				if (temp  === 'six'){
+					current = 185; // Central Control
+					getstory(current);
+				}
+				if(temp === 'five'){
+					current = 96; // follow brady and aster 
 					// print out array
 					getstory(current);
 				}
 				else if (temp  === 'six'){
-					current = 135; // Central Control
+					current = 112; // getting thursty
 					getstory(current);
 				}
 
 				break;
 
-			case 131:
+			case 178:
 
-				current = 130;
+				current = 177;
 				break;
 
-			case 132:
-				current = 130;
+			case 179:
+				current = 177;
 				break;
 
-			case 133:
+			case 180:
 
-				current = 130;
+				current = 177;
 				break;
-			case 134:
+			case 182:
 
-				current = 130;
+				current = 177;
 				break;
-			case 135:
+			case 185:
 
-				current = 130;
+				current = 177;
 				break;
 
+			case 194:
+				// unhide choise buttons 
+				// hide next 
+				hide('Next');
+				hide('choiseone');
+				hide('choisetwo');
+				document.getElementById('choiseone').innerHTML = `He takes  the seed `;
+				document.getElementById('choisetwo').innerHTML = `  He doesn't take the seed`;
+
+				if(temp === 'one'){
+					current = 194;// takes
+					// print out array
+					getstory(current);
+
+				}
+				else if(temp === 'two'){
+					
+
+					current = 196 ; // no take
+					// print out array
+					getstory(current);
+				}
+				 break;
+
+			case 195:
+					current= 300;  // last line
+				break;
+
+			case 197:
+					current= 300;  // last line
+				break;
+
+			case 198:
+					current = 162 ;
+				break;
 
 			case 301: 
 					window.alert('horizator');
 					//horizatorstart();	
 					current++;
 				
-			case 174:
+				break;
+
+
+
+			case 201:
+
+				current = 79 ;
+				break;
+
+			case 206:
+
+				current = 79 ;
+				break;
+
+
+			case 474:
 
 				//hide('choiceone');
 				//document.getElementById('choiseone').innerHTML = `Acnologments  `;
 
 				//current = -1;// states story over. 
+				break;
 
 			default:
 				
 				current++;
 				//print out array
+
 			
 		}
 
