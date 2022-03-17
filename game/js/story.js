@@ -18,13 +18,13 @@ function onstart(){
 	console.log('it got here onstart');
   //hide('radar-puzzle');
  // hide('tiger-puzzle');
-  	hide('choiseone');
-	hide('choisetwo');
-	hide('choisethree');
-	hide('choisefour');
-	hide('choisefive');
-	hide('choisesix');
-	hide('choiseseven');
+  	hide('choiceone');
+	hide('choicetwo');
+	hide('choicethree');
+	hide('choicefour');
+	hide('choicefive');
+	hide('choicesix');
+	hide('choiceseven');
 
 	hide('Next');
 	
@@ -59,8 +59,8 @@ function onstart(){
 
 
 // need to change to if statements 
-	//hide('choiseone');
-	//hide('choisetwo');
+	//hide('choiceone');
+	//hide('choicetwo');
 
  function story(button) {
 	
@@ -116,10 +116,10 @@ function onstart(){
 				// hide next 
 				hide('Next');
 				
-				hide('choiseone');
-				hide('choisetwo');
-				document.getElementById('choiseone').innerHTML = `Tam Rosse brings his ship in to Synchronized orbit with the Lifeship `
-				document.getElementById('choisetwo').innerHTML = ` Tam Rosse brings his ship in to Synchronized orbit with the Greatship `
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `Tam Rosse brings his ship in to Synchronized orbit with the Lifeship `
+				document.getElementById('choicetwo').innerHTML = ` Tam Rosse brings his ship in to Synchronized orbit with the Greatship `
 
 				if(temp === 'one'){
 
@@ -153,10 +153,10 @@ function onstart(){
 				// unhide choise buttons 
 				// hide next 
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				document.getElementById('choiseone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. `;
-				document.getElementById('choisetwo').innerHTML = ` Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. `;
+				document.getElementById('choicetwo').innerHTML = ` Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
 
 				if(temp === 'one'){
 
@@ -186,10 +186,10 @@ function onstart(){
 			// unhide choise buttons 
 				// hide next 
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				document.getElementById('choiseone').innerHTML = `Tam Rosse gives her the seeds`;
-				document.getElementById('choisetwo').innerHTML = ` Tam Rosse doesn't give her the seeds`;
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `Tam Rosse gives her the seeds`;
+				document.getElementById('choicetwo').innerHTML = ` Tam Rosse doesn't give her the seeds`;
 
 				if(temp === 'one'){
 					current = 74;// give seeds
@@ -210,10 +210,10 @@ function onstart(){
 			// unhide choise buttons 
 				// hide next 
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				document.getElementById('choiseone').innerHTML = `He says yes `;
-				document.getElementById('choisetwo').innerHTML = ` He says no `;
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `He says yes `;
+				document.getElementById('choicetwo').innerHTML = ` He says no `;
 
 				if(temp === 'one'){
 					current = 77;// yes
@@ -251,10 +251,10 @@ function onstart(){
 
 			case 91:
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				document.getElementById('choiseone').innerHTML = `next `;
-				document.getElementById('choisetwo').innerHTML = ` Favor `;
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `next `;
+				document.getElementById('choicetwo').innerHTML = ` Favor `;
 
 				if(temp === 'one'){ 
 					current ++; // next
@@ -276,10 +276,10 @@ function onstart(){
 			// unhide choise buttons 
 				// hide next 
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				document.getElementById('choiseone').innerHTML = `The Priestess would like him to drink it. He's not going to give her the satisfaction. No.`;
-				document.getElementById('choisetwo').innerHTML = ` It doesn't matter, she's pledged to Brady anyway. Why Not? `;
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `The Priestess would like him to drink it. He's not going to give her the satisfaction. No.`;
+				document.getElementById('choicetwo').innerHTML = ` It doesn't matter, she's pledged to Brady anyway. Why Not? `;
 
 				if(temp === 'one'){
 					current = 99;// no
@@ -302,12 +302,12 @@ function onstart(){
 			// unhide choise buttons 
 				
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				hide('choisethree');
-				document.getElementById('choiseone').innerHTML = `Door one `;
-				document.getElementById('choisetwo').innerHTML = ` Door two `;
-				document.getElementById('choisethree').innerHTML = ` Next `;
+				hide('choiceone');
+				hide('choicetwo');
+				hide('choicethree');
+				document.getElementById('choiceone').innerHTML = `Door one `;
+				document.getElementById('choicetwo').innerHTML = ` Door two `;
+				document.getElementById('choicethree').innerHTML = ` Next `;
 				if(temp === 'one'){
 					current = 101;//  door one
 					// print out array
@@ -341,12 +341,12 @@ function onstart(){
 			// unhide choise buttons 
 				
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				hide('choisethree');
-				document.getElementById('choiseone').innerHTML = `Go left `;
-				document.getElementById('choisetwo').innerHTML = ` Go Right `;
-				document.getElementById('choisethree').innerHTML = ` Getting thirsty `;
+				hide('choiceone');
+				hide('choicetwo');
+				hide('choicethree');
+				document.getElementById('choiceone').innerHTML = `Go left `;
+				document.getElementById('choicetwo').innerHTML = ` Go Right `;
+				document.getElementById('choicethree').innerHTML = ` Getting thirsty `;
 				if(temp === 'one'){
 					current = 105;// go left
 					// print out array
@@ -371,14 +371,14 @@ function onstart(){
 					// unhide choise buttons 
 				
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				hide('choisethree');
-				hide('choisefour');
-				document.getElementById('choiseone').innerHTML = `Horizator `;
-				document.getElementById('choisetwo').innerHTML = ` Directions `;
-				document.getElementById('choisethree').innerHTML = ` Help `;
-				document.getElementById('choisefour').innerHTML = ` Next `;
+				hide('choiceone');
+				hide('choicetwo');
+				hide('choicethree');
+				hide('choicefour');
+				document.getElementById('choiceone').innerHTML = `Horizator `;
+				document.getElementById('choicetwo').innerHTML = ` Directions `;
+				document.getElementById('choicethree').innerHTML = ` Help `;
+				document.getElementById('choicefour').innerHTML = ` Next `;
 				if(temp === 'one'){
 					current = 106;// horizator
 					// print out array
@@ -406,14 +406,14 @@ function onstart(){
 	// unhide choise buttons 
 				
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				hide('choisethree');
-				hide('choisefour');
-				document.getElementById('choiseone').innerHTML = `Library Fuction`;
-				document.getElementById('choisetwo').innerHTML = ` Important note `;
-				document.getElementById('choisethree').innerHTML = ` Back to Horizator `;
-				document.getElementById('choisefour').innerHTML = ` Next `;
+				hide('choiceone');
+				hide('choicetwo');
+				hide('choicethree');
+				hide('choicefour');
+				document.getElementById('choiceone').innerHTML = `Library Fuction`;
+				document.getElementById('choicetwo').innerHTML = ` Important note `;
+				document.getElementById('choicethree').innerHTML = ` Back to Horizator `;
+				document.getElementById('choicefour').innerHTML = ` Next `;
 				if(temp === 'one'){
 					current = 107;// library function 
 					// print out array
@@ -492,10 +492,10 @@ function onstart(){
 			// unhide choise buttons 
 				// hide next 
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				document.getElementById('choiseone').innerHTML = `Where are Brady and the Priestess? `;
-				document.getElementById('choisetwo').innerHTML = `  Go to Great Hall`;
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `Where are Brady and the Priestess? `;
+				document.getElementById('choicetwo').innerHTML = `  Go to Great Hall`;
 
 				if(temp === 'one'){
 					current = 117;// Where are Brady and the Priestess? 
@@ -514,20 +514,20 @@ function onstart(){
 			
 			case 122:
 			hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				hide('choisethree');
-				document.getElementById('choiseone').innerHTML = `The Water Center  `;
-				document.getElementById('choisetwo').innerHTML = ` Drydock`;
-				document.getElementById('choisethree').innerHTML = ` The Exercise Room `;
+				hide('choiceone');
+				hide('choicetwo');
+				hide('choicethree');
+				document.getElementById('choiceone').innerHTML = `The Water Center  `;
+				document.getElementById('choicetwo').innerHTML = ` Drydock`;
+				document.getElementById('choicethree').innerHTML = ` The Exercise Room `;
 			
-				hide('choisefour');
-				hide('choisefive');
-				hide('choisesix');
-				document.getElementById('choisefour').innerHTML = `Great Hall `;
-				document.getElementById('choisefive').innerHTML = ` Central Storage  `;
-				document.getElementById('choisesix').innerHTML = ` Central Control`;
-				hide('choiseseven');
+				hide('choicefour');
+				hide('choicefive');
+				hide('choicesix');
+				document.getElementById('choicefour').innerHTML = `Great Hall `;
+				document.getElementById('choicefive').innerHTML = ` Central Storage  `;
+				document.getElementById('choicesix').innerHTML = ` Central Control`;
+				hide('choiceseven');
 				document.getElementById('choiseseven').innerHTML = `Ask the priestess for help `;
 				
 				if(temp === 'one'){
@@ -594,19 +594,19 @@ function onstart(){
 
 		case 129:
 			hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				hide('choisethree');
-				document.getElementById('choiseone').innerHTML = `The Water Center  `;
-				document.getElementById('choisetwo').innerHTML = ` Drydock`;
-				document.getElementById('choisethree').innerHTML = ` The Exercise Room `;
+				hide('choiceone');
+				hide('choicetwo');
+				hide('choicethree');
+				document.getElementById('choiceone').innerHTML = `The Water Center  `;
+				document.getElementById('choicetwo').innerHTML = ` Drydock`;
+				document.getElementById('choicethree').innerHTML = ` The Exercise Room `;
 			
-				hide('choisefour');
-				hide('choisefive');
-				hide('choisesix');
-				document.getElementById('choisefour').innerHTML = `Great Hall  `;
-				document.getElementById('choisefive').innerHTML = ` Central Storage  `;
-				document.getElementById('choisesix').innerHTML = ` Central Control `;
+				hide('choicefour');
+				hide('choicefive');
+				hide('choicesix');
+				document.getElementById('choicefour').innerHTML = `Great Hall  `;
+				document.getElementById('choicefive').innerHTML = ` Central Storage  `;
+				document.getElementById('choicesix').innerHTML = ` Central Control `;
 				
 				if(temp === 'one'){
 					current = 130;// The Water Center 
@@ -681,12 +681,12 @@ function onstart(){
 			// unhide choise buttons 
 				
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				hide('choisethree');
-				document.getElementById('choiseone').innerHTML = `Go back `;
-				document.getElementById('choisetwo').innerHTML = ` Go Right `;
-				document.getElementById('choisethree').innerHTML = ` Getting thirsty `;
+				hide('choiceone');
+				hide('choicetwo');
+				hide('choicethree');
+				document.getElementById('choiceone').innerHTML = `Go back `;
+				document.getElementById('choicetwo').innerHTML = ` Go Right `;
+				document.getElementById('choicethree').innerHTML = ` Getting thirsty `;
 				if(temp === 'one'){
 					current = 104;// go left
 					// print out array
@@ -712,14 +712,14 @@ function onstart(){
 					// unhide choise buttons 
 				
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				hide('choisethree');
-				hide('choisefour');
-				document.getElementById('choiseone').innerHTML = `Horizator `;
-				document.getElementById('choisetwo').innerHTML = ` Directions `;
-				document.getElementById('choisethree').innerHTML = ` Help `;
-				document.getElementById('choisefour').innerHTML = ` Next `;
+				hide('choiceone');
+				hide('choicetwo');
+				hide('choicethree');
+				hide('choicefour');
+				document.getElementById('choiceone').innerHTML = `Horizator `;
+				document.getElementById('choicetwo').innerHTML = ` Directions `;
+				document.getElementById('choicethree').innerHTML = ` Help `;
+				document.getElementById('choicefour').innerHTML = ` Next `;
 				if(temp === 'one'){
 					current = 169;// horizator
 					// print out array
@@ -747,14 +747,14 @@ function onstart(){
 	// unhide choise buttons 
 				
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				hide('choisethree');
-				hide('choisefour');
-				document.getElementById('choiseone').innerHTML = `Library Fuction`;
-				document.getElementById('choisetwo').innerHTML = ` Important note `;
-				document.getElementById('choisethree').innerHTML = ` Back to Horizator `;
-				document.getElementById('choisefour').innerHTML = ` Next `;
+				hide('choiceone');
+				hide('choisctwo');
+				hide('choicethree');
+				hide('choicefour');
+				document.getElementById('choiceone').innerHTML = `Library Fuction`;
+				document.getElementById('choicetwo').innerHTML = ` Important note `;
+				document.getElementById('choicethree').innerHTML = ` Back to Horizator `;
+				document.getElementById('choicefour').innerHTML = ` Next `;
 				if(temp === 'one'){
 					current = 170;// library function 
 					// print out array
@@ -798,23 +798,23 @@ function onstart(){
 
 case 177:
 			hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				hide('choisethree');
-				document.getElementById('choiseone').innerHTML = `The Water Center  `;
-				document.getElementById('choisetwo').innerHTML = ` Drydock`;
-				document.getElementById('choisethree').innerHTML = ` The Exercise Room `;
+				hide('choiceone');
+				hide('choicetwo');
+				hide('choicethree');
+				document.getElementById('choiceone').innerHTML = `The Water Center  `;
+				document.getElementById('choicetwo').innerHTML = ` Drydock`;
+				document.getElementById('choicethree').innerHTML = ` The Exercise Room `;
 			
-				hide('choisefour');
-				hide('choisefive');
-				hide('choisesix');
-				document.getElementById('choisefour').innerHTML = `Great Hall  `;
-				document.getElementById('choisefive').innerHTML = ` Central Storage  `;
-				document.getElementById('choisesix').innerHTML = ` Central Control `;
-				hide('choiseseven');
-				hide('choiseeight');
-				document.getElementById('choiseseven').innerHTML = `Follow Brady and Aster  `;
-				document.getElementById('choiseeight').innerHTML = ` Getting Thirsty  `;
+				hide('choicefour');
+				hide('choicefive');
+				hide('choicesix');
+				document.getElementById('choicefour').innerHTML = `Great Hall  `;
+				document.getElementById('choicefive').innerHTML = ` Central Storage  `;
+				document.getElementById('choicesix').innerHTML = ` Central Control `;
+				hide('choiceseven');
+				hide('choiceeight');
+				document.getElementById('choiceseven').innerHTML = `Follow Brady and Aster  `;
+				document.getElementById('choiceeight').innerHTML = ` Getting Thirsty  `;
 				if(temp === 'one'){
 					current = 178;// The Water Center 
 					// print out array
@@ -884,10 +884,10 @@ case 177:
 				// unhide choise buttons 
 				// hide next 
 				hide('Next');
-				hide('choiseone');
-				hide('choisetwo');
-				document.getElementById('choiseone').innerHTML = `He takes  the seed `;
-				document.getElementById('choisetwo').innerHTML = `  He doesn't take the seed`;
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `He takes  the seed `;
+				document.getElementById('choicetwo').innerHTML = `  He doesn't take the seed`;
 
 				if(temp === 'one'){
 					current = 194;// takes
