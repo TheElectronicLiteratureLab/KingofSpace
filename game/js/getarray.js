@@ -18,7 +18,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "His eyes blur as he tries to read nav charts. He is only twenty-tree but his hands shake as he keys in chart coordinates. <br> <br> He remembers his dream and smiles mirthlessly. They burned his hand on Pallas, trying to make him give names of the others who were trying to breed Plague resistance. Some Priestess's slave-King burned the gene tattoo off his palm, skin, nerves  and all. He clenches and unclenches it, holding his anger in his bad hand. <br> <br> There is no inhabited asteroid within a halfmonth, not even a miner's claim. And he has less that a shipday worth of air.", //7
 
-// Game here radar.... between 7 and 8
+// Game here radar.... between 7 and 8 
 
 "The radar beacon has locked on to something. <br> <br>Barely visible, a shadow-shape blocks the stars. <br><br> <i>Eternal Mother!</i> - it's a ship. An old one, and huge. <br> <br> It's the size of a Class A town, a great irregular cloud of modules and environments, furred with the junk of a thousand System journeys, revolving around itself in a vast complexity of orbits. At its edges he can see the stars though the cloud, but in its center the pods swarm so thickly that the ship looks like a single vast solid object. <br> <br> And it is dark. No lights shine from it: no red warning lamps, no yellow haze of sunlights.",//8
 
