@@ -64,7 +64,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "The leaves of the Airlock creak open slowly like a rusted door.<br><br> Inside it's completely dark.",//27
 
-"  ",//28   
+"  ",//28   testing
 
 " ",//29// blank but button on screen 
 
