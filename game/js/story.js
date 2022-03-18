@@ -133,7 +133,7 @@ function onstart(){
 				else if(temp === 'two'){
 					
 
-					current = 83 ; // Great ship 
+					current = 207 ; // Great ship 
 					// print out array
 					getstory(current);
 
@@ -155,8 +155,10 @@ function onstart(){
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
+				hide('choicethree');
 				document.getElementById('choiceone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. `;
 				document.getElementById('choicetwo').innerHTML = ` Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
+				document.getElementById('choicethree').innerHTML = ` He has sexual power too; her powers depend on him. he can control  the situation. `;
 
 				if(temp === 'one'){
 
@@ -175,6 +177,15 @@ function onstart(){
 					getstory(current);
 
 				}
+				if(temp === 'three'){
+
+					current = 326;// forgets memory 
+					// print out array
+					getstory(current);
+
+				}
+
+
 				 break;
 
 			case 69: 
@@ -935,6 +946,222 @@ case 177:
 				current = 79 ;
 				break;
 
+
+			case 210:  
+				//window.alert('tiger game');
+				if(confirm("do you want to play a mini game? tiger game")){
+					//radarstart()
+					txt = "You  pressed Ok!";
+				}
+				else{
+					txt = "You pressed Cancel!";
+				}
+				//tigarstart();
+				// pop up option for mini game 
+				//console.log ("case  15");
+				 current ++;
+
+				break;
+
+
+			case 211:
+			// unhide choise buttons 
+				// hide next 
+				hide('Next');
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `Go back to the life ship `;
+				document.getElementById('choicetwo').innerHTML = `  yell at the comm box`;
+
+				if(temp === 'one'){
+					current = 212;// life ship 
+					// print out array
+					getstory(current);
+
+				}
+				else if(temp === 'two'){
+					
+
+					current = 213 ; // comm box
+					// print out array
+					getstory(current);
+				}
+				 break;
+
+			case 212:
+				current = 211;
+
+ 				break;
+
+ 			case 241: 
+
+ 				// unhide choise buttons 
+				// hide next 
+				hide('Next');
+				hide('choiceone');
+				hide('choicetwo');
+				hide('choicethree');
+				document.getElementById('choiceone').innerHTML = `I could give the  Priestess her  powers.  The  way I figure it, out  best chance  is to  reprogram the  Nii.`;
+				document.getElementById('choicetwo').innerHTML = `  I’m not cooperating with the Priestess. But there may be weapons somewhere aboard,  or a ship I can use  to escape.`;
+				document.getElementById('choicethree').innerHTML = `  Once Brady is dead, the Nii  may be more reasonable.  Kill Brady… `;
+
+				if(temp === 'one'){
+					current = 242;// life ship 
+					// print out array
+					getstory(current);
+
+				}
+				 if(temp === 'two'){
+					
+
+					current = 243 ; // comm box
+					// print out array
+					getstory(current);
+				}
+
+				if (temp ==='three'){
+					current = 325 ; // comm box
+					// print out array
+					getstory(current);
+				}
+				 break;
+				
+			case 242:
+					current = 241;
+				break;
+
+			case 257:
+				// unhide choise buttons 
+				// hide next 
+				hide('Next');
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `Go back to the Lady Nii `;
+				document.getElementById('choicetwo').innerHTML = `  look for auxiliary air tanks, going further into the troop carrier.`;
+
+				if(temp === 'one'){
+					current = 258;// life ship 
+					// print out array
+					getstory(current);
+
+				}
+				else if(temp === 'two'){
+					
+
+					current = 259 ; // comm box
+					// print out array
+					getstory(current);
+				}
+				 break;
+
+				case 258:
+					current = 261;
+					break;
+
+			case 261:  
+				//window.alert('troopcarrior game');
+				if(confirm("do you want to play a mini game? Troop carrier game")){
+					//radarstart()
+					txt = "You  pressed Ok!";
+				}
+				else{
+					txt = "You pressed Cancel!";
+				}
+				//tigarstart();
+				// pop up option for mini game 
+				//console.log ("case  15");
+				 current ++;
+
+				break;
+
+			case 264:
+				// unhide choise buttons 
+				// hide next 
+				hide('Next');
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `No `;
+				document.getElementById('choicetwo').innerHTML = ` Yes`;
+
+				if(temp === 'one'){
+					current = 265;// no
+					// print out array
+					getstory(current);
+
+				}
+				else if(temp === 'two'){
+					
+
+					current = 280 ; // yes
+					// print out array
+					getstory(current);
+				}
+				 break;
+
+			case 278:
+
+				current = 23;
+				break;
+
+			case 293:
+			// unhide choise buttons 
+				// hide next 
+				hide('Next');
+				hide('choiceone');
+				hide('choicetwo');
+				hide('choicethree');
+				hide('choicefour');
+				document.getElementById('choiceone').innerHTML = `Library`;
+				document.getElementById('choicetwo').innerHTML = `  Decontamination Procedures`;
+				document.getElementById('choicethree').innerHTML = `  Ship Passenger list`;
+				document.getElementById('choicefour').innerHTML = `  Next`;
+
+
+				if(temp === 'one'){
+					current = 294;// life ship 
+					// print out array
+					getstory(current);
+
+				}
+				 if(temp === 'two'){
+					
+
+					current = 295 ; // Decontamination Procedures
+					// print out array
+					getstory(current);
+				}
+
+				if (temp ==='three'){
+					current = 296 ; // Ship Passenger list
+					// print out array
+					getstory(current);
+				}
+				if (temp ==='four'){
+					current = 297 ; // next
+					// print out array
+					getstory(current);
+				}
+				 break;
+
+			case 314:  
+				//window.alert('troopcarrior game');
+				if(confirm("do you want to play a mini game? Fix Lady Nii game")){// tetrus game
+					//radarstart()
+					txt = "You  pressed Ok!";
+				}
+				else{
+					txt = "You pressed Cancel!";
+				}
+				//tigarstart();
+				// pop up option for mini game 
+				//console.log ("case  15");
+				 current ++;
+
+				break;
+
+			case 325:
+				current = 241;
+				break;
 
 			case 474:
 
