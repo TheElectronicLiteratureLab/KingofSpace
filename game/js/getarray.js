@@ -711,7 +711,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 " ", //261
 // passes out after picking something out no air… 
 
-" As Tam bends down to look his vision blurs…",//261
+" As Tam bends down to look his vision blurs…",//262
 
 "Oxygen starvation swoops at him like a big dark fist… <br><br> He is lying on a transparent surface… his throat and lungs ach for air, but there’s no air here… He has to breath… he can see darkness and stars. His faceplate is gon. … On Circe … at end of shift, Tam stayed behind, trying for his first escape… ‘‘ Fool, don’t you know they cycle the are when the count’s short?’’<br><br> Something digs into his hip, the lasergun. They are in the horizator, halfway between the troop carrier and the nearest entry port. <br><br> Too far away–   ",
 
