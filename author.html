@@ -1,23 +1,161 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>title</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King of Space: Reconstruction of a Narrative Game</title>
+    <link rel="shortcut icon" type="image/png" href="img/kosabt.png">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/indexstyles.css">
 </head>
 
 <body>
+    <!--Navbar-->
+    <header>
+        <div class="container">
+            <div>
+                <a href="#1">
+                    <img class="navlogo" src="img/kosnavwhite.png">
+                </a>
+            </div>
+
+            <input class="hamburger-button" type="checkbox" id="hamburger-button" />
+            <label for="hamburger-button">
+                <div></div>
+            </label>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#1">Author</a></li>
+                        <li><a href="gamehistory.html">Game History</a></li>
+                        <li><a href="restoration.html">Restoration</a></li>
+                        <li><a href="characters.html">Characters</a></li>
+                        <li><a href="credits.html">Credits</a></li>
+                    </ul>
+                </nav>
+
+                <div class="buttons">
+                    <a href="/" class="button primary">PLAY GAME</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End Section-->
+
+    <!--Landing Page-->
+    <div id="1" class="page-content">
+        <div>
+        </div>
+    </div>
+    <!--End Section-->
+
+    <!--About the Game-->
+    <section id="abtgame">
+        <div class="abtgridcontainer">
+            <div class="abtitem"><iframe class="trailer" src="https://www.youtube.com/embed/kRA8RsNShP8"></iframe></div>
+            <div class="abtitem2"><span style="font-size: 40px;">ABOUT THE GAME</span><br><br>Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit,
+                sed do
+                eiusmod tempor
+                incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa
+                qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+    </section>
+    <!--End Section-->
+
+    <!--New Features-->
+    <section id="newft">
+        <div class="ftheader">NEW FEATURES</div>
+        <div class="ftgridcontainer">
+            <div class="ftitem">Feature 1</div>
+            <div class="ftitem">Feature 2</div>
+            <div class="ftitem">Feature 3</div>
+        </div>
+    </section>
+    <!--End Section-->
+
+    <!--Restoration Teams-->
+    <section id="rest">
+        <div class="restheader">RESTORATION TEAMS</div>
+        <div class="restgridcontainer">
+            <div class="restitem">Web/Game</div>
+            <div class="restitem">Animation</div>
+            <div class="restitem">Design</div>
+            <div class="restitem">Promotion</div>
+        </div>
+    </section>
+    <!--End Section-->
+
+    <!--Play Game-->
+    <section class="parallax">
+        <button class="btn">PLAY GAME</button>
+    </section>
+    <!--End Section-->
+
+    <!--Footer-->
+    <section id="footer">
+        <div>
+            <a href="#1">
+                <img class="footerlogo" src="img/kosfooterwhite.png">
+            </a>
+            <hr>
+            <div class="footergridcontainer">
+                <div class="footeritem"><a href="#1">Home</a></div>
+                <div class="footeritem"><a href="/">Author</a></div>
+                <div class="footeritem"><a href="/">Game History</a></div>
+                <div class="footeritem"><a href="/">Restoration</a></div>
+                <div class="footeritem"><a href="/">Characters</a></div>
+                <div class="footeritem"><a href="/">Credits</a></div>
+            </div>
+            <div class="socialgridcontainer">
+                <div class="socialitem"><a href="https://www.instagram.com/cmdc.dtc/" target="_blank"><img
+                            src="img/instagram.png"></a></div>
+                <div class="socialitem"><a href="/" target="_blank"><img src="img/linkedin.png"></a></div>
+                <div class="socialitem"><a href="https://twitter.com/CMDC_WSUV" target="_blank"><img
+                            src="img/twitter.png"></a></div>
+                <div class="socialitem"><a href="https://www.tiktok.com/@kingofspace_restored" target="_blank"><img
+                            src="img/tiktok.png"></a></div>
+            </div>
+        </div>
+    </section>
+    <!--End Section-->
+
+    <!--Copyright-->
+    <footer style="background-color: black;">
+        Copyright 2022
+    </footer>
+    <!--End Section-->
+
+    <script>
+        /*
+            THIS IS NOT NECESSARY ON REGULAR WEBSITES
+ 
+            If you're using a library like React, you'll need the mobile menu to close once a link has been clicked.
+            That's all the below code does.
+        */
+
+        const hamburgerButton = document.getElementById('hamburger-button');
+        const headerLinks = document.querySelectorAll('header .container .menu a');
+
+        headerLinks.forEach((link) => {
+            link.addEventListener('click', (e) => hamburgerButton.checked = false);
+        })
 
 
-
-
-
-  
-
+    </script>
 </body>
 
 </html>
