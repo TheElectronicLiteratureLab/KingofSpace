@@ -577,7 +577,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 
 
-// 13 - great ship 
+// 13 - great ship 207
 
 "He looks toward the little moon for a moment. What good will it do him to go to the lifeship? <br> <br> There will be two people in it: a dark-skinned Priestess  and her lover, a Red King. Two self-deluded pretend-priests in the Terran bureaucracy. They’ll take one look at the blasphemer’s mark across his tattoo and  send him  back to Circe. <br> <br> He shudders. <br> <br> He was in the mines in Circe four years.  <br> <br> Maybe he’ll have better luck in the greatship. ", 
 
@@ -588,6 +588,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 // Tiger puzzle/ slider
 
 // maintenance  panel 
+" ", //210
 
 "Tam slips the knife into its external sheath and keeps working on the  lock. But his right hand is clumsy with cold,  his left  is  useless.  <br> <br> The warmth is draining out of Tam’s body. The skintite’s heat circuits  are cutting in.  <br> <br> He’s beginning to shake with cold. He remembers the cold, the endless cold, of the Circe mines.  ",//(blocks around the edges) 
 
@@ -598,9 +599,9 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 // go back to previous page with  choice. 1 backwards  
 
 
-// yell at the  comm box 
+// yell at the  comm box 213>
 
-"Tam Rosse yells  at the comm box:  <br> <br> ‘Favor! I’m asking for favor! Let me in!’  ", //(blocks around the edges) 
+"Tam Rosse yells  at the comm box:  <br> <br> ‘Favor! I’m asking for favor! Let me in!’  ", //213(blocks around the edges) 
 
 "The leaves of  the airlock-iris force themselves slowly open, <br> as if  they are doing something unnatural, <br> moving against the  flow  of time ",
 
@@ -616,7 +617,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
  "In half-seen glints and darknesses  out the window, Tam glimpses the old Greatship: a complex orbital mathematics of cargo  pods, life  areas, and once-independent ships. The pieces of  the Nii move around  each other in slow circles, a decaying orrery of fragments.  Somewhere a central computer is keeping track of  this mathematical cloud. <br> <br> And, armed with its downloaded information about those orbits, the horizator jets its own complex orbit through the ship",
 
-// animated falling “ Suddenly, the horizator drops in a gravity tumble ”,
+ " Suddenly, the horizator drops in a gravity tumble ",//221 animated falling 
 
  "The horizator smashes Tam against the floor, and everything goes black.",
 
@@ -656,13 +657,13 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "‘‘I  could  change Nii’s programming,’’ the Priestess says. <br> <br> he looks at  her. ‘‘How?’’ <br> <br> ‘‘If I can get into core memory. I could change your status  too. Give you Ship’s Favor so she  won’t kill you.’’  <br> <br> ‘‘What do you need?’’ <br> <br> ‘‘My powers.’’  She touches  the silver sickle moon in her ear. ",
 
-" ‘‘Your choice,’’ she says. Sure, he thinks. My choice.",//
+" ‘‘Your choice,’’ she says. Sure, he thinks. My choice.",//241 
 
-// 3 choices - 1. “I could give the  Priestess her  powers.  The  way I figure it, out  best chance  is to  reprogram the  Nii.”,
+// 241 - 3 choices - 1. “I could give the  Priestess her  powers.  The  way I figure it, out  best chance  is to  reprogram the  Nii.”,
 
 "Sure, their best chance is to reprogram the Nii. But it means total surrender to an Emperor's Daughter. <br><br> Not Tam Rosse. <br><br> Not yet. ",// bake to 3 choises
 
-// 2. “ I’m not cooperating with the Priestess. But there may be weapons somewhere aboard,  or a ship I can use  to escape.”,
+// 241 - 3 choices - 2. “ I’m not cooperating with the Priestess. But there may be weapons somewhere aboard,  or a ship I can use  to escape.”,
 
 "Can he find weapons to use against the Nii? <br> <br> The Nii was a greatship. Some of the ships that were traveling with her should still be here. <br> <br> They may be armed. <br> <br> Where are they? ", 
 
@@ -674,7 +675,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // animated quarocs spyflies 
 
-"A swarm of quarocs follow  them through the maze of airtubes. ",
+"A swarm of quarocs follow  them through the maze of airtubes. ",//247
 
 "Through the airtube exit rille they can see the horizator. The door stands open. <br><br> Tam and the Priestess drop out of the airlock grille and throw themselves inside. The door hisses shut. <br><br> The Priestess lays her hand on the control  panel. ",
 
@@ -696,7 +697,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "The Priestess slips into the pilot’s seat next to him. <br><br> You can get along without air for a while. I can’t <br><br> Watch me die, lady, rather than sleep with you. <br><br> ‘‘I’ve got to find air,’’ Tam says",
 
-// choices - go back to the Nii
+// 257 choices - go back to the Nii
 
 "No, that won't work now. brady wants him dead and the Lady Nii will be glad to help. <br><br> First see whether there's any canned air... " ,// jump to troop careior game
 
@@ -707,15 +708,16 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 "Half-Crawling through a low  tunnel, he reaches the crew-quarters. ",
 
 // images and troop carrier game/ search and find section  
+" ", //261
 // passes out after picking something out no air… 
 
-" As Tam bends down to look his vision blurs…",
+" As Tam bends down to look his vision blurs…",//262
 
 "Oxygen starvation swoops at him like a big dark fist… <br><br> He is lying on a transparent surface… his throat and lungs ach for air, but there’s no air here… He has to breath… he can see darkness and stars. His faceplate is gon. … On Circe … at end of shift, Tam stayed behind, trying for his first escape… ‘‘ Fool, don’t you know they cycle the are when the count’s short?’’<br><br> Something digs into his hip, the lasergun. They are in the horizator, halfway between the troop carrier and the nearest entry port. <br><br> Too far away–   ",
 
 "Air, he mouths desperately . Not enough. <br><br> She’s bending over him. Emperor’s Daughter. ‘‘Breathe from me,’’ she says, ‘‘I can give you air,’’ and puts her mouth over his in a soft-lipped kiss. ‘‘I can spacehab you.’’  ",
 
-// No…
+// 263 No…
 
 "He pushes her away. <br><br> The empire won’t win… won’t win…<br><br> The darkness strengthens around him. ",
 
@@ -745,48 +747,10 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "‘‘I’m going to reprogram the ship,’’ she says.<br><br> ‘‘For  the Emperor. Go on. Go ahead.’’ <br><br> She  touches the horixator control  panel. Under her fingers  it changes. Rows of  buttons, some dark, some blinking orange, a surprising few their normal  colors  of  blue and green. ",
 
-"‘‘See what you can find to help us.’’ <br><br> Oh yes, Mistress, I hear and obey ",
+"‘‘See what you can find to help us.’’ <br><br> Oh yes, Mistress, I hear and obey ",//278
 
 // library - new js?  Decontamination procedures ship passenger list or next - perhaps a library game type option?
 
-"‘‘Tis is all Terran propaganda,’’ Tam Rosse says.<br><br> The Priestess turns briefly to look at the wall. <br><br> ‘‘Give it my clearance number. AP7829044P’’ ",
-
-"This  time there’s only one line.<br><br> Encyclopedia Galactica:  index (entries  selection as immediately relevant) <br><br> ‘‘Nicholsun’s Plague’’ *** CLASSIFIED MATERIAL  – TERRANS ONLY***   ",
-
-"Nicholsun’s Virus or Plague<br><br> The origin of the Nicholsun’s Virus, or Nicholsun’s  Plague, is  to be  found  in  the genetics of small populations. Without intervention, small populations rapidly lose genetic identity with their  ancestors. To maintain a common  geen pool, breeding programs and mutation control are vital,  especially  in area if high background radiation, Crossbreeding is also a necessity.<br><br> During the early stages of the settlement of the Astroids, it  was  realized that genetic updating would become a necessary part of the  health of each Asteroid  ITC. ",
-
-"About sixty-five years ago a man named Harry Nicholsun bid for and received the contract to update the ITC’s genetic pool. It  was a hazardous job, because it often meant being exposed to, and exposing other to, new diseases, as well  as introducing new genes into  the pool. <br><br> On the surface, Nicholsun’s contribution to the  Asteroid culture  seemed innocuous  if a little crude. Nicholsun  was fortunate to start his business at the time  when live pronographic theater was bein greplaced by  3D sense-linked vids (illusions). He could call on a wide range of live-theater actors, most of  whom would go  anywhere and do  anything.<br><br> Nicholsun linked genetic distribution to sex. ",
-
-"Nicholsun  Raves began with Prayer and ceremonies, feasting, intoxication, and fireworks; they ended in mass celebration and the spread of new germplasm throughout  the ship. Their ceremonial center was the Priestess, a nubile, sensual woman who performed nacked except for her sacred glowing tattoos. Her consort was the Red Man or Red King. Invariably a condemned criminal, the Red King was chosen for his strength, sill with weapons, adn virility, and was bound to the Priestess for life by ‘‘secret ceremonies.’’ <br><br> Drawn from the uneducated parts of society and cut off from Terran culture by the sterility of the Asteroids, Asteroid dwellers eagerly sought the color and excitement that ‘‘Great-day’’ provided. A few comparatively sophisticated minds thought they saw through to Nicholsun’s secret. For them, the priestess and her Consort were simply and assistant genetic  engineer and her bodyguard. Of course – until  far too late – they did not see wah Nicholsun was doing at all.",
-
-"More surprisingly, of the Terran officials who dealt  with Nicholsun, only one suspected this treachery. Lieut. Gregor Marczak, a minor official in the Genetics Bureau on Pallas, realized the  truth when he observed  his own extreme emotional reaction to a Priestess’s visit in San-gatsu 867.<br><br> Nicholsun had  not merely distributed genetic material; he had changed it. He had contaminated almost the  entire genetic pool of the Asteroids with a sensitivity to a rho-pheromone he himself had engineered.  <br><br> Nicholsun  pioneered the concept of pheromonic linkage.",
-
-"His terrible plot depended on two linked stages of infection. The first generation of victims were infected by a rhinovirus, which modified cells in the nasopharyngeal passages. The  modified cells responded strongly to a kingship pheromone, developed by Nicholsun  and  given  off by his  genetically modified  Priestesses and Red Kings. Stem cells were not affected and, as the modified cells died, the effect eventually wore off.  But  the virus remained among the Asteroids, modifying itself like a cold  virus, so that the population was subject to  frequent reinfections.<br><br> The second infection was more insidious and more lasting. It entered the body through sexual contact and lived silently in the blood. On the first generation it had no apparent effect. But insidiously, in sperm and egg, it altered the very genetics of the population. On the children of  the first generation, it produced the same effect as the rhinovirus and on the first. <br><br> Permanently. ",
-
-"The effect on the victims was blind, loving loyalty to Nicholsun and all of his subordinates– who were genetically modified to emit the rho-pheromone, but who could not  pass that modification. <br><br> In other words, Nicholsun had created a new species, a race of workers genetically engineered for loyalty. Red Kings  were pheromonically linked to their Priestesses. Priestesses and Kings, in turn, were pheromonicalyy linked to Nicholsun himself. <br><br> Smell is an unanswerable argument. The  rhinocephalon, the part of the brain governing smell, is one of the oldest parts of the brain, unchanged since the reptiles. No one could resist a Priestess or a Red King. Intellectual convictions, no matter how sincerely held, simply made no difference.  During the Riots  of 869, infected Terran officials laid down their lives to protect anti-Terran Priestesses and Red Kings. Ironically, one of those was Marczak himself, shot for treason. ",
-
-"Nicholsun was executed at Castra Martis in 873. But by the time his ultimate treachery was punished, the modifications had spread too far. Most of  the adults thin living on the Asteroid Stations were carriers. All so their children- and Nucholsun’s raves had produced many children– carried the genetic plague. <br><br> Now, incapable of democracy, incapable of rational thought, when their rulers are present, the populations of the Asteroids live in limbo. The plague has expressed  itself in three generations of these unfortunate beings. The Asteroid population has been allowed to  drop precipitously. <br><br> The large Hermes-Eccentric cargo ships, once the lifeblood of the Asteroids, have almost all been moved to Sunward orbits, sense Asteroids trade involves the risk of genetic contamination.",
-
-"Unless the Plague is cured, all of the population of the Asteroids  will be  allowed  to die. <br><br> The  most stringent  precautions are taken  to avoid contact between the true Terran stock  and  the Asteroid dwellers, who can  merely be called humanlike. These necessary precautions  have led to  several Nicholsun alone, is to blame for these deaths. <br><br> Ironically, Nicholsun’s false ‘‘religion’’ is now the only hope for the Asteroid dwellers. Terran technology has made the role of Priestesses and Red Kings a benevolent one. The  Priestess, moving from asteroid  to dying asteroid, is now a terran genetic techneition , carrying with her the latest experimental  weapons against Nicholsun’s plague. Today she is pheromonically linked, not  to a mad dictator, but to the Terran bureaucracy and  to the welfare of  the ship or outpost she serves.  ",
-
-"She and her Red King,  still her protector in these wild  outposts, link her Asteroid  swellers genetically with their Terran  cousins. Operation Asteroid. They  add all improvements to algae, flora, fauna– all the benefits  of  continuing Terran  arcocultue– to the arcology of  each Asteroid. <br><br> Up to  the present. No one has  found a way of  reversing the effects of Nicholsun’s plague. But the search continues. Someday the Asteroid  dwellers will be freed of this curse. Someday they will be full members of the human race again. ",
-// end of feed
-
-"Tam looks up at her in shock.<br><br> ‘‘Nicholsun and the Priestesses fought against the Emperor?’’ <br><br> For a moment he’s not able to talk. <br><br>Suddenly a huge concussion reverberates through the horizator.  ",
-
-"‘‘Eternal Mother! What’s that?’’<br><br> Outside, in  the dark, starlight slitters off huge half-seen claws. ",
-
-"Grapples thump on  to the horizator from all sides. The Priestess jabs at the horizator jets. <br><br> ‘‘Don’t waste your time!’’ Tam yells at her. ‘‘That’s a cargo robot! It can handle a ship fifty times out size.’’ A huge steel claw comes at them out of the darkness. It touches the  sides  of the horizator’s hull, and the ship  vibrates around them. ‘‘I’ll do the fighting–  you get through  to Nii!’’",
-
-"He jumps for  the lasergun and its shield. <br><br> Rearing above them, the claw looms, its blind sharp end flexing  like a wasp’s  sting. Then it  rips down. Soundlessly it  tears the horizator in half. <br><br> One  half spirals away, smooth and fast, blinking off into an infinity of darkness. <br><br>  The other half, with both of them clinging to it, is still clutched in the monster claws. ",
-
-" Whatever the Priestess has made Tam, it is quick and deadly. He’s an animal,  uncontrollable, stuffed with reflexes to  the ends of his fingers.<br><br> Frantically they struggle with  unfamiliar controls The repair system  spews out replacement  parts faster than he can catch them Fragments of memory flash across the monitor screens.",
-
-"The entry port irises open. Force fields play around it, lambert white. Laser fire shoots out toward them. <br><br> Behind them stands Brady, invulnerable. <br><br> And beside him seems to stand an old Japanese  woman, wild gray hair streaming down to her waist,shrieking in mad glee.  ",
-
-// tetris // fixing The Lady Nii puzzle pipes 
-
-" ",
 
 // Yes… was typed by Kayci Miles
 //greatship option yes 
@@ -818,9 +782,10 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 "''I'm going to reprogram the ship,'' she says. <br><br> ''For the Emperor. Go on. Go ahead.'' She touches the horizator control panel. Under her fingers it changes. Rows of buttons, some dark, some blinking orange, a surprising few their normal colors of blue and green.",
 
 // add check boxes to page for the options
-"''See what you can find to help us.'' <br><br> Oh, yes, Mistress, I hear and obey. add buttons for library, decontamination procedures, ship passenger list",
+"''See what you can find to help us.'' <br><br> Oh, yes, Mistress, I hear and obey.",//292 add buttons for library, decontamination procedures, ship passenger list
 
 //Library.js file for library
+" ",//294
 
 //Decontamination Procedures
 "DECONTAMINATION PROCEDURES <br>1. All personnel must report to screening. You will be tested for the presence of Nicholsun's Virus. Any of the following may occur. <br> a. You may be found to be disease-free. <br> b. You may be found to be a carrier of the Nicholsun's Virus. <br> c. You may be found to have symptoms of the virus. <br> 2. If you are found to be disease-free, you will REPORT IMMEDIATELY to Debarkation. DO NOT ATTEMPT TO RETURN to other parts of the ship. DO NOT ATTEMPT TO COMMUNICATE WITH ANY OTHER SHIP MEMBER. There are no exceptions to tbis rule. <br> 3. If you are found to be infected, please RETURN IMMEDIATELY to your sleeping area aboard ship. Your civil rights are temporarily suspended.",
@@ -841,7 +806,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "About sixty-five years ago a man named Harry Nicholsun bid for and received the contract to update the ITCs' genetic pool. It was a hazardous job, because it often meant being exposed to, and exposing others to, new diseases, as well as introducing new genes into the pool. <br><br> On the surface, Nicholsun's contribution to Asteroid culture seemed innocuous if a little crude. Nicholsun was fortunate to start his business at the time when live pornographic theater was being replaced by 3D sense-linked vids (''illusions''). He could call on a wide range of live-theater actors, most of whom would go anywhere and do anything. <br><br> Nicholsun linked genetic distribution to sex.",
 
-"Nicholsun orgies began with prayer and ceremonies, feasting, intoxication, and fireworks; they ended in mass copulation and the spread of the new germ plasm throughout the ship. Their ceremonial center was the Priestess, a nubile, sensual woman who performed naked except for her sacred glowing tattoos. Her consort was the Red Man or Red King. Invariably a condemned criminial, the Red King was chosen for his strength, skill with weapons, and virility, and was bound to the Priesyess for life by ''secret ceremonies.'' <br><br> Drawn from the uneducated parts of society and cut off from Terran culture by the sterility of the Asteroids, Asteroid dwellers eagerly sought the color and excitement that ''Great-day'' provided. A few comparatively sophisticated minds thought they saw through to Nicholsun's secret. For them, the Priestess and her Consort were simply an assistant genetic engineer and her bodyguard. Of course--until far to late--they did not see what Nicholsun was doing at all.",
+"Nicholsun Raves began with prayer and ceremonies, feasting, intoxication, and fireworks; they ended in mass copulation and the spread of the new germ plasm throughout the ship. Their ceremonial center was the Priestess, a nubile, sensual woman who performed naked except for her sacred glowing tattoos. Her consort was the Red Man or Red King. Invariably a condemned criminial, the Red King was chosen for his strength, skill with weapons, and virility, and was bound to the Priesyess for life by ''secret ceremonies.'' <br><br> Drawn from the uneducated parts of society and cut off from Terran culture by the sterility of the Asteroids, Asteroid dwellers eagerly sought the color and excitement that ''Great-day'' provided. A few comparatively sophisticated minds thought they saw through to Nicholsun's secret. For them, the Priestess and her Consort were simply an assistant genetic engineer and her bodyguard. Of course--until far to late--they did not see what Nicholsun was doing at all.",
 
 "More surprisingly, of the Terran officials who dealt with Nicholsun, only one suspected his treachery. Lieut. Gregor Marczak, a minor official in the Genetics Bureau on Pallas, realized the truth when he observed his own extreme emotional reaction to a Priestess's visit in San-gatsu 867. <br><br> Nicholsun had not merely distributed genetic material; he had changed it. he had contaminated almost the entire genetic pool of the Asteroids with a sensitivity to a rho-pheromone he himself had engineered. <br><br> Nicholsun pioneered the concept of pheromonic linkage.",
 
@@ -868,15 +833,33 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 "Whatever the Priestess has made Tam, it is quick and deadly. He's an animal, uncontrollable, stuffed with reflexes to the end of his fingers. <br><br> Frantically they struggle with unfamiliar controls. The repair system spews out replacement parts faster than he can catch them. Fragments of memory flash across the monitor screens.",
 
 "The entry port irises open. Force fields play around it, lambient white. Laser fire shoots out toward them. <br><br> Behind them stands Brady, invulnverable. And beside him seems to stand an old japanese woman, wild grey hair streaming down to her waist, shrieking in mad glee.",
+//312^
 
 //Tetris puzzle 
-
+" ",//313
 // link to no/tetris puzzle from here
 
+// from here to the end of this sec. is from the compleet plans 
 
+"It is as if something had suddenly fallen silent. But it is only that the white fire around Brady flickers and dies. The robots freeze where they are.<br><br> And the mad woman who stands next to Brady shimmers like a badly made illusion and disappears. <br><br> In her place is something not quite a woman, an ideal and newly made thinkg, smooth, bland, questioning, strange. She is Japanese too, dressed in a style old a thousand years ago: red kimono, markless  oval face, smooth black hair. <br><br> ''I am Nii,'' a voice whispers into Tam's comm. ",//
 
+"She is a hundred meters away from him, but it seems as though she is very close. He can feel her hand touch him. <br><br> ''Favor, Lady?'' he asks.<br><br> ''You have my Favor, Red King. ",
 
+"Brady is as far as the Ship, but it seems as though he, too, is in front of them, standing  in  the ruins of their horizator. Caught by the illusion for a moment, Tam raises his laser gun. <br><br>  The Priestess holds back his hand.<br><br> ''Nii?'' Brady  looks  around as if he has been blinded. ''Where you, old girl?''<br><br> ''I cannot  fix such things,'' the Priestess says to Nii. ''He is old and worn out. Humans don't repair as well as ships.''<br><br> They both hear the Nii's reply. <<Leave him to me.>> ",
 
+"For a moment, it is as if they see Brady's eyes -- see the final illusion he is  given. A womanwalks toward Brady out of the ruins of the horizator. She is bent, but also young. Though the long sheets of her grey hair her body shines whith stars.  <br><br> She holds out her hand and he takes it. <br><br> Befor them steatches a grand mirrored corridor, lined  with sconces of candles. Men and woman in Ceremony dress hold up jeweled cups  of  wine  and toast the lovers.  Silk cloaks and tabards glow with red for celebration, with a silvery white-blue for the Terran sky. And all the colors of the Fertile Worlds shimmer and reflect like a rainbow, dow the corridor as far as the eye can see. ",
+
+" ''Gotcha girl! My beloved!  Here at last!'' <br><br> Two small cargo robots lock their arms around his wrists. <br><br> ''I waited! I came throught!'' <br><br> The cargo robots  puff their jets, and  Brady  falls away dow the  mirrored corridor, down in  to the infintie dark, laughing in the  arms of his lover. ",
+
+"That  night they sleep  in the ship's Water Center. They pile sleeping  pods on themselves, hug eachother convulsively,but they are still cold, as if they too have  gone into Brady's darkness. <br><br> ''Sleep'' the priestess says, but  Tam does not sleep. bodyguards do not; he knows that without having been told it. He lies  awake,  holding her,  alertness in his bones. For the rest  of his life it will be like this. <br><br> He is too numb yet to mourn his lost humanity, or to begin to explore what he can do now. ",
+
+"Brady loved a ship and the ship killed him, because it had to live. Tam is in love with a  Priestess,  who is more powerful than a ship. <br><br> He murmurs '' The Uprising'' as a man in the arms of his wife murmurs the name of his lost love. ",
+
+"In the  middle of the shipnight they remeber her  silver earring.  the Priestess finds it abandoned on the floor of the horizator. they bury it together, the feel of it like they are burying a body. When they are done they sit together. <br><br> ''it dosen't make sense,'' says Tam after a while. <br><br> ''What?'' <br><br> ''It doesn't make sense. That Encyclopedia articlesaid that nobody could resist a Priestess. But that's not true. Anybody can, as long as they don't breath the same air as the Priestess. And some can anyway. That's why you need guards.'' ",
+
+"''What are we doing then?'' the Priestess asks finally.",
+
+" ''Want to  find out?'' says Tam Rosse. ",//324
 
 
  
@@ -885,11 +868,6 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 " ‘‘Suppose I killed Brady.’’ <br> <br> The Priestess smiles. ‘‘Did you see the little black stubs on the ceiling in the  corridors?’’ <br> <br> ‘‘Under the spy eyes? Sure.’’ <br> <br> ‘‘Pulse lasers. And Brady has Ship’s Favor. The Lady Nii protects him. She’ll kill you’’ The Priestess smiles faintly. ‘‘I could reprogram her. With my powers.’’ <br> <br> ‘‘No.’’ ",
 
 // next takes you back to the 3 choices.  
-
-
-
-
-
 
 
 
@@ -916,6 +894,8 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 // black screen
 
 // add the rest off lifeship option three here 
+
+
 
 "An End <br><br> Not The End. Not one end, ineitable, inexortable, inflexible, but may ends. <br><br>  Today,tomarrow, forever.  <br><br> Remember the old man  and his machines. The woman of Pallas, soft and warm. The little black flies. Remember the rebolution. <br><br>  Next  time you read this tale,  the end will be differnt. To change is to be human. Only the Nii will be the same.",//ending lines
 ];

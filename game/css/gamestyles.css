@@ -1,0 +1,318 @@
+ RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* end reset */
+
+
+/*General Styling*/
+img{
+  width: 100%;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62px;
+  font-weight: 400;
+  color: #D6DCD5;
+  text-align: center;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #D6DCD5;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color:#78CBC4;
+  text-decoration: none;
+}
+
+  /* Hamburger Menu Start */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border:1px solid pink;
+  }
+  
+  header .container {
+    position: sticky;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    background: #151E24;
+  }
+  
+  
+  input.hamburger-button {
+    display:none;
+  }
+  
+  input.hamburger-button ~ label {
+    position: relative;
+    padding: 0.25rem;
+    width: 1.5rem;
+    height: 1.25rem;
+    cursor: pointer;
+  }
+  
+  input.hamburger-button ~ label > div,
+  input.hamburger-button ~ label > div::before,
+  input.hamburger-button ~ label > div::after {
+    content: "";
+    position: absolute;
+    top: 0.825rem;
+    height: 0.125rem;
+    width: 1.5rem;
+    opacity: 1;
+    background:#78CBC4;
+    -webkit-transition: 0.14s ease-in-out;
+    transition: 0.14s ease-in-out;
+  }
+  
+  input.hamburger-button ~ label > div::before {
+    top: -0.5rem;
+  }
+  
+  input.hamburger-button ~ label > div::after {
+    top: 0.5rem;
+  }
+  
+  header .container .hamburger-button:checked ~ label > div {
+    width: 0;
+    background: white;
+  }
+  
+  header .container .hamburger-button:checked ~ label > div::before {
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+    top: -0rem;
+  }
+  
+  header .container .hamburger-button:checked ~ label > div::after {
+    -webkit-transform: rotateZ(-45deg);
+            transform: rotateZ(-45deg);
+    top: -0rem;
+  }
+  
+  header .container .hamburger-button:checked ~ .menu {
+    left: 0;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+
+  header .container .menu {
+    position: absolute;
+    z-index: -1;
+    /* top: 4.6rem; */
+    -webkit-transform: translateX(calc(100vw - 1rem));
+    transform: translateX(calc(100vw - 1rem));
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, -webkit-max-content);
+    grid-template-rows: repeat(2, max-content);
+    width: 18.75rem;
+    height:100%;
+    -webkit-transition: 0.22s ease-in-out;
+    transition: 0.22s ease-in-out;
+
+    border:1px solid orange;
+  }
+  
+  header .container .menu::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 18.75rem;
+    background: #000000;
+    background-image:url("../img/starbackground.png");
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    border:1px solid pink;
+  }
+  
+  header .container .menu nav {
+    width: 18.75rem;
+    text-align: center;
+    border:1px solid purple;
+  }
+  
+  header .container .menu nav ul {
+    display: flex;
+    row-gap: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+  
+  /* Navbar Text */
+  header .container .menu nav ul > li > a {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    color: #78CBC4;
+
+    border:1px solid grey;
+  }
+  
+  /* Navbar Text Hover */
+  header .container .menu nav ul > li > a:hover {
+    color: white;
+    border-bottom:3px solid #78CBC4;
+    -webkit-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+  }
+/* Hamburger Menu End   */
+
+/*Main Game Page Desktop Styles*/
+#title-page{
+  min-height: 100%;
+  min-width: 100%;
+    
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 1vh;
+    
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(51,80,84);
+  background: linear-gradient(149deg, rgba(51,80,84,1) 0%, rgba(21,30,36,1) 100%);
+}
+
+#title-logo{
+  min-width: 200px;
+  max-width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 100px auto 50px auto ;
+}
+
+#button-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap:50px;
+}
+
+.red-buttons{
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 68px;
+  cursor: pointer;
+  background: rgb(198,34,39);
+  background: linear-gradient(180deg, rgba(198,34,39,1) 0%, rgba(99,17,20,1) 100%);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+/*Mobile Game main page styles*/
+
+@media screen and (max-width: 600px){ 
+ .red-buttons{
+  font-size: 16px;
+ }
+}
+
+/* Game Only Styles */
+body{
+  background-color: #151E24;
+}
+
+#game_wrapper{
+  width:90%;
+  margin:auto;
+  border:1px solid green;
+}
+
+#game_grid{
+  place-items: center;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 35px;
+  row-gap:50px;
+}
+
+.img_container{
+  width:200px;
+  height:200px;
+}
+
+.img_container img{
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+}
+
+.game_description{
+  margin: auto 0;
+  text-align: center;
+}
