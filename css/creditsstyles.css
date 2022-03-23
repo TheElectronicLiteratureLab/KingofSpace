@@ -249,7 +249,7 @@ html, body {
     text-align: center;
   }
   
-  .playbtn {
+  .btn {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     margin: 0 auto;
     padding: 2rem 3rem 2rem 3rem;
@@ -261,7 +261,7 @@ html, body {
     font-size: 18px;
   }
   
-  .playbtn:hover {
+  .btn:hover {
     background-image: linear-gradient(to top, #741316 0%, #a51c25 100%);
     cursor: pointer;
   }
@@ -443,12 +443,20 @@ section ul li:hover {
     transform: rotateY(180deg);
 }
 
-.icon {
+.icon-linkedin {
   font-size: 36px;
   cursor: pointer;
   position: absolute;
   bottom: 8px;
-  left: 16px;
+  right: 16px;
+}
+
+.icon-web {
+  font-size: 36px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 8px;
+  right: 56px;
 }
 
 .cardh1 {
