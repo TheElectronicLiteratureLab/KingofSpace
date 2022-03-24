@@ -46,9 +46,9 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "He sould be on the couch,<br>  frozen in the coldsleep gel<br> with her.",//17
 
-"Tam's neck chills. This Priestess is still wearing the Virgin's Moon. <br><br> Her earring is  a thin  sickle of silver, a virgin's earring. Until the opening of her womb she has no powers.<br><br> The Priestesses  get their ''powers'' through computer linkage, and the linking-up happens during her sexual initiation. A Priestess on her virgin voyage finds a man and mates with him. After sex, she  gets  her powers. Sex is magic.<br><br> But during the sex- this is a bad religion- the Priestess infects her lover with  the most virulent form of Plague. Whoever she finds, the poor bastard becomes her Red King. Her bodyguard. Totally, fanatically, dedicated to her. <br><br> Mated to Space? No. Mated to her. For life.",//18
+"Tam's neck chills. This Priestess is still wearing the Virgin's Moon. <br><br> Her earring is  a thin  sickle of silver, a virgin's earring. Until she shairs her earring, she has no powers.<br><br> The Priestesses  get their ''powers'' through computer linkage, and the linking-up happens during the sharring. A Priestess on her virgin voyage finds a man and mates with him. After sex, she  gets  her powers. Sex is magic.<br><br> But during the sex- this is a bad religion- the Priestess infects her lover with  the most virulent form of Plague. Whoever she finds, the poor bastard becomes her Red King. Her bodyguard. Totally, fanatically, dedicated to her. <br><br> Mated to Space? No. Mated to her. For life.",//18
 
-"Tam Rosse looks down at his red prison jumpsuit and grins wryly. The Red King.<br> &emsp; <i> And all who love the Emporer's Saughter shall know and love the Emperor.</i> <br> He makes his sacred left hand into  a fist. Nothing makes him love the Emperor. But he needs the Priestess's knowledge.",//19
+"Tam Rosse looks down at his red prison jumpsuit and grins wryly. The Red King.<br> &emsp; <i> And all who love the Emperer's Saughter shall know and love the Emperor.</i> <br> He makes his sacred left hand into  a fist. Nothing makes him love the Emperor. But he needs the Priestess's knowledge.",//19
 
 //21 ch1 The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally.
 
@@ -510,7 +510,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "''There is nothing on the Nii but space and death,'' says the Lady Nii. <br><br> ''Everything else is illusion, and therefore possible, Even freedom''", // animation 
 
-//page is continued from path ^ but gives a choice  194>
+//page is continued from path ^ but gives a choice  193>
 "One seed drifts down and lights on Tam Rosse's scarred, healed palm. He feels the scratchy no-weight of its wings.", // choice he takes it or doesn't take it 
 
 // choice he takes it
