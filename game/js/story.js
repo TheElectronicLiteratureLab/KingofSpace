@@ -155,11 +155,10 @@ function onstart(){
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				hide('choicethree');
+				
 				document.getElementById('choiceone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. `;
-				document.getElementById('choicetwo').innerHTML = ` Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
-				document.getElementById('choicethree').innerHTML = ` He has sexual power too; her powers depend on him. he can control  the situation. `;
-
+				document.getElementById('choicetwo').innerHTML = ` Maiting with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
+				
 				if(temp === 'one'){
 
 					
@@ -177,19 +176,12 @@ function onstart(){
 					getstory(current);
 
 				}
-				if(temp === 'three'){
-
-					current = 326;// forgets memory 
-					// print out array
-					getstory(current);
-
-				}
 
 
 				 break;
 
 			case 69: 
-				current = 373;//an end 
+				current = 326;//an end 
 
 				break;
 
@@ -676,7 +668,7 @@ function onstart(){
 
 
 			case 152:
-				current =  300; //last line.... 
+				current =  326; //last line.... 
 
 				break;
 
@@ -916,11 +908,11 @@ case 177:
 				 break;
 
 			case 195:
-					current= 300;  // last line
+					current= 326;  // last line
 				break;
 
 			case 197:
-					current= 300;  // last line
+					current= 326;  // last line
 				break;
 
 			case 198:
@@ -1159,16 +1151,20 @@ case 177:
 
 				break;
 
+			case 324:
+				current = 326;
+				break; 	
+
 			case 325:
 				current = 241;
 				break;
 
-			case 474:
+			case 326:
 
-				//hide('choiceone');
-				//document.getElementById('choiseone').innerHTML = `Acnologments  `;
+				hide('choiceone');
+				document.getElementById('choiseone').innerHTML = `Acnologments  `;
 
-				//current = -1;// states story over. 
+				current = -1;// states story over. 
 				break;
 
 			default:

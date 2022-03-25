@@ -46,9 +46,9 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "He sould be on the couch,<br>  frozen in the coldsleep gel<br> with her.",//17
 
-"Tam's neck chills. This Priestess is still wearing the Virgin's Moon. <br><br> Her earring is  a thin  sickle of silver, a virgin's earring. Until the opening of her womb she has no powers.<br><br> The Priestesses  get their ''powers'' through computer linkage, and the linking-up happens during her sexual initiation. A Priestess on her virgin voyage finds a man and mates with him. After sex, she  gets  her powers. Sex is magic.<br><br> But during the sex- this is a bad religion- the Priestess infects her lover with  the most virulent form of Plague. Whoever she finds, the poor bastard becomes her Red King. Her bodyguard. Totally, fanatically, dedicated to her. <br><br> Mated to Space? No. Mated to her. For life.",//18
+"Tam's neck chills. This Priestess is still wearing the Virgin's Moon. <br><br> Her earring is  a thin  sickle of silver, a virgin's earring. Until she shairs her earring, she has no powers.<br><br> The Priestesses  get their ''powers'' through computer linkage, and the linking-up happens during the sharring. A Priestess on her virgin voyage finds a man and mates with him. After sex, she  gets  her powers. Sex is magic.<br><br> But during the sex- this is a bad religion- the Priestess infects her lover with  the most virulent form of Plague. Whoever she finds, the poor bastard becomes her Red King. Her bodyguard. Totally, fanatically, dedicated to her. <br><br> Mated to Space? No. Mated to her. For life.",//18
 
-"Tam Rosse looks down at his red prison jumpsuit and grins wryly. The Red King.<br> &emsp; <i> And all who love the Emporer's Saughter shall know and love the Emperor.</i> <br> He makes his sacred left hand into  a fist. Nothing makes him love the Emperor. But he needs the Priestess's knowledge.",//19
+"Tam Rosse looks down at his red prison jumpsuit and grins wryly. The Red King.<br> &emsp; <i> And all who love the Emperer's Saughter shall know and love the Emperor.</i> <br> He makes his sacred left hand into  a fist. Nothing makes him love the Emperor. But he needs the Priestess's knowledge.",//19
 
 //21 ch1 The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally.
 
@@ -510,7 +510,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "''There is nothing on the Nii but space and death,'' says the Lady Nii. <br><br> ''Everything else is illusion, and therefore possible, Even freedom''", // animation 
 
-//page is continued from path ^ but gives a choice  194>
+//page is continued from path ^ but gives a choice  193>
 "One seed drifts down and lights on Tam Rosse's scarred, healed palm. He feels the scratchy no-weight of its wings.", // choice he takes it or doesn't take it 
 
 // choice he takes it
@@ -839,7 +839,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 " ",//313
 // link to no/tetris puzzle from here
 
-// from here to the end of this sec. is from the compleet plans 
+// from here to the end of this sec. is from the complete plans 
 
 "It is as if something had suddenly fallen silent. But it is only that the white fire around Brady flickers and dies. The robots freeze where they are.<br><br> And the mad woman who stands next to Brady shimmers like a badly made illusion and disappears. <br><br> In her place is something not quite a woman, an ideal and newly made thinkg, smooth, bland, questioning, strange. She is Japanese too, dressed in a style old a thousand years ago: red kimono, markless  oval face, smooth black hair. <br><br> ''I am Nii,'' a voice whispers into Tam's comm. ",//
 
@@ -871,25 +871,25 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 
 
-// 19 Choice 3 He has sexual power too; her powers depend on him. he can control  the situation. - rape Are we taking this out??????? 
+// 19 Choice 3 He has sexual power too; her powers depend on him. he can control  the situation. - rape Are we taking this out??????? YES TAKE THIS OUT
 
-"He's heard in prison that the earring is the key. <br><br> There is no mystery about the Priestesses. They're arco-engineers. They're zapped full of nanocomputers that do all the work while they play Sex Goddess of the Universe. Removing the earring kickes in their programming. The rest is smoke and mirrors. <br.<br> And bodies. <br><br> ''Fuck the Emperor,'' he mutters.",
+// "He's heard in prison that the earring is the key. <br><br> There is no mystery about the Priestesses. They're arco-engineers. They're zapped full of nanocomputers that do all the work while they play Sex Goddess of the Universe. Removing the earring kickes in their programming. The rest is smoke and mirrors. <br.<br> And bodies. <br><br> ''Fuck the Emperor,'' he mutters.",
 
-"He touches his red prison suit and it opens down to his groin. The ''ice'' is not ice, but it is cold, jellylike on his bare skin. Her body slips greasily under his, He holds her down on the slab, rough, his left arm with its half-useless hand pinning her across her shoulder blades, He needs more hands than he has. For four year he has though of the first woman he would have after prison. A Pallas womam, perfumed in a thousand places. This girl is cold and unlubricated, like an iced rubber glove. <br><br> With the icy cold white light and the ice jelly, it's like making love to the dead in a morgue.",
+//"He touches his red prison suit and it opens down to his groin. The ''ice'' is not ice, but it is cold, jellylike on his bare skin. Her body slips greasily under his, He holds her down on the slab, rough, his left arm with its half-useless hand pinning her across her shoulder blades, He needs more hands than he has. For four year he has though of the first woman he would have after prison. A Pallas womam, perfumed in a thousand places. This girl is cold and unlubricated, like an iced rubber glove. <br><br> With the icy cold white light and the ice jelly, it's like making love to the dead in a morgue.",
 
-"He rides his brutality, he pushes against it like G-force. He feels power like the prison trusties on Circe must have felt toward him. <br><br> He sees a silver of her eyeballs under her partly closed eyelids. She is waking up. Suddenly he is uncontrollable, shuddering, coming in a spasm of revenge. <br><br> He rips her virgin's earing and throws it onto the floor. A globe of blood swells in the ice near her ear, then spreads.",
+//"He rides his brutality, he pushes against it like G-force. He feels power like the prison trusties on Circe must have felt toward him. <br><br> He sees a silver of her eyeballs under her partly closed eyelids. She is waking up. Suddenly he is uncontrollable, shuddering, coming in a spasm of revenge. <br><br> He rips her virgin's earing and throws it onto the floor. A globe of blood swells in the ice near her ear, then spreads.",
 
-"No more virgin Priestess. And she hasn't turned him into her slave. <br><br> The ship's heat cricuits out in as he fastens his jumpsuit. He begins to sweat, smelling his bodystink over the cool neutral air of the lifeship. The half-moon of the ice dissolves, rivulets flowing down into the surface if the egg-ship. Her blood flows with it, down in a watery delta. The lifeship will use it. <br><br> The girl opens her eyes and reaches up her hand to her bloodied ear.",
+//"No more virgin Priestess. And she hasn't turned him into her slave. <br><br> The ship's heat cricuits out in as he fastens his jumpsuit. He begins to sweat, smelling his bodystink over the cool neutral air of the lifeship. The half-moon of the ice dissolves, rivulets flowing down into the surface if the egg-ship. Her blood flows with it, down in a watery delta. The lifeship will use it. <br><br> The girl opens her eyes and reaches up her hand to her bloodied ear.",
 
-"She looks up at him, her eyes ageless and unfathomable. ''You did the Ceremony,'' she says. He nods. He has power over her. he feels it in what his body has done to hers. <br>,br> ''Now I have my powers,'' she murmurs. <br><br> Not over me, Tam thinks. ''I did you a favor. I woke you up. Now I need your help to get the ship going,'' he says. <br><br> She looks him deep in the eyes. The blood is still flowing from her ear. She pinches the lobe between two fingers and the blood stops. <br><br> ''Oh, yes,'' she says, ''I can heal the Lady Nii.'' He puts his hand on her arm but she draws back, following him without touching him.",
+//"She looks up at him, her eyes ageless and unfathomable. ''You did the Ceremony,'' she says. He nods. He has power over her. he feels it in what his body has done to hers. <br>,br> ''Now I have my powers,'' she murmurs. <br><br> Not over me, Tam thinks. ''I did you a favor. I woke you up. Now I need your help to get the ship going,'' he says. <br><br> She looks him deep in the eyes. The blood is still flowing from her ear. She pinches the lobe between two fingers and the blood stops. <br><br> ''Oh, yes,'' she says, ''I can heal the Lady Nii.'' He puts his hand on her arm but she draws back, following him without touching him.",
 
-"He goes first, propelling himself down the pitted and murky port corridor toward the greatship. He can see the white plume of air leaking from his suit. He slaps a seal-patch pver it. <br><br> The priestess needs no suit here. She is spacehabbed. <br><br. He has only a dagger, a prison weapon, made from the Circean mineral called heartsblood, chipped and edged in the long nights in the mines. The thongs that wrap the handle are a man's skin. <br><br> Around the lock there are only the fossilized pale marks of water impurities; it has been so long since the lock was opened that no ice crystals blur its metal leaves.",
+//"He goes first, propelling himself down the pitted and murky port corridor toward the greatship. He can see the white plume of air leaking from his suit. He slaps a seal-patch pver it. <br><br> The priestess needs no suit here. She is spacehabbed. <br><br. He has only a dagger, a prison weapon, made from the Circean mineral called heartsblood, chipped and edged in the long nights in the mines. The thongs that wrap the handle are a man's skin. <br><br> Around the lock there are only the fossilized pale marks of water impurities; it has been so long since the lock was opened that no ice crystals blur its metal leaves.",
 
-"The outside of the ship is scarred from meteors and hard radiation",
+//"The outside of the ship is scarred from meteors and hard radiation",
 
 // insert tiger puzzle maintenance panel
 
-"The Priestess steps up to the picturelock. Her fingers work by themselves, and through the metal of the ship Tam feels a vibration. <br><br> The leaves of the airlock iris slowly open, as if they are doing something unnatural, moving against the flow of time.",
+//"The Priestess steps up to the picturelock. Her fingers work by themselves, and through the metal of the ship Tam feels a vibration. <br><br> The leaves of the airlock iris slowly open, as if they are doing something unnatural, moving against the flow of time.",
 
 // black screen
 
