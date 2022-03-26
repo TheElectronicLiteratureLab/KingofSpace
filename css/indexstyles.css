@@ -248,7 +248,7 @@ header .container .menu div.buttons > * {
   text-align: center;
 }
 
-.btn {
+.playbtn {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   margin: 0 auto;
   padding: 2rem 3rem 2rem 3rem;
@@ -260,7 +260,7 @@ header .container .menu div.buttons > * {
   font-size: 18px;
 }
 
-.btn:hover {
+.playbtn:hover {
   background-image: linear-gradient(to top, #741316 0%, #a51c25 100%);
   cursor: pointer;
 }
@@ -361,16 +361,11 @@ header .container .menu div.buttons > * {
 .restgridcontainer {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-gap: 3rem;
+grid-gap: 1rem;
 }
 
 .restitem {
-  background: white;
   border: 10px solid #69B7AE;
-  color: black;
-  padding: 2rem;
-  font-size: 20px;
-  text-align: center;
 }
 
 .restheader {
@@ -378,6 +373,8 @@ grid-gap: 3rem;
   text-align: center;
   font-size: 40px;
   padding-bottom: 100px;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -473,9 +470,9 @@ footer {
 
 
 
-/* --------------------------MOBILE STYLES-------------------------------- */
-@media only screen and (max-width: 799px) {
-  /* ///////////////////// Landing Page Mobile /////////////////////// */
+/* --------------------------SMALL MOBILE STYLES-------------------------------- */
+@media only screen and (max-width: 699px) {
+  /* ///////////////////// Landing Page Mobile (S) /////////////////////// */
   .page-content {
       min-height: 700px;
     }
@@ -489,13 +486,13 @@ footer {
       padding: 5rem;
     }
   
-    .btn {
+    .playbtn {
       padding: 1rem 2rem 1rem 2rem;
       font-size: 15px;
     }
   /* ///////////////////// End Section /////////////////////// */
   
-  /* ///////////////////// About Mobile /////////////////////// */
+  /* ///////////////////// About Mobile (S) /////////////////////// */
   #abtgame {
       padding: 2rem;
     }
@@ -515,7 +512,7 @@ footer {
     }
   /* ///////////////////// End Section /////////////////////// */
   
-  /* ///////////////////// New Features Mobile /////////////////////// */
+  /* ///////////////////// New Features Mobile (S) /////////////////////// */
   .ftgridcontainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -531,7 +528,7 @@ footer {
   }
   /* ///////////////////// End Section /////////////////////// */
   
-  /* ///////////////////// Restoration Teams Mobile /////////////////////// */
+  /* ///////////////////// Restoration Teams Mobile (S) /////////////////////// */
   .restgridcontainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -542,14 +539,63 @@ footer {
       color: white;
       text-align: center;
       font-size: 25px;
+      padding-bottom: 80px;
+      font-weight: 500;
+      letter-spacing: 3px;
     }
   
     #rest {
       min-height: 540px;
     }
+
+    .teamimgs {
+      max-width: 100%;
+      max-height: 100%;
+      vertical-align: bottom;
+      border: 10px solid #69B7AE;
+      transform: scale(1);
+      opacity: 1;
+      transition: opacity 0.4s, transform 0.4s;
+      overflow: hidden;
+    }
+    
+    .teamimgs:hover {
+      transform: scale(0.9);
+      opacity: 0.7;
+    }
+    
+    .img_wrap {
+      position: relative;
+    }
+    
+    .teamimg_description {
+      position: absolute;
+      top: 50%;
+      left: 52%;
+      background: #5A7C7C;
+      color: white;
+      visibility: visible;
+      opacity: 1;
+      transition: opacity .2s, visibility .2s;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding: 5px;
+      font-size: 25px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-shadow: 2px 2px black;
+    }
+    
+    .img_wrap:hover .teamimg_description {
+      visibility: visible;
+      opacity: 1;
+    }
+
+   
   /* ///////////////////// End Section /////////////////////// */
   
-  /* ///////////////////// Footer Mobile /////////////////////// */
+  /* ///////////////////// Footer Mobile (S)/////////////////////// */
   .footergridcontainer {
     margin-left: 5vw;
     margin-right: 5vw;
@@ -582,7 +628,165 @@ footer {
   
   }
 
-/* Tablet */
+  /* --------------------------LARGE MOBILE STYLES-------------------------------- */
+  @media only screen and (min-width: 600px) {
+    /* ///////////////////// Landing Page Mobile (L) /////////////////////// */
+  .page-content {
+    min-height: 1000px;
+  }
+
+  .mainlogo {
+    width: 100%;
+    padding-top: 10rem; 
+  }
+
+  .playbtn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 15px;
+  }
+/* ///////////////////// End Section /////////////////////// */
+  
+
+/* ///////////////////// About Mobile (L) /////////////////////// */
+#abtgame {
+  padding: 2rem;
+  min-height: 800px;
+}
+
+.abtgridcontainer {
+  grid-template-columns: 1fr;
+}
+
+.abtitem2 {
+  padding: 0;
+}
+
+.trailer {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+}
+/* ///////////////////// End Section /////////////////////// */
+
+ /* ///////////////////// New Features Mobile (L) /////////////////////// */
+  .ftgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+  
+  .ftheader {
+    font-size: 30px;
+  }
+  
+  #newft {
+    min-height: 800px;
+  }
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Restoration Teams Mobile (L) /////////////////////// */
+  .restgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    }
+  
+    .restheader {
+      color: white;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .teamimgs {
+      max-width: 100%;
+      max-height: 100%;
+      vertical-align: bottom;
+      border: 10px solid #69B7AE;
+      transform: scale(1);
+      opacity: 1;
+      transition: opacity 0.4s, transform 0.4s;
+      overflow: hidden;
+    }
+    
+    .teamimgs:hover {
+      transform: scale(0.9);
+      opacity: 0.7;
+    }
+    
+    .img_wrap {
+      position: relative;
+    }
+    
+    .teamimg_description {
+      position: absolute;
+      top: 50%;
+      left: 55%;
+      background: #5A7C7C;
+      color: white;
+      visibility: visible;
+      opacity: 1;
+      transition: opacity .2s, visibility .2s;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding: 5px;
+      font-size: 25px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-shadow: 2px 2px black;
+    }
+    
+    .img_wrap:hover .teamimg_description {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .restitem {
+      border: 10px solid #69B7AE;
+    }
+  
+    #rest {
+      min-height: 540px;
+    }
+
+    
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Footer Mobile (L) /////////////////////// */
+  .footergridcontainer {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  
+  .footeritem {
+    padding: 1rem;
+    font-size: 15px;
+  }
+  
+  #footer {
+    min-height: 350px;
+  }
+  
+  .footerlogo {
+    width: 30vw;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+  }
+  
+  .parallax {
+    background-attachment: scroll;
+  }
+  
+  hr {
+    width: 70vw;
+  }
+
+/* ///////////////////// End Section /////////////////////// */
+  }
+
+
+/* --------------------------TABLET STYLES-------------------------------- */
 @media only screen and (min-width: 800px) {
   
   header {
@@ -663,7 +867,7 @@ footer {
     padding-top: 10rem; 
   }
 
-  .btn {
+  .playbtn {
     padding: 1rem 2rem 1rem 2rem;
     font-size: 15px;
   }
@@ -711,7 +915,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
-    min-height: 400px;
     }
   
     .restheader {
@@ -719,10 +922,60 @@ footer {
       text-align: center;
       font-size: 30px;
     }
+
+    .teamimgs {
+      max-width: 100%;
+      max-height: 100%;
+      vertical-align: bottom;
+      border: 10px solid #69B7AE;
+      transform: scale(1);
+      opacity: 1;
+      transition: opacity 0.4s, transform 0.4s;
+      overflow: hidden;
+    }
+    
+    .teamimgs:hover {
+      transform: scale(0.9);
+      opacity: 0.7;
+    }
+    
+    .img_wrap {
+      position: relative;
+    }
+    
+    .teamimg_description {
+      position: absolute;
+      top: 50%;
+      left: 55%;
+      background: #5A7C7C;
+      color: white;
+      visibility: visible;
+      opacity: 1;
+      transition: opacity .2s, visibility .2s;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding: 5px;
+      font-size: 25px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-shadow: 2px 2px black;
+    }
+    
+    .img_wrap:hover .teamimg_description {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .restitem {
+      border: 10px solid #69B7AE;
+    }
   
     #rest {
-      min-height: 800px;
+      min-height: 540px;
     }
+
+    
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Footer Tablet /////////////////////// */
@@ -760,8 +1013,8 @@ footer {
 }
 
 
-/* Desktop */
-@media only screen and (min-width: 1200px) {
+/* --------------------------DESKTOP STYLES-------------------------------- */
+@media only screen and (min-width: 1040px) {
   
   header {
     height: 5.2rem;
@@ -845,7 +1098,7 @@ footer {
   text-align: center;
 }
 
-.btn {
+.playbtn {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   margin: 0 auto;
   padding: 2rem 3rem 2rem 3rem;
@@ -857,7 +1110,7 @@ footer {
   font-size: 18px;
 }
 
-.btn:hover {
+.playbtn:hover {
   background-image: linear-gradient(to top, #741316 0%, #a51c25 100%);
   cursor: pointer;
 }
@@ -909,7 +1162,7 @@ footer {
 
   /* ///////////////////// New Features Desktop /////////////////////// */
 #newft {
-  min-height: 1000px;
+  min-height: 800px;
   margin: 0 auto;
   padding: 5rem;
   position: relative;
@@ -921,6 +1174,8 @@ color: white;
 text-align: center;
 font-size: 40px;
 padding-bottom: 100px;
+font-weight: 500;
+  letter-spacing: 3px;
 }
 
 .ftgridcontainer {
@@ -948,7 +1203,7 @@ text-align: center;
 
 /* ///////////////////// Restoration Teams Desktop /////////////////////// */
 #rest {
-  min-height: 1000px;
+  min-height: 540px;
   margin: 0 auto;
   padding: 5rem;
   position: relative;
@@ -961,12 +1216,48 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-gap: 3rem;
 }
 
-.restitem {
-  background: white;
+.teamimgs {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: bottom;
   border: 10px solid #69B7AE;
-  color: black;
-  font-size: 20px;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  overflow: hidden;
+}
+
+.teamimgs:hover {
+  transform: scale(0.9);
+  opacity: 0.7;
+}
+
+.img_wrap {
+  position: relative;
+}
+
+.teamimg_description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #5A7C7C;
+  color: white;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .2s, visibility .2s;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+.img_wrap:hover .teamimg_description {
+  visibility: visible;
+  opacity: 1;
 }
 
 .restheader {
@@ -974,6 +1265,8 @@ grid-gap: 3rem;
   text-align: center;
   font-size: 40px;
   padding-bottom: 100px;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -997,7 +1290,7 @@ grid-gap: 3rem;
 #footer {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  min-height: 540px;
+  min-height: 400px;
   margin: 0 auto;
   position: relative;
   background-color: #434A52;
@@ -1047,7 +1340,6 @@ grid-gap: 3rem;
   }
 
   .socialitem {
-  padding-top: 5rem;
   width: 2rem;
   text-align: center;
   }

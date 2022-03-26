@@ -279,8 +279,10 @@ html, body {
   .bkgheader {
     color: white;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     padding-bottom: 100px;
+    font-weight: 500;
+    letter-spacing: 3px;
   }
   
   .bkglogo {
@@ -292,7 +294,7 @@ html, body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-    padding-top: 3.5rem;
+    padding-top: 0rem;
   }
   
   .bkgitem {
@@ -311,7 +313,7 @@ html, body {
   
   /* ///////////////////// Assets Section /////////////////////// */
   #assets {
-      min-height: 1080px;
+      min-height: 540px;
       margin: 0 auto;
       padding: 5rem;
       position: relative;
@@ -323,6 +325,8 @@ html, body {
     text-align: center;
     font-size: 50px;
     padding-bottom: 100px;
+    font-weight: 500;
+    letter-spacing: 3px;
   }
   
   .assetsgridcontainer {
@@ -332,89 +336,94 @@ html, body {
   }
 
   .fotorama {
-    margin: 0 auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  
   /* ///////////////////// End Section /////////////////////// */
   
   /* ///////////////////// Play Game Section /////////////////////// */
-  .parallax {
-    background-image: url("/img/starpattern.png");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    padding: 15rem;
-    background-color: #151E24;
-  }
-  
-  /* ///////////////////// End Section /////////////////////// */
-  
-  /* ///////////////////// Footer Section /////////////////////// */
-  #footer {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    min-height: 540px;
-    margin: 0 auto;
-    position: relative;
-    background-color: #434A52;
+.parallax {
+  background-image: url("/img/starpattern.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 15rem;
+  background-color: #151E24;
+}
+
+/* ///////////////////// End Section /////////////////////// */
+
+/* ///////////////////// Footer Section /////////////////////// */
+#footer {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 540px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #434A52;
+  text-align: center;
+}
+
+.footerlogo {
+  width: 250px;
+  text-align: center;
+  cursor: pointer;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+.footergridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding-bottom: 5rem;
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+
+.footeritem {
+    padding: 1rem;
+    font-size: 20px;
     text-align: center;
   }
-  
-  .footerlogo {
-    width: 18vw;
-    text-align: center;
-    cursor: pointer;
-    padding: 3rem;
+
+  .footeritem a {
+    color: white;
   }
-  
-  .footergridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
+  .footeritem a:hover {
+    color: #769979;
+  }
+
+  .socialgridcontainer {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    padding-bottom: 5rem;
-    margin-left: 30vw;
-    margin-right: 30vw;
+    grid-gap: 30px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
   }
-  
-  .footeritem {
-      padding: 1rem;
-      font-size: 20px;
-      text-align: center;
+
+  .socialitem {
+  padding: 10px;
+  width: 2rem;
+  text-align: center;
+  }
+
+  .socialitem:hover {
+    opacity: 0.5;
+    cursor: pointer;
     }
-  
-    .footeritem a {
-      color: white;
-    }
-  
-    .footeritem a:hover {
-      color: #769979;
-    }
-  
-    .socialgridcontainer {
-      display: inline-grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-rows: auto;
-      grid-gap: 30px;
-      justify-content: space-evenly;
-      justify-items: center;
-      align-content: space-evenly;
-      align-items: center;
-    }
-  
-    .socialitem {
-    padding: 10px;
-    width: 2rem;
-    text-align: center;
-    }
-  
-    .socialitem:hover {
-      opacity: 0.5;
-      cursor: pointer;
-      }
-  
-  /* ///////////////////// End Section /////////////////////// */
+
+/* ///////////////////// End Section /////////////////////// */
   
   /* ///////////////////// Copyright /////////////////////// */
   footer {
@@ -425,9 +434,9 @@ html, body {
   }
   /* ///////////////////// End Section /////////////////////// */
   
-  /* --------------------------MOBILE STYLES-------------------------------- */
-  @media only screen and (max-width: 799px) {
-    /* ///////////////////// Landing Page Mobile /////////////////////// */
+  /* --------------------------SMALL MOBILE STYLES-------------------------------- */
+  @media only screen and (max-width: 699px) {
+    /* ///////////////////// Landing Page Mobile (S) /////////////////////// */
     .page-content {
         min-height: 700px;
       }
@@ -447,7 +456,7 @@ html, body {
       }
     /* ///////////////////// End Section /////////////////////// */
     
-    /* ///////////////////// Background / Creation Mobile /////////////////////// */
+    /* ///////////////////// Background / Creation Mobile (S) /////////////////////// */
     #bkg {
         padding: 2rem;
       }
@@ -459,9 +468,13 @@ html, body {
       .bkgitem2 {
         padding: 0;
       }
+
+      .bkgheader {
+        font-size: 30px;
+      }
     /* ///////////////////// End Section /////////////////////// */
     
-    /* ///////////////////// Original Assets Mobile /////////////////////// */
+    /* ///////////////////// Original Assets Mobile (S) /////////////////////// */
     .assetsgridcontainer {
       display: grid;
       grid-template-columns: 1fr;
@@ -469,15 +482,23 @@ html, body {
     }
     
     .assetsheader {
-      font-size: 25px;
+      font-size: 30px;
     }
     
     #assets {
+      padding: 2rem;
       min-height: 540px;
+    }
+
+    .fotorama {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100%;
     }
     /* ///////////////////// End Section /////////////////////// */
     
-    /* ///////////////////// Footer Mobile /////////////////////// */
+    /* ///////////////////// Footer Mobile (S) /////////////////////// */
     .footergridcontainer {
       margin-left: 5vw;
       margin-right: 5vw;
@@ -493,10 +514,11 @@ html, body {
     }
     
     .footerlogo {
-      width: 40vw;
+      width: 200px;
       text-align: center;
       cursor: pointer;
       padding: 1rem;
+      padding-top: 3rem;
     }
     
     .parallax {
@@ -506,12 +528,101 @@ html, body {
     hr {
       width: 70vw;
     }
+  }
     /* ///////////////////// End Section /////////////////////// */
-    
+  
+    /* --------------------------LARGE MOBILE STYLES-------------------------------- */
+    @media only screen and (min-width: 600px) {
+  /* ///////////////////// Landing Page Mobile (L) /////////////////////// */
+     .page-content {
+      min-height: 1000px;
     }
   
-  /* Tablet */
-  @media only screen and (min-width: 800px) {
+    .mainlogo {
+      width: 100%;
+      padding-top: 10rem; 
+    }
+  
+  /* ///////////////////// End Section /////////////////////// */
+  
+  /* ///////////////////// Background / Creation Mobile (L) /////////////////////// */
+  #bkg {
+    padding: 2rem;
+    min-height: 800px;
+  }
+
+  .bkgheader {
+    font-size: 30px;
+  }
+
+  .bkggridcontainer {
+    grid-template-columns: 1fr;
+  }
+
+  .bkgitem2 {
+    padding: 0;
+  }
+/* ///////////////////// End Section /////////////////////// */
+
+/* ///////////////////// Original Assets Mobile (L) /////////////////////// */
+.assetsgridcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+}
+
+.assetsheader {
+  font-size: 30px;
+}
+
+#assets {
+  padding: 2rem;
+  min-height: 540px;
+}
+
+.fotorama {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+/* ///////////////////// End Section /////////////////////// */
+
+ /* ///////////////////// Footer Mobile (L) /////////////////////// */
+ .footergridcontainer {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.footeritem {
+  padding: 1rem;
+  font-size: 15px;
+}
+
+#footer {
+  min-height: 350px;
+}
+
+.footerlogo {
+  width: 250px;
+  text-align: center;
+  cursor: pointer;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+.parallax {
+  background-attachment: scroll;
+}
+
+hr {
+  width: 70vw;
+}
+}
+/* ///////////////////// End Section /////////////////////// */
+  
+/* --------------------------TABLET STYLES-------------------------------- */
+@media only screen and (min-width: 800px) {
     
     header {
       height: 8.5rem;
@@ -591,7 +702,7 @@ html, body {
       padding-top: 10rem; 
     }
   
-    .btn {
+    .playbtn {
       padding: 1rem 2rem 1rem 2rem;
       font-size: 15px;
     }
@@ -628,14 +739,23 @@ html, body {
 }
 
 #assets {
+  padding: 2rem;
   min-height: 540px;
+}
+
+.fotorama {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
 }
 /* ///////////////////// End Section /////////////////////// */
 
  /* ///////////////////// Footer Tablet /////////////////////// */
  .footergridcontainer {
-  margin-left: 5vw;
-  margin-right: 5vw;
+  padding-bottom: 5rem;
+  margin-left: 30vw;
+  margin-right: 30vw;
 }
 
 .footeritem {
@@ -648,10 +768,11 @@ html, body {
 }
 
 .footerlogo {
-  width: 30vw;
+  width: 250px;
   text-align: center;
   cursor: pointer;
   padding: 1rem;
+  padding-top: 3rem;
 }
 
 .parallax {
@@ -659,15 +780,15 @@ html, body {
 }
 
 hr {
-  width: 70vw;
+  width: 40vw;
+}
 }
 /* ///////////////////// End Section /////////////////////// */
 
-}
   
   
-  /* Desktop */
-  @media only screen and (min-width: 1200px) {
+/* --------------------------DESKTOP STYLES-------------------------------- */
+@media only screen and (min-width: 1040px) {
     
     header {
       height: 5.2rem;
@@ -714,7 +835,7 @@ hr {
 
      /* ///////////////////// Landing Page Desktop /////////////////////// */
   .mainlogo {
-    width: 70vw;
+    width: 1200px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -777,7 +898,6 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-    padding-top: 3.5rem;
   }
   
   .bkgitem {
@@ -794,14 +914,21 @@ hr {
   }
   /* ///////////////////// End Section /////////////////////// */
   
-  /* ///////////////////// Assets Desktop /////////////////////// */
-  #assets {
-    min-height: 1080px;
-    margin: 0 auto;
-    padding: 5rem;
-    position: relative;
-    background-color: #5A7C7C;
-}
+  /* ///////////////////// Original Assets Desktop /////////////////////// */
+ #assets {
+      min-height: 1000px;
+      margin: 0 auto;
+      padding-left: 10rem;
+      padding-right: 10rem;
+      position: relative;
+      background-color: #5A7C7C;
+  }
+
+.fotorama {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .assetsheader {
   color: white;
@@ -816,13 +943,11 @@ hr {
   width: 100%;
 }
 
-.fotorama {
-  margin: 0 auto;
-}
+
 /* ///////////////////// End Section /////////////////////// */
 
  /* ///////////////////// Play Game Desktop /////////////////////// */
- .parallax {
+.parallax {
   background-image: url("/img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
@@ -840,7 +965,7 @@ hr {
 #footer {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  min-height: 540px;
+  min-height: 400px;
   margin: 0 auto;
   position: relative;
   background-color: #434A52;
@@ -848,10 +973,11 @@ hr {
 }
 
 .footerlogo {
-  width: 18vw;
+  width: 300px;
   text-align: center;
   cursor: pointer;
-  padding: 3rem;
+  padding: 1rem;
+  padding-top: 3rem;
 }
 
 .footergridcontainer {
@@ -889,7 +1015,6 @@ hr {
   }
 
   .socialitem {
-  padding: 10px;
   width: 2rem;
   text-align: center;
   }
@@ -898,10 +1023,10 @@ hr {
     opacity: 0.5;
     cursor: pointer;
     }
+    
+    hr {
+      width: 40vw;
+    }
 
 /* ///////////////////// End Section /////////////////////// */
-    
   }
-  
-
-  
