@@ -55,4 +55,9 @@ function clickTile(row,column) {
   
 }
 
-// window.onload = shuffle; commenting out for now so we can see the full image before shuffling
+
+window.onload = shuffle;
+  
+
+
+

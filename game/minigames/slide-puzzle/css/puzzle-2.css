@@ -7,7 +7,7 @@ BODY {
       display: table-cell;
       width: 120px;
       height: 120px;
-      background-image: url(../img/tigerface.png); 
+      background-image: url(../img/foxmask.png); 
       cursor: pointer;
       border: 1px solid white;
     }
