@@ -55,4 +55,3 @@ function clickTile(row,column) {
   
 }
 
-//window.onload = shuffle;
