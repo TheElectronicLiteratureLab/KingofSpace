@@ -63,16 +63,24 @@ h1{
   text-align: center;
 }
 
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #D6DCD5;
+}
+
 p{
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  max-width: 60ch;
+  line-height: 1.4;
   color: #D6DCD5;
 }
 
 a{
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  color:#78CBC4;
   text-decoration: none;
 }
 
@@ -181,16 +189,16 @@ a{
     position: absolute;
     z-index: -1;
     top:0;
-    -webkit-transform: translateX(calc(100vw - 1rem));
-    transform: translateX(calc(100vw - 1rem));
+    -webkit-transform: translateX(calc(-100vw - 1rem));
+    transform: translateX(calc(-100vw - 1rem));
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, -webkit-max-content);
     grid-template-rows: repeat(2, max-content);
     width: 18.75rem;
     height:100%;
-    -webkit-transition: 0.22s ease-in-out;
-    transition: 0.22s ease-in-out;
+    -webkit-transition: 0.30s ease-in-out;
+    transition: 0.30s ease-in-out;
   }
   
   header .container .menu::after {
@@ -221,8 +229,9 @@ a{
   
   /* Navbar Text */
   header .container .menu nav ul > li > a {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color:#78CBC4;
     width: 100%;
     color: #78CBC4;
   }
@@ -256,8 +265,6 @@ a{
 #title-logo{
   min-width: 200px;
   max-width: 800px;
-  /* margin-left: auto;
-  margin-right: auto; */
   margin: 100px auto 50px auto ;
 }
 
@@ -287,6 +294,10 @@ a{
   cursor: pointer;
 }
 
+.red-buttons a{
+  color:#ffff;
+}
+
 /*////////////////////Mobile Game main page styles//////////*/
 
 @media screen and (max-width: 600px){ 
@@ -312,27 +323,33 @@ body{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  column-gap: 35px;
+  column-gap: 2%;
   row-gap:50px;
   padding-bottom:40px;
 }
 
-.img_container{
-  max-width:200px;
-  max-height:200px;
-}
-
-.img_container img{
+.game-button{
+  background-image:url("/game/img/tigerface.png");
   filter: drop-shadow(3px 3px 3px #78CBC4);
+  background-position: center;
+  background-size:cover;
+  font-size: 18px;
+  cursor:pointer;
+  border: none;
+  width:150px;
+  height:150px;
+  border-radius: 5px;
 }
 
-.game_description{
-  margin: auto 0;
-  text-align: center;
+.game-button:hover{
+  background-color: #808080;
+  color:#ffff;
+  -webkit-transition: 0.14s ease-in-out;
+    transition: 0.14s ease-in-out;
 }
 
 /*///////////// Game only tablet styles////////////// */
-@media only screen and (max-width: 900px) and (min-width: 601px){
+@media only screen and (max-width: 1001px) and (min-width: 601px){
   #game_grid{
     place-items: center;
     display:grid;
@@ -340,6 +357,11 @@ body{
     grid-template-rows: 1fr repeat(5);
     column-gap: auto;
     row-gap: 50px;
+  }
+
+  .game-button{
+    width:200px;
+    height:200px;
   }
 }
 
@@ -353,4 +375,43 @@ body{
     column-gap: auto;
     row-gap: 50px;
   }
+  .game-button{
+    width:250px;
+    height:250px;
+  }
+}
+
+/*///////////// Characters Page////////////// */
+#character-button-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap:15px;
+}
+
+.character-button{
+  color:#000000;
+  display: block;
+  border:none;
+  padding: 2rem 3rem 2rem 3rem;
+  background-position: center;
+  border-radius: 5px;
+}
+
+#tam{
+  background-image: url("/game/img/Tam-button.png");
+  background-size: cover;
+}
+
+#character-info{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:15px;
+}
+
+.character-container{
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  max-width:550px;
 }
