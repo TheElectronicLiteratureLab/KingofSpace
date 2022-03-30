@@ -55,7 +55,13 @@ function onstart(){
 		hide('Playgame');
 	}
 
+	function miniGame(name){
+	
+	if(name==="radar"){
+	 window.open("https://dtc-wsuv.org/rrolfe20/webfolder/radar/", height =600 , width = 1000 , status='yes');
+	}
 
+	}
 
 
 // need to change to if statements 
@@ -93,16 +99,17 @@ function onstart(){
 			case 8 : 
 				// print out array 
 				//window.alert('radar game');
-				if(confirm("do you want to play a mini game? radar game")){
+				/*if(confirm("do you want to play a mini game? radar game")){
 					//radarstart()
 					txt = "You  pressed Ok!";
 				}
 				else{
 					txt = "You pressed Cancel!";
-				}
+				}*/
 				//radarstart();
 				// pop up option for mini game 
 				//console.log ("case  8");
+				miniGame("radar");
 				 current ++;
 				break; 
 
@@ -1164,7 +1171,14 @@ case 177:
 				hide('choiceone');
 				document.getElementById('choiseone').innerHTML = `Acnologments  `;
 
-				current = -1;// states story over. 
+				if(confirm("do you want to restart and play again")){// tetrus game
+					current = -1;// states story over. 
+					//txt = "You  pressed Ok!";
+				}
+				else{
+					txt = "You pressed Cancel!";
+					// dose not do anything... rework to main menu 
+				}
 				break;
 
 			default:

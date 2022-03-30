@@ -1,4 +1,4 @@
-function hide(button) {
+function Lhide(button) {
 		var temp = button;
 	  var x = document.getElementById(temp);
 	  if (x.style.display === "none") {
@@ -9,31 +9,37 @@ function hide(button) {
 	}
 
 function hudeoptions(){
-	hide('bookone');
-	hide('booktwo');
-	hide('bookthree');
-	hide('bookfour');
-	hide('bookfive');
-	hide('booksix');
-	hide('bookseven');
-	hide('bookeight');
-	hide('booknine');
-	hide('bookten');
-	hide('bookeleven');
-	hide('booktwelve');
-	hide('bookthirteen');
-	hide('bookfourteen');
-	hide('bookfifteen');
-	hide('booksixteen');
-	hide('bookseventeen');
+	Lhide('bookone');
+	Lhide('booktwo');
+	Lhide('bookthree');
+	Lhide('bookfour');
+	Lhide('bookfive');
+	Lhide('booksix');
+	Lhide('bookseven');
+	Lhide('bookeight');
+	Lhide('booknine');
+	Lhide('bookten');
+	Lhide('bookeleven');
+	Lhide('booktwelve');
+	Lhide('bookthirteen');
+	Lhide('bookfourteen');
+	Lhide('bookfifteen');
+	Lhide('booksixteen');
+	Lhide('bookseventeen');
 
 }
 
-let current = 0;
+let cur = 0;
 
 function onstart(){
-	hide('next');
-
+	Lhide('Next');
+Lhide('choiceone');
+	Lhide('choicetwo');
+	Lhide('choicethree');
+	Lhide('choicefour');
+	Lhide('choicefive');
+	Lhide('choicesix');
+	Lhide('choiceseven');
 }
 
 
@@ -41,108 +47,108 @@ function Goto(button){
 	if(button === 'one' ){
 		hudeoptions();
 		
-		current = 0;
-		library(current);
+		cur = 0;
+		library(cur);
 	}
 	if(button === 'two' ){
 		hudeoptions();
 		
-		current = 1;
-		library(current);
+		cur = 1;
+		library(cur);
 	}
 	if(button === 'three' ){
 		hudeoptions();
 		
-		current = 2;
-		library(current);
+		cur = 2;
+		library(cur);
 	}
 	if(button === 'four' ){
 		hudeoptions();
 		
-		current = 3;
-		library(current);
+		cur = 3;
+		library(cur);
 	}
 	if(button === 'five' ){
 		hudeoptions();
 		
-		current = 4;
-		library(current);
+		cur = 4;
+		library(cur);
 	}
 	if(button === 'six' ){
 		hudeoptions();
 		
-		current = 5;
-		library(current);
+		cur = 5;
+		library(cur);
 	}
 	if(button === 'seven' ){
 		hudeoptions();
 		
-		current = 6;
-		library(current);
+		cur = 6;
+		library(cur);
 	}
 	if(button === 'eight' ){
 		hudeoptions();
 		
-		current = 7;
-		library(current);
+		cur = 7;
+		library(cur);
 	}
 	if(button === 'nine' ){
 		hudeoptions();
 		
-		current = 8;
-		library(current);
+		cur = 8;
+		library(cur);
 	}
 	if(button === 'ten' ){
 		hudeoptions();
 		
-		current = 9;
-		library(current);
+		cur = 9;
+		library(cur);
 	}
 	if(button === 'eleven' ){
 		hudeoptions();
 		
-		current = 10;
-		library(current);
+		cur = 10;
+		library(cur);
 	}
 	if(button === 'twelve' ){
 		hudeoptions();
 		
-		current = 11;
-		library(current);
+		cur = 11;
+		library(cur);
 	}
 	if(button === 'thirteen' ){
 		hudeoptions();
 		
-		current = 12;
-		library(current);
+		cur = 12;
+		library(cur);
 	}
 	if(button === 'fourteen' ){
 		hudeoptions();
 		
-		current = 13;
-		library(current);
+		cur = 13;
+		library(cur);
 	}
 	if(button === 'fifteen' ){
 		hudeoptions();
 		
-		current = 14;
-		library(current);
+		cur = 14;
+		library(cur);
 	}
 	if(button === 'sixteen' ){
 		hudeoptions();
-		hide('next');
-		current = 15;
-		library(current);
+		Lhide('next');
+		cur = 15;
+		library(cur);
 	}
 	if(button === 'seventeen' ){
 		hudeoptions();
-		hide('next');
-		current = 17;
-		library(current);
+		Lhide('next');
+		cur = 17;
+		library(cur);
 	}
 	if(button === 'next' ){
-		current++;
-		library(current);
+		cur++;
+		library(cur);
 	}
 	if(button === 'back' ){
 
@@ -154,7 +160,7 @@ function Goto(button){
 
 
 
-function library (current){
+function library (cur){
 	
 let library= ["<b>Arcoculture</b> <br><br> The study of gardening and ecological maintenance in a closed enviornment. ",//0
 		
@@ -201,7 +207,7 @@ let library= ["<b>Arcoculture</b> <br><br> The study of gardening and ecological
 ];
 
 
- document.getElementById('playboxmain').innerHTML = `  ${library[current]} `;
+ document.getElementById('playboxmain').innerHTML = `  ${library[cur]} `;
 	
 
 

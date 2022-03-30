@@ -6,7 +6,7 @@
 
 
 	//let wrapper = document.getElementById('wrapper');
-	let box = document.getElementById('puzzle');
+	let box = document.getElementById('main');
 		box.style.backgroundImage =  "url(./img/radar1.jpg)";
 	
 	let S1 = document.getElementById('switchone');
