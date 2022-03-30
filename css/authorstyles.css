@@ -311,7 +311,7 @@ html, body {
   /* ///////////////////// End Section /////////////////////// */
   
   /* ///////////////////// New Features Section /////////////////////// */
-  #newft {
+  #awards {
       min-height: 1080px;
       margin: 0 auto;
       padding: 5rem;
@@ -319,26 +319,26 @@ html, body {
       background-color: #5A7C7C;
   }
   
-  .ftheader {
+  .awheader {
     color: white;
     text-align: center;
     font-size: 40px;
     padding-bottom: 100px;
   }
   
-  .ftgridcontainer {
+  .awgridcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3rem;
   }
 
-  .ftgridcontainer2 {
+  .awgridcontainer2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 3rem;
   }
   
-  .ftitem {
+  .awitem {
     background: white;
     border: 10px solid #434A52;
     color: black;
@@ -347,7 +347,7 @@ html, body {
     text-align: center;
   }
   
-  .ftitem2 {
+  .awitem2 {
     background: white;
     border: 10px solid #434A52;
     color: black;
@@ -359,7 +359,7 @@ html, body {
   /* ///////////////////// End Section /////////////////////// */
   
   /* ///////////////////// KoS Origin Info /////////////////////// */
-  #bkg {
+  #origin {
     background-color: #434A52;
     min-height: 1080px;
       margin: 0 auto;
@@ -367,7 +367,7 @@ html, body {
       position: relative;
   }
 
-  .bkgheader {
+  .ognheader {
     color: white;
     text-align: center;
     font-size: 40px;
@@ -376,25 +376,25 @@ html, body {
     letter-spacing: 3px;
   }
   
-  .bkglogo {
+  .ognlogo {
     width: 20vw;
     text-align: center;
   }
   
-  .bkggridcontainer {
+  .ogngridcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     padding-top: 0rem;
   }
   
-  .bkgitem {
+  .ognitem {
     background: white;
     border: 10px solid #69B7AE;
     text-align: center;
   }
   
-  .bkgitem2 {
+  .ognitem2 {
     color: white;
     font-size: 20px;
     padding: 7rem;
@@ -537,17 +537,23 @@ html, body {
     /* ///////////////////// End Section /////////////////////// */
     
     /* ///////////////////// New Features Mobile (S) /////////////////////// */
-    .ftgridcontainer {
+    .awgridcontainer {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 3rem;
+    }
+
+    .awgridcontainer2 {
       display: grid;
       grid-template-columns: 1fr;
       grid-gap: 3rem;
     }
     
-    .ftheader {
+    .awheader {
       font-size: 25px;
     }
     
-    #newft {
+    #awards {
       min-height: 540px;
     }
     /* ///////////////////// End Section /////////////////////// */
@@ -693,17 +699,23 @@ html, body {
   /* ///////////////////// End Section /////////////////////// */
   
    /* ///////////////////// New Features Mobile (L) /////////////////////// */
-    .ftgridcontainer {
+    .awgridcontainer {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 3rem;
+    }
+
+    .awgridcontainer2 {
       display: grid;
       grid-template-columns: 1fr;
       grid-gap: 3rem;
     }
     
-    .ftheader {
+    .awheader {
       font-size: 30px;
     }
     
-    #newft {
+    #awards {
       min-height: 800px;
     }
     /* ///////////////////// End Section /////////////////////// */
@@ -919,17 +931,23 @@ html, body {
   /* ///////////////////// End Section /////////////////////// */
   
    /* ///////////////////// New Features Tablet /////////////////////// */
-    .ftgridcontainer {
+    .awgridcontainer {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 3rem;
+    }
+
+    .awgridcontainer2 {
       display: grid;
       grid-template-columns: 1fr;
       grid-gap: 3rem;
     }
     
-    .ftheader {
+    .awheader {
       font-size: 30px;
     }
     
-    #newft {
+    #awards {
       min-height: 800px;
     }
     /* ///////////////////// End Section /////////////////////// */
@@ -1185,7 +1203,7 @@ html, body {
   /* ///////////////////// End Section /////////////////////// */
   
     /* ///////////////////// New Features Desktop /////////////////////// */
-  #newft {
+  #awards {
     min-height: 800px;
     margin: 0 auto;
     padding: 5rem;
@@ -1193,22 +1211,29 @@ html, body {
     background-color: #5A7C7C;
   }
   
-  .ftheader {
+  .awheader {
   color: white;
   text-align: center;
   font-size: 40px;
   padding-bottom: 100px;
   font-weight: 500;
-    letter-spacing: 3px;
+  letter-spacing: 3px;
   }
   
-  .ftgridcontainer {
+  .awgridcontainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 3rem;
+  margin-bottom: 3.5rem;
+  }
+
+  .awgridcontainer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 3rem;
   }
   
-  .ftitem {
+  .awitem {
   background: white;
   border: 10px solid #434A52;
   color: black;
@@ -1217,7 +1242,7 @@ html, body {
   text-align: center;
   }
   
-  .ftitem2 {
+  .awitem2 {
   color: white;
   padding: 2rem;
   font-size: 20px;
