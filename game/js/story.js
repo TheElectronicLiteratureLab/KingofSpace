@@ -9,7 +9,7 @@
 	let boxmain = document.getElementById('mainstory');
 	//box.style.backgroundImage =  "url(radar1.jpg)";
 	
-	//let current = 0;
+	let current = 0;
    
 	
 
