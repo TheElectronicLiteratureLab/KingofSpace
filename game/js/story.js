@@ -25,7 +25,7 @@ function onstart(){
 	hide('choicefive');
 	hide('choicesix');
 	hide('choiceseven');
-
+	hide('myBtn');
 	hide('Next');
 	
 
@@ -57,32 +57,32 @@ function onstart(){
 
 	function miniGame(name){
 	
-	if(name==="radar"){
-	 window.open("minigames/radar-puzzle/radar/index.html", height =600 , width = 1000 , status='yes');
-	}
+	//if(name==="radar"){
+	// window.open("minigamesingame/radar-puzzle/radar/index.html", height =600 , width = 1000 , status='yes');
+	//}
 
 	if(name==="slide"){
-	 window.open("minigames/slide-puzzle/index.html", height =600 , width = 1000 , status='yes');
+	 window.open("minigamesingame/slide-puzzle/index.html", height =600 , width = 1000 , status='yes');
 	}
 
 	if(name==="horizator"){
-	 window.open("minigames/horizator/index.html", height =600 , width = 1000 , status='yes');
+	 window.open("minigamesingame/horizator/index.html", height =600 , width = 1000 , status='yes');
 	}
 
 	if(name==="kitchen"){
-	 window.open("minigames/kitchen-puzzle/index.html", height =600 , width = 1000 , status='yes');
+	 window.open("minigamesingame/kitchen-puzzle/index.html", height =600 , width = 1000 , status='yes');
 	}
 
 	if(name==="troop"){
-	 window.open("minigames/troop-carrier/index.html", height =600 , width = 1000 , status='yes');
+	 window.open("minigamesingame/troop-carrier/index.html", height =600 , width = 1000 , status='yes');
 	}
 
 	if(name==="tetris"){
-	 window.open("minigames/tetris-puzzle/index.html", height =600 , width = 1000 , status='yes');
+	 window.open("minigamesingame/tetris-puzzle/index.html", height =600 , width = 1000 , status='yes');
 	}
 
 	if(name==="library"){
-	 window.open("minigames/library/index.html", height =600 , width = 1000 , status='yes');
+	 window.open("minigamesingame/library/index.html", height =600 , width = 1000 , status='yes');
 	}
 
 
@@ -122,8 +122,11 @@ function onstart(){
 					
 					//current ++;
 				//break;
-			case 8 : 
+			case 7 : 
 				// print out array 
+
+				hide('myBtn');
+
 				//window.alert('radar game');
 				/*if(confirm("do you want to play a mini game? radar game")){
 					//radarstart()
@@ -135,9 +138,16 @@ function onstart(){
 				//radarstart();
 				// pop up option for mini game 
 				//console.log ("case  8");
-				miniGame("radar");
+				//miniGame("radar");
+
+				//window.onclick = hide('myBtn');
 				 current ++;
+
 				break; 
+			case 8:
+				hide('myBtn');
+				current++;
+
 
 			case 11:
 				//play animation of great ship or life ship...?
