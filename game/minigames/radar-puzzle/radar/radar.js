@@ -3,11 +3,43 @@
 //  JavaScript start here
 
 
+/*const openModal = document.querySelectorAll('[data-modal-target]');
+const closebutton = document.querySelectorAll('[data-close-button]');
+
+openModal.forEach(button => {
+	button.addEventListener('click', () =>{
+		const modal = document.querySelector(button.dataset.modalTarget)
+		openModal(modal)
+
+	})
+})
+
+closebutton.forEach(button => {
+	button.addEventListener('click', () =>{
+		const modal = button.closest('.modal')
+		closeModal(modal)
+
+	})
+})
+
+function openModal(modal){
+	if(modal == null) {
+		return modal.classList.add('active');
+	
+}}
+
+//function closeModal(modal){
+	//if(modal == null){
+	//	return 
+	//	modal.classList.remove('active');
+//	}
+//}
+*/
 
 
 	//let wrapper = document.getElementById('wrapper');
-	let box = document.getElementById('puzzle');
-		box.style.backgroundImage =  "url(./img/radar1.jpg)";
+	let box = document.getElementById('main');
+		box.style.backgroundImage = "url(img/radar1.jpg)";
 	
 	let S1 = document.getElementById('switchone');
 	S1.style.backgroundImage =  "url(img/switch1.jpg)";
@@ -67,7 +99,6 @@
 
 function radarstart(){
 	hide('radar-puzzle');
-		hide('Next');
 }
 
 
@@ -171,7 +202,7 @@ if (temp === 'switchsix'){
 		}
 		else{
 			Bone = true;
-			document.getElementById('playbox').innerHTML = `ignition!`;
+			Emergency.push( "ignition! <br>");
 			B1.style.backgroundImage =  "url(img/lightradaron.jpg)";
 	}
 	}
@@ -197,7 +228,7 @@ if (temp === 'switchsix'){
 		}
 		else{
 			Bthree = true;
-			document.getElementById('playbox').innerHTML = `laser inoperative `;
+			Emergency.push(" laser inoperative<br> "); 
 			B3.style.backgroundImage =  "url(img/lightradaron.jpg)";
 	}
 	}
@@ -210,7 +241,7 @@ if (temp === 'switchsix'){
 		}
 		else{
 			Bfour = true;
-			document.getElementById('playbox').innerHTML = ` beam inoperative`;
+			Emergency.push(" beam inoperative<br> ");  
 			B4.style.backgroundImage =  "url(img/lightradaron.jpg)";
 	}
 	}
@@ -223,21 +254,23 @@ if (temp === 'switchsix'){
 		}
 		else{
 			Bfive = true;
-			document.getElementById('playbox').innerHTML = ` not docked`;
+			Emergency.push(" not docked<br> "); 
 			B5.style.backgroundImage =  "url(img/lightradaron.jpg)";
 	}
 	}
+	if (Sone === false && Bone === true){
+		 Emergency.push("engine inoperative <br>");
+	}
 
 	if(Sone === false && Btwo === true){
-		document.getElementById('playbox').innerHTML = ` engine inoperative`;
+		 Emergency.push("engine inoperative<br>");
 	}
 	if (Sone === true && Stwo === true && Sthree === true && Sfour === true && Sfive === true && Ssix === true && Btwo === true){
 		
 		//document.getElementById('completted').innerHTML = ` congrats you compleete the puzzle`;
-		document.getElementById('playbox').innerHTML = ` locked on to beacon`;
+		Emergency.push(" locked on to beacon<br>");
 
-		setTimeout(()=>{hide('radar-puzzle');}, 5000);
-
+		setTimeout(()=>{hide('main');}, 1000);
 		
 		//return current = 8;
 	}
@@ -248,6 +281,5 @@ if (temp === 'switchsix'){
 		document.getElementById('playbox').innerHTML = ` ${Emergency} `;
 	
 }
-
 
 	

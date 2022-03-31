@@ -55,7 +55,39 @@ function onstart(){
 		hide('Playgame');
 	}
 
+	function miniGame(name){
+	
+	if(name==="radar"){
+	 window.open("minigames/radar-puzzle/radar/index.html", height =600 , width = 1000 , status='yes');
+	}
 
+	if(name==="slide"){
+	 window.open("minigames/slide-puzzle/index.html", height =600 , width = 1000 , status='yes');
+	}
+
+	if(name==="horizator"){
+	 window.open("minigames/horizator/index.html", height =600 , width = 1000 , status='yes');
+	}
+
+	if(name==="kitchen"){
+	 window.open("minigames/kitchen-puzzle/index.html", height =600 , width = 1000 , status='yes');
+	}
+
+	if(name==="troop"){
+	 window.open("minigames/troop-carrier/index.html", height =600 , width = 1000 , status='yes');
+	}
+
+	if(name==="tetris"){
+	 window.open("minigames/tetris-puzzle/index.html", height =600 , width = 1000 , status='yes');
+	}
+
+	if(name==="library"){
+	 window.open("minigames/library/index.html", height =600 , width = 1000 , status='yes');
+	}
+
+
+
+	}
 
 
 // need to change to if statements 
@@ -93,16 +125,17 @@ function onstart(){
 			case 8 : 
 				// print out array 
 				//window.alert('radar game');
-				if(confirm("do you want to play a mini game? radar game")){
+				/*if(confirm("do you want to play a mini game? radar game")){
 					//radarstart()
 					txt = "You  pressed Ok!";
 				}
 				else{
 					txt = "You pressed Cancel!";
-				}
+				}*/
 				//radarstart();
 				// pop up option for mini game 
 				//console.log ("case  8");
+				miniGame("radar");
 				 current ++;
 				break; 
 
@@ -237,14 +270,14 @@ function onstart(){
 
 			case 80:  
 				//window.alert('tiger game');
-				if(confirm("do you want to play a mini game? tiger game")){
+				/*if(confirm("do you want to play a mini game? tiger game")){
 					//radarstart()
 					txt = "You  pressed Ok!";
 				}
 				else{
 					txt = "You pressed Cancel!";
-				}
-				//tigarstart();
+				}*/
+				miniGame("slide");
 				// pop up option for mini game 
 				//console.log ("case  15");
 				 current ++;
@@ -461,14 +494,8 @@ function onstart(){
 			case 112:
 
 				//window.alert('horizator');
-				if(confirm("do you want to play a mini game? horizator ")){
-					//radarstart()
-					txt = "You  pressed Ok!";
-				}
-				else{
-					txt = "You pressed Cancel!";
-				}
-				//horizatorstart();
+				
+				miniGame("horizator");
 				// pop up option for mini game 
 				//console.log ("case  15");
 				 current ++;
@@ -477,14 +504,8 @@ function onstart(){
 
 			case 113:
 				//window.alert('kitchen');
-				if(confirm("do you want to play a mini game? kitchen ")){
-					//radarstart()
-					txt = "You  pressed Ok!";
-				}
-				else{
-					txt = "You pressed Cancel!";
-				}
-				//kitchnstart();
+				
+				miniGame("kitchen");
 				// pop up option for mini game 
 				//console.log ("case  15");
 				 current ++;
@@ -920,8 +941,8 @@ case 177:
 				break;
 
 			case 301: 
-					window.alert('horizator');
-					//horizatorstart();	
+					//window.alert('horizator');
+					miniGame("horizator");	
 					current++;
 				
 				break;
@@ -941,14 +962,8 @@ case 177:
 
 			case 210:  
 				//window.alert('tiger game');
-				if(confirm("do you want to play a mini game? tiger game")){
-					//radarstart()
-					txt = "You  pressed Ok!";
-				}
-				else{
-					txt = "You pressed Cancel!";
-				}
-				//tigarstart();
+				
+				miniGame("slide");
 				// pop up option for mini game 
 				//console.log ("case  15");
 				 current ++;
@@ -1052,13 +1067,7 @@ case 177:
 
 			case 261:  
 				//window.alert('troopcarrior game');
-				if(confirm("do you want to play a mini game? Troop carrier game")){
-					//radarstart()
-					txt = "You  pressed Ok!";
-				}
-				else{
-					txt = "You pressed Cancel!";
-				}
+				miniGame("troop");
 				//tigarstart();
 				// pop up option for mini game 
 				//console.log ("case  15");
@@ -1135,15 +1144,24 @@ case 177:
 				}
 				 break;
 
+			case 294:
+				miniGame("library");	
+				current = 293 ;
+				break; 
+
+			case 295:
+
+				current = 293;
+				break;
+
+			case 296:
+
+				current = 293;
+				break;
+
 			case 314:  
 				//window.alert('troopcarrior game');
-				if(confirm("do you want to play a mini game? Fix Lady Nii game")){// tetrus game
-					//radarstart()
-					txt = "You  pressed Ok!";
-				}
-				else{
-					txt = "You pressed Cancel!";
-				}
+				miniGame("tetris")
 				//tigarstart();
 				// pop up option for mini game 
 				//console.log ("case  15");
@@ -1164,7 +1182,14 @@ case 177:
 				hide('choiceone');
 				document.getElementById('choiseone').innerHTML = `Acnologments  `;
 
-				current = -1;// states story over. 
+				if(confirm("do you want to restart and play again")){// tetrus game
+					current = -1;// states story over. 
+					//txt = "You  pressed Ok!";
+				}
+				else{
+					txt = "You pressed Cancel!";
+					// dose not do anything... rework to main menu 
+				}
 				break;
 
 			default:

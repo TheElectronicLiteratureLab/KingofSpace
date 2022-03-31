@@ -80,8 +80,8 @@ p{
 
 a{
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
   text-decoration: none;
+  
 }
 
 /*///////////// General Tablet Styles////////////// */
@@ -258,8 +258,7 @@ a{
   position: fixed;
   top: 0;
   left: 0;
-  background: rgb(51,80,84);
-  background: linear-gradient(149deg, rgba(51,80,84,1) 0%, rgba(21,30,36,1) 100%);
+  background-color: #D6DCD5;
 }
 
 #title-logo{
@@ -296,6 +295,7 @@ a{
 
 .red-buttons a{
   color:#ffff;
+  font-size: 18px;
 }
 
 /*////////////////////Mobile Game main page styles//////////*/
@@ -412,6 +412,5 @@ body{
 }
 
 .character-container{
-  filter: drop-shadow(3px 3px 3px #78CBC4);
   max-width:550px;
 }

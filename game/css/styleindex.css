@@ -2,7 +2,7 @@ body  {
   padding: 0%;
   margin: 0%;
   overflow: hidden;
-  font-family: helvetica,sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   background-color: grey;
   }
@@ -58,15 +58,32 @@ body  {
 	left: 450px;
 }
 
-
+#close-button{
+  	position: fixed;
+  	top: 1%;
+  	right: 1%;
+  	cursor: pointer;
+  	background: none;
+  	border: none;
+  	outline: none;
+  	font-size: 1.25rem;
+  	font-weight: bold;
+  }
 
 /* story  css   */
 #Next{
 	position: fixed;
 	height: 20px;
-	width: 60px;
+	width: 50px;
 	top: 600px;
 	left: 60px;
+	background: none;
+	background-image: url(../img/arrow.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border: none;
+  	outline: none;	
+}
 }
 #Back{
 	position: fixed;
