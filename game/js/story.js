@@ -147,7 +147,7 @@ function onstart(){
 			case 8:
 				hide('myBtn');
 				current++;
-
+				break;
 
 			case 11:
 				//play animation of great ship or life ship...?
