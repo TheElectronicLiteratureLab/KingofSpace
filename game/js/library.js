@@ -1,6 +1,6 @@
 function hide(button) {
-		var temp = button;
-	  var x = document.getElementById(temp);
+		let temp = button;
+	  let x = document.getElementById(temp);
 	  if (x.style.display === "none") {
 	    x.style.display = "block";
 	  } else {
@@ -32,7 +32,7 @@ function hudeoptions(){
 let current = 0;
 
 function onstart(){
-	hide('next');
+	hide('Next');
 
 }
 
