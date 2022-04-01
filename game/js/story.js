@@ -16,8 +16,7 @@
 	
 function onstart(){
 	console.log('it got here onstart');
-  //hide('radar-puzzle');
- // hide('tiger-puzzle');
+  
   	hide('choiceone');
 	hide('choicetwo');
 	hide('choicethree');
@@ -513,21 +512,33 @@ function onstart(){
 				break;
 
 
+			case 111:
+
+				//window.alert('horizator');
+				hide(myBut3);
+				//miniGame("horizator");
+				// pop up option for mini game 
+				//console.log ("case  15");
+				 current ++;
+
+				break;
 			case 112:
 
 				//window.alert('horizator');
-				
-				miniGame("horizator");
+				hide(myBut3);
+				hide(my)
+				//miniGame("horizator");
 				// pop up option for mini game 
 				//console.log ("case  15");
 				 current ++;
 
 				break;
 
+
 			case 113:
 				//window.alert('kitchen');
-				
-				miniGame("kitchen");
+				hide(my)
+				//miniGame("kitchen");
 				// pop up option for mini game 
 				//console.log ("case  15");
 				 current ++;
