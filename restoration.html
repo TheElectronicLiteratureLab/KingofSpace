@@ -11,7 +11,8 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
         integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/indexstyles.css">
+    <link rel="stylesheet" href="css/restorationstyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -52,56 +53,94 @@
     <!--Landing Page-->
     <div id="1" class="page-content">
         <div>
+            <img class="mainlogo" src="img/kosround.png">
+
+            <button class="playbtn">PLAY GAME</button>
+
         </div>
     </div>
     <!--End Section-->
 
-    <!--About the Game-->
-    <section id="abtgame">
-        <div class="abtgridcontainer">
-            <div class="abtitem"><iframe class="trailer" src="https://www.youtube.com/embed/kRA8RsNShP8"></iframe></div>
-            <div class="abtitem2"><span style="font-size: 40px;">ABOUT THE GAME</span><br><br>Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit,
-                sed do
-                eiusmod tempor
-                incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa
-                qui officia deserunt mollit anim id est laborum.
+   
+    <div class="wrapper">
+        <section class="block">
+          <div class="each-year">
+            <div class="title">January 12th, 2022</div>
+            <div class="each-event">
+              <div class="event-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam molestiae sint ut sit sed impedit, minus, eligendi modi.
+              </div>
             </div>
+          
+          <div class="each-event">
+            <div class="event-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, vitae, ex voluptates repudiandae molestias modi veniam cumque, iusto qui quia illum ipsa laborum adipisci porro nulla magnam error eligendi? Quos!
+            </div>
+          </div>
+          
+          <div class="each-event">
+            <div class="event-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, vitae, ex voluptates repudiandae molestias modi veniam cumque, iusto qui quia illum ipsa laborum adipisci porro nulla magnam error eligendi? Quos!
+            </div>
+          </div>
+          
+          <div class="each-event">
+            <div class="event-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, vitae, ex voluptates repudiandae molestias modi veniam cumque, iusto qui quia illum ipsa laborum adipisci porro nulla magnam error eligendi? Quos!
+            </div>
+          </div>
+          
+          <div class="each-event">
+            <div class="event-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, vitae, ex voluptates repudiandae molestias modi veniam cumque, iusto qui quia illum ipsa laborum adipisci porro nulla magnam error eligendi? Quos!
+            </div>
+          </div>
+        
+            <div class="each-event">
+              <div class="event-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, vitae, ex voluptates repudiandae molestias modi veniam cumque, iusto qui quia illum ipsa laborum adipisci porro nulla magnam error eligendi? Quos!
+              </div>
+            </div>
+            </div>
+        </section>
+        
+        <section class="block">
+          <div class="each-year">
+          <div class="title">2015</div>
+            <div class="each-event">
+              <div class="event-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              </div>
+            </div>
+          </div>
+        </section>
         </div>
-    </section>
-    <!--End Section-->
+</body>
 
-    <!--New Features-->
-    <section id="newft">
-        <div class="ftheader">NEW FEATURES</div>
-        <div class="ftgridcontainer">
-            <div class="ftitem">Feature 1</div>
-            <div class="ftitem">Feature 2</div>
-            <div class="ftitem">Feature 3</div>
-        </div>
-    </section>
-    <!--End Section-->
-
-    <!--Restoration Teams-->
-    <section id="rest">
-        <div class="restheader">RESTORATION TEAMS</div>
-        <div class="restgridcontainer">
-            <div class="restitem">Web/Game</div>
-            <div class="restitem">Animation</div>
-            <div class="restitem">Design</div>
-            <div class="restitem">Promotion</div>
-        </div>
-    </section>
-    <!--End Section-->
+<script>var $element=$('.each-event, .title');
+    var $window = $(window);
+    $window.on('scroll resize', check_for_fade);
+    $window.trigger('scroll');
+    function check_for_fade() { 
+        var window_height = $window.height();
+        
+        $.each($element, function (event) {
+            var $element = $(this);
+            var element_height = $element.outerHeight();
+            var element_offset = $element.offset().top;
+            space = window_height - (element_height + element_offset -$(window).scrollTop());
+            if (space < 60) {
+                $element.addClass("non-focus");
+            } else {
+                $element.removeClass("non-focus");
+            }
+     
+        });
+    };</script>
 
     <!--Play Game-->
     <section class="parallax">
-        <button class="btn"><a href="game/game.html">PLAY GAME</a></button>
+        <button class="playbtn"><a href="game/game.html">PLAY GAME</a></button>
     </section>
     <!--End Section-->
 
@@ -113,12 +152,12 @@
             </a>
             <hr>
             <div class="footergridcontainer">
-                <div class="footeritem"><a href="#1">Home</a></div>
-                <div class="footeritem"><a href="/">Author</a></div>
-                <div class="footeritem"><a href="/">Game History</a></div>
-                <div class="footeritem"><a href="/">Restoration</a></div>
-                <div class="footeritem"><a href="/">Characters</a></div>
-                <div class="footeritem"><a href="/">Credits</a></div>
+                <div class="footeritem"><a href="index.html">Home</a></div>
+                <div class="footeritem"><a href="author.html">Author</a></div>
+                <div class="footeritem"><a href="gamehistory.html">Game History</a></div>
+                <div class="footeritem"><a href="#1">Restoration</a></div>
+                <div class="footeritem"><a href="characters.html">Characters</a></div>
+                <div class="footeritem"><a href="credits.html">Credits</a></div>
             </div>
             <div class="socialgridcontainer">
                 <div class="socialitem"><a href="https://www.instagram.com/cmdc.dtc/" target="_blank"><img
@@ -159,3 +198,4 @@
 </body>
 
 </html>
+
