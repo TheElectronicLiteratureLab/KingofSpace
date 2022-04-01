@@ -26,6 +26,7 @@ function onstart(){
 	hide('choicesix');
 	hide('choiceseven');
 	hide('myBtn');
+	hide('myBtn2');
 	hide('Next');
 	
 
@@ -61,9 +62,9 @@ function onstart(){
 	// window.open("minigamesingame/radar-puzzle/radar/index.html", height =600 , width = 1000 , status='yes');
 	//}
 
-	if(name==="slide"){
-	 window.open("minigamesingame/slide-puzzle/index.html", height =600 , width = 1000 , status='yes');
-	}
+	//if(name==="slide"){
+	// window.open("minigamesingame/slide-puzzle/index.html", height =600 , width = 1000 , status='yes');
+	//}
 
 	if(name==="horizator"){
 	 window.open("minigamesingame/horizator/index.html", height =600 , width = 1000 , status='yes');
@@ -278,7 +279,9 @@ function onstart(){
 
 
 
-			case 80:  
+			case 79:  
+
+			hide('myBtn2');
 				//window.alert('tiger game');
 				/*if(confirm("do you want to play a mini game? tiger game")){
 					//radarstart()
@@ -287,12 +290,21 @@ function onstart(){
 				else{
 					txt = "You pressed Cancel!";
 				}*/
-				miniGame("slide");
+				//miniGame("slide");
 				// pop up option for mini game 
 				//console.log ("case  15");
 				 current ++;
 
 				break;
+		case 80:  
+
+			hide('myBtn2');
+				
+				 current ++;
+
+				break;
+
+
 
 
 			case 91:
@@ -970,15 +982,25 @@ case 177:
 				break;
 
 
-			case 210:  
+			case 209:  
 				//window.alert('tiger game');
 				
-				miniGame("slide");
+				hide('myBtn2');
 				// pop up option for mini game 
 				//console.log ("case  15");
 				 current ++;
 
 				break;
+		case 210:  
+				//window.alert('tiger game');
+				
+				hide('myBtn2');
+				// pop up option for mini game 
+				//console.log ("case  15");
+				 current ++;
+
+				break;
+
 
 
 			case 211:

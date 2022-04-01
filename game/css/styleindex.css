@@ -26,8 +26,27 @@ body  {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
+ .modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  
+  left: 0;
+  top: 0;
+  width: 90%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
 #myBtn{
+	position: fixed;
+	height: 30px;
+	width: 100px;
+	top: 450px;
+	left: 60px;
+}
+#myBtn2{
 	position: fixed;
 	height: 30px;
 	width: 100px;
@@ -54,6 +73,19 @@ body  {
 
 .close:hover,
 .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close2 {
+  color: #FFFFFF;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -311,7 +343,71 @@ font-size: 20px;
 
 
 /* tiger puzzle  css   */
+.tiles {
+      display: table-cell;
+      width: 120px;
+      height: 120px;
+      background-image: url(../img/foxmask.png); 
+      cursor: pointer;
+      border: 1px solid white;
+    }
+    
+    /* position on the image within each tile. Starts in the upper left corner as tile 1 and snakes down to finish with tile 16. This uses a single background image called in the .tiles class */
+    .tile1 {
+      background-position: 0 0;
+    }
+    .tile2 {
+      background-position: 33% 0;
+    }
+    .tile3 {
+      background-position: 67% 0;
+    }
+    .tile4 {
+      background-position: 100% 0;
+    }
+    .tile5 {
+      background-position: 0 33%;
+    }
+    .tile6 {
+      background-position: 33% 33%;
+    }
+    .tile7 {
+      background-position: 67% 33%;
+    }
+    .tile8 {
+      background-position: 100% 33%;
+    }
+    .tile9 {
+      background-position: 0 66%;
+    }
+    .tile10 {
+      background-position: 33% 66%;
+    }
+    .tile11 {
+      background-position: 66% 66%;
+    }
+    .tile12 {
+      background-position: 100% 66%;
+    }
+    .tile13 {
+      background-position: 0 100%;
+    }
+    .tile14 {
+      background-position:  33% 100%;
+    }
+    .tile15 {
+      background-position: 67% 100%;
+    }
 
+    /* styled individually as it is needed to keep the white tile separate from the other tiles. */
+    .tile16 {
+      background-color: white;
+      display: table-cell;
+      width: 120px;
+      height: 120px;
+      cursor: pointer;
+      border: 1px solid white;
+    }
 /* tiger puzzle  css   */
 
 
