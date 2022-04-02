@@ -27,6 +27,7 @@ function onstart(){
 	hide('myBtn');
 	hide('myBtn2');
 	hide('myBtn3');
+	hide('myBtn4');
 	hide('Next');
 	
 
