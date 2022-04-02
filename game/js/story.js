@@ -26,6 +26,7 @@ function onstart(){
 	hide('choiceseven');
 	hide('myBtn');
 	hide('myBtn2');
+	hide('myBtn3');
 	hide('Next');
 	
 
@@ -75,10 +76,6 @@ function onstart(){
 
 	if(name==="troop"){
 	 window.open("minigamesingame/troop-carrier/index.html", height =600 , width = 1000 , status='yes');
-	}
-
-	if(name==="tetris"){
-	 window.open("minigamesingame/tetris-puzzle/index.html", height =600 , width = 1000 , status='yes');
 	}
 
 	if(name==="library"){
@@ -515,7 +512,7 @@ function onstart(){
 			case 111:
 
 				//window.alert('horizator');
-				hide(myBut3);
+				hide(myBut4);
 				//miniGame("horizator");
 				// pop up option for mini game 
 				//console.log ("case  15");
@@ -525,7 +522,7 @@ function onstart(){
 			case 112:
 
 				//window.alert('horizator');
-				hide(myBut3);
+				hide(myBut4);
 				hide(my)
 				//miniGame("horizator");
 				// pop up option for mini game 
@@ -766,7 +763,7 @@ function onstart(){
 
 
 				 case 168:
-					// unhide choise buttons 
+					// unhide choice buttons 
 				
 				hide('Next');
 				hide('choiceone');
@@ -1203,17 +1200,31 @@ case 177:
 				break;
 
 			case 314:  
-				//window.alert('troopcarrior game');
-				miniGame("tetris")
-				//tigarstart();
-				// pop up option for mini game 
-				//console.log ("case  15");
-				 current ++;
+				// print out array 
 
+				hide('myBtn3');
+				hide(my);
+
+				//window.alert('radar game');
+				/*if(confirm("do you want to play a mini game? radar game")){
+					//radarstart()
+					txt = "You  pressed Ok!";
+				}
+				else{
+					txt = "You pressed Cancel!";
+				}*/
+				//radarstart();
+				// pop up option for mini game 
+				//console.log ("case  8");
+				//miniGame("radar");
+
+				//window.onclick = hide('myBtn');
+				 current ++;
 				break;
 
 			case 324:
-				current = 326;
+				hide(my);
+				current++;
 				break; 	
 
 			case 325:
