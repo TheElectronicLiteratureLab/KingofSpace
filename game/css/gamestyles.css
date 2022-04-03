@@ -393,7 +393,7 @@ body{
   border:none;
   height:150px;
   width:150px;
-  background-image: url("/game/img/tigerface.png");
+  /*background-image: url(../img/tigerface.png);*/
   background-repeat: no-repeat;
 }
 
@@ -405,7 +405,7 @@ body{
 }
 
 #tam-button{
-  background-image: url("/game/img/tigerface.png");
+  background-image: url(../img/tigerface.png);
   background-repeat: no-repeat;
 }
 
