@@ -157,8 +157,30 @@
 
 
 
-<!-- put tetrus html code here-->
+<!-- put tetris html code here-->
 
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+
+<body>
+  <div class="grid">
+    <div class="left-column">
+      <h2>HIGH SCORES</h2>
+      <ol id="highScores"></ol>
+    </div>
+    <canvas id="board" class="game-board"></canvas> <!-- canvas element to provide a blank canvas on which we can draw our game -->
+    <div class="right-column">
+      <div>
+        <p>Score: <span id="score">0</span></p>
+        <p>Level: <span id="level">0</span></p>
+        <canvas id="next"></canvas>
+      </div>
+      <button onclick="play()" class="play-button">Play</button>
+    </div>
+    <img src="img/pipe.png">
+  </div>
+  <script type="text/javascript" src="tetris.js"></script>
+</body>
 
 </div>
 </div>
@@ -177,7 +199,35 @@
     <span class="close4">&times;</span>
 
 <!-- put horizator html code here-->
+<title>Horizatior </title>
+<link rel="stylesheet" type="text/css" href="untitled.css">
+<!--<link rel="stylesheet" type="text/css" href="styleindex2.css">-->
+<script type="text/javascript" src="hoizator.js"></script>
 
+
+
+</head>
+
+<body onload="horizatorstart()">
+
+<div id="wrapper">
+
+  <div  id="mainstory", class="rectanglelargeblack">
+  
+     
+<video  id="video1">
+  <source src="vid/EDC.mov" type="video/mp4">
+    <source src="vid/EDC.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+</video>
+<p id="playboxmain" > 
+      </p>
+
+<button id="Next", onclick="horzator()">Next</button>
+
+
+  
+</div>
 
 </div>
 </div>
