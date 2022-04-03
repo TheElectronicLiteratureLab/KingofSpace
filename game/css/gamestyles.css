@@ -384,24 +384,43 @@ body{
   display: flex;
   align-items: center;
   justify-content:center;
-  gap:15px;
+  gap:5%;
 }
 
 .character-button{
-  color:#000000;
-  display: block;
+  color:#ffff;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
   border:none;
-  padding: 2rem 3rem 2rem 3rem;
-  background-position: center;
-  border-radius: 5px;
+  height:150px;
+  width:150px;
+  background-image: url("/game/img/tigerface.png");
+  background-repeat: no-repeat;
 }
 
-#tam{
-  background-image: url("/game/img/Tam-button.png");
-  background-size: cover;
+.character-button:hover{
+  background-color: #808080;
+  color:#ffff;
+  -webkit-transition: 0.14s ease-in-out;
+    transition: 0.14s ease-in-out;
 }
 
-#character-info{
+#tam-button{
+  background-image: url("/game/img/tigerface.png");
+  background-repeat: no-repeat;
+}
+
+#nii-button{
+  
+}
+
+#brady-button{
+  
+}
+#aster-button{
+  
+}
+
+.character-info{
   margin-top:20px;
   display:grid;
   grid-template-columns: 1fr 1fr;
@@ -410,4 +429,41 @@ body{
 
 .character-container{
   max-width:550px;
+}
+
+#nii, #brady, #aster{
+  display:none;
+}
+
+/*///////////// Character tablet styles////////////// */
+@media only screen and (max-width: 1001px) and (min-width: 876px){
+  .character-button{
+    width: 100px;
+    height:100px;
+  }
+}
+
+@media only screen and (max-width: 875px) and (min-width: 601px){
+  .character-button{
+    width: 100px;
+    height:100px;
+    place-items: center;
+  }
+
+  .character-info{
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+}
+
+/*///////////// Character mobile styles////////////// */
+@media only screen and (max-width: 600px){
+  .character-button{
+    width: 75px;
+    height:75px;
+  }
+
+  .character-info{
+    grid-template-columns:1fr;
+  }
 }
