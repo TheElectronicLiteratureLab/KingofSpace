@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <title>King Of Space </title>
 <link rel="stylesheet" type="text/css" href="./css/styleindex.css">
+
 <!--<link rel="stylesheet" type="text/css" href="styleindex2.css">-->
 <script type="text/javascript" src="js/getarray.js"></script>
 <script type="text/javascript" src="js/story.js"></script>
@@ -34,6 +35,8 @@
 <button id="Playgame" onclick="playGame()"> Play Game </button>
 
 <button id="Next", onclick="story('next')"></button>
+
+
 
   <!-- this is the beggingin of the radar puzzle-->
   <button id="myBtn"> Mini Game</button> 
@@ -143,12 +146,13 @@
         </section>
 </div>
  </div>
+
         <!--tetris puzzle modal-->
 
 <button id="myBtn3"> Mini Game</button> 
 
 <!-- The Modal -->
-<div id="myModal3" class="modal2">
+<div id="myModal3" class="modal3">
 
   <!-- Modal content -->
   <div class="modal-content">
@@ -159,10 +163,9 @@
 
 <!-- put tetris html code here-->
 
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="styles.css" />
 
-<body>
+  
+
   <div class="grid">
     <div class="left-column">
       <h2>HIGH SCORES</h2>
@@ -177,10 +180,9 @@
       </div>
       <button onclick="play()" class="play-button">Play</button>
     </div>
-    <img src="img/pipe.png">
+    <img src="minigamesingame/tetris-puzzle/img/pipe.png">
   </div>
-  <script type="text/javascript" src="tetris.js"></script>
-</body>
+  
 
 </div>
 </div>
@@ -188,10 +190,10 @@
 
     <!--horizator puzzle modal-->
 
-<button id="myBtn4"> Mini Game</button> 
+<button id="myBtn4"> Horizator </button> 
 
 <!-- The Modal -->
-<div id="myModal4" class="modal2">
+<div id="myModal4" class="modal4">
 
   <!-- Modal content -->
   <div class="modal-content">
@@ -199,25 +201,19 @@
     <span class="close4">&times;</span>
 
 <!-- put horizator html code here-->
-<title>Horizatior </title>
-<link rel="stylesheet" type="text/css" href="untitled.css">
-<!--<link rel="stylesheet" type="text/css" href="styleindex2.css">-->
-<script type="text/javascript" src="hoizator.js"></script>
 
 
 
-</head>
 
-<body onload="horizatorstart()">
 
-<div id="wrapper">
+<div id="wrapper" onload="horizatorstart()">
 
   <div  id="mainstory", class="rectanglelargeblack">
   
      
 <video  id="video1">
-  <source src="vid/EDC.mov" type="video/mp4">
-    <source src="vid/EDC.ogg" type="video/ogg">
+  <source src="minigamesingame/horizator/vid/EDC.mov" type="video/mp4">
+    <source src="minigamesingame/horizator/vid/EDC.ogg" type="video/ogg">
     Your browser does not support HTML video.
 </video>
 <p id="playboxmain" > 
@@ -228,17 +224,65 @@
 
   
 </div>
+</div>
+</div>
+</div>
+
+
+
+   
+<!--library puzzle modal-->
+<button id="myBtn5"> Mini Game</button> 
+
+<!-- The Modal -->
+<div id="myModal5" class="modal5">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    
+    <span class="close5">&times;</span>
+
+<!-- put library html code here-->
+
+
+</div>
+</div>
+   
+<!--troop puzzle modal-->
+<button id="myBtn6"> Mini Game</button> 
+
+<!-- The Modal -->
+<div id="myModal6" class="modal6">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    
+    <span class="close6">&times;</span>
+
+<!-- put troop html code here-->
+
 
 </div>
 </div>
    
 
+<!--kitchen puzzle modal-->
+<button id="myBtn7"> Kitchen</button> 
+
+<!-- The Modal -->
+<div id="myModal7" class="modal7">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    
+    <span class="close7">&times;</span>
+
+<!-- put kitchen html code here-->
 
 
-
-
-
-
+</div>
+</div>
+   
 
 
 
@@ -261,12 +305,18 @@
     hide('myBtn2');
     hide('myBtn3');
     hide('myBtn4');
+    hide('myBtn5');
+    hide('myBtn6');
+    hide('myBtn7');
 
 // Get the modal
 var modal = document.getElementById("myModal");
 var modal2 = document.getElementById("myModal2");
 var modal3 = document.getElementById("myModal3");
 var modal4 = document.getElementById("myModal4");
+var modal5 = document.getElementById("myModal5");
+var modal6 = document.getElementById("myModal6");
+var modal7 = document.getElementById("myModal7");
 
 
 // Get the button that opens the modal
@@ -275,11 +325,18 @@ var btn2 = document.getElementById("myBtn2");
 var btn3 = document.getElementById("myBtn3");
 var btn4 = document.getElementById("myBtn4");
 
+var btn5 = document.getElementById("myBtn5");
+var btn6 = document.getElementById("myBtn6");
+var btn7 = document.getElementById("myBtn7");
+
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 var span2 = document.getElementsByClassName("close2")[0];
 var span3 = document.getElementsByClassName("close3")[0];
 var span4 = document.getElementsByClassName("close4")[0];
+var span5 = document.getElementsByClassName("close5")[0];
+var span6 = document.getElementsByClassName("close6")[0];
+var span7 = document.getElementsByClassName("close7")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -296,6 +353,19 @@ btn3.onclick = function() {
 btn4.onclick = function() {
   modal4.style.display = "block";
 }
+btn5.onclick = function() {
+  modal5.style.display = "block";
+}
+
+btn6.onclick = function() {
+  modal6.style.display = "block";
+}
+
+btn7.onclick = function() {
+  modal7.style.display = "block";
+}
+
+
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
@@ -310,6 +380,20 @@ span3.onclick = function() {
 span4.onclick = function() {
   modal4.style.display = "none";
 }
+
+span5.onclick = function() {
+  modal5.style.display = "none";
+}
+
+span6.onclick = function() {
+  modal6.style.display = "none";
+}
+
+span7.onclick = function() {
+  modal7.style.display = "none";
+}
+
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -334,12 +418,30 @@ window.onclick = function(event) {
     modal4.style.display = "none";
   }
 }
+window.onclick = function(event) {
+  if (event.target == modal5) {
+    modal5.style.display = "none";
+  }
+}
+
+window.onclick = function(event) {
+  if (event.target == modal6) {
+    modal6.style.display = "none";
+  }
+}
+
+window.onclick = function(event) {
+  if (event.target == modal7) {
+    modal7.style.display = "none";
+  }
+}
 </script>
 
 
- <script type="text/javascript" src="minigamesingame/slide-puzzle/js/puzzle-2.js"></script>
+<script type="text/javascript" src="minigamesingame/slide-puzzle/js/puzzle-2.js"></script>
 <script type="text/javascript" src="minigamesingame/radar-puzzle/radar/radar.js"></script>
-
+<script type="text/javascript" src="minigamesingame/tetris-puzzle/tetris.js"></script>
+<script type="text/javascript" src="minigamesingame/horizator/hoizator.js"></script>
 
   
 
