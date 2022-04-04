@@ -947,17 +947,6 @@ case 177:
 				break;
 
 
-
-			//case 301: 
-					//window.alert('horizator');
-			//		hide('myBtn4');
-			//		current++;
-				
-			//	break;
-
-
-
-
 			case 201:
 
 				current = 79 ;
@@ -1086,13 +1075,26 @@ case 177:
 
 			case 261:  
 				//window.alert('troopcarrior game');
-				miniGame("troop");
-				//tigarstart();
+				//miniGame("troop");
+				
+				 hide('myBtn6'); // troop
 				// pop up option for mini game 
 				//console.log ("case  15");
 				 current ++;
 
 				break;
+			case 262:  
+				//window.alert('troopcarrior game');
+				//miniGame("troop");
+				
+				 hide('myBtn6'); // troop
+				// pop up option for mini game 
+				//console.log ("case  15");
+				 current ++;
+
+				break;
+
+
 
 			case 264:
 				// unhide choise buttons 
@@ -1120,7 +1122,7 @@ case 177:
 
 			case 278:
 
-				current = 23;
+				current = 294;
 				break;
 
 			case 293:
@@ -1183,29 +1185,21 @@ case 177:
 			case 314:  
 				// print out array 
 
-				hide('myBtn3');
-				hide(my);
+				hide('myBtn3'); tetris 
+				
 
-				//window.alert('radar game');
-				/*if(confirm("do you want to play a mini game? radar game")){
-					//radarstart()
-					txt = "You  pressed Ok!";
-				}
-				else{
-					txt = "You pressed Cancel!";
-				}*/
-				//radarstart();
-				// pop up option for mini game 
-				//console.log ("case  8");
-				//miniGame("radar");
-
-				//window.onclick = hide('myBtn');
+				//tetrus
 				 current ++;
 				break;
 
-			case 324:
-				hide(my);
+			case 315:
+				hide('myBtn3');
 				current++;
+				break;
+
+			case 324:
+				//hide(my);
+				current = 326;
 				break; 	
 
 			case 325:
@@ -1215,10 +1209,16 @@ case 177:
 			case 326:
 
 				hide('choiceone');
-				document.getElementById('choiseone').innerHTML = `Acnologments  `;
+				document.getElementById('choiceone').innerHTML = `Acnologments`;
 
+				current++;
+				break;
+				case 327:
+
+				hide('choiceone');
+				
 				if(confirm("do you want to restart and play again")){// tetrus game
-					current = -1;// states story over. 
+					current = 0;// states story over. 
 					//txt = "You  pressed Ok!";
 				}
 				else{
