@@ -898,6 +898,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 
 "An End <br><br> Not The End. Not one end, ineitable, inexortable, inflexible, but may ends. <br><br>  Today,tomarrow, forever.  <br><br> Remember the old man  and his machines. The woman of Pallas, soft and warm. The little black flies. Remember the rebolution. <br><br>  Next  time you read this tale,  the end will be differnt. To change is to be human. Only the Nii will be the same.",//ending lines
+"",
 ];
 
 
