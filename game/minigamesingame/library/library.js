@@ -29,7 +29,7 @@ function hudeoptions(){
 
 }
 
-let current = 0;
+let currlib = 0;
 
 function onstart(){
 	hide('next');
@@ -41,108 +41,108 @@ function Goto(button){
 	if(button === 'one' ){
 		hudeoptions();
 		
-		current = 0;
-		library(current);
+		currlib = 0;
+		library(currlib);
 	}
 	if(button === 'two' ){
 		hudeoptions();
 		
-		current = 1;
-		library(current);
+		currlib = 1;
+		library(currlib);
 	}
 	if(button === 'three' ){
 		hudeoptions();
 		
-		current = 2;
-		library(current);
+		currlib = 2;
+		library(currlib);
 	}
 	if(button === 'four' ){
 		hudeoptions();
 		
-		current = 3;
-		library(current);
+		currlib = 3;
+		library(currlib);
 	}
 	if(button === 'five' ){
 		hudeoptions();
 		
-		current = 4;
-		library(current);
+		currlib = 4;
+		library(currlib);
 	}
 	if(button === 'six' ){
 		hudeoptions();
 		
-		current = 5;
-		library(current);
+		currlib = 5;
+		library(currlib);
 	}
 	if(button === 'seven' ){
 		hudeoptions();
 		
-		current = 6;
-		library(current);
+		currlib = 6;
+		library(currlib);
 	}
 	if(button === 'eight' ){
 		hudeoptions();
 		
-		current = 7;
-		library(current);
+		currlib = 7;
+		library(currlib);
 	}
 	if(button === 'nine' ){
 		hudeoptions();
 		
-		current = 8;
-		library(current);
+		currlib = 8;
+		library(currlib);
 	}
 	if(button === 'ten' ){
 		hudeoptions();
 		
-		current = 9;
-		library(current);
+		currlib = 9;
+		library(currlib);
 	}
 	if(button === 'eleven' ){
 		hudeoptions();
 		
-		current = 10;
-		library(current);
+		currlib = 10;
+		library(currlib);
 	}
 	if(button === 'twelve' ){
 		hudeoptions();
 		
-		current = 11;
-		library(current);
+		currlib = 11;
+		library(currlib);
 	}
 	if(button === 'thirteen' ){
 		hudeoptions();
 		
-		current = 12;
-		library(current);
+		currlib = 12;
+		library(currlib);
 	}
 	if(button === 'fourteen' ){
 		hudeoptions();
 		
-		current = 13;
-		library(current);
+		currlib = 13;
+		library(currlib);
 	}
 	if(button === 'fifteen' ){
 		hudeoptions();
 		
-		current = 14;
-		library(current);
+		currlib = 14;
+		library(currlib);
 	}
 	if(button === 'sixteen' ){
 		hudeoptions();
 		hide('next');
-		current = 15;
-		library(current);
+		currlib = 15;
+		library(currlib);
 	}
 	if(button === 'seventeen' ){
 		hudeoptions();
 		hide('next');
-		current = 17;
-		library(current);
+		currlib = 17;
+		library(currlib);
 	}
 	if(button === 'next' ){
-		current++;
-		library(current);
+		currlib++;
+		library(currlib);
 	}
 	if(button === 'back' ){
 
@@ -154,7 +154,7 @@ function Goto(button){
 
 
 
-function library (current){
+function library (currlib){
 	
 let library= ["<b>Arcoculture</b> <br><br> The study of gardening and ecological maintenance in a closed enviornment. ",//0
 		
@@ -201,7 +201,7 @@ let library= ["<b>Arcoculture</b> <br><br> The study of gardening and ecological
 ];
 
 
- document.getElementById('playboxmain').innerHTML = `  ${library[current]} `;
+ document.getElementById('playboxmain2').innerHTML = `  ${library[currlib]} `;
 	
 
 

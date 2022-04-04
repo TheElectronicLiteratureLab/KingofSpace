@@ -334,7 +334,7 @@ body{
 }
 
 .game-button{
-  background-image:url("/game/img/tigerface.png");
+  background-image:url(../img/tigerface.png);
   filter: drop-shadow(3px 3px 3px #78CBC4);
   background-position: center;
   background-size:cover;
@@ -343,13 +343,22 @@ body{
   border: none;
   width:150px;
   height:150px;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+}
+
+.button-overlay{
+  padding: 5%;
+  margin:auto;
+  background-color: #151E24;
+  text-align: center;
+  
 }
 
 .game-button:hover{
-  background-color: #808080;
-  color:#ffff;
-  -webkit-transition: 0.14s ease-in-out;
-    transition: 0.14s ease-in-out;
+  transform: scale(0.9);
+  opacity: 0.7;
 }
 
 /*///////////// Game only tablet styles////////////// */
@@ -395,36 +404,61 @@ body{
 }
 
 .character-button{
-  color:#ffff;
+  color:#151E24;
+  background-color: #151E24;
   filter: drop-shadow(3px 3px 3px #78CBC4);
   border:none;
   height:150px;
   width:150px;
-  /*background-image: url(../img/tigerface.png);*/
   background-repeat: no-repeat;
+  cursor: pointer;
+
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
 }
 
 .character-button:hover{
-  background-color: #808080;
-  color:#ffff;
-  -webkit-transition: 0.14s ease-in-out;
-    transition: 0.14s ease-in-out;
+  transform: scale(0.9);
+  opacity: 0.7;
 }
 
+.button-overlay{
+  padding: 5%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: #151E24;
+  text-align: center;
+}
+
+
 #tam-button{
-  background-image: url(../img/tigerface.png);
+  background-image: url(../img/Tam-button.png);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
 }
 
 #nii-button{
-  
+  background-image: url(../img/Ladynii-button.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
 }
 
 #brady-button{
-  
+  background-image: url(../img/Brady-button.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
 }
 #aster-button{
-  
+  background-image: url(../img/Aster-button.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
 }
 
 .character-info{
@@ -448,6 +482,10 @@ body{
     width: 100px;
     height:100px;
   }
+
+  #tam-button, #nii-button, #brady-button, #aster-button{
+    background-size: 100px;
+  }
 }
 
 @media only screen and (max-width: 875px) and (min-width: 601px){
@@ -461,6 +499,10 @@ body{
     grid-template-columns: 1fr;
     place-items: center;
   }
+
+  #tam-button, #nii-button, #brady-button, #aster-button{
+    background-size: 100px;
+  }
 }
 
 /*///////////// Character mobile styles////////////// */
@@ -472,5 +514,9 @@ body{
 
   .character-info{
     grid-template-columns:1fr;
+  }
+
+  #tam-button, #nii-button, #brady-button, #aster-button{
+    background-size: 100px;
   }
 }

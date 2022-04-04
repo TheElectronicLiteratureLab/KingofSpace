@@ -14,7 +14,7 @@ function hide(button) {
 	  }
 	}
 
-	let current = 0;
+	let curr = 0;
 
 	function horizatorstart(){
 		//hide('choiseone');
@@ -62,13 +62,13 @@ function hide(button) {
 		if (choosearray === 0){
 			
 		
-	if(current === 0){
+	if(curr === 0){
 			hide('video1');
-			document.getElementById('playboxmain').innerHTML = `  ${arrayone[current]} `;
-		current++;
+			document.getElementById('playboxmain').innerHTML = `  ${arrayone[curr]} `;
+		curr++;
 
 		}
-	if (current === arrayone.length){
+	if (curr === arrayone.length){
 	hide('video1');
 	horizatorsend();
 	}
@@ -77,19 +77,19 @@ function hide(button) {
 
 		//console.log("array");
 		//console.log(`${current}`);
-		document.getElementById('playboxmain').innerHTML = `  ${arrayone[current]} `;
-		current++;
+		document.getElementById('playboxmain').innerHTML = `  ${arrayone[curr]} `;
+		curr++;
 	}
 	}
 
 		if (choosearray === 1){
 			if(current === 0){
 			hide('video1');
-			document.getElementById('playboxmain').innerHTML = `  ${arraytwo[current]} `;
-		current++;
+			document.getElementById('playboxmain').innerHTML = `  ${arraytwo[curr]} `;
+		curr++;
 
 		}
-	if (current === arraytwo.length){
+	if (curr === arraytwo.length){
 	hide('video1');
 	horizatorsend();
 	}
@@ -98,8 +98,8 @@ function hide(button) {
 
 		//console.log("array");
 		//console.log(`${current}`);
-		document.getElementById('playboxmain').innerHTML = `  ${arraytwo[current]} `;
-		current++;
+		document.getElementById('playboxmain').innerHTML = `  ${arraytwo[curr]} `;
+		curr++;
 	}
 			
 		}

@@ -24,10 +24,13 @@ function onstart(){
 	hide('choicefive');
 	hide('choicesix');
 	hide('choiceseven');
-	hide('myBtn');
-	hide('myBtn2');
-	hide('myBtn3');
-	hide('myBtn4');
+	hide('myBtn');// radar
+	hide('myBtn2'); //slider puzzle / tiger
+	hide('myBtn3'); // tetris
+	hide('myBtn4'); // horizator
+	hide('myBtn5'); // library
+    hide('myBtn6'); // troop
+    hide('myBtn7');	// kitchen 
 	hide('Next');
 	
 
@@ -57,35 +60,7 @@ function onstart(){
 		hide('Playgame');
 	}
 
-	function miniGame(name){
 	
-	//if(name==="radar"){
-	// window.open("minigamesingame/radar-puzzle/radar/index.html", height =600 , width = 1000 , status='yes');
-	//}
-
-	//if(name==="slide"){
-	// window.open("minigamesingame/slide-puzzle/index.html", height =600 , width = 1000 , status='yes');
-	//}
-
-	if(name==="horizator"){
-	 window.open("minigamesingame/horizator/index.html", height =600 , width = 1000 , status='yes');
-	}
-
-	if(name==="kitchen"){
-	 window.open("minigamesingame/kitchen-puzzle/index.html", height =600 , width = 1000 , status='yes');
-	}
-
-	if(name==="troop"){
-	 window.open("minigamesingame/troop-carrier/index.html", height =600 , width = 1000 , status='yes');
-	}
-
-	if(name==="library"){
-	 window.open("minigamesingame/library/index.html", height =600 , width = 1000 , status='yes');
-	}
-
-
-
-	}
 
 
 // need to change to if statements 
@@ -513,7 +488,7 @@ function onstart(){
 			case 111:
 
 				//window.alert('horizator');
-				hide(myBut4);
+				hide('myBtn4');
 				//miniGame("horizator");
 				// pop up option for mini game 
 				//console.log ("case  15");
@@ -523,9 +498,9 @@ function onstart(){
 			case 112:
 
 				//window.alert('horizator');
-				hide(myBut4);
-				hide(my)
-				//miniGame("horizator");
+				hide('myBtn4');
+				hide('myBtn7');
+				//miniGame("kitchen");
 				// pop up option for mini game 
 				//console.log ("case  15");
 				 current ++;
@@ -535,7 +510,7 @@ function onstart(){
 
 			case 113:
 				//window.alert('kitchen');
-				hide(my)
+				hide('myBtn7');
 				//miniGame("kitchen");
 				// pop up option for mini game 
 				//console.log ("case  15");
@@ -935,7 +910,7 @@ case 177:
 				current = 177;
 				break;
 
-			case 194:
+			case 193:
 				// unhide choise buttons 
 				// hide next 
 				hide('Next');
@@ -970,14 +945,6 @@ case 177:
 			case 198:
 					current = 162 ;
 				break;
-
-			case 301: 
-					//window.alert('horizator');
-					miniGame("horizator");	
-					current++;
-				
-				break;
-
 
 
 			case 201:
@@ -1108,13 +1075,26 @@ case 177:
 
 			case 261:  
 				//window.alert('troopcarrior game');
-				miniGame("troop");
-				//tigarstart();
+				//miniGame("troop");
+				
+				 hide('myBtn6'); // troop
 				// pop up option for mini game 
 				//console.log ("case  15");
 				 current ++;
 
 				break;
+			case 262:  
+				//window.alert('troopcarrior game');
+				//miniGame("troop");
+				
+				 hide('myBtn6'); // troop
+				// pop up option for mini game 
+				//console.log ("case  15");
+				 current ++;
+
+				break;
+
+
 
 			case 264:
 				// unhide choise buttons 
@@ -1142,7 +1122,7 @@ case 177:
 
 			case 278:
 
-				current = 23;
+				current = 294;
 				break;
 
 			case 293:
@@ -1179,14 +1159,16 @@ case 177:
 					getstory(current);
 				}
 				if (temp ==='four'){
+
 					current = 297 ; // next
+					hide('myBtn5');
 					// print out array
 					getstory(current);
 				}
 				 break;
 
 			case 294:
-				miniGame("library");	
+				hide('myBtn5');
 				current = 293 ;
 				break; 
 
@@ -1203,29 +1185,21 @@ case 177:
 			case 314:  
 				// print out array 
 
-				hide('myBtn3');
-				hide(my);
+				hide('myBtn3'); tetris 
+				
 
-				//window.alert('radar game');
-				/*if(confirm("do you want to play a mini game? radar game")){
-					//radarstart()
-					txt = "You  pressed Ok!";
-				}
-				else{
-					txt = "You pressed Cancel!";
-				}*/
-				//radarstart();
-				// pop up option for mini game 
-				//console.log ("case  8");
-				//miniGame("radar");
-
-				//window.onclick = hide('myBtn');
+				//tetrus
 				 current ++;
 				break;
 
-			case 324:
-				hide(my);
+			case 315:
+				hide('myBtn3');
 				current++;
+				break;
+
+			case 324:
+				//hide(my);
+				current = 326;
 				break; 	
 
 			case 325:
@@ -1235,10 +1209,16 @@ case 177:
 			case 326:
 
 				hide('choiceone');
-				document.getElementById('choiseone').innerHTML = `Acnologments  `;
+				document.getElementById('choiceone').innerHTML = `Acnologments`;
 
+				current++;
+				break;
+				case 327:
+
+				hide('choiceone');
+				
 				if(confirm("do you want to restart and play again")){// tetrus game
-					current = -1;// states story over. 
+					current = 0;// states story over. 
 					//txt = "You  pressed Ok!";
 				}
 				else{
