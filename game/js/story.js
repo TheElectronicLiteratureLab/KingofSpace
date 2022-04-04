@@ -24,10 +24,13 @@ function onstart(){
 	hide('choicefive');
 	hide('choicesix');
 	hide('choiceseven');
-	hide('myBtn');
-	hide('myBtn2');
-	hide('myBtn3');
-	hide('myBtn4');
+	hide('myBtn');// radar
+	hide('myBtn2'); //slider puzzle / tiger
+	hide('myBtn3'); // tetris
+	hide('myBtn4'); // horizator
+	hide('myBtn5'); // library
+    hide('myBtn6'); // troop
+    hide('myBtn7');	// kitchen 
 	hide('Next');
 	
 
@@ -57,35 +60,7 @@ function onstart(){
 		hide('Playgame');
 	}
 
-	function miniGame(name){
 	
-	//if(name==="radar"){
-	// window.open("minigamesingame/radar-puzzle/radar/index.html", height =600 , width = 1000 , status='yes');
-	//}
-
-	//if(name==="slide"){
-	// window.open("minigamesingame/slide-puzzle/index.html", height =600 , width = 1000 , status='yes');
-	//}
-
-	if(name==="horizator"){
-	 window.open("minigamesingame/horizator/index.html", height =600 , width = 1000 , status='yes');
-	}
-
-	if(name==="kitchen"){
-	 window.open("minigamesingame/kitchen-puzzle/index.html", height =600 , width = 1000 , status='yes');
-	}
-
-	if(name==="troop"){
-	 window.open("minigamesingame/troop-carrier/index.html", height =600 , width = 1000 , status='yes');
-	}
-
-	if(name==="library"){
-	 window.open("minigamesingame/library/index.html", height =600 , width = 1000 , status='yes');
-	}
-
-
-
-	}
 
 
 // need to change to if statements 
@@ -513,7 +488,7 @@ function onstart(){
 			case 111:
 
 				//window.alert('horizator');
-				hide(myBut4);
+				hide('myBtn4');
 				//miniGame("horizator");
 				// pop up option for mini game 
 				//console.log ("case  15");
@@ -523,9 +498,9 @@ function onstart(){
 			case 112:
 
 				//window.alert('horizator');
-				hide(myBut4);
-				hide(my)
-				//miniGame("horizator");
+				hide('myBtn4');
+				hide('myBtn7');
+				//miniGame("kitchen");
 				// pop up option for mini game 
 				//console.log ("case  15");
 				 current ++;
@@ -535,7 +510,7 @@ function onstart(){
 
 			case 113:
 				//window.alert('kitchen');
-				hide(my)
+				hide('myBtn7');
 				//miniGame("kitchen");
 				// pop up option for mini game 
 				//console.log ("case  15");
@@ -935,7 +910,7 @@ case 177:
 				current = 177;
 				break;
 
-			case 194:
+			case 193:
 				// unhide choise buttons 
 				// hide next 
 				hide('Next');
@@ -971,12 +946,15 @@ case 177:
 					current = 162 ;
 				break;
 
-			case 301: 
+
+
+			//case 301: 
 					//window.alert('horizator');
-					miniGame("horizator");	
-					current++;
+			//		hide('myBtn4');
+			//		current++;
 				
-				break;
+			//	break;
+
 
 
 
@@ -1179,14 +1157,16 @@ case 177:
 					getstory(current);
 				}
 				if (temp ==='four'){
+
 					current = 297 ; // next
+					hide('myBtn5');
 					// print out array
 					getstory(current);
 				}
 				 break;
 
 			case 294:
-				miniGame("library");	
+				hide('myBtn5');
 				current = 293 ;
 				break; 
 
