@@ -243,10 +243,60 @@
     <span class="close5">&times;</span>
 
 <!-- put library html code here-->
+<script type="text/javascript" src="library.js"></script>
+
+
+
+</head>
+
+<body  onload="onstart()">
+
+<div id="wrapper">
+
+  <div  id="mainstory", class="rectanglelargeblack">
+  <p id="playboxmain" > 
+      </p>
+<button id="bookone",  onclick="Goto('one')">Arcoculture</button>
+
+<button id="booktwo", onclick="Goto('two')">Arcology</button>
+
+<button id="bookthree", onclick="Goto('three')">Circe Prison</button>
+
+<button id="bookfour", onclick="Goto('four')">Nicholsun's Plague</button>
+
+<button id="bookfive", onclick="Goto('five')">Priestesses</button>
+
+<button id="booksix", onclick="Goto('one')">Pallas</button>
+
+<button id="bookseven", onclick="Goto('seven')">Castra Martis</button>
+
+<button id="bookeight", onclick="Goto('eight')"> QUAROCS </button>
+
+<button id="booknine", onclick="Goto('nine')">Red Kings</button>
+  
+<button id="bookten", onclick="Goto('ten')">St. Nicholsun's Days</button>
+
+<button id="bookeleven", onclick="Goto('eleven')">Ship's Favor</button>
+
+<button id="booktwelve", onclick="Goto('twelve')">Space Habituation </button>
+
+<button id="bookthirteen", onclick="Goto('thirteen')">Works of K. Marx</button>
+
+<button id="bookfourteen", onclick="Goto('fourteen')">Lifeship</button>
+
+<button id="bookfifteen", onclick="Goto('fifteen')">Trades & Favors</button>
+
+<button id="booksixteen", onclick="Goto('sixteen')">Hermes-Eccentric</button>
+
+<button id="bookseventeen", onclick="Goto('seventeen')">Greatship</button>
+
+<button id="next", onclick="Goto('next')">Next</button>
+
+<button id="back", onclick="Goto('back')">Back</button>
 
 
 </div>
-</div>
+
    
 <!--troop puzzle modal-->
 <button id="myBtn6"> Mini Game</button> 
@@ -262,8 +312,25 @@
 <!-- put troop html code here-->
 
 
+<div id="wrapper">
+        
+  <!--Creating 10 checkboxes to use for user inputs. No text is displayed until a checkbox is clicked-->
+  <section id="tc-puzzle">
+      <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-1">
+      <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-2">
+      <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-3">
+      <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-4">
+      <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-5">
+      <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-6">
+      <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-7">
+      <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-8">
+      <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-9">
+      <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-10">
+  </section>
 </div>
-</div>
+
+<script type="text/javascript" src="./js/tc-main.js"></script>
+<script type="text/javascript" src="../../js/getarray.js"></script>
    
 
 <!--kitchen puzzle modal-->
@@ -280,16 +347,25 @@
 <!-- put kitchen html code here-->
 
 
+<div id="wrapper">
+  <section id="rules">
+      <h2>Rules of the Kitchen</h2>
+      <ul>
+          <li>As things get further away from the floor, they get lighter. Water vapor will rise and not fall again.</li>
+          <li>The effects of gravity change depending on the direction you walk in. I fyou walk in the direction of the rotation, apparent gravity is higher.</li>
+          <li>Directionality is dependent on the movement of the kitchen. To get to any placein the kitchen, you must move in a clockwise spiral when you are going in one direction and a counterclockwise spiral in the other.</li>
+          <li>Clean up your messes.</li>
+          <li>Wash hands after eating.</li>
+          <li>Be careful of the mirrors.</li>
+          <li>Enjoy the pie</li>
+      </ul>
+      <button onclick="menu();">Continue</button>
+  </section>
 </div>
+
+<script src="./js/kitchen.js"></script>
 </div>
    
-
-
-
-</div>
-</div>
-
-
   </div>
 
 <script>

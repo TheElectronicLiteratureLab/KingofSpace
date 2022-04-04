@@ -755,6 +755,48 @@ font-size: 20px;
 
 /* Library */
 
+body  {
+  padding: 0%;
+  margin: 0%;
+  overflow: hidden;
+  font-family: helvetica,sans-serif;
+  font-size: 20px;
+  }
+  
+#wrapper  {
+  margin: 0 auto;
+  height:2000px;
+  
+  
+
+  }
+  #playboxmain{
+  color: white; 
+text-align: left;
+font-size: 20px;
+
+}
+  
+.rectanglelargeblack {
+  position: relative;
+  height: 600px;
+  width: 1000px;
+ background-color: black;
+  margin: 1%;
+  float: left;
+  border: 2px solid black;
+  position: relative;
+  opacity: 1;
+  font-size: 10px;
+  text-align: cent;
+  vertical-align: middle;
+  line-height: 25px; 
+  padding: 30px;
+
+
+}
+
+
 
 /* Library */
 
@@ -766,6 +808,51 @@ font-size: 20px;
 /* troop */
 
 /* kitchen */
+
+#tea-directions {
+  width: 49%;
+  float: left;
+}
+
+#makeTea-continue {
+  clear: both;
+}
+
+/*-----KITCHEN CLOSET-----*/
+#kitchen-closet {
+  width: 49%;
+  float: right;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 5px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#found-teaKettle:hover {
+  cursor: grab;
+}
+
+#found-teaKettle:active {
+  cursor: grabbing;
+}
+
+/*-----CUCUMBER SANDWICH-----*/
+#cucmber-sandwich:hover {
+  cursor: grab;
+}
+
+#cucumber-sandwich:active {
+  cursor: grabbing;
+}
 
 
 
