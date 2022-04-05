@@ -11,7 +11,7 @@
 	
 	let current = 0;
 
-	
+	window.onload = getstory(current);
 
 	
 function onstart(){
@@ -54,10 +54,7 @@ function onstart(){
 	}
 
 	function playGame(){
-
-		getstory(current);
-		hide('Next');
-		hide('Playgame');
+		window.location.assign("index.html");
 	}
 
 	
