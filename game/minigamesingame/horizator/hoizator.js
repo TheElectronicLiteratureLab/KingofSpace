@@ -4,7 +4,7 @@
  //   Your browser does not support HTML video.
 //</video>
 
-function hide(button) {
+/*function hide(button) {
 		var temp = button;
 	  var x = document.getElementById(temp);
 	  if (x.style.display === "none") {
@@ -12,7 +12,7 @@ function hide(button) {
 	  } else {
 	    x.style.display = "none";
 	  }
-	}
+	}*/
 
 	let curr = 0;
 
