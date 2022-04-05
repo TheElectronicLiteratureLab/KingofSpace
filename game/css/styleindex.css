@@ -3,13 +3,18 @@ body  {
   margin: 0%;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  background-color: grey;
+  /* font-size: 20px; */
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #D6DCD5;
 }
 
 #wrapper  {
   width: 100%;
-  height:2000px;
+  height:100%;
   margin: 0;
 }
 
@@ -259,20 +264,6 @@ body  {
   cursor: pointer;
 }
 
-.rectanglelargeblack { /*--- removed float and relative positioning, changed margin to auto, dropped opacity a bit*/
-  position: relative;
-  height: 600px;
-  width: 1000px;
-  background-color: black;
-  margin: auto;
-  border: 2px solid black;
-  opacity: 1;
-  font-size: 10px;
-  text-align: cent;
-  vertical-align: middle;
-  line-height: 25px; 
-  padding: 30px;
-}
 
 .rectanglelarge {
   position: absolute;
@@ -303,18 +294,23 @@ body  {
 }
 
 /* BEGIN story  css   */
+
+/* ////ARROW BUTTON /////*/
 #Next{
-	position: fixed;
-	height: 20px;
-	width: 50px;
-	top: 600px;
-	left: 60px;
+	/* position: fixed; */
+	height: 25px;
+	width: 100px;
+  margin: auto 25px 0 auto;
+	/* top: 600px;
+	left: 60px; */
 	background: none;
 	background-image: url(../img/arrow.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	border: none;
-  	outline: none;	
+  outline: none;
+  filter: drop-shadow(0px 0px 5px #78CBC4);
+  cursor: pointer;	
 }
 
 #Back{
@@ -350,9 +346,9 @@ body  {
 }
 
 #playboxmain{
-	color: white; 
+color: white; 
 text-align: left;
-font-size: 20px;
+font-size: 16px;
 }
 
 #radar-puzzle{
@@ -367,9 +363,41 @@ font-size: 20px;
 	left:1px;
 }
 
+/* ////////Story text ///////////*/
 #mainstory{
+  border:1px solid orange;
 	background-size: 100%;
 	background-repeat: no-repeat;
+  margin:auto;
+  width: 1000px;
+  height: 600px;
+}
+
+#mainstory p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #D6DCD5;
+  line-height: 1.7;
+}
+
+.rectanglelargeblack { /*--- removed float and relative positioning, changed margin to auto, dropped opacity a bit*/
+  /* position: relative; */
+  /* vertical-align: middle;
+  line-height: 25px; 
+  padding: 30px; */
+
+  height: 600px;
+  width: 1000px;
+  padding-top:400px;
+  background-color: black;
+  opacity: 1;
+ 
+  border:1px solid green;
+}
+
+.rectanglelargeblack p{
+  margin:auto;
+  align-content: center ;
 }
 
 /* radar puzzle  css   */
@@ -501,6 +529,13 @@ font-size: 20px;
 /* END radar puzzle css   */
 
 /* BEGIN tiger puzzle  css   */
+#slidercenterer{
+	position: fixed;
+	top: 20%;
+	left: 30%;
+	
+}
+
 .tiles {
   display: table-cell;
   width: 120px;
@@ -713,10 +748,14 @@ font-size: 20px;
   font-size: 20px;
 } */
   
-#playboxmain{
+#playboxmain2{
   color: white; 
   text-align: left;
   font-size: 20px;
+}
+#mainstorylib{
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 /* Library */
@@ -733,7 +772,20 @@ font-size: 20px;
   clear: both;
 }
 
+/*----troop  carrer---*/
+#troop-wrapper  {
+  width: 100%;
+  height:2000px;
+  margin: 0;
+}
+
 /*-----KITCHEN CLOSET-----*/
+#wrapper2  {
+  width: 100%;
+  height:2000px;
+  margin: 0;
+  color: white;
+}
 #kitchen-closet {
   width: 49%;
   float: right;

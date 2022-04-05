@@ -64,7 +64,7 @@
 		
 	if(curr === 0){
 			hide('video1');
-			document.getElementById('playboxmain').innerHTML = `  ${arrayone[curr]} `;
+			document.getElementById('playboxmain-horizator').innerHTML = `  ${arrayone[curr]} `;
 		curr++;
 
 		}
@@ -77,7 +77,7 @@
 
 		//console.log("array");
 		//console.log(`${current}`);
-		document.getElementById('playboxmain').innerHTML = `  ${arrayone[curr]} `;
+		document.getElementById('playboxmain-horizator').innerHTML = `  ${arrayone[curr]} `;
 		curr++;
 	}
 	}
@@ -98,7 +98,7 @@
 
 		//console.log("array");
 		//console.log(`${current}`);
-		document.getElementById('playboxmain').innerHTML = `  ${arraytwo[curr]} `;
+		document.getElementById('playboxmain-horizator').innerHTML = `  ${arraytwo[curr]} `;
 		curr++;
 	}
 			
