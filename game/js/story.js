@@ -10,13 +10,13 @@
 	//box.style.backgroundImage =  "url(radar1.jpg)";
 	
 	let current = 0;
-   
+
 	
 
 	
 function onstart(){
 	console.log('it got here onstart');
-  
+
   	hide('choiceone');
 	hide('choicetwo');
 	hide('choicethree');
