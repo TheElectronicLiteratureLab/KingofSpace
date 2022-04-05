@@ -45,9 +45,6 @@
     </div>
     <h1>Prologue</h1>
     <body>
-  
-
-        
         <div class="prologue" id="prologue-1">
             <section id="politics"> 
                 <h3>The Politics</h3>  <br> 
@@ -66,7 +63,7 @@
     </section>
     </div>
 
-<button type="button" onclick="myFunction()"><img src="img/arrow.png"> </button>
+<button type="button" id="arrow-button" onclick="myFunction()" ondblclick="Function()" onclick="myScript()" ><img src="img/arrow.png"> </button>
 
     <div class="prologue" id="prologue-2">
         <section id="religion"> 
@@ -132,11 +129,17 @@
 
 <script>
     function myFunction() {
-     document.getElementById("prologue-3").style.visibility = "hidden";
+     document.getElementById("prologue-1").style.visibility = "hidden";
     }
-    function myFunction() {
+    function Function() {
      document.getElementById("prologue-2").style.visibility = "hidden";
     }
+    function myScript() {
+     document.getElementById("prologue-3").style.visibility = "hidden";
+    }
+
+    
+    
 
     
 </script>
