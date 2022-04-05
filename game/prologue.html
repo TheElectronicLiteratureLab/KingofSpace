@@ -12,6 +12,7 @@
   <script type="text/javascript" src="js/story.js"></script>
   <script type="text/javascript" src="js/library.js"></script>
 
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -39,15 +40,19 @@
         </div>
     </header>
       <!-- End of Hamburger Menu  -->
+
+      
     </div>
     <h1>Prologue</h1>
     <body>
   
-        <div class="prologue-description" id="prologue-1">
+
+        
+        <div class="prologue" id="prologue-1">
             <section id="politics"> 
                 <h3>The Politics</h3>  <br> 
      
-                    <p>  KING OF SPACE is set in our solar system, which is partially colonized and is divided into three parts. The inner ring of planets--Mars, Venus and Earth, known as the Terrans--are all colonized. (Mercury is uninhabited.) The Terran solspace is also intensively occupied by space habitats  Some of these are 
+                    <p >  KING OF SPACE is set in our solar system, which is partially colonized and is divided into three parts. The inner ring of planets--Mars, Venus and Earth, known as the Terrans--are all colonized. (Mercury is uninhabited.) The Terran solspace is also intensively occupied by space habitats  Some of these are 
                     owned by governments or corporations, some are ITCs (Independent Trading Corporations). The Terrans are governed "democratically" under an emperor, who is a spiritual as well as a political leader. (See under "Religion.") 
         
                     From Jupiter onward is the Io-Europa complex (the "Land of Ghosts” ) , supposedly under control of the Terrans, but actually in revolt. The Io-Europa complex does its own mining and manufacturing, but largely to serve its own needs; there is no trade between it and the Terrans. In the Rocks there are rumors that the Io-Europa Complex has let its genetic pool drift and that the IECs are no longer fully human. 
@@ -58,22 +63,17 @@
         
                     The effect of the Nicholsun Plague is to induce a mindless loyalty to two classes of priests, the Priestesses and the Red Kings. 
                  </p> 
-        </div>
     </section>
+    </div>
 
-    <img src="img/arrow.png" id="arrow" onclick="show('prologue-2');">
-    
-    <div id="prologue-button-container">
-        <!-- arrow -->
-        <button id="prologue-button", class="arrow-button" onclick="show('prologue-2');">
-         <img src="img/arrow.png">                
-        </button>
-        
-        <div class="prologue-description" id="prologue-2"> 
-            <section id="religion">
+<button type="button" onclick="myFunction()"><img src="img/arrow.png"> </button>
+
+    <div class="prologue" id="prologue-2">
+        <section id="religion"> 
             <h3>Religion</h3> <br>
         
-                    <p>  The religion practiced in the Belt is built around genetic community and fertility, real issues in a scattered group of small populations.
+            <p>
+                  The religion practiced in the Belt is built around genetic community and fertility, real issues in a scattered group of small populations.
         
                     The Emperor is the spiritual leader of the Terran Empire. He incarnates the fertility of the race. 
         
@@ -99,15 +99,15 @@
                     Some men are trained by their ITCs to be Red Kings. They are presented to a Priestess as, as it were, a kind of welcoming gift when she arrives at the ITC. Brady was trained in this way but was never presented.
         
                     </p>
-             </section>          
-                </div>  
+
+             </section> 
+             </div>
            
-        
-                <div class="prologue-description" id="prologue-3">
+             <div class="prologue" id="prologue-3">
                     <section id="trade">
-                <h3>Trade, Economics, and Entertainment </h3><br>
+                <h3 >Trade, Economics, and Entertainment </h3><br>
         
-                    <p>  The principal Terran export to the Rocks is genetic material, on which Terra has a monopoly. It is a religious duty to accept and use new genetic material in order to maintain the common gene pool.
+                    <p >  The principal Terran export to the Rocks is genetic material, on which Terra has a monopoly. It is a religious duty to accept and use new genetic material in order to maintain the common gene pool.
         
                     Export is handled through the Priestesses. The priesthood is maintained (in style, on one of the largest asteroids) through the revenues from genetic updating. 
         
@@ -124,9 +124,27 @@
                     Andrew Brady is the only survivor of those people and the only inhabitant of the Nii.
                 </p> 
     </section> 
+    </div>
+  
       
  </div>       
 </main> 
+
+<script>
+    function myFunction() {
+     document.getElementById("prologue-3").style.visibility = "hidden";
+    }
+    function myFunction() {
+     document.getElementById("prologue-2").style.visibility = "hidden";
+    }
+
+    
+</script>
+
+
+
+
+
 
 </body>
 
