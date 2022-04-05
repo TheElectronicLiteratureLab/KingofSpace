@@ -8,8 +8,9 @@
 } */
 
 #wrapper  {
-  margin: 0 auto;
+  width: 100%;
   height:2000px;
+  margin: 0;
 }
 
 .modal {
@@ -27,7 +28,6 @@
 .modal2 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  
   left: 0;
   top: 0;
   width: 90%; /* Full width */
@@ -636,7 +636,6 @@ body  {
   text-align: cent;
   vertical-align: middle;
   line-height: 40px; 
-
 }
 
 .rectanglelarge {
@@ -733,30 +732,26 @@ font-size: 20px;
 
 /* Library */
 
-body  {
+/* body  {
   padding: 0%;
   margin: 0%;
   overflow: hidden;
   font-family: helvetica,sans-serif;
   font-size: 20px;
-}
+} */
   
-  #playboxmain{
+#playboxmain{
   color: white; 
   text-align: left;
   font-size: 20px;
-
 }
   
 .rectanglelargeblack {
-  position: relative;
   height: 600px;
   width: 1000px;
   background-color: black;
-  margin: 1%;
-  float: left;
+  margin: auto;
   border: 2px solid black;
-  position: relative;
   opacity: 1;
   font-size: 10px;
   text-align: cent;
