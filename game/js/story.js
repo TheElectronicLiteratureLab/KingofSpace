@@ -1079,7 +1079,7 @@ case 177:
 				
 				 hide('myBtn6'); // troop
 				// pop up option for mini game 
-				//console.log ("case  15");
+				console.log ("troop game here");
 				 current ++;
 
 				break;

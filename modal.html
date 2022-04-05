@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/indexstyles.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+
+    <style>
+        body,
+        h1,
+        p {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .buttongrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 50px;
+        }
+
+        .continuebtn {
+            background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            margin: 0 auto;
+            padding: 2rem 3rem 2rem 3rem;
+            display: grid;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .continuebtn:hover {
+            background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
+            cursor: pointer;
+        }
+
+        .exitbtn {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            margin: 0 auto;
+            padding: 2rem 3rem 2rem 3rem;
+            background-image: linear-gradient(to top, #971B1F 0%, #C6202C 100%);
+            display: grid;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .exitbtn:hover {
+            background-image: linear-gradient(to top, #741316 0%, #a51c25 100%);
+            cursor: pointer;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            padding-top: 100px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            position: relative;
+            background-color: #151e24;
+            margin: auto;
+            padding: 0;
+            border: 1px solid #888;
+            width: 40%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            -webkit-animation-name: animatetop;
+            -webkit-animation-duration: 0.4s;
+            animation-name: animatetop;
+            animation-duration: 0.4s
+        }
+
+        /* Add Animation */
+        @-webkit-keyframes animatetop {
+            from {
+                top: -300px;
+                opacity: 0
+            }
+
+            to {
+                top: 0;
+                opacity: 1
+            }
+        }
+
+        @keyframes animatetop {
+            from {
+                top: -300px;
+                opacity: 0
+            }
+
+            to {
+                top: 0;
+                opacity: 1
+            }
+        }
+
+        /* The Close Button */
+        .close {
+            color: white;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: rgb(184, 184, 184);
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .modal-header {
+            padding: 2px 16px;
+            color: white;
+        }
+
+        .modal-body {
+            padding: 2px 16px;
+            text-align: center;
+            color: white;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Open Modal</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body">
+                <h1>LEAVE GAME</h1>
+                <br>
+                <p>Are you sure you want to exit the game?</p>
+                <div class="buttongrid">
+                    <button class="exitbtn">Exit Game</button><button class="continuebtn">Continue</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that exit's the game
+        var span = document.getElementsByClassName("exitbtn")[0];
+
+        // Get the <span2> element that closes the modal and continues the game
+        var span2 = document.getElementsByClassName("continuebtn")[0];
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on "Exit Game", close the modal
+        span.onclick = function () {
+            window.location = "/game/game.html";
+        }
+
+        // When the user clicks on "Continue", close the modal
+        span2.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

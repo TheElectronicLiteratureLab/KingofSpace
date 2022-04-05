@@ -570,10 +570,8 @@ font-size: 20px;
 }
 /* END tiger puzzle  css   */
 
-/*BEGIN TETRIS PUZZLE CSS */
-* {
-  font-family: 'Press Start 2P', cursive;
-}
+
+
 
 .grid {
   display: grid;
@@ -612,17 +610,13 @@ img {
   left: 170px;
 }
 
-/* BEGIN HORIZATOR PUZZLE CSS */
-body  {
-  padding: 0%;
-  margin: 0%;
-  overflow: hidden;
-  font-family: helvetica,sans-serif;
-  font-size: 20px;
-  background-color: grey;
-  }
+
+/* HORIZATOR PUZZLE CSS */
+
+
   
-.rectanglelargeblack {
+
+  .rectanglelargeblack {
   position: relative;
   height: 660px;
   width: 1000px;
