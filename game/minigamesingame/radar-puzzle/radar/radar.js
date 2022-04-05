@@ -38,7 +38,7 @@ function openModal(modal){
 
 
 	//let wrapper = document.getElementById('wrapper');
-	let box = document.getElementById('main');
+	let box = document.getElementById('main-radar');
 		box.style.backgroundImage = "url(img/radar1.jpg)";
 	
 	let S1 = document.getElementById('switchone');
@@ -267,10 +267,10 @@ if (temp === 'switchsix'){
 	}
 	if (Sone === true && Stwo === true && Sthree === true && Sfour === true && Sfive === true && Ssix === true && Btwo === true){
 		
-		//document.getElementById('completted').innerHTML = ` congrats you compleete the puzzle`;
+		//document.getElementById('completed').innerHTML = ` congrats you completed the puzzle`;
 		Emergency.push(" locked on to beacon<br>");
 
-		setTimeout(()=>{hide('main');}, 1000);
+		setTimeout(()=>{hide('main-radar');}, 1000);
 		
 		//return current = 8;
 	}
