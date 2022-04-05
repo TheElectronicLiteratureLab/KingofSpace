@@ -14,7 +14,7 @@
 
   <div id="wrapper">
     <!--*************main game section start ***************-->
-    <div  id="mainstory", class="rectanglelargeblack">
+    <div  id="mainstory", class="rectanglelargeblack"> <!-- Start mainstory Div -->
       <p id="playboxmain"></p>
       <button id="choiceone", class="S1" onclick="story('one')">O</button>
 
@@ -25,137 +25,110 @@
       <button id="choicefive", class="S5"  onclick="story('five')">F</button>
       <button id="choicesix", class="S6"  onclick="story('six')">S</button>
       <button id="choiceseven", class="S7"  onclick="story('seven')">S</button>
-
-      <button id="choicetwo" class="S2"  onclick="story('two')">T</button>
-
-      <button id="choicethree" class="S3" onclick="story('three')">T</button>
-      <button id="choicefour" class="S4" onclick="story('four')">F</button>
-      <button id="choicefive" class="S5" onclick="story('five')">F</button>
-      <button id="choicesix" class="S6" onclick="story('six')">S</button>
-      <button id="choiceseven" class="S7" onclick="story('seven')">S</button>
-
-      <!--****************main game section end ********************** -->
-
-      <!-- ***************this is the beggingin of the radar puzzle ************************-->
-      <button id="myBtn"> Mini Game</button> 
-
       <button id="Next" onclick="story('next')"></button>
+    </div> <!-- End mainstory Div -->
+  </div> <!-- End Wrapper Div -->
+  <!--****************main game section end ********************** -->
 
-      <!-- this is the beggingin of the radar puzzle-->
-      <button id="myBtn"> Mini Game</button> 
+  <!-- ***************this is the beggingin of the radar puzzle ************************-->
+  <button id="myBtn"> Mini Game</button> 
 
-      <p id="completted"> </p>
+  <div id="myModal" class="modal"> <!-- Start myModal Div -->
+    <!-- Modal content -->
+    <div class="modal-content"> <!-- Start myModal modal-content Div-->
+      <span class="close">&times;</span>
 
-      <div id = "main", class="rectanglelarge">
-    
-    
-      <button id="switchone", class="S1" onclick="radar('switchone')"></button>
+      <!-- <button id="close-button"> &times; </button>-->
+      <p id="completed"> </p>
 
-        <!-- Modal content -->
-        <div class="modal-content">
-          <span class="close">&times;</span>
-
-          <!-- <button id="close-button"> &times; </button>-->
-          <p id="completted"> </p>
-
-          <div id = "main" class="rectanglelarge">
+      <div id="main-radar" class="rectanglelarge"> <!-- Start main-radar Div -->
+  
+        <button id="switchone" class="S1" onclick="radar('switchone')"></button>
+        <button id="switchtwo" class="S2"  onclick="radar('switchtwo')"></button>
+        <button id="switchthree" onclick="radar('switchthree')"></button>
+        <button id="switchfour" onclick="radar('switchfour')"></button>
+        <button id="switchfive" onclick="radar('switchfive')"></button>
+        <button id="switchsix" onclick="radar('switchsix')"></button>
+        <button id="buttonone" onclick="radar('buttonone')">one</button>
+        <button id="buttontwo" onclick="radar('buttontwo')">two</button>
+        <button id="buttonthree" onclick="radar('buttonthree')">three</button>
+        <button id="buttonfour" onclick="radar('buttonfour')">four</button>
+        <button id="buttonfive" onclick="radar('buttonfive')">five</button>
       
-            <button id="switchone" class="S1" onclick="radar('switchone')"></button>
+        <div class="rectanglelsmaller"> <!-- Start rectanglesmaller Div -->
+          <p id="const"> EMERGENCY </p>
+          <p id="playbox"><br>Oxigen Reserves Critical</p>
+        </div> <!-- End rectanlgesmaller Div-->
+      </div> <!-- End mymodal modal-conent Div -->
+    </div> <!-- End modal-content Div -->
+  </div> <!-- End myModal Div -->
 
-            <button id="switchtwo" class="S2"  onclick="radar('switchtwo')"></button>
+  <!--***********************slide puzzle modal***************************-->
+  <button id="myBtn2"> Mini Game</button> 
 
-            <button id="switchthree" onclick="radar('switchthree')"></button>
+  <div id="myModal2" class="modal"> <!-- Start myModal2 Div -->
+    <!-- <audio id="audio" loop>
+    <source src="" type="audio/mp3">  
+    </audio>-->
 
-            <button id="switchfour" onclick="radar('switchfour')"></button>
+    <!-- Modal content -->
+      <div class="modal-content">
 
-            <button id="switchfive" onclick="radar('switchfive')"></button>
+        <span class="close2">&times;</span>
 
-            <button id="switchsix" onclick="radar('switchsix')"></button>
+        <!-- this is the begging of the tigar puzzle -->
+        <section id="table">
+          <div id="row1">
+            <div id="tile-11" class="tile1 tiles" onClick="clickTile(1,1);"></div>
+            <div id="tile-12" class="tile2 tiles" onClick="clickTile(1,2);"></div>
+            <div id="tile-13" class="tile3 tiles" onClick="clickTile(1,3);"></div>
+            <div id="tile-14" class="tile4 tiles" onClick="clickTile(1,4);"></div>
+          </div>
+          <div id="row2">
+            <div id="tile-21" class="tile5 tiles" onClick="clickTile(2,1);"></div>
+            <div id="tile-22" class="tile6 tiles" onClick="clickTile(2,2);"></div>
+            <div id="tile-23" class="tile7 tiles" onClick="clickTile(2,3);"></div>
+            <div id="tile-24" class="tile8 tiles" onClick="clickTile(2,4);"></div>
+          </div>
+          <div id="row3">
+            <div id="tile-31" class="tile9 tiles" onClick="clickTile(3,1);"></div>
+            <div id="tile-32" class="tile10 tiles" onClick="clickTile(3,2);"></div>
+            <div id="tile-33" class="tile11 tiles" onClick="clickTile(3,3);"></div>
+            <div id="tile-34" class="tile12 tiles" onClick="clickTile(3,4);"></div>
+          </div>
+          <div id="row4">
+            <div id="tile-41" class="tile13 tiles" onClick="clickTile(4,1);"></div>
+            <div id="tile-42" class="tile14 tiles" onClick="clickTile(4,2);"></div>
+            <div id="tile-43" class="tile15 tiles" onClick="clickTile(4,3);"></div>
+            <div id="tile-44" class="tile16" onClick="clickTile(4,4);"></div>
+          </div>
+        </section>
 
-            <button id="buttonone" onclick="radar('buttonone')">one</button>
+        <section id="sp-options"> <!--sp = slide puzzle-->
+          <button id="sp-button1" class="game-button">Maintenance Panel</button>
+          <br>
+          <br>
+            
+        </section>
+    </div>
+  </div> <!-- End myModal2 Div -->
 
-            <button id="buttontwo" onclick="radar('buttontwo')">two</button>
+  <!--***********************tetris puzzle modal***************************-->
 
-            <button id="buttonthree" onclick="radar('buttonthree')">three</button>
+  <button id="myBtn3"> Mini Game</button> 
 
-            <button id="buttonfour" onclick="radar('buttonfour')">four</button>
-
-            <button id="buttonfive" onclick="radar('buttonfive')">five</button>
-
-            <div class="rectanglelsmaller"> 
-
-              <p id="const"> EMERGENCY </p>
-              <p id="playbox"><br>Oxigen Reserves Critical</p>
-
-              <!--***********************slide puzzle modal***************************-->
-              <button id="myBtn2"> Mini Game</button> 
-
-              <!-- <audio id="audio" loop>
-              <source src="" type="audio/mp3">  
-              </audio>-->
-
-                <!-- Modal content -->
-                <div class="modal-content">
-      
-                  <span class="close2">&times;</span>
-
-            <!-- this is the begging of the tigar puzzle -->
-            <section id="table">
-              <div id="row1">
-                  <div id="tile-11" class="tile1 tiles" onClick="clickTile(1,1);"></div>
-                  <div id="tile-12" class="tile2 tiles" onClick="clickTile(1,2);"></div>
-                  <div id="tile-13" class="tile3 tiles" onClick="clickTile(1,3);"></div>
-                  <div id="tile-14" class="tile4 tiles" onClick="clickTile(1,4);"></div>
-              </div>
-              <div id="row2">
-                  <div id="tile-21" class="tile5 tiles" onClick="clickTile(2,1);"></div>
-                  <div id="tile-22" class="tile6 tiles" onClick="clickTile(2,2);"></div>
-                  <div id="tile-23" class="tile7 tiles" onClick="clickTile(2,3);"></div>
-                  <div id="tile-24" class="tile8 tiles" onClick="clickTile(2,4);"></div>
-              </div>
-              <div id="row3">
-                  <div id="tile-31" class="tile9 tiles" onClick="clickTile(3,1);"></div>
-                  <div id="tile-32" class="tile10 tiles" onClick="clickTile(3,2);"></div>
-                  <div id="tile-33" class="tile11 tiles" onClick="clickTile(3,3);"></div>
-                  <div id="tile-34" class="tile12 tiles" onClick="clickTile(3,4);"></div>
-              </div>
-              <div id="row4">
-                  <div id="tile-41" class="tile13 tiles" onClick="clickTile(4,1);"></div>
-                  <div id="tile-42" class="tile14 tiles" onClick="clickTile(4,2);"></div>
-                  <div id="tile-43" class="tile15 tiles" onClick="clickTile(4,3);"></div>
-                  <div id="tile-44" class="tile16" onClick="clickTile(4,4);"></div>
-              </div>
-          </section>
-
-          <section id="sp-options"> <!--sp = slide puzzle-->
-              <button id="sp-button1" class="game-button">Maintenance Panel</button>
-              <br>
-              <br>
-              
-          </section>
-      </div>
-      </div>
-
-    <!--***********************tetris puzzle modal***************************-->
-
-    <button id="myBtn3"> Mini Game</button> 
-
-    <!-- The Modal -->
-    <div id="myModal3" class="modal3">
+  <!-- The Modal -->
+  <div id="myModal3" class="modal3"> <!-- Start myModal3 Div -->
 
     <!-- Modal content -->
     <div class="modal-content">
-      
+
       <span class="close3">&times;</span>
 
       <!-- Modal content -->
       <div class="modal-content">
-        
+
         <span class="close3">&times;</span>
-
-        <!-- put tetrus html code here-->
-
-        <!-- put tetris html code here-->
 
         <div class="rectanglelarge">
 
@@ -166,179 +139,137 @@
             </div>
             <canvas id="board" class="game-board"></canvas> <!-- canvas element to provide a blank canvas on which we can draw our game -->
             <div class="right-column">
-              <div>
-                <p>Score: <span id="score">0</span></p>
-                <p>Level: <span id="level">0</span></p>
-                <canvas id="next"></canvas>
-              </div>
-              <button onclick="play()" class="play-button">Play</button>
+            <div id="score-box">
+              <p>Score: <span id="score">0</span></p>
+              <p>Level: <span id="level">0</span></p>
+              <canvas id="next"></canvas>
             </div>
-            <img src="minigamesingame/tetris-puzzle/img/pipe.png">
+            <button onclick="play()" class="play-button">Play</button>
           </div>
-        
+          <img src="minigamesingame/tetris-puzzle/img/pipe.png">
         </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--***********************horizator puzzle modal***************************-->
+
+  <button id="myBtn4" onclick="horizatorstart()"> Horizator </button> 
+
+  <!-- The Modal -->
+  <div id="myModal4" class="modal4">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+
+      <span class="close4">&times;</span>
+
+      <!-- put horizator html code here-->
+
+
+
+
+
+      <div>
+        <div id="mainstory", class="rectanglelargeblack">
+
+          <video  id="video1">
+          <source src="minigamesingame/horizator/vid/EDC.mov" type="video/mp4">
+          <source src="minigamesingame/horizator/vid/EDC.ogg" type="video/ogg">
+          Your browser does not support HTML video.
+          </video>
+          <p id="playboxmain"></p>
+
+          <button id="Next", onclick="horzator()"></button>
+        </div>
+      </div>
     </div>
   </div>
 
 
-    <!--***********************horizator puzzle modal***************************-->
 
-    <button id="myBtn4" onclick="horizatorstart()"> Horizator </button> 
+  <!--***********************library puzzle modal***************************-->
+  <button id="myBtn5" onclick="onstart()"> Mini Game</button> 
 
-    <!-- The Modal -->
-    <div id="myModal4" class="modal4">
+  <!-- The Modal -->
+  <div id="myModal5" class="modal5"> <!-- Start myModal5 Div -->
 
-        <!-- Modal content -->
-        <div class="modal-content">
+    <!-- Modal content -->
+    <div class="modal-content"> <!-- Start Model Content Div -->
+
+      <span class="close5">&times;</span>
+
+      <!-- put library html code here-->
+      <script type="text/javascript" src="minigamesingame/library/library.js"></script>
+
+      <div  id="mainstory", class="rectanglelargeblack">
+        <p id="playboxmain2"></p>
+        <button id="bookone",  onclick="Goto('one')">Arcoculture</button>
+        <button id="booktwo", onclick="Goto('two')">Arcology</button>
+        <button id="bookthree", onclick="Goto('three')">Circe Prison</button>
+        <button id="bookfour", onclick="Goto('four')">Nicholsun's Plague</button>
+        <button id="bookfive", onclick="Goto('five')">Priestesses</button>
+        <button id="booksix", onclick="Goto('one')">Pallas</button>
+        <button id="bookseven", onclick="Goto('seven')">Castra Martis</button>
+        <button id="bookeight", onclick="Goto('eight')"> QUAROCS </button>
+        <button id="booknine", onclick="Goto('nine')">Red Kings</button>          
+        <button id="bookten", onclick="Goto('ten')">St. Nicholsun's Days</button>
+        <button id="bookeleven", onclick="Goto('eleven')">Ship's Favor</button>
+        <button id="booktwelve", onclick="Goto('twelve')">Space Habituation </button>
+        <button id="bookthirteen", onclick="Goto('thirteen')">Works of K. Marx</button>
+        <button id="bookfourteen", onclick="Goto('fourteen')">Lifeship</button>
+        <button id="bookfifteen", onclick="Goto('fifteen')">Trades & Favors</button>
+        <button id="booksixteen", onclick="Goto('sixteen')">Hermes-Eccentric</button>
+        <button id="bookseventeen", onclick="Goto('seventeen')">Greatship</button>
+        <button id="next", onclick="Goto('next')">Next</button>
+        <button id="back", onclick="Goto('back')">Back</button>
+      </div>
+    </div>
+  </div>
           
-          <span class="close4">&times;</span>
+  <!--***********************Troop puzzle modal***************************-->
+  <button id="myBtn6">Troop Carrior Puzzle</button> 
 
-          <!-- put horizator html code here-->
-
-
-
-
-
-    <div  >
-
-      <div  id="mainstory", class="rectanglelargeblack">
-      
-        
-    <video  id="video1">
-      <source src="minigamesingame/horizator/vid/EDC.mov" type="video/mp4">
-        <source src="minigamesingame/horizator/vid/EDC.ogg" type="video/ogg">
-        Your browser does not support HTML video.
-    </video>
-    <p id="playboxmain" > 
-          </p>
-
-    <button id="Next", onclick="horzator()"></button>
-
-
-      
+  <!-- The Modal -->
+  <div id="myModal6" class="modal6">
+    <!-- Modal content -->
+    <div class="modal-content"> <!-- -->
+      <span class="close6">&times;</span>      
+        <!--Creating 10 checkboxes to use for user inputs. No text is displayed until a checkbox is clicked-->
+        <section id="tc-puzzle">
+            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-1">
+            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-2">
+            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-3">
+            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-4">
+            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-5">
+            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-6">
+            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-7">
+            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-8">
+            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-9">
+            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-10">
+        </section>
     </div>
-    </div>
-    </div>
-    </div>
+  </div>
 
+  <!--***********************kitchen puzzle modal***************************-->
+  <button id="myBtn7"> Kitchen</button> 
 
+  <!-- The Modal -->
+  <div id="myModal7" class="modal7">
 
-      <!--***********************library puzzle modal***************************-->
-      <button id="myBtn5" onclick="onstart()"> Mini Game</button> 
+    <!-- Modal content -->
+    <div class="modal-content"> <!-- Start myModal7 model-content Div -->
+    
+      <span class="close7">&times;</span>
 
-    <!-- The Modal -->
-    <div id="myModal5" class="modal5">
-
-      <!-- Modal content -->
-      <div class="modal-content">
-        
-        <span class="close5">&times;</span>
-
-    <!-- put library html code here-->
-    <script type="text/javascript" src="minigamesingame/library/library.js"></script>
-
-
-
-    <div >
-
-      <div  id="mainstory", class="rectanglelargeblack">
-      <p id="playboxmain2" > 
-          </p>
-    <button id="bookone",  onclick="Goto('one')">Arcoculture</button>
-
-    <button id="booktwo", onclick="Goto('two')">Arcology</button>
-
-    <button id="bookthree", onclick="Goto('three')">Circe Prison</button>
-
-    <button id="bookfour", onclick="Goto('four')">Nicholsun's Plague</button>
-
-    <button id="bookfive", onclick="Goto('five')">Priestesses</button>
-
-    <button id="booksix", onclick="Goto('one')">Pallas</button>
-
-    <button id="bookseven", onclick="Goto('seven')">Castra Martis</button>
-
-    <button id="bookeight", onclick="Goto('eight')"> QUAROCS </button>
-
-    <button id="booknine", onclick="Goto('nine')">Red Kings</button>
-      
-    <button id="bookten", onclick="Goto('ten')">St. Nicholsun's Days</button>
-
-    <button id="bookeleven", onclick="Goto('eleven')">Ship's Favor</button>
-
-    <button id="booktwelve", onclick="Goto('twelve')">Space Habituation </button>
-
-    <button id="bookthirteen", onclick="Goto('thirteen')">Works of K. Marx</button>
-
-    <button id="bookfourteen", onclick="Goto('fourteen')">Lifeship</button>
-
-    <button id="bookfifteen", onclick="Goto('fifteen')">Trades & Favors</button>
-
-    <button id="booksixteen", onclick="Goto('sixteen')">Hermes-Eccentric</button>
-
-    <button id="bookseventeen", onclick="Goto('seventeen')">Greatship</button>
-
-    <button id="next", onclick="Goto('next')">Next</button>
-
-    <button id="back", onclick="Goto('back')">Back</button>
-
-
-    </div>
-
-      
-    <!--***********************Troop puzzle modal***************************-->
-    <button id="myBtn6">Troop Carrior Puzzle</button> 
-
-    <!-- The Modal -->
-    <div id="myModal6" class="modal6">
-
-      <!-- Modal content -->
-      <div class="modal-content">
-        
-        <span class="close6">&times;</span>
-
-    <!-- put troop html code here-->
-
-
-    <div >
-            
-      <!--Creating 10 checkboxes to use for user inputs. No text is displayed until a checkbox is clicked-->
-      <section id="tc-puzzle">
-          <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-1">
-          <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-2">
-          <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-3">
-          <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-4">
-          <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-5">
-          <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-6">
-          <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-7">
-          <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-8">
-          <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-9">
-          <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-10">
-      </section>
-    </div>
-
-    <script type="text/javascript" src="minigamesingame/troop-carrier/js/tc-main.js"></script>
-
-
-    <!--***********************kitchen puzzle modal***************************-->
-    <button id="myBtn7"> Kitchen</button> 
-
-    <!-- The Modal -->
-    <div id="myModal7" class="modal7">
-
-      <!-- Modal content -->
-      <div class="modal-content">
-        
-        <span class="close7">&times;</span>
-
-    <!-- put kitchen html code here-->
-
-    <div id="wrapper2">
-      <section id="rules">
+      <div id="wrapper2"> <!-- Start wrapper2 Div -->
+        <section id="rules">
           <h2>Rules of the Kitchen</h2>
           <ul>
               <li>As things get further away from the floor, they get lighter. Water vapor will rise and not fall again.</li>
-              <li>The effects of gravity change depending on the direction you walk in. I fyou walk in the direction of the rotation, apparent gravity is higher.</li>
+              <li>The effects of gravity change depending on the direction you walk in. If you walk in the direction of the rotation, apparent gravity is higher.</li>
               <li>Directionality is dependent on the movement of the kitchen. To get to any placein the kitchen, you must move in a clockwise spiral when you are going in one direction and a counterclockwise spiral in the other.</li>
               <li>Clean up your messes.</li>
               <li>Wash hands after eating.</li>
@@ -346,12 +277,11 @@
               <li>Enjoy the pie</li>
           </ul>
           <button onclick="menu();">Continue</button>
-      </section>
-    </div>
+        </section>
+      </div> <!-- End wrapper2 Div -->
+    </div> <!-- End myModal7 modal-content Div -->
+  </div> <!-- End myModal7 Div -->
 
-    </div>
-    
-  </div>
   <!--***********************modal java script for all modals ***************************-->
   <script>
       hide('choiceone');
@@ -490,6 +420,7 @@
   <script type="text/javascript" src="js/story.js"></script>
   <script type="text/javascript" src="js/library.js"></script>
   <script src="minigamesingame/kitchen-puzzle/js/kitchen.js"></script>
+  <script type="text/javascript" src="minigamesingame/troop-carrier/js/tc-main.js"></script>
   <script type="text/javascript" src="minigamesingame/slide-puzzle/js/puzzle-2.js"></script>
   <script type="text/javascript" src="minigamesingame/radar-puzzle/radar/radar.js"></script>
   <script type="text/javascript" src="minigamesingame/tetris-puzzle/tetris.js"></script>
