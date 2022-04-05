@@ -43,7 +43,7 @@ function onstart(){
 
 	//need to add print array for the readout 
 
-	function hide(button) {
+	/*function hide(button) {
 		var temp = button;
 	  var x = document.getElementById(temp);
 	  if (x.style.display === "none") {
@@ -51,7 +51,7 @@ function onstart(){
 	  } else {
 	    x.style.display = "none";
 	  }
-	}
+	}*/
 
 	function playGame(){
 		//window.location.assign("index.html");
@@ -293,7 +293,7 @@ function onstart(){
 				}
 				else if(temp === 'two'){
 					
-					library(14); // favor def. 
+					libraryTwo(14); // favor def. 
 
 					current ++; // Great ship 
 					// print out array
@@ -1140,6 +1140,7 @@ case 177:
 
 				if(temp === 'one'){
 					current = 294;// life ship 
+					hide('myBtn5');
 					// print out array
 					getstory(current);
 
@@ -1167,7 +1168,8 @@ case 177:
 				 break;
 
 			case 294:
-				hide('myBtn5');
+				//hide('myBtn5');
+				//library();
 				current = 293 ;
 				break; 
 
@@ -1184,7 +1186,7 @@ case 177:
 			case 314:  
 				// print out array 
 
-				hide('myBtn3'); tetris 
+				hide('myBtn3'); //tetris 
 				
 
 				//tetrus

@@ -1,160 +1,11 @@
-function hide(button) {
-		var temp = button;
-	  var x = document.getElementById(temp);
-	  if (x.style.display === "none") {
-	    x.style.display = "block";
-	  } else {
-	    x.style.display = "none";
-	  }
-	}
-
-function hudeoptions(){
-	hide('bookone');
-	hide('booktwo');
-	hide('bookthree');
-	hide('bookfour');
-	hide('bookfive');
-	hide('booksix');
-	hide('bookseven');
-	hide('bookeight');
-	hide('booknine');
-	hide('bookten');
-	hide('bookeleven');
-	hide('booktwelve');
-	hide('bookthirteen');
-	hide('bookfourteen');
-	hide('bookfifteen');
-	hide('booksixteen');
-	hide('bookseventeen');
-
-}
-
-let currlib = 0;
-
-function onstart(){
-	hide('next');
-
-}
 
 
-function Goto(button){
-	if(button === 'one' ){
-		hudeoptions();
-		
-		currlib = 0;
-		library(currlib);
-	}
-	if(button === 'two' ){
-		hudeoptions();
-		
-		currlib = 1;
-		library(currlib);
-	}
-	if(button === 'three' ){
-		hudeoptions();
-		
-		currlib = 2;
-		library(currlib);
-	}
-	if(button === 'four' ){
-		hudeoptions();
-		
-		currlib = 3;
-		library(currlib);
-	}
-	if(button === 'five' ){
-		hudeoptions();
-		
-		currlib = 4;
-		library(currlib);
-	}
-	if(button === 'six' ){
-		hudeoptions();
-		
-		currlib = 5;
-		library(currlib);
-	}
-	if(button === 'seven' ){
-		hudeoptions();
-		
-		currlib = 6;
-		library(currlib);
-	}
-	if(button === 'eight' ){
-		hudeoptions();
-		
-		currlib = 7;
-		library(currlib);
-	}
-	if(button === 'nine' ){
-		hudeoptions();
-		
-		currlib = 8;
-		library(currlib);
-	}
-	if(button === 'ten' ){
-		hudeoptions();
-		
-		currlib = 9;
-		library(currlib);
-	}
-	if(button === 'eleven' ){
-		hudeoptions();
-		
-		currlib = 10;
-		library(currlib);
-	}
-	if(button === 'twelve' ){
-		hudeoptions();
-		
-		currlib = 11;
-		library(currlib);
-	}
-	if(button === 'thirteen' ){
-		hudeoptions();
-		
-		currlib = 12;
-		library(currlib);
-	}
-	if(button === 'fourteen' ){
-		hudeoptions();
-		
-		currlib = 13;
-		library(currlib);
-	}
-	if(button === 'fifteen' ){
-		hudeoptions();
-		
-		currlib = 14;
-		library(currlib);
-	}
-	if(button === 'sixteen' ){
-		hudeoptions();
-		hide('next');
-		currlib = 15;
-		library(currlib);
-	}
-	if(button === 'seventeen' ){
-		hudeoptions();
-		hide('next');
-		currlib = 17;
-		library(currlib);
-	}
-	if(button === 'next' ){
-		currlib++;
-		library(currlib);
-	}
-	if(button === 'back' ){
-
-		hudeoptions();
-		library(20);
-	}
-
-}
+let currlibT = 0;
 
 
 
-function library (currlib){
+
+function libraryTwo (currlibT){
 	
 let library= ["<b>Arcoculture</b> <br><br> The study of gardening and ecological maintenance in a closed enviornment. ",//0
 		
@@ -200,8 +51,8 @@ let library= ["<b>Arcoculture</b> <br><br> The study of gardening and ecological
 "",//back 20
 ];
 
-//document.getElementById('playboxmain').innerHTML = `  ${library[currlib]} `;
- document.getElementById('playboxmain2').innerHTML = `  ${library[currlib]} `;
+document.getElementById('playboxmain').innerHTML = `  ${library[currlibT]} `;
+// document.getElementById('playboxmain2').innerHTML = `  ${library[currlib]} `;
 	
 
 
