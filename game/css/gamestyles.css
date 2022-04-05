@@ -307,9 +307,9 @@ a{
 /*////////////////////Mobile Game main page styles//////////*/
 
 @media screen and (max-width: 600px){ 
- .primary-button{
+  .primary-button{
   font-size: 15px;
- }
+  }
 }
 
 /*///////////////// Game Only Styles ///////////////////*/

@@ -10,13 +10,13 @@
 	//box.style.backgroundImage =  "url(radar1.jpg)";
 	
 	let current = 0;
-   
-	
+
+	window.onload = playGame();
 
 	
 function onstart(){
 	console.log('it got here onstart');
-  
+
   	hide('choiceone');
 	hide('choicetwo');
 	hide('choicethree');
@@ -54,10 +54,9 @@ function onstart(){
 	}
 
 	function playGame(){
-
+		//window.location.assign("index.html");
 		getstory(current);
 		hide('Next');
-		hide('Playgame');
 	}
 
 	
