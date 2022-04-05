@@ -520,3 +520,123 @@ body{
     background-size: 100px;
   }
 }
+
+/*//////////////Prologue page ///////////////////*/
+#politics{
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+#religion{
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+#trade{
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+#arrow{
+  width:10%;
+  height: 30%;
+  padding-left:1300px;
+}
+.prologue-button-container{
+  color:#151E24;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:80px;
+  width:80px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+}
+
+/*///////////////// prologue tablet styles /////////////////*/
+@media only screen and (max-width: 1001px) and (min-width: 876px){
+  #politics{
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  #religion{
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  #trade{
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  #arrow{
+    width:10%;
+    height: 30%;
+    padding-left:800px;
+  }
+}
+
+@media only screen and (max-width: 875px) and (min-width: 601px){
+  #politics{
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  #religion{
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  #trade{
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  #arrow{
+    width:10%;
+    height: 30%;
+    padding-left: 800px;
+  }
+
+}
+
+/*/////////////////prologue mobile styles /////////////////*/
+@media only screen and (max-width: 600px){
+  #politics{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #religion{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #trade{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #arrow{
+    width:20%;
+    height: 30%;
+   padding-left:400px;
+  }
+
+}
