@@ -259,14 +259,13 @@ body  {
   cursor: pointer;
 }
 
-.rectanglelargeblack { /*--- removed float, changed margin to auto, dropped opacity a bit*/
+.rectanglelargeblack { /*--- removed float and relative positioning, changed margin to auto, dropped opacity a bit*/
   position: relative;
   height: 600px;
   width: 1000px;
   background-color: black;
   margin: auto;
   border: 2px solid black;
-  position: relative;
   opacity: 1;
   font-size: 10px;
   text-align: cent;
