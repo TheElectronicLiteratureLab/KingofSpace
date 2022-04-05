@@ -5,19 +5,17 @@ body  {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   background-color: grey;
-  }
-  
-#wrapper  {
-  margin: 0 auto;
-  height:2000px;
-  
-  
+}
 
-  }
-  .modal {
+#wrapper  {
+  width: 100%;
+  height:2000px;
+  margin: 0;
+}
+
+.modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  
   left: 0;
   top: 0;
   width: 90%; /* Full width */
@@ -26,10 +24,10 @@ body  {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
- .modal2 {
+
+.modal2 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  
   left: 0;
   top: 0;
   width: 90%; /* Full width */
@@ -42,7 +40,6 @@ body  {
 .modal3 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  
   left: 0;
   top: 0;
   width: 90%; /* Full width */
@@ -55,7 +52,6 @@ body  {
 .modal4 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  
   left: 0;
   top: 0;
   width: 90%; /* Full width */
@@ -64,10 +60,10 @@ body  {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
+
 .modal5 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  
   left: 0;
   top: 0;
   width: 90%; /* Full width */
@@ -80,7 +76,6 @@ body  {
 .modal6 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  
   left: 0;
   top: 0;
   width: 90%; /* Full width */
@@ -93,7 +88,6 @@ body  {
 .modal7 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  
   left: 0;
   top: 0;
   width: 90%; /* Full width */
@@ -110,6 +104,7 @@ body  {
 	top: 450px;
 	left: 60px;
 }
+
 #myBtn2{
 	position: fixed;
 	height: 30px;
@@ -157,13 +152,12 @@ body  {
 	top: 450px;
 	left: 60px;
 }
+
 /* Modal Content */
 .modal-content {
-  
   margin: auto;
   padding: 0px;
   border: 1px solid #888;
-  
 }
 
 /* The Close Button */
@@ -180,6 +174,7 @@ body  {
   text-decoration: none;
   cursor: pointer;
 }
+
 .close2 {
   color: #FFFFFF;
   float: right;
@@ -193,7 +188,6 @@ body  {
   text-decoration: none;
   cursor: pointer;
 }
-
 
 .close3 {
   color: #FFFFFF;
@@ -237,7 +231,6 @@ body  {
   cursor: pointer;
 }
 
-
 .close6 {
   color: #FFFFFF;
   float: right;
@@ -266,13 +259,11 @@ body  {
   cursor: pointer;
 }
 
-
-
-  .rectanglelargeblack {
+.rectanglelargeblack {
   position: relative;
   height: 600px;
   width: 1000px;
- background-color: black;
+  background-color: black;
   margin: 1%;
   float: left;
   border: 2px solid black;
@@ -283,7 +274,6 @@ body  {
   vertical-align: middle;
   line-height: 25px; 
   padding: 30px;
-
 }
 
 .rectanglelarge {
@@ -300,31 +290,21 @@ body  {
   text-align: left;
   vertical-align: middle;
   line-height: 40px; 
-
-}
-
-
-#Playgame{
-	position: fixed;
-	height: 50px;
-	width: 100px;
-	top: 300px;
-	left: 450px;
 }
 
 #close-button{
-  	position: fixed;
-  	top: 1%;
-  	right: 1%;
-  	cursor: pointer;
-  	background: none;
-  	border: none;
-  	outline: none;
-  	font-size: 1.25rem;
-  	font-weight: bold;
-  }
+  position: fixed;
+  top: 1%;
+  right: 1%;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
 
-/* story  css   */
+/* BEGIN story  css   */
 #Next{
 	position: fixed;
 	height: 20px;
@@ -338,7 +318,7 @@ body  {
 	border: none;
   	outline: none;	
 }
-}
+
 #Back{
 	position: fixed;
 	height: 20px;
@@ -347,48 +327,48 @@ body  {
 	left: 900px;
 }
 
-#choiseone{
+#choiceone{
 	position: fixed;
 	height: 40px;
 	width: 200px;
 	top: 500px;
 	left: 130px;
-	
 }
-#choisetwo{
+
+#choicetwo{
 	position: fixed;
 	height: 40px;
 	width: 200px;
 	top: 500px;
 	left: 400px;
-	
 }
-#choisethree{
+
+#choicethree{
 	position: fixed;
 	height: 40px;
 	width: 200px;
 	top: 500px;
 	left: 600px;
-	
 }
+
 #playboxmain{
 	color: white; 
 text-align: left;
 font-size: 20px;
-
 }
-
 
 #radar-puzzle{
 	position: fixed;
 	top: 1px;
 	left:1px;
 }
+
 #tiger-puzzle{
 	position: fixed;
 	top: 1px;
 	left:1px;
 }
+
 #mainstory{
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -401,17 +381,20 @@ color: white;
 text-align: center;
 font-size: 20px;
 }
+
 #const {
 	color: white; 
-text-align: center;
-font-size: 20px;
+  text-align: center;
+  font-size: 20px;
 }
+
 #playgame{
 	position: fixed;
 	size: 20px;
 	top: 10px;
 	right: 10px;
 } 
+
 .rectanglelsmaller {
   position: relative;
   height: 250px;
@@ -427,54 +410,55 @@ font-size: 20px;
   vertical-align: middle;
   line-height: 40px; 
   top: 155px;
-  left: 275px}
+  left: 275px
+}
 
-#switchone{
+#switchone  {
 	position: fixed;
 	height: 75px;
 	width: 60px;
 	top: 65px;
 	left: 230px;
-	
 }
+
 #switchtwo{
 	position: fixed;
 	height: 75px;
 	width: 60px;
 	top: 65px;
 	left: 290px;
-	
 }
+
 #switchthree{
 	position: fixed;
 	height: 75px;
 	width: 60px;
 	top: 65px;
 	left: 350px;
-	
 }
+
 #switchfour{
 	position: fixed;
 	height: 75px;
 	width: 60px;
 	top: 65px;
-	left: 410px;
-	}
+	left: 410px;	
+}
+
 #switchfive{
 	position: fixed;
 	height: 75px;
 	width: 60px;
 	top: 65px;
 	left: 470px;
-	
 }
+
 #switchsix{
 	position: fixed;
 	height: 75px;
 	width: 60px;
 	top: 65px;
 	left: 530px;
-	
 }
 
 #buttonone{
@@ -484,6 +468,7 @@ font-size: 20px;
 	top: 280px;
 	left: 45px;
 }
+
 #buttontwo{
 	position: fixed;
 	height: 45px;
@@ -491,6 +476,7 @@ font-size: 20px;
 	top: 325px;
 	left: 45px;
 }
+
 #buttonthree{
 	position: fixed;
 	height: 45px;
@@ -498,6 +484,7 @@ font-size: 20px;
 	top: 370px;
 	left: 45px;
 }
+
 #buttonfour{
 	position: fixed;
 	height: 45px;
@@ -505,6 +492,7 @@ font-size: 20px;
 	top: 415px;
 	left: 45px;
 }
+
 #buttonfive{
 	position: fixed;
 	height: 45px;
@@ -512,87 +500,78 @@ font-size: 20px;
 	top: 460px;
 	left: 45px;
 }
+/* END radar puzzle css   */
 
-
-
-/* radar puzzle  css   */
-
-
-
-/* tiger puzzle  css   */
+/* BEGIN tiger puzzle  css   */
 .tiles {
-      display: table-cell;
-      width: 120px;
-      height: 120px;
-      background-image: url(../img/foxmask.png); 
-      cursor: pointer;
-      border: 1px solid white;
-    }
-    
-    /* position on the image within each tile. Starts in the upper left corner as tile 1 and snakes down to finish with tile 16. This uses a single background image called in the .tiles class */
-    .tile1 {
-      background-position: 0 0;
-    }
-    .tile2 {
-      background-position: 33% 0;
-    }
-    .tile3 {
-      background-position: 67% 0;
-    }
-    .tile4 {
-      background-position: 100% 0;
-    }
-    .tile5 {
-      background-position: 0 33%;
-    }
-    .tile6 {
-      background-position: 33% 33%;
-    }
-    .tile7 {
-      background-position: 67% 33%;
-    }
-    .tile8 {
-      background-position: 100% 33%;
-    }
-    .tile9 {
-      background-position: 0 66%;
-    }
-    .tile10 {
-      background-position: 33% 66%;
-    }
-    .tile11 {
-      background-position: 66% 66%;
-    }
-    .tile12 {
-      background-position: 100% 66%;
-    }
-    .tile13 {
-      background-position: 0 100%;
-    }
-    .tile14 {
-      background-position:  33% 100%;
-    }
-    .tile15 {
-      background-position: 67% 100%;
-    }
-
-    /* styled individually as it is needed to keep the white tile separate from the other tiles. */
-    .tile16 {
-      background-color: white;
-      display: table-cell;
-      width: 120px;
-      height: 120px;
-      cursor: pointer;
-      border: 1px solid white;
-    }
-/* tiger puzzle  css   */
-
-
-/* TETRIS PUZZLE CSS */
-
-* {
-  font-family: 'Press Start 2P', cursive;
+  display: table-cell;
+  width: 120px;
+  height: 120px;
+  background-image: url(../img/foxmask.png); 
+  cursor: pointer;
+  border: 1px solid white;
 }
+    
+/* position on the image within each tile. Starts in the upper left corner as tile 1 and snakes down to finish with tile 16. This uses a single background image called in the .tiles class */
+.tile1 {
+  background-position: 0 0;
+}
+.tile2 {
+  background-position: 33% 0;
+}
+.tile3 {
+  background-position: 67% 0;
+}
+.tile4 {
+  background-position: 100% 0;
+}
+.tile5 {
+  background-position: 0 33%;
+}
+.tile6 {
+  background-position: 33% 33%;
+}
+.tile7 {
+  background-position: 67% 33%;
+}
+.tile8 {
+  background-position: 100% 33%;
+}
+.tile9 {
+  background-position: 0 66%;
+}
+.tile10 {
+  background-position: 33% 66%;
+}
+.tile11 {
+  background-position: 66% 66%;
+}
+.tile12 {
+  background-position: 100% 66%;
+}
+.tile13 {
+  background-position: 0 100%;
+}
+.tile14 {
+  background-position:  33% 100%;
+}
+.tile15 {
+  background-position: 67% 100%;
+}
+
+/* styled individually as it is needed to keep the white tile separate from the other tiles. */
+.tile16 {
+  background-color: white;
+  display: table-cell;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+/* END tiger puzzle  css   */
+
+
+
 
 .grid {
   display: grid;
@@ -631,40 +610,8 @@ img {
   left: 170px;
 }
 
+
 /* HORIZATOR PUZZLE CSS */
-
-body  {
-  padding: 0%;
-  margin: 0%;
-  overflow: hidden;
-  font-family: helvetica,sans-serif;
-  font-size: 20px;
-  background-color: grey;
-  }
-  
-#wrapper  {
-  margin: 0 auto;
-  height:2000px;
-  
-  
-
-  }
-  .rectanglelargeblack {
-  position: relative;
-  height: 660px;
-  width: 1000px;
- background-color: black;
-  margin: 1%;
-  float: left;
-  border: 2px solid black;
-  position: relative;
-  opacity: 1;
-  font-size: 10px;
-  text-align: cent;
-  vertical-align: middle;
-  line-height: 40px; 
-
-}
 
 .rectanglelarge {
   position: absolute;
@@ -680,8 +627,8 @@ body  {
   text-align: left;
   vertical-align: middle;
   line-height: 60px; 
-
 }
+
 #textbox{
 	position: absolute;
   height: 560px;
@@ -697,14 +644,14 @@ body  {
   vertical-align: middle;
   line-height: 60px; 
 }
+
 #textboxtext{
 	color: white; 
-text-align: center;
-font-size: 20px;
+  text-align: center;
+  font-size: 20px;
 }
 
-
-#Playgame{
+#playgame-btn{
 	position: fixed;
 	height: 50px;
 	width: 100px;
@@ -712,17 +659,16 @@ font-size: 20px;
 	left: 450px;
 }
 
-
-
-/* story  css   */
-#Next{
+/* BEGIN story  css   */
+/* #Next {
 	position: fixed;
 	height: 20px;
 	width: 60px;
 	top: 600px;
 	left: 60px;
 }
-#Back{
+
+#Back {
 	position: fixed;
 	height: 20px;
 	width: 60px;
@@ -730,22 +676,22 @@ font-size: 20px;
 	left: 900px;
 }
 
-#choiseone{
+#choiceone {
 	position: fixed;
 	height: 40px;
 	width: 200px;
 	top: 500px;
 	left: 130px;
-	
 }
-#choisetwo{
+
+#choicetwo{
 	position: fixed;
 	height: 40px;
 	width: 200px;
 	top: 500px;
 	left: 400px;
-	
 }
+
 #playboxmain{
 	color: white; 
 text-align: center;
@@ -755,66 +701,31 @@ font-size: 20px;
 	color: white; 
 text-align: center;
 font-size: 20px;
-}
+} */
 
 /* story css */
 
 /* Library */
 
-body  {
+/* body  {
   padding: 0%;
   margin: 0%;
   overflow: hidden;
   font-family: helvetica,sans-serif;
   font-size: 20px;
-  }
+} */
   
-#wrapper  {
-  margin: 0 auto;
-  height:2000px;
-  
-  
-
-  }
-  #playboxmain{
+#playboxmain{
   color: white; 
-text-align: left;
-font-size: 20px;
-
+  text-align: left;
+  font-size: 20px;
 }
-  
-.rectanglelargeblack {
-  position: relative;
-  height: 600px;
-  width: 1000px;
- background-color: black;
-  margin: 1%;
-  float: left;
-  border: 2px solid black;
-  position: relative;
-  opacity: 1;
-  font-size: 10px;
-  text-align: cent;
-  vertical-align: middle;
-  line-height: 25px; 
-  padding: 30px;
-
-
-}
-
-
 
 /* Library */
+/* BEGIN troop */
+/* END troop */
 
-
-/* troop */
-
-
-
-/* troop */
-
-/* kitchen */
-
+/* BEGIN kitchen */
 #tea-directions {
   width: 49%;
   float: left;
@@ -860,9 +771,4 @@ font-size: 20px;
   cursor: grabbing;
 }
 
-
-
-/* kitchen */
-
-
-
+/* END kitchen */
