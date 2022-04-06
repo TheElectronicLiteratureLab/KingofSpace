@@ -249,11 +249,11 @@ html, body {
     text-align: center;
   }
   
-  .btn {
+  .playbtn {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     margin: 0 auto;
     padding: 2rem 3rem 2rem 3rem;
-    background-image: linear-gradient(to top, #971B1F 0%, #C6202C 100%);
+    background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
     display: grid;
     color: white;
     border: none;
@@ -261,8 +261,8 @@ html, body {
     font-size: 18px;
   }
   
-  .btn:hover {
-    background-image: linear-gradient(to top, #741316 0%, #a51c25 100%);
+  .playbtn:hover {
+    background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
     cursor: pointer;
   }
   /* ///////////////////// End Section /////////////////////// */
@@ -541,7 +541,7 @@ html, body {
       padding: 5rem;
     }
   
-    .btn {
+    .playbtn {
       padding: 1rem 2rem 1rem 2rem;
       font-size: 15px;
     }
