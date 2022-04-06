@@ -1034,11 +1034,7 @@ case 177:
 				}
 
 				if (temp ==='three'){
-<<<<<<< Updated upstream
 					current = 322 ; // comm box
-=======
-					current = 322; // comm box
->>>>>>> Stashed changes
 					// print out array
 					getstory(current);
 				}
