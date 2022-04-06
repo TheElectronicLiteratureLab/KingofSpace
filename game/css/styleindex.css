@@ -102,15 +102,33 @@ p{
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-#myBtn{
+#myBtn, #myBtn2, #myBtn3, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7{
 	position: fixed;
-	height: 30px;
-	width: 100px;
-	top: 450px;
-	left: 60px;
+	/* height: 30px;
+	width: 100px; */
+	/* top: 450px;
+	left: 60px; */
+
+  top: 70%;
+	left: 50%;
+  padding:.5rem;
+  background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
+  color: white;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding: .5rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
-#myBtn2{
+#myBtn:hover,#myBtn2:hover, #myBtn3:hover, #myBtn3:hover, #myBtn4:hover, #myBtn5:hover, #myBtn6:hover, #myBtn7:hover{
+  background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
+  color: white;
+}
+
+/* #myBtn2{
 	position: fixed;
 	height: 30px;
 	width: 100px;
@@ -156,7 +174,7 @@ p{
 	width: 100px;
 	top: 450px;
 	left: 60px;
-}
+} */
 
 /* Modal Content */
 .modal-content {
@@ -297,10 +315,11 @@ p{
 
 /* ////ARROW BUTTON /////*/
 #Next{
-	/* position: fixed; */
+	position: fixed;
+  bottom:100px;
+  right:200px;
 	height: 25px;
 	width: 100px;
-  margin: auto 25px 0 auto;
 	/* top: 600px;
 	left: 60px; */
 	background: none;
@@ -321,15 +340,32 @@ p{
 	left: 900px;
 }
 
-#choiceone{
-	position: fixed;
+#choiceone, #choicetwo, #choicethree{
+	/* position: fixed;
 	height: 40px;
 	width: 200px;
 	top: 500px;
-	left: 130px;
+	left: 130px; */
+  margin: 5% auto;
+  display:inline-block;
+  max-width: 65ch;
+  background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
+  color: white;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding: .5rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
-#choicetwo{
+#choiceone:hover, #choicetwo:hover, #choicethree:hover{
+  background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
+  color: white;
+}
+
+/* #choicetwo{
 	position: fixed;
 	height: 40px;
 	width: 200px;
@@ -343,7 +379,7 @@ p{
 	width: 200px;
 	top: 500px;
 	left: 600px;
-}
+} */
 
 #playboxmain{
 color: white; 
@@ -365,10 +401,9 @@ font-size: 16px;
 
 /* ////////Story text ///////////*/
 #mainstory{
-  border:1px solid orange;
 	background-size: 100%;
 	background-repeat: no-repeat;
-  margin:auto;
+  margin: 50px auto;
   width: 1000px;
   height: 600px;
 }
@@ -387,16 +422,14 @@ font-size: 16px;
   padding: 30px; */
 
   height: 600px;
-  width: 1000px;
-  padding-top:400px;
+  max-width: 1000px;
   background-color: black;
   opacity: 1;
- 
-  border:1px solid green;
 }
 
 .rectanglelargeblack p{
-  margin:auto;
+  margin: auto;
+  padding-top:30px;
   align-content: center ;
 }
 
