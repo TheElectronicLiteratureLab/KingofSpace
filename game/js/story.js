@@ -88,12 +88,14 @@ function onstart(){
 
 		//console.log ("made it to while loop");
 		switch(current){
-			//case 3: 
+
+			case 0: 
+				x.style.backgroundImage= "url(img/starbackground.png)" ;
 					//library(15);
 					//setTimeout(()=>{library(16);}, 10000);
 					
 					//current ++;
-				//break;
+				break;
 			case 7 : 
 				// print out array 
 
@@ -1034,11 +1036,9 @@ case 177:
 				}
 
 				if (temp ==='three'){
-<<<<<<< Updated upstream
-					current = 322 ; // comm box
-=======
+
 					current = 322; // comm box
->>>>>>> Stashed changes
+
 					// print out array
 					getstory(current);
 				}
