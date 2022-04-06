@@ -3,7 +3,8 @@ function addToClicks(){
     clicks ++;
     console.log(clicks)
     if (clicks == 5) {
-         hide('troop-wrapper');
+        hide('myModal6');
+        story('next');
         //window.location.assign("../game/index.html");
     }
 }
@@ -26,7 +27,7 @@ function clickChoice(){
             document.getElementById("tc-text-3").innerHTML += "<button id=\"continue\" onClick=\"changeDom(); addToClicks();\">Continue</button>";
             break;
         case "tc-4":
-            document.getElementById("troop-wrapper").innerHTML += "<section id=\"tc-text-4\"><p>This long, low drawer is full of data rainbows for the Terran High Commissioner on Ceres.<p></p>They must be important: who would bring software to Ceres by hand when they could just send it over the Net?</p></section>"; //There will be two choices here: take the software, or look for the air cylinders. If tam takes the software, he passes out. ***NOTE, There is no way for Tam to make it out of this puzzle without passing out. He must be rescued by the Priestess.
+            document.getElementById("troop-wrapper").innerHTML += "<section id=\"tc-text-4\"><p>This long, low drawer is full of data rainbows for the Terran High Commissioner on Ceres.</p><p>They must be important: who would bring software to Ceres by hand when they could just send it over the Net?</p></section>"; //There will be two choices here: take the software, or look for the air cylinders. If tam takes the software, he passes out. ***NOTE, There is no way for Tam to make it out of this puzzle without passing out. He must be rescued by the Priestess.
             //Also, there should be a mechanism to track clicks. After 5 clicks, Tam starts losing air. Tam should pass out once his air runs out. This can happen anywhere between 5 and 10 clicks. Figure out away to tie in the air guauge from the UI
             document.getElementById("tc-text-4").innerHTML += "<button id=\"software\" onClick=\"takeSoftware()\">Take the software</button><br><br>"
             document.getElementById("tc-text-4").innerHTML += "<button id=\"continue\" onClick=\"changeDom(); addToClicks();\">Continue</button>";
@@ -62,7 +63,7 @@ function clickChoice(){
 
 function changeDom(){
 
-    /*reverts table and buttopn back to original state */
+    /*reverts table and button back to original state */
     document.getElementById("tc-puzzle").style.display = 'revert';
 
     /*checks to see which elements exist and removes these elements from the dom so that only the table and button appear. */
@@ -90,7 +91,8 @@ function changeDom(){
 }
 
 function takeSoftware(){
-    hide('troop-wrapper');
+    hide('myModal6');
+    story('next');
    // window.location.assign("../game/index.html"); //change redirect to actual location once integration takes place. Currently redirects to the start of the main game.
 }
 
