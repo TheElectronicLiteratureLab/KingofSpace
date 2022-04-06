@@ -51,6 +51,11 @@ table {
 
 
 /*General Styling*/
+body{
+  margin:0;
+  padding:0;
+  background-color: #151E24;
+}
 img{
   width: 100%;
 }
@@ -141,7 +146,7 @@ a{
   
   input.hamburger-button ~ label {
     position: relative;
-    padding: 0.25rem;
+    margin: .5rem;
     width: 1.5rem;
     height: 1.25rem;
     cursor: pointer;
@@ -312,9 +317,6 @@ a{
 }
 
 /*///////////////// Game Only Styles ///////////////////*/
-body{
-  background-color: #151E24;
-}
 
 #game_wrapper{
   width:90%;
@@ -325,7 +327,7 @@ body{
 #game_grid{
   place-items: center;
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   column-gap: 2%;
   row-gap:50px;
@@ -340,8 +342,8 @@ body{
   font-size: 18px;
   cursor:pointer;
   border: none;
-  width:150px;
-  height:150px;
+  width:200px;
+  height:200px;
   transform: scale(1);
   opacity: 1;
   transition: opacity 0.4s, transform 0.4s;
@@ -358,6 +360,10 @@ body{
 .game-button:hover{
   transform: scale(0.9);
   opacity: 0.7;
+}
+
+#slide-puzzle{
+  background-image:url(../img/foxmask.png);
 }
 
 /*///////////// Game only tablet styles////////////// */
@@ -544,6 +550,8 @@ body{
   padding-right: 450px;
   width: 500%;
 }
+
+/* Change to the element id in index.styles */
 #arrow-button{
   background-color: #151E24;
   border-color: #151E24;
@@ -650,14 +658,14 @@ body{
 
 }
 /*//////////////////// location  styles /////////////////*/
-  body {
+  /* body {
     background: #151e24;
     font-size: 30px;
     padding-top: 100px;
     padding-right: 50px;
     padding-bottom: 100px;
     padding-left: 50px;      
-}
+} */
 
 #sec1 {
 
@@ -688,14 +696,14 @@ body{
   padding-bottom: 100px;
   padding-left: 50px;
 }
-body {
+/* body {
   background: #151e24;
   font-size: 30px;
   padding-top: 100px;
   padding-right: 50px;
   padding-bottom: 100px;
   padding-left: 50px;
-}
+} */
 #arrow-button{
   background-color: #151E24;
   border-color: #151E24;
@@ -714,14 +722,14 @@ body {
     padding-bottom: 100px;
     padding-left: 50px;
 }
- body {
+ /* body {
     background: #151e24;
     font-size: 30px;
     padding-top: 100px;
     padding-right: 50px;
     padding-bottom: 100px;
     padding-left: 50px;
-    }
+    } */
     #arrow-button{
       background-color: #151E24;
       border-color: #151E24;
@@ -741,13 +749,13 @@ body {
     padding-bottom: 100px;
     padding-left: 50px;
 }
-body {
+/* body {
   background: #151e24;
     font-size: 30px;
     padding-top: 100px;
     padding-right: 50px;
     padding-bottom: 100px;
     padding-left: 50px;
-  }
+  } */
 }
 }
