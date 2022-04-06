@@ -14,3 +14,4 @@ function toggleNavbar() {
 
 toggle.addEventListener('click', toggleNavbar, false);
 
+
