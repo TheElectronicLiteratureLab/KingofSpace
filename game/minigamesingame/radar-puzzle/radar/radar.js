@@ -270,7 +270,8 @@ if (temp === 'switchsix'){
 		//document.getElementById('completed').innerHTML = ` congrats you completed the puzzle`;
 		Emergency.push(" locked on to beacon<br>");
 
-		setTimeout(()=>{hide('main-radar');}, 1000);
+		setTimeout(()=>{hide('myModal'); story('next');}, 2000);
+		
 		
 		//return current = 8;
 	}

@@ -68,7 +68,7 @@
 		curr++;
 
 		}
-	if (curr === arrayone.length){
+	if (curr === arrayone.length+1){
 	hide('video1');
 	horizatorsend();
 	}
@@ -89,7 +89,7 @@
 		curr++;
 
 		}
-	if (curr === arraytwo.length){
+	if (curr === arraytwo.length+1){
 	hide('video1');
 	horizatorsend();
 	}
@@ -113,7 +113,7 @@
 		console.log("played video");
 		hide('Next')
 
-
+		setTimeout(()=>{hide('myModal4'); story('next');}, 5000);
 
 
 
