@@ -196,7 +196,7 @@ function onstart(){
 				 break;
 
 			case 69: 
-				current = 326;//an end 
+				current = 323;//an end 
 
 				break;
 
@@ -934,11 +934,11 @@ case 177:
 				 break;
 
 			case 195:
-					current= 326;  // last line
+					current= 323;  // last line
 				break;
 
 			case 197:
-					current= 326;  // last line
+					current= 323;  // last line
 				break;
 
 			case 198:
@@ -1034,7 +1034,7 @@ case 177:
 				}
 
 				if (temp ==='three'){
-					current = 325 ; // comm box
+					current = 322 ; // comm box
 					// print out array
 					getstory(current);
 				}
@@ -1215,7 +1215,7 @@ case 177:
 				break; 	
 
 			case 322:
-				current = 238;
+				current = 241;
 				break;
 
 			case 323:
