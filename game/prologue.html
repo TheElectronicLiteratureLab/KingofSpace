@@ -17,6 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+<body>
     <!-- Hamburger Menu -->
     <header>
         <div class="container">
@@ -41,15 +42,14 @@
     </header>
       <!-- End of Hamburger Menu  -->
 
-      
-    </div>
-    <h1>Prologue</h1>
-    <body>
+    <div id="prologue-wrapper"> <!-- BEGIN WRAPPER DIV-->
+        <h1>Prologue</h1>
+    
         <div class="prologue" id="prologue-1">
             <section id="politics" width=""> 
                 <h3>The Politics</h3>  <br> 
      
-                    <p >  KING OF SPACE is set in our solar system, which is partially colonized and is divided into three parts. The inner ring of planets--Mars, Venus and Earth, known as the Terrans--are all colonized. (Mercury is uninhabited.) The Terran solspace is also intensively occupied by space habitats  Some of these are 
+                    <p>  KING OF SPACE is set in our solar system, which is partially colonized and is divided into three parts. The inner ring of planets--Mars, Venus and Earth, known as the Terrans--are all colonized. (Mercury is uninhabited.) The Terran solspace is also intensively occupied by space habitats  Some of these are 
                     owned by governments or corporations, some are ITCs (Independent Trading Corporations). The Terrans are governed "democratically" under an emperor, who is a spiritual as well as a political leader. (See under "Religion.") 
         
                     From Jupiter onward is the Io-Europa complex (the "Land of Ghosts” ) , supposedly under control of the Terrans, but actually in revolt. The Io-Europa complex does its own mining and manufacturing, but largely to serve its own needs; there is no trade between it and the Terrans. In the Rocks there are rumors that the Io-Europa Complex has let its genetic pool drift and that the IECs are no longer fully human. 
@@ -60,16 +60,17 @@
         
                     The effect of the Nicholsun Plague is to induce a mindless loyalty to two classes of priests, the Priestesses and the Red Kings. 
                  </p> 
-    </section>
-    </div>
+            </section>
+        </div>
+    
 
-<button type="button" id="arrow-button" onclick="myFunction()" ondblclick="Function()" onclick="myScript()" ><img src="img/arrow.png"></button>
+        <button type="button" id="arrow-button" onclick="myFunction()" ondblclick="Function()" onclick="myScript()" ><img src="img/arrow.png"></button>
 
-    <div class="prologue" id="prologue-2">
-        <section id="religion"> 
-            <h3>Religion</h3> <br>
+        <div class="prologue" id="prologue-2">
+            <section id="religion"> 
+                <h3>Religion</h3> <br>
         
-            <p>
+                <p>
                   The religion practiced in the Belt is built around genetic community and fertility, real issues in a scattered group of small populations.
         
                     The Emperor is the spiritual leader of the Terran Empire. He incarnates the fertility of the race. 
@@ -97,46 +98,46 @@
         
                     </p>
 
-             </section> 
-             </div>
+            </section> 
+        </div>
            
-             <div class="prologue" id="prologue-3">
-                    <section id="trade">
+        <div class="prologue" id="prologue-3">
+            <section id="trade">
                 <h3 >Trade, Economics, and Entertainment </h3><br>
         
-                    <p >  The principal Terran export to the Rocks is genetic material, on which Terra has a monopoly. It is a religious duty to accept and use new genetic material in order to maintain the common gene pool.
-        
-                    Export is handled through the Priestesses. The priesthood is maintained (in style, on one of the largest asteroids) through the revenues from genetic updating. 
-        
-                    The material on the Nicholsun uprising, pp. 306-310 of the manuscript, explains how genetic updates are done. 
-        
-                    The second export from t e Terrans to the Rocks is entertainment. Again, Terra itself is the exporter. The entertainment is in the form of "illusions," sensory hallucinations. Illusions are used not only as traditional entertainment but to change the appearance of persons, to make habitats appear larger and more beautiful than they are, and to provide companionship. The Lady Nii becomes Andrew Brady's lover in the form of an illusion. 
-        
+                <p>  The principal Terran export to the Rocks is genetic material, on which Terra has a monopoly. It is a religious duty to accept and use new genetic material in order to maintain the common gene pool.
+    
+                Export is handled through the Priestesses. The priesthood is maintained (in style, on one of the largest asteroids) through the revenues from genetic updating. 
+    
+                The material on the Nicholsun uprising, pp. 306-310 of the manuscript, explains how genetic updates are done. 
+    
+                The second export from t e Terrans to the Rocks is entertainment. Again, Terra itself is the exporter. The entertainment is in the form of "illusions," sensory hallucinations. Illusions are used not only as traditional entertainment but to change the appearance of persons, to make habitats appear larger and more beautiful than they are, and to provide companionship. The Lady Nii becomes Andrew Brady's lover in the form of an illusion. 
+    
                 (Illusions, of course, also socialize people to accept the Terran culture and Terran appearances as the norm.) 
-        
-                    Trade in physical objects is less profitable than trade in entertainment, desighs, and ideas, but there is considerable trade within the Terrans. The trade ships are known as "greatships", described on pp. Their only fixed assets are a central computer and an orbit. Everything else is in modules that can be plugged in and out at will. 
-        
-                    Trade used to be carried on in orbits that crossed between the Terrans and the Asteroids. These orbits have become valueless since the quarantine. The Lady Nii was in one of these orbits. She was abandoned, with the infected people aboard her, at the time of the Plague. 
-        
-                    Andrew Brady is the only survivor of those people and the only inhabitant of the Nii.
+    
+                Trade in physical objects is less profitable than trade in entertainment, desighs, and ideas, but there is considerable trade within the Terrans. The trade ships are known as "greatships", described on pp. Their only fixed assets are a central computer and an orbit. Everything else is in modules that can be plugged in and out at will. 
+    
+                Trade used to be carried on in orbits that crossed between the Terrans and the Asteroids. These orbits have become valueless since the quarantine. The Lady Nii was in one of these orbits. She was abandoned, with the infected people aboard her, at the time of the Plague. 
+    
+                Andrew Brady is the only survivor of those people and the only inhabitant of the Nii.
                 </p> 
-    </section> 
-    </div>
+            </section> 
+        </div>
   
       
- </div>       
-</main> 
+    </div> <!-- END WRAPPER DIV-->   
 
 <script>
-    function myFunction() {
-     document.getElementById("prologue-1").style.visibility = "hidden";
-    }
-    function Function() {
-     document.getElementById("prologue-2").style.visibility = "hidden";
-    }
-    function myScript() {
-     document.getElementById("prologue-3").style.visibility = "hidden";
-    }
+    // function myFunction() {
+    //  document.getElementById("prologue-1").style.visibility = "hidden";
+    // }
+    // function Function() {
+    //  document.getElementById("prologue-2").style.visibility = "hidden";
+    // }
+    // function myScript() {
+    //  document.getElementById("prologue-3").style.visibility = "hidden";
+    // }
+
 
     
     
