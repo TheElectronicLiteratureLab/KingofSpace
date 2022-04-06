@@ -88,12 +88,8 @@ function onstart(){
 
 		//console.log ("made it to while loop");
 		switch(current){
-			//case 3: 
-					//library(15);
-					//setTimeout(()=>{library(16);}, 10000);
-					
-					//current ++;
-				//break;
+
+
 			case 7 : 
 				// print out array 
 
@@ -1034,7 +1030,9 @@ case 177:
 				}
 
 				if (temp ==='three'){
-					current = 322 ; // comm box
+
+					current = 322; // comm box
+
 					// print out array
 					getstory(current);
 				}

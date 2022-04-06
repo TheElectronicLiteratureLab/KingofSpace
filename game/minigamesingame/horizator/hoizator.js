@@ -68,8 +68,8 @@
 		curr++;
 
 		}
-	if (curr === arrayone.length+1){
-	hide('video1');
+	if (curr === arrayone.length){
+	//hide('video1');
 	horizatorsend();
 	}
 	else{
@@ -85,12 +85,12 @@
 		if (choosearray === 1){
 			if(current === 0){
 			hide('video1');
-			document.getElementById('playboxmain').innerHTML = `  ${arraytwo[curr]} `;
+			document.getElementById('playboxmain-horizator').innerHTML = `  ${arraytwo[curr]} `;
 		curr++;
 
 		}
-	if (curr === arraytwo.length+1){
-	hide('video1');
+	if (curr === arraytwo.length){
+	//hide('video1');
 	horizatorsend();
 	}
 	else{
@@ -106,6 +106,7 @@
 	}
 
 	function horizatorsend(){
+		hide('video1');
 		var myVideo = document.getElementById("video1"); 
 
 		myVideo.play();
@@ -113,7 +114,7 @@
 		console.log("played video");
 		hide('Next')
 
-		setTimeout(()=>{hide('myModal4'); story('next');}, 5000);
+		//setTimeout(()=>{hide('myModal4'); }, 5000);
 
 
 

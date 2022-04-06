@@ -252,7 +252,7 @@ html, body {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     margin: 0 auto;
     padding: 2rem 3rem 2rem 3rem;
-    background-image: linear-gradient(to top, #971B1F 0%, #C6202C 100%);
+    background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
     display: grid;
     color: white;
     border: none;
@@ -261,7 +261,7 @@ html, body {
   }
   
   .playbtn:hover {
-    background-image: linear-gradient(to top, #741316 0%, #a51c25 100%);
+    background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
     cursor: pointer;
   }
   /* ///////////////////// End Section /////////////////////// */
@@ -310,9 +310,9 @@ html, body {
   }
   /* ///////////////////// End Section /////////////////////// */
   
-  /* ///////////////////// New Features Section /////////////////////// */
+  /* ///////////////////// Awards Section /////////////////////// */
   #awards {
-      min-height: 1080px;
+      min-height: 540px;
       margin: 0 auto;
       padding: 5rem;
       position: relative;
@@ -324,6 +324,7 @@ html, body {
     text-align: center;
     font-size: 40px;
     padding-bottom: 100px;
+    font-weight: bold;
   }
   
   .awgridcontainer {
@@ -357,10 +358,58 @@ html, body {
     margin-top: 3rem;
   }
   /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Other Works Section /////////////////////// */
+    #otherworks {
+      min-height: 540px;
+      margin: 0 auto;
+      padding: 5rem;
+      position: relative;
+      background-color: #434A52;
+  }
+  
+  .owheader {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 100px;
+  }
+  
+  .owgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+  }
+
+  .owgridcontainer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 3rem;
+  }
+  
+  .owitem {
+    background: white;
+    border: 10px solid #434A52;
+    color: black;
+    padding: 2rem;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .owitem2 {
+    background: white;
+    border: 10px solid #69B7AE;
+    color: black;
+    padding: 2rem;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  /* ///////////////////// End Section /////////////////////// */
   
   /* ///////////////////// KoS Origin Info /////////////////////// */
   #origin {
-    background-color: #434A52;
+    background-color: #5A7C7C;
     min-height: 1080px;
       margin: 0 auto;
       padding: 5rem;
@@ -390,7 +439,7 @@ html, body {
   
   .ognitem {
     background: white;
-    border: 10px solid #69B7AE;
+    border: 10px solid #434A52;
     text-align: center;
   }
   
@@ -1144,7 +1193,7 @@ html, body {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     margin: 0 auto;
     padding: 2rem 3rem 2rem 3rem;
-    background-image: linear-gradient(to top, #971B1F 0%, #C6202C 100%);
+    background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
     display: grid;
     color: white;
     border: none;
@@ -1153,7 +1202,7 @@ html, body {
   }
   
   .playbtn:hover {
-    background-image: linear-gradient(to top, #741316 0%, #a51c25 100%);
+    background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
     cursor: pointer;
   }
   /* ///////////////////// End Section /////////////////////// */
@@ -1204,7 +1253,7 @@ html, body {
   
     /* ///////////////////// New Features Desktop /////////////////////// */
   #awards {
-    min-height: 800px;
+    min-height: 540px;
     margin: 0 auto;
     padding: 5rem;
     position: relative;
