@@ -160,7 +160,7 @@ function onstart(){
 						current++;
 					break;
 			case 16:
-				x.style.backgroundImage = "url(img/black.png)";
+				x.style.backgroundImage = "none";
 				current++;
 					break;
 
