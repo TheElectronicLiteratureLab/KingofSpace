@@ -64,9 +64,9 @@
         </div>
     
 
-        <button type="button" id="arrow-button" onclick="myFunction()" ondblclick="Function()" onclick="myScript()" ><img src="img/arrow.png"></button>
+        <button type="button" id="arrow-button" onclick="a();"  ><img src="img/arrow.png"></button>
 
-        <div class="prologue" id="prologue-2">
+        <!-- <div class="prologue" id="prologue-2">
             <section id="religion"> 
                 <h3>Religion</h3> <br>
         
@@ -123,7 +123,7 @@
                 </p> 
             </section> 
         </div>
-  
+   -->
       
     </div> <!-- END WRAPPER DIV-->   
 
@@ -137,11 +137,40 @@
     // function myScript() {
     //  document.getElementById("prologue-3").style.visibility = "hidden";
     // }
-
-
     
+    let pwrapper = document.getElementById('prologue-wrapper');
+    let prologue1 = document.getElementById('prologue-1');
     
 
+    function a(){
+        let prologue2 = document.getElementById('prologue-2');
+        let prologue3 = document.getElementById('prologue-3');
+
+        prologue1.style.display = 'none';
+        pwrapper.innerHTML = `<div class=\"prologue\" id=\"prologue-3\">
+            <section id=\"trade\">
+                <h3 >Trade, Economics, and Entertainment </h3><br>
+        
+                <p>  The principal Terran export to the Rocks is genetic material, on which Terra has a monopoly. It is a religious duty to accept and use new genetic material in order to maintain the common gene pool.
+    
+                Export is handled through the Priestesses. The priesthood is maintained (in style, on one of the largest asteroids) through the revenues from genetic updating. 
+    
+                The material on the Nicholsun uprising, pp. 306-310 of the manuscript, explains how genetic updates are done. 
+    
+                The second export from t e Terrans to the Rocks is entertainment. Again, Terra itself is the exporter. The entertainment is in the form of "illusions," sensory hallucinations. Illusions are used not only as traditional entertainment but to change the appearance of persons, to make habitats appear larger and more beautiful than they are, and to provide companionship. The Lady Nii becomes Andrew Brady's lover in the form of an illusion. 
+    
+                (Illusions, of course, also socialize people to accept the Terran culture and Terran appearances as the norm.) 
+    
+                Trade in physical objects is less profitable than trade in entertainment, desighs, and ideas, but there is considerable trade within the Terrans. The trade ships are known as "greatships", described on pp. Their only fixed assets are a central computer and an orbit. Everything else is in modules that can be plugged in and out at will. 
+    
+                Trade used to be carried on in orbits that crossed between the Terrans and the Asteroids. These orbits have become valueless since the quarantine. The Lady Nii was in one of these orbits. She was abandoned, with the infected people aboard her, at the time of the Plague. 
+    
+                Andrew Brady is the only survivor of those people and the only inhabitant of the Nii.
+                </p> 
+            </section> 
+        </div>`;
+    pwrapper.innerHTML += `<button type="button" id="arrow-button" onclick="a();"  ><img src="img/arrow.png"></button>`;
+    };
     
 </script>
 
