@@ -1125,7 +1125,7 @@ case 177:
 				break;
 
 			case 293:
-			// unhide choise buttons 
+			// unhide choice buttons 
 				// hide next 
 				hide('Next');
 				hide('choiceone');
@@ -1133,9 +1133,9 @@ case 177:
 				hide('choicethree');
 				hide('choicefour');
 				document.getElementById('choiceone').innerHTML = `Library`;
-				document.getElementById('choicetwo').innerHTML = `  Decontamination Procedures`;
-				document.getElementById('choicethree').innerHTML = `  Ship Passenger list`;
-				document.getElementById('choicefour').innerHTML = `  Next`;
+				document.getElementById('choicetwo').innerHTML = `Decontamination Procedures`;
+				document.getElementById('choicethree').innerHTML = `Ship Passenger list`;
+				document.getElementById('choicefour').innerHTML = `Next`;
 
 
 				if(temp === 'one'){

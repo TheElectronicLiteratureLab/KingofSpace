@@ -555,9 +555,6 @@ a{
 #arrow-button{
   background-color: #151E24;
   border-color: #151E24;
-  width: 90%;
-  height: 40%;
-  padding-left:1200px;
 }
 
 
@@ -587,9 +584,7 @@ a{
   #arrow-button{
     background-color: #151E24;
     border-color: #151E24;
-    width:60%;
-    height: 60%;
-    padding-left:800px;
+
   }
 }
 
@@ -618,9 +613,6 @@ a{
   #arrow-button{
     background-color: #151E24;
     border-color: #151E24;
-    width:90%;
-    height: 100%;
-    padding-left: 200px;
   }
 
 }
@@ -651,9 +643,6 @@ a{
   #arrow-button{
     background-color: #151E24;
     border-color: #151E24;
-    width:70%;
-    height: 50%;
-   padding-left:200px;
   }
 
 }
@@ -679,9 +668,6 @@ a{
 #arrow-button{
   background-color: #151E24;
   border-color: #151E24;
-  width: 10%;
-  height: 20%;
-  padding-left:1200px;
 }
 
 
@@ -707,9 +693,6 @@ a{
 #arrow-button{
   background-color: #151E24;
   border-color: #151E24;
-  width:90%;
-    height: 100%;
-   
 }
 
 }
@@ -733,9 +716,6 @@ a{
     #arrow-button{
       background-color: #151E24;
       border-color: #151E24;
-      width:90%;
-        height: 100%;
-
   }
 
 /*/////////////////// location tablet styles //////////////////////*/
