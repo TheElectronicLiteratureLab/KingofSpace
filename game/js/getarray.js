@@ -782,19 +782,20 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 "''I'm going to reprogram the ship,'' she says. <br><br> ''For the Emperor. Go on. Go ahead.'' She touches the horizator control panel. Under her fingers it changes. Rows of buttons, some dark, some blinking orange, a surprising few their normal colors of blue and green.",
 
 // add check boxes to page for the options
-"''See what you can find to help us.'' <br><br> Oh, yes, Mistress, I hear and obey.",//292 add buttons for library, decontamination procedures, ship passenger list
+"''See what you can find to help us.'' <br><br> Oh, yes, Mistress, I hear and obey.",//293 add buttons for library, decontamination procedures, ship passenger list
 
 //Library.js file for library
-" ",//294
+//" ",//294
 
 //Decontamination Procedures
-"DECONTAMINATION PROCEDURES <br>1. All personnel must report to screening. You will be tested for the presence of Nicholsun's Virus. Any of the following may occur. <br> a. You may be found to be disease-free. <br> b. You may be found to be a carrier of the Nicholsun's Virus. <br> c. You may be found to have symptoms of the virus. <br> 2. If you are found to be disease-free, you will REPORT IMMEDIATELY to Debarkation. DO NOT ATTEMPT TO RETURN to other parts of the ship. DO NOT ATTEMPT TO COMMUNICATE WITH ANY OTHER SHIP MEMBER. There are no exceptions to tbis rule. <br> 3. If you are found to be infected, please RETURN IMMEDIATELY to your sleeping area aboard ship. Your civil rights are temporarily suspended.",
+//"DECONTAMINATION PROCEDURES <br>1. All personnel must report to screening. You will be tested for the presence of Nicholsun's Virus. Any of the following may occur. <br> a. You may be found to be disease-free. <br> b. You may be found to be a carrier of the Nicholsun's Virus. <br> c. You may be found to have symptoms of the virus. <br> 2. If you are found to be disease-free, you will REPORT IMMEDIATELY to Debarkation. DO NOT ATTEMPT TO RETURN to other parts of the ship. DO NOT ATTEMPT TO COMMUNICATE WITH ANY OTHER SHIP MEMBER. There are no exceptions to tbis rule. <br> 3. If you are found to be infected, please RETURN IMMEDIATELY to your sleeping area aboard ship. Your civil rights are temporarily suspended.",
 
-//Ship Passenger list
-"Ship's Population: Lady Nii <br><br> Nii / interface coordination <br><br> Brady, Andrew /Captain(acting) <br>/Ship's Favor <br>/Red King <br><br> Passengers <br><br> aster Palladis /Ship's Favor <br> /Priestess <br>Rosse, Thomas Tamotsu /Red King",
+////Ship Passenger list
+//"Ship's Population: Lady Nii <br><br> Nii / interface coordination <br><br> Brady, Andrew /Captain(acting) <br>/Ship's Favor <br>/Red King <br><br> Passengers <br><br> aster Palladis /Ship's Favor <br> /Priestess <br>Rosse, Thomas Tamotsu /Red King",
 
 // After the three boxes above this is the next "..." button
 
+//294 below
 "''This is all Terran propaganda,'' Tam Rosse says. <br><br> The Priestess turns briefly to look at the wall. <br><br> ''Give it my clearance number. AP7829044P",
 
 //AP7829044P

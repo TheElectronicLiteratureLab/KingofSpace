@@ -1121,24 +1121,25 @@ case 177:
 
 			case 278:
 
-				current = 294;
+				current = 293;
 				break;
 
 			case 293:
 			// unhide choice buttons 
 				// hide next 
-				hide('Next');
-				hide('choiceone');
-				hide('choicetwo');
-				hide('choicethree');
-				hide('choicefour');
-				document.getElementById('choiceone').innerHTML = `Library`;
-				document.getElementById('choicetwo').innerHTML = `Decontamination Procedures`;
-				document.getElementById('choicethree').innerHTML = `Ship Passenger list`;
-				document.getElementById('choicefour').innerHTML = `Next`;
+
+				//hide('Next');
+				hide('myBtn5'); //library
+				//hide('choicetwo');
+				//hide('choicethree');
+				//hide('choicefour');
+				//document.getElementById('choiceone').innerHTML = `Library`;
+				//document.getElementById('choicetwo').innerHTML = `  Decontamination Procedures`;
+				//document.getElementById('choicethree').innerHTML = `  Ship Passenger list`;
+				//document.getElementById('choicefour').innerHTML = `  Next`;
 
 
-				if(temp === 'one'){
+				/*if(temp === ''){
 					current = 294;// life ship 
 					hide('myBtn5');
 					// print out array
@@ -1161,7 +1162,7 @@ case 177:
 				if (temp ==='four'){
 
 					current = 297 ; // next
-					hide('myBtn5');
+					//hide('myBtn5');
 					// print out array
 					getstory(current);
 				}
@@ -1180,10 +1181,20 @@ case 177:
 
 			case 296:
 
-				current = 293;
+				current = 293;*/
+				current++;
+
 				break;
 
-			case 314:  
+			case 294:
+			hide('myBtn5'); //tetris 
+				
+
+				//tetrus
+				 current ++;
+				break;
+
+			case 311:  
 				// print out array 
 
 				hide('myBtn3'); //tetris 
@@ -1193,28 +1204,28 @@ case 177:
 				 current ++;
 				break;
 
-			case 315:
+			case 312:
 				hide('myBtn3');
 				current++;
 				break;
 
-			case 324:
+			case 321:
 				//hide(my);
-				current = 326;
+				current = 323;
 				break; 	
 
-			case 325:
-				current = 241;
+			case 322:
+				current = 238;
 				break;
 
-			case 326:
+			case 323:
 
 				hide('choiceone');
 				document.getElementById('choiceone').innerHTML = `Acnologments`;
 
 				current++;
 				break;
-				case 327:
+				case 324:
 
 				hide('choiceone');
 				

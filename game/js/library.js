@@ -28,19 +28,43 @@ function hudeoptions(){
 	Lhide('bookseventeen');
 
 }
+window.onload= onstart();
 
 let cur = 0;
 
 function onstart(){
-	Lhide('Next');
-	Lhide('choiceone');
-	Lhide('choicetwo');
-	Lhide('choicethree');
-	Lhide('choicefour');
-	Lhide('choicefive');
-	Lhide('choicesix');
-	Lhide('choiceseven');
+
+	hudeoptions();
+	Lhide('nextlib');
+	Lhide('back');
+	Lhide('backcontrol');
+		
 }
+function librarystart(){
+	hudeoptions();
+	Lhide('nextlib');
+	Lhide('back');
+	Lhide('decontamination');
+	Lhide('shippassengerlist');
+	Lhide('libraryopen');
+	Lhide('backcontrol');
+
+
+}
+function Back(){
+	hudeoptions();
+	Lhide('nextlib');
+	Lhide('back');
+	Lhide('decontamination');
+	Lhide('shippassengerlist');
+	Lhide('libraryopen');
+	Lhide('backcontrol');
+}
+
+
+
+
+
 
 
 function Goto(button){
@@ -136,24 +160,24 @@ function Goto(button){
 	}
 	if(button === 'sixteen' ){
 		hudeoptions();
-		Lhide('next');
+		Lhide('nextlib');
 		cur = 15;
 		library(cur);
 	}
 	if(button === 'seventeen' ){
 		hudeoptions();
-		Lhide('next');
+		Lhide('nextlib');
 		cur = 17;
 		library(cur);
 	}
-	if(button === 'next' ){
+	if(button === 'nextlib' ){
 		cur++;
 		library(cur);
 	}
 	if(button === 'back' ){
 
 		hudeoptions();
-		library(20);
+		library(22);
 	}
 
 }
@@ -202,12 +226,19 @@ let library= ["<b>Arcoculture</b> <br><br> The study of gardening and ecological
 "By paying an orbital use fee, any commercial carrier or private ship can match orbits with a greatship and take advantage of it facilities. <br><br> Eccentrics attract a colorful and varied population, often including visiting celebrites. The permanent residents of some ships have  gained  a  place in the lore  of the Asteroids.<br><br> Human-use facilities  associated with grateships include: <br><br> - Entertanment (gormet restaurants, gambling, racing, 3D video,  illusion, koi competitions)<br><br> - Research facilities (stored library, instalink to local and System datastores) ",//18
 "- Health facilities (variable-gravity workout areas) <br><br> - Shuttle service to intermediate stops<br><br> -(Asteroid-belt trips only) BY special arrangement with Nicholsun Productions ITC, all passengers aboard an Eccentric are offered free participation in local Nicholsun's Festivals.",//19
 
+//Decontamination Procedures
+"DECONTAMINATION PROCEDURES <br>1. All personnel must report to screening. You will be tested for the presence of Nicholsun's Virus. Any of the following may occur. <br> a. You may be found to be disease-free. <br> b. You may be found to be a carrier of the Nicholsun's Virus. <br> c. You may be found to have symptoms of the virus. <br> 2. If you are found to be disease-free, you will REPORT IMMEDIATELY to Debarkation. DO NOT ATTEMPT TO RETURN to other parts of the ship. DO NOT ATTEMPT TO COMMUNICATE WITH ANY OTHER SHIP MEMBER. There are no exceptions to tbis rule. <br> 3. If you are found to be infected, please RETURN IMMEDIATELY to your sleeping area aboard ship. Your civil rights are temporarily suspended.",
 
-"",//back 20
+//Ship Passenger list
+"Ship's Population: Lady Nii <br><br> Nii / interface coordination <br><br> Brady, Andrew /Captain(acting) <br>/Ship's Favor <br>/Red King <br><br> Passengers <br><br> aster Palladis /Ship's Favor <br> /Priestess <br>Rosse, Thomas Tamotsu /Red King",
+
+"",//back 22
 ];
 
 
-document.getElementById('playboxmain2').innerHTML = `  ${library[cur]} `;
+
+ document.getElementById('playboxmain2').innerHTML = `  ${library[cur]} `;
+
 	
 
 
