@@ -89,13 +89,13 @@ function onstart(){
 		//console.log ("made it to while loop");
 		switch(current){
 
-			case 0: 
-				x.style.backgroundImage= "url(img/starpattern.png)" ;
+			//case 0: 
+				//x.style.backgroundImage= "url(img/starpattern.png)" ;
 					//library(15);
 					//setTimeout(()=>{library(16);}, 10000);
 					
 					//current ++;
-				break;
+				//break;
 			case 7 : 
 				// print out array 
 
