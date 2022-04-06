@@ -304,7 +304,7 @@ header .container .menu div.buttons > * {
 }
 
 .btnitem {
-  background: #5A7C7C;
+  background: #769979;
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
@@ -318,6 +318,11 @@ header .container .menu div.buttons > * {
   align-items: center;
   max-width: 124px;
   max-height: 24px;
+}
+
+.btnitem:hover {
+  background: #526b54;
+  color: white;
 }
 
 .chname {
@@ -348,7 +353,7 @@ header .container .menu div.buttons > * {
 
 .shgridcontainer2 {
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 grid-gap: 1rem;
 min-height: 540px;
 }
@@ -365,11 +370,11 @@ min-height: 540px;
     font-size: 20px;
     color: black;
     text-align: center;
-    border: 10px solid #151e24;
+    border: 10px solid #434A52;
 }
 
 .btnitem2 {
-  background: #151e24;
+  background: #769979;
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -383,6 +388,10 @@ min-height: 540px;
   align-items: center;
   max-width: 124px;
   max-height: 24px;
+}
+
+.btnitem2:hover {
+  background: #6a8b6c
 }
 
 .shheader {
@@ -1091,7 +1100,7 @@ footer {
   margin: 0 auto;
   padding: 1rem 1.5rem;
   position: relative;
-  background-color: #151e24;
+  background-color: white;
 }
 
 .page-content h1 {
