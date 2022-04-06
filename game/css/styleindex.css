@@ -3,7 +3,10 @@ body  {
   margin: 0%;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
-  background-image:url(../img/)
+  background-image:url(../img/Asset\ 9.png);
+  background-repeat:no-repeat;
+  background-position: bottom;
+  /* background-size: 2000px 300px; */
   /* font-size: 20px; */
 }
 
@@ -859,3 +862,4 @@ font-size: 20px;
 }
 
 /* END kitchen */
+
