@@ -33,7 +33,7 @@ let cur = 0;
 
 function onstart(){
 	Lhide('Next');
-Lhide('choiceone');
+	Lhide('choiceone');
 	Lhide('choicetwo');
 	Lhide('choicethree');
 	Lhide('choicefour');
@@ -207,7 +207,7 @@ let library= ["<b>Arcoculture</b> <br><br> The study of gardening and ecological
 ];
 
 
- document.getElementById('playboxmain').innerHTML = `  ${library[cur]} `;
+document.getElementById('playboxmain2').innerHTML = `  ${library[cur]} `;
 	
 
 
