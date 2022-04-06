@@ -275,7 +275,7 @@ html, body {
     margin: 0 auto;
     position: relative;
     background-color: #434A52;
-    padding-top: 20rem;
+    padding-top: 8rem;
     padding-left: 5rem;
     padding-right: 5rem;
   }
@@ -292,16 +292,21 @@ html, body {
   }
   
   .abtitem {
-    background: white;
-    border: 10px solid #69B7AE;
     text-align: center;
-    padding: 100px;
+    vertical-align: bottom;
+    border: 10px solid #69B7AE;
   }
   
   .abtitem2 {
     color: white;
     font-size: 20px;
     text-align: left;
+  }
+
+  video {
+    width: 50%;
+    height: 100%;
+    vertical-align: bottom;
   }
   
   /* ///////////////////// End Section /////////////////////// */
