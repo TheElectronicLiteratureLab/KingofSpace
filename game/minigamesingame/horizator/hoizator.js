@@ -68,8 +68,8 @@
 		curr++;
 
 		}
-	if (curr === arrayone.length+1){
-	hide('video1');
+	if (curr === arrayone.length){
+	//hide('video1');
 	horizatorsend();
 	}
 	else{
@@ -89,8 +89,8 @@
 		curr++;
 
 		}
-	if (curr === arraytwo.length+1){
-	hide('video1');
+	if (curr === arraytwo.length){
+	//hide('video1');
 	horizatorsend();
 	}
 	else{
