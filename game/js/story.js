@@ -90,7 +90,7 @@ function onstart(){
 		switch(current){
 
 			case 0: 
-				x.style.backgroundImage= "url(img/starbackground.png)" ;
+				x.style.backgroundImage= "url(img/starpattern.png)" ;
 					//library(15);
 					//setTimeout(()=>{library(16);}, 10000);
 					
