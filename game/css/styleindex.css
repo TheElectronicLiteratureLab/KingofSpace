@@ -3,7 +3,8 @@ body  {
   margin: 0%;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
-  background-image:url(../img/Asset\ 9.png);
+  background-image:url(../img/Asset\ 13.png);
+
   background-repeat:no-repeat;
   background-position: bottom;
   /* background-size: 2000px 300px; */
@@ -13,6 +14,7 @@ body  {
 p{
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  max-width: 65ch;
   color: #D6DCD5;
 }
 
@@ -317,7 +319,7 @@ p{
 /* ////ARROW BUTTON /////*/
 #Next{
 	position: fixed;
-  bottom:100px;
+  bottom:150px;
   left:75%;
 	height: 25px;
 	width: 100px;
@@ -341,7 +343,7 @@ p{
 	left: 900px;
 }
 
-#choiceone, #choicetwo, #choicethree{
+#choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven{
 	/* position: fixed;
 	height: 40px;
 	width: 200px;
@@ -361,7 +363,7 @@ p{
   font-family: 'Montserrat', sans-serif;
 }
 
-#choiceone:hover, #choicetwo:hover, #choicethree:hover{
+#choiceone:hover, #choicetwo:hover, #choicethree:hover, #choicefour:hover, #choicefive:hover, #choicesix:hover, #choiceseven:hover{
   background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
   color: white;
 }
@@ -411,7 +413,7 @@ font-size: 16px;
 
 #mainstory p{
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #D6DCD5;
   line-height: 1.7;
 }
@@ -430,7 +432,7 @@ font-size: 16px;
 .rectanglelargeblack p{
   margin: auto;
   padding-top:30px;
-  align-content: center ;
+  align-content: center;
 }
 
 /* radar puzzle  css   */

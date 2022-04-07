@@ -84,7 +84,7 @@ h3{
 
 p{
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   /* max-width: 60ch; */
   line-height: 1.7;
   color: #D6DCD5;
@@ -471,6 +471,10 @@ a{
   display:grid;
   grid-template-columns: 1fr 1fr;
   gap:15px;
+}
+
+.character-description{
+  max-width: 55ch;
 }
 
 .character-container{
