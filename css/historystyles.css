@@ -1,350 +1,362 @@
-html, body {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    max-width: 100%;
-    margin: 0;
-  }
-  
-  hr {
-    width: 40%;
-  }
-  
-  a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-  }
-  
-  a.button {
-    padding: 0.5rem 1rem;
-    color: #fafafa;
-    text-align: center;
-  }
-  
-  a.button.primary {
-    background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
-    color: white;
-  }
-  
-  a.button.primary:hover {
-    background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
-    color: white;
-  }
-  
-  /* Header */
-  header {
-    position: fixed;
-    top: 0;
-    height: 3.5rem;
-    width: 100%;
-    background: #151E24;
-    z-index: 999;
-  }
-  
-  header .container {
-    position: fixed;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    top: 0;
-    left: 0;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row;
-    -webkit-box-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-            justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 1.5rem;
-    margin: 0 auto;
-    background: #151E24;
-  }
-  
-  header .container > .logo {
-    height: 1rem;
-    padding: 1.25rem 0;
-  }
-  
-  input.hamburger-button {
-    display: none;
-  }
-  
-  input.hamburger-button ~ label {
-    position: relative;
-    padding: 0.25rem;
-    width: 1.5rem;
-    height: 1.25rem;
-    cursor: pointer;
-  }
-  
-  input.hamburger-button ~ label > div,
-  input.hamburger-button ~ label > div::before,
-  input.hamburger-button ~ label > div::after {
-    content: "";
-    position: absolute;
-    top: 0.825rem;
-    height: 0.125rem;
-    width: 1.5rem;
-    opacity: 1;
-    background: white;
-    -webkit-transition: 0.14s ease-in-out;
-    transition: 0.14s ease-in-out;
-  }
-  
-  input.hamburger-button ~ label > div::before {
-    top: -0.5rem;
-  }
-  
-  input.hamburger-button ~ label > div::after {
-    top: 0.5rem;
-  }
-  
-  header .container .hamburger-button:checked ~ label > div {
-    width: 0;
-    background: white;
-  }
-  
-  header .container .hamburger-button:checked ~ label > div::before {
-    -webkit-transform: rotateZ(45deg);
-            transform: rotateZ(45deg);
-    top: -0rem;
-  }
-  
-  header .container .hamburger-button:checked ~ label > div::after {
-    -webkit-transform: rotateZ(-45deg);
-            transform: rotateZ(-45deg);
-    top: -0rem;
-  }
-  
-  header .container .hamburger-button:checked ~ .menu {
-    left: 0;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  
-  /* Mobile Menu Styles */
-  header .container .menu {
-    position: absolute;
-    z-index: -1;
-    top: 4.6rem;
-    -webkit-transform: translateX(calc(100vw - 1rem));
-    transform: translateX(calc(100vw - 1rem));
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, -webkit-max-content);
-    grid-template-rows: repeat(2, max-content);
-    width: 100%;
-    background: #fafafa;
-    -webkit-transition: 0.22s ease-in-out;
-    transition: 0.22s ease-in-out;
-  }
-  
-  header .container .menu::after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    height: 100vh;
-    width: 100vw;
-    background: #151e24;
-  }
-  
-  header .container .menu nav {
-    grid-area: auto;
-  }
-  
-  header .container .menu nav ul {
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-  }
-  
-  /* Navbar Text */
-  header .container .menu nav ul > li > a {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 100%;
-    padding: 1rem 1.5rem;
-    text-align: right;
-    color: white;
-    -webkit-transition: 0.14s ease-in-out;
-    transition: 0.14s ease-in-out;
-  }
-  
-  /* Navbar Text Hover */
-  header .container .menu nav ul > li > a:hover {
-    color: white;
-    background: #769979;
-  }
-  
-  /* Padding between "PLAY GAME" button and nav items in mobile view */
-  header .container .menu div.buttons {
-    grid-area: auto;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 1.5rem 1rem;
-  }
-  
-  /* Nav bar PLAY GAME button */
-  header .container .menu div.buttons > * {
-    -webkit-box-flex: 1;
-            flex: 1;
-    min-width: -webkit-min-content;
-    min-width: -moz-min-content;
-    min-width: min-content;
-    margin: 0.5rem;
-    padding: 1.2rem;
-  }
-  
-  .navlogo {
-    width: 150px;
-  }
-  
-  /* ///////////////////// Landing Page Section /////////////////////// */
-  .mainlogo {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .page-content {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    min-height: 1080px;
-    margin: 0 auto;
-    padding: 1rem 1.5rem;
-    position: relative;
-    background-color: white;
-  }
-  
-  .page-content h1 {
-    margin-top: 1.5rem;
-    font-size: 3.25rem;
-    font-weight: 300;
-    word-break: break-all;
-    text-align: center;
-  }
-  
-  .page-content h2 {
-    margin-top: 1.5rem;
-    font-size: 1.75rem;
-    font-weight: 500;
-    word-break: break-all;
-  }
-  
-  .page-content p {
-    margin-top: 0.75rem;
-    line-height: 1.25rem;
-    text-align: center;
-  }
-  
-  .playbtn {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    margin: 0 auto;
-    padding: 2rem 3rem 2rem 3rem;
-    background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
-    display: grid;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-  }
-  
-  .playbtn:hover {
-    background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
-    cursor: pointer;
-  }
-  /* ///////////////////// End Section /////////////////////// */
-  
-  /* ///////////////////// Background / Creation Section /////////////////////// */
-  #bkg {
-    background-color: #434A52;
-    min-height: 1080px;
-      margin: 0 auto;
-      padding: 5rem;
-      position: relative;
-  }
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  margin: 0;
+}
 
-  .bkgheader {
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    padding-bottom: 100px;
-    font-weight: 500;
-    letter-spacing: 3px;
-  }
-  
-  .bkglogo {
-    width: 20vw;
-    text-align: center;
-  }
-  
-  .bkggridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    padding-top: 0rem;
-  }
-  
-  .bkgitem {
-    background: white;
-    border: 10px solid #69B7AE;
-    text-align: center;
-  }
-  
-  .bkgitem2 {
-    color: white;
-    font-size: 20px;
-    padding: 7rem;
-    text-align: left;
-  }
-  /* ///////////////////// End Section /////////////////////// */
-  
-  /* ///////////////////// Assets Section /////////////////////// */
-  #assets {
-      min-height: 540px;
-      margin: 0 auto;
-      padding: 5rem;
-      position: relative;
-      background-color: #5A7C7C;
-  }
-  
-  .assetsheader {
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    padding-bottom: 100px;
-    font-weight: 500;
-    letter-spacing: 3px;
-  }
-  
-  .assetsgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
+hr {
+  width: 40%;
+}
 
-  .fotorama {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
 
-  
-  /* ///////////////////// End Section /////////////////////// */
-  
-  /* ///////////////////// Play Game Section /////////////////////// */
+a.button {
+  padding: 0.5rem 1rem;
+  color: #fafafa;
+  text-align: center;
+}
+
+a.button.primary {
+  background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
+  color: white;
+}
+
+a.button.primary:hover {
+  background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
+  color: white;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  height: 3.5rem;
+  width: 100%;
+  background: #151E24;
+  z-index: 999;
+}
+
+header .container {
+  position: fixed;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  background: #151E24;
+}
+
+header .container>.logo {
+  height: 1rem;
+  padding: 1.25rem 0;
+}
+
+input.hamburger-button {
+  display: none;
+}
+
+input.hamburger-button~label {
+  position: relative;
+  padding: 0.25rem;
+  width: 1.5rem;
+  height: 1.25rem;
+  cursor: pointer;
+}
+
+input.hamburger-button~label>div,
+input.hamburger-button~label>div::before,
+input.hamburger-button~label>div::after {
+  content: "";
+  position: absolute;
+  top: 0.825rem;
+  height: 0.125rem;
+  width: 1.5rem;
+  opacity: 1;
+  background: white;
+  -webkit-transition: 0.14s ease-in-out;
+  transition: 0.14s ease-in-out;
+}
+
+input.hamburger-button~label>div::before {
+  top: -0.5rem;
+}
+
+input.hamburger-button~label>div::after {
+  top: 0.5rem;
+}
+
+header .container .hamburger-button:checked~label>div {
+  width: 0;
+  background: white;
+}
+
+header .container .hamburger-button:checked~label>div::before {
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+  top: -0rem;
+}
+
+header .container .hamburger-button:checked~label>div::after {
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  top: -0rem;
+}
+
+header .container .hamburger-button:checked~.menu {
+  left: 0;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/* Mobile Menu Styles */
+header .container .menu {
+  position: absolute;
+  z-index: -1;
+  top: 4.6rem;
+  -webkit-transform: translateX(calc(100vw - 1rem));
+  transform: translateX(calc(100vw - 1rem));
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, -webkit-max-content);
+  grid-template-rows: repeat(2, max-content);
+  width: 100%;
+  background: #fafafa;
+  -webkit-transition: 0.22s ease-in-out;
+  transition: 0.22s ease-in-out;
+}
+
+header .container .menu::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  background: #151e24;
+}
+
+header .container .menu nav {
+  grid-area: auto;
+}
+
+header .container .menu nav ul {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+
+/* Navbar Text */
+header .container .menu nav ul>li>a {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  text-align: right;
+  color: white;
+  -webkit-transition: 0.14s ease-in-out;
+  transition: 0.14s ease-in-out;
+}
+
+/* Navbar Text Hover */
+header .container .menu nav ul>li>a:hover {
+  color: white;
+  background: #769979;
+}
+
+/* Padding between "PLAY GAME" button and nav items in mobile view */
+header .container .menu div.buttons {
+  grid-area: auto;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1.5rem 1rem;
+}
+
+/* Nav bar PLAY GAME button */
+header .container .menu div.buttons>* {
+  -webkit-box-flex: 1;
+  flex: 1;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  min-width: min-content;
+  margin: 0.5rem;
+  padding: 1.2rem;
+}
+
+.navlogo {
+  width: 150px;
+}
+
+/* ///////////////////// Landing Page Section /////////////////////// */
+.mainlogo {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-content {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 1080px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  position: relative;
+  background-color: white;
+}
+
+.page-content h1 {
+  margin-top: 1.5rem;
+  font-size: 3.25rem;
+  font-weight: 300;
+  word-break: break-all;
+  text-align: center;
+}
+
+.page-content h2 {
+  margin-top: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  word-break: break-all;
+}
+
+.page-content p {
+  margin-top: 0.75rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+.playbtn {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin: 0 auto;
+  padding: 2rem 3rem 2rem 3rem;
+  background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
+  display: grid;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.playbtn:hover {
+  background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
+  cursor: pointer;
+}
+
+.landingheader {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20rem;
+  letter-spacing: 20px;
+}
+
+/* ///////////////////// End Section /////////////////////// */
+
+/* ///////////////////// Background / Creation Section /////////////////////// */
+#bkg {
+  background-color: #434A52;
+  min-height: 1080px;
+  margin: 0 auto;
+  padding: 5rem;
+  position: relative;
+}
+
+.bkgheader {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 100px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.bkglogo {
+  width: 20vw;
+  text-align: center;
+}
+
+.bkggridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  padding-top: 0rem;
+}
+
+.bkgitem {
+  background: white;
+  border: 10px solid #69B7AE;
+  text-align: center;
+}
+
+.bkgitem2 {
+  color: white;
+  font-size: 20px;
+  padding: 7rem;
+  text-align: left;
+  line-height: 30px;
+
+}
+
+/* ///////////////////// End Section /////////////////////// */
+
+/* ///////////////////// Assets Section /////////////////////// */
+#assets {
+  min-height: 540px;
+  margin: 0 auto;
+  padding: 5rem;
+  position: relative;
+  background-color: #5A7C7C;
+}
+
+.assetsheader {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 100px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.assetsgridcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.fotorama {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ///////////////////// End Section /////////////////////// */
+
+/* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
   background-image: url("/img/starpattern.png");
   height: 100%;
@@ -388,163 +400,176 @@ html, body {
 }
 
 .footeritem {
-    padding: 1rem;
-    font-size: 20px;
-    text-align: center;
-  }
+  padding: 1rem;
+  font-size: 20px;
+  text-align: center;
+}
 
-  .footeritem a {
-    color: white;
-  }
+.footeritem a {
+  color: white;
+}
 
-  .footeritem a:hover {
-    color: #769979;
-  }
+.footeritem a:hover {
+  color: #769979;
+}
 
-  .socialgridcontainer {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 30px;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
-  }
+.socialgridcontainer {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
 
-  .socialitem {
+.socialitem {
   padding: 10px;
   width: 2rem;
   text-align: center;
-  }
+}
 
-  .socialitem:hover {
-    opacity: 0.5;
-    cursor: pointer;
-    }
+.socialitem:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
 
 /* ///////////////////// End Section /////////////////////// */
-  
-  /* ///////////////////// Copyright /////////////////////// */
-  footer {
-    background-color: #151E24;
-    padding: 20px;
-    color: white;
+
+/* ///////////////////// Copyright /////////////////////// */
+footer {
+  background-color: #151E24;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* ///////////////////// End Section /////////////////////// */
+
+/* --------------------------SMALL MOBILE STYLES-------------------------------- */
+@media only screen and (max-width: 699px) {
+
+  /* ///////////////////// Landing Page Mobile (S) /////////////////////// */
+  .page-content {
+    min-height: 700px;
+  }
+
+  .mainlogo {
+    width: 100%;
+    padding-top: 10rem;
+  }
+
+  .parallax {
+    padding: 5rem;
+  }
+
+  .playbtn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 15px;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Background / Creation Mobile (S) /////////////////////// */
+  #bkg {
+    padding: 2rem;
+  }
+
+  .bkggridcontainer {
+    grid-template-columns: 1fr;
+  }
+
+  .bkgitem2 {
+    padding: 0;
+  }
+
+  .bkgheader {
+    font-size: 30px;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Original Assets Mobile (S) /////////////////////// */
+  .assetsgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+
+  .assetsheader {
+    font-size: 30px;
+  }
+
+  #assets {
+    padding: 2rem;
+    min-height: 540px;
+  }
+
+  .fotorama {
+    width: 100%;
+  }
+
+  .fotorama__wrap {
+    margin: 0 auto;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Footer Mobile (S) /////////////////////// */
+  .footergridcontainer {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .footeritem {
+    padding: 1rem;
+    font-size: 15px;
+  }
+
+  #footer {
+    min-height: 350px;
+  }
+
+  .footerlogo {
+    width: 200px;
     text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    padding-top: 3rem;
   }
-  /* ///////////////////// End Section /////////////////////// */
-  
-  /* --------------------------SMALL MOBILE STYLES-------------------------------- */
-  @media only screen and (max-width: 699px) {
-    /* ///////////////////// Landing Page Mobile (S) /////////////////////// */
-    .page-content {
-        min-height: 700px;
-      }
-    
-      .mainlogo {
-        width: 100%;
-        padding-top: 10rem; 
-      }
-    
-      .parallax {
-        padding: 5rem;
-      }
-    
-      .playbtn {
-        padding: 1rem 2rem 1rem 2rem;
-        font-size: 15px;
-      }
-    /* ///////////////////// End Section /////////////////////// */
-    
-    /* ///////////////////// Background / Creation Mobile (S) /////////////////////// */
-    #bkg {
-        padding: 2rem;
-      }
-    
-      .bkggridcontainer {
-        grid-template-columns: 1fr;
-      }
-    
-      .bkgitem2 {
-        padding: 0;
-      }
 
-      .bkgheader {
-        font-size: 30px;
-      }
-    /* ///////////////////// End Section /////////////////////// */
-    
-    /* ///////////////////// Original Assets Mobile (S) /////////////////////// */
-    .assetsgridcontainer {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 3rem;
-    }
-    
-    .assetsheader {
-      font-size: 30px;
-    }
-    
-    #assets {
-      padding: 2rem;
-      min-height: 540px;
-    }
-
-    .fotorama {
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      height: 100%;
-    }
-    /* ///////////////////// End Section /////////////////////// */
-    
-    /* ///////////////////// Footer Mobile (S) /////////////////////// */
-    .footergridcontainer {
-      margin-left: 5vw;
-      margin-right: 5vw;
-    }
-    
-    .footeritem {
-      padding: 1rem;
-      font-size: 15px;
-    }
-    
-    #footer {
-      min-height: 350px;
-    }
-    
-    .footerlogo {
-      width: 200px;
-      text-align: center;
-      cursor: pointer;
-      padding: 1rem;
-      padding-top: 3rem;
-    }
-    
-    .parallax {
-      background-attachment: scroll;
-    }
-    
-    hr {
-      width: 70vw;
-    }
+  .parallax {
+    background-attachment: scroll;
   }
-    /* ///////////////////// End Section /////////////////////// */
-  
-    /* --------------------------LARGE MOBILE STYLES-------------------------------- */
-    @media only screen and (min-width: 600px) {
+
+  hr {
+    width: 70vw;
+  }
+}
+
+/* ///////////////////// End Section /////////////////////// */
+
+/* --------------------------LARGE MOBILE STYLES-------------------------------- */
+@media only screen and (min-width: 600px) {
+
   /* ///////////////////// Landing Page Mobile (L) /////////////////////// */
-     .page-content {
-      min-height: 1000px;
-    }
-  
-    .mainlogo {
-      width: 100%;
-      padding-top: 10rem; 
-    }
-  
+  .page-content {
+    min-height: 1000px;
+  }
+
+  .mainlogo {
+    width: 100%;
+    padding-top: 10rem;
+  }
+
+  .playbtn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 15px;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
-  
+
   /* ///////////////////// Background / Creation Mobile (L) /////////////////////// */
   #bkg {
     padding: 2rem;
@@ -562,152 +587,164 @@ html, body {
   .bkgitem2 {
     padding: 0;
   }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Original Assets Mobile (L) /////////////////////// */
+  .assetsgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+
+  .assetsheader {
+    font-size: 30px;
+  }
+
+  #assets {
+    padding: 2rem;
+    min-height: 540px;
+  }
+
+  .fotorama {
+    width: 100%;
+  }
+
+  .fotorama__wrap {
+    margin: 0 auto;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Footer Mobile (L) /////////////////////// */
+  .footergridcontainer {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .footeritem {
+    padding: 1rem;
+    font-size: 15px;
+  }
+
+  #footer {
+    min-height: 350px;
+  }
+
+  .footerlogo {
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    padding-top: 3rem;
+  }
+
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  hr {
+    width: 70vw;
+  }
+}
+
 /* ///////////////////// End Section /////////////////////// */
 
-/* ///////////////////// Original Assets Mobile (L) /////////////////////// */
-.assetsgridcontainer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 3rem;
-}
-
-.assetsheader {
-  font-size: 30px;
-}
-
-#assets {
-  padding: 2rem;
-  min-height: 540px;
-}
-
-.fotorama {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-}
-/* ///////////////////// End Section /////////////////////// */
-
- /* ///////////////////// Footer Mobile (L) /////////////////////// */
- .footergridcontainer {
-  margin-left: 5vw;
-  margin-right: 5vw;
-}
-
-.footeritem {
-  padding: 1rem;
-  font-size: 15px;
-}
-
-#footer {
-  min-height: 350px;
-}
-
-.footerlogo {
-  width: 250px;
-  text-align: center;
-  cursor: pointer;
-  padding: 1rem;
-  padding-top: 3rem;
-}
-
-.parallax {
-  background-attachment: scroll;
-}
-
-hr {
-  width: 70vw;
-}
-}
-/* ///////////////////// End Section /////////////////////// */
-  
 /* --------------------------TABLET STYLES-------------------------------- */
 @media only screen and (min-width: 800px) {
-    
-    header {
-      height: 8.5rem;
-    }
-  
-    header .container {
-      left: 50%;
-      -webkit-transform: translate(-50%, 0);
-              transform: translate(-50%, 0);
-      -webkit-box-pack: start;
-              justify-content: flex-start;
-      border: none;
-    }
-    input.hamburger-button ~ label {
-      display: none;
-    }
-    header .container .menu {
-      z-index: unset;
-      top: 0;
-      left: 0;
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      display: grid;
-          grid-template-columns: auto -webkit-max-content;
-          grid-template-columns: auto max-content;
-          grid-template-rows: 4.5rem 3rem;
-      background: none;
-      -webkit-transition: none;
-      transition: none;
-    }
-    header .container .menu::after {
-      display: none;
-    }
-    header .container .menu div.buttons {
-      grid-area: 1/2/2/3;
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-              flex-direction: row;
-      -webkit-box-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-              justify-content: center;
-      padding: 0;
-      margin: 0;
-      border: none;
-    }
-    header .container .menu nav {
-      grid-area: 2/1/3/3;
-    }
-    header .container .menu nav ul {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-              flex-direction: row;
-      -webkit-box-pack: center;
-              justify-content: center;
-    }
-  
-    header .container .menu nav ul > li {
-      -webkit-box-flex: 1;
-              flex: 1;
-    }
-    header .container .menu nav ul > li > a {
-      width: 100%;
-      text-align: center;
-      padding: 1rem 1.5rem;
-    }
 
-    /* ///////////////////// Landing Page Tablet /////////////////////// */
-    .page-content {
-      min-height: 1000px;
-    }
-  
-    .mainlogo {
-      width: 100%;
-      padding-top: 10rem; 
-    }
-  
-    .playbtn {
-      padding: 1rem 2rem 1rem 2rem;
-      font-size: 15px;
-    }
+  header {
+    height: 8.5rem;
+  }
+
+  header .container {
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    border: none;
+  }
+
+  input.hamburger-button~label {
+    display: none;
+  }
+
+  header .container .menu {
+    z-index: unset;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    display: grid;
+    grid-template-columns: auto -webkit-max-content;
+    grid-template-columns: auto max-content;
+    grid-template-rows: 4.5rem 3rem;
+    background: none;
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  header .container .menu::after {
+    display: none;
+  }
+
+  header .container .menu div.buttons {
+    grid-area: 1/2/2/3;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+
+  header .container .menu nav {
+    grid-area: 2/1/3/3;
+  }
+
+  header .container .menu nav ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
+  header .container .menu nav ul>li {
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+
+  header .container .menu nav ul>li>a {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 1.5rem;
+  }
+
+  /* ///////////////////// Landing Page Tablet /////////////////////// */
+  .page-content {
+    min-height: 1000px;
+  }
+
+  .mainlogo {
+    width: 100%;
+    padding-top: 10rem;
+  }
+
+  .playbtn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 15px;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
-  
+
   /* ///////////////////// Background / Creation Tablet /////////////////////// */
   #bkg {
     padding: 2rem;
@@ -725,132 +762,143 @@ hr {
   .bkgitem2 {
     padding: 0;
   }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Original Assets Tablet /////////////////////// */
+  .assetsgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+
+  .assetsheader {
+    font-size: 30px;
+  }
+
+  #assets {
+    padding: 2rem;
+    min-height: 540px;
+  }
+
+  .fotorama {
+    width: 100%;
+  }
+
+  .fotorama__wrap {
+    margin: 0 auto;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Footer Tablet /////////////////////// */
+  .footergridcontainer {
+    padding-bottom: 5rem;
+    margin-left: 30vw;
+    margin-right: 30vw;
+  }
+
+  .footeritem {
+    padding: 1rem;
+    font-size: 15px;
+  }
+
+  #footer {
+    min-height: 350px;
+  }
+
+  .footerlogo {
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    padding-top: 3rem;
+  }
+
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  hr {
+    width: 40vw;
+  }
+}
+
 /* ///////////////////// End Section /////////////////////// */
 
-/* ///////////////////// Original Assets Tablet /////////////////////// */
-.assetsgridcontainer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 3rem;
-}
 
-.assetsheader {
-  font-size: 30px;
-}
 
-#assets {
-  padding: 2rem;
-  min-height: 540px;
-}
-
-.fotorama {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-}
-/* ///////////////////// End Section /////////////////////// */
-
- /* ///////////////////// Footer Tablet /////////////////////// */
- .footergridcontainer {
-  padding-bottom: 5rem;
-  margin-left: 30vw;
-  margin-right: 30vw;
-}
-
-.footeritem {
-  padding: 1rem;
-  font-size: 15px;
-}
-
-#footer {
-  min-height: 350px;
-}
-
-.footerlogo {
-  width: 250px;
-  text-align: center;
-  cursor: pointer;
-  padding: 1rem;
-  padding-top: 3rem;
-}
-
-.parallax {
-  background-attachment: scroll;
-}
-
-hr {
-  width: 40vw;
-}
-}
-/* ///////////////////// End Section /////////////////////// */
-
-  
-  
 /* --------------------------DESKTOP STYLES-------------------------------- */
 @media only screen and (min-width: 1040px) {
-    
-    header {
-      height: 5.2rem;
-    }
-    header .container .menu {
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-          grid-template-columns: 4rem auto;
-          grid-template-columns: 4rem auto max-content;
-          grid-template-rows: 1fr;
-      height: 5rem;
-      padding: 0 1.5rem;
-      -webkit-transition: none;
-      transition: none;
-    }
-    header .container .menu nav {
-      grid-area: 1/2/2/3;
-      padding: 1rem;
-    }
-    header .container .menu div.buttons {
-      grid-area: 1/3/2/4;
-    }
-    header .container .menu div.buttons > * {
-      min-width: -webkit-max-content;
-      min-width: -moz-max-content;
-      min-width: max-content;
-    }
-    header .container .menu nav ul {
-      -webkit-box-align: start;
-              align-items: flex-start;
-      -webkit-box-pack: end;
-              justify-content: flex-end;
-      height: 100%;
-      width: 100%;
-    }
-    header .container .menu nav ul > li {
-      -webkit-box-flex: 0;
-              flex: 0;
-    }
-    header .container .menu nav ul > li > a {
-      width: max-content;
-      padding: 1.25rem 1.5rem;
-    }
 
-     /* ///////////////////// Landing Page Desktop /////////////////////// */
+  header {
+    height: 5.2rem;
+  }
+
+  header .container .menu {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    grid-template-columns: 4rem auto;
+    grid-template-columns: 4rem auto max-content;
+    grid-template-rows: 1fr;
+    height: 5rem;
+    padding: 0 1.5rem;
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  header .container .menu nav {
+    grid-area: 1/2/2/3;
+    padding: 1rem;
+  }
+
+  header .container .menu div.buttons {
+    grid-area: 1/3/2/4;
+  }
+
+  header .container .menu div.buttons>* {
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
+    min-width: max-content;
+  }
+
+  header .container .menu nav ul {
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+  }
+
+  header .container .menu nav ul>li {
+    -webkit-box-flex: 0;
+    flex: 0;
+  }
+
+  header .container .menu nav ul>li>a {
+    width: max-content;
+    padding: 1.25rem 1.5rem;
+  }
+
+  /* ///////////////////// Landing Page Desktop /////////////////////// */
   .mainlogo {
     width: 1000px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .page-content {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     min-height: 1080px;
     margin: 0 auto;
     padding: 1rem 1.5rem;
     position: relative;
     background-color: white;
   }
-  
+
   .page-content h1 {
     margin-top: 1.5rem;
     font-size: 3.25rem;
@@ -858,28 +906,46 @@ hr {
     word-break: break-all;
     text-align: center;
   }
-  
+
   .page-content h2 {
     margin-top: 1.5rem;
     font-size: 1.75rem;
     font-weight: 500;
     word-break: break-all;
   }
-  
+
   .page-content p {
     margin-top: 0.75rem;
     line-height: 1.25rem;
     text-align: center;
   }
+
+  .playbtn {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 0 auto;
+    padding: 2rem 3rem 2rem 3rem;
+    background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
+    display: grid;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .playbtn:hover {
+    background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
+    cursor: pointer;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Background / Creation Desktop /////////////////////// */
   #bkg {
     background-color: #434A52;
     min-height: 1080px;
-      margin: 0 auto;
-      padding: 5rem;
-      position: relative;
+    margin: 0 auto;
+    padding: 5rem;
+    position: relative;
   }
 
   .bkgheader {
@@ -888,108 +954,112 @@ hr {
     font-size: 40px;
     padding-bottom: 100px;
   }
-  
+
   .bkglogo {
     width: 20vw;
     text-align: center;
   }
-  
+
   .bkggridcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
   }
-  
+
   .bkgitem {
     background: white;
     border: 10px solid #69B7AE;
     text-align: center;
   }
-  
+
   .bkgitem2 {
     color: white;
     font-size: 20px;
     padding: 7rem;
     text-align: left;
   }
+
   /* ///////////////////// End Section /////////////////////// */
-  
+
   /* ///////////////////// Original Assets Desktop /////////////////////// */
- #assets {
-      min-height: 1000px;
-      margin: 0 auto;
-      padding-left: 10rem;
-      padding-right: 10rem;
-      position: relative;
-      background-color: #5A7C7C;
+  #assets {
+    min-height: 1000px;
+    margin: 0 auto;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding: 5rem;
+    position: relative;
+    background-color: #5A7C7C;
   }
 
-.fotorama {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  .fotorama {
+    width: 100%;
   }
 
-.assetsheader {
-  color: white;
-  text-align: center;
-  font-size: 40px;
-  padding-bottom: 100px;
-}
+  .assetsheader {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 100px;
+  }
 
-.assetsgridcontainer {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 100%;
-}
+  .assetsgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .fotorama__wrap {
+    margin: 0 auto;
+  }
 
 
-/* ///////////////////// End Section /////////////////////// */
+  /* ///////////////////// End Section /////////////////////// */
 
- /* ///////////////////// Play Game Desktop /////////////////////// */
-.parallax {
-  background-image: url("/img/starpattern.png");
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-  padding: 15rem;
-  background-color: #151E24;
-}
+  /* ///////////////////// Play Game Desktop /////////////////////// */
+  .parallax {
+    background-image: url("/img/starpattern.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 15rem;
+    background-color: #151E24;
+  }
 
-/* ///////////////////// End Section /////////////////////// */
+  /* ///////////////////// End Section /////////////////////// */
 
-/* ///////////////////// Footer Desktop /////////////////////// */
-#footer {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  min-height: 400px;
-  margin: 0 auto;
-  position: relative;
-  background-color: #434A52;
-  text-align: center;
-}
+  /* ///////////////////// Footer Desktop /////////////////////// */
+  #footer {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #434A52;
+    text-align: center;
+  }
 
-.footerlogo {
-  width: 300px;
-  text-align: center;
-  cursor: pointer;
-  padding: 1rem;
-  padding-top: 3rem;
-}
+  .footerlogo {
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    padding-top: 3rem;
+  }
 
-.footergridcontainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  padding-bottom: 5rem;
-  margin-left: 30vw;
-  margin-right: 30vw;
-}
+  .footergridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding-bottom: 5rem;
+    margin-left: 30vw;
+    margin-right: 30vw;
+  }
 
-.footeritem {
+  .footeritem {
     padding: 1rem;
     font-size: 20px;
     text-align: center;
@@ -1015,18 +1085,18 @@ hr {
   }
 
   .socialitem {
-  width: 2rem;
-  text-align: center;
+    width: 2rem;
+    text-align: center;
   }
 
   .socialitem:hover {
     opacity: 0.5;
     cursor: pointer;
-    }
-    
-    hr {
-      width: 40vw;
-    }
-
-/* ///////////////////// End Section /////////////////////// */
   }
+
+  hr {
+    width: 40vw;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+}
