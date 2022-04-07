@@ -266,6 +266,13 @@ header .container .menu div.buttons>* {
   cursor: pointer;
 }
 
+.landingheader {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20rem;
+  letter-spacing: 20px;
+}
+
 /* ///////////////////// End Section /////////////////////// */
 
 /* ///////////////////// Characters Section /////////////////////// */
@@ -281,7 +288,9 @@ header .container .menu div.buttons>* {
   color: white;
   text-align: center;
   font-size: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
 
 .chgridcontainer {
@@ -323,6 +332,13 @@ header .container .menu div.buttons>* {
 
 .chname {
   color: white;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.shname {
+  color: black;
   font-size: 28px;
   text-align: center;
   margin-top: 1rem;

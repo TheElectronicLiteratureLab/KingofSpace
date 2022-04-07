@@ -267,6 +267,13 @@ header .container .menu div.buttons>* {
   cursor: pointer;
 }
 
+.landingheader {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20rem;
+  letter-spacing: 20px;
+}
+
 /* ///////////////////// End Section /////////////////////// */
 
 /* ///////////////////// Background / Creation Section /////////////////////// */
@@ -328,7 +335,7 @@ header .container .menu div.buttons>* {
 .assetsheader {
   color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   padding-bottom: 100px;
   font-weight: 500;
   letter-spacing: 3px;
@@ -501,9 +508,10 @@ footer {
 
   .fotorama {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
+  }
+
+  .fotorama__wrap {
+    margin: 0 auto;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -555,6 +563,11 @@ footer {
     padding-top: 10rem;
   }
 
+  .playbtn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 15px;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Background / Creation Mobile (L) /////////////////////// */
@@ -595,9 +608,10 @@ footer {
 
   .fotorama {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
+  }
+
+  .fotorama__wrap {
+    margin: 0 auto;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -769,9 +783,10 @@ footer {
 
   .fotorama {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
+  }
+
+  .fotorama__wrap {
+    margin: 0 auto;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -905,6 +920,23 @@ footer {
     text-align: center;
   }
 
+  .playbtn {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 0 auto;
+    padding: 2rem 3rem 2rem 3rem;
+    background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
+    display: grid;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .playbtn:hover {
+    background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
+    cursor: pointer;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Background / Creation Desktop /////////////////////// */
@@ -955,14 +987,13 @@ footer {
     margin: 0 auto;
     padding-left: 10rem;
     padding-right: 10rem;
+    padding: 5rem;
     position: relative;
     background-color: #5A7C7C;
   }
 
   .fotorama {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
   }
 
   .assetsheader {
@@ -976,6 +1007,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
+  }
+
+  .fotorama__wrap {
+    margin: 0 auto;
   }
 
 

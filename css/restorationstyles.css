@@ -266,6 +266,13 @@ header .container .menu div.buttons>* {
   cursor: pointer;
 }
 
+.landingheader {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20rem;
+  letter-spacing: 20px;
+}
+
 /* ///////////////////// End Section /////////////////////// */
 
 

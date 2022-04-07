@@ -266,6 +266,13 @@ header .container .menu div.buttons>* {
   cursor: pointer;
 }
 
+.landingheader {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20rem;
+  letter-spacing: 20px;
+}
+
 /* ///////////////////// End Section /////////////////////// */
 
 /* ///////////////////// About the Game Section /////////////////////// */
@@ -304,6 +311,10 @@ header .container .menu div.buttons>* {
   line-height: 30px;
 }
 
+em {
+  font-style: italic;
+}
+
 .sarahimg {
   max-width: 100%;
   max-height: 100%;
@@ -312,11 +323,7 @@ header .container .menu div.buttons>* {
   overflow: hidden;
 }
 
-.trailer {
-  width: 100%;
-  height: 100%;
-  min-height: 500px;
-}
+
 
 /* ///////////////////// End Section /////////////////////// */
 
@@ -334,7 +341,8 @@ header .container .menu div.buttons>* {
   text-align: center;
   font-size: 40px;
   padding-bottom: 100px;
-  font-weight: bold;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
 
 .awgridcontainer {
@@ -384,15 +392,11 @@ header .container .menu div.buttons>* {
   text-align: center;
   font-size: 40px;
   padding-bottom: 100px;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
 
 .owgridcontainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3rem;
-}
-
-.owgridcontainer2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 3rem;
@@ -419,7 +423,7 @@ header .container .menu div.buttons>* {
 
 /* ///////////////////// End Section /////////////////////// */
 
-/* ///////////////////// KoS Origin Info /////////////////////// */
+/* ///////////////////// KOS Origin Info /////////////////////// */
 #origin {
   background-color: #5A7C7C;
   min-height: 1080px;
@@ -460,6 +464,7 @@ header .container .menu div.buttons>* {
   font-size: 20px;
   padding: 7rem;
   text-align: left;
+  line-height: 30px;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -601,7 +606,7 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// New Features Mobile (S) /////////////////////// */
+  /* ///////////////////// Awards Mobile (S) /////////////////////// */
   .awgridcontainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -615,7 +620,7 @@ footer {
   }
 
   .awheader {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   #awards {
@@ -624,70 +629,30 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// Restoration Teams Mobile (S) /////////////////////// */
-  .restgridcontainer {
-    display: grid;
+  /* ///////////////////// Other Works Mobile (S) /////////////////////// */
+  .owheader {
+    font-size: 30px;
+  }
+
+  .owgridcontainer {
     grid-template-columns: 1fr;
-    grid-gap: 3rem;
   }
 
-  .restheader {
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    padding-bottom: 80px;
-    font-weight: 500;
-    letter-spacing: 3px;
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// KOS Origin Mobile (S) /////////////////////// */
+  .ognheader {
+    font-size: 30px;
   }
 
-  #rest {
-    min-height: 540px;
+  .ogngridcontainer {
+    grid-template-columns: 1fr;
   }
 
-  .teamimgs {
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: bottom;
-    border: 10px solid #69B7AE;
-    transform: scale(1);
-    opacity: 1;
-    transition: opacity 0.4s, transform 0.4s;
-    overflow: hidden;
+  .ognitem2 {
+    padding: 0;
   }
-
-  .teamimgs:hover {
-    transform: scale(0.9);
-    opacity: 0.7;
-  }
-
-  .img_wrap {
-    position: relative;
-  }
-
-  .teamimg_description {
-    position: absolute;
-    top: 50%;
-    left: 52%;
-    background: #5A7C7C;
-    color: white;
-    visibility: visible;
-    opacity: 1;
-    transition: opacity .2s, visibility .2s;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 5px;
-    font-size: 25px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-shadow: 2px 2px black;
-  }
-
-  .img_wrap:hover .teamimg_description {
-    visibility: visible;
-    opacity: 1;
-  }
-
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -768,7 +733,7 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// New Features Mobile (L) /////////////////////// */
+  /* ///////////////////// Awards Mobile (L) /////////////////////// */
   .awgridcontainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -791,71 +756,29 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// Restoration Teams Mobile (L) /////////////////////// */
-  .restgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  }
-
-  .restheader {
-    color: white;
-    text-align: center;
+  /* ///////////////////// Other Works Mobile (L) /////////////////////// */
+  .owheader {
     font-size: 30px;
   }
 
-  .teamimgs {
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: bottom;
-    border: 10px solid #69B7AE;
-    transform: scale(1);
-    opacity: 1;
-    transition: opacity 0.4s, transform 0.4s;
-    overflow: hidden;
+  .owgridcontainer {
+    grid-template-columns: 1fr;
   }
 
-  .teamimgs:hover {
-    transform: scale(0.9);
-    opacity: 0.7;
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// KOS Origin Mobile (L) /////////////////////// */
+  .ognheader {
+    font-size: 30px;
   }
 
-  .img_wrap {
-    position: relative;
+  .ogngridcontainer {
+    grid-template-columns: 1fr;
   }
 
-  .teamimg_description {
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    background: #5A7C7C;
-    color: white;
-    visibility: visible;
-    opacity: 1;
-    transition: opacity .2s, visibility .2s;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 5px;
-    font-size: 25px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-shadow: 2px 2px black;
+  .ognitem2 {
+    padding: 0;
   }
-
-  .img_wrap:hover .teamimg_description {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .restitem {
-    border: 10px solid #69B7AE;
-  }
-
-  #rest {
-    min-height: 540px;
-  }
-
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -1010,14 +933,8 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// New Features Tablet /////////////////////// */
+  /* ///////////////////// Awards Tablet /////////////////////// */
   .awgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
-  }
-
-  .awgridcontainer2 {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
@@ -1033,71 +950,30 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// Restoration Teams Tablet /////////////////////// */
-  .restgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  }
-
-  .restheader {
-    color: white;
-    text-align: center;
+  /* ///////////////////// Other Works Tablet /////////////////////// */
+  .owheader {
     font-size: 30px;
   }
 
-  .teamimgs {
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: bottom;
-    border: 10px solid #69B7AE;
-    transform: scale(1);
-    opacity: 1;
-    transition: opacity 0.4s, transform 0.4s;
-    overflow: hidden;
+  .owgridcontainer {
+    grid-template-columns: 1fr;
   }
 
-  .teamimgs:hover {
-    transform: scale(0.9);
-    opacity: 0.7;
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// KOS Origin Tablet /////////////////////// */
+  .ognheader {
+    font-size: 30px;
   }
 
-  .img_wrap {
-    position: relative;
+  .ogngridcontainer {
+    grid-template-columns: 1fr;
   }
 
-  .teamimg_description {
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    background: #5A7C7C;
-    color: white;
-    visibility: visible;
-    opacity: 1;
-    transition: opacity .2s, visibility .2s;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 5px;
-    font-size: 25px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-shadow: 2px 2px black;
+  .ognitem2 {
+    padding: 0;
   }
-
-  .img_wrap:hover .teamimg_description {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .restitem {
-    border: 10px solid #69B7AE;
-  }
-
-  #rest {
-    min-height: 540px;
-  }
-
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -1290,7 +1166,7 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// New Features Desktop /////////////////////// */
+  /* ///////////////////// Awards Desktop /////////////////////// */
   #awards {
     min-height: 540px;
     margin: 0 auto;
@@ -1339,8 +1215,9 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// Restoration Teams Desktop /////////////////////// */
-  #rest {
+  /* ///////////////////// Other Works Desktop /////////////////////// */
+
+  #otherworks {
     min-height: 540px;
     margin: 0 auto;
     padding: 5rem;
@@ -1348,63 +1225,84 @@ footer {
     background-color: #434A52;
   }
 
-  .restgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 3rem;
-  }
-
-  .teamimgs {
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: bottom;
-    border: 10px solid #69B7AE;
-    transform: scale(1);
-    opacity: 1;
-    transition: opacity 0.4s, transform 0.4s;
-    overflow: hidden;
-  }
-
-  .teamimgs:hover {
-    transform: scale(0.9);
-    opacity: 0.7;
-  }
-
-  .img_wrap {
-    position: relative;
-  }
-
-  .teamimg_description {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background: #5A7C7C;
-    color: white;
-    visibility: visible;
-    opacity: 1;
-    transition: opacity .2s, visibility .2s;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 5px;
-    font-size: 25px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-shadow: 2px 2px black;
-  }
-
-  .img_wrap:hover .teamimg_description {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .restheader {
+  .owheader {
     color: white;
     text-align: center;
     font-size: 40px;
     padding-bottom: 100px;
     font-weight: 500;
     letter-spacing: 3px;
+  }
+
+  .owgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 3rem;
+  }
+
+  .owitem {
+    background: white;
+    border: 10px solid #434A52;
+    color: black;
+    padding: 2rem;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .owitem2 {
+    background: white;
+    border: 10px solid #69B7AE;
+    color: black;
+    padding: 2rem;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// KOS Origin Desktop /////////////////////// */
+  #origin {
+    background-color: #5A7C7C;
+    min-height: 1080px;
+    margin: 0 auto;
+    padding: 5rem;
+    position: relative;
+  }
+
+  .ognheader {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 100px;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+
+  .ognlogo {
+    width: 20vw;
+    text-align: center;
+  }
+
+  .ogngridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding-top: 0rem;
+  }
+
+  .ognitem {
+    background: white;
+    border: 10px solid #434A52;
+    text-align: center;
+  }
+
+  .ognitem2 {
+    color: white;
+    font-size: 20px;
+    padding: 7rem;
+    text-align: left;
+    line-height: 30px;
   }
 
   /* ///////////////////// End Section /////////////////////// */
