@@ -467,10 +467,14 @@ a{
 }
 
 .character-info{
-  margin-top:20px;
+  margin-top:40px;
   display:grid;
   grid-template-columns: 1fr 1fr;
-  gap:15px;
+  gap:10px;
+}
+
+.character-description{
+  max-width: 55ch;
 }
 
 .character-description{
@@ -478,7 +482,8 @@ a{
 }
 
 .character-container{
-  max-width:550px;
+  margin:auto;
+  max-width:300px;
 }
 
 #nii, #brady, #aster{

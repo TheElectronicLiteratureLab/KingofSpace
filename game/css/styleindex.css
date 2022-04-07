@@ -416,6 +416,7 @@ font-size: 16px;
   font-size: 18px;
   color: #D6DCD5;
   line-height: 1.7;
+  max-width: 65ch;
 }
 
 .rectanglelargeblack { /*--- removed float and relative positioning, changed margin to auto, dropped opacity a bit*/
