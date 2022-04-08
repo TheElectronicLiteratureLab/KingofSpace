@@ -88,8 +88,6 @@ function onstart(){
 
 		//console.log ("made it to while loop");
 		switch(current){
-
-		
 			case 7 : 
 				// print out array 
 
