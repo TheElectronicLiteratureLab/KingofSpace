@@ -222,7 +222,7 @@ header .container .menu div.buttons>* {
 .page-content {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  min-height: 1080px;
+  min-height: 1000px;
   margin: 0 auto;
   padding: 1rem 1.5rem;
   position: relative;
@@ -712,6 +712,10 @@ footer {
     padding: 2rem;
   }
 
+  .teamswrapper {
+    width: 60%;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Footer Mobile (S) /////////////////////// */
@@ -824,6 +828,10 @@ footer {
     padding: 2rem;
   }
 
+  .teamswrapper {
+    width: 60%;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Footer Mobile (L) /////////////////////// */
@@ -865,7 +873,7 @@ footer {
 @media only screen and (min-width: 800px) {
 
   header {
-    height: 8.5rem;
+    height: 9rem;
   }
 
   header .container {
@@ -890,7 +898,7 @@ footer {
     display: grid;
     grid-template-columns: auto -webkit-max-content;
     grid-template-columns: auto max-content;
-    grid-template-rows: 4.5rem 3rem;
+    grid-template-rows: 5rem 3rem;
     background: none;
     -webkit-transition: none;
     transition: none;
@@ -957,6 +965,7 @@ footer {
   }
 
   /* ///////////////////// End Section /////////////////////// */
+
 
   /* ///////////////////// Footer Tablet /////////////////////// */
   .footergridcontainer {
@@ -1058,7 +1067,7 @@ footer {
   .page-content {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    min-height: 1080px;
+    min-height: 1000px;
     margin: 0 auto;
     padding: 1rem 1.5rem;
     position: relative;
@@ -1207,7 +1216,7 @@ footer {
     padding: 5rem;
     position: relative;
     background-color: #434A52;
-    width: 60%;
+    width: 70%;
   }
 
   .teamsheader {
