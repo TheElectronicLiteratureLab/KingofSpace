@@ -259,6 +259,10 @@ a{
 
 /*Main Game Page Desktop Styles*/
 #title-page{
+  background-image: url(../img/Title-Screen-BG.png);
+  background-position:bottom;
+  background-size:100%;
+  background-repeat:no-repeat;
   min-height: 100%;
   min-width: 100%;
     
@@ -314,7 +318,12 @@ a{
   .primary-button{
   font-size: 15px;
   }
+  #title-page{
+    background-position:bottom;
+    background-size:100%;
+  }  
 }
+
 
 /*///////////////// Game Only Styles ///////////////////*/
 

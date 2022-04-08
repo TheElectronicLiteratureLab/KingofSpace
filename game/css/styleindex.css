@@ -3,7 +3,7 @@ body  {
   margin: 0%;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
-  background-image:url(../img/Asset\ 13.png);
+  background-image:url(../img/maingame-starbackground.png);
 
   background-repeat:no-repeat;
   background-position: bottom;
@@ -407,13 +407,13 @@ font-size: 16px;
 	background-size: 100%;
 	background-repeat: no-repeat;
   margin: 50px auto;
-  width: 1000px;
+  max-width: 1000px;
   height: 600px;
 }
 
 #mainstory p{
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #D6DCD5;
   line-height: 1.7;
   max-width: 65ch;
@@ -434,6 +434,57 @@ font-size: 16px;
   margin: auto;
   padding-top:30px;
   align-content: center;
+  max-width: 65ch;
+}
+
+/*////////////////////Tablet Main Story Styles//////////*/
+
+@media only screen and (max-width: 1001px) and (min-width: 601px){
+  .rectanglelargeblack {
+    padding: 30px;
+  }
+  #mainstory p{
+    font-size: 18px;
+  }
+  #Next{
+    position: fixed;
+    bottom:125px;
+    left:75%;
+    height: 25px;
+    width: 100px;
+    background: none;
+    background-image: url(../img/arrow.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 5px #78CBC4);
+    cursor: pointer;	
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .rectanglelargeblack {
+    padding: 15px;
+  }
+  #mainstory p{
+    font-size: 16px;
+  }
+  #Next{
+    position: fixed;
+    bottom:100px;
+    left:75%;
+    height: 25px;
+    width: 100px;
+    background: none;
+    background-image: url(../img/arrow.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 5px #78CBC4);
+    cursor: pointer;	
+  }
 }
 
 /* radar puzzle  css   */
