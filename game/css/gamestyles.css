@@ -680,7 +680,7 @@ a{
 
 .location-info{
   margin-top:20px;
-  display:grid;
+  display:left;
   grid-template-columns: 1fr 1fr;
   gap:15px;
 }
@@ -689,7 +689,7 @@ a{
   max-width:550px;
 }
 
-#lifeship{
+#lifeship,#greatship{
   display:none;
 }
 
@@ -721,3 +721,19 @@ a{
     background-size: 100px;
   }
 }
+/*///////////// locaton mobile styles////////////// */
+@media only screen and (max-width: 600px){
+  .location-button{
+    width: 75px;
+    height:75px;
+  }
+
+  .location-info{
+    grid-template-columns:1fr;
+  }
+
+  #greatship-button, #lifeship-button{
+    background-size: 100px;
+  }
+}
+
