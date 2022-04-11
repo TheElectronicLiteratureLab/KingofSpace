@@ -11,16 +11,27 @@
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+  background-image: url("img/highscore.png");
+  background-repeat: no-repeat;
+  bottom: 160px;
+  position: absolute;
 }
 
 .right-column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: absolute;
+  left: 500px;
 }
 
 .game-board {
-  border: solid 2px;
+
+  /*background-image: url("img/background.png");
+  background-size: cover;*/
+  left: 50px;
+  position: absolute;
+  
 }
 
 .play-button {
@@ -30,10 +41,3 @@
   cursor: pointer;
 }
 
-img {
-  position: fixed;
-  width: 490;
-  height: 470;
-  top: 480px;
-  left: 170px;
-}
