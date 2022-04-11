@@ -32,11 +32,9 @@ function teaDirections(){
     let hideMenu = document.getElementById("menu");
     let hideButtons = document.getElementById("kitchen-buttons");
 
-    wrapper2.innerHTML = "<section id=\"tea-directions\"><p>To make tea:</p><ol><li>Find the teakettle in the closet.</li><li>Fill teakettle with water.<br>(Kettle will automatically add tea.)</li><li>Put kettle on stove.<br>(Burner will automatically light.)</li><li>Wait until water boils.</li><li>Serve.</li></ol></section>";
+    wrapper2.innerHTML = "<section id=\"tea-directions\"><p>To make tea:</p><ol><li>Find the teakettle in the closet.</li><li>Fill teakettle with water.<br>(Kettle will automatically add tea.)</li><li>Put kettle on stove.<br>(Burner will automatically light.)</li><li>Wait until water boils.</li><li>Serve.</li></ol><button id=\"makeTea-continue\" onclick=\"checkTea();\">Continue</button></section>";
 
     wrapper2.innerHTML += "<section id=\"kitchen-closet\" class=\"grid-container\"><div class=\"grid-item\">1</div><div class=\"grid-item\">2</div><div class=\"grid-item\">3</div><div class=\"grid-item\">4</div><div id=\"found-teaKettle\" class=\"grid-item\" onclick=\"foundTea();\">5</div><div class=\"grid-item\">6</div><div class=\"grid-item\">7</div><div class=\"grid-item\">8</div></section>";
-
-    wrapper2.innerHTML += "<button id=\"makeTea-continue\" onclick=\"checkTea();\">Continue</button>";
 }
 
 //bring kettle to faucet option
@@ -245,19 +243,19 @@ function teaReady(){
 }
 
 function grabKettle(){
-    wrapper2.innerHTML = "<p>There's hot steam toward the ceiling, hot rain at waist level, and pools of hot water down by the floor.</p><p>Tam grabs the kettle and runs for the exit, splashing hot water at every step.</p><br><button id=\"ouch-ouch\" onclick=\"leaveKitchen();\">Ouch ouch ouch</button>";
+    wrapper2.innerHTML = "<p>There's hot steam toward the ceiling, hot rain at waist level, and pools of hot water down by the floor.</p><p>Tam grabs the kettle and runs for the exit, splashing hot water at every step.</p><br><button id=\"ouch-ouch\" onclick=\"hide('myModal7'); story('next');\">Ouch ouch ouch</button>";
 }
 
-function leaveKitchen(){
-    wrapper2.innerHTML = "<p>With tea in cup and sandwicch in plastic wrap, Tam gets out of the kitchen into the corridor. The red flickering lights have gone away. . .</p><p>Of course. King Brady told the ship to show him the way to the kitchen. It didn't say to show him the way back.</p>";
+// function leaveKitchen(){
+//     wrapper2.innerHTML = "<p>With tea in cup and sandwicch in plastic wrap, Tam gets out of the kitchen into the corridor. The red flickering lights have gone away. . .</p><p>Of course. King Brady told the ship to show him the way to the kitchen. It didn't say to show him the way back.</p>";
 
-    wrapper2.innerHTML += "<button id=\"leave-kitchen\" onclick=\"enterHorizator();\">Continue</button>";
-}
+//     wrapper2.innerHTML += "<button id=\"leave-kitchen\" onclick=\"enterHorizator();\">Continue</button>";
+// }
 
-function enterHorizator(){
-    wrapper2.innerHTML = "<p>For once the horizator has nothing to say.</p><p>Tam sets down tea and cucumber sandwich, then reaches out to select the button for the Great Hall.</p><p>At that moment he catches sight of himself reflected in the horizator's walls.</p>";
+// function enterHorizator(){
+//     wrapper2.innerHTML = "<p>For once the horizator has nothing to say.</p><p>Tam sets down tea and cucumber sandwich, then reaches out to select the button for the Great Hall.</p><p>At that moment he catches sight of himself reflected in the horizator's walls.</p>";
 
-    wrapper2.innerHTML += "<button id=\"enter-horizator\">Continue</button>";
-}
+//     wrapper2.innerHTML += "<button id=\"enter-horizator\">Continue</button>";
+// }
 
 //Are we back in the main story? We can have the last button take us back to the main game to the right spot in the array.
