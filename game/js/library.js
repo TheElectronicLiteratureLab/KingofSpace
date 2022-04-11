@@ -1,5 +1,4 @@
-function Lhide(button) {
-		var temp = button;
+function Lhide(temp) {
 	  var x = document.getElementById(temp);
 	  if (x.style.display === "none") {
 	    x.style.display = "block";
