@@ -73,7 +73,6 @@ function story(temp) {
 	
 		//console.log ("made it to while loop");
 		switch(current){
-
 			case 7 : 
 				// print out array 
 
@@ -1182,7 +1181,7 @@ function story(temp) {
 			case 323:
 
 				hide('choiceone');
-				document.getElementById('choiceone').innerHTML = `Acnologments`;
+				document.getElementById('choiceone').innerHTML = `Acknowledgments`;
 
 				current++;
 				break;

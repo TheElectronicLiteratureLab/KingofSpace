@@ -4,33 +4,25 @@
  //   Your browser does not support HTML video.
 //</video>
 
-/*function hide(button) {
-		var temp = button;
-	  var x = document.getElementById(temp);
-	  if (x.style.display === "none") {
-	    x.style.display = "block";
-	  } else {
-	    x.style.display = "none";
-	  }
-	}*/
 
 	let curr = 0;
 
 	function horizatorstart(){
-		//hide('choiseone');
-		//hide('choisetwo');
+		
 		// doors close 
 		var myVideo = document.getElementById("video1"); 
-
-		myVideo.play();
+		setTimeout(()=>{myVideo.play(); }, 5000);
+		//myVideo.play();
 		//next 
 		console.log("played video");
 		//hide('video1');
 
 	}
 	let choosearray = Math.floor(Math.random()*2);
-	function  horzator(){
 
+
+	function  horzator(){
+	//hide('video1');
 	//console.log(`${current}`);
 	
 	
@@ -63,7 +55,7 @@
 			
 		
 	if(curr === 0){
-			hide('video1');
+			//hide('video1');
 			document.getElementById('playboxmain-horizator').innerHTML = `  ${arrayone[curr]} `;
 		curr++;
 
@@ -84,8 +76,8 @@
 
 		if (choosearray === 1){
 			if(current === 0){
-			hide('video1');
-			document.getElementById('playboxmain').innerHTML = `  ${arraytwo[curr]} `;
+			//hide('video1');
+			document.getElementById('playboxmain-horizator').innerHTML = `  ${arraytwo[curr]} `;
 		curr++;
 
 		}
@@ -106,6 +98,7 @@
 	}
 
 	function horizatorsend(){
+		hide('video1');
 		var myVideo = document.getElementById("video1"); 
 
 		myVideo.play();
@@ -113,7 +106,7 @@
 		console.log("played video");
 		hide('Next')
 
-		setTimeout(()=>{hide('myModal4'); story('next');}, 5000);
+		//setTimeout(()=>{hide('myModal4'); }, 5000);
 
 
 
