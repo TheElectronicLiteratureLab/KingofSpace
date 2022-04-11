@@ -776,6 +776,9 @@ font-size: 20px;
 
 /* story css */
 
+
+
+
 /* Library */
 
 /* body  {
@@ -794,6 +797,17 @@ font-size: 20px;
 #mainstorylib{
 	background-size: 100%;
 	background-repeat: no-repeat;
+  text-align: center;
+}
+
+#playboxmain-horizator{
+  position: absolute;
+top: 20%;
+right: 30%;
+width: 50%;
+  text-align: left;
+  float: right;
+  font-size: 20px;
 }
 
 /* Library */
