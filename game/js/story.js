@@ -1,23 +1,18 @@
 //story 
 
 //  JavaScript start here
+let wrapper = document.getElementById('wrapper');
+let boxmain = document.getElementById('mainstory');
+//box.style.backgroundImage = "url(radar1.jpg)";
 
-	
+let current = 0;
 
-
-	let wrapper = document.getElementById('wrapper');
-	let boxmain = document.getElementById('mainstory');
-	//box.style.backgroundImage =  "url(radar1.jpg)";
-	
-	let current = 0;
-
-	window.onload = playGame();
-
+window.onload = playGame();
 	
 function onstart(){
 	console.log('it got here onstart');
 
-  	hide('choiceone');
+	hide('choiceone');
 	hide('choicetwo');
 	hide('choicethree');
 	hide('choicefour');
@@ -32,9 +27,6 @@ function onstart(){
     hide('myBtn6'); // troop
     hide('myBtn7');	// kitchen 
 	hide('Next');
-	
-
-
 }
 
 	//function playAudio(){
@@ -53,39 +45,32 @@ function onstart(){
 	  }
 	}*/
 
-	function playGame(){
-		//window.location.assign("index.html");
-		getstory(current);
-		hide('Next');
-	}
-
-	
-
+function playGame(){
+	//window.location.assign("index.html");
+	getstory(current);
+	//hide('Next');
+}
 
 // need to change to if statements 
 	//hide('choiceone');
 	//hide('choicetwo');
 
- function story(button) {
+console.log(story('next'));
+
+function story(temp) {
 	
-	var temp = button;
-	//console.log(temp);
+	//let temp = button;
+	console.log(temp);
 	
 	getstory(current);
 
-	
 	var x = document.getElementById('mainstory');
-
-
 
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
 	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'three'|| temp === 'four' ){
 		//console.log('im here in next')
-		
 	
-		
-
 		//console.log ("made it to while loop");
 		switch(current){
 
@@ -108,7 +93,7 @@ function onstart(){
 				//miniGame("radar");
 
 				//window.onclick = hide('myBtn');
-				 current ++;
+				current ++;
 
 				break; 
 			case 8:
@@ -125,7 +110,6 @@ function onstart(){
 				// unhide choise buttons 
 				// hide next 
 				hide('Next');
-				
 				hide('choiceone');
 				hide('choicetwo');
 				document.getElementById('choiceone').innerHTML = `Tam Rosse brings his ship in to Synchronized orbit with the Lifeship `
@@ -133,31 +117,27 @@ function onstart(){
 
 				if(temp === 'one'){
 
-					
-
 					current = 14;// Life ship
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				else if(temp === 'two'){
 					
-
 					current = 207 ; // Great ship 
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
-				 break;
+				break;
 			case 15:
-						x.style.backgroundImage= "url(img/TamencountersAster.png)" ;
-						
-						current++;
-					break;
+				x.style.backgroundImage= "url(img/TamencountersAster.png)" ;
+				current++;
+				break;
 			case 16:
 				x.style.backgroundImage = "none";
 				current++;
-					break;
+				break;
 
 			case 21:
 				// unhide choise buttons 
@@ -165,30 +145,23 @@ function onstart(){
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				
 				document.getElementById('choiceone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. `;
 				document.getElementById('choicetwo').innerHTML = ` Maiting with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
 				
 				if(temp === 'one'){
-
-					
-
 					current = 22;// forgets memory 
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 
-				}
-				else if(temp === 'two'){
-					
-
+				} else if(temp === 'two'){
 					current = 70 ; // wake her up with controles  
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 
-
-				 break;
+				break;
 
 			case 69: 
 				current = 323;//an end 
@@ -208,16 +181,15 @@ function onstart(){
 					current = 74;// give seeds
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				else if(temp === 'two'){
-					
-
 					current = 203 ; // not give seeds 
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 break;
+				break;
 
 			case 76:	
 			// unhide choise buttons 
@@ -232,22 +204,19 @@ function onstart(){
 					current = 77;// yes
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				else if(temp === 'two'){
-					
-
 					current = 199 ; // no 
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 break;
-
-
+				break;
 
 			case 79:  
 
-			hide('myBtn2');
+				hide('myBtn2');
 				//window.alert('tiger game');
 				/*if(confirm("do you want to play a mini game? tiger game")){
 					//radarstart()
@@ -259,19 +228,16 @@ function onstart(){
 				//miniGame("slide");
 				// pop up option for mini game 
 				//console.log ("case  15");
-				 current ++;
+				current ++;
 
 				break;
-		case 80:  
+			case 80:  
 
 			hide('myBtn2');
 				
-				 current ++;
+				current ++;
 
 				break;
-
-
-
 
 			case 91:
 				hide('Next');
@@ -284,19 +250,18 @@ function onstart(){
 					current ++; // next
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				else if(temp === 'two'){
-					
 					libraryTwo(14); // favor def. 
-
 					current ++; // Great ship 
 					// print out array
 					//getstory(current);
+					console.log(story('next'));
 				}
-				 break;
+				break;
 
-				 case 98:	
+			case 98:	
 			// unhide choise buttons 
 				// hide next 
 				hide('Next');
@@ -309,20 +274,17 @@ function onstart(){
 					current = 99;// no
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				else if(temp === 'two'){
-					
-
 					current = 199 ; // why not 
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 break;
+				break;
 
-				 
-
-				 case 100:	
+			case 100:	
 			// unhide choise buttons 
 				
 				hide('Next');
@@ -336,21 +298,21 @@ function onstart(){
 					current = 101;//  door one
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'two'){
-					
-
 					current = 102 ; // door two
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'three'){
 					current = 103; // next
 					getstory(current);
+					console.log(story('next'));
 				}
 
-				 break;
+				break;
 
 			case 101:
 
@@ -375,21 +337,21 @@ function onstart(){
 					current = 105;// go left
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'two'){
-					
-
 					current = 161 ; // go right
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'three'){
 					current = 162; // getting thirsty
 					getstory(current);
+					console.log(story('next'));
 				}
 
-				 break;
+				break;
 
 			case 105:
 					// unhide choise buttons 
@@ -407,24 +369,26 @@ function onstart(){
 					current = 106;// horizator
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'two'){ 
 					current = 109 ; // directions
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'three'){
 					current = 110; // help
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'four'){
 					current = 111; // next 
 					getstory(current);
+					console.log(story('next'));
 				}
 
-				 break;
-
+				break;
 
 			case 106:
 	// unhide choise buttons 
@@ -442,23 +406,26 @@ function onstart(){
 					current = 107;// library function 
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'two'){
 					current = 108 ; // Important note
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'three'){
 					current = 105; //Back to horizator
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'four'){
 					current = 108; // next
 					getstory(current);
+					console.log(story('next'));
 				}
 
-				 break;
+				break;
 
 			case 107:
 
@@ -486,7 +453,7 @@ function onstart(){
 				//miniGame("horizator");
 				// pop up option for mini game 
 				//console.log ("case  15");
-				 current ++;
+				current ++;
 
 				break;
 			case 112:
@@ -497,10 +464,9 @@ function onstart(){
 				//miniGame("kitchen");
 				// pop up option for mini game 
 				//console.log ("case  15");
-				 current ++;
+				current ++;
 
 				break;
-
 
 			case 113:
 				//window.alert('kitchen');
@@ -508,11 +474,11 @@ function onstart(){
 				//miniGame("kitchen");
 				// pop up option for mini game 
 				//console.log ("case  15");
-				 current ++;
+				current ++;
 
 				break;
 
-			 case 116:	
+			case 116:	
 			// unhide choise buttons 
 				// hide next 
 				hide('Next');
@@ -525,19 +491,18 @@ function onstart(){
 					current = 117;// Where are Brady and the Priestess? 
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				else if(temp === 'two'){
-					
-
 					current = 153 ; // Great Hall 
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 break;
+				break;
 			
 			case 122:
-			hide('Next');
+				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
 				hide('choicethree');
@@ -558,41 +523,43 @@ function onstart(){
 					current = 123;// The Water Center 
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'two'){
 					current = 124 ; // Drydock
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 if (temp  === 'three'){
+				if (temp  === 'three'){
 					current = 125; // The Exercise Room
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'four'){
 					current = 135;// Great Hall
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'five'){
 					current = 127 ; // central storage 
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 if (temp  === 'six'){
+				if (temp  === 'six'){
 					current = 128; // Central Control
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'seven'){
 					current = 129; // Ask the priestess for help
 					getstory(current);
+					console.log(story('next'));
 				}
 
-
 				break;
-
 
 			case 123:
 
@@ -616,8 +583,8 @@ function onstart(){
 				current = 122;
 				break;
 
-		case 129:
-			hide('Next');
+			case 129:
+				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
 				hide('choicethree');
@@ -636,32 +603,35 @@ function onstart(){
 					current = 130;// The Water Center 
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'two'){
 					current = 131 ; // Drydock
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 if (temp  === 'three'){
+				if (temp  === 'three'){
 					current = 132; // The Exercise Room
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'four'){
 					current = 135;// great hall
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'five'){
 					current = 133 ; // central storage 
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'six'){
 					current = 134; // Central Control
 					getstory(current);
+					console.log(story('next'));
 				}
 				break;
 
@@ -687,21 +657,17 @@ function onstart(){
 				current = 129;
 				break;
 
-
 			case 152:
 				current =  326; //last line.... 
 
 				break;
 
-
-
 			case 160:
 					current = 194
-				 break;
-
+				break;
 
 			case 160:
-				 
+				
 			// unhide choise buttons 
 				
 				hide('Next');
@@ -715,25 +681,25 @@ function onstart(){
 					current = 104;// go left
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'two'){
 					
-
 					current = 160 ; // go right
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'three'){
 					current = 161; // getting thirsty
 					getstory(current);
+					console.log(story('next'));
 				}
 
-				 break;
+				break;
 
-
-				 case 168:
-					// unhide choice buttons 
+				case 168:
+				// unhide choice buttons 
 				
 				hide('Next');
 				hide('choiceone');
@@ -748,27 +714,29 @@ function onstart(){
 					current = 169;// horizator
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'two'){ 
 					current = 172 ; // directions
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'three'){
 					current = 173; // help
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'four'){
 					current = 174; // next 
 					getstory(current);
+					console.log(story('next'));
 				}
 
-				 break;
-
+				break;
 
 			case 169:
-	// unhide choise buttons 
+				// unhide choise buttons 
 				
 				hide('Next');
 				hide('choiceone');
@@ -783,23 +751,26 @@ function onstart(){
 					current = 170;// library function 
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'two'){
 					current = 171 ; // Important note
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'three'){
 					current = 168; //Back to horizator
 					getstory(current);
+					console.log(story('next'));
 				}
 				else if (temp  === 'four'){
 					current = 171; // next
 					getstory(current);
+					console.log(story('next'));
 				}
 
-				 break;
+				break;
 
 			case 170:
 
@@ -819,9 +790,8 @@ function onstart(){
 				current = 168;
 				break;
 
-
-case 177:
-			hide('Next');
+			case 177:
+				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
 				hide('choicethree');
@@ -843,32 +813,35 @@ case 177:
 					current = 178;// The Water Center 
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'two'){
 					current = 179 ; // Drydock
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 if (temp  === 'three'){
+				if (temp  === 'three'){
 					current = 181; // The Exercise Room
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'four'){
 					current = 186;// great hall
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				if(temp === 'five'){
 					current = 182 ; // central storage 
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
 				if (temp  === 'six'){
 					current = 185; // Central Control
 					getstory(current);
+					console.log(story('next'));
 				}
 				if(temp === 'five'){
 					current = 96; // follow brady and aster 
@@ -878,6 +851,7 @@ case 177:
 				else if (temp  === 'six'){
 					current = 112; // getting thursty
 					getstory(current);
+					console.log(story('next'));
 				}
 
 				break;
@@ -917,7 +891,7 @@ case 177:
 					current = 194;// takes
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				else if(temp === 'two'){
 					
@@ -925,8 +899,9 @@ case 177:
 					current = 196 ; // no take
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 break;
+				break;
 
 			case 195:
 					current= 323;  // last line
@@ -940,7 +915,6 @@ case 177:
 					current = 162 ;
 				break;
 
-
 			case 201:
 
 				current = 79 ;
@@ -951,14 +925,13 @@ case 177:
 				current = 79 ;
 				break;
 
-
 			case 209:  
 				//window.alert('tiger game');
 				
 				hide('myBtn2');
 				// pop up option for mini game 
 				//console.log ("case  15");
-				 current ++;
+				current ++;
 
 				break;
 		case 210:  
@@ -967,11 +940,9 @@ case 177:
 				hide('myBtn2');
 				// pop up option for mini game 
 				//console.log ("case  15");
-				 current ++;
+				current ++;
 
 				break;
-
-
 
 			case 211:
 			// unhide choise buttons 
@@ -986,24 +957,20 @@ case 177:
 					current = 212;// life ship 
 					// print out array
 					getstory(current);
-
-				}
-				else if(temp === 'two'){
-					
-
+					console.log(story('next'));
+				} else if(temp === 'two'){
 					current = 213 ; // comm box
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 break;
+				break;
 
 			case 212:
 				current = 211;
-
- 				break;
-
- 			case 241: 
-
+				break;
+			
+			case 241: 
  				// unhide choise buttons 
 				// hide next 
 				hide('Next');
@@ -1018,24 +985,24 @@ case 177:
 					current = 242;// life ship 
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
-				 if(temp === 'two'){
-					
-
+				if(temp === 'two'){
 					current = 243 ; // comm box
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
 
-				if (temp ==='three'){
+				if(temp ==='three'){
 
 					current = 322; // comm box
 
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 break;
+				break;
 				
 			case 242:
 					current = 241;
@@ -1054,16 +1021,15 @@ case 177:
 					current = 258;// life ship 
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				else if(temp === 'two'){
-					
-
 					current = 259 ; // comm box
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 break;
+				break;
 
 				case 258:
 					current = 261;
@@ -1076,7 +1042,7 @@ case 177:
 				 hide('myBtn6'); // troop
 				// pop up option for mini game 
 				console.log ("troop game here");
-				 current ++;
+				current ++;
 
 				break;
 			case 262:  
@@ -1086,11 +1052,9 @@ case 177:
 				 hide('myBtn6'); // troop
 				// pop up option for mini game 
 				//console.log ("case  15");
-				 current ++;
+				current ++;
 
 				break;
-
-
 
 			case 264:
 				// unhide choise buttons 
@@ -1105,7 +1069,7 @@ case 177:
 					current = 265;// no
 					// print out array
 					getstory(current);
-
+					console.log(story('next'));
 				}
 				else if(temp === 'two'){
 					
@@ -1113,8 +1077,9 @@ case 177:
 					current = 280 ; // yes
 					// print out array
 					getstory(current);
+					console.log(story('next'));
 				}
-				 break;
+				break;
 
 			case 278:
 
@@ -1143,7 +1108,7 @@ case 177:
 					getstory(current);
 
 				}
-				 if(temp === 'two'){
+				if(temp === 'two'){
 					
 
 					current = 295 ; // Decontamination Procedures
@@ -1163,7 +1128,7 @@ case 177:
 					// print out array
 					getstory(current);
 				}
-				 break;
+				break;
 
 			case 294:
 				//hide('myBtn5');
@@ -1186,9 +1151,8 @@ case 177:
 			case 294:
 			hide('myBtn5'); //tetris 
 				
-
 				//tetrus
-				 current ++;
+				current ++;
 				break;
 
 			case 311:  
@@ -1198,7 +1162,7 @@ case 177:
 				
 
 				//tetrus
-				 current ++;
+				current ++;
 				break;
 
 			case 312:
@@ -1229,10 +1193,12 @@ case 177:
 				if(confirm("do you want to restart and play again")){// tetrus game
 					current = 0;// states story over. 
 					//txt = "You  pressed Ok!";
+					console.log(story('next'));
 				}
 				else{
 					txt = "You pressed Cancel!";
-					// dose not do anything... rework to main menu 
+					// dose not do anything... rework to main menu
+					console.log(story('next')); 
 				}
 				break;
 
@@ -1240,13 +1206,8 @@ case 177:
 				
 				current++;
 				//print out array
-
-			
 		}
-
-	
-}
+	}
 	//document.getElementById('playbox').innerHTML = `  ${array[current]} `
 	//getstory(current);
-
 }

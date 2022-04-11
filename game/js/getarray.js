@@ -902,8 +902,5 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 "",
 ];
 
-
-
-
 document.getElementById('playboxmain').innerHTML = `  ${story[current]} `
 }
