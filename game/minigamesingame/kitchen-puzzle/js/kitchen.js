@@ -7,10 +7,11 @@ function foundTea(){
     hasTea = true;
 }
 
+//This function is to check whether or not the player has found the teakettle
 function checkTea(){
     if(hasTea == true){ //Tea Kettle image will go in the second section here. id=teaKettle-image
         wrapper2.innerHTML = "<section id=\"menu-2\"><p>Good.</p><ol start=\"2\"><li>Fill teakettle with water.<br>(Kettle will automatically add tea.)</li><li>Put kettle on stove.<br>(Burner will automatically light.)</li><li>Wait until water boils.</li><li>Serve.</li></ol></section><section id=\"teaKettle-image\"></section>";
-        wrapper2.innerHTML += "<button id=\"kettle-faucet\" onclick=\"bringToFaucet();\">Bring teakettle to faucet</button><button id=\"kettle-watercenter\">Fill kettle at Water Center</button><br><button id=\"kettle-hose\">Put hose on faucet</button>";
+        wrapper2.innerHTML += "<button id=\"kettle-faucet\" onclick=\"bringToFaucet();\">Bring teakettle to faucet</button>";
     } else {
         wrapper2.innerHTML = "<section id=\"tea-warning\"><p>First find the teakettle.<p><section>";
         wrapper2.innerHTML += "<button id=\"kitchen-back\" onclick=\"teaDirections();\">Back</button>";
@@ -20,7 +21,7 @@ function checkTea(){
 //kitchen menu generation
 function menu(){
     wrapper2.innerHTML += "<section id=\"menu\"><p>Expertly caligraphed on the refrigerator door is a message:</p><p>Menu</p><p>Japanese Tea</p><p>Cucumber Sandwiches</p><p>That ough to be easy enough for you!</p><p><i>--The Lady Nii.</i></p></section>";
-    wrapper2.innerHTML += "<section id=\"kitchen-buttons\"><br><button id=\"tea\" onclick=\"teaDirections();\">Make Tea</button><br><br><button id=\"sandwhich\">Get Sandwiches</button></section>";
+    wrapper2.innerHTML += "<section id=\"kitchen-buttons\"><br><button id=\"tea\" onclick=\"teaDirections();\">Make Tea</button><br><br><button id=\"sandwhich\" onclick=\"getSandwiches();\")>Get Sandwiches</button></section>";
     
     let rules = document.getElementById("rules");
     rules.style.display = 'none';
@@ -31,11 +32,9 @@ function teaDirections(){
     let hideMenu = document.getElementById("menu");
     let hideButtons = document.getElementById("kitchen-buttons");
 
-    wrapper2.innerHTML = "<section id=\"tea-directions\"><p>To make tea:</p><ol><li>Find the teakettle in the closet.</li><li>Fill teakettle with water.<br>(Kettle will automatically add tea.)</li><li>Put kettle on stove.<br>(Burner will automatically light.)</li><li>Wait until water boils.</li><li>Serve.</li></ol></section>";
+    wrapper2.innerHTML = "<section id=\"tea-directions\"><p>To make tea:</p><ol><li>Find the teakettle in the closet.</li><li>Fill teakettle with water.<br>(Kettle will automatically add tea.)</li><li>Put kettle on stove.<br>(Burner will automatically light.)</li><li>Wait until water boils.</li><li>Serve.</li></ol><button id=\"makeTea-continue\" onclick=\"checkTea();\">Continue</button></section>";
 
     wrapper2.innerHTML += "<section id=\"kitchen-closet\" class=\"grid-container\"><div class=\"grid-item\">1</div><div class=\"grid-item\">2</div><div class=\"grid-item\">3</div><div class=\"grid-item\">4</div><div id=\"found-teaKettle\" class=\"grid-item\" onclick=\"foundTea();\">5</div><div class=\"grid-item\">6</div><div class=\"grid-item\">7</div><div class=\"grid-item\">8</div></section>";
-
-    wrapper2.innerHTML += "<button id=\"makeTea-continue\" onclick=\"checkTea();\">Continue</button>";
 }
 
 //bring kettle to faucet option
@@ -90,18 +89,18 @@ function getSandwiches(){
 function getSandwiches2(){
     wrapper2.innerHTML = "<p>Tam is in a maze of twisty little sandwiches, all alike.</p><p>Here is a piece of the cherry pie!</p><p>Where are the cucumber sandwiches?</p>";
 
-    wrapper2.innerHTML += "<button id=\"\" onclick=\"\">Continue</button><button id=\"eat-pie\" onclick=\"eatPie();\">Eat the pie</button>";
+    wrapper2.innerHTML += "<button id=\"\" onclick=\"getSandwiches3();\">Continue</button><button id=\"eat-pie\" onclick=\"eatPie();\">Eat the pie</button>";
 }
 
 function eatPie(){
     wrapper2.innerHTML = "<p>Best cherry pie Tam ever ate.</p>";
-    wrapper2.innerHTML += "<button id=\"get-sandwiches-2\" onclick=\"getSandwiches3();\">Continue</button><button>Getting thirsty?</button>";
+    wrapper2.innerHTML += "<button id=\"get-sandwiches-2\" onclick=\"getSandwiches3();\">Continue</button>";
 }
 
 function getSandwiches3(){
     wrapper2.innerHTML = "<p>Tam is in a twisty little maze of sandwiches, all alike.</p><p>Where are the cucumber sandwiches?</p>";
 
-    wrapper2.innerHTML += "<button id=\"get-sandwhiches-3\" onclick=\"getSandwiches4();\">Continue</button><button id=\"give-up-1\" onclick=\"giveUp();\">Give up</button>";
+    wrapper2.innerHTML += "<button id=\"get-sandwhiches-3\" onclick=\"getSandwiches4();\">Continue</button>";
 }
 
 function getSandwiches4(){
@@ -113,7 +112,7 @@ function getSandwiches4(){
 function getSandwiches5(){
     wrapper2.innerHTML = "<p>Tam is in a twisty little maze of sandwiches, all alike.</p><p>There are some unrecognizable leftovers here!</p><p>Where are the cucumber sandwiches?</p>";
 
-    wrapper2.innerHTML += "<button id=\"\" onclick=\"\">Continue</button><br><button id=\"take-leftovers\" onclick=\"takeLeftovers();\">Take the leftovers</button>";
+    wrapper2.innerHTML += "<button id=\"\" onclick=\"getSandwiches6();\">Continue</button><br><button id=\"take-leftovers\" onclick=\"takeLeftovers();\">Take the leftovers</button>";
 }
 
 function takeLeftovers(){
@@ -129,12 +128,12 @@ function getSandwiches6(){
 }
 
 function getSandwiches7(){
-    wrapper2.innerHTML = "<p>Tam is in a little maze of twisty sandwiches, all alike.</p><p>There is an empty sandwich wrapper2 here!</p><p>Where are the cucumber sandwiches?</p>";
+    wrapper2.innerHTML = "<p>Tam is in a little maze of twisty sandwiches, all alike.</p><p>There is an empty sandwich wrapper here!</p><p>Where are the cucumber sandwiches?</p>";
 
-    wrapper2.innerHTML += "<button id=\"\" onclick=\"\">Continue</button><br><button id=\"take-wrapper2\" onclick=\"takeWrapper2();\">Take Wrapper2</button>";
+    wrapper2.innerHTML += "<button id=\"take-wrapper\" onclick=\"takeWrapper();\">Take Wrapper</button>";
 }
 
-function takeWrapper2(){
+function takeWrapper(){
     wrapper2.innerHTML = "<p>You're kidding...</p>";
 
     wrapper2.innerHTML += "<button id=\"forget-it\" onclick=\"getSandwiches8()();\">Forget it</button><button id=\"littering-not-nice\" onclick=\"getSandwiches15();\">Littering isn't nice</button>";
@@ -150,7 +149,7 @@ function getSandwiches8(){
 function getSandwiches9(){
     wrapper2.innerHTML = "<p>Tam is in a twisty little maze of sandwiches, all different.</p><p>Where are the cucumber sandwiches?</p>";
 
-    wrapper2.innerHTML += "<button id=\"get-sandwiches-9\" onclick=\"getSandwiches10();\">Continue</button><button id=\"give-up-2\">Give up</button>";
+    wrapper2.innerHTML += "<button id=\"get-sandwiches-9\" onclick=\"getSandwiches10();\">Continue</button>";
 }
 
 function getSandwiches10(){
@@ -162,7 +161,7 @@ function getSandwiches10(){
 function getSandwiches11(){
     wrapper2.innerHTML = "<p>Tam is in a twisty little maze of sandwiches, all alike.</p><p>Where are the cucumber sandwiches?</p>";
 
-    wrapper2.innerHTML += "<button id=\"get-sandwiches-10\" onclick=\"getSandwiches11();\">Continue</button><button id=\"give-up-3\">Give up</button>";
+    wrapper2.innerHTML += "<button id=\"get-sandwiches-10\" onclick=\"getSandwiches11();\">Continue</button>";
 }
 
 function getSandwiches11(){
@@ -186,12 +185,12 @@ function getSandwiches13(){
 function getSandwiches14(){
     wrapper2.innerHTML = "<p>Tam is amazed by the twisty little sandwiches, all different.</p><p>Where are the cucumber sandwiches?</p>";
 
-    wrapper2.innerHTML += "<button id=\"get-sandwiches-14\" onclick=\"takeWrapper2();\">Continue</button>";
+    wrapper2.innerHTML += "<button id=\"get-sandwiches-14\" onclick=\"takeWrapper();\">Continue</button>";
 }
 
 //Littering isn't nice
 function getSandwiches15(){
-    wrapper2.innerHTML = "<p>Tam takes the sandwich wrapper2.</p>";
+    wrapper2.innerHTML = "<p>Tam takes the sandwich wrapper.</p>";
 
     wrapper2.innerHTML += "<button id=\"get-sandwiches-15\" onclick=\"getSandwiches16();\">Continue</button>";
 }
@@ -205,7 +204,7 @@ function getSandwiches16(){
 function getSandwiches17(){
     wrapper2.innerHTML = "<p>Tam is in a twisty little maze of sandwiches, all different.</p><p>Where are the cucumber sandwiches?</p>";
 
-    wrapper2.innerHTML += "<button id=\"get-sandwiches-16\" onclick=\"getSandwiches18();\">Continue</button><button id=\"give-up-4\">Give up</button>";
+    wrapper2.innerHTML += "<button id=\"get-sandwiches-16\" onclick=\"getSandwiches18();\">Continue</button>";
 }
 
 function getSandwiches18(){
@@ -221,12 +220,12 @@ function foundSandwich(){
 function grabSandwich(){
     wrapper2.innerHTML = "<p>Gotcha!</p>";
 
-    wrapper2.innerHTML += "<button id=\"grab-sandwich\">Continue</button><br><button id=\"grab-sandwich\" onclick=\"wrapIt();\">Wrap it</button>";
+    wrapper2.innerHTML += "<button id=\"grab-sandwich\" onclick=\"wrapIt();\">Wrap it</button>";
 }
 
 //Wrap it
 function wrapIt(){
-    wrapper2.innerHTML = "<p>Tam wraps it in the empty sandwich wrapper2.</p><p>(Germ theory? What germ theory?)</p>";
+    wrapper2.innerHTML = "<p>Tam wraps it in the empty sandwich wrapper.</p><p>(Germ theory? What germ theory?)</p>";
 
     wrapper2.innerHTML += "<button id=\"wrap-it\" onclick=\"wrapIt2();\">Continue</button>";
 }
@@ -244,19 +243,19 @@ function teaReady(){
 }
 
 function grabKettle(){
-    wrapper2.innerHTML = "<p>There's hot steam toward the ceiling, hot rain at waist level, and pools of hot water down by the floor.</p><p>Tam grabs the kettle and runs for the exit, splashing hot water at every step.</p><br><button id=\"ouch-ouch\" onclick=\"leaveKitchen();\">Ouch ouch ouch</button>";
+    wrapper2.innerHTML = "<p>There's hot steam toward the ceiling, hot rain at waist level, and pools of hot water down by the floor.</p><p>Tam grabs the kettle and runs for the exit, splashing hot water at every step.</p><br><button id=\"ouch-ouch\" onclick=\"hide('myModal7'); story('next');\">Ouch ouch ouch</button>";
 }
 
-function leaveKitchen(){
-    wrapper2.innerHTML = "<p>With tea in cup and sandwicch in plastic wrap, Tam gets out of the kitchen into the corridor. The red flickering lights have gone away. . .</p><p>Of course. King Brady told the ship to show him the way to the kitchen. It didn't say to show him the way back.</p>";
+// function leaveKitchen(){
+//     wrapper2.innerHTML = "<p>With tea in cup and sandwicch in plastic wrap, Tam gets out of the kitchen into the corridor. The red flickering lights have gone away. . .</p><p>Of course. King Brady told the ship to show him the way to the kitchen. It didn't say to show him the way back.</p>";
 
-    wrapper2.innerHTML += "<button id=\"leave-kitchen\" onclick=\"enterHorizator();\">Continue</button>";
-}
+//     wrapper2.innerHTML += "<button id=\"leave-kitchen\" onclick=\"enterHorizator();\">Continue</button>";
+// }
 
-function enterHorizator(){
-    wrapper2.innerHTML = "<p>For once the horizator has nothing to say.</p><p>Tam sets down tea and cucumber sandwich, then reaches out to select the button for the Great Hall.</p><p>At that moment he catches sight of himself reflected in the horizator's walls.</p>";
+// function enterHorizator(){
+//     wrapper2.innerHTML = "<p>For once the horizator has nothing to say.</p><p>Tam sets down tea and cucumber sandwich, then reaches out to select the button for the Great Hall.</p><p>At that moment he catches sight of himself reflected in the horizator's walls.</p>";
 
-    wrapper2.innerHTML += "<button id=\"enter-horizator\">Continue</button>";
-}
+//     wrapper2.innerHTML += "<button id=\"enter-horizator\">Continue</button>";
+// }
 
 //Are we back in the main story? We can have the last button take us back to the main game to the right spot in the array.

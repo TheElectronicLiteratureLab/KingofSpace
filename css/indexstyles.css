@@ -806,7 +806,7 @@ footer {
 @media only screen and (min-width: 800px) {
 
   header {
-    height: 8.5rem;
+    height: 9rem;
   }
 
   header .container {
@@ -831,7 +831,7 @@ footer {
     display: grid;
     grid-template-columns: auto -webkit-max-content;
     grid-template-columns: auto max-content;
-    grid-template-rows: 4.5rem 3rem;
+    grid-template-rows: 5rem 3rem;
     background: none;
     -webkit-transition: none;
     transition: none;
@@ -1103,7 +1103,7 @@ footer {
   .page-content {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    min-height: 1080px;
+    min-height: 1000px;
     margin: 0 auto;
     padding: 1rem 1.5rem;
     position: relative;

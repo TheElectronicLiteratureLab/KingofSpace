@@ -41,14 +41,14 @@
     <!--*************main game section start ***************-->
     <div  id="mainstory", class="rectanglelargeblack"> <!-- Start mainstory Div -->
       <p id="playboxmain"></p>
-      <button id="choiceone" class="S1" onclick="story('one')">O</button>
-      <button id="choicetwo" class="S2"  onclick="story('two')">T</button>
-      <button id="choicethree" class="S3"  onclick="story('three')">T</button>
-      <button id="choicefour" class="S4"  onclick="story('four')">F</button>
-      <button id="choicefive" class="S5"  onclick="story('five')">F</button>
-      <button id="choicesix" class="S6"  onclick="story('six')">S</button>
-      <button id="choiceseven" class="S7"  onclick="story('seven')">S</button>
-      <button id="Next" onclick="story('next')"></button>
+      <button id="choiceone" style="display: block;" class="S1" onclick="story('one')">O</button>
+      <button id="choicetwo" style="display: block;" class="S2"  onclick="story('two')">T</button>
+      <button id="choicethree" style="display: block;" class="S3"  onclick="story('three')">T</button>
+      <button id="choicefour" style="display: block;" class="S4"  onclick="story('four')">F</button>
+      <button id="choicefive" style="display: block;" class="S5"  onclick="story('five')">F</button>
+      <button id="choicesix" style="display: block;" class="S6"  onclick="story('six')">S</button>
+      <button id="choiceseven" style="display: block;" class="S7"  onclick="story('seven')">S</button>
+      <button id="Next" style="display: none" onclick="story('next')"></button>
     </div> <!-- End mainstory Div -->
   </div> <!-- End Wrapper Div -->
   <!--****************main game section end ********************** -->
@@ -67,16 +67,22 @@
       <div id="main-radar" class="rectanglelarge"> <!-- Start main-radar Div -->
   
         <button id="switchone" class="S1" onclick="radar('switchone')"></button>
+        <button id="switchonept" class="S12" onclick="radar('switchonept')"></button>
         <button id="switchtwo" class="S2"  onclick="radar('switchtwo')"></button>
         <button id="switchthree" onclick="radar('switchthree')"></button>
         <button id="switchfour" onclick="radar('switchfour')"></button>
         <button id="switchfive" onclick="radar('switchfive')"></button>
         <button id="switchsix" onclick="radar('switchsix')"></button>
-        <button id="buttonone" onclick="radar('buttonone')">one</button>
-        <button id="buttontwo" onclick="radar('buttontwo')">two</button>
-        <button id="buttonthree" onclick="radar('buttonthree')">three</button>
-        <button id="buttonfour" onclick="radar('buttonfour')">four</button>
-        <button id="buttonfive" onclick="radar('buttonfive')">five</button>
+        <button id="switchtwopt" class="S22"  onclick="radar('switchtwopt')"></button>
+        <button id="switchthreept" onclick="radar('switchthreept')"></button>
+        <button id="switchfourpt" onclick="radar('switchfourpt')"></button>
+        <button id="switchfivept" onclick="radar('switchfivept')"></button>
+        <button id="switchsixpt" onclick="radar('switchsixpt')"></button>
+        <button id="buttonone" onclick="radar('buttonone')"></button>
+        <button id="buttontwo" onclick="radar('buttontwo')"></button>
+        <button id="buttonthree" onclick="radar('buttonthree')"></button>
+        <button id="buttonfour" onclick="radar('buttonfour')"></button>
+        <button id="buttonfive" onclick="radar('buttonfive')"></button>
       
         <div class="rectanglelsmaller"> <!-- Start rectanglesmaller Div -->
           <p id="const"> EMERGENCY </p>
@@ -187,7 +193,7 @@
       <!-- put horizator html code here-->
 
       <div>
-        <div id="mainstory-horizator", class="rectanglelargeblack">
+        <div id="mainstory-horizator" >
 
           <<video  id="video1">
           <source src="minigamesingame/horizator/vid/EDC.mov" type="video/mp4">
@@ -218,7 +224,7 @@
 
       <div  id="mainstory-lib", class="rectanglelargeblack">
         <p id="playboxmain2"></p>
-       
+      
         <button id="bookone",  onclick="Goto('one')">Arcoculture</button>
         <button id="booktwo", onclick="Goto('two')">Arcology</button>
         <button id="bookthree", onclick="Goto('three')">Circe Prison</button>
@@ -236,16 +242,13 @@
         <button id="bookfifteen", onclick="Goto('fifteen')">Trades & Favors</button>
         <button id="booksixteen", onclick="Goto('sixteen')">Hermes-Eccentric</button>
         <button id="bookseventeen", onclick="Goto('seventeen')">Greatship</button>
-        <button id="nextlib", onclick="Goto('nextlib')">Next</button>
+      <!-- <button id="nextlib", onclick="Goto('nextlib')">Next</button>-->
         <button id="back", onclick="Goto('back')">Back</button>
 
         <button id="backcontrol", onclick="Back()">Back to Control Panal</button>
         <button id="libraryopen" onclick="librarystart()"> Library</button>
-        <button id="decontamination" onclick="library(20)" >Decontamination Procedures</button>
-        <button id="shippassengerlist" onclick="library(21)" >Ship Passenger list</button>
-
-
-
+        <button id="decontamination" onclick="library(17)" >Decontamination Procedures</button>
+        <button id="shippassengerlist" onclick="library(18)" >Ship Passenger list</button>
       </div>
     </div>
   </div>
@@ -441,7 +444,7 @@
   <script type="text/javascript" src="js/story.js"></script>
   <script type="text/javascript" src="js/library.js"></script>
   <script type="text/javascript" src="js/library2.js"></script>
-  <script src="minigamesingame/kitchen-puzzle/js/kitchen.js"></script>
+  <script type="text/javascript" src="minigamesingame/kitchen-puzzle/js/kitchen.js"></script>
   <script type="text/javascript" src="minigamesingame/troop-carrier/js/tc-main.js"></script>
   <script type="text/javascript" src="minigamesingame/slide-puzzle/js/puzzle-2.js"></script>
   <script type="text/javascript" src="minigamesingame/radar-puzzle/radar/radar.js"></script>

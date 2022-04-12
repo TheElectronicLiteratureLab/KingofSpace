@@ -221,7 +221,7 @@ header .container .menu div.buttons>* {
 .page-content {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  min-height: 1080px;
+  min-height: 1000px;
   margin: 0 auto;
   padding: 1rem 1.5rem;
   position: relative;
@@ -309,26 +309,6 @@ header .container .menu div.buttons>* {
   text-align: center;
 }
 
-.btnitem {
-  background: #769979;
-  margin-top: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  padding: 1rem;
-  font-size: 20px;
-  text-align: center;
-  justify-content: center;
-  border-radius: 5px;
-  align-items: center;
-  max-width: 124px;
-  max-height: 24px;
-}
-
-.btnitem:hover {
-  background: #526b54;
-  color: white;
-}
 
 .chname {
   color: white;
@@ -336,14 +316,6 @@ header .container .menu div.buttons>* {
   text-align: center;
   margin-top: 1rem;
 }
-
-.shname {
-  color: black;
-  font-size: 28px;
-  text-align: center;
-  margin-top: 1rem;
-}
-
 
 /*.shitem2 {
   color: white;
@@ -375,13 +347,20 @@ header .container .menu div.buttons>* {
   grid-gap: 1rem;
 }
 
-.shitem2 {
-  background: white;
+.shname {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.shitem {
+  background-image: url("/img/starpattern.png");
+  border: 10px solid #434A52;
+  color: white;
   padding: 2rem;
   font-size: 20px;
-  color: black;
   text-align: center;
-  border: 10px solid #434A52;
 }
 
 .btnitem2 {
@@ -837,7 +816,7 @@ footer {
 @media only screen and (min-width: 800px) {
 
   header {
-    height: 8.5rem;
+    height: 9rem;
   }
 
   header .container {
@@ -862,7 +841,7 @@ footer {
     display: grid;
     grid-template-columns: auto -webkit-max-content;
     grid-template-columns: auto max-content;
-    grid-template-rows: 4.5rem 3rem;
+    grid-template-rows: 5rem 3rem;
     background: none;
     -webkit-transition: none;
     transition: none;
@@ -1134,7 +1113,7 @@ footer {
   .page-content {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    min-height: 1080px;
+    min-height: 1000px;
     margin: 0 auto;
     padding: 1rem 1.5rem;
     position: relative;
