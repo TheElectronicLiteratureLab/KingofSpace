@@ -149,7 +149,7 @@ function onstart(){
 				}
 				 break;
 			case 15:
-						x.style.backgroundImage= "url(img/TamencountersAster.png)" ;
+						x.style.backgroundImage= "url(img/Title-Screen-BG.png)";
 						
 						current++;
 					break;
