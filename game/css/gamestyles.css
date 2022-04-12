@@ -663,7 +663,6 @@ a{
   text-align: center;
 }
 
-
 #greatship-button{
   background-image: url(../img/foxmask.png);
   background-repeat: no-repeat;
@@ -680,13 +679,14 @@ a{
 
 .location-info{
   margin-top:20px;
-  display:left;
+  display:grid;
   grid-template-columns: 1fr 1fr;
   gap:15px;
 }
 
 .location-container{
   max-width:550px;
+
 }
 
 #lifeship,#greatship{
