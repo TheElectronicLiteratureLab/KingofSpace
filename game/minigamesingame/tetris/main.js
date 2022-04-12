@@ -3,14 +3,15 @@ const ROWS = 20;
 const BLOCK_SIZE = 30;
 const NO_OF_HIGH_SCORES = 10;
 const HIGH_SCORES = 'highScores';
-PIPE1 = new Image();
-PIPE1.src =  "url(img/test.png)";
-const PIPE2 = new Image();
-PIPE2.src = "url(img/test2.png)";
-const SHAPES = 
-[
-  [[PIPE1], [PIPE2]]
-  
+const COLORS = ['black', 'gray'];
+const SHAPES = [
+  [[0, 0, 0, 0], [1, 1, 1, 1], [0, 0, 0, 0], [0, 0, 0, 0]],
+  [[2, 0, 0], [2, 2, 2], [0, 0, 0]],
+  [[0, 0, 3], [3, 3, 3], [0, 0, 0]],
+  [[4, 4], [4, 4]],
+  [[0, 5, 5], [5, 5, 0], [0, 0, 0]],
+  [[0, 6, 0], [6, 6, 6], [0, 0, 0]],
+  [[7, 7, 0], [0, 7, 7], [0, 0, 0]]
 ];
 const POINTS = {  
   SINGLE: 100,  
@@ -81,7 +82,6 @@ let accountValues = {
   lines: 0,
   level: 0
 }
-
  
 function updateAccount(key, value) {  
   let element = document.getElementById(key);  
