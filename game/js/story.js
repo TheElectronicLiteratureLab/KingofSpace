@@ -130,9 +130,11 @@ function story(temp) {
 				}
 				break;
 			case 15:
-				x.style.backgroundImage= "url(img/TamencountersAster.png)" ;
-				current++;
-				break;
+
+						x.style.backgroundImage= "url(img/Title-Screen-BG.png)";
+						
+						current++;
+					break;
 			case 16:
 				x.style.backgroundImage = "none";
 				current++;
