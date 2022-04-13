@@ -623,6 +623,7 @@ a{
   }
 
 }
+
 /*//////////////////// location  styles /////////////////*/
 
 #location-button-container{
@@ -642,7 +643,6 @@ a{
   width:150px;
   background-repeat: no-repeat;
   cursor: pointer;
-
   transform: scale(1);
   opacity: 1;
   transition: opacity 0.4s, transform 0.4s;
@@ -654,24 +654,24 @@ a{
 }
 
 .location-button-overlay{
-  padding: 5%;
+  /* padding: 5%; */
   position:absolute;
-  bottom:0;
+  /* bottom:0;
   left:0;
-  right:0;
+  right:0; */
   background-color: #151E24;
   text-align: center;
 }
 
-#greatship-button{
-  background-image: url(../img/foxmask.png);
+#great-button{
+  background-image: url(../img/Aster-button.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 200px;
 }
 
-#lifeship-button{
-  background-image: url(../img/kos_logo.png);
+#life-button{
+  background-image: url(../img/lifeship.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 200px;
@@ -682,11 +682,11 @@ a{
   display:grid;
   grid-template-columns: 1fr 1fr;
   gap:15px;
+  border:1px solid green;
 }
 
 .location-container{
   max-width:550px;
-
 }
 
 #lifeship,#greatship{
@@ -700,7 +700,7 @@ a{
     height:100px;
   }
 
-  #great-button, #lifep-button {
+  #great-button, #life-button {
     background-size: 100px;
   }
 }
@@ -732,7 +732,7 @@ a{
     grid-template-columns:1fr;
   }
 
-  #greatship-button, #lifeship-button{
+  #great-button, #life-button{
     background-size: 100px;
   }
 }
