@@ -1,9 +1,4 @@
-
-
 let currlibT = 0;
-
-
-
 
 function libraryTwo (currlibT){
 	

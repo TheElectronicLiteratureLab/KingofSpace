@@ -291,6 +291,7 @@ header .container .menu div.buttons>* {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
+  padding-bottom: 5rem;
 }
 
 .abtitem {
@@ -302,7 +303,6 @@ header .container .menu div.buttons>* {
   font-size: 20px;
   text-align: left;
   line-height: 30px;
-
 }
 
 video {
@@ -316,9 +316,60 @@ video {
 }
 
 .abtwrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chwrapper {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.chheader {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 100px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.chgridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  padding-bottom: 5rem;
+}
+
+.chitem {
+  text-align: center;
+}
+
+.profile {
+  background-image: url("/img/starpattern.png");
+  border: 10px solid #69B7AE;
+  color: black;
+  font-size: 20px;
+  padding: 1rem 1rem 0rem 1rem;
+  width: 50%;
+  height: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.profile:hover {
+  opacity: 0.7;
+}
+
+.chname {
+  color: white;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.chname:hover {
+  color: #49817b
 }
 
 
@@ -419,7 +470,7 @@ footer {
 @media only screen and (min-width: 800px) {
 
   header {
-    height: 6.5rem;
+    height: 9rem;
   }
 
   header .container {
@@ -444,7 +495,7 @@ footer {
     display: grid;
     grid-template-columns: auto -webkit-max-content;
     grid-template-columns: auto max-content;
-    grid-template-rows: 3.5rem 3rem;
+    grid-template-rows: 5rem 3rem;
     background: none;
     -webkit-transition: none;
     transition: none;
@@ -496,6 +547,13 @@ footer {
   /* ///////////////////// About Tablet /////////////////////// */
   .abtgridcontainer {
     grid-template-columns: 1fr;
+  }
+
+  .chgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding-bottom: 5rem;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -570,9 +628,51 @@ footer {
   }
 
   .abtwrapper {
-    width: 100%;
+    width: 80%;
+  }
+
+  .chwrapper {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .chheader {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 100px;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+
+  .chgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding-bottom: 5rem;
+  }
+
+  .chitem {
+    text-align: center;
+    scale: 1;
+  }
+
+  .profile {
+    background-image: url("/img/starpattern.png");
+    border: 10px solid #69B7AE;
+    color: black;
+    font-size: 20px;
+    padding: 1rem 1rem 0rem 1rem;
+    width: 50%;
+    height: 50%;
+  }
+
+  .chname {
+    color: white;
+    font-size: 20px;
+    margin-top: 1rem;
+    text-align: center;
   }
 }
 
@@ -613,6 +713,10 @@ footer {
   .abtitem {
     padding: 10px;
     padding-bottom: 50px;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .abtitem2 {
@@ -626,6 +730,8 @@ footer {
     vertical-align: bottom;
     border: 10px solid #69B7AE;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
   }
 
   .abtwrapper {
@@ -633,6 +739,16 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .chwrapper {
+    width: 100%;
+  }
+
+  .chgridcontainer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+
 
   /* ///////////////////// End Section /////////////////////// */
 

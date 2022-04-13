@@ -82,7 +82,6 @@ let accountValues = {
   lines: 0,
   level: 0
 }
-
  
 function updateAccount(key, value) {  
   let element = document.getElementById(key);  

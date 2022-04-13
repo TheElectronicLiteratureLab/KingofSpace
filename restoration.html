@@ -13,6 +13,10 @@
     integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/restorationstyles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Fotorama from CDNJS, 19 KB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 </head>
 
 <body>
@@ -36,14 +40,14 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="author.html">Author</a></li>
             <li><a href="gamehistory.html">Game History</a></li>
-            <li><a href="#1">Restoration</a></li>
             <li><a href="characters.html">Characters</a></li>
-            <li><a href="credits.html">Credits</a></li>
+            <li><a href="#1">Restoration</a></li>
+            <li><a href="credits.html">Team</a></li>
           </ul>
         </nav>
 
         <div class="buttons">
-          <a href="game/game.html" class="button primary">PLAY GAME</a>
+          <a href="game/game.html" target="_blank" class="button primary">PLAY GAME</a>
         </div>
       </div>
     </div>
@@ -65,9 +69,9 @@
       <div class="each-year">
         <div class="title">JANUARY
         </div>
-
         <div class="each-event">
           <div class="event-description">
+
             <img class="event-picture" src="img/KoS-demo.png">
             January 5th<br>First hands-on experience with the original copy of the King of Space game.
           </div>
@@ -196,8 +200,27 @@
       </div>
     </section>
   </div>
+  <!--Original Assets-->
+  <section id="assets">
+    <div class="assetsheader">RESTORATION TEAMS</div>
+    <div class="fotorama">
+      <img src="img/developmentfull.png"
+        data-caption="From left to right: Kayci Miles, Alisa Koller, Jacob Eddings, Anthony Cox, Cullen Thomas, Seleny Calixto-Luna, Rebekah Rolfe"
+        data-arrows="true" data-click="false" data-swipe="true">
+      <img src="img/designfull.png"
+        data-caption="From left to right: Megan Tuthill, Cleopatra Martushev, Miranda Embrey, Ransom Reed, Kathryn Klaus, Logan Coen ">
+
+      <img src="img/animationfull.png"
+        data-caption="From left to right: Nicole Davis, Ryan Keliipio, Kayla Aiman, LaShay Wesley">
+
+      <img src="img/contentfull.png"
+        data-caption="From left to right: Tanner Schneider, JD Carpenter, Ryan Regynski, Rebecca Roy, Taylor Wiss">
+    </div>
+  </section>
+  <!--End Section-->
 </body>
 
+<!--Responsive Timeline JavaScript-->
 <script>var $element = $('.each-event, .title');
   var $window = $(window);
   $window.on('scroll resize', check_for_fade);
@@ -217,7 +240,8 @@
       }
 
     });
-  };</script>
+  };
+</script>
 
 <!--Play Game-->
 <section class="parallax">
@@ -228,17 +252,17 @@
 <!--Footer-->
 <section id="footer">
   <div>
-    <a href="#1">
+    <a href="index.html">
       <img class="footerlogo" src="img/kosfooterwhite.png">
     </a>
     <hr>
     <div class="footergridcontainer">
       <div class="footeritem"><a href="index.html">Home</a></div>
       <div class="footeritem"><a href="author.html">Author</a></div>
-      <div class="footeritem"><a href="gamehistory.html"">Game History</a></div>
-                <div class=" footeritem"><a href="#1">Restoration</a></div>
+      <div class="footeritem"><a href="gamehistory.html">Game History</a></div>
       <div class="footeritem"><a href="characters.html">Characters</a></div>
-      <div class="footeritem"><a href="credits.html">Credits</a></div>
+      <div class=" footeritem"><a href="#1">Restoration</a></div>
+      <div class="footeritem"><a href="credits.html">Team</a></div>
     </div>
     <div class="socialgridcontainer">
       <div class="socialitem"><a href="https://www.instagram.com/cmdc.dtc/" target="_blank"><img
