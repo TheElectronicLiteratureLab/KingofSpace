@@ -440,21 +440,6 @@ em {
 }
 
 
-.owitem2 {
-  background: transparent;
-  border: 10px solid #69B7AE;
-  color: black;
-  font-size: 20px;
-  text-align: center;
-  margin-top: 3rem;
-}
-
-.owitem2:hover {
-  border: 10px solid #4e8881;
-  opacity: 0.7;
-  cursor: pointer;
-}
-
 /* ///////////////////// End Section /////////////////////// */
 
 .teams {
@@ -1409,14 +1394,6 @@ footer {
     grid-gap: 3rem;
   }
 
-  .owitem2 {
-    background: transparent;
-    border: 10px solid #69B7AE;
-    color: black;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 3rem;
-  }
 
   /* ///////////////////// End Section /////////////////////// */
 
