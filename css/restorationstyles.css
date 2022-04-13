@@ -218,14 +218,22 @@ header .container .menu div.buttons>* {
   margin-right: auto;
 }
 
+.landingheader {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  letter-spacing: 20px;
+  color: white;
+}
+
 .page-content {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  min-height: 1080px;
+  min-height: 200px;
   margin: 0 auto;
   padding: 1rem 1.5rem;
   position: relative;
-  background-color: white;
 }
 
 .page-content h1 {
@@ -266,11 +274,15 @@ header .container .menu div.buttons>* {
   cursor: pointer;
 }
 
-.landingheader {
-  font-size: 50px;
-  text-align: center;
-  padding-top: 20rem;
-  letter-spacing: 20px;
+.parallax_header {
+  background-image: url("/img/starpattern.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  background-color: #151E24;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -497,7 +509,7 @@ footer {
 
   /* ///////////////////// Landing Page Mobile (S) /////////////////////// */
   .page-content {
-    min-height: 700px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -513,6 +525,11 @@ footer {
     padding: 1rem 2rem 1rem 2rem;
     font-size: 15px;
   }
+
+  .landingheader {
+    font-size: 30px;
+  }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -613,7 +630,7 @@ footer {
 
   /* ///////////////////// Landing Page Mobile (L) /////////////////////// */
   .page-content {
-    min-height: 1000px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -850,7 +867,7 @@ footer {
 
   /* ///////////////////// Landing Page Tablet /////////////////////// */
   .page-content {
-    min-height: 1000px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -861,6 +878,12 @@ footer {
   .playbtn {
     padding: 1rem 2rem 1rem 2rem;
     font-size: 15px;
+  }
+
+  .landingheader {
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    letter-spacing: 20px;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1012,11 +1035,30 @@ footer {
   .page-content {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    min-height: 1080px;
+    min-height: 200px;
     margin: 0 auto;
     padding: 1rem 1.5rem;
     position: relative;
-    background-color: white;
+  }
+
+  .landingheader {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    letter-spacing: 20px;
+    color: white;
+  }
+
+  .parallax_header {
+    background-image: url("/img/starpattern.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-color: #151E24;
   }
 
   .page-content h1 {

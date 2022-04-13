@@ -222,11 +222,10 @@ header .container .menu div.buttons>* {
 .page-content {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  min-height: 1000px;
+  min-height: 200px;
   margin: 0 auto;
   padding: 1rem 1.5rem;
   position: relative;
-  background-color: white;
 }
 
 .page-content h1 {
@@ -270,8 +269,21 @@ header .container .menu div.buttons>* {
 .landingheader {
   font-size: 50px;
   text-align: center;
-  padding-top: 20rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
   letter-spacing: 20px;
+  color: white;
+}
+
+.parallax_header {
+  background-image: url("/img/starpattern.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  background-color: #151E24;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -279,7 +291,6 @@ header .container .menu div.buttons>* {
 /* ///////////////////// Restoration Teams Section /////////////////////// */
 #teamsection {
   background-color: #434A52;
-  padding: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -641,7 +652,7 @@ footer {
 
   /* ///////////////////// Landing Page Mobile (S) /////////////////////// */
   .page-content {
-    min-height: 700px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -657,6 +668,11 @@ footer {
     padding: 1rem 2rem 1rem 2rem;
     font-size: 15px;
   }
+
+  .landingheader {
+    font-size: 35px;
+  }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -705,6 +721,7 @@ footer {
 
   .teamsheader {
     font-size: 30px;
+    padding-bottom: 50px;
   }
 
   #rest {
@@ -715,6 +732,7 @@ footer {
   .teamswrapper {
     width: 60%;
   }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -757,7 +775,7 @@ footer {
 
   /* ///////////////////// Landing Page Mobile (L) /////////////////////// */
   .page-content {
-    min-height: 700px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -947,6 +965,14 @@ footer {
     text-align: center;
   }
 
+  /* ///////////////////// Restoration Teams Mobile (S) /////////////////////// */
+
+  .teamsheader {
+    padding-bottom: 50px;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
   /* ///////////////////// Program Info Tablet /////////////////////// */
   #proginfo {
     padding: 2rem;
@@ -963,6 +989,13 @@ footer {
   .proginfoheader {
     font-size: 30px;
   }
+
+  .landingheader {
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    letter-spacing: 20px;
+  }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -1064,14 +1097,33 @@ footer {
     margin-right: auto;
   }
 
+  .landingheader {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    letter-spacing: 20px;
+    color: white;
+  }
+
+  .parallax_header {
+    background-image: url("/img/starpattern.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-color: #151E24;
+  }
+
   .page-content {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    min-height: 1000px;
+    min-height: 200px;
     margin: 0 auto;
     padding: 1rem 1.5rem;
     position: relative;
-    background-color: white;
   }
 
   .page-content h1 {
@@ -1202,7 +1254,6 @@ footer {
   /* ///////////////////// Teams Desktop /////////////////////// */
   #teamsection {
     background-color: #434A52;
-    padding: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1216,7 +1267,7 @@ footer {
     padding: 5rem;
     position: relative;
     background-color: #434A52;
-    width: 70%;
+    width: 60%;
   }
 
   .teamsheader {
