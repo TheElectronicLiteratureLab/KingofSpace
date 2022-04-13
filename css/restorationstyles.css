@@ -311,17 +311,27 @@ header .container .menu div.buttons>* {
   transition: all 0.8s ease-in-out;
 }
 
+.event-description {
+  text-align: center;
+}
+
+.event-picture {
+  text-align: center;
+}
+
 .each-event {
   background-color: #f4f4f4;
   color: #777;
   padding: 15px;
   margin: 60px 20px;
-  width: 300px;
+  width: 350px;
+  height: auto;
   position: relative;
   border-radius: 4px;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
   line-height: 30px;
+  text-align: center;
 }
 
 .each-event:before {
@@ -341,7 +351,7 @@ header .container .menu div.buttons>* {
 }
 
 .each-event:nth-child(even) {
-  margin-left: calc(50% - 321px);
+  margin-left: calc(50% - 372px);
 }
 
 .each-event:nth-child(even):before {
