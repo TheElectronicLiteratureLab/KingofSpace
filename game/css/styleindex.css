@@ -3,7 +3,8 @@ body  {
   margin: 0%;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
-  background-image:url(../img/Asset\ 9.png);
+  background-image:url(../img/maingame-starbackground.png);
+
   background-repeat:no-repeat;
   background-position: bottom;
   /* background-size: 2000px 300px; */
@@ -13,12 +14,13 @@ body  {
 p{
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  max-width: 65ch;
   color: #D6DCD5;
 }
 
 #wrapper  {
   width: 100%;
-  height:100%;
+  min-height:100vh;
   margin: 0;
 }
 
@@ -315,9 +317,10 @@ p{
 
 /* ////ARROW BUTTON /////*/
 #Next{
-	position: fixed;
+	/* position: fixed;
   bottom:100px;
-  left:75%;
+  left:75%; */
+  margin: 2%;
 	height: 25px;
 	width: 100px;
 	/* top: 600px;
@@ -340,7 +343,7 @@ p{
 	left: 900px;
 }
 
-#choiceone, #choicetwo, #choicethree{
+#choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven{
 	/* position: fixed;
 	height: 40px;
 	width: 200px;
@@ -360,7 +363,7 @@ p{
   font-family: 'Montserrat', sans-serif;
 }
 
-#choiceone:hover, #choicetwo:hover, #choicethree:hover{
+#choiceone:hover, #choicetwo:hover, #choicethree:hover, #choicefour:hover, #choicefive:hover, #choicesix:hover, #choiceseven:hover{
   background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
   color: white;
 }
@@ -404,15 +407,16 @@ font-size: 16px;
 	background-size: 100%;
 	background-repeat: no-repeat;
   margin: 50px auto;
-  width: 1000px;
+  max-width: 1000px;
   height: 600px;
 }
 
 #mainstory p{
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #D6DCD5;
   line-height: 1.7;
+  max-width: 65ch;
 }
 
 .rectanglelargeblack { /*--- removed float and relative positioning, changed margin to auto, dropped opacity a bit*/
@@ -429,7 +433,58 @@ font-size: 16px;
 .rectanglelargeblack p{
   margin: auto;
   padding-top:30px;
-  align-content: center ;
+  align-content: center;
+  max-width: 65ch;
+}
+
+/*////////////////////Tablet Main Story Styles//////////*/
+
+@media only screen and (max-width: 1001px) and (min-width: 601px){
+  .rectanglelargeblack {
+    padding: 30px;
+  }
+  #mainstory p{
+    font-size: 18px;
+  }
+  #Next{
+    position: fixed;
+    bottom:125px;
+    left:75%;
+    height: 25px;
+    width: 100px;
+    background: none;
+    background-image: url(../img/arrow.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 5px #78CBC4);
+    cursor: pointer;	
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .rectanglelargeblack {
+    padding: 15px;
+  }
+  #mainstory p{
+    font-size: 16px;
+  }
+  #Next{
+    position: fixed;
+    bottom:100px;
+    left:75%;
+    height: 25px;
+    width: 100px;
+    background: none;
+    background-image: url(../img/arrow.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 5px #78CBC4);
+    cursor: pointer;	
+  }
 }
 
 /* radar puzzle  css   */
