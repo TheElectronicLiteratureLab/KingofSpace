@@ -318,9 +318,10 @@ p{
 
 /* ////ARROW BUTTON /////*/
 #Next{
-	position: fixed;
+	/* position: fixed;
   bottom:100px;
-  left:75%;
+  left:75%; */
+  margin: auto;
 	height: 25px;
 	width: 100px;
 	/* top: 600px;
