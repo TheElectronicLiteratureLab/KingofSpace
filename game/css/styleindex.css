@@ -4,7 +4,6 @@ body  {
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
   background-image:url(../img/maingame-starbackground.png);
-
   background-repeat:repeat-x;
   background-position: bottom;
   /* background-size: 2000px 300px; */
@@ -320,11 +319,10 @@ p{
 	/* position: fixed;
   bottom:100px;
   left:75%; */
-  margin: 2%;
+
+  margin: 50px 25px 0 auto;
 	height: 25px;
 	width: 100px;
-	/* top: 600px;
-	left: 60px; */
 	background: none;
 	background-image: url(../img/arrow.png);
 	background-size: 100%;
@@ -428,11 +426,13 @@ font-size: 16px;
   height: 600px;
   max-width: 1000px;
   background-color:rgba(21, 30, 36, 0.5);
+  border:1px solid green;
 }
 
 .rectanglelargeblack p{
   margin: auto;
   padding-top:30px;
+  padding-bottom:30px;
   align-content: center;
   max-width: 65ch;
 }
@@ -447,9 +447,9 @@ font-size: 16px;
     font-size: 18px;
   }
   #Next{
-    position: fixed;
+    /* position: fixed;
     bottom:125px;
-    left:75%;
+    left:75%; */
     height: 25px;
     width: 100px;
     background: none;
