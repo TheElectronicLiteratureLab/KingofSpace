@@ -548,7 +548,6 @@ a{
 
 /*////////////// prologue page ///////////////////*/
 
-
 #politics{
   text-align: left;
   width: 100%;
@@ -556,12 +555,10 @@ a{
 #religion{
   text-align: left;
   margin-left: 20px auto ;
-
 }
 #trade{
   text-align: left;
   margin-left: 20px auto ;
-
 }
 
 /* Change to the element id in index.styles */
@@ -577,23 +574,17 @@ a{
   #politics{
     text-align: left;
     margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
+   
   }
   #religion{
     text-align: left;
     margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
+   
   }
   #trade{
     text-align: left;
     margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
+    
   }
   #arrow-button{
     background-color: #151E24;
@@ -608,24 +599,18 @@ a{
   #politics{
     text-align: left;
     margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
+  
   }
   #religion{
     text-align: left;
     margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
+   
   }
   #trade{
     text-align: left;
     margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
   }
+
   #arrow-button{
     background-color: #151E24;
     border-color: #151E24;
@@ -639,23 +624,17 @@ a{
   #politics{
     text-align: left;
     margin-left: 0% ;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
+   
   }
   #religion{
     text-align: left;
     margin-left: 0% ;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
+   
   }
   #trade{
     text-align: left;
     margin-left: 0% ;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
+    
   }
   #arrow-button{
     background-color: #151E24;
@@ -664,102 +643,127 @@ a{
   }
 
 }
+
 /*//////////////////// location  styles /////////////////*/
-  /* body {
-    background: #151e24;
-    font-size: 30px;
-    padding-top: 100px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-    padding-left: 50px;      
-} */
 
-#sec1 {
-  background: #F2EEE7;
-  opacity: 35%;
-  padding-top: 100px;
-  padding-right: 50px;
-  padding-bottom: 100px;
-  padding-left: 50px;
+#location-button-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap:5%;
 }
-#arrow-button{
+
+.location-button{
+  color:#151E24;
   background-color: #151E24;
-  border-color: #151E24;
-  height: 90%;
-  width: 10%;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:150px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
 }
 
-#prologue-wrapper {
-  width: 1000px;
-  margin: auto;
+.location-button:hover{
+  transform: scale(0.9);
+  opacity: 0.7;
 }
 
+.location-button-overlay{
+  /* padding: 5%; */
+  position:absolute;
+  /* bottom:0;
+  left:0;
+  right:0; */
+  background-color: #151E24;
+  text-align: center;
+}
 
-/*/////////////////// location tablet styles //////////////////////*/
+#great-button{
+  background-image: url(../img/Aster-button.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+}
+
+#life-button{
+  background-image: url(../img/lifeship.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+}
+
+.location-info{
+  margin-top:40px; 
+  size:3px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:15px; 
+
+}
+
+.location-description{
+  max-width: 55ch;
+}
+
+.location-description{
+  max-width: 55ch;
+}
+
+.location-container{
+  margin:auto;
+  max-width: 300px;
+}
+
+#lifeship,#greatship{
+  display:none;
+}
+
+/*///////////// location tablet styles////////////// */
 @media only screen and (max-width: 1001px) and (min-width: 876px){
-
-  #sec1 {
-  color:#000000;
-  background: #F2EEE7;
-  opacity: 45%;
-  padding-right: 50px;
-  padding-bottom: 100px;
-  padding-left: 50px;
-}
-/* body {
-  background: #151e24;
-  font-size: 30px;
-  padding-top: 100px;
-  padding-right: 50px;
-  padding-bottom: 100px;
-  padding-left: 50px;
-} */
-#arrow-button{
-  background-color: #151E24;
-  border-color: #151E24;
-}
-
-}
-@media only screen and (max-width: 875px) and (min-width: 601px){
- #sec1 {
-    background: #F2EEE7;
-    opacity: 45%;
-    padding-top: 100px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-    padding-left: 50px;
-}
- /* body {
-    background: #151e24;
-    font-size: 30px;
-    padding-top: 100px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-    padding-left: 50px;
-    } */
-    #arrow-button{
-      background-color: #151E24;
-      border-color: #151E24;
+  .location-button{
+    width: 100px;
+    height:100px;
   }
 
-/*/////////////////// location tablet styles //////////////////////*/
-@media only screen and (max-width: 600px){
+  #great-button, #life-button {
+    background-size: 100px;
+  }
+}
 
-#sec1 {
-    background: #F2EEE7;
-    opacity: 45%;
-    padding-top: 100px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-    padding-left: 50px;
+@media only screen and (max-width: 875px) and (min-width: 601px){
+  .location-button{
+    width: 100px;
+    height:100px;
+    place-items: center;
+  }
+
+  .location-info{
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  #great-button, #life-button{
+    background-size: 100px;
+  }
 }
-/* body {
-  background: #151e24;
-    font-size: 30px;
-    padding-top: 100px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-    padding-left: 50px;
-  } */
+/*///////////// locaton mobile styles////////////// */
+@media only screen and (max-width: 600px){
+  .location-button{
+    width: 75px;
+    height:75px;
+  }
+
+  .location-info{
+    grid-template-columns:1fr;
+  }
+
+  #great-button, #life-button{
+    background-size: 100px;
+  }
 }
-}
+
