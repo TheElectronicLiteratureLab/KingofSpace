@@ -1040,7 +1040,7 @@ footer {
 
 
 /* --------------------------DESKTOP STYLES-------------------------------- */
-@media only screen and (min-width: 1040px) {
+@media only screen and (min-width: 1300px) {
 
   header {
     height: 5.2rem;
@@ -1097,7 +1097,7 @@ footer {
     max-width: 55%;
     display: flex;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
   }
 
   .page-content {
@@ -1108,6 +1108,7 @@ footer {
     padding: 1rem 1.5rem;
     position: relative;
     background-color: white;
+
   }
 
   .page-content h1 {
