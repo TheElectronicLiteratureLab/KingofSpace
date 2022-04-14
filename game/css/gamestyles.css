@@ -678,19 +678,13 @@ a{
 }
 
 .location-info{
-  margin-top:40px;
+  margin-top:40px; 
   size:3px;
   display:grid;
   grid-template-columns: 1fr 1fr;
-  gap:15px;
-  border:1px solid green;
-}
+  gap:15px; 
 
-.lifeship-gif{
-  size: 30ch;
-  margin:left;
 }
-
 
 .location-description{
   max-width: 55ch;
@@ -702,8 +696,7 @@ a{
 
 .location-container{
   margin:auto;
-  display: grid;
-  max-width:600px;
+  max-width: 300px;
 }
 
 #lifeship,#greatship{
