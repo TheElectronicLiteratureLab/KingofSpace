@@ -813,6 +813,10 @@ background: none;
 
 
 
+/* TETRIS STYLES */
+* {
+  font-family: 'Press Start 2P', cursive;
+}
 
 .grid {
   display: grid;
@@ -823,33 +827,55 @@ background: none;
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+  bottom: 100px;
+  position: absolute;
 }
 
-.right-column {
+.middle-column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 20%;
+  background-image: url(../img/score.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  
 }
 
 .game-board {
-  border: solid 2px;
-  background-color: white;
+  
+  background-image: url(../img/game-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .play-button {
-  background-color: #4caf50;
+  background-color: gray;
   font-size: 16px;
   padding: 15px 30px;
   cursor: pointer;
+  bottom: 140px;
+  position: absolute;
 }
 
-img {
-  position: fixed;
-  width: 490;
-  height: 470;
-  top: 480px;
-  left: 170px;
+.right-column {
+  padding-left: 80%;
+  background-image: url(../img/eyes.png);
+  background-repeat: no-repeat;
+  width: 100%;
+
 }
+
+#next {
+  bottom: 140px;
+  position: absolute;
+}
+
+
+
+
+/* END OF TETRIS STYLES */
+
 
 
 /* HORIZATOR PUZZLE CSS */
