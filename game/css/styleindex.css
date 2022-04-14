@@ -122,7 +122,6 @@ p{
   font-size: 16px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  padding: .5rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -289,7 +288,7 @@ p{
   position: absolute;
   height: 600px;
   width: 1000px;
- 	top: 1%;
+  top: 1%;
   margin: 1%;
   float: left;
   /* border: 2px solid black; */
@@ -349,7 +348,7 @@ p{
 	top: 500px;
 	left: 130px; */
   margin: 5% auto;
-  display:inline-block;
+  /* display:inline-block; */
   max-width: 65ch;
   background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
   color: white;
@@ -508,6 +507,17 @@ font-size: 20px;
 	top: 10px;
 	right: 10px;
 } 
+#main-radar{
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#stars{
+  position: relative;
+  height: 109px;
+  width: 230px;
+  top: 52px;
+  left:  317px;
+}
 
 .rectanglelsmaller {
   position: relative;
@@ -517,7 +527,7 @@ font-size: 20px;
  
   margin: 1%;
   float: left;
-  border: 2px solid black;
+ 
   position: relative;
   opacity: 1;
   font-size: 10px;
@@ -530,90 +540,256 @@ font-size: 20px;
 
 #switchone  {
 	position: fixed;
-	height: 75px;
-	width: 60px;
-	top: 65px;
-	left: 230px;
+	
+	left: 304px;
+  height: 50px;
+  width: 32px;
+  top: 56px;
+  background: none;
+ 
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
 }
+#switchonept{
+  position: fixed;
+  
+  left: 304px;
+  height: 50px;
+  width: 32px;
+  top: 80px;
+  background: none;
+ 
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+}
+
 
 #switchtwo{
 	position: fixed;
-	height: 75px;
-	width: 60px;
-	top: 65px;
-	left: 290px;
+	
+	left: 370px;
+  height: 50px;
+  width: 32px;
+  top: 80px;
+  background: none;
+ 
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
 }
+#switchtwopt{
+position: fixed;
+  
+  left: 370px;
+  height: 50px;
+  width: 32px;
+  top: 56px;
+  background: none;
+ 
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
 
+}
 #switchthree{
 	position: fixed;
-	height: 75px;
-	width: 60px;
-	top: 65px;
-	left: 350px;
+	
+	left: 437px;
+  height: 48px;
+  width: 32px;
+  top: 79px;
+  background: none;
+ 
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+}
+#switchthreept{
+position: fixed;
+  
+  left: 437px;
+  height: 50px;
+  width: 32px;
+  top: 56px;
+  background: none;
+ 
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+
 }
 
 #switchfour{
 	position: fixed;
-	height: 75px;
-	width: 60px;
-	top: 65px;
-	left: 410px;	
+	
+	left: 505px;	
+  height: 50px;
+  width: 32px;
+  top: 56px;
+background: none;
+ 
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+}
+#switchfourpt{
+  position: fixed;
+  
+  left: 505px;  
+  height: 50px;
+  width: 32px;
+  top: 80px;
+  background: none;
+ 
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
 }
 
 #switchfive{
 	position: fixed;
-	height: 75px;
-	width: 60px;
-	top: 65px;
-	left: 470px;
+
+	left: 571px;
+  height: 50px;
+  width: 32px;
+  top: 56px;
+  background: none;
+ 
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+}
+#switchfivept{
+  position: fixed;
+  
+  left: 571px;
+  height: 50px;
+  width: 32px;
+  top: 80px;
+  background: none;
+ 
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
 }
 
 #switchsix{
 	position: fixed;
-	height: 75px;
-	width: 60px;
-	top: 65px;
-	left: 530px;
+	height: 50px;
+	width: 32px;
+	top: 56px;
+	left: 636px;
+ background: none;
+ 
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  
+}
+#switchsixpt{
+  position: fixed;
+  
+  left: 636px;
+  height: 50px;
+  width: 32px;
+  top: 80px;
+  background: none;
+ 
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
 }
 
 #buttonone{
 	position: fixed;
-	height: 45px;
-	width: 45px;
-	top: 280px;
-	left: 45px;
+	height: 30px;
+	width: 30px;
+	top: 300px;
+	left: 78px;
+  
+  background: none;
+ 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  
 }
 
 #buttontwo{
 	position: fixed;
-	height: 45px;
-	width: 45px;
-	top: 325px;
-	left: 45px;
+	height: 30px;
+	width: 30px;
+	top: 340px;
+	left: 78px;
+  
+  background: none;
+  background-size: 100%;
+  
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  
 }
 
 #buttonthree{
 	position: fixed;
-	height: 45px;
-	width: 45px;
-	top: 370px;
-	left: 45px;
+	height: 30px;
+	width: 30px;
+	top: 378px;
+	left: 78px;
+  background: none;
+ 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  
 }
 
 #buttonfour{
 	position: fixed;
-	height: 45px;
-	width: 45px;
+	height: 30px;
+	width: 30px;
 	top: 415px;
-	left: 45px;
+	left: 78px;
+  
+  background: none;
+ background-size: 100%;
+ 
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
 }
 
 #buttonfive{
 	position: fixed;
-	height: 45px;
-	width: 45px;
-	top: 460px;
-	left: 45px;
+	height: 30px;
+	width: 30px;
+	top: 458px;
+	left: 78px;
+  
+  background: none;
+ background-size: 100%;
+  
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  
 }
 /* END radar puzzle css   */
 
@@ -832,6 +1008,9 @@ font-size: 20px;
 
 /* story css */
 
+
+
+
 /* Library */
 
 /* body  {
@@ -850,6 +1029,17 @@ font-size: 20px;
 #mainstorylib{
 	background-size: 100%;
 	background-repeat: no-repeat;
+  text-align: center;
+}
+
+#playboxmain-horizator{
+  position: absolute;
+top: 20%;
+right: 30%;
+width: 50%;
+  text-align: left;
+  float: right;
+  font-size: 20px;
 }
 
 /* Library */

@@ -1,6 +1,6 @@
 // ////////Toggles through different character divs on button click////////////////////////////
 var divs = ["tam","nii","brady","aster"];
-      var visibleId = null;
+      let visibleId = null;
       function show(id) {
         if(visibleId !== id) {
           visibleId = id;
@@ -8,7 +8,7 @@ var divs = ["tam","nii","brady","aster"];
         hide();
       }
       function hide() {
-        var div, i, id;
+        let div, i, id;
         for(i = 0; i < divs.length; i++) {
           id = divs[i];
           div = document.getElementById(id);

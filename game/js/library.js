@@ -1,5 +1,4 @@
-function Lhide(button) {
-		var temp = button;
+function Lhide(temp) {
 	  var x = document.getElementById(temp);
 	  if (x.style.display === "none") {
 	    x.style.display = "block";
@@ -35,14 +34,14 @@ let cur = 0;
 function onstart(){
 
 	hudeoptions();
-	Lhide('nextlib');
+	//Lhide('nextlib');
 	Lhide('back');
 	Lhide('backcontrol');
 		
 }
 function librarystart(){
 	hudeoptions();
-	Lhide('nextlib');
+	//Lhide('nextlib');
 	Lhide('back');
 	Lhide('decontamination');
 	Lhide('shippassengerlist');
@@ -53,17 +52,13 @@ function librarystart(){
 }
 function Back(){
 	hudeoptions();
-	Lhide('nextlib');
+	//Lhide('nextlib');
 	Lhide('back');
 	Lhide('decontamination');
 	Lhide('shippassengerlist');
 	Lhide('libraryopen');
 	Lhide('backcontrol');
 }
-
-
-
-
 
 
 
@@ -160,24 +155,24 @@ function Goto(button){
 	}
 	if(button === 'sixteen' ){
 		hudeoptions();
-		Lhide('nextlib');
+		//Lhide('nextlib');
 		cur = 15;
 		library(cur);
 	}
 	if(button === 'seventeen' ){
 		hudeoptions();
-		Lhide('nextlib');
-		cur = 17;
+		//Lhide('nextlib');
+		cur = 16;
 		library(cur);
 	}
-	if(button === 'nextlib' ){
-		cur++;
-		library(cur);
-	}
+	//if(button === 'nextlib' ){
+	''	cur++;
+	//	library(cur);
+	//}
 	if(button === 'back' ){
 
 		hudeoptions();
-		library(22);
+		library(19);
 	}
 
 }
@@ -219,12 +214,9 @@ let library= ["<b>Arcoculture</b> <br><br> The study of gardening and ecological
 
 "<b>Trades & Favors </b><br><br> Trades and favors are the currency of trans-Terran space. ''Favors'' involve only items necessary to life: food, water, air, fuel, military support, genetic codes, and essential information. Trades involve anything else, from artifacts to games software. <br><br> No one is required to trade. Anyone is required to do a favor, to the best of their ability. <br><br> It is considered bad taste on both sides to trade nonessential items for essential items.<br><br> Anyone who asks a favor-- a granting of any essential item--is required to do a favor back, even at the cost of his life.",//14
 
-"<b>Hermes-Eccentric </b><br><br> The name for a cluster of natural and manmade asteroids, whose orbits cut acrross two or more orbits of the principal occupied Tarran colonies. The first commercila Eccentric was the ateroid Hermes. Hermes' lopsided orbit runs from mid-Belt to within Venus's orbit and has been know to approach closer to Terra than its Moon. <br><br> Untill Nicholsun's Plague and the Quarantine, the most efficient eccentic orbits had considerable commerical value. Commercial orbits were declared real property in the Supreme Judicial Cort decision of 832. ITC Hermes-Eccentrics vs. IYC Ford-Honda. <br><br> In the aftermath of the Nicholsun Plague, the abrupt decline in the value of t trans-Asteroid commercial orbits contributed to the Crash of 874.",//15
-"In the aftermath of the Nicholsun Plague, the abrupt decline in the value of trans-Asteroid commercial orbits is thought to have lead directly to the Crash of 874. <br><br> THe average orbital length of Mars-Venus eccentric is 1. 06 standard Terran years.",//16
+"<b>Hermes-Eccentric </b><br><br> The name for a cluster of natural and manmade asteroids, whose orbits cut acrross two or more orbits of the principal occupied Tarran colonies. The first commercila Eccentric was the ateroid Hermes. Hermes' lopsided orbit runs from mid-Belt to within Venus's orbit and has been know to approach closer to Terra than its Moon. <br><br> Untill Nicholsun's Plague and the Quarantine, the most efficient eccentic orbits had considerable commerical value. Commercial orbits were declared real property in the Supreme Judicial Cort decision of 832. ITC Hermes-Eccentrics vs. IYC Ford-Honda. <br><br> In the aftermath of the Nicholsun Plague, the abrupt decline in the value of t trans-Asteroid commercial orbits contributed to the Crash of 874. <br><br> In the aftermath of the Nicholsun Plague, the abrupt decline in the value of trans-Asteroid commercial orbits is thought to have lead directly to the Crash of 874. <br><br> THe average orbital length of Mars-Venus eccentric is 1. 06 standard Terran years.",//16
 
-"<b>Greatship </b><br>(article take from the edition of 868.)<br><br> Hermes-Eccentric asteroids (both natural and manmade) are programmed to swing in efficient orbits between major termini of the Solar System. Orbit-based cargo ships of this sort, called Greatships,  are the most efficient means of carrying weight from one part of the Solar System to another.<br><br> The Hermes-Eccentric greatships resembel the wagon trains of the old Amerifcan fruntier. A highly intelligent central computer forms the nucleus of a system of cargo pods and independent ships, travelling in matched orbits and linked by horizators. The  ship's Central  Control provide orbitsl matching services, theft and  sabotage prevention, and intelligent defense systems.",//17
-"By paying an orbital use fee, any commercial carrier or private ship can match orbits with a greatship and take advantage of it facilities. <br><br> Eccentrics attract a colorful and varied population, often including visiting celebrites. The permanent residents of some ships have  gained  a  place in the lore  of the Asteroids.<br><br> Human-use facilities  associated with grateships include: <br><br> - Entertanment (gormet restaurants, gambling, racing, 3D video,  illusion, koi competitions)<br><br> - Research facilities (stored library, instalink to local and System datastores) ",//18
-"- Health facilities (variable-gravity workout areas) <br><br> - Shuttle service to intermediate stops<br><br> -(Asteroid-belt trips only) BY special arrangement with Nicholsun Productions ITC, all passengers aboard an Eccentric are offered free participation in local Nicholsun's Festivals.",//19
+"<b>Greatship </b><br>(article take from the edition of 868.)<br><br> Hermes-Eccentric asteroids (both natural and manmade) are programmed to swing in efficient orbits between major termini of the Solar System. Orbit-based cargo ships of this sort, called Greatships,  are the most efficient means of carrying weight from one part of the Solar System to another.<br><br> The Hermes-Eccentric greatships resembel the wagon trains of the old Amerifcan fruntier. A highly intelligent central computer forms the nucleus of a system of cargo pods and independent ships, travelling in matched orbits and linked by horizators. The  ship's Central  Control provide orbitsl matching services, theft and  sabotage prevention, and intelligent defense systems. <br><br> By paying an orbital use fee, any commercial carrier or private ship can match orbits with a greatship and take advantage of it facilities. <br><br> Eccentrics attract a colorful and varied population, often including visiting celebrites. The permanent residents of some ships have  gained  a  place in the lore  of the Asteroids.<br><br> Human-use facilities  associated with grateships include: <br><br> - Entertanment (gormet restaurants, gambling, racing, 3D video,  illusion, koi competitions)<br><br> - Research facilities (stored library, instalink to local and System datastores) <br><br> -Health facilities (variable-gravity workout areas) <br><br> - Shuttle service to intermediate stops<br><br> -(Asteroid-belt trips only) BY special arrangement with Nicholsun Productions ITC, all passengers aboard an Eccentric are offered free participation in local Nicholsun's Festivals.",//19
 
 //Decontamination Procedures
 "DECONTAMINATION PROCEDURES <br>1. All personnel must report to screening. You will be tested for the presence of Nicholsun's Virus. Any of the following may occur. <br> a. You may be found to be disease-free. <br> b. You may be found to be a carrier of the Nicholsun's Virus. <br> c. You may be found to have symptoms of the virus. <br> 2. If you are found to be disease-free, you will REPORT IMMEDIATELY to Debarkation. DO NOT ATTEMPT TO RETURN to other parts of the ship. DO NOT ATTEMPT TO COMMUNICATE WITH ANY OTHER SHIP MEMBER. There are no exceptions to tbis rule. <br> 3. If you are found to be infected, please RETURN IMMEDIATELY to your sleeping area aboard ship. Your civil rights are temporarily suspended.",
@@ -232,7 +224,7 @@ let library= ["<b>Arcoculture</b> <br><br> The study of gardening and ecological
 //Ship Passenger list
 "Ship's Population: Lady Nii <br><br> Nii / interface coordination <br><br> Brady, Andrew /Captain(acting) <br>/Ship's Favor <br>/Red King <br><br> Passengers <br><br> aster Palladis /Ship's Favor <br> /Priestess <br>Rosse, Thomas Tamotsu /Red King",
 
-"",//back 22
+"",//back 19
 ];
 
 

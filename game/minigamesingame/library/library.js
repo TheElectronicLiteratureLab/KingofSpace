@@ -1,12 +1,11 @@
-function hide(button) {
-		var temp = button;
-	  var x = document.getElementById(temp);
-	  if (x.style.display === "none") {
-	    x.style.display = "block";
-	  } else {
-	    x.style.display = "none";
-	  }
+function hide(temp) {
+	let x = document.getElementById(temp);
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
 	}
+}
 
 function hudeoptions(){
 	hide('bookone');
@@ -33,9 +32,7 @@ let currlib = 0;
 
 function onstart(){
 	hide('next');
-
 }
-
 
 function Goto(button){
 	if(button === 'one' ){
