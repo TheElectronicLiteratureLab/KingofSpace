@@ -316,6 +316,11 @@ header .container .menu div.buttons>* {
 
 .abtitem {
   text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 2rem;
+  text-align: left;
+  line-height: 30px;
 }
 
 .abtitem2 {
@@ -324,6 +329,17 @@ header .container .menu div.buttons>* {
   padding: 2rem;
   text-align: left;
   line-height: 30px;
+}
+
+.statementvid {
+  background: black;
+  border: 10px solid #69B7AE;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: bottom;
+  text-align: center;
 }
 
 .authorstatement {
@@ -346,6 +362,7 @@ header .container .menu div.buttons>* {
   font-weight: 500;
   margin: 0 auto;
   width: 50%;
+  padding-bottom: 20px;
 }
 
 em {
@@ -360,7 +377,113 @@ em {
   overflow: hidden;
 }
 
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 50px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
 
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #434A52;
+  margin: auto;
+  padding: 0;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5A7C7C;
+  color: white;
+}
+
+.modal-body {
+  padding: 20px;
+  color: white;
+  line-height: 30px;
+  height: 100%;
+}
+
+#myBtn {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin: 0 auto;
+  padding: 2rem 3rem 2rem 3rem;
+  background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
+  display: grid;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
+  cursor: pointer;
+}
 
 /* ///////////////////// End Section /////////////////////// */
 
@@ -732,6 +855,33 @@ footer {
     width: 100%;
   }
 
+  .trailer {
+    width: 100%;
+    height: 100%;
+    min-height: 350px;
+    vertical-align: bottom;
+
+  }
+
+  .statementvid {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #myBtn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .modal-content {
+    width: 90%;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Awards Mobile (S) /////////////////////// */
@@ -856,8 +1006,15 @@ footer {
   .trailer {
     width: 100%;
     height: 100%;
-    min-height: 400px;
+    min-height: 300px;
+    vertical-align: bottom;
   }
+
+  .statementvid {
+    width: 80%;
+    text-align: center;
+  }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -1066,7 +1223,14 @@ footer {
     width: 100%;
     height: 100%;
     min-height: 400px;
+    vertical-align: bottom;
   }
+
+  .statementvid {
+    width: 80%;
+    text-align: center;
+  }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -1303,20 +1467,34 @@ footer {
 
   .abtitem {
     text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 2rem;
+    line-height: 30px;
   }
 
   .abtitem2 {
     color: white;
     font-size: 20px;
-    padding: 5rem;
+    padding: 2rem 5rem 0rem 2rem;
     text-align: left;
   }
 
   .trailer {
     width: 100%;
     height: 100%;
-    min-height: 500px;
+    min-height: 573px;
+    vertical-align: bottom;
   }
+
+  .statementvid {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
