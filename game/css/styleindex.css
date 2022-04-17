@@ -28,6 +28,7 @@ p{
   position: fixed; /* Stay in place */
   left: 0;
   top: 0;
+  
   width: 100vw; /* Full width */
   height: 100vh; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -188,7 +189,9 @@ p{
 .close {
   color: #FFFFFF;
   float: right;
-  font-size: 28px;
+  padding-right: 5%;
+  padding-top: 4%;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -202,7 +205,9 @@ p{
 .close2 {
   color: #FFFFFF;
   float: right;
-  font-size: 28px;
+  padding-right: 5%;
+  padding-top: 5%;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -216,7 +221,9 @@ p{
 .close3 {
   color: #FFFFFF;
   float: right;
-  font-size: 28px;
+  padding-right: 5%;
+  padding-top: 5%;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -230,7 +237,9 @@ p{
 .close4 {
   color: #FFFFFF;
   float: right;
-  font-size: 28px;
+  padding-right: 5%;
+  padding-top: 5%;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -244,7 +253,9 @@ p{
 .close5 {
   color: #FFFFFF;
   float: right;
-  font-size: 28px;
+  padding-right: 5%;
+  padding-top: 5%;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -258,7 +269,9 @@ p{
 .close6 {
   color: #FFFFFF;
   float: right;
-  font-size: 28px;
+  padding-right: 5%;
+  padding-top: 5%;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -272,7 +285,9 @@ p{
 .close7 {
   color: #FFFFFF;
   float: right;
-  font-size: 28px;
+  padding-right: 5%;
+  padding-top: 5%;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -285,14 +300,14 @@ p{
 
 
 .rectanglelarge {
-  position: absolute;
+  
   height: 600px;
   width: 1000px;
-  top: 1%;
-  margin: 1%;
-  float: left;
+ 
+  margin: auto;
+  
   /* border: 2px solid black; */
-  position: relative;
+  
   opacity: 1;
   font-size: 10px;
   text-align: left;
@@ -508,15 +523,28 @@ font-size: 20px;
 	right: 10px;
 } 
 #main-radar{
+  height: 600px;
+  width: 1000px;
+  margin: auto;
+  background-image: url(img/kos_radarGame_final3.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 #stars{
-  position: relative;
-  height: 109px;
-  width: 230px;
-  top: 52px;
-  left:  317px;
+  position: absolute;
+  height: px;
+  width: 240px;
+  top:  6.3%;
+  left:  66.5%;
+  z-index: -1;
+}
+#kal{
+  position: absolute;
+  height: 170px;
+  width: 200px;
+  top: 3%;
+  left: 18.3%;
+   z-index: -1;
 }
 
 .rectanglelsmaller {
@@ -539,12 +567,12 @@ font-size: 20px;
 }
 
 #switchone  {
-	position: fixed;
+	position: absolute;
 	
-	left: 304px;
+	left: 35.1%;
   height: 50px;
   width: 32px;
-  top: 56px;
+  top: 3.4%;
   background: none;
  
   background-size: 90%;
@@ -553,12 +581,12 @@ font-size: 20px;
   outline: none;
 }
 #switchonept{
-  position: fixed;
+  position: absolute;
   
-  left: 304px;
+  left: 35.1%;
   height: 50px;
   width: 32px;
-  top: 80px;
+  top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -569,12 +597,12 @@ font-size: 20px;
 
 
 #switchtwo{
-	position: fixed;
+	position: absolute;
 	
-	left: 370px;
+	left: 40%;
   height: 50px;
   width: 32px;
-  top: 80px;
+ top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -583,12 +611,12 @@ font-size: 20px;
   outline: none;
 }
 #switchtwopt{
-position: fixed;
+position: absolute;
   
-  left: 370px;
+  left: 40%;
   height: 50px;
   width: 32px;
-  top: 56px;
+  top: 3.4%;
   background: none;
  
   background-size: 90%;
@@ -598,12 +626,12 @@ position: fixed;
 
 }
 #switchthree{
-	position: fixed;
+	position: absolute;
 	
-	left: 437px;
+	left: 44.5%;
   height: 48px;
   width: 32px;
-  top: 79px;
+  top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -612,12 +640,12 @@ position: fixed;
   outline: none;
 }
 #switchthreept{
-position: fixed;
+position: absolute;
   
-  left: 437px;
+  left: 44.5%;
   height: 50px;
   width: 32px;
-  top: 56px;
+  top: 3.4%;
   background: none;
  
   background-size: 90%;
@@ -628,12 +656,12 @@ position: fixed;
 }
 
 #switchfour{
-	position: fixed;
+	position: absolute;
 	
-	left: 505px;	
+	left: 49.3%;	
   height: 50px;
   width: 32px;
-  top: 56px;
+ top: 3.4%;
 background: none;
  
   background-size: 90%;
@@ -642,12 +670,12 @@ background: none;
   outline: none;
 }
 #switchfourpt{
-  position: fixed;
+  position: absolute;
   
-  left: 505px;  
+  left: 49.3%;  
   height: 50px;
   width: 32px;
-  top: 80px;
+  top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -657,12 +685,12 @@ background: none;
 }
 
 #switchfive{
-	position: fixed;
+	position: absolute;
 
-	left: 571px;
+	left: 54%;
   height: 50px;
   width: 32px;
-  top: 56px;
+  top: 3.4%;
   background: none;
  
   background-size: 90%;
@@ -671,12 +699,12 @@ background: none;
   outline: none;
 }
 #switchfivept{
-  position: fixed;
+  position: absolute;
   
-  left: 571px;
+  left: 54%;
   height: 50px;
   width: 32px;
-  top: 80px;
+  top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -686,11 +714,11 @@ background: none;
 }
 
 #switchsix{
-	position: fixed;
+	position: absolute;
 	height: 50px;
 	width: 32px;
-	top: 56px;
-	left: 636px;
+	top: 3.4%;
+	left: 58.4%;
  background: none;
  
   background-size: 90%;
@@ -700,12 +728,12 @@ background: none;
   
 }
 #switchsixpt{
-  position: fixed;
+  position: absolute;
   
-  left: 636px;
+  left: 58.4%;
   height: 50px;
   width: 32px;
-  top: 80px;
+  top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -715,11 +743,11 @@ background: none;
 }
 
 #buttonone{
-	position: fixed;
+	position: absolute;
 	height: 30px;
 	width: 30px;
-	top: 300px;
-	left: 78px;
+	top: 36%;
+	left: 19.4%;
   
   background: none;
  
@@ -731,11 +759,11 @@ background: none;
 }
 
 #buttontwo{
-	position: fixed;
+	position: absolute;
 	height: 30px;
 	width: 30px;
-	top: 340px;
-	left: 78px;
+	top: 41%;
+	left: 19.4%;
   
   background: none;
   background-size: 100%;
@@ -747,11 +775,11 @@ background: none;
 }
 
 #buttonthree{
-	position: fixed;
+	position: absolute;
 	height: 30px;
 	width: 30px;
-	top: 378px;
-	left: 78px;
+	top: 46.4%;
+	left: 19.4%;
   background: none;
  
   background-size: 100%;
@@ -762,11 +790,11 @@ background: none;
 }
 
 #buttonfour{
-	position: fixed;
+	position: absolute;
 	height: 30px;
 	width: 30px;
-	top: 415px;
-	left: 78px;
+	top: 51.6%;
+	left: 19.4%;
   
   background: none;
  background-size: 100%;
@@ -777,11 +805,11 @@ background: none;
 }
 
 #buttonfive{
-	position: fixed;
+	position: absolute;
 	height: 30px;
 	width: 30px;
-	top: 458px;
-	left: 78px;
+	top: 56.7%;
+	left: 19.4%;
   
   background: none;
  background-size: 100%;

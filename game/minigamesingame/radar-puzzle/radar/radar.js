@@ -39,7 +39,7 @@ function openModal(modal){
 
 	//let wrapper = document.getElementById('wrapper');
 	let box = document.getElementById('main-radar');
-		box.style.backgroundImage = "url(img/kos_radarGame_final1.png)";
+		box.style.backgroundImage = "url(img/kos_radarGame_final3.png)";
 	
 	let S1 = document.getElementById('switchone');
 	S1.style.backgroundImage =  "url(img/switchup.png)";
@@ -121,7 +121,7 @@ function radarstart(){
 }
 
 
-const Emergency = [" Oxigen Reserves Critical<br>"];
+const Emergency = [" Oxygen Reserves Critical<br>"];
 
  function radar(Snum) {
 	
