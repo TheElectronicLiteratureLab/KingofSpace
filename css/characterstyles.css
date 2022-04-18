@@ -275,7 +275,7 @@ header .container .menu div.buttons>* {
 }
 
 .parallax_header {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -313,12 +313,13 @@ header .container .menu div.buttons>* {
 
 
 .chitem {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   border: 10px solid #69B7AE;
   color: black;
   padding: 2rem;
   font-size: 20px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .chitem:hover {
@@ -372,12 +373,14 @@ header .container .menu div.buttons>* {
 }
 
 .shitem {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   border: 10px solid #434A52;
   color: white;
   padding: 2rem;
   font-size: 20px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 
 .btnitem2 {
@@ -414,7 +417,7 @@ header .container .menu div.buttons>* {
 
 /* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -1159,7 +1162,7 @@ footer {
   }
 
   .parallax_header {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -1283,12 +1286,14 @@ footer {
     padding: 1rem;
     font-size: 20px;
     text-align: center;
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #151E24;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
   }
 
   .shitem2 {
@@ -1372,7 +1377,7 @@ footer {
 
   /* ///////////////////// Play Game Desktop /////////////////////// */
   .parallax {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;

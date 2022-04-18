@@ -276,7 +276,7 @@ header .container .menu div.buttons>* {
 }
 
 .parallax_header {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -500,6 +500,8 @@ section ul li:hover {
   background: white;
   border: 10px solid #434A52;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 
 .proginfoitem2 {
@@ -522,6 +524,7 @@ section ul li:hover {
   background-color: #434A52;
   padding-bottom: 5rem;
   padding: 3rem;
+  text-align: center;
 }
 
 .candidgridcontainer {
@@ -546,18 +549,47 @@ section ul li:hover {
   text-align: center;
 }
 
-.proginfoitem2 {
-  color: white;
-  font-size: 20px;
-  padding: 7rem;
-  text-align: left;
+.candidwrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 15px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 15px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border: 10px solid #69B7AE;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+
 
 /* ///////////////////// End Section /////////////////////// */
 
 /* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -695,46 +727,27 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// New Features Mobile (S) /////////////////////// */
-  .ftgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
+  /* ///////////////////// Candid Images Mobile (S) /////////////////////// */
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
 
-  .ftheader {
-    font-size: 25px;
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 10px solid #69B7AE;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
 
-  #newft {
-    min-height: 540px;
+  .candidwrapper {
+    width: 100%;
   }
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// Restoration Teams Mobile (S) /////////////////////// */
-  .restgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
-  }
-
-  .teamsheader {
-    font-size: 30px;
-    padding-bottom: 50px;
-  }
-
-  #rest {
-    min-height: 540px;
-    padding: 2rem;
-  }
-
-  .teamswrapper {
-    width: 60%;
-  }
-
-
-  /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Footer Mobile (S) /////////////////////// */
   .footergridcontainer {
@@ -813,41 +826,26 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// New Features Mobile (L) /////////////////////// */
-  .ftgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
+  /* ///////////////////// Candid Images Mobile (L) /////////////////////// */
+
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
 
-  .ftheader {
-    font-size: 25px;
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 10px solid #69B7AE;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
 
-  #newft {
-    min-height: 540px;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// Restoration Teams Mobile (L) /////////////////////// */
-  .restgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
-  }
-
-  .teamsheader {
-    font-size: 30px;
-  }
-
-  #rest {
-    min-height: 540px;
-    padding: 2rem;
-  }
-
-  .teamswrapper {
-    width: 60%;
+  .candidwrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -996,6 +994,30 @@ footer {
     letter-spacing: 20px;
   }
 
+  /* ///////////////////// End Section /////////////////////// */
+
+
+  /* ///////////////////// Candid Images Tablet /////////////////////// */
+
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 10px solid #69B7AE;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+  .candidwrapper {
+    width: 100%;
+  }
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -1107,7 +1129,7 @@ footer {
   }
 
   .parallax_header {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -1196,6 +1218,7 @@ footer {
     text-align: left;
   }
 
+
   .proginfoheader {
     color: white;
     text-align: center;
@@ -1207,7 +1230,7 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// Candid Images Section /////////////////////// */
+  /* ///////////////////// Candid Images Desktop /////////////////////// */
   #candids {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1219,11 +1242,10 @@ footer {
     padding: 3rem;
   }
 
-  .candidgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    padding-top: 3.5rem;
+  .candidwrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .candidheader {
@@ -1235,18 +1257,31 @@ footer {
     letter-spacing: 3px;
   }
 
-  .candidimage {
-    background: white;
-    border: 10px solid #69B7AE;
-    text-align: center;
-    padding: 3rem;
+  .row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 15px;
   }
 
-  .proginfoitem2 {
-    color: white;
-    font-size: 20px;
-    padding: 7rem;
-    text-align: left;
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 20%;
+    max-width: 25%;
+    padding: 0 15px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 10px solid #69B7AE;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1321,6 +1356,8 @@ footer {
     letter-spacing: 1px;
     cursor: pointer;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
   }
 
   section ul li.active {
@@ -1359,6 +1396,8 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
   }
 
   .flip-card {
@@ -1434,7 +1473,7 @@ footer {
 
   /* ///////////////////// Play Game Desktop /////////////////////// */
   .parallax {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;

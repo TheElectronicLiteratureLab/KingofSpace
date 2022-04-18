@@ -276,7 +276,7 @@ header .container .menu div.buttons>* {
 }
 
 .parallax_header {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -322,6 +322,8 @@ header .container .menu div.buttons>* {
   background: white;
   border: 10px solid #69B7AE;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 
 .bkgitem2 {
@@ -342,6 +344,7 @@ header .container .menu div.buttons>* {
   padding: 5rem;
   position: relative;
   background-color: #5A7C7C;
+
 }
 
 .assetsheader {
@@ -357,20 +360,21 @@ header .container .menu div.buttons>* {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
+
 }
 
 .fotorama {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-}
 
+}
 
 /* ///////////////////// End Section /////////////////////// */
 
 /* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -925,7 +929,7 @@ footer {
   }
 
   .parallax_header {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -1063,7 +1067,7 @@ footer {
 
   /* ///////////////////// Play Game Desktop /////////////////////// */
   .parallax {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
