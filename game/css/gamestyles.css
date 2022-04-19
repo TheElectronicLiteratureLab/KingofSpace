@@ -548,27 +548,50 @@ a{
 
 /*////////////// prologue page ///////////////////*/
 
+#prologue-wrapper{
+height: 600px;
+max-width: 1000px;
+background-color:rgba(21, 30, 36, 0.5);
+margin: auto;
+padding-top:30px;
+}
+
+#prologue-wrapper h3{
+  line-height: .5;
+}
+
+.prologue{
+margin: auto;
+align-content: center;
+}
 
 #politics{
   text-align: left;
-  width: 100%;
+  margin:20px auto ;
 }
 #religion{
   text-align: left;
-  margin-left: 20px auto ;
+  margin: 20px auto ;
 
 }
 #trade{
   text-align: left;
-  margin-left: 20px auto ;
-
+  margin:20px auto ;
 }
 
 /* Change to the element id in index.styles */
 #arrow-button{
-  background-color: #151E24;
-  border-color: #151E24;
-  margin-left:100px;
+  display:block;
+  margin: 50px 25px 0 auto;
+	height: 25px;
+	width: 100px;
+	background: none;
+	background-image: url(../img/arrow.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border: none;
+ 
+  cursor: pointer;	
 }
 
 
@@ -596,10 +619,17 @@ a{
     padding-right: 300px;
   }
   #arrow-button{
-    background-color: #151E24;
-    border-color: #151E24;
-    
-    padding-left:800px;
+    margin: 50px 25px 0 auto;
+    height: 25px;
+    width: 100px;
+    background: none;
+    background-image: url(../img/arrow.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 5px #78CBC4);
+    cursor: pointer;	
 
   }
 }
