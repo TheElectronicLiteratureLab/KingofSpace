@@ -186,15 +186,17 @@ p{
 
 /* The Close Button */
 .close {
-  color: #FFFFFF;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+  color: #78CBC4;
+  /* float: right; */
+  margin-left: 95%;
+  margin-top:.2%;
+  font-size: 60px;
+  /* font-weight: bold; */
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -355,45 +357,34 @@ p{
   padding: .5rem;
   font-family: 'Montserrat', sans-serif; */
   margin: 25px auto auto 5%;
-  width:100%;
-  height:100px;
-  color: white;
+  color: #78CBC4;
   text-align: left;
   border: none;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
 	background: none;
-  background-image: url(../img/choice-arrow.png);
+  /* background-image: url(../img/choice-arrow.png);
   background-size: 175px 25px;
   background-repeat:no-repeat;
   background-position: 90% center;
-  background-clip: border-box;
+  background-clip: border-box; */
 	border: none;
   outline: none;
   filter: drop-shadow(0px 0px 5px #78CBC4);
-  cursor: pointer;	
+  cursor:pointer;
 }
-
 
 #choiceone:hover, #choicetwo:hover, #choicethree:hover, #choicefour:hover, #choicefive:hover, #choicesix:hover, #choiceseven:hover{
-  color: #78CBC4;
+  color: #fff;
+  border-bottom: 3px solid #78CBC4;
+   -webkit-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
 }
 
-/* #choicetwo{
-	position: fixed;
-	height: 40px;
-	width: 200px;
-	top: 500px;
-	left: 400px;
+#choice-arrow{
+  width:150px;
+  margin:auto;
 }
-
-#choicethree{
-	position: fixed;
-	height: 40px;
-	width: 200px;
-	top: 500px;
-	left: 600px;
-} */
 
 #playboxmain{
 color: white; 
@@ -477,17 +468,17 @@ font-size: 16px;
     margin: 25px auto;
     width:100%;
     height:100px;
-    color: white;
+    color: #78CBC4;
     text-align: left;
     border: none;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     background: none;
-    background-image: url(../img/choice-arrow.png);
+    /* background-image: url(../img/choice-arrow.png);
     background-size: 175px 25px;
     background-repeat:no-repeat;
     background-position:0px bottom;
-    background-clip: border-box;
+    background-clip: border-box; */
     border: none;
     outline: none;
     filter: drop-shadow(0px 0px 5px #78CBC4);
@@ -518,24 +509,7 @@ font-size: 16px;
     cursor: pointer;	
   }
   #choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven{
-    margin: auto;
-    width:100%;
-    height:100px;
-    color: white;
-    text-align: left;
-    border: none;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    background: none;
-    background-image: url(../img/choice-arrow.png);
-    background-size: 125px 15px;
-    background-repeat:no-repeat;
-    background-position:0px bottom;
-    background-clip: border-box;
-    border: none;
-    outline: none;
-    filter: drop-shadow(0px 0px 5px #78CBC4);
-    cursor: pointer;	
+ 
   }
 }
 
