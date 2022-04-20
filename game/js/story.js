@@ -1040,7 +1040,7 @@ function story(temp) {
 				//window.alert('troopcarrior game');
 				//miniGame("troop");
 				
-				 hide('myBtn6'); // troop
+				hide('myBtn6'); // troop
 				// pop up option for mini game 
 				console.log ("troop game here");
 				current ++;

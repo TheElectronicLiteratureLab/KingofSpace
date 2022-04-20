@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #D6DCD5;
+    font-size: 20px;
+    line-height: 1.7em;
+    background-color: #151E24;
+    background-image:url(../../../img/maingame-starbackground.png);
+    background-repeat:repeat-x;
+    background-position: bottom;
+    height: 100vh;
+}
+
+p {
+    margin-top: 0;
+}
+
+#troop-wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+#tc-puzzle {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-image: url(../img/kos-troopcarrier.png);
+}
+
+/*----------CHECKBOXES----------*/
+.tc-box {
+    height: 40px;
+    width: 40px;
+    opacity: 0;
+}
+
+.tc-box:hover {
+    cursor: grab;
+}
+
+.tc-box:active {
+    cursor: grabbing;
+}
+
+#tc-1 {
+    position: absolute;
+    top: 150px;
+    left: 677px;
+}
+
+#tc-2 {
+    position: absolute;
+    top: 225px;
+    left: 1245px;
+}
+
+#tc-3 {
+    position: absolute;
+    top: 150px;
+    left: 817px;
+}
+
+#tc-4 {
+    position: absolute;
+    top: 900px;
+    left: 635px;
+}
+
+#tc-5 {
+    position: absolute;
+    top: 195px;
+    left: 1325px;
+}
+
+#tc-6 {
+    position: absolute;
+    top: 160px;
+    left: 1447px;
+}
+
+#tc-7 {
+    position: absolute;
+    top: 150px;
+    left: 1085px;
+}
+
+#tc-8 {
+    position: absolute;
+    top: 415px;
+    left: 1245px;
+}
+
+#tc-9 {
+    position: absolute;
+    top: 415px;
+    left: 1330px;
+}
+
+#tc-10 {
+    position: absolute;
+    top: 635px;
+    left: 1545px;
+}
+
+/*----------RESPONSES----------*/
+#tc-text-1, #tc-text-2, #tc-text-3, #tc-text-4, #tc-text-5, #tc-text-6, #tc-text-7, #tc-text-8, #tc-text-9, #tc-text-10 {
+    margin: 0 auto;
+    max-width: 800px;
+    height: 600px;
+    padding-top: 50px;
+}

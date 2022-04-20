@@ -303,11 +303,12 @@ p{
   
   height: 600px;
   width: 1000px;
- 
   margin: auto;
-  
-  /* border: 2px solid black; */
-  
+  top: 1%;
+  margin: 1%;
+  float: left;
+  margin: auto;
+  /* border: 2px solid black; */ 
   opacity: 1;
   font-size: 10px;
   text-align: left;
@@ -411,10 +412,10 @@ p{
 } */
 
 #playboxmain{
-color: white; 
-text-align: left;
-font-size: 16px;
-}
+  color: white; 
+  text-align: left;
+  font-size: 16px;
+  }
 
 #radar-puzzle{
 	position: fixed;
@@ -557,9 +558,9 @@ font-size: 16px;
 /* radar puzzle  css   */
 
 #playbox{
-color: white; 
-text-align: center;
-font-size: 20px;
+  color: white; 
+  text-align: center;
+  font-size: 20px;
 }
 
 #const {
@@ -574,6 +575,7 @@ font-size: 20px;
 	top: 10px;
 	right: 10px;
 } 
+
 #main-radar{
   height: 600px;
   width: 1000px;
@@ -596,6 +598,7 @@ font-size: 20px;
   width: 200px;
   top: 3%;
   left: 18.3%;
+
    z-index: -1;
 }
 
@@ -604,10 +607,10 @@ font-size: 20px;
   height: 250px;
   width: 400px;
   /* background-color: black; */
- 
+
   margin: 1%;
   float: left;
- 
+  border: 2px solid black;
   position: relative;
   opacity: 1;
   font-size: 10px;
@@ -654,7 +657,7 @@ font-size: 20px;
 	left: 40%;
   height: 50px;
   width: 32px;
- top: 6.5%;
+  top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -663,7 +666,7 @@ font-size: 20px;
   outline: none;
 }
 #switchtwopt{
-position: absolute;
+  position: absolute;
   
   left: 40%;
   height: 50px;
@@ -692,7 +695,7 @@ position: absolute;
   outline: none;
 }
 #switchthreept{
-position: absolute;
+  position: absolute;
   
   left: 44.5%;
   height: 50px;
@@ -714,7 +717,7 @@ position: absolute;
   height: 50px;
   width: 32px;
  top: 3.4%;
-background: none;
+  background: none;
  
   background-size: 90%;
   background-repeat: no-repeat;
@@ -771,7 +774,7 @@ background: none;
 	width: 32px;
 	top: 3.4%;
 	left: 58.4%;
- background: none;
+  background: none;
  
   background-size: 90%;
   background-repeat: no-repeat;
@@ -849,7 +852,7 @@ background: none;
 	left: 19.4%;
   
   background: none;
- background-size: 100%;
+  background-size: 100%;
  
   background-repeat: no-repeat;
   border: none;
@@ -864,7 +867,7 @@ background: none;
 	left: 19.4%;
   
   background: none;
- background-size: 100%;
+  background-size: 100%;
   
   background-repeat: no-repeat;
   border: none;
@@ -953,8 +956,6 @@ background: none;
 }
 /* END tiger puzzle  css   */
 
-
-
 /* TETRIS STYLES */
 * {
   font-family: 'Press Start 2P', cursive;
@@ -964,7 +965,7 @@ background: none;
   display: grid;
   grid-template-columns: 300px 320px 200px;
 }
- 
+
 .left-column {
   display: flex;
   flex-direction: column;
@@ -1013,12 +1014,7 @@ background: none;
   position: absolute;
 }
 
-
-
-
 /* END OF TETRIS STYLES */
-
-
 
 /* HORIZATOR PUZZLE CSS */
 
@@ -1026,7 +1022,7 @@ background: none;
   position: absolute;
   height: 660px;
   width: 1000px;
- 	top: 1%;
+  top: 1%;
   margin: 1%;
   float: left;
   border: 2px solid black;
@@ -1042,7 +1038,7 @@ background: none;
 	position: absolute;
   height: 560px;
   width: 800px;
- 	top: 1%;
+  top: 1%;
   margin: 1%;
   float: left;
   border: 2px solid black;
@@ -1140,9 +1136,9 @@ font-size: 20px;
 
 #playboxmain-horizator{
   position: absolute;
-top: 20%;
-right: 30%;
-width: 50%;
+  top: 20%;
+  right: 30%;
+  width: 50%;
   text-align: left;
   float: right;
   font-size: 20px;
@@ -1150,6 +1146,9 @@ width: 50%;
 
 /* Library */
 /* BEGIN troop */
+#tc-puzzle {
+  background-image: url(../minigamesingame/troop-carrier/img/kos-troopcarrier.png);
+}
 /* END troop */
 
 /* BEGIN kitchen */

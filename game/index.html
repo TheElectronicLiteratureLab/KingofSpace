@@ -155,33 +155,34 @@
   <!-- The Modal -->
   <div id="myModal3" class="modal3"> <!-- Start myModal3 Div -->
 
-      <!-- Modal content -->
-      <div class="modal-content">
+    <!-- Modal content -->
+    <div class="modal-content">
 
-        <span class="close3">&times;</span>
+      <span class="close3">&times;</span>
 
-        <div class="rectanglelarge">
+      <div class="rectanglelarge">
 
-          <div class="grid">
-            <div class="left-column">
-              <h2>HIGH SCORES</h2>
-              <ol id="highScores"></ol>
+        <div class="grid">
+          <div class="left-column">
+            <h2>HIGH SCORES</h2>
+            <ol id="highScores"></ol>
+          </div>
+          <canvas id="board" class="game-board"></canvas> <!-- canvas element to provide a blank canvas on which we can draw our game -->
+          <div class="middle-column">
+            <div>
+              
+              
             </div>
-            <canvas id="board" class="game-board"></canvas> <!-- canvas element to provide a blank canvas on which we can draw our game -->
-            <div class="middle-column">
-              <div>
-                
-                
-              </div>
-              <button onclick="play()" class="play-button">Play</button>
-            </div>
-            <div class="right-column">
-              <canvas id="next"></canvas>
-            </div>
+            <button onclick="play()" class="play-button">Play</button>
+          </div>
+          <div class="right-column">
+            <canvas id="next"></canvas>
           </div>
         </div>
       </div>
-      
+    </div>
+  </div>    
+
   
 
   <!--***********************horizator puzzle modal***************************-->
