@@ -28,7 +28,6 @@ p{
   position: fixed; /* Stay in place */
   left: 0;
   top: 0;
-  
   width: 100vw; /* Full width */
   height: 100vh; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -187,17 +186,17 @@ p{
 
 /* The Close Button */
 .close {
-  color: #FFFFFF;
-  float: right;
-  padding-right: 5%;
-  padding-top: 4%;
-  font-size: 40px;
-  font-weight: bold;
+  color: #78CBC4;
+  /* float: right; */
+  margin-left: 95%;
+  margin-top:.2%;
+  font-size: 60px;
+  /* font-weight: bold; */
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -205,9 +204,7 @@ p{
 .close2 {
   color: #FFFFFF;
   float: right;
-  padding-right: 5%;
-  padding-top: 5%;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -221,9 +218,7 @@ p{
 .close3 {
   color: #FFFFFF;
   float: right;
-  padding-right: 5%;
-  padding-top: 5%;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -237,9 +232,7 @@ p{
 .close4 {
   color: #FFFFFF;
   float: right;
-  padding-right: 5%;
-  padding-top: 5%;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -253,9 +246,7 @@ p{
 .close5 {
   color: #FFFFFF;
   float: right;
-  padding-right: 5%;
-  padding-top: 5%;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -269,9 +260,7 @@ p{
 .close6 {
   color: #FFFFFF;
   float: right;
-  padding-right: 5%;
-  padding-top: 5%;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -285,9 +274,7 @@ p{
 .close7 {
   color: #FFFFFF;
   float: right;
-  padding-right: 5%;
-  padding-top: 5%;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -300,15 +287,14 @@ p{
 
 
 .rectanglelarge {
-  
+  position: absolute;
   height: 600px;
   width: 1000px;
-  margin: auto;
   top: 1%;
   margin: 1%;
   float: left;
-  margin: auto;
-  /* border: 2px solid black; */ 
+  /* border: 2px solid black; */
+  position: relative;
   opacity: 1;
   font-size: 10px;
   text-align: left;
@@ -371,51 +357,40 @@ p{
   padding: .5rem;
   font-family: 'Montserrat', sans-serif; */
   margin: 25px auto auto 5%;
-  width:100%;
-  height:100px;
-  color: white;
+  color: #78CBC4;
   text-align: left;
   border: none;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
 	background: none;
-  background-image: url(../img/choice-arrow.png);
+  /* background-image: url(../img/choice-arrow.png);
   background-size: 175px 25px;
   background-repeat:no-repeat;
   background-position: 90% center;
-  background-clip: border-box;
+  background-clip: border-box; */
 	border: none;
   outline: none;
   filter: drop-shadow(0px 0px 5px #78CBC4);
-  cursor: pointer;	
+  cursor:pointer;
 }
-
 
 #choiceone:hover, #choicetwo:hover, #choicethree:hover, #choicefour:hover, #choicefive:hover, #choicesix:hover, #choiceseven:hover{
-  color: #78CBC4;
+  color: #fff;
+  border-bottom: 3px solid #78CBC4;
+   -webkit-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
 }
 
-/* #choicetwo{
-	position: fixed;
-	height: 40px;
-	width: 200px;
-	top: 500px;
-	left: 400px;
+#choice-arrow{
+  width:150px;
+  margin:auto;
 }
-
-#choicethree{
-	position: fixed;
-	height: 40px;
-	width: 200px;
-	top: 500px;
-	left: 600px;
-} */
 
 #playboxmain{
-  color: white; 
-  text-align: left;
-  font-size: 16px;
-  }
+color: white; 
+text-align: left;
+font-size: 16px;
+}
 
 #radar-puzzle{
 	position: fixed;
@@ -493,17 +468,17 @@ p{
     margin: 25px auto;
     width:100%;
     height:100px;
-    color: white;
+    color: #78CBC4;
     text-align: left;
     border: none;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     background: none;
-    background-image: url(../img/choice-arrow.png);
+    /* background-image: url(../img/choice-arrow.png);
     background-size: 175px 25px;
     background-repeat:no-repeat;
     background-position:0px bottom;
-    background-clip: border-box;
+    background-clip: border-box; */
     border: none;
     outline: none;
     filter: drop-shadow(0px 0px 5px #78CBC4);
@@ -534,33 +509,16 @@ p{
     cursor: pointer;	
   }
   #choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven{
-    margin: auto;
-    width:100%;
-    height:100px;
-    color: white;
-    text-align: left;
-    border: none;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    background: none;
-    background-image: url(../img/choice-arrow.png);
-    background-size: 125px 15px;
-    background-repeat:no-repeat;
-    background-position:0px bottom;
-    background-clip: border-box;
-    border: none;
-    outline: none;
-    filter: drop-shadow(0px 0px 5px #78CBC4);
-    cursor: pointer;	
+ 
   }
 }
 
 /* radar puzzle  css   */
 
 #playbox{
-  color: white; 
-  text-align: center;
-  font-size: 20px;
+color: white; 
+text-align: center;
+font-size: 20px;
 }
 
 #const {
@@ -575,31 +533,16 @@ p{
 	top: 10px;
 	right: 10px;
 } 
-
 #main-radar{
-  height: 600px;
-  width: 1000px;
-  margin: auto;
-  background-image: url(img/kos_radarGame_final3.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 #stars{
-  position: absolute;
-  height: px;
-  width: 240px;
-  top:  6.3%;
-  left:  66.5%;
-  z-index: -1;
-}
-#kal{
-  position: absolute;
-  height: 170px;
-  width: 200px;
-  top: 3%;
-  left: 18.3%;
-
-   z-index: -1;
+  position: relative;
+  height: 109px;
+  width: 230px;
+  top: 52px;
+  left:  317px;
 }
 
 .rectanglelsmaller {
@@ -607,10 +550,10 @@ p{
   height: 250px;
   width: 400px;
   /* background-color: black; */
-
+ 
   margin: 1%;
   float: left;
-  border: 2px solid black;
+ 
   position: relative;
   opacity: 1;
   font-size: 10px;
@@ -622,12 +565,12 @@ p{
 }
 
 #switchone  {
-	position: absolute;
+	position: fixed;
 	
-	left: 35.1%;
+	left: 304px;
   height: 50px;
   width: 32px;
-  top: 3.4%;
+  top: 56px;
   background: none;
  
   background-size: 90%;
@@ -636,12 +579,12 @@ p{
   outline: none;
 }
 #switchonept{
-  position: absolute;
+  position: fixed;
   
-  left: 35.1%;
+  left: 304px;
   height: 50px;
   width: 32px;
-  top: 6.5%;
+  top: 80px;
   background: none;
  
   background-size: 90%;
@@ -652,12 +595,12 @@ p{
 
 
 #switchtwo{
-	position: absolute;
+	position: fixed;
 	
-	left: 40%;
+	left: 370px;
   height: 50px;
   width: 32px;
-  top: 6.5%;
+  top: 80px;
   background: none;
  
   background-size: 90%;
@@ -666,12 +609,12 @@ p{
   outline: none;
 }
 #switchtwopt{
-  position: absolute;
+position: fixed;
   
-  left: 40%;
+  left: 370px;
   height: 50px;
   width: 32px;
-  top: 3.4%;
+  top: 56px;
   background: none;
  
   background-size: 90%;
@@ -681,12 +624,12 @@ p{
 
 }
 #switchthree{
-	position: absolute;
+	position: fixed;
 	
-	left: 44.5%;
+	left: 437px;
   height: 48px;
   width: 32px;
-  top: 6.5%;
+  top: 79px;
   background: none;
  
   background-size: 90%;
@@ -695,12 +638,12 @@ p{
   outline: none;
 }
 #switchthreept{
-  position: absolute;
+position: fixed;
   
-  left: 44.5%;
+  left: 437px;
   height: 50px;
   width: 32px;
-  top: 3.4%;
+  top: 56px;
   background: none;
  
   background-size: 90%;
@@ -711,13 +654,13 @@ p{
 }
 
 #switchfour{
-	position: absolute;
+	position: fixed;
 	
-	left: 49.3%;	
+	left: 505px;	
   height: 50px;
   width: 32px;
- top: 3.4%;
-  background: none;
+  top: 56px;
+background: none;
  
   background-size: 90%;
   background-repeat: no-repeat;
@@ -725,12 +668,12 @@ p{
   outline: none;
 }
 #switchfourpt{
-  position: absolute;
+  position: fixed;
   
-  left: 49.3%;  
+  left: 505px;  
   height: 50px;
   width: 32px;
-  top: 6.5%;
+  top: 80px;
   background: none;
  
   background-size: 90%;
@@ -740,12 +683,12 @@ p{
 }
 
 #switchfive{
-	position: absolute;
+	position: fixed;
 
-	left: 54%;
+	left: 571px;
   height: 50px;
   width: 32px;
-  top: 3.4%;
+  top: 56px;
   background: none;
  
   background-size: 90%;
@@ -754,12 +697,12 @@ p{
   outline: none;
 }
 #switchfivept{
-  position: absolute;
+  position: fixed;
   
-  left: 54%;
+  left: 571px;
   height: 50px;
   width: 32px;
-  top: 6.5%;
+  top: 80px;
   background: none;
  
   background-size: 90%;
@@ -769,12 +712,12 @@ p{
 }
 
 #switchsix{
-	position: absolute;
+	position: fixed;
 	height: 50px;
 	width: 32px;
-	top: 3.4%;
-	left: 58.4%;
-  background: none;
+	top: 56px;
+	left: 636px;
+ background: none;
  
   background-size: 90%;
   background-repeat: no-repeat;
@@ -783,12 +726,12 @@ p{
   
 }
 #switchsixpt{
-  position: absolute;
+  position: fixed;
   
-  left: 58.4%;
+  left: 636px;
   height: 50px;
   width: 32px;
-  top: 6.5%;
+  top: 80px;
   background: none;
  
   background-size: 90%;
@@ -798,11 +741,11 @@ p{
 }
 
 #buttonone{
-	position: absolute;
+	position: fixed;
 	height: 30px;
 	width: 30px;
-	top: 36%;
-	left: 19.4%;
+	top: 300px;
+	left: 78px;
   
   background: none;
  
@@ -814,11 +757,11 @@ p{
 }
 
 #buttontwo{
-	position: absolute;
+	position: fixed;
 	height: 30px;
 	width: 30px;
-	top: 41%;
-	left: 19.4%;
+	top: 340px;
+	left: 78px;
   
   background: none;
   background-size: 100%;
@@ -830,11 +773,11 @@ p{
 }
 
 #buttonthree{
-	position: absolute;
+	position: fixed;
 	height: 30px;
 	width: 30px;
-	top: 46.4%;
-	left: 19.4%;
+	top: 378px;
+	left: 78px;
   background: none;
  
   background-size: 100%;
@@ -845,14 +788,14 @@ p{
 }
 
 #buttonfour{
-	position: absolute;
+	position: fixed;
 	height: 30px;
 	width: 30px;
-	top: 51.6%;
-	left: 19.4%;
+	top: 415px;
+	left: 78px;
   
   background: none;
-  background-size: 100%;
+ background-size: 100%;
  
   background-repeat: no-repeat;
   border: none;
@@ -860,14 +803,14 @@ p{
 }
 
 #buttonfive{
-	position: absolute;
+	position: fixed;
 	height: 30px;
 	width: 30px;
-	top: 56.7%;
-	left: 19.4%;
+	top: 458px;
+	left: 78px;
   
   background: none;
-  background-size: 100%;
+ background-size: 100%;
   
   background-repeat: no-repeat;
   border: none;
@@ -956,65 +899,46 @@ p{
 }
 /* END tiger puzzle  css   */
 
-/* TETRIS STYLES */
-* {
-  font-family: 'Press Start 2P', cursive;
-}
+
+
 
 .grid {
   display: grid;
   grid-template-columns: 300px 320px 200px;
 }
-
+ 
 .left-column {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
-  bottom: 100px;
-  position: absolute;
-}
-
-.middle-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 20%;
-  background-image: url(../img/score.png);
-  background-repeat: no-repeat;
-  width: 100%;
-  
-}
-
-.game-board {
-  
-  background-image: url(../img/game-background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.play-button {
-  background-color: gray;
-  font-size: 16px;
-  padding: 15px 30px;
-  cursor: pointer;
-  bottom: 140px;
-  position: absolute;
 }
 
 .right-column {
-  padding-left: 80%;
-  background-image: url(../img/eyes.png);
-  background-repeat: no-repeat;
-  width: 100%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-#next {
-  bottom: 140px;
-  position: absolute;
+.game-board {
+  border: solid 2px;
+  background-color: white;
 }
 
-/* END OF TETRIS STYLES */
+.play-button {
+  background-color: #4caf50;
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+img {
+  position: fixed;
+  width: 490;
+  height: 470;
+  top: 480px;
+  left: 170px;
+}
+
 
 /* HORIZATOR PUZZLE CSS */
 
@@ -1022,7 +946,7 @@ p{
   position: absolute;
   height: 660px;
   width: 1000px;
-  top: 1%;
+ 	top: 1%;
   margin: 1%;
   float: left;
   border: 2px solid black;
@@ -1038,7 +962,7 @@ p{
 	position: absolute;
   height: 560px;
   width: 800px;
-  top: 1%;
+ 	top: 1%;
   margin: 1%;
   float: left;
   border: 2px solid black;
@@ -1136,9 +1060,9 @@ font-size: 20px;
 
 #playboxmain-horizator{
   position: absolute;
-  top: 20%;
-  right: 30%;
-  width: 50%;
+top: 20%;
+right: 30%;
+width: 50%;
   text-align: left;
   float: right;
   font-size: 20px;
@@ -1146,9 +1070,6 @@ font-size: 20px;
 
 /* Library */
 /* BEGIN troop */
-#tc-puzzle {
-  background-image: url(../minigamesingame/troop-carrier/img/kos-troopcarrier.png);
-}
 /* END troop */
 
 /* BEGIN kitchen */

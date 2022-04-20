@@ -274,7 +274,8 @@ a{
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #D6DCD5;
+  /* background-color: #D6DCD5; */
+  background-color: #fff;
 }
 
 #title-logo{
@@ -372,7 +373,25 @@ a{
   transform: scale(0.9);
   opacity: 0.7;
 }
+#erotogenerator{
+  background-image:url(../img/errotogenerator.png);
+  background-position: center;
+}
 
+#radar{
+  background-image:url(../img/kos_radarGame_final1.png);
+  background-size:cover;
+}
+#tetris{
+
+}
+#troop{
+  background-image:url(../img/kos-troopcarrier.png);
+  background-size:cover;
+}
+#kitchen{
+  background-image:url(../img/kos_sandwich_final.jpg);
+}
 #slide-puzzle{
   background-image:url(../img/foxmask.png);
 }
@@ -547,31 +566,36 @@ a{
 }
 
 /*////////////// prologue page ///////////////////*/
-
 #prologue-wrapper{
-height: 600px;
+height:100%;
 max-width: 1000px;
-background-color:rgba(21, 30, 36, 0.5);
+/* background-color:rgba(21, 30, 36, 0.5); */
 margin: auto;
-padding-top:30px;
+padding:30px 0;
 }
-
-#prologue-wrapper h3{
-  line-height: .5;
+#prologue-wrapper p{
+  max-width: 65ch;
+  font-size: 20px;
 }
 
 .prologue{
-margin: auto;
-align-content: center;
+display:flex;
+justify-content: center;
 }
 
 #politics{
-  text-align: left;
-  margin:20px auto ;
+  margin: auto;
+  padding-top:30px;
+
 }
 #religion{
-  text-align: left;
-  margin: 20px auto ;
+  /* text-align: left;
+  margin: 20px auto ; */
+  margin: auto;
+  padding-top:30px;
+  padding-bottom:30px;
+  align-content: center;
+
 
 }
 #trade{
@@ -582,7 +606,7 @@ align-content: center;
 /* Change to the element id in index.styles */
 #arrow-button{
   display:block;
-  margin: 50px 25px 0 auto;
+  margin: 50px 25px 35px auto;
 	height: 25px;
 	width: 100px;
 	background: none;
@@ -618,7 +642,7 @@ align-content: center;
     padding-left: 300px;
     padding-right: 300px;
   }
-  #arrow-button{
+  /* #arrow-button{
     margin: 50px 25px 0 auto;
     height: 25px;
     width: 100px;
@@ -631,7 +655,7 @@ align-content: center;
     filter: drop-shadow(0px 0px 5px #78CBC4);
     cursor: pointer;	
 
-  }
+  } */
 }
 
 @media only screen and (max-width: 875px) and (min-width: 601px){
@@ -656,11 +680,11 @@ align-content: center;
     padding-left: 300px;
     padding-right: 300px;
   }
-  #arrow-button{
+  /* #arrow-button{
     background-color: #151E24;
     border-color: #151E24;
     padding-left: 200px;
-  }
+  } */
 
 }
 
@@ -704,13 +728,11 @@ align-content: center;
     padding-left: 50px;      
 } */
 
-#sec1 {
+/* #sec1 {
   background: #F2EEE7;
   opacity: 35%;
   padding-top: 100px;
-  padding-right: 50px;
   padding-bottom: 100px;
-  padding-left: 50px;
 }
 #arrow-button{
   background-color: #151E24;
@@ -722,11 +744,11 @@ align-content: center;
 #prologue-wrapper {
   width: 1000px;
   margin: auto;
-}
+} */
 
 
 /*/////////////////// location tablet styles //////////////////////*/
-@media only screen and (max-width: 1001px) and (min-width: 876px){
+/* @media only screen and (max-width: 1001px) and (min-width: 876px){
 
   #sec1 {
   color:#000000;
@@ -736,14 +758,14 @@ align-content: center;
   padding-bottom: 100px;
   padding-left: 50px;
 }
-/* body {
+body {
   background: #151e24;
   font-size: 30px;
   padding-top: 100px;
   padding-right: 50px;
   padding-bottom: 100px;
   padding-left: 50px;
-} */
+}
 #arrow-button{
   background-color: #151E24;
   border-color: #151E24;
@@ -759,21 +781,21 @@ align-content: center;
     padding-bottom: 100px;
     padding-left: 50px;
 }
- /* body {
+ body {
     background: #151e24;
     font-size: 30px;
     padding-top: 100px;
     padding-right: 50px;
     padding-bottom: 100px;
     padding-left: 50px;
-    } */
+    }
     #arrow-button{
       background-color: #151E24;
       border-color: #151E24;
-  }
+  } */
 
 /*/////////////////// location tablet styles //////////////////////*/
-@media only screen and (max-width: 600px){
+/* @media only screen and (max-width: 600px){
 
 #sec1 {
     background: #F2EEE7;
@@ -783,13 +805,13 @@ align-content: center;
     padding-bottom: 100px;
     padding-left: 50px;
 }
-/* body {
+body {
   background: #151e24;
     font-size: 30px;
     padding-top: 100px;
     padding-right: 50px;
     padding-bottom: 100px;
     padding-left: 50px;
-  } */
+  }
 }
-}
+} */
