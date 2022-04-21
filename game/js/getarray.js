@@ -152,11 +152,11 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 // 22 choice 2 Sex with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. 
 //70
-"On one wall of the lifeship there is a control to bring her out of sleep. <br><br> The half-moon of ice melts slowly, rivulets flowing down in to the surface of the egg-ship. <br><br> The rich air becomes even richer, intoxicating, like the air of spring. It's too much for him, coming from Circe prison, and he steps back and lick his lips nervously. He know it's a trick, scents of grass and vegtables mingling with the smell of woman sex, but it makes him want to rool with her in that grass, he can smell the crished scent of it underneath their bodies. ",//68
+"On one wall of the lifeship there is a control to bring her out of sleep. <br><br> The half-moon of ice melts slowly, rivulets flowing down in to the surface of the egg-ship. <br><br> The rich air becomes even richer, intoxicating, like the air of spring. It's too much for him, coming from Circe prison, and he steps back and licks his lips nervously. He know it's a trick, scents of grass and vegtables mingling with the smell of woman sex, but it makes him want to roll with her in that grass, he can smell the crished scent of it underneath their bodies. ",//68
 
-"He want to worship her, to protect her. He want to give her his whole loyalty.<br> The feeling is as strong as a mell inside his head.<br><br> Wow.<br><br> What's happening? <br><br> Slowly the girl sits up. He tries not to look at the stars glowing on her bare skin.",//
+"He wants to worship her, to protect her. He wants to give her his whole loyalty.<br> The feeling is as strong as a mell inside his head.<br><br> Wow.<br><br> What's happening? <br><br> Slowly the girl sits up. He tries not to look at the stars glowing on her bare skin.",//
 
-"She shakes the drops of jelly from her dusky skin. She looks him up down; she is seeing his jumpsuit, the red of Circe prison. <br><br> ''Uh, I won't hurt you,'' he stammers. <br><br> He could no more hut her than turn his dagger against himself. The stars glow on her glowing skin, he smells the fragrance of her body, fresh from the cold sleep, and he is overwhelmed by helpless tenderness, a violent sweet loyalty. He wants to fall down in front of her,  worship her body inch by inch, protect her, love her, live for her until he dies.<br><br> Whoa. Reset. These are NOT HIS FEELINGS. ",
+"She shakes the drops of jelly from her dusky skin. She looks him up and down; she is seeing his jumpsuit, the red of Circe prison. <br><br> ''Uh, I won't hurt you,'' he stammers. <br><br> He could no more hut her than turn his dagger against himself. The stars glow on her glowing skin, he smells the fragrance of her body, fresh from the cold sleep, and he is overwhelmed by helpless tenderness, a violent sweet loyalty. He wants to fall down in front of her,  worship her body inch by inch, protect her, love her, live for her until he dies.<br><br> Whoa. Reset. These are NOT HIS FEELINGS. ",
 
 "She begins to pick seeds from the shoulder of his suit. ''These will grow here. Give them to me''",
 
@@ -184,7 +184,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "",// 82 black with boxs
 
-"Inside the airlock waits an old, old man. <br><br> The dirt on him would set records. Lice crawl in his matted gray hair(lice! Who let oose the genes for those?). He looks past them as if he is trying  to see  beyonf their sholders all the  way to  Terra. <br><br>  And then he focuses on the Priestess.  His eyes light up with a filthy gleam.",//
+"Inside the airlock waits an old, old man. <br><br> The dirt on him would set records. Lice crawl in his matted gray hair (lice! Who let loose the genes for those?). He looks past them as if he is trying  to see  beyond their sholders all the  way to  Terra. <br><br>  And then he focuses on the Priestess.  His eyes light up with a filthy gleam.",//
 
 "''Priestess'' says the old man, awed. <br><br> The priestess does something to the stars on her body. For a moment she glows like a sunlight. The old man blinks and smiles all over his dirty face. <br><br> ''My Priestess,'' he coos. <br><br> In the glare, Tam Rosse blinks and looks around the place where they're standing. Maybe one time it was a standared airlock/ decontamination room. Not big-- freight goes in to the ship onthe lower-G levels, Not up here at 1.0-- but after the supply  ship  and  the lifeship, it looks like you could fit Saturn into it, rings and all.",//
 

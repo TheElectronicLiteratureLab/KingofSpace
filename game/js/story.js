@@ -146,7 +146,7 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. `;
+				document.getElementById('choiceone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally.`;
 				document.getElementById('choicetwo').innerHTML = ` Maiting with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
 				
 				if(temp === 'one'){
@@ -258,7 +258,7 @@ function story(temp) {
 					current ++; // Great ship 
 					// print out array
 					//getstory(current);
-					console.log(story('next'));
+					//console.log(story('next'));
 				}
 				break;
 
@@ -1182,14 +1182,14 @@ function story(temp) {
 
 			case 323:
 
-				hide('choiceone');
-				document.getElementById('choiceone').innerHTML = `Acknowledgments`;
+				//hide('choiceone');
+				//document.getElementById('choiceone').innerHTML = `Acknowledgments`;
 
 				current++;
 				break;
 				case 324:
 
-				hide('choiceone');
+				//hide('choiceone');
 				
 				if(confirm("do you want to restart and play again")){// tetrus game
 					current = 0;// states story over. 

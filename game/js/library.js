@@ -165,10 +165,12 @@ function Goto(button){
 		cur = 16;
 		library(cur);
 	}
+
 	// //if(button === 'nextlib' ){
 	// ''	cur++;
 	// //	library(cur);
 	// //}
+
 	if(button === 'back' ){
 
 		hudeoptions();
