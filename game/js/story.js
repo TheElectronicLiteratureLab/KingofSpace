@@ -111,8 +111,8 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `Tam Rosse brings his ship in to Synchronized orbit with the Lifeship `
-				document.getElementById('choicetwo').innerHTML = ` Tam Rosse brings his ship in to Synchronized orbit with the Greatship `
+				document.getElementById('choiceone').innerHTML = `Tam Rosse brings his ship in to Synchronized orbit with the Lifeship &#8250;`
+				document.getElementById('choicetwo').innerHTML = ` Tam Rosse brings his ship in to Synchronized orbit with the Greatship  &#8250;`
 
 				if(temp === 'one'){
 
@@ -130,9 +130,11 @@ function story(temp) {
 				}
 				break;
 			case 15:
-				x.style.backgroundImage= "url(img/TamencountersAster.png)" ;
-				current++;
-				break;
+
+						x.style.backgroundImage= "url(img/Title-Screen-BG.png)";
+						
+						current++;
+					break;
 			case 16:
 				x.style.backgroundImage = "none";
 				current++;

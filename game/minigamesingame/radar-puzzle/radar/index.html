@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <title>Radar</title>
 <link rel="stylesheet" type="text/css" href="css/styleindex.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
 
 
 
@@ -14,57 +15,45 @@
 <body>
 
 
-<div id="wrapper">
+
    
+ 
+
+      <!-- <button id="close-button"> &times; </button>-->
+      
+
+      <div id="main-radar" > <!-- Start main-radar Div -->
+  
+        <button id="switchone" class="S1" onclick="radar('switchone')"></button>
+        <button id="switchonept" class="S12" onclick="radar('switchonept')"></button>
+        <button id="switchtwo" class="S2"  onclick="radar('switchtwo')"></button>
+        <button id="switchthree" onclick="radar('switchthree')"></button>
+        <button id="switchfour" onclick="radar('switchfour')"></button>
+        <button id="switchfive" onclick="radar('switchfive')"></button>
+        <button id="switchsix" onclick="radar('switchsix')"></button>
+        <button id="switchtwopt" class="S22"  onclick="radar('switchtwopt')"></button>
+        <button id="switchthreept" onclick="radar('switchthreept')"></button>
+        <button id="switchfourpt" onclick="radar('switchfourpt')"></button>
+        <button id="switchfivept" onclick="radar('switchfivept')"></button>
+        <button id="switchsixpt" onclick="radar('switchsixpt')"></button>
+        <button id="buttonone" onclick="radar('buttonone')"></button>
+        <button id="buttontwo" onclick="radar('buttontwo')"></button>
+        <button id="buttonthree" onclick="radar('buttonthree')"></button>
+        <button id="buttonfour" onclick="radar('buttonfour')"></button>
+        <button id="buttonfive" onclick="radar('buttonfive')"></button>
+      
+        <div class="rectanglelsmaller"> <!-- Start rectanglesmaller Div -->
+          <p id="const"> EMERGENCY </p>
+          <p id="playbox"><br>Oxygen Reserves Critical</p>
+        </div> <!-- End rectanlgesmaller Div-->
+        <div >
+            <img src="img/kos-radarstars-2d-final.mp4" id="stars">
+            <img src="img/kos-radarkaleidoscope-2d-final.mp4" id="kal">
+        </div>
+      </div> <!-- End mymodal modal-conent Div -->
     
-
-   <!-- <button id="close-button"> &times; </button>-->
-	<p id="completed"> </p>
-
-  <div id = "main-radar", class="rectanglelarge">
-  
-  
- <button id="switchone", class="S1" onclick="radar('switchone')"></button>
-
-<button id="switchtwo", class="S2"  onclick="radar('switchtwo')"></button>
-
-<button id="switchthree", onclick="radar('switchthree')"></button>
-
-<button id="switchfour", onclick="radar('switchfour')"></button>
-
-<button id="switchfive", onclick="radar('switchfive')"></button>
-
-<button id="switchsix", onclick="radar('switchsix')"></button>
-
-
-<button id="buttonone", onclick="radar('buttonone')">one</button>
-
-<button id="buttontwo", onclick="radar('buttontwo')">two</button>
-
-<button id="buttonthree", onclick="radar('buttonthree')">three</button>
-
-<button id="buttonfour", onclick="radar('buttonfour')">four</button>
-
-<button id="buttonfive", onclick="radar('buttonfive')">five</button>
-
-<div class="rectanglelsmaller"> 
-
-	<p id="const" > EMERGENCY </p>
-  	<p id="playbox" > <br>
-  		Oxygen Reserves Critical</p>
-
-  </div>
-
-   <!-- <audio id="audio" loop>
-	<source src="" type="audio/mp3">  
-  </audio>-->
-  
-</div>
-</div>
-
-</div>
 <!--<div id="overlay"> </div>-->
-<script type="text/javascript" src="radar.js"></script>
+<script type="text/javascript" src="radarmg.js"></script>
 
 </body>
 </html>

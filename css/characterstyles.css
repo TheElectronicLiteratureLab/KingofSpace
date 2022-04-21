@@ -221,11 +221,10 @@ header .container .menu div.buttons>* {
 .page-content {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  min-height: 1000px;
+  min-height: 200px;
   margin: 0 auto;
   padding: 1rem 1.5rem;
   position: relative;
-  background-color: white;
 }
 
 .page-content h1 {
@@ -269,8 +268,21 @@ header .container .menu div.buttons>* {
 .landingheader {
   font-size: 50px;
   text-align: center;
-  padding-top: 20rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
   letter-spacing: 20px;
+  color: white;
+}
+
+.parallax_header {
+  background-image: url("../img/starpattern.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  background-color: #151E24;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -301,12 +313,18 @@ header .container .menu div.buttons>* {
 
 
 .chitem {
-  background-image: url("/img/starpattern.png");
-  border: 10px solid #5A7C7C;
+  background-image: url("../img/starpattern.png");
+  border: 10px solid #69B7AE;
   color: black;
   padding: 2rem;
   font-size: 20px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.chitem:hover {
+  border: 10px solid #55948d;
+  opacity: 0.7;
 }
 
 
@@ -355,12 +373,14 @@ header .container .menu div.buttons>* {
 }
 
 .shitem {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   border: 10px solid #434A52;
   color: white;
   padding: 2rem;
   font-size: 20px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 
 .btnitem2 {
@@ -397,7 +417,7 @@ header .container .menu div.buttons>* {
 
 /* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -492,7 +512,7 @@ footer {
 
   /* ///////////////////// Landing Page Mobile (S) /////////////////////// */
   .page-content {
-    min-height: 700px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -507,6 +527,10 @@ footer {
   .playbtn {
     padding: 1rem 2rem 1rem 2rem;
     font-size: 15px;
+  }
+
+  .landingheader {
+    font-size: 30px;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -655,7 +679,7 @@ footer {
 
   /* ///////////////////// Landing Page Mobile (L) /////////////////////// */
   .page-content {
-    min-height: 1000px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -892,7 +916,7 @@ footer {
 
   /* ///////////////////// Landing Page Tablet /////////////////////// */
   .page-content {
-    min-height: 1000px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -903,6 +927,15 @@ footer {
   .playbtn {
     padding: 1rem 2rem 1rem 2rem;
     font-size: 15px;
+  }
+
+  .landingheader {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    letter-spacing: 20px;
+    color: white;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1050,7 +1083,7 @@ footer {
 
 
 /* --------------------------DESKTOP STYLES-------------------------------- */
-@media only screen and (min-width: 1040px) {
+@media only screen and (min-width: 1300px) {
 
   header {
     height: 5.2rem;
@@ -1110,14 +1143,33 @@ footer {
     margin-right: auto
   }
 
+  .landingheader {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    letter-spacing: 20px;
+    color: white;
+  }
+
   .page-content {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    min-height: 1000px;
+    min-height: 200px;
     margin: 0 auto;
     padding: 1rem 1.5rem;
     position: relative;
-    background-color: white;
+  }
+
+  .parallax_header {
+    background-image: url("../img/starpattern.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-color: #151E24;
   }
 
   .page-content h1 {
@@ -1230,16 +1282,18 @@ footer {
   }
 
   .chitem {
-    border: 10px solid #5A7C7C;
+    border: 10px solid #69B7AE;
     padding: 1rem;
     font-size: 20px;
     text-align: center;
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #151E24;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
   }
 
   .shitem2 {
@@ -1323,7 +1377,7 @@ footer {
 
   /* ///////////////////// Play Game Desktop /////////////////////// */
   .parallax {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;

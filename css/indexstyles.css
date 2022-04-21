@@ -296,6 +296,8 @@ header .container .menu div.buttons>* {
   background: white;
   border: 10px solid #69B7AE;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 
 .abtitem2 {
@@ -344,6 +346,8 @@ header .container .menu div.buttons>* {
   padding: 2rem;
   font-size: 20px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 
 .ftitem2 {
@@ -387,7 +391,7 @@ header .container .menu div.buttons>* {
 
 /* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -568,6 +572,8 @@ footer {
     opacity: 1;
     transition: opacity 0.4s, transform 0.4s;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
   }
 
   .teamimgs:hover {
@@ -722,6 +728,8 @@ footer {
     opacity: 1;
     transition: opacity 0.4s, transform 0.4s;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
   }
 
   .teamimgs:hover {
@@ -958,6 +966,8 @@ footer {
     opacity: 1;
     transition: opacity 0.4s, transform 0.4s;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
   }
 
   .teamimgs:hover {
@@ -1040,7 +1050,7 @@ footer {
 
 
 /* --------------------------DESKTOP STYLES-------------------------------- */
-@media only screen and (min-width: 1040px) {
+@media only screen and (min-width: 1300px) {
 
   header {
     height: 5.2rem;
@@ -1097,7 +1107,7 @@ footer {
     max-width: 55%;
     display: flex;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
   }
 
   .page-content {
@@ -1108,6 +1118,7 @@ footer {
     padding: 1rem 1.5rem;
     position: relative;
     background-color: white;
+
   }
 
   .page-content h1 {
@@ -1263,6 +1274,8 @@ footer {
     opacity: 1;
     transition: opacity 0.4s, transform 0.4s;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
   }
 
   .teamimgs:hover {
@@ -1311,7 +1324,7 @@ footer {
 
   /* ///////////////////// Play Game Desktop /////////////////////// */
   .parallax {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;

@@ -222,11 +222,10 @@ header .container .menu div.buttons>* {
 .page-content {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  min-height: 1000px;
+  min-height: 200px;
   margin: 0 auto;
   padding: 1rem 1.5rem;
   position: relative;
-  background-color: white;
 }
 
 .page-content h1 {
@@ -270,8 +269,21 @@ header .container .menu div.buttons>* {
 .landingheader {
   font-size: 50px;
   text-align: center;
-  padding-top: 20rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
   letter-spacing: 20px;
+  color: white;
+}
+
+.parallax_header {
+  background-image: url("../img/starpattern.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  background-color: #151E24;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -279,7 +291,6 @@ header .container .menu div.buttons>* {
 /* ///////////////////// Restoration Teams Section /////////////////////// */
 #teamsection {
   background-color: #434A52;
-  padding: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -489,6 +500,8 @@ section ul li:hover {
   background: white;
   border: 10px solid #434A52;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 
 .proginfoitem2 {
@@ -511,6 +524,7 @@ section ul li:hover {
   background-color: #434A52;
   padding-bottom: 5rem;
   padding: 3rem;
+  text-align: center;
 }
 
 .candidgridcontainer {
@@ -535,18 +549,47 @@ section ul li:hover {
   text-align: center;
 }
 
-.proginfoitem2 {
-  color: white;
-  font-size: 20px;
-  padding: 7rem;
-  text-align: left;
+.candidwrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 15px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 15px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border: 10px solid #69B7AE;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+
 
 /* ///////////////////// End Section /////////////////////// */
 
 /* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -641,7 +684,7 @@ footer {
 
   /* ///////////////////// Landing Page Mobile (S) /////////////////////// */
   .page-content {
-    min-height: 700px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -657,6 +700,11 @@ footer {
     padding: 1rem 2rem 1rem 2rem;
     font-size: 15px;
   }
+
+  .landingheader {
+    font-size: 35px;
+  }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -679,44 +727,27 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// New Features Mobile (S) /////////////////////// */
-  .ftgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
+  /* ///////////////////// Candid Images Mobile (S) /////////////////////// */
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
 
-  .ftheader {
-    font-size: 25px;
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 10px solid #69B7AE;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
 
-  #newft {
-    min-height: 540px;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// Restoration Teams Mobile (S) /////////////////////// */
-  .restgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
-  }
-
-  .teamsheader {
-    font-size: 30px;
-  }
-
-  #rest {
-    min-height: 540px;
-    padding: 2rem;
-  }
-
-  .teamswrapper {
-    width: 60%;
+  .candidwrapper {
+    width: 100%;
   }
 
   /* ///////////////////// End Section /////////////////////// */
+
 
   /* ///////////////////// Footer Mobile (S) /////////////////////// */
   .footergridcontainer {
@@ -757,7 +788,7 @@ footer {
 
   /* ///////////////////// Landing Page Mobile (L) /////////////////////// */
   .page-content {
-    min-height: 700px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -795,41 +826,26 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// New Features Mobile (L) /////////////////////// */
-  .ftgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
+  /* ///////////////////// Candid Images Mobile (L) /////////////////////// */
+
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
 
-  .ftheader {
-    font-size: 25px;
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 10px solid #69B7AE;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
 
-  #newft {
-    min-height: 540px;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// Restoration Teams Mobile (L) /////////////////////// */
-  .restgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
-  }
-
-  .teamsheader {
-    font-size: 30px;
-  }
-
-  #rest {
-    min-height: 540px;
-    padding: 2rem;
-  }
-
-  .teamswrapper {
-    width: 60%;
+  .candidwrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -947,6 +963,14 @@ footer {
     text-align: center;
   }
 
+  /* ///////////////////// Restoration Teams Mobile (S) /////////////////////// */
+
+  .teamsheader {
+    padding-bottom: 50px;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
   /* ///////////////////// Program Info Tablet /////////////////////// */
   #proginfo {
     padding: 2rem;
@@ -962,6 +986,37 @@ footer {
 
   .proginfoheader {
     font-size: 30px;
+  }
+
+  .landingheader {
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    letter-spacing: 20px;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+
+  /* ///////////////////// Candid Images Tablet /////////////////////// */
+
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 10px solid #69B7AE;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+  .candidwrapper {
+    width: 100%;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1004,7 +1059,7 @@ footer {
 
 
 /* --------------------------DESKTOP STYLES-------------------------------- */
-@media only screen and (min-width: 1040px) {
+@media only screen and (min-width: 1300px) {
 
   header {
     height: 5.2rem;
@@ -1064,14 +1119,33 @@ footer {
     margin-right: auto;
   }
 
+  .landingheader {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    letter-spacing: 20px;
+    color: white;
+  }
+
+  .parallax_header {
+    background-image: url("../img/starpattern.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-color: #151E24;
+  }
+
   .page-content {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    min-height: 1000px;
+    min-height: 200px;
     margin: 0 auto;
     padding: 1rem 1.5rem;
     position: relative;
-    background-color: white;
   }
 
   .page-content h1 {
@@ -1144,6 +1218,7 @@ footer {
     text-align: left;
   }
 
+
   .proginfoheader {
     color: white;
     text-align: center;
@@ -1155,7 +1230,7 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// Candid Images Section /////////////////////// */
+  /* ///////////////////// Candid Images Desktop /////////////////////// */
   #candids {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1167,11 +1242,10 @@ footer {
     padding: 3rem;
   }
 
-  .candidgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    padding-top: 3.5rem;
+  .candidwrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .candidheader {
@@ -1183,18 +1257,31 @@ footer {
     letter-spacing: 3px;
   }
 
-  .candidimage {
-    background: white;
-    border: 10px solid #69B7AE;
-    text-align: center;
-    padding: 3rem;
+  .row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 15px;
   }
 
-  .proginfoitem2 {
-    color: white;
-    font-size: 20px;
-    padding: 7rem;
-    text-align: left;
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 20%;
+    max-width: 25%;
+    padding: 0 15px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 10px solid #69B7AE;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1202,7 +1289,6 @@ footer {
   /* ///////////////////// Teams Desktop /////////////////////// */
   #teamsection {
     background-color: #434A52;
-    padding: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1216,7 +1302,7 @@ footer {
     padding: 5rem;
     position: relative;
     background-color: #434A52;
-    width: 70%;
+    width: 60%;
   }
 
   .teamsheader {
@@ -1270,6 +1356,8 @@ footer {
     letter-spacing: 1px;
     cursor: pointer;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
   }
 
   section ul li.active {
@@ -1308,6 +1396,8 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
   }
 
   .flip-card {
@@ -1383,7 +1473,7 @@ footer {
 
   /* ///////////////////// Play Game Desktop /////////////////////// */
   .parallax {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;

@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
         integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/authorstyles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -50,11 +53,9 @@
     <!--End Section-->
 
     <!--Landing Page-->
-    <div id="1" class="page-content">
+    <div id="1" class="page-content parallax_header">
         <div>
-            <div class="landingheader">SARAH SMITH
-
-            </div>
+            <div class="landingheader">AUTHOR</div>
         </div>
     </div>
     <!--End Section-->
@@ -65,48 +66,80 @@
             <div class="abtitem"><img class="sarahimg" src="img/sarah_smith.png"></div>
             <div class="abtitem2"><span style="font-size: 30px; letter-spacing: 3px; font-weight: 500;">ABOUT THE
                     AUTHOR</span><br><br>Sarah Smith, the author
-                of King of Space, is a writer from Brookline, Massachusetts and a member of the Cambridge Speculative
-                Fiction Workshop. Her series of mystery novels includes New York Times/London Times Notable Book The
-                Vanished Child, New York Times Notable Book The Knowledge of Water, and Entertainment Weekly
+                of <em>King of Space</em>, is a writer from Brookline, Massachusetts and a member of the Cambridge
+                Speculative
+                Fiction Workshop. Her series of mystery novels includes New York Times/London Times Notable Book <em>The
+                    Vanished Child</em>, New York Times Notable Book <em>The Knowledge of Water</em>, and Entertainment
+                Weekly
                 Editor&#39;s
-                Choice A Citizen of the Country.
+                Choice <em>A Citizen of the Country</em>.
                 <br>
                 <br>
-                Smith wrote King of Space after meeting the owner and publisher of Eastgate Systems, Inc., Mark
+                Smith wrote <em>King of Space</em> after meeting the owner and publisher of <em>Eastgate Systems,
+                    Inc.</em>, Mark
                 Bernstein, at MacWorld, just after finishing her first novel. ”Want to write me something?” Mark asked,
                 and she did. The work was published in 1991 and remains, along with John McDaid's <em> Uncle Buddy's
                     Phantom
                     Funhouse</em>, one of a handful of e-lit that tackles the science fiction genre.
             </div>
         </div>
-        <div class="statementheader">AUTHOR STATEMENT</div>
-        <div class="authorstatement">
-            When I was a graduate student, I wanted to write a book about how technology influences narrative. For
-            instance, how was Samuel Richardson&#39;s <em>Clarissa</em> influenced by the fact that Richardson himself
-            printed
-            it? How was the early film esthetic shaped by orthochromatic film stock?<br><br>
-            I never got to write that book. Instead, Mark Bernstein gave me a chance to live it.<br><br>
-            The original <em>King of Space</em> was a creature of the late 1980s, of the very early days of consumer
-            computing.
-            We were roll-your-own to an inconceivable degree. We were thinking out every piece of tech for the first
-            time. There were four of us: programmer, artist (the brilliant Matt Mattingly), music (Michael D), and text
-            (me). Color wasn&#39;t an option. Neither was enough space to fit all the text in, all the images and
-            animations
-            we wanted. We fell off the edge of the narrative and discovered the necessity of a bounded narrative world.
-            We broke the original programming language.<br><br>
-            It was frustrating. It was wonderful. We dreamed all the time of what we couldn&#39;t do. Somehow we managed
-            to
-            do it…most of it…and created what&#39;s been called the first science fiction hypertext.<br><br>
-            Now, thirty years later, Prof. Dene Grigar and the students from the Creative Media & Digital Culture
-            program have given me any creator&#39;s dream. How would my work look in today&#39;s technology? The
-            <em>King of
-                Space</em>
-            you&#39;ll see can take advantage of graphics design programs, 3D rendering, storage without limits. Most of
-            all, it has the advantage of 22 talented collaborators, bringing back to life the fertility dance in space
-            we first dreamed of back in the ‘80s. Thanks to the CMDC, it&#39;s my honor to have my hypertext literature,
-            like other literature, like films, rethought and made alive for a new generation.<br><br>
-            It&#39;s beautiful, and I hope you&#39;ll enjoy it.
-
+        <div class="statementheader">ARTIST STATEMENT</div>
+        <div class="statementvid"><video controls="true" class="trailer">
+                <source src="img/artiststatement.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="authorstatement"><button id="myBtn">View Artist Statement</button></div>
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>ARTIST STATEMENT</h2>
+                </div>
+                <div class="modal-body">
+                    <p>When I was a graduate student, I wanted to write a book about how technology
+                        influences
+                        narrative. For
+                        instance, how was Samuel Richardson&#39;s <em>Clarissa</em> influenced by the fact that
+                        Richardson himself
+                        printed
+                        it? How was the early film esthetic shaped by orthochromatic film stock?<br><br>
+                        I never got to write that book. Instead, Mark Bernstein gave me a chance to live it.<br><br>
+                        The original <em>King of Space</em> was a creature of the late 1980s, of the very early days of
+                        consumer
+                        computing.
+                        We were roll-your-own to an inconceivable degree. We were thinking out every piece of tech for
+                        the first
+                        time. There were four of us: programmer, artist (the brilliant Matt Mattingly), music (Michael
+                        D), and text
+                        (me). Color wasn&#39;t an option. Neither was enough space to fit all the text in, all the
+                        images and
+                        animations
+                        we wanted. We fell off the edge of the narrative and discovered the necessity of a bounded
+                        narrative world.
+                        We broke the original programming language.<br><br>
+                        It was frustrating. It was wonderful. We dreamed all the time of what we couldn&#39;t do.
+                        Somehow we managed
+                        to
+                        do it…most of it…and created what&#39;s been called the first science fiction hypertext.<br><br>
+                        Now, thirty years later, Prof. Dene Grigar and the students from the Creative Media & Digital
+                        Culture
+                        program have given me any creator&#39;s dream. How would my work look in today&#39;s technology?
+                        The
+                        <em>King of
+                            Space</em>
+                        you&#39;ll see can take advantage of graphics design programs, 3D rendering, storage without
+                        limits. Most of
+                        all, it has the advantage of 22 talented collaborators, bringing back to life the fertility
+                        dance in space
+                        we first dreamed of back in the ‘80s. Thanks to the CMDC, it&#39;s my honor to have my hypertext
+                        literature,
+                        like other literature, like films, rethought and made alive for a new generation.<br><br>
+                        It&#39;s beautiful, and I hope you&#39;ll enjoy it.<br><br>
+                        - Sarah Smith
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
     <!--End Section-->
@@ -122,13 +155,87 @@
     </section>
     <section id="otherworks">
         <div class="owheader">OTHER WORKS</div>
-        <div class="owgridcontainer">
-            <div class="owitem2">Feature 1</div>
-            <div class="owitem2">Feature 2</div>
-            <div class="owitem2">Feature 3</div>
-            <div class="owitem2">Feature 4</div>
-            <div class="owitem2">Feature 5</div>
-        </div>
+        <div class="teams">
+            <!--Executive Team-->
+            <div class="flip-card itemBox">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img/vanishedbook.png">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>The Vanished Child (1992)</h1>
+                        <h2>New England, 1887. A millionaire is brutally murdered. The only witness, his young
+                            grandchild, mysteriously disappears . . . Eighteen years later, in Switzerland, a man with
+                            no memory is "recognized" as Richard Knight, the missing child.
+                        </h2>
+                        <a class="icon-book" href="https://www.sarahsmith.com/the-vanished-child.html"
+                            target="_blank"><i class="fa fa-book"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card itemBox">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img/knowledgebook.png">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>The Knowledge of <br>Water (1996)</h1>
+                        <h2>Set in Paris during the devastating flood of 1910, <em>The Knowledge of Water</em> is a
+                            lush,
+                            complex, beautifully written novel about the consuming pleasures of passion and the
+                            obsessive perils of art.</h2>
+                        <a class="icon-book" href="https://www.sarahsmith.com/the-knowledge-of-water.html"
+                            target="_blank"><i class="fa fa-book"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card itemBox">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img/citizenbook.png">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>A Citizen of the <br>Country (2000)</h1>
+                        <h2>A man in love, a man afraid...a fight against terrible odds...a cursed film, a cursed love,
+                            and the shadows of war...<em>A Citizen of the Country</em>.</h2>
+                        <a class="icon-book" href="https://www.sarahsmith.com/a-citizen-of-the-country.html"
+                            target="_blank"><i class="fa fa-book"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card itemBox">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img/shakespearesbook.png">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Chasing Shakespeares (2003)</h1>
+                        <h2>Joe and Posy find that, when you start chasing Shakespeares, what you find is not only
+                            who he was, but who you are, and how far you're willing to go...</h2>
+                        <a class="icon-book"
+                            href="https://www.sarahsmith.com/chasing-shakespeares-shakespearean-authorship-novel.html"
+                            target="_blank"><i class="fa fa-book"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card itemBox">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img/othersidebook.png">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>The Other Side of <br>Dark (2010)</h1>
+                        <h2>Past, present. Living, dead. Black, white. This is a powerhouse debut about ugly histories,
+                            unlikely romances, and seeing people—alive and otherwise—for who they really are.</h2>
+                        <a class="icon-book" href="https://www.sarahsmith.com/the-other-side-of-dark.html"
+                            target="_blank"><i class="fa fa-book"></i></a>
+                    </div>
+                </div>
+            </div>
     </section>
     <!--End Section-->
 
@@ -224,8 +331,34 @@
         headerLinks.forEach((link) => {
             link.addEventListener('click', (e) => hamburgerButton.checked = false);
         })
+    </script>
 
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
 
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on the button, open the modal
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
     </script>
 </body>
 

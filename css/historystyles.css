@@ -222,11 +222,10 @@ header .container .menu div.buttons>* {
 .page-content {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  min-height: 1000px;
+  min-height: 200px;
   margin: 0 auto;
   padding: 1rem 1.5rem;
   position: relative;
-  background-color: white;
 }
 
 .page-content h1 {
@@ -270,8 +269,21 @@ header .container .menu div.buttons>* {
 .landingheader {
   font-size: 50px;
   text-align: center;
-  padding-top: 20rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
   letter-spacing: 20px;
+  color: white;
+}
+
+.parallax_header {
+  background-image: url("../img/starpattern.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  background-color: #151E24;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -310,6 +322,8 @@ header .container .menu div.buttons>* {
   background: white;
   border: 10px solid #69B7AE;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 
 .bkgitem2 {
@@ -330,6 +344,7 @@ header .container .menu div.buttons>* {
   padding: 5rem;
   position: relative;
   background-color: #5A7C7C;
+
 }
 
 .assetsheader {
@@ -345,20 +360,21 @@ header .container .menu div.buttons>* {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
+
 }
 
 .fotorama {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-}
 
+}
 
 /* ///////////////////// End Section /////////////////////// */
 
 /* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -452,7 +468,7 @@ footer {
 
   /* ///////////////////// Landing Page Mobile (S) /////////////////////// */
   .page-content {
-    min-height: 700px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -468,6 +484,11 @@ footer {
     padding: 1rem 2rem 1rem 2rem;
     font-size: 15px;
   }
+
+  .landingheader {
+    font-size: 30px;
+  }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -555,7 +576,7 @@ footer {
 
   /* ///////////////////// Landing Page Mobile (L) /////////////////////// */
   .page-content {
-    min-height: 1000px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -730,7 +751,7 @@ footer {
 
   /* ///////////////////// Landing Page Tablet /////////////////////// */
   .page-content {
-    min-height: 1000px;
+    min-height: 200px;
   }
 
   .mainlogo {
@@ -741,6 +762,15 @@ footer {
   .playbtn {
     padding: 1rem 2rem 1rem 2rem;
     font-size: 15px;
+  }
+
+  .landingheader {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    letter-spacing: 20px;
+    color: white;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -829,7 +859,7 @@ footer {
 
 
 /* --------------------------DESKTOP STYLES-------------------------------- */
-@media only screen and (min-width: 1040px) {
+@media only screen and (min-width: 1300px) {
 
   header {
     height: 5.2rem;
@@ -889,14 +919,33 @@ footer {
     margin-right: auto;
   }
 
+  .landingheader {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    letter-spacing: 20px;
+    color: white;
+  }
+
+  .parallax_header {
+    background-image: url("../img/starpattern.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-color: #151E24;
+  }
+
   .page-content {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    min-height: 1000px;
+    min-height: 200px;
     margin: 0 auto;
     padding: 1rem 1.5rem;
     position: relative;
-    background-color: white;
   }
 
   .page-content h1 {
@@ -1018,7 +1067,7 @@ footer {
 
   /* ///////////////////// Play Game Desktop /////////////////////// */
   .parallax {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
