@@ -259,6 +259,10 @@ a{
 
 /*Main Game Page Desktop Styles*/
 #title-page{
+  background-image: url(../img/kos-landingpage-image12-draft.png);
+  background-position:bottom;
+  background-size:100%;
+  background-repeat:no-repeat;
   min-height: 100%;
   min-width: 100%;
     

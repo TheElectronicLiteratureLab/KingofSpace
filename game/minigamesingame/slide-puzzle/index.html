@@ -8,7 +8,7 @@
     <title>Slider Puzzle</title>
 </head>
 <body>
-    <div id="wrapper">
+    <div id="wrapper-slide">
         <!--Pretty straight forward table with 4 rows and 4 columns it's an oldschool setup, I may adjust the code to meet HTML 5 standards (table tag and tr/td tags) although, i am not sure how that will effect the css. Guess I'll try it and find out. The onClick function is using the first digit and second digit from the I numbers to separate each cell.-->
         <section id="table">
             <div id="row1">
@@ -35,16 +35,11 @@
                 <div id="tile-43" class="tile15 tiles" onClick="clickTile(4,3);"></div>
                 <div id="tile-44" class="tile16" onClick="clickTile(4,4);"></div>
             </div>
+
+            <section id="sp-options"> <!--sp = slide puzzle-->
+                <button id="sp-button1" onclick="shuffle();" class="game-button">Restart</button>
+            </section>
         </section>
-
-        <section id="sp-options"> <!--sp = slide puzzle-->
-            <button id="sp-button1" class="game-button">Restart</button>
-            <br>
-            <br>
-            
-        </section>
-
-
     </div>
     <script type="text/javascript" src="./js/puzzle-2.js"></script>
 </body>
