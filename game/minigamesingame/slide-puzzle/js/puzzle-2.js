@@ -56,7 +56,7 @@ function clickTile(row,column) {
 }
 
 
-window.onload = setTimeout(()=>{shuffle();}, 2000);
+window.onload = setTimeout(()=>{shuffle();}, 3000);
   
 
 
