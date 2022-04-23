@@ -55,6 +55,9 @@ body{
   margin:0;
   padding:0;
   background-color: #151E24;
+  background-image:url(../img/maingame-starbackground.png);
+  background-repeat:repeat-x;
+  background-position: bottom;
 }
 img{
   width: 100%;
@@ -320,7 +323,7 @@ a{
 
 #game_wrapper{
   width:90%;
-  height:100%;
+  min-height:100vh;
   margin:auto;
 }
 
@@ -353,14 +356,14 @@ a{
   padding: 5%;
   margin:auto;
   background-color: #151E24;
-  text-align: center;
-  
+  text-align: center;  
 }
 
 .game-button:hover{
   transform: scale(0.9);
   opacity: 0.7;
 }
+
 #erotogenerator{
   background-image:url(../img/errotogenerator.png);
   background-position: center;
@@ -444,6 +447,10 @@ a{
 .character-button:hover{
   transform: scale(0.9);
   opacity: 0.7;
+}
+
+.character-button:focus, .character-button:active, .character-button:visited{
+ background-color: #78CBC4;
 }
 
 .button-overlay{
