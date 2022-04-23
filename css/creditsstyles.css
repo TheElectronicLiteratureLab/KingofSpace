@@ -318,7 +318,7 @@ header .container .menu div.buttons>* {
 
 h1 {
   padding-top: 5%;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -329,7 +329,7 @@ h2 {
 .itemText {
   position: absolute;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   background: #5A7C7C;
   padding: 5px;
@@ -506,7 +506,7 @@ section ul li:hover {
 
 .proginfoitem2 {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding: 7rem;
   text-align: left;
   line-height: 30px;
@@ -631,7 +631,7 @@ section ul li:hover {
 
 .footeritem {
   padding: 1rem;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -1213,7 +1213,7 @@ footer {
 
   .proginfoitem2 {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding: 7rem;
     text-align: left;
   }
@@ -1314,7 +1314,7 @@ footer {
 
   h1 {
     padding-top: 5%;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
   }
 
@@ -1325,7 +1325,7 @@ footer {
   .itemText {
     position: absolute;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     background: #5A7C7C;
     padding: 5px;
@@ -1516,7 +1516,7 @@ footer {
 
   .footeritem {
     padding: 1rem;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
   }
 

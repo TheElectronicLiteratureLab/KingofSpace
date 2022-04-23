@@ -317,7 +317,7 @@ header .container .menu div.buttons>* {
 .abtitem {
   text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding: 2rem;
   text-align: left;
   line-height: 30px;
@@ -326,7 +326,7 @@ header .container .menu div.buttons>* {
 
 .abtitem2 {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding: 2rem;
   text-align: left;
   line-height: 30px;
@@ -347,7 +347,7 @@ header .container .menu div.buttons>* {
 
 .authorstatement {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding: 2rem;
   text-align: left;
   line-height: 30px;
@@ -467,7 +467,7 @@ em {
 }
 
 .modal-body {
-  padding: 20px;
+  padding: 18px;
   color: white;
   line-height: 30px;
   height: 100%;
@@ -527,7 +527,7 @@ em {
   border: 10px solid #434A52;
   color: black;
   padding: 2rem;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
@@ -538,7 +538,7 @@ em {
   border: 10px solid #434A52;
   color: black;
   padding: 2rem;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   margin-top: 3rem;
 }
@@ -648,14 +648,14 @@ em {
 
 h1 {
   padding-top: 5%;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   text-align: center;
 }
 
 h2 {
   letter-spacing: 1px;
-  padding: 20px;
+  padding: 18px;
   line-height: 25px;
 }
 
@@ -711,7 +711,7 @@ h2 {
 
 .ognitem2 {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding: 7rem;
   text-align: left;
   line-height: 30px;
@@ -763,7 +763,7 @@ h2 {
 
 .footeritem {
   padding: 1rem;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -879,7 +879,7 @@ footer {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     text-align: center;
   }
 
@@ -1480,14 +1480,14 @@ footer {
   .abtitem {
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 2rem;
     line-height: 30px;
   }
 
   .abtitem2 {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding: 2rem 5rem 0rem 2rem;
     text-align: left;
   }
@@ -1546,14 +1546,14 @@ footer {
     border: 10px solid #434A52;
     color: black;
     padding: 2rem;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
   }
 
   .awitem2 {
     color: white;
     padding: 2rem;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
   }
 
@@ -1625,7 +1625,7 @@ footer {
 
   .ognitem2 {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding: 7rem;
     text-align: left;
     line-height: 30px;
@@ -1678,7 +1678,7 @@ footer {
 
   .footeritem {
     padding: 1rem;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
   }
 
