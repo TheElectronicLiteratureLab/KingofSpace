@@ -376,8 +376,8 @@ p{
 #choiceone:hover, #choicetwo:hover, #choicethree:hover, #choicefour:hover, #choicefive:hover, #choicesix:hover, #choiceseven:hover{
   color: #fff;
   border-bottom: 3px solid #78CBC4;
-   -webkit-transition: 0.35s ease-in-out;
-    transition: 0.35s ease-in-out;
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
 }
 
 #choice-arrow{
@@ -386,9 +386,9 @@ p{
 }
 
 #playboxmain{
-color: white; 
-text-align: left;
-font-size: 16px;
+  color: white; 
+  text-align: left;
+  font-size: 16px;
 }
 
 #radar-puzzle{
@@ -548,16 +548,16 @@ position: absolute;
   top:  34.6%;
   left:  66.5%;
   
- 
+
 }
 #radarimgon{
 position: absolute;
- 
+
   width: 230px;
   top:  34.6%;
   left:  66.5%;
   
- 
+
 }
 #stars{
   position: absolute;
@@ -567,13 +567,14 @@ position: absolute;
   left:  66.5%;
   z-index: -1;
 }
+
 #kal{
   position: absolute;
   height: 170px;
   width: 200px;
   top: 11%;
   left: 18.3%;
-   z-index: -1;
+  z-index: -1;
 }
 
 .rectanglelsmaller {
@@ -581,10 +582,8 @@ position: absolute;
   height: 250px;
   width: 400px;
   /* background-color: black; */
- 
   margin: 1%;
   float: left;
- 
   position: relative;
   opacity: 1;
   font-size: 10px;
@@ -597,13 +596,11 @@ position: absolute;
 
 #switchone  {
   position: absolute;
-  
   left: 35.1%;
   height: 50px;
   width: 32px;
   top: 11.6%;
   background: none;
- 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
@@ -611,13 +608,11 @@ position: absolute;
 }
 #switchonept{
   position: absolute;
-  
   left: 35.1%;
   height: 50px;
   width: 32px;
   top: 14.7%;
   background: none;
- 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
@@ -626,87 +621,76 @@ position: absolute;
 
 
 #switchtwo{
-  position: absolute;
-  
+  position: absolute; 
   left: 40%;
   height: 50px;
   width: 32px;
- top: 14.7%;
+  top: 14.7%;
   background: none;
- 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
 }
 #switchtwopt{
-position: absolute;
-  
+  position: absolute; 
   left: 40%;
   height: 50px;
   width: 32px;
   top: 11.6%;
   background: none;
- 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
-
 }
+
 #switchthree{
   position: absolute;
-  
   left: 44.5%;
   height: 48px;
   width: 32px;
   top: 14.7%;
   background: none;
- 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
 }
+
 #switchthreept{
 position: absolute;
-  
   left: 44.5%;
   height: 50px;
   width: 32px;
   top: 11.6%;
   background: none;
- 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
-
 }
 
 #switchfour{
   position: absolute;
-  
   left: 49.3%;  
   height: 50px;
   width: 32px;
- top: 11.6%;
-background: none;
- 
+  top: 11.6%;
+  background: none;
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
 }
+
 #switchfourpt{
   position: absolute;
-  
   left: 49.3%;  
   height: 50px;
   width: 32px;
   top: 14.7%;
   background: none;
- 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
@@ -715,27 +699,24 @@ background: none;
 
 #switchfive{
   position: absolute;
-
   left: 54%;
   height: 50px;
   width: 32px;
   top: 11.6%;
   background: none;
- 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
 }
+
 #switchfivept{
   position: absolute;
-  
   left: 54%;
   height: 50px;
   width: 32px;
   top: 14.7%;
   background: none;
- 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
@@ -748,23 +729,20 @@ background: none;
   width: 32px;
   top: 11.6%;
   left: 58.4%;
- background: none;
- 
+  background: none;
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
-  
 }
+
 #switchsixpt{
   position: absolute;
-  
   left: 58.4%;
   height: 50px;
   width: 32px;
   top: 14.7%;
   background: none;
- 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
@@ -777,14 +755,11 @@ background: none;
   width: 30px;
   top: 43.8%;
   left: 19.4%;
-  
   background: none;
- 
   background-size: 100%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
-  
 }
 
 #buttontwo{
@@ -793,10 +768,8 @@ background: none;
   width: 30px;
   top: 49%;
   left: 19.4%;
-  
   background: none;
   background-size: 100%;
-  
   background-repeat: no-repeat;
   border: none;
   outline: none;
@@ -810,12 +783,10 @@ background: none;
   top: 54.4%;
   left: 19.4%;
   background: none;
- 
   background-size: 100%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
-  
 }
 
 #buttonfour{
@@ -824,10 +795,8 @@ background: none;
   width: 30px;
   top: 59.6%;
   left: 19.4%;
-  
   background: none;
- background-size: 100%;
- 
+  background-size: 100%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
@@ -839,18 +808,11 @@ background: none;
   width: 30px;
   top: 65.1%;
   left: 19.4%;
-  
   background: none;
- background-size: 100%;
-  
+  background-size: 100%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
-  
-}
-
-
-  
 }
 /* END radar puzzle css   */
 
@@ -936,14 +898,11 @@ background: none;
 }
 /* END tiger puzzle  css   */
 
-
-
-
 .grid {
   display: grid;
   grid-template-columns: 300px 320px 200px;
 }
- 
+
 .left-column {
   display: flex;
   flex-direction: column;
@@ -976,14 +935,13 @@ img {
   left: 170px;
 }
 
-
 /* HORIZATOR PUZZLE CSS */
 
 .rectanglelarge {
   position: absolute;
   height: 660px;
   width: 1000px;
- 	top: 1%;
+  top: 1%;
   margin: 1%;
   float: left;
   border: 2px solid black;
@@ -999,7 +957,7 @@ img {
 	position: absolute;
   height: 560px;
   width: 800px;
- 	top: 1%;
+  top: 1%;
   margin: 1%;
   float: left;
   border: 2px solid black;
@@ -1071,9 +1029,6 @@ font-size: 20px;
 
 /* story css */
 
-
-
-
 /* Library */
 
 /* body  {
@@ -1097,77 +1052,170 @@ font-size: 20px;
 
 #playboxmain-horizator{
   position: absolute;
-top: 20%;
-right: 30%;
-width: 50%;
+  top: 20%;
+  right: 30%;
+  width: 50%;
   text-align: left;
   float: right;
   font-size: 20px;
 }
 
 /* Library */
+
 /* BEGIN troop */
-/* END troop */
-
-/* BEGIN kitchen */
-#tea-directions {
-  width: 49%;
-  float: left;
-}
-
-#makeTea-continue {
-  clear: both;
-}
-
 /*----troop  carrer---*/
-#troop-wrapper  {
+/* #troop-wrapper  {
   width: 100%;
   height:2000px;
   margin: 10%;
   padding: 10%;
+} */
+
+p {
+  margin-top: 0;
+}
+
+#troop-wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+#tc-puzzle {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  background-image: url(../minigamesingame/troop-carrier/img/kos-troopcarrier.png);
+}
+
+/*----------CHECKBOXES----------*/
+.tc-box {
+  height: 40px;
+  width: 40px;
+  opacity: 0;
+}
+
+.tc-box:hover {
+  cursor: grab;
+}
+
+.tc-box:active {
+  cursor: grabbing;
+}
+
+#tc-1 {
+  position: absolute;
+  top: 150px;
+  left: 677px;
+}
+
+#tc-2 {
+  position: absolute;
+  top: 225px;
+  left: 1245px;
+}
+
+#tc-3 {
+  position: absolute;
+  top: 150px;
+  left: 817px;
+}
+
+#tc-4 {
+  position: absolute;
+  top: 900px;
+  left: 635px;
+}
+
+#tc-5 {
+  position: absolute;
+  top: 195px;
+  left: 1325px;
+}
+
+#tc-6 {
+  position: absolute;
+  top: 160px;
+  left: 1447px;
+}
+
+#tc-7 {
+  position: absolute;
+  top: 150px;
+  left: 1085px;
+}
+
+#tc-8 {
+  position: absolute;
+  top: 415px;
+  left: 1245px;
+}
+
+#tc-9 {
+  position: absolute;
+  top: 415px;
+  left: 1330px;
+}
+
+#tc-10 {
+  position: absolute;
+  top: 635px;
+  left: 1545px;
+}
+
+/*----------RESPONSES----------*/
+#tc-text-1, #tc-text-2, #tc-text-3, #tc-text-4, #tc-text-5, #tc-text-6, #tc-text-7, #tc-text-8, #tc-text-9, #tc-text-10 {
+  margin: 0 auto;
+  max-width: 800px;
+  height: 600px;
+  padding-top: 50px;
+}
+/* END troop */
+
+/* BEGIN kitchen */
+#wrapper2 {
+  width: 60%;
+  margin: auto;
+}
+
+#tea-directions {
+    width: 49%;
+    float: left;
 }
 
 /*-----KITCHEN CLOSET-----*/
-#wrapper2  {
-  width: 100%;
-  height:2000px;
-  margin: 0;
-  color: white;
-}
 #kitchen-closet {
-  width: 49%;
-  float: right;
+    width: 49%;
+    float: right;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 5px;
-}
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+  }
 
-.grid-item {
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
 
-#found-teaKettle:hover {
-  cursor: grab;
-}
+  #found-teaKettle:hover {
+    cursor: grab;
+  }
 
-#found-teaKettle:active {
-  cursor: grabbing;
-}
+  #found-teaKettle:active {
+    cursor: grabbing;
+  }
 
-/*-----CUCUMBER SANDWICH-----*/
-#cucmber-sandwich:hover {
-  cursor: grab;
-}
+  /*-----CUCUMBER SANDWICH-----*/
+  #cucmber-sandwich:hover {
+    cursor: grab;
+  }
 
-#cucumber-sandwich:active {
-  cursor: grabbing;
-}
-
+  #cucumber-sandwich:active {
+    cursor: grabbing;
+  }
 /* END kitchen */
-
