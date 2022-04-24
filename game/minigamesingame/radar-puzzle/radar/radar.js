@@ -117,6 +117,10 @@ function radarstart(){
 	hide('switchfourpt');
 	hide('switchfivept');
 	hide('switchsixpt');
+	hide('radarimg');
+	hide('radarimgon');
+	
+	
 
 }
 
@@ -160,6 +164,7 @@ const Emergency = [" Oxygen Reserves Critical<br>"];
 			//S2.style.backgroundImage =  "url(img/switchdown.png)";
 			hide('switchtwo');
 			hide('switchtwopt');
+			hide('radarimg');
 	}
 	else{
 		Stwo = true;
@@ -167,6 +172,7 @@ const Emergency = [" Oxygen Reserves Critical<br>"];
 		//S2.style.backgroundImage =  "url(img/switchup.png)";
 			hide('switchtwopt');
 			hide('switchtwo');
+			hide('radarimg');
 	}
 }
 if (temp === 'switchthree'|| temp === 'switchthreept'){
@@ -313,6 +319,8 @@ if (temp === 'switchsix'|| temp === 'switchsixpt'){
 		
 		//document.getElementById('completed').innerHTML = ` congrats you completed the puzzle`;
 		Emergency.push(" locked on to beacon<br>");
+		hide("radarimgon");
+		hide("radarimg");
 
 		setTimeout(()=>{hide('myModal'); story('next');}, 2000);
 		

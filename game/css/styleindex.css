@@ -540,6 +540,24 @@ font-size: 20px;
   background-size: 100%;
   background-repeat: no-repeat;
 }
+#radarimg{
+position: absolute;
+  
+  width: 230px;
+  top:  34.6%;
+  left:  66.5%;
+  
+ 
+}
+#radarimgon{
+position: absolute;
+ 
+  width: 230px;
+  top:  34.6%;
+  left:  66.5%;
+  
+ 
+}
 #stars{
   position: absolute;
   height: px;
@@ -582,7 +600,7 @@ font-size: 20px;
   left: 35.1%;
   height: 50px;
   width: 32px;
-  top: 11.4%;
+  top: 11.6%;
   background: none;
  
   background-size: 90%;
@@ -596,7 +614,7 @@ font-size: 20px;
   left: 35.1%;
   height: 50px;
   width: 32px;
-  top: 14.5%;
+  top: 14.7%;
   background: none;
  
   background-size: 90%;
@@ -612,7 +630,7 @@ font-size: 20px;
   left: 40%;
   height: 50px;
   width: 32px;
- top: 14.5%;
+ top: 14.7%;
   background: none;
  
   background-size: 90%;
@@ -626,7 +644,7 @@ position: absolute;
   left: 40%;
   height: 50px;
   width: 32px;
-  top: 11.4%;
+  top: 11.6%;
   background: none;
  
   background-size: 90%;
@@ -641,7 +659,7 @@ position: absolute;
   left: 44.5%;
   height: 48px;
   width: 32px;
-  top: 14.5%;
+  top: 14.7%;
   background: none;
  
   background-size: 90%;
@@ -655,7 +673,7 @@ position: absolute;
   left: 44.5%;
   height: 50px;
   width: 32px;
-  top: 11.4%;
+  top: 11.6%;
   background: none;
  
   background-size: 90%;
@@ -671,7 +689,7 @@ position: absolute;
   left: 49.3%;  
   height: 50px;
   width: 32px;
- top: 11.4%;
+ top: 11.6%;
 background: none;
  
   background-size: 90%;
@@ -685,7 +703,7 @@ background: none;
   left: 49.3%;  
   height: 50px;
   width: 32px;
-  top: 14.5%;
+  top: 14.7%;
   background: none;
  
   background-size: 90%;
@@ -700,7 +718,7 @@ background: none;
   left: 54%;
   height: 50px;
   width: 32px;
-  top: 11.4%;
+  top: 11.6%;
   background: none;
  
   background-size: 90%;
@@ -714,7 +732,7 @@ background: none;
   left: 54%;
   height: 50px;
   width: 32px;
-  top: 14.5%;
+  top: 14.7%;
   background: none;
  
   background-size: 90%;
@@ -727,7 +745,7 @@ background: none;
   position: absolute;
   height: 50px;
   width: 32px;
-  top: 11.4%;
+  top: 11.6%;
   left: 58.4%;
  background: none;
  
@@ -743,7 +761,7 @@ background: none;
   left: 58.4%;
   height: 50px;
   width: 32px;
-  top: 14.5%;
+  top: 14.7%;
   background: none;
  
   background-size: 90%;
@@ -756,7 +774,7 @@ background: none;
   position: absolute;
   height: 30px;
   width: 30px;
-  top: 44%;
+  top: 43.8%;
   left: 19.4%;
   
   background: none;
@@ -818,7 +836,7 @@ background: none;
   position: absolute;
   height: 30px;
   width: 30px;
-  top: 64.7%;
+  top: 65.1%;
   left: 19.4%;
   
   background: none;
