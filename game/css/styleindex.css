@@ -105,14 +105,9 @@ p{
 }
 
 #myBtn, #myBtn2, #myBtn3, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7{
-	position: fixed;
-	/* height: 30px;
-	width: 100px; */
-	/* top: 450px;
-	left: 60px; */
-
-  top: 70%;
-	left: 50%;
+	position: absolute;
+  top: 70vh;
+	left: 50vw;
   padding:.5rem;
   background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
   color: white;
@@ -484,7 +479,7 @@ font-size: 16px;
     cursor: pointer;	
   }
 }
-
+/*////////////////////Tablet Main Story Styles//////////*/
 @media only screen and (max-width: 600px){
   .rectanglelargeblack {
     padding: 15px;

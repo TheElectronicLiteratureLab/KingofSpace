@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King of Space: Reconstruction of a Narrative Game</title>
+    <link rel="shortcut icon" type="image/png" href="../../../img/kosabt.png">
     <link rel="stylesheet" type="text/css" href="./css/puzzle-2.css">
+    <link rel="stylesheet" type="text/css" href="../../css/gamestyles.css">
     <title>Slider Puzzle</title>
 </head>
 <body>
+        <!-- Hamburger Menu -->
+        <header>
+            <div class="container">
+                <input class="hamburger-button" type="checkbox" id="hamburger-button" />
+                <label for="hamburger-button">
+                    <div></div>
+                </label>
+    
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="game.html">Title Screen</a></li>
+                            <!-- <li><a href="/">How to Play</a></li> -->
+                            <li><a href="prologue.html">About The World</a></li>
+                            <li><a href="characters.html">Characters</a></li>
+                            <li><a href="gameonly.html">Game Only Mode</a></li>
+    
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- End of Hamburger Menu  -->
     <div id="wrapper-slide">
         <!--Pretty straight forward table with 4 rows and 4 columns it's an oldschool setup, I may adjust the code to meet HTML 5 standards (table tag and tr/td tags) although, i am not sure how that will effect the css. Guess I'll try it and find out. The onClick function is using the first digit and second digit from the I numbers to separate each cell.-->
         <section id="table">
@@ -37,7 +63,8 @@
             </div>
 
             <section id="sp-options"> <!--sp = slide puzzle-->
-                <button id="sp-button1" onclick="shuffle();" class="game-button">Restart</button>
+                <button class="primary-button" onclick="location.href='../../gameonly.html'">&#8249; Back to Game Menu</button>
+                <button id="sp-button1" onclick="shuffle();" class="primary-button">Restart</button>
             </section>
         </section>
     </div>

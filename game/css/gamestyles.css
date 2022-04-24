@@ -55,6 +55,9 @@ body{
   margin:0;
   padding:0;
   background-color: #151E24;
+  background-image:url(../img/maingame-starbackground.png);
+  background-repeat:repeat-x;
+  background-position: bottom;
 }
 img{
   width: 100%;
@@ -259,7 +262,7 @@ a{
 
 /*Main Game Page Desktop Styles*/
 #title-page{
-  background-image: url(../img/kos-landingpage-image12-draft.png);
+  background-image: url(../img/kos-landingpage02-draft\ \(1\).gif);
   background-repeat:no-repeat;
   background-size: 100%;
   min-height:100vh;
@@ -280,7 +283,7 @@ a{
   display: flex;
   align-items: center;
   justify-content:center;
-  gap:25px;
+  gap:30px;
 }
 
 .primary-button{
@@ -310,9 +313,6 @@ a{
   .primary-button{
   font-size: 15px;
   }
-  #title-page{
-    background-size:100%;
-  }  
 }
 
 
@@ -320,7 +320,7 @@ a{
 
 #game_wrapper{
   width:90%;
-  height:100%;
+  min-height:100vh;
   margin:auto;
 }
 
@@ -353,14 +353,14 @@ a{
   padding: 5%;
   margin:auto;
   background-color: #151E24;
-  text-align: center;
-  
+  text-align: center;  
 }
 
 .game-button:hover{
   transform: scale(0.9);
   opacity: 0.7;
 }
+
 #erotogenerator{
   background-image:url(../img/errotogenerator.png);
   background-position: center;
@@ -444,6 +444,10 @@ a{
 .character-button:hover{
   transform: scale(0.9);
   opacity: 0.7;
+}
+
+.character-button:focus, .character-button:active, .character-button:visited{
+ background-color: #78CBC4;
 }
 
 .button-overlay{
@@ -602,36 +606,18 @@ justify-content: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	border: none;
- 
+  filter: drop-shadow(0px 0px 5px #78CBC4);
   cursor: pointer;	
 }
 
-
 /*///////////////// prologue tablet styles /////////////////*/
-@media only screen and (max-width: 1001px) and (min-width: 876px){
-  #politics{
-    text-align: left;
-    margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
+@media only screen and (max-width: 1001px) and (min-width: 601px){
+
+  #prologue-wrapper p{
+    font-size: 18px;
   }
-  #religion{
-    text-align: left;
-    margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  #trade{
-    text-align: left;
-    margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  /* #arrow-button{
-    margin: 50px 25px 0 auto;
+  #arrow-button{
+    margin: 50px 25px 35px auto;
     height: 25px;
     width: 100px;
     background: none;
@@ -642,70 +628,29 @@ justify-content: center;
     outline: none;
     filter: drop-shadow(0px 0px 5px #78CBC4);
     cursor: pointer;	
-
-  } */
+  }
 }
-
-@media only screen and (max-width: 875px) and (min-width: 601px){
-  #politics{
-    text-align: left;
-    margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  #religion{
-    text-align: left;
-    margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  #trade{
-    text-align: left;
-    margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  /* #arrow-button{
-    background-color: #151E24;
-    border-color: #151E24;
-    padding-left: 200px;
-  } */
-
-}
-
-/*/////////////////prologue mobile styles /////////////////*/
+/*///////////////// prologue mobile styles /////////////////*/
 @media only screen and (max-width: 600px){
-  #politics{
-    text-align: left;
-    margin-left: 0% ;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #religion{
-    text-align: left;
-    margin-left: 0% ;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #trade{
-    text-align: left;
-    margin-left: 0% ;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
+  #prologue-wrapper p{
+    font-size: 16px;
   }
   #arrow-button{
-    background-color: #151E24;
-    border-color: #151E24;
-   padding-left:200px;
+    margin: 50px 25px 35px auto;
+    height: 25px;
+    width: 100px;
+    background: none;
+    background-image: url(../img/arrow.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 5px #78CBC4);
+    cursor: pointer;	
   }
-
 }
+
+
 /*//////////////////// location  styles /////////////////*/
   /* body {
     background: #151e24;

@@ -89,3 +89,10 @@ body {
   cursor: pointer;
   border: 1px solid white;
 }
+
+#sp-options{
+  margin: 20px auto;
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+}

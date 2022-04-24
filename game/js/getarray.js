@@ -22,7 +22,7 @@ let story= ["Sunside of the Asteroid Belt,  the fertile Empire of  Terra stretch
 
 "The radar beacon has locked on to something. <br> <br>Barely visible, a shadow-shape blocks the stars. <br><br> <i>Eternal Mother!</i> - it's a ship. An old one, and huge. <br> <br> It's the size of a Class A town, a great irregular cloud of modules and environments, furred with the junk of a thousand System journeys, revolving around itself in a vast complexity of orbits. At its edges he can see the stars though the cloud, but in its center the pods swarm so thickly that the ship looks like a single vast solid object. <br> <br> And it is dark. No lights shine from it: no red warning lamps, no yellow haze of sunlights.",//8
 
-"*** LADY NII: HERMES-CLASS GREATSHIP *** <br><br> *** WARNING!*** <br> *** ABANDONED IMPERIAL YEAR 869 *** <br><br> *** MAY BE CONTAMINATED BY PLAGUE *** ", //9
+"<b>*** LADY NII: HERMES-CLASS GREATSHIP *** <br><br> *** WARNING!*** <br> *** ABANDONED IMPERIAL YEAR 869 *** <br><br> *** MAY BE CONTAMINATED BY PLAGUE *** </b>", //9
 
 " Abandoned since the Plague struck. <br> <br>Fifty years abandoned. <br><br> Yet this ship, Nii, may still have some life. Oxygen, algae… <br> <br>Enough to live on. Enough to make a place with, in these dead asteroids. By the Emperor and his Mother, Tam could live… <br><br> And Tam's are supposed to be resistant to Plague. <br><br> How resistant?",//10
 
