@@ -262,7 +262,7 @@ a{
 
 /*Main Game Page Desktop Styles*/
 #title-page{
-  background-image: url(../img/kos-landingpage-image12-draft.png);
+  background-image: url(../img/kos-landingpage02-draft\ \(1\).gif);
   background-repeat:no-repeat;
   background-size: 100%;
   min-height:100vh;
@@ -283,7 +283,7 @@ a{
   display: flex;
   align-items: center;
   justify-content:center;
-  gap:25px;
+  gap:30px;
 }
 
 .primary-button{
@@ -313,9 +313,6 @@ a{
   .primary-button{
   font-size: 15px;
   }
-  #title-page{
-    background-size:100%;
-  }  
 }
 
 
