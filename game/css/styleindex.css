@@ -407,7 +407,8 @@ font-size: 16px;
 #mainstory{
 	background-size: 100%;
 	background-repeat: no-repeat;
-  margin: 50px auto;
+  margin: auto;
+  padding-top: 50px;
   max-width: 1000px;
   height: 600px;
 }
