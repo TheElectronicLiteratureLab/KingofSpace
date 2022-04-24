@@ -609,36 +609,18 @@ justify-content: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	border: none;
- 
+  filter: drop-shadow(0px 0px 5px #78CBC4);
   cursor: pointer;	
 }
 
-
 /*///////////////// prologue tablet styles /////////////////*/
-@media only screen and (max-width: 1001px) and (min-width: 876px){
-  #politics{
-    text-align: left;
-    margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
+@media only screen and (max-width: 1001px) and (min-width: 601px){
+
+  #prologue-wrapper p{
+    font-size: 18px;
   }
-  #religion{
-    text-align: left;
-    margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  #trade{
-    text-align: left;
-    margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  /* #arrow-button{
-    margin: 50px 25px 0 auto;
+  #arrow-button{
+    margin: 50px 25px 35px auto;
     height: 25px;
     width: 100px;
     background: none;
@@ -649,70 +631,29 @@ justify-content: center;
     outline: none;
     filter: drop-shadow(0px 0px 5px #78CBC4);
     cursor: pointer;	
-
-  } */
+  }
 }
-
-@media only screen and (max-width: 875px) and (min-width: 601px){
-  #politics{
-    text-align: left;
-    margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  #religion{
-    text-align: left;
-    margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  #trade{
-    text-align: left;
-    margin-left: 20px auto;
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  /* #arrow-button{
-    background-color: #151E24;
-    border-color: #151E24;
-    padding-left: 200px;
-  } */
-
-}
-
-/*/////////////////prologue mobile styles /////////////////*/
+/*///////////////// prologue mobile styles /////////////////*/
 @media only screen and (max-width: 600px){
-  #politics{
-    text-align: left;
-    margin-left: 0% ;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #religion{
-    text-align: left;
-    margin-left: 0% ;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #trade{
-    text-align: left;
-    margin-left: 0% ;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
+  #prologue-wrapper p{
+    font-size: 16px;
   }
   #arrow-button{
-    background-color: #151E24;
-    border-color: #151E24;
-   padding-left:200px;
+    margin: 50px 25px 35px auto;
+    height: 25px;
+    width: 100px;
+    background: none;
+    background-image: url(../img/arrow.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 5px #78CBC4);
+    cursor: pointer;	
   }
-
 }
+
+
 /*//////////////////// location  styles /////////////////*/
   /* body {
     background: #151e24;
