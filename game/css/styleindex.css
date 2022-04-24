@@ -179,25 +179,30 @@ p{
 }
 
 /* The Close Button */
-.close {
+.close, .close2, .close3, .close4, .close5, .close6, .close7 {
   color: #78CBC4;
   /* float: right; */
-  margin-left: 95%;
-  margin-top:.2%;
+  /* margin-left: 95%;    <--- We should not use margins to position items. the margin causes the content under it to be pushed down. I changed this to fixed positioning - Cullen
+  margin-top:.2%; */
+  position: fixed;
+  top: 10px;
+  right: 20px;    
   font-size: 60px;
   /* font-weight: bold; */
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close2:hover, .close3:hover, .close4:hover, .close5:hover, .close6:hover, .close7:hover,
+.close:focus, .close2:focus, .close3:focus, .close4:focus, .close5:focus, .close6:focus, .close7:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
 
-.close2 {
+/* .close2 {
   color: #FFFFFF;
-  float: right;
+  position: fixed;
+  right: 15px;
+  top: 10px;
   font-size: 28px;
   font-weight: bold;
 }
@@ -277,7 +282,7 @@ p{
   color: #000;
   text-decoration: none;
   cursor: pointer;
-}
+} */
 
 
 .rectanglelarge {
@@ -840,7 +845,9 @@ background: none;
 }
 
 #table {
-  padding-top: 30%;
+  padding-top: 10%;
+  width: 480px;
+  margin: auto;
 }
 
 .tiles {
