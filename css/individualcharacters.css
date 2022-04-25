@@ -349,7 +349,7 @@ video {
 }
 
 .profile {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   border: 10px solid #69B7AE;
   color: black;
   font-size: 18px;
@@ -378,7 +378,7 @@ video {
 
 /* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -387,6 +387,7 @@ video {
   margin: 0 auto;
   padding: 15rem;
   background-color: #151E24;
+  text-align: center;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -660,7 +661,7 @@ footer {
   }
 
   .profile {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     border: 10px solid #69B7AE;
     color: black;
     font-size: 18px;
