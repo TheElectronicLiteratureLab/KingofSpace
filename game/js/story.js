@@ -258,7 +258,7 @@ function story(temp) {
 					current ++; // Great ship 
 					// print out array
 					//getstory(current);
-					console.log(story('next'));
+					//console.log(story('next'));
 				}
 				break;
 
@@ -341,13 +341,13 @@ function story(temp) {
 					console.log(story('next'));
 				}
 				if(temp === 'two'){
-					current = 161 ; // go right
+					current = 160 ; // go right
 					// print out array
 					getstory(current);
 					console.log(story('next'));
 				}
 				else if (temp  === 'three'){
-					current = 162; // getting thirsty
+					current = 161; // getting thirsty
 					getstory(current);
 					console.log(story('next'));
 				}
@@ -739,11 +739,11 @@ function story(temp) {
 			case 169:
 				// unhide choise buttons 
 				
-				hide('Next');
-				hide('choiceone');
-				hide('choisctwo');
-				hide('choicethree');
-				hide('choicefour');
+				//hide('Next');
+				//hide('choiceone');
+				//hide('choisctwo');
+				//hide('choicethree');
+				//hide('choicefour');
 				document.getElementById('choiceone').innerHTML = `Library Fuction <b>&#8250;</b>`;
 				document.getElementById('choicetwo').innerHTML = ` Important note <b>&#8250;</b>`;
 				document.getElementById('choicethree').innerHTML = ` Back to Horizator <b>&#8250;</b>`;

@@ -1,12 +1,21 @@
+
+
 // ////////Toggles through different character divs on button click////////////////////////////
 var divs = ["tam","nii","brady","aster"];
       let visibleId = null;
+
+      function start(){
+        //show("tam");
+        hide();
+      }
+
       function show(id) {
         if(visibleId !== id) {
           visibleId = id;
         } 
         hide();
       }
+
       function hide() {
         let div, i, id;
         for(i = 0; i < divs.length; i++) {
