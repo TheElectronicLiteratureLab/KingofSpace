@@ -1176,7 +1176,17 @@ p {
 #wrapper2 {
   width: 60%;
   margin: auto;
+  color: #D6DCD5;
+  list-style-type: disc;
+  font-size: 20px;
+  line-height: 1.7;
+  margin-top: 5%;
 }
+
+#wrapper2 li {
+  list-style-type: disc;
+  font-size: 20px;
+} 
 
 #tea-directions {
     width: 49%;
@@ -1196,7 +1206,7 @@ p {
   }
 
   .grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 1px solid #D6DCD5;
     padding: 20px;
     font-size: 30px;
     text-align: center;
