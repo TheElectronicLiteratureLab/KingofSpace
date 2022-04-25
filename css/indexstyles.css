@@ -226,6 +226,7 @@ header .container .menu div.buttons>* {
   padding: 1rem 1.5rem;
   position: relative;
   background-color: white;
+  text-align: center;
 }
 
 .page-content h1 {
@@ -400,6 +401,7 @@ header .container .menu div.buttons>* {
   margin: 0 auto;
   padding: 15rem;
   background-color: #151E24;
+  text-align: center;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -1333,6 +1335,7 @@ footer {
     margin: 0 auto;
     padding: 15rem;
     background-color: #151E24;
+    text-align: center;
   }
 
   /* ///////////////////// End Section /////////////////////// */

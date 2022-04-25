@@ -327,7 +327,7 @@ video {
 
 /* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -336,6 +336,7 @@ video {
   margin: 0 auto;
   padding: 15rem;
   background-color: #151E24;
+  text-align: center;
 }
 
 /* ///////////////////// End Section /////////////////////// */

@@ -383,6 +383,7 @@ header .container .menu div.buttons>* {
   margin: 0 auto;
   padding: 15rem;
   background-color: #151E24;
+  text-align: center;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -1076,6 +1077,7 @@ footer {
     margin: 0 auto;
     padding: 15rem;
     background-color: #151E24;
+    text-align: center;
   }
 
   /* ///////////////////// End Section /////////////////////// */
