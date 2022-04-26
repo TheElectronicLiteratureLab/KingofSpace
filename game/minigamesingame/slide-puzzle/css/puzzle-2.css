@@ -98,3 +98,10 @@ body {
   justify-items:center;
   align-content: center;
 }
+
+@media only screen and (max-width: 600px){
+
+  #table{
+    width: 20%;
+  }
+}
