@@ -350,7 +350,7 @@ video {
 
 .profile {
   background-image: url("../img/starpattern.png");
-  border: 10px solid #69B7AE;
+  border: 5px solid #69B7AE;
   color: black;
   font-size: 18px;
   padding: 1rem 1rem 0rem 1rem;
@@ -421,7 +421,7 @@ video {
 
 .footeritem {
   padding: 1rem;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -662,7 +662,7 @@ footer {
 
   .profile {
     background-image: url("../img/starpattern.png");
-    border: 10px solid #69B7AE;
+    border: 5px solid #69B7AE;
     color: black;
     font-size: 18px;
     padding: 1rem 1rem 0rem 1rem;
@@ -762,7 +762,7 @@ footer {
 
   .footeritem {
     padding: 1rem;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #footer {
