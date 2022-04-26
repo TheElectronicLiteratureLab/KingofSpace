@@ -91,8 +91,10 @@ body {
 }
 
 #sp-options{
-  margin: 20px auto;
+  margin: auto;
   width:100%;
   display:flex;
   justify-content: space-between;
+  justify-items:center;
+  align-content: center;
 }
