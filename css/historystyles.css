@@ -339,9 +339,9 @@ header .container .menu div.buttons>* {
 
 /* ///////////////////// Assets Section /////////////////////// */
 #assets {
-  min-height: 540px;
+  min-height: 800px;
   margin: 0 auto;
-  padding: 5rem;
+  padding-top: 5rem;
   position: relative;
   background-color: #5A7C7C;
 
@@ -418,7 +418,7 @@ header .container .menu div.buttons>* {
 
 .footeritem {
   padding: 1rem;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -546,7 +546,7 @@ footer {
 
   .footeritem {
     padding: 1rem;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #footer {
@@ -625,7 +625,7 @@ footer {
 
   #assets {
     padding: 2rem;
-    min-height: 540px;
+    min-height: 600px;
   }
 
   .fotorama {
@@ -646,7 +646,7 @@ footer {
 
   .footeritem {
     padding: 1rem;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #footer {
@@ -809,7 +809,7 @@ footer {
 
   #assets {
     padding: 2rem;
-    min-height: 540px;
+    min-height: 800px;
   }
 
   .fotorama {
@@ -831,7 +831,7 @@ footer {
 
   .footeritem {
     padding: 1rem;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   #footer {
@@ -1033,11 +1033,9 @@ footer {
 
   /* ///////////////////// Original Assets Desktop /////////////////////// */
   #assets {
-    min-height: 1000px;
+    min-height: 800px;
     margin: 0 auto;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    padding: 5rem;
+    padding-top: 5rem;
     position: relative;
     background-color: #5A7C7C;
   }
@@ -1112,7 +1110,7 @@ footer {
 
   .footeritem {
     padding: 1rem;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
   }
 
