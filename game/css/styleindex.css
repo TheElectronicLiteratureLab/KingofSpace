@@ -898,6 +898,28 @@ position: absolute;
   cursor: pointer;
   border: 1px solid white;
 }
+
+
+@media only screen and (max-width: 600px){
+
+  #table{
+    width: 240px;
+  }
+
+  .tiles{
+    width: 60px;
+    height: 60px;
+  }
+  .tile16 {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+
+
+
+
 /* END tiger puzzle  css   */
 
 .grid {
