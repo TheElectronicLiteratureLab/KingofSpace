@@ -19,6 +19,7 @@ function onstart(){
 	hide('choicefive');
 	hide('choicesix');
 	hide('choiceseven');
+	hide('choiceeight');
 	hide('myBtn');// radar
 	hide('myBtn2'); //slider puzzle / tiger
 	hide('myBtn3'); // tetris
@@ -68,7 +69,7 @@ function story(temp) {
 
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
-	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'three'|| temp === 'four' ){
+	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'three'|| temp === 'four' || temp === 'five' || temp === 'six' || temp === 'seven' || temp === 'eight'){
 		//console.log('im here in next')
 	
 		//console.log ("made it to while loop");
@@ -278,7 +279,7 @@ function story(temp) {
 					console.log(story('next'));
 				}
 				else if(temp === 'two'){
-					current = 199 ; // why not 
+					current = 198 ; // why not 
 					// print out array
 					getstory(current);
 					console.log(story('next'));
@@ -518,7 +519,7 @@ function story(temp) {
 				document.getElementById('choicefive').innerHTML = ` Central Storage  <b>&#8250;</b>`;
 				document.getElementById('choicesix').innerHTML = ` Central Control <b>&#8250;</b>`;
 				hide('choiceseven');
-				document.getElementById('choiseseven').innerHTML = `Ask the priestess for help <b>&#8250;</b>`;
+				document.getElementById('choiceseven').innerHTML = `Ask the priestess for help <b>&#8250;</b>`;
 				
 				if(temp === 'one'){
 					current = 123;// The Water Center 
@@ -659,13 +660,14 @@ function story(temp) {
 				break;
 
 			case 152:
-				current =  326; //last line.... 
+				current =  323; //last line.... 
 
 				break;
 
-			case 160:
-					current = 194
+			case 159:
+				current = 193;
 				break;
+			
 
 			case 160:
 				
@@ -844,13 +846,13 @@ function story(temp) {
 					getstory(current);
 					console.log(story('next'));
 				}
-				if(temp === 'five'){
+				if(temp === 'seven'){
 					current = 96; // follow brady and aster 
 					// print out array
 					getstory(current);
 				}
-				else if (temp  === 'six'){
-					current = 112; // getting thursty
+				else if (temp  === 'eight'){
+					current = 111; // getting thursty
 					getstory(current);
 					console.log(story('next'));
 				}

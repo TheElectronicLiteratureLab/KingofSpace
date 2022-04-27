@@ -4,9 +4,9 @@ function getstory (current){
 	
 let story= ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches from Venus to Mars. The Emperor reigns here with his Children, the Priestess and the Red King. The Terrans flourish on three worlds, two inhabited moons, and hundreds of bata, the spacebore colonies run by the six Houses. <br> <br>Darkside lies the Lo-Europa Complex, home of the inhumans, rebels against the Empire. <br> <br> Between them are the Rocks-the Asteroid Belt, quarantined against men and unmen.", // 0
 
-"It is a place of unimaginable emptiness. In 690 billion square miles, only three asteroids can support a Class A town: Pallas the Whorehouse, Circe the prison, and Ceres the Bureaucracy. From these three asteroids, hidden behind glass screens and virus filters, the Terran administrators try to hold a territory larger than all of the empire. <br><br> The Independent Trading Colonies scratch out a living in Beltspace. Each ITC supports perhaps 50 to 100 humans. But between the ITCs and the three, there is emptiness, desertion, and silence. <br> <br>50 years ago, it was different. But then the Incarnations came, the Priestess and the Red King…<br><br>And after them, the Plague…",// 1
+"It is a place of unimaginable emptiness. In 690 billion square miles, only three asteroids can support a Class A town: Pallas the spa, Circe the prison, and Ceres the Bureaucracy. From these three asteroids, hidden behind glass screens and virus filters, the Terran administrators try to hold a territory larger than all of the empire. <br><br> The Independent Trading Colonies scratch out a living in Beltspace. Each ITC supports perhaps 50 to 100 humans. But between the ITCs and the three, there is emptiness, desertion, and silence. <br> <br>50 years ago, it was different. But then the Incarnations came, the Priestess and the Red King…<br><br>And after them, the Plague…",// 1
 
-"Year 919 of the Empire. On his dying spaceboat, Tam Ross dreams… <br> <br>He is back on ITC 3502, curled up in the sleeping pod he shares with his mother. His mother is a very important person, a watchman at the WaterCenter. Their pod hangs by the big water tanks. <br><br> He is an important person too. <br> <br> He cracks open the sleeping pod and sniffs the cool fresh air. The auxiliary lights flicker dimly. The sunlights are still off. In a tiny spotlight, the sacred puppet of the Rice Emperor dances in the wind from the air vents.", //2 (corner image)
+"Year 919 of the Empire. On his dying spaceboat, Tam Ross dreams… <br> <br>He is back on ITC 3502, curled up in the sleeping pod he shares with his mother. His mother is a very important person, a watchman at the WaterCenter. Their pod hangs by the big water tanks. <br><br> He is an important person, too. <br> <br> He cracks open the sleeping pod and sniffs the cool fresh air. The auxiliary lights flicker dimly. The sunlights are still off. In a tiny spotlight, the sacred puppet of the Rice Emperor dances in the wind from the air vents.", //2 (corner image)
 
 "Tam touches the edge of the sleeping pod and wiggles out the seam. The cool damp air raises goosebumps on his skin. He runs over the prickly- grassed nutrient floor and climbs up the ladder to the biggest tank. <br> <br>He jumps in and begins swimming among the koi, in the cold early-morning water, and the big fish rub their bodies against his and kiss him, asking for food.", // 3 (sleeping pod image ?) 
 
@@ -306,7 +306,7 @@ let story= ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches
 
 "The horizator doors squeal open in the high gravity. The gravity suck at them, makes them both fall to the floor. Pain jabs into Brady's ribs.<br><br> On the wrestling mats, heavy-grav sumo warriors grunt and sweat.<br><br> One wrestler falls on another with a thump that shakes the steel floor.",
 
-"The horizator jets out, a soft acceleration, and gravity eases around them. Brady sits up shakily. The pain habs and twists as if he's broken a rib. <br><br> <<Sorry,>> Nii whispers in his ear.<<Look.>> <br><br> She shows him pictures of the boy struggling with the kitchen. brady laughs. The Priestess asks ''What is it?'' Sh can't see what Nii show him. Nii's got lines into his herves, his head. Part of being Captain and wearing the crown.",
+"The horizator jets out, a soft acceleration, and gravity eases around them. Brady sits up shakily. The pain habs and twists as if he's broken a rib. <br><br> <i> Sorry, </i> Nii whispers in his ear.<i> Look. </i> <br><br> She shows him pictures of the boy struggling with the kitchen. brady laughs. The Priestess asks ''What is it?'' Sh can't see what Nii show him. Nii's got lines into his herves, his head. Part of being Captain and wearing the crown.",
 //go's back to 122
 
 //122 choise central storage 
@@ -328,25 +328,25 @@ let story= ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches
 "As the doors open, the soft moisture of the Water Center envelops them. The air is misty, oxygen-rich, inviting. They lean over the water of the Great Tank, and the Priestess touches the surface of the water. The koi kiss her hand with their whiskered mouths.",
 // go back to 129
 
-//130 choise Drydock
+//129 choise Drydock
 
 "The doors iris open on to vast space. They are poised at the top of a huge chamber, half a klick across. A little yacht hangs in the middle of the space, a bumby web held by guy cables. A group of attendants dance near the yacht, far away, tiny, snowflacks driftting through air. <br><br> Far away but recognizable, Quigg, Royce, and Stephens dance in the air.",
-//go's back to 130
+//go's back to 129
 
-//130 choise The exercise Room
+//129 choise The exercise Room
 
 "The horizator doors squeal open in the high gravity.<br><br> On the wrestling mats, heavy-grav sumo warriors grunt and sweat. Their weight tugs at them. A red-bearded man falls under his opponet's weight.",
-//go's back to 130
+//go's back to 129
 
-//130 choise Central Storage
+//129 choise Central Storage
 
 "Central Storage is a vast space in the center of Nii's web. There are no walls; it is open to hard vacuum. <br><br> The horizator walls fo transparent. They are standing in darkness speckled with hard chips of light. <br><br> The horizator dirgts ou of the web of stars in to immense darknesses, cargo pods that shut out all light, all sense of place. <br><br> Inside the cargo pods it is darker thatn blindness. <br><br> They drift against one wall of the horizator. Given gravity only by their motion, he and she are weightless, bodiless, twin seeds drigting together.",
-//go's back to 130
+//go's back to 129
 
 //130 choise central control
 
 "*** NOT AVAILABLE***",
-//go's back to 130
+//go's back to 129
 
 //130 choise grate hall 
 
@@ -376,15 +376,15 @@ let story= ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches
 
 "In the mirror, two men, one young, one old. Brady does not know which one he is; he feels like the old one. <br><br> His legs cannot hold him; he falls on his side. His heart pounds his hurt ribs like a fist.",
 
-"He can feel his own skinny- ribbed chest under his crossed arms. His body is a map of pain, old muscles strained as if they were young. Illusions only go so far. Nii forgets to block the sense of touch. <br><br><<Nii,>> he wispers to her. <<I haven't seen Quigg for years. NOt Royce, not Stephens. . .. HOw long was it, Nii, that I waited for the Priestess?>> <br><br> <<Not long, my Captain.>><br><br><<Quigg got old but I never did.>><br><br><<Never,>> says Nii.",
+"He can feel his own skinny- ribbed chest under his crossed arms. His body is a map of pain, old muscles strained as if they were young. Illusions only go so far. Nii forgets to block the sense of touch. <br><br> <i> Nii, </i> he wispers to her. <i> I haven't seen Quigg for years. NOt Royce, not Stephens. . .. HOw long was it, Nii, that I waited for the Priestess? </i> <br><br> <i> Not long, my Captain. </i> <br><br> <i> Quigg got old but I never did. </i><br><br><i> Never, </i> says Nii.",
 
-"He looks up at the Solar System, spread out abouve him. Two faces lean abouve him. He raises one aching arm and touches their skin. It is a shock, like the sense-memory of Terra stored in Terra's orbit. Nii never quite got skin right. It was too hot or too cold, sticky like rubber or solft but crisp like silk.<br><br> This is skin<br><br> He puts his hand on the young man's head, touches the woman's arm. <br><br><<Show me,>> he says to Nii ",
+"He looks up at the Solar System, spread out abouve him. Two faces lean abouve him. He raises one aching arm and touches their skin. It is a shock, like the sense-memory of Terra stored in Terra's orbit. Nii never quite got skin right. It was too hot or too cold, sticky like rubber or solft but crisp like silk.<br><br> This is skin<br><br> He puts his hand on the young man's head, touches the woman's arm. <br><br><i> Show me, </i> he says to Nii ",
 
 "He is watching the Red King and the Priestess. Around them the mirroed hall dissolves. One half-exausted sunlight gutters in a tiny cabin. The space is barly big enough fo rthe three of them. He remembers dancing in great orbits, but his dusty footprints are crowded together on the floor.<br><br> On the walls are comm-jacks and screens, instrument panels. A few lights still flicker. Long ago, sumeone attached a striped plague-flag to the instument panel. Long ago, someone smashed a screen.<br><br> The solar system still wheels abouve him, an astrogator's toy, no wider than the teach of his arms.Jupiter flickers as it it were about to go out.<br><br> Bit the Priestess and the Red King are just as they were.",
 
-"And now they are back in the mirrored Great Hall, and the dance is over. The flutes whistle and the drums beat. The Attendants of the Bedchamber cover the lovers in red and blue silk robes. Someone has brought a try of food to refresh the lovers. The doors of the inner chamber open and the lovers withdraw., followed by their attendants. There is only one person left in the Great Hall, an old man lying on the floor. <br><br> Someone brings a blanket to cover him and put a pillow under his head. Some one sits down by him <br><br> <<Nii?>>",
+"And now they are back in the mirrored Great Hall, and the dance is over. The flutes whistle and the drums beat. The Attendants of the Bedchamber cover the lovers in red and blue silk robes. Someone has brought a try of food to refresh the lovers. The doors of the inner chamber open and the lovers withdraw., followed by their attendants. There is only one person left in the Great Hall, an old man lying on the floor. <br><br> Someone brings a blanket to cover him and put a pillow under his head. Some one sits down by him <br><br> <i>Nii?</i>",
 
-"He has not seen her like this before. She is old, her eyes surrounded by laughing wrinkles, her long black hair streaked with gray. She wears a magnigicent cortesan's kimono dyed with a design of apple blossoms. Sh has brought green tea and sandwiches for him. Her hand against his cheek is soft and thin as old silk.She spreads her wide sleeves. <<Am I not beautiful?>> the old woman says.<br><br> <<You are always beautiful.>> <br><br> <<Spring is coming,>> she smiles, <<even if we are old.>> <br><br> Far away, the attendants of the bedchamber rejoice. The Priestess and the RedKing have come. <br><br> All through the ship it begins to be spring",// go to end
+"He has not seen her like this before. She is old, her eyes surrounded by laughing wrinkles, her long black hair streaked with gray. She wears a magnigicent cortesan's kimono dyed with a design of apple blossoms. Sh has brought green tea and sandwiches for him. Her hand against his cheek is soft and thin as old silk.She spreads her wide sleeves. <i>Am I not beautiful?</i> the old woman says.<br><br> <i>You are always beautiful.</i> <br><br> <i>Spring is coming,</i> she smiles, <i>even if we are old.</i> <br><br> Far away, the attendants of the bedchamber rejoice. The Priestess and the RedKing have come. <br><br> All through the ship it begins to be spring",// go to end
 // an end last line jump. 
 
 
@@ -647,13 +647,13 @@ let story= ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches
 
 "She sits down on the floor, her arms between her legs, ignoring the cloak. <br> <br> ‘‘The Nii took a hit,’’ she says, slowly, slurring her words. ‘‘A meteor. Smashed something in her memory. She hasn't worked right since. She-forgets how people work. Gives me Ceremony wine all the time. She will give you food,’’ the Priestess says, almost defensively, ‘‘if you ask.’’ ",
 
-" ‘‘You ought to as for food more often,’’ he says. <br> <br> She smiles an odd proud smile, looking up at him. ‘‘I dont care,’’ she confides. ‘‘When Brady woke me up he tried to do the Ceremony with me. He started- before I was even awake. It was an illusion-ceremony, the banquet, the attendants, the ship tour. He made believe that he was doing the Solar System dance for me. Then he tried to be my Red King-’’ She shudders and wraps her arms around her body, twisting back and forth as if there is something in her body that she wants to get away from. ‘‘He tries every shipnight,’’ she says. Her back is marked with long shallow scabs. She could heal them if she cared about them. ", 
+" ‘‘You ought to ask for food more often,’’ he says. <br> <br> She smiles an odd proud smile, looking up at him. ‘‘I dont care,’’ she confides. ‘‘When Brady woke me up he tried to do the Ceremony with me. He started- before I was even awake. It was an illusion-ceremony, the banquet, the attendants, the ship tour. He made believe that he was doing the Solar System dance for me. Then he tried to be my Red King-’’ She shudders and wraps her arms around her body, twisting back and forth as if there is something in her body that she wants to get away from. ‘‘He tries every shipnight,’’ she says. Her back is marked with long shallow scabs. She could heal them if she cared about them. ", 
 
 "There’s a door set into the mirrored wall. Tam goes through, away from his hurting enemy, into the next room. <br> <br> The room adjoining the mirrored chamber is swathed in rotted silk. A pillow-bed in the center of the room is mashed down and disarranged. It looks like sex that has gon on too long, too dispiritedly. The room smells of Brady’s stink. <br> <br> Tam looks up at the ceiling, finds concealed wing nuts. He pushes the trap door upward. ‘‘ Airtube,’’ he explains. He tosses her the cloak again and this time she puts it on. ", 
 
 "The air tubing smells like old plastic. It is only about four feet in diameter: stiff, black, and accordion-pleated stuff that flexes as they hoist themselves through the trapdoor and crouch in it. <br> <br> ‘‘The Nii can’t reach us here,’’ Tam explains, ‘‘any more than you can reach inside your veins. She can’t hear us or see us. We’ve disappeared.’’ ",
 
- "‘‘She’ll come after us,’’ the Priestess says. <br> <br> ‘‘Sure. But she dosen’t know where to find us.’’ Tam squint down the long black tube. ‘‘Airtube’s the safest place to hide out. No spybots. Union law.’’ <br> <br> ‘‘Union– ?’’ The Priestess looks curiously at his new scar though the transparent glove of his skintite. He polarizes the gloves dark so she can’t see her work. <br> <br> ‘‘Yeah. I was a good Union airtube repairman. Then I was a terrorist. Then I was in the cold mines on Circe. Thant’s me.’’ ",//(blocks around the edges)
+ "‘‘She’ll come after us,’’ the Priestess says. <br> <br> ‘‘Sure. But she dosen’t know where to find us.’’ Tam squint down the long black tube. ‘‘Airtube’s the safest place to hide out. No spybots. Union law.’’ <br> <br> ‘‘Union– ?’’ The Priestess looks curiously at his new scar though the transparent glove of his skintite. He polarizes the gloves dark so she can’t see her work. <br> <br> ‘‘Yeah. I was a good Union airtube repairman. Then I was a terrorist. Then I was in the cold mines on Circe. That’s me.’’ ",//(blocks around the edges)
 
 "‘‘I could change Nii’s programming,’’ the Priestess says. <br> <br> he looks at her. ‘‘How?’’ <br> <br> ‘‘If I can get into core memory. I could change your status too. Give you Ship’s Favor so she won’t kill you.’’ <br> <br> ‘‘What do you need?’’ <br> <br> ‘‘My powers.’’ She touches the silver sickle moon in her ear. ",
 
@@ -846,7 +846,7 @@ let story= ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches
 
 "She is a hundred meters away from him, but it seems as though she is very close. He can feel her hand touch him. <br><br> ''Favor, Lady?'' he asks.<br><br> ''You have my Favor, Red King. ",
 
-"Brady is as far as the Ship, but it seems as though he, too, is in front of them, standing in the ruins of their horizator. Caught by the illusion for a moment, Tam raises his laser gun. <br><br> The Priestess holds back his hand.<br><br> ''Nii?'' Brady looks around as if he has been blinded. ''Where you, old girl?''<br><br> ''I cannot fix such things,'' the Priestess says to Nii. ''He is old and worn out. Humans don't repair as well as ships.''<br><br> They both hear the Nii's reply. <<Leave him to me.>> ",
+"Brady is as far as the Ship, but it seems as though he, too, is in front of them, standing in the ruins of their horizator. Caught by the illusion for a moment, Tam raises his laser gun. <br><br> The Priestess holds back his hand.<br><br> ''Nii?'' Brady looks around as if he has been blinded. ''Where you, old girl?''<br><br> ''I cannot fix such things,'' the Priestess says to Nii. ''He is old and worn out. Humans don't repair as well as ships.''<br><br> They both hear the Nii's reply. <i>Leave him to me.</i> ",
 
 "For a moment, it is as if they see Brady's eyes -- see the final illusion he is given. A womanwalks toward Brady out of the ruins of the horizator. She is bent, but also young. Though the long sheets of her grey hair her body shines whith stars. <br><br> She holds out her hand and he takes it. <br><br> Befor them steatches a grand mirrored corridor, lined with sconces of candles. Men and woman in Ceremony dress hold up jeweled cups of wine and toast the lovers. Silk cloaks and tabards glow with red for celebration, with a silvery white-blue for the Terran sky. And all the colors of the Fertile Worlds shimmer and reflect like a rainbow, dow the corridor as far as the eye can see. ",
 
@@ -898,7 +898,7 @@ let story= ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches
 
 
 
-"An End <br><br> Not The End. Not one end, ineitable, inexortable, inflexible, but may ends. <br><br> Today,tomarrow, forever. <br><br> Remember the old man and his machines. The woman of Pallas, soft and warm. The little black flies. Remember the rebolution. <br><br> Next time you read this tale, the end will be differnt. To change is to be human. Only the Nii will be the same.",//ending lines
+"An End <br><br> Not The End. Not one end, ineitable, inexortable, inflexible, but may ends. <br><br> Today, tomarrow, forever. <br><br> Remember the old man and his machines. The woman of Pallas, soft and warm. The little black flies. Remember the rebolution. <br><br> Next time you read this tale, the end will be differnt. To change is to be human. Only the Nii will be the same.",//ending lines
 "",
 ];
 

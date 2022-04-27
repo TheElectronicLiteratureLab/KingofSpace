@@ -343,7 +343,7 @@ p{
 	left: 900px;
 }
 
-#choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven, .minigamebutton{
+#choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven, #choiceeight, .minigamebutton{
 	
   /* margin: 5% auto;
   max-width: 65ch;
@@ -375,7 +375,7 @@ p{
   cursor:pointer;
 }
 
-#choiceone:hover, #choicetwo:hover, #choicethree:hover, #choicefour:hover, #choicefive:hover, #choicesix:hover, #choiceseven:hover, .minigamebutton:hover{
+#choiceone:hover, #choicetwo:hover, #choicethree:hover, #choicefour:hover, #choicefive:hover, #choicesix:hover, #choiceseven:hover, #choiceeight:hover, .minigamebutton:hover{
   color: #fff;
   /* border-bottom: 3px solid #78CBC4; */
   -webkit-transition: 0.35s ease-in-out;
@@ -466,7 +466,7 @@ p{
     filter: drop-shadow(0px 0px 5px #78CBC4);
     cursor: pointer;	
   }
-  #choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven{
+  #choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven, #choiceeight{
     margin: 25px auto;
     width:100%;
     height:100px;
@@ -543,40 +543,30 @@ font-size: 20px;
   background-size: 100%;
   background-repeat: no-repeat;
 }
-#radarimg{
-position: absolute;
-  
-  width: 230px;
-  top:  34.6%;
-  left:  66.5%;
-  
-
-}
 #radarimgon{
 position: absolute;
-
+ 
   width: 230px;
-  top:  34.6%;
+  top:  26.6%;
   left:  66.5%;
   
-
+ 
 }
 #stars{
   position: absolute;
   height: px;
   width: 240px;
-  top:  14.3%;
+  top:  6.3%;
   left:  66.5%;
   z-index: -1;
 }
-
 #kal{
   position: absolute;
   height: 170px;
   width: 200px;
-  top: 11%;
+  top: 3%;
   left: 18.3%;
-  z-index: -1;
+   z-index: -1;
 }
 
 .rectanglelsmaller {
@@ -584,8 +574,10 @@ position: absolute;
   height: 250px;
   width: 400px;
   /* background-color: black; */
+ 
   margin: 1%;
   float: left;
+ 
   position: relative;
   opacity: 1;
   font-size: 10px;
@@ -598,11 +590,13 @@ position: absolute;
 
 #switchone  {
   position: absolute;
+  
   left: 35.1%;
   height: 50px;
   width: 32px;
-  top: 11.6%;
+  top: 3.4%;
   background: none;
+ 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
@@ -610,11 +604,13 @@ position: absolute;
 }
 #switchonept{
   position: absolute;
+  
   left: 35.1%;
   height: 50px;
   width: 32px;
-  top: 14.7%;
+  top: 6.5%;
   background: none;
+ 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
@@ -623,76 +619,87 @@ position: absolute;
 
 
 #switchtwo{
-  position: absolute; 
+  position: absolute;
+  
   left: 40%;
   height: 50px;
   width: 32px;
-  top: 14.7%;
+ top: 6.5%;
   background: none;
+ 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
 }
 #switchtwopt{
-  position: absolute; 
+position: absolute;
+  
   left: 40%;
   height: 50px;
   width: 32px;
-  top: 11.6%;
+  top: 3.4%;
   background: none;
+ 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
-}
 
+}
 #switchthree{
   position: absolute;
+  
   left: 44.5%;
   height: 48px;
   width: 32px;
-  top: 14.7%;
+  top: 6.5%;
   background: none;
+ 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
 }
-
 #switchthreept{
 position: absolute;
+  
   left: 44.5%;
   height: 50px;
   width: 32px;
-  top: 11.6%;
+  top: 3.4%;
   background: none;
+ 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
+
 }
 
 #switchfour{
   position: absolute;
+  
   left: 49.3%;  
   height: 50px;
   width: 32px;
-  top: 11.6%;
-  background: none;
+ top: 3.4%;
+background: none;
+ 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
 }
-
 #switchfourpt{
   position: absolute;
+  
   left: 49.3%;  
   height: 50px;
   width: 32px;
-  top: 14.7%;
+  top: 6.5%;
   background: none;
+ 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
@@ -701,24 +708,27 @@ position: absolute;
 
 #switchfive{
   position: absolute;
+
   left: 54%;
   height: 50px;
   width: 32px;
-  top: 11.6%;
+  top: 3.4%;
   background: none;
+ 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
 }
-
 #switchfivept{
   position: absolute;
+  
   left: 54%;
   height: 50px;
   width: 32px;
-  top: 14.7%;
+  top: 6.5%;
   background: none;
+ 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
@@ -729,22 +739,25 @@ position: absolute;
   position: absolute;
   height: 50px;
   width: 32px;
-  top: 11.6%;
+  top: 3.4%;
   left: 58.4%;
-  background: none;
+ background: none;
+ 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
+  
 }
-
 #switchsixpt{
   position: absolute;
+  
   left: 58.4%;
   height: 50px;
   width: 32px;
-  top: 14.7%;
+  top: 6.5%;
   background: none;
+ 
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
@@ -755,23 +768,28 @@ position: absolute;
   position: absolute;
   height: 30px;
   width: 30px;
-  top: 43.8%;
+  top: 36%;
   left: 19.4%;
+  
   background: none;
+ 
   background-size: 100%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
+  
 }
 
 #buttontwo{
   position: absolute;
   height: 30px;
   width: 30px;
-  top: 49%;
+  top: 41%;
   left: 19.4%;
+  
   background: none;
   background-size: 100%;
+  
   background-repeat: no-repeat;
   border: none;
   outline: none;
@@ -782,23 +800,27 @@ position: absolute;
   position: absolute;
   height: 30px;
   width: 30px;
-  top: 54.4%;
+  top: 46.4%;
   left: 19.4%;
   background: none;
+ 
   background-size: 100%;
   background-repeat: no-repeat;
   border: none;
   outline: none;
+  
 }
 
 #buttonfour{
   position: absolute;
   height: 30px;
   width: 30px;
-  top: 59.6%;
+  top: 51.6%;
   left: 19.4%;
+  
   background: none;
-  background-size: 100%;
+ background-size: 100%;
+ 
   background-repeat: no-repeat;
   border: none;
   outline: none;
@@ -808,13 +830,16 @@ position: absolute;
   position: absolute;
   height: 30px;
   width: 30px;
-  top: 65.1%;
+  top: 56.7%;
   left: 19.4%;
+  
   background: none;
-  background-size: 100%;
+ background-size: 100%;
+  
   background-repeat: no-repeat;
   border: none;
   outline: none;
+  
 }
 /* END radar puzzle css   */
 

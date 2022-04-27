@@ -141,6 +141,7 @@ const Emergency = [" Oxygen Reserves Critical<br>"];
 			//S1.style.backgroundImage =  "url(img/switchdown.png)";
 			hide('switchone');
 			hide('switchonept');
+			hide('kal');
 
 		}
 		else{
@@ -152,6 +153,7 @@ const Emergency = [" Oxygen Reserves Critical<br>"];
 			//S1.style.backgroundImage =  "url(img/switchup.png)";
 			hide('switchonept');
 			hide('switchone');
+			hide('kal');
 	}
 
 	}
