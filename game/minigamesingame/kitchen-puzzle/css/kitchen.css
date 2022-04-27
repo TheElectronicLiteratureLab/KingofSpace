@@ -1,3 +1,20 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #D6DCD5;
+  font-size: 20px;
+  line-height: 1.7em;
+  background-color: #151E24;
+  background-image:url(../../../img/maingame-starbackground.png);
+  background-repeat:repeat-x;
+  background-position: bottom;
+  height: 100vh;
+}
+
+#wrapper2 {
+  width: 60%;
+  margin: auto;
+}
 
 #tea-directions {
     width: 49%;

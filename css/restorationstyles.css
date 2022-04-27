@@ -275,7 +275,7 @@ header .container .menu div.buttons>* {
 }
 
 .parallax_header {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -344,6 +344,9 @@ header .container .menu div.buttons>* {
   transition: all 0.3s ease-in-out;
   line-height: 30px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+
 }
 
 .each-event:before {
@@ -424,7 +427,7 @@ header .container .menu div.buttons>* {
 
 /* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -433,6 +436,7 @@ header .container .menu div.buttons>* {
   margin: 0 auto;
   padding: 15rem;
   background-color: #151E24;
+  text-align: center;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -466,7 +470,7 @@ header .container .menu div.buttons>* {
 
 .footeritem {
   padding: 1rem;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -609,7 +613,7 @@ footer {
 
   .footeritem {
     padding: 1rem;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #footer {
@@ -771,7 +775,7 @@ footer {
 
   .footeritem {
     padding: 1rem;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #footer {
@@ -954,7 +958,7 @@ footer {
 
   .footeritem {
     padding: 1rem;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   #footer {
@@ -1061,7 +1065,7 @@ footer {
   }
 
   .parallax_header {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -1143,7 +1147,7 @@ footer {
 
   .abtitem2 {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding: 7rem;
     text-align: left;
   }
@@ -1191,7 +1195,7 @@ footer {
 
   /* ///////////////////// Play Game Desktop /////////////////////// */
   .parallax {
-    background-image: url("/img/starpattern.png");
+    background-image: url("../img/starpattern.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -1200,6 +1204,7 @@ footer {
     margin: 0 auto;
     padding: 15rem;
     background-color: #151E24;
+    text-align: center;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1234,7 +1239,7 @@ footer {
 
   .footeritem {
     padding: 1rem;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
 

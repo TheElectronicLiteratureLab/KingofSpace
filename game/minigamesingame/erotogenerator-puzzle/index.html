@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King of Space: Reconstruction of a Narrative Game</title>
+    <link rel="shortcut icon" type="image/png" href="../../../img/kosabt.png">
     <link type="text/css" rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="../slide-puzzle/css/puzzle-2.css">
+    <link type="text/css" rel="stylesheet" href="../../css/gamestyles.css">
 </head>
 <body>
+    <!-- Hamburger Menu -->
+    <header>
+        <div class="container">
+            <input class="hamburger-button" type="checkbox" id="hamburger-button" />
+            <label for="hamburger-button">
+                <div></div>
+            </label>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="../../game.html">Title Screen</a></li>
+                            <!-- <li><a href="/">How to Play</a></li> -->
+                            <li><a href="../../prologue.html">About The World</a></li>
+                            <li><a href="../../characters.html">Characters</a></li>
+                            <li><a href="../../gameonly.html">Game Only Mode</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- End of Hamburger Menu  -->
     <!--Table 1 will be the table for the first set of options for Tam's Lover. Once his selection is made, and the corresponding text follows, Tam will be presented with Table 2. Table two will be displayed from then on until Tam makes the correct choice. See pages 5-11 in the revised script-->
     <div id="wrapper">
         <table id="table-1">
@@ -85,7 +111,11 @@
                 </td>
             </tr>
         </table>
-        <button id="table1-btn" onclick="getText(); addToCounter()">Choose Lover</button>
+        <section id="sp-options"> <!--sp = slide puzzle-->
+            <!-- <button class="minigamebutton" onclick="location.href='../../gameonly.html'">&#8249; Back to Game Menu</button> -->
+            <button id="table1-btn" class="minigamebutton" onclick="getText(); addToCounter()">Choose Lover</button>
+        </section>
+      
 
         <!--Table 2. This table is displayed after the initial set of choices are made in the first table. This table will replace the first table. 
         Commenting out second table until I get the first table working properly
@@ -291,7 +321,7 @@
                 </td>
             </tr>
         </table>
-        <button id="table2-btn" onclick="getText2()">Choose Lover</button>
+            <button id="table2-btn" class="minigamebutton" onclick="getText2()">Choose Lover</button>
     </div>
     
     <script type="text/javascript" src="./js/main.js"></script>

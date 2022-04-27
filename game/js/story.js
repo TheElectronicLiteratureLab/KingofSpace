@@ -19,6 +19,7 @@ function onstart(){
 	hide('choicefive');
 	hide('choicesix');
 	hide('choiceseven');
+	hide('choiceeight');
 	hide('myBtn');// radar
 	hide('myBtn2'); //slider puzzle / tiger
 	hide('myBtn3'); // tetris
@@ -68,7 +69,7 @@ function story(temp) {
 
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
-	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'three'|| temp === 'four' ){
+	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'three'|| temp === 'four' || temp === 'five' || temp === 'six' || temp === 'seven' || temp === 'eight'){
 		//console.log('im here in next')
 	
 		//console.log ("made it to while loop");
@@ -111,8 +112,8 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `Tam Rosse brings his ship in to Synchronized orbit with the Lifeship `
-				document.getElementById('choicetwo').innerHTML = ` Tam Rosse brings his ship in to Synchronized orbit with the Greatship `
+				document.getElementById('choiceone').innerHTML = `Tam Rosse brings his ship in to Synchronized orbit with the Lifeship <b>&#8250;</b>`
+				document.getElementById('choicetwo').innerHTML = ` Tam Rosse brings his ship in to Synchronized orbit with the Greatship  <b>&#8250;</b>`
 
 				if(temp === 'one'){
 
@@ -146,8 +147,8 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. `;
-				document.getElementById('choicetwo').innerHTML = ` Maiting with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. `;
+				document.getElementById('choiceone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. <b>&#8250;</b> `;
+				document.getElementById('choicetwo').innerHTML = ` Maiting with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. <b>&#8250;</b> `;
 				
 				if(temp === 'one'){
 					current = 22;// forgets memory 
@@ -175,8 +176,8 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `Tam Rosse gives her the seeds`;
-				document.getElementById('choicetwo').innerHTML = ` Tam Rosse doesn't give her the seeds`;
+				document.getElementById('choiceone').innerHTML = `Tam Rosse gives her the seeds <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` Tam Rosse doesn't give her the seeds <b>&#8250;</b>`;
 
 				if(temp === 'one'){
 					current = 74;// give seeds
@@ -198,8 +199,8 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `He says yes `;
-				document.getElementById('choicetwo').innerHTML = ` He says no `;
+				document.getElementById('choiceone').innerHTML = `He says yes <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` He says no  <b>&#8250;</b>`;
 
 				if(temp === 'one'){
 					current = 77;// yes
@@ -244,8 +245,8 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `next `;
-				document.getElementById('choicetwo').innerHTML = ` Favor `;
+				document.getElementById('choiceone').innerHTML = `next <b>&#8250;</b> `;
+				document.getElementById('choicetwo').innerHTML = ` Favor <b>&#8250;</b>`;
 
 				if(temp === 'one'){ 
 					current ++; // next
@@ -258,7 +259,7 @@ function story(temp) {
 					current ++; // Great ship 
 					// print out array
 					//getstory(current);
-					console.log(story('next'));
+					//console.log(story('next'));
 				}
 				break;
 
@@ -268,8 +269,8 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `The Priestess would like him to drink it. He's not going to give her the satisfaction. No.`;
-				document.getElementById('choicetwo').innerHTML = ` It doesn't matter, she's pledged to Brady anyway. Why Not? `;
+				document.getElementById('choiceone').innerHTML = `The Priestess would like him to drink it. He's not going to give her the satisfaction. No. <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` It doesn't matter, she's pledged to Brady anyway. Why Not? <b>&#8250;</b>`;
 
 				if(temp === 'one'){
 					current = 99;// no
@@ -278,7 +279,7 @@ function story(temp) {
 					console.log(story('next'));
 				}
 				else if(temp === 'two'){
-					current = 199 ; // why not 
+					current = 198 ; // why not 
 					// print out array
 					getstory(current);
 					console.log(story('next'));
@@ -292,9 +293,9 @@ function story(temp) {
 				hide('choiceone');
 				hide('choicetwo');
 				hide('choicethree');
-				document.getElementById('choiceone').innerHTML = `Door one `;
-				document.getElementById('choicetwo').innerHTML = ` Door two `;
-				document.getElementById('choicethree').innerHTML = ` Next `;
+				document.getElementById('choiceone').innerHTML = `Door one <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` Door two <b>&#8250;</b>`;
+				document.getElementById('choicethree').innerHTML = ` Next <b>&#8250;</b>`;
 				if(temp === 'one'){
 					current = 101;//  door one
 					// print out array
@@ -331,9 +332,9 @@ function story(temp) {
 				hide('choiceone');
 				hide('choicetwo');
 				hide('choicethree');
-				document.getElementById('choiceone').innerHTML = `Go left `;
-				document.getElementById('choicetwo').innerHTML = ` Go Right `;
-				document.getElementById('choicethree').innerHTML = ` Getting thirsty `;
+				document.getElementById('choiceone').innerHTML = `Go left <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` Go Right <b>&#8250;</b>`;
+				document.getElementById('choicethree').innerHTML = ` Getting thirsty <b>&#8250;</b>`;
 				if(temp === 'one'){
 					current = 105;// go left
 					// print out array
@@ -341,13 +342,13 @@ function story(temp) {
 					console.log(story('next'));
 				}
 				if(temp === 'two'){
-					current = 161 ; // go right
+					current = 160 ; // go right
 					// print out array
 					getstory(current);
 					console.log(story('next'));
 				}
 				else if (temp  === 'three'){
-					current = 162; // getting thirsty
+					current = 161; // getting thirsty
 					getstory(current);
 					console.log(story('next'));
 				}
@@ -362,10 +363,10 @@ function story(temp) {
 				hide('choicetwo');
 				hide('choicethree');
 				hide('choicefour');
-				document.getElementById('choiceone').innerHTML = `Horizator `;
-				document.getElementById('choicetwo').innerHTML = ` Directions `;
-				document.getElementById('choicethree').innerHTML = ` Help `;
-				document.getElementById('choicefour').innerHTML = ` Next `;
+				document.getElementById('choiceone').innerHTML = `Horizator <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` Directions <b>&#8250;</b>`;
+				document.getElementById('choicethree').innerHTML = ` Help <b>&#8250;</b>`;
+				document.getElementById('choicefour').innerHTML = ` Next <b>&#8250;</b>`;
 				if(temp === 'one'){
 					current = 106;// horizator
 					// print out array
@@ -399,10 +400,10 @@ function story(temp) {
 				hide('choicetwo');
 				hide('choicethree');
 				hide('choicefour');
-				document.getElementById('choiceone').innerHTML = `Library Fuction`;
-				document.getElementById('choicetwo').innerHTML = ` Important note `;
-				document.getElementById('choicethree').innerHTML = ` Back to Horizator `;
-				document.getElementById('choicefour').innerHTML = ` Next `;
+				document.getElementById('choiceone').innerHTML = `Library Fuction <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` Important note <b>&#8250;</b>`;
+				document.getElementById('choicethree').innerHTML = ` Back to Horizator <b>&#8250;</b>`;
+				document.getElementById('choicefour').innerHTML = ` Next <b>&#8250;</b>`;
 				if(temp === 'one'){
 					current = 107;// library function 
 					// print out array
@@ -485,8 +486,8 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `Where are Brady and the Priestess? `;
-				document.getElementById('choicetwo').innerHTML = `  Go to Great Hall`;
+				document.getElementById('choiceone').innerHTML = `Where are Brady and the Priestess? <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = `  Go to Great Hall <b>&#8250;</b>`;
 
 				if(temp === 'one'){
 					current = 117;// Where are Brady and the Priestess? 
@@ -507,18 +508,18 @@ function story(temp) {
 				hide('choiceone');
 				hide('choicetwo');
 				hide('choicethree');
-				document.getElementById('choiceone').innerHTML = `The Water Center  `;
-				document.getElementById('choicetwo').innerHTML = ` Drydock`;
-				document.getElementById('choicethree').innerHTML = ` The Exercise Room `;
+				document.getElementById('choiceone').innerHTML = `The Water Center  <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` Drydock <b>&#8250;</b>`;
+				document.getElementById('choicethree').innerHTML = ` The Exercise Room <b>&#8250;</b>`;
 			
 				hide('choicefour');
 				hide('choicefive');
 				hide('choicesix');
-				document.getElementById('choicefour').innerHTML = `Great Hall `;
-				document.getElementById('choicefive').innerHTML = ` Central Storage  `;
-				document.getElementById('choicesix').innerHTML = ` Central Control`;
+				document.getElementById('choicefour').innerHTML = `Great Hall <b>&#8250;</b>`;
+				document.getElementById('choicefive').innerHTML = ` Central Storage  <b>&#8250;</b>`;
+				document.getElementById('choicesix').innerHTML = ` Central Control <b>&#8250;</b>`;
 				hide('choiceseven');
-				document.getElementById('choiseseven').innerHTML = `Ask the priestess for help `;
+				document.getElementById('choiceseven').innerHTML = `Ask the priestess for help <b>&#8250;</b>`;
 				
 				if(temp === 'one'){
 					current = 123;// The Water Center 
@@ -589,16 +590,16 @@ function story(temp) {
 				hide('choiceone');
 				hide('choicetwo');
 				hide('choicethree');
-				document.getElementById('choiceone').innerHTML = `The Water Center  `;
-				document.getElementById('choicetwo').innerHTML = ` Drydock`;
-				document.getElementById('choicethree').innerHTML = ` The Exercise Room `;
+				document.getElementById('choiceone').innerHTML = `The Water Center <b>&#8250;</b> `;
+				document.getElementById('choicetwo').innerHTML = ` Drydock <b>&#8250;</b>`;
+				document.getElementById('choicethree').innerHTML = ` The Exercise Room <b>&#8250;</b>`;
 			
 				hide('choicefour');
 				hide('choicefive');
 				hide('choicesix');
-				document.getElementById('choicefour').innerHTML = `Great Hall  `;
-				document.getElementById('choicefive').innerHTML = ` Central Storage  `;
-				document.getElementById('choicesix').innerHTML = ` Central Control `;
+				document.getElementById('choicefour').innerHTML = `Great Hall <b>&#8250;</b>`;
+				document.getElementById('choicefive').innerHTML = ` Central Storage  <b>&#8250;</b>`;
+				document.getElementById('choicesix').innerHTML = ` Central Control <b>&#8250;</b>`;
 				
 				if(temp === 'one'){
 					current = 130;// The Water Center 
@@ -659,13 +660,14 @@ function story(temp) {
 				break;
 
 			case 152:
-				current =  326; //last line.... 
+				current =  323; //last line.... 
 
 				break;
 
-			case 160:
-					current = 194
+			case 159:
+				current = 193;
 				break;
+			
 
 			case 160:
 				
@@ -675,9 +677,9 @@ function story(temp) {
 				hide('choiceone');
 				hide('choicetwo');
 				hide('choicethree');
-				document.getElementById('choiceone').innerHTML = `Go back `;
-				document.getElementById('choicetwo').innerHTML = ` Go Right `;
-				document.getElementById('choicethree').innerHTML = ` Getting thirsty `;
+				document.getElementById('choiceone').innerHTML = `Go back <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` Go Right <b>&#8250;</b>`;
+				document.getElementById('choicethree').innerHTML = ` Getting thirsty <b>&#8250;</b>`;
 				if(temp === 'one'){
 					current = 104;// go left
 					// print out array
@@ -707,10 +709,10 @@ function story(temp) {
 				hide('choicetwo');
 				hide('choicethree');
 				hide('choicefour');
-				document.getElementById('choiceone').innerHTML = `Horizator `;
-				document.getElementById('choicetwo').innerHTML = ` Directions `;
-				document.getElementById('choicethree').innerHTML = ` Help `;
-				document.getElementById('choicefour').innerHTML = ` Next `;
+				document.getElementById('choiceone').innerHTML = `Horizator <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` Directions <b>&#8250;</b>`;
+				document.getElementById('choicethree').innerHTML = ` Help <b>&#8250;</b>`;
+				document.getElementById('choicefour').innerHTML = ` Next <b>&#8250;</b>`;
 				if(temp === 'one'){
 					current = 169;// horizator
 					// print out array
@@ -739,15 +741,15 @@ function story(temp) {
 			case 169:
 				// unhide choise buttons 
 				
-				hide('Next');
-				hide('choiceone');
-				hide('choisctwo');
-				hide('choicethree');
-				hide('choicefour');
-				document.getElementById('choiceone').innerHTML = `Library Fuction`;
-				document.getElementById('choicetwo').innerHTML = ` Important note `;
-				document.getElementById('choicethree').innerHTML = ` Back to Horizator `;
-				document.getElementById('choicefour').innerHTML = ` Next `;
+				//hide('Next');
+				//hide('choiceone');
+				//hide('choisctwo');
+				//hide('choicethree');
+				//hide('choicefour');
+				document.getElementById('choiceone').innerHTML = `Library Fuction <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` Important note <b>&#8250;</b>`;
+				document.getElementById('choicethree').innerHTML = ` Back to Horizator <b>&#8250;</b>`;
+				document.getElementById('choicefour').innerHTML = ` Next <b>&#8250;</b>`;
 				if(temp === 'one'){
 					current = 170;// library function 
 					// print out array
@@ -796,20 +798,20 @@ function story(temp) {
 				hide('choiceone');
 				hide('choicetwo');
 				hide('choicethree');
-				document.getElementById('choiceone').innerHTML = `The Water Center  `;
-				document.getElementById('choicetwo').innerHTML = ` Drydock`;
-				document.getElementById('choicethree').innerHTML = ` The Exercise Room `;
+				document.getElementById('choiceone').innerHTML = `The Water Center  <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` Drydock <b>&#8250;</b>`;
+				document.getElementById('choicethree').innerHTML = ` The Exercise Room <b>&#8250;</b>`;
 			
 				hide('choicefour');
 				hide('choicefive');
 				hide('choicesix');
-				document.getElementById('choicefour').innerHTML = `Great Hall  `;
-				document.getElementById('choicefive').innerHTML = ` Central Storage  `;
-				document.getElementById('choicesix').innerHTML = ` Central Control `;
+				document.getElementById('choicefour').innerHTML = `Great Hall  <b>&#8250;</b>`;
+				document.getElementById('choicefive').innerHTML = ` Central Storage  <b>&#8250;</b>`;
+				document.getElementById('choicesix').innerHTML = ` Central Control <b>&#8250;</b>`;
 				hide('choiceseven');
 				hide('choiceeight');
-				document.getElementById('choiceseven').innerHTML = `Follow Brady and Aster  `;
-				document.getElementById('choiceeight').innerHTML = ` Getting Thirsty  `;
+				document.getElementById('choiceseven').innerHTML = `Follow Brady and Aster  <b>&#8250;</b>`;
+				document.getElementById('choiceeight').innerHTML = ` Getting Thirsty <b>&#8250;</b> `;
 				if(temp === 'one'){
 					current = 178;// The Water Center 
 					// print out array
@@ -844,13 +846,13 @@ function story(temp) {
 					getstory(current);
 					console.log(story('next'));
 				}
-				if(temp === 'five'){
+				if(temp === 'seven'){
 					current = 96; // follow brady and aster 
 					// print out array
 					getstory(current);
 				}
-				else if (temp  === 'six'){
-					current = 112; // getting thursty
+				else if (temp  === 'eight'){
+					current = 111; // getting thursty
 					getstory(current);
 					console.log(story('next'));
 				}
@@ -885,8 +887,8 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `He takes  the seed `;
-				document.getElementById('choicetwo').innerHTML = `  He doesn't take the seed`;
+				document.getElementById('choiceone').innerHTML = `He takes  the seed <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = `  He doesn't take the seed <b>&#8250;</b>`;
 
 				if(temp === 'one'){
 					current = 194;// takes
@@ -951,8 +953,8 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `Go back to the life ship `;
-				document.getElementById('choicetwo').innerHTML = `  yell at the comm box`;
+				document.getElementById('choiceone').innerHTML = `Go back to the life ship <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = `  yell at the comm box <b>&#8250;</b>`;
 
 				if(temp === 'one'){
 					current = 212;// life ship 
@@ -978,9 +980,9 @@ function story(temp) {
 				hide('choiceone');
 				hide('choicetwo');
 				hide('choicethree');
-				document.getElementById('choiceone').innerHTML = `I could give the  Priestess her  powers.  The  way I figure it, out  best chance  is to  reprogram the  Nii.`;
-				document.getElementById('choicetwo').innerHTML = `  I’m not cooperating with the Priestess. But there may be weapons somewhere aboard,  or a ship I can use  to escape.`;
-				document.getElementById('choicethree').innerHTML = `  Once Brady is dead, the Nii  may be more reasonable.  Kill Brady… `;
+				document.getElementById('choiceone').innerHTML = `I could give the  Priestess her  powers.  The  way I figure it, out  best chance  is to  reprogram the  Nii. <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = `  I’m not cooperating with the Priestess. But there may be weapons somewhere aboard,  or a ship I can use  to escape. <b>&#8250;</b>`;
+				document.getElementById('choicethree').innerHTML = `  Once Brady is dead, the Nii  may be more reasonable.  Kill Brady…  <b>&#8250;</b>`;
 
 				if(temp === 'one'){
 					current = 242;// life ship 
@@ -1015,8 +1017,8 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `Go back to the Lady Nii `;
-				document.getElementById('choicetwo').innerHTML = `  look for auxiliary air tanks, going further into the troop carrier.`;
+				document.getElementById('choiceone').innerHTML = `Go back to the Lady Nii <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = `  look for auxiliary air tanks, going further into the troop carrier. <b>&#8250;</b>`;
 
 				if(temp === 'one'){
 					current = 258;// life ship 
@@ -1040,7 +1042,7 @@ function story(temp) {
 				//window.alert('troopcarrior game');
 				//miniGame("troop");
 				
-				 hide('myBtn6'); // troop
+				hide('myBtn6'); // troop
 				// pop up option for mini game 
 				console.log ("troop game here");
 				current ++;
@@ -1063,8 +1065,8 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `No `;
-				document.getElementById('choicetwo').innerHTML = ` Yes`;
+				document.getElementById('choiceone').innerHTML = `No <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = ` Yes <b>&#8250;</b>`;
 
 				if(temp === 'one'){
 					current = 265;// no

@@ -45,7 +45,7 @@
                 </nav>
 
                 <div class="buttons">
-                    <a href="game/game.html" target="_blank" class="button primary">PLAY GAME</a>
+                    <a href="game/game.html" class="button primary">PLAY GAME</a>
                 </div>
             </div>
         </div>
@@ -63,7 +63,9 @@
     <!--PERSONAL LIFE-->
     <section id="abtgame">
         <div class="abtgridcontainer">
-            <div class="abtitem"><img class="sarahimg" src="img/sarah_smith.png"></div>
+            <div class="abtitem"><img class="sarahimg" src="img/sarah_smith.png"><br><br><em>Photo of Sarah Smith taken
+                    by
+                    Augusten Burroughs</em></div>
             <div class="abtitem2"><span style="font-size: 30px; letter-spacing: 3px; font-weight: 500;">ABOUT THE
                     AUTHOR</span><br><br>Sarah Smith, the author
                 of <em>King of Space</em>, is a writer from Brookline, Massachusetts and a member of the Cambridge
@@ -84,33 +86,62 @@
             </div>
         </div>
         <div class="statementheader">ARTIST STATEMENT</div>
-        <div class="authorstatement">
-            When I was a graduate student, I wanted to write a book about how technology influences narrative. For
-            instance, how was Samuel Richardson&#39;s <em>Clarissa</em> influenced by the fact that Richardson himself
-            printed
-            it? How was the early film esthetic shaped by orthochromatic film stock?<br><br>
-            I never got to write that book. Instead, Mark Bernstein gave me a chance to live it.<br><br>
-            The original <em>King of Space</em> was a creature of the late 1980s, of the very early days of consumer
-            computing.
-            We were roll-your-own to an inconceivable degree. We were thinking out every piece of tech for the first
-            time. There were four of us: programmer, artist (the brilliant Matt Mattingly), music (Michael D), and text
-            (me). Color wasn&#39;t an option. Neither was enough space to fit all the text in, all the images and
-            animations
-            we wanted. We fell off the edge of the narrative and discovered the necessity of a bounded narrative world.
-            We broke the original programming language.<br><br>
-            It was frustrating. It was wonderful. We dreamed all the time of what we couldn&#39;t do. Somehow we managed
-            to
-            do it…most of it…and created what&#39;s been called the first science fiction hypertext.<br><br>
-            Now, thirty years later, Prof. Dene Grigar and the students from the Creative Media & Digital Culture
-            program have given me any creator&#39;s dream. How would my work look in today&#39;s technology? The
-            <em>King of
-                Space</em>
-            you&#39;ll see can take advantage of graphics design programs, 3D rendering, storage without limits. Most of
-            all, it has the advantage of 22 talented collaborators, bringing back to life the fertility dance in space
-            we first dreamed of back in the ‘80s. Thanks to the CMDC, it&#39;s my honor to have my hypertext literature,
-            like other literature, like films, rethought and made alive for a new generation.<br><br>
-            It&#39;s beautiful, and I hope you&#39;ll enjoy it.
-
+        <div class="statementvid"><video controls="true" class="trailer">
+                <source src="img/artiststatement.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="authorstatement"><button id="myBtn">View Artist Statement</button></div>
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>ARTIST STATEMENT</h2>
+                </div>
+                <div class="modal-body">
+                    <p>When I was a graduate student, I wanted to write a book about how technology
+                        influences
+                        narrative. For
+                        instance, how was Samuel Richardson&#39;s <em>Clarissa</em> influenced by the fact that
+                        Richardson himself
+                        printed
+                        it? How was the early film esthetic shaped by orthochromatic film stock?<br><br>
+                        I never got to write that book. Instead, Mark Bernstein gave me a chance to live it.<br><br>
+                        The original <em>King of Space</em> was a creature of the late 1980s, of the very early days of
+                        consumer
+                        computing.
+                        We were roll-your-own to an inconceivable degree. We were thinking out every piece of tech for
+                        the first
+                        time. There were four of us: programmer, artist (the brilliant Matt Mattingly), music (Michael
+                        D), and text
+                        (me). Color wasn&#39;t an option. Neither was enough space to fit all the text in, all the
+                        images and
+                        animations
+                        we wanted. We fell off the edge of the narrative and discovered the necessity of a bounded
+                        narrative world.
+                        We broke the original programming language.<br><br>
+                        It was frustrating. It was wonderful. We dreamed all the time of what we couldn&#39;t do.
+                        Somehow we managed
+                        to
+                        do it…most of it…and created what&#39;s been called the first science fiction hypertext.<br><br>
+                        Now, thirty years later, Prof. Dene Grigar and the students from the Creative Media & Digital
+                        Culture
+                        program have given me any creator&#39;s dream. How would my work look in today&#39;s technology?
+                        The
+                        <em>King of
+                            Space</em>
+                        you&#39;ll see can take advantage of graphics design programs, 3D rendering, storage without
+                        limits. Most of
+                        all, it has the advantage of 22 talented collaborators, bringing back to life the fertility
+                        dance in space
+                        we first dreamed of back in the ‘80s. Thanks to the CMDC, it&#39;s my honor to have my hypertext
+                        literature,
+                        like other literature, like films, rethought and made alive for a new generation.<br><br>
+                        It&#39;s beautiful, and I hope you&#39;ll enjoy it.<br><br>
+                        - Sarah Smith
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
     <!--End Section-->
@@ -119,16 +150,19 @@
     <section id="awards">
         <div class="awheader">AWARDS</div>
         <div class="awgridcontainer">
-            <div class="awitem">Feature 1</div>
-            <div class="awitem">Feature 2</div>
-            <div class="awitem">Feature 3</div>
+            <div class="awitem">Agatha Award</div>
+            <div class="awitem">Massachusetts Book Award</div>
+            <div class="awitem">New York Times Notable Book of the Year (twice)</div>
+            <div class="awitem">Waterstone's Book of the Year</div>
+            <div class="awitem">Published in 15 languages</div>
+            <div class="awitem">Internationally bestselling author</div>
         </div>
     </section>
     <section id="otherworks">
         <div class="owheader">OTHER WORKS</div>
         <div class="teams">
             <!--Executive Team-->
-            <div class="flip-card itemBox" data-item="executive">
+            <div class="flip-card itemBox">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                         <img src="img/vanishedbook.png">
@@ -207,6 +241,41 @@
                     </div>
                 </div>
             </div>
+
+            <div class="flip-card itemBox">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img/crimesbook.png">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Crimes and Survivors <br> (2020)</h1>
+                        <h2>
+                            It's 1912. America. The land of Jim Crow. A young society
+                            woman follows her grandfather onto the newest, biggest ship in the world to learn the truth.
+                            But after the iceberg, she finds the truth is far more complicated than black and white.
+                            More inspiring, more loving. Far more dangerous...
+                        </h2>
+                        <a class="icon-book" href="https://www.sarahsmith.com/crimes-and-survivors.html"
+                            target="_blank"><i class="fa fa-book"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card itemBox">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img/bostonbook.png">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Future Boston (co-wrote)<br>(1994)</h1>
+                        <h2>A collaboration by eight Boston-area science fiction writers, Future Boston is the exciting
+                            chronicle of a great city under alien occupation. In the 21st century, the citizens of
+                            Boston are planning a new revolution against the governments of Earth.</h2>
+                        <a class="icon-book" href="https://www.sarahsmith.com/read-ebooks.html" target="_blank"><i
+                                class="fa fa-book"></i></a>
+                    </div>
+                </div>
+            </div>
     </section>
     <!--End Section-->
 
@@ -250,7 +319,7 @@
 
     <!--Play Game-->
     <section class="parallax">
-        <button class="playbtn"><a href="game/game.html" target="_blank">PLAY GAME</a></button>
+        <a href="game/game.html"><button class="playbtn">PLAY GAME</button></a>
     </section>
     <!--End Section-->
 
@@ -302,8 +371,34 @@
         headerLinks.forEach((link) => {
             link.addEventListener('click', (e) => hamburgerButton.checked = false);
         })
+    </script>
 
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
 
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on the button, open the modal
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
     </script>
 </body>
 

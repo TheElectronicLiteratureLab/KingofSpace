@@ -165,10 +165,12 @@ function Goto(button){
 		cur = 16;
 		library(cur);
 	}
-	//if(button === 'nextlib' ){
-	''	cur++;
-	//	library(cur);
-	//}
+
+	// //if(button === 'nextlib' ){
+	// ''	cur++;
+	// //	library(cur);
+	// //}
+
 	if(button === 'back' ){
 
 		hudeoptions();
@@ -229,7 +231,7 @@ let library= ["<b>Arcoculture</b> <br><br> The study of gardening and ecological
 
 
 
- document.getElementById('playboxmain2').innerHTML = `  ${library[cur]} `;
+document.getElementById('playboxmain2').innerHTML = `  ${library[cur]} `;
 
 	
 
