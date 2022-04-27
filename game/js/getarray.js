@@ -599,7 +599,7 @@ let story= ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches
 // go back to previous page with choice. 1 backwards 
 
 
-// yell at the comm box 213>
+// Yell at the comm box 213>
 
 "Tam Rosse Yells at the comm box: <br> <br> ‘Favor! I’m asking for favor! Let me in!’ ", //213(blocks around the edges) 
 

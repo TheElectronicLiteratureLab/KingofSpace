@@ -75,6 +75,9 @@ function story(temp) {
 	
 		//console.log ("made it to while loop");
 		switch(current){
+			//case 4:
+				//x.style.backgroundImage= "url(imgstory/kos-watercenter-3d-final.mp4)";
+			//break;
 			case 7 : 
 				// print out array 
 
@@ -963,7 +966,7 @@ function story(temp) {
 				hide('choiceone');
 				hide('choicetwo');
 				document.getElementById('choiceone').innerHTML = `Go back to the life ship <b>&#8250;</b>`;
-				document.getElementById('choicetwo').innerHTML = `  yell at the comm box <b>&#8250;</b>`;
+				document.getElementById('choicetwo').innerHTML = `Yell at the comm box <b>&#8250;</b>`;
 
 				if(temp === 'one'){
 					current = 212;// life ship 
@@ -990,7 +993,11 @@ function story(temp) {
 				z.style.backgroundImage= "url(imgstory/kos-brady-leftquarterface.png)";
 				current++;
 				break;
-
+			
+			case 216:
+				z.style.backgroundImage= "url(img/maingame-starbackground.png)";
+				current++;
+				break;
 
 			case 241: 
  				// unhide choise buttons 
