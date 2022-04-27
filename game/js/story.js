@@ -66,6 +66,7 @@ function story(temp) {
 	getstory(current);
 
 	var x = document.getElementById('body');
+	var z = document.getElementById('personimg');
 
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
@@ -937,7 +938,7 @@ function story(temp) {
 
 			case 209:  
 				//window.alert('tiger game');
-				
+				x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 				hide('myBtn2');
 				// pop up option for mini game 
 				//console.log ("case  15");
@@ -957,6 +958,7 @@ function story(temp) {
 			case 211:
 			// unhide choise buttons 
 				// hide next 
+				x.style.backgroundImage= "url(imgstory/kos_dagger_final-01.png)";
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
@@ -967,11 +969,14 @@ function story(temp) {
 					current = 212;// life ship 
 					// print out array
 					getstory(current);
+					x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 					console.log(story('next'));
+
 				} else if(temp === 'two'){
 					current = 213 ; // comm box
 					// print out array
 					getstory(current);
+					x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 					console.log(story('next'));
 				}
 				break;
@@ -979,7 +984,14 @@ function story(temp) {
 			case 212:
 				current = 211;
 				break;
-			
+
+
+			case 215:
+				z.style.backgroundImage= "url(imgstory/kos-brady-leftquarterface.png)";
+				current++;
+				break;
+
+
 			case 241: 
  				// unhide choise buttons 
 				// hide next 
