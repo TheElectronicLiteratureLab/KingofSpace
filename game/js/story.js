@@ -65,7 +65,7 @@ function story(temp) {
 	
 	getstory(current);
 
-	var x = document.getElementById('mainstory');
+	var x = document.getElementById('body');
 
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
@@ -927,6 +927,13 @@ function story(temp) {
 
 				current = 79 ;
 				break;
+
+			case 208:
+				x.style.backgroundImage= "url(img/kos-materialsentryport.png)";
+						
+						current++;
+			break;
+
 
 			case 209:  
 				//window.alert('tiger game');
