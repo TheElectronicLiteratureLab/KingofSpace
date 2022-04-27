@@ -300,7 +300,7 @@ header .container .menu div.buttons>* {
 
 .abtitem2 {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   line-height: 30px;
 }
@@ -327,7 +327,7 @@ video {
 
 /* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
-  background-image: url("/img/starpattern.png");
+  background-image: url("../img/starpattern.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -336,6 +336,7 @@ video {
   margin: 0 auto;
   padding: 15rem;
   background-color: #151E24;
+  text-align: center;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -369,7 +370,7 @@ video {
 
 .footeritem {
   padding: 1rem;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -629,7 +630,7 @@ footer {
 
   .footeritem {
     padding: 1rem;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #footer {

@@ -1,7 +1,22 @@
-#wrapper {
-    margin: auto;
-    width: 70%;
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #D6DCD5;
+    font-size: 20px;
+    line-height: 1.7em;
+    background-color: #151E24;
+    background-image:url(../../../img/maingame-starbackground.png);
+    background-repeat:repeat-x;
+    background-position: bottom;
+    height: 100vh;
 }
+
+#wrapper {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+}           
 
 /*----TABLE----*/
 td, th {
@@ -30,3 +45,24 @@ label {
     display: none;
 }
 
+.minigamebutton, #continue{
+margin:  auto;
+padding-top: 20px;
+color: #78CBC4;
+text-align: left;
+border: none;
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+background: none;
+border: none;
+outline: none;
+filter: drop-shadow(0px 0px 5px #78CBC4);
+cursor:pointer;
+}
+
+.minigamebutton:hover, #continue:hover{
+    color: #fff;
+  /* border-bottom: 3px solid #78CBC4; */
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+}

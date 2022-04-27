@@ -14,8 +14,9 @@
 
 
 <body onload="onstart()">
-
-  <!-- Hamburger Menu -->
+  
+  <div id="wrapper">
+    <!-- Hamburger Menu -->
     <header>
         <div class="container">
             <input class="hamburger-button" type="checkbox" id="hamburger-button" />
@@ -26,7 +27,7 @@
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="game.html">Return to Main Menu</a></li>
+                        <li><a href="game.html">Title Screen</a></li>
                         <!-- <li><a href="/">How to Play</a></li> -->
                         <li><a href="prologue.html">Prologue</a></li>
                         <li><a href="characters.html">Characters</a></li>
@@ -38,17 +39,18 @@
         </div>
     </header>
     <!-- End of Hamburger Menu  -->
-  <div id="wrapper">
+
     <!--*************main game section start ***************-->
     <div  id="mainstory", class="rectanglelargeblack"> <!-- Start mainstory Div -->
       <p id="playboxmain"></p>
-      <button id="choiceone" style="display: block;" class="S1" onclick="story('one')">O</button>
+      <button id="choiceone" style="display: block;" class="S1" onclick="story('one')"> O</button>
       <button id="choicetwo" style="display: block;" class="S2"  onclick="story('two')">T</button>
       <button id="choicethree" style="display: block;" class="S3"  onclick="story('three')">T</button>
       <button id="choicefour" style="display: block;" class="S4"  onclick="story('four')">F</button>
       <button id="choicefive" style="display: block;" class="S5"  onclick="story('five')">F</button>
       <button id="choicesix" style="display: block;" class="S6"  onclick="story('six')">S</button>
       <button id="choiceseven" style="display: block;" class="S7"  onclick="story('seven')">S</button>
+      <button id="choiceeight" style="display: block;" class="S8"  onclick="story('eight')">E</button>
       <button id="Next" style="display: none" onclick="story('next')"></button>
     </div> <!-- End mainstory Div -->
   </div> <!-- End Wrapper Div -->
@@ -63,9 +65,9 @@
       <span class="close">&times;</span>
 
       <!-- <button id="close-button"> &times; </button>-->
-      <p id="completed"> </p>
+      
 
-      <div id="main-radar" class="rectanglelarge"> <!-- Start main-radar Div -->
+      <div id="main-radar" > <!-- Start main-radar Div -->
   
         <button id="switchone" class="S1" onclick="radar('switchone')"></button>
         <button id="switchonept" class="S12" onclick="radar('switchonept')"></button>
@@ -87,10 +89,13 @@
       
         <div class="rectanglelsmaller"> <!-- Start rectanglesmaller Div -->
           <p id="const"> EMERGENCY </p>
-          <p id="playbox"><br>Oxigen Reserves Critical</p>
+          <p id="playbox"><br>Oxygen Reserves Critical</p>
         </div> <!-- End rectanlgesmaller Div-->
         <div >
             <img src="video/kos-radarstars-2d-final.mp4" id="stars">
+            <img src="video/kos-radarkaleidoscope-2d-final.mp4" id="kal">
+            <img src="img/kos_radarGame_radar.png" id="radarimg">
+            <img src="img/kos_radarGame_radaron.png" id="radarimgon">
         </div>
       </div> <!-- End mymodal modal-conent Div -->
     </div> <!-- End modal-content Div -->
@@ -154,32 +159,36 @@
   <!-- The Modal -->
   <div id="myModal3" class="modal3"> <!-- Start myModal3 Div -->
 
-      <!-- Modal content -->
-      <div class="modal-content">
+    <!-- Modal content -->
+    <div class="modal-content">
 
-        <span class="close3">&times;</span>
+      <span class="close3">&times;</span>
 
-        <div class="rectanglelarge">
+      <div class="rectanglelarge">
 
-          <div class="grid">
-            <div class="left-column">
-              <h2>HIGH SCORES</h2>
-              <ol id="highScores"></ol>
+        <div class="grid">
+          <div class="left-column">
+            <h2>HIGH SCORES</h2>
+            <ol id="highScores"></ol>
+          </div>
+          <canvas id="board" class="game-board"></canvas> <!-- canvas element to provide a blank canvas on which we can draw our game -->
+          <div class="middle-column">
+            <div>
+              
+              
             </div>
-            <canvas id="board" class="game-board"></canvas> <!-- canvas element to provide a blank canvas on which we can draw our game -->
-            <div class="middle-column">
-              <div>
-                
-                
-              </div>
-              <button onclick="play()" class="play-button">Play</button>
-            </div>
-            <div class="right-column">
-              <canvas id="next"></canvas>
-            </div>
+            <button onclick="play()" class="play-button">Play</button>
+          </div>
+          <div class="right-column">
+            <canvas id="next"></canvas>
           </div>
         </div>
       </div>
+
+    </div>
+  </div>    
+
+
       
   
 
@@ -269,16 +278,16 @@
         <div id="troop-wrapper">   
         <!--Creating 10 checkboxes to use for user inputs. No text is displayed until a checkbox is clicked-->
         <section id="tc-puzzle">
-            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-1">
-            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-2">
-            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-3">
-            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-4">
-            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-5">
-            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-6">
-            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-7">
-            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-8">
-            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-9">
-            <input type="checkbox" class="tc-box" onclick="clickChoice();" value="tc-10">
+            <input type="checkbox" id="tc-1" class="tc-box" onclick="clickChoice();" value="tc-1">
+            <input type="checkbox" id="tc-2" class="tc-box" onclick="clickChoice();" value="tc-2">
+            <input type="checkbox" id="tc-3" class="tc-box" onclick="clickChoice();" value="tc-3">
+            <input type="checkbox" id="tc-4" class="tc-box" onclick="clickChoice();" value="tc-4">
+            <input type="checkbox" id="tc-5" class="tc-box" onclick="clickChoice();" value="tc-5">
+            <input type="checkbox" id="tc-6" class="tc-box" onclick="clickChoice();" value="tc-6">
+            <input type="checkbox" id="tc-7" class="tc-box" onclick="clickChoice();" value="tc-7">
+            <input type="checkbox" id="tc-8" class="tc-box" onclick="clickChoice();" value="tc-8">
+            <input type="checkbox" id="tc-9" class="tc-box" onclick="clickChoice();" value="tc-9">
+            <input type="checkbox" id="tc-10" class="tc-box" onclick="clickChoice();" value="tc-10">
         </section>
       </div>
     </div>
@@ -322,6 +331,7 @@
       hide('choicefive');
       hide('choicesix');
       hide('choiceseven');
+      hide('choiceeight');
       hide('Next');
       hide('myBtn');// radar
       hide('myBtn2');//slider puzzle / tiger
@@ -453,7 +463,7 @@
   <script type="text/javascript" src="minigamesingame/troop-carrier/js/tc-main.js"></script>
   <script type="text/javascript" src="minigamesingame/slide-puzzle/js/puzzle-2.js"></script>
   <script type="text/javascript" src="minigamesingame/radar-puzzle/radar/radar.js"></script>
-  <script type="text/javascript" src="minigamesingame/tetris-puzzle/main.js"></script>
+  <script type="text/javascript" src="minigamesingame/tetris/main.js"></script>
   <script type="text/javascript" src="minigamesingame/horizator/hoizator.js"></script>
 
     

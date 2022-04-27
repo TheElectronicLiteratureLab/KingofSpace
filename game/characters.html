@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body  onload="start();">
     <!-- Hamburger Menu -->
     <header>
         <div class="container">
@@ -27,9 +27,9 @@
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="game.html">Return to Main Menu</a></li>
+                        <li><a href="game.html">Title Screen</a></li>
                         <!-- <li><a href="/">How to Play</a></li> -->
-                        <li><a href="prologue.html">Prologue</a></li>
+                        <li><a href="prologue.html">About The World</a></li>
                         <li><a href="characters.html">Characters</a></li>
                         <li><a href="gameonly.html">Game Only Mode</a></li>
 
@@ -39,11 +39,11 @@
         </div>
     </header>
     <!-- End of Hamburger Menu  -->
-    <div id="game_wrapper">
+    <div id="game_wrapper" >
         <h1>Characters</h1>
             <div id="character-button-container">
                 <!-- Tam  -->
-                <button id="tam-button", class="character-button" onclick="show('tam');">
+                <button id="tam-button", autofocus class="character-button" onclick="show('tam');">
                     <p class="button-overlay">Tam Rosse</p>                 
                 </button>
                 <!-- Lady Nii -->
