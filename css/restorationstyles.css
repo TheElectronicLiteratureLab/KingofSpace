@@ -291,7 +291,7 @@ header .container .menu div.buttons>* {
 
 .wrapper {
   background-color: #434A52;
-  width: 100%;
+  width: auto;
   min-height: 100vh;
   height: 100%;
   font-family: "Montserrat", sans-serif;
