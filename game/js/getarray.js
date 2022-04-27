@@ -10,9 +10,9 @@ let story= ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches
 
 "Tam touches the edge of the sleeping pod and wiggles out the seam. The cool damp air raises goosebumps on his skin. He runs over the prickly- grassed nutrient floor and climbs up the ladder to the biggest tank. <br> <br>He jumps in and begins swimming among the koi, in the cold early-morning water, and the big fish rub their bodies against his and kiss him, asking for food.", // 3 (sleeping pod image ?) 
 
-"But in the dream, the Rice Emperor reaches up to his puppet frame and breaks the strings that hold him. He strides across the air toward Tam, across the surface of the water. He stands on the water, glaring with rage, pointing at Tam, and the Imperial Soldiers surround them. <br><br> <i>'Blasphemer! Traitor!' </i> <br><br> He grabs Tam tight by the left hand and draws his fingernail across the complex gene-tattoo that covers Tam's palm. The tattoo that shows his plague resistance. The pain claws at Tam's chest and he cannot breath. The gene-tattoo bubbles and burst.", //4(corner image)
+"But in the dream, the Rice Emperor reaches up to his puppet frame and breaks the strings that hold him. He strides across the air toward Tam, across the surface of the water. He stands on the water, glaring with rage, pointing at Tam, and the Imperial Soldiers surround them. <br><br> <i>'Blasphemer! Traitor!' </i> <br><br> He grabs Tam tight by the left hand and draws his fingernail across the complex gene-tattoo that covers Tam's palm. The tattoo that shows his plague resistance. The pain claws at Tam's chest, and he cannot breath. The gene-tattoo bubbles and burst.", //4(corner image)
 
-"'The Uprising shall fail!' <br> <br>The soldiers grab him by the neck, drag him- <br><br> Tam cannot get air- he must breathe- ",//5(corner image)
+"'The Uprising shall fail!' <br> <br>The soldiers grab him by the neck and drags him- <br><br> Tam cannot get air--he must breathe--",//5(corner image)
 
 "He wakes up gasping. <br> <br>The oxygen depletion alarm is wailing. Every gasp is a knife in his lungs. <br><br> He cannot remember for a moment which auxiliary oxygen tanks are still unused. He flicks switches clumsily with his left hand. <br><br> One tank left.",//6
 
@@ -579,7 +579,7 @@ let story= ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches
 
 // 13 - great ship 207
 
-"He looks toward the little moon for a moment. What good will it do him to go to the lifeship? <br> <br> There will be two people in it: a dark-skinned Priestess and her lover, a Red King. Two self-deluded pretend-priests in the Terran bureaucracy. They’ll take one look at the blasphemer’s mark across his tattoo and send him back to Circe. <br> <br> He shudders. <br> <br> He was in the mines in Circe four years. <br> <br> Maybe he’ll have better luck in the greatship. ", 
+"He looks toward the little moon for a moment. What good will it do him to go to the lifeship? <br> <br> There will be two people in it: a Priestess and her lover, a Red King. Two self-deluded pretend-priests in the Terran bureaucracy. They’ll take one look at the blasphemer’s mark across his tattoo and send him back to Circe. <br> <br> He shudders. <br> <br> He was in the mines in Circe four years. <br> <br> Maybe he’ll have better luck in the greatship. ", 
 
 "Climbing into his skintite, he dogs the hatches open into a pitted and murky port-corridor. As he propels himself toward the greatship, he can see a white plume of air leaking in his suit. He slaps a sealant patch over it. <br> <br> He has only a dagger, a prison weapon, made from the Circean mineral called heartsblood, chipped and edged in the long nights in the mines. The thongs that wrap the handle are a man’s skin. <br> <br> Around the lock there are only the fossilized pale marks of water impurities; it has been so long since the lock was opened that no ice crystals blur its metal leaves. ", //(blocks around the edges) 
 
@@ -601,13 +601,13 @@ let story= ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches
 
 // yell at the comm box 213>
 
-"Tam Rosse yells at the comm box: <br> <br> ‘Favor! I’m asking for favor! Let me in!’ ", //213(blocks around the edges) 
+"Tam Rosse Yells at the comm box: <br> <br> ‘Favor! I’m asking for favor! Let me in!’ ", //213(blocks around the edges) 
 
 "The leaves of the airlock-iris force themselves slowly open, <br> as if they are doing something unnatural, <br> moving against the flow of time ",
 
-" Inside the airlock waits a man. <br> <br> Lice crawl in his matted gray hair; his body smells; he is spider-thin, a man who has spent his life in low gravity. His yellow skin is smeared with dirt. Old power wires are tangled into his hair, wires plaited into a rough circle like a crown. He stares like a man who has seen too much infinity alone. <br> <br> ‘I’m king,’ he says. <br> <br> His jumpsuit, stiff with dirt, hangs on his body. He scratches at his withered crotch. He plucks at the Imperial name-patch and looks at it curiously as though it is instructions for a machine he dose not use. ‘King Brady,’ he mutters. <br> <br> Tam Rosse collapses, shaking with the cold. The ship heat circuits cut in with a rattle and the sunlights din the airlock.", 
+" Inside the airlock waits a man. <br> <br> Lice crawl in his matted gray hair; his body smells; he is spider-thin, a man who has spent his life in low gravity. His yellow skin is smeared with dirt. Old power wires are tangled into his hair, wires plaited into a rough circle like a crown. He stares like a man who has seen too much infinity alone. <br> <br> ‘I’m king,’ he says. <br> <br> His jumpsuit, stiff with dirt, hangs on his body. He scratches at his withered crotch. He plucks at the Imperial name-patch and looks at it curiously as though it is instructions for a machine he dose not use. ‘King Brady,’ he mutters. <br> <br> Tam Rosse collapses, shaking with the cold. The ship heat circuits cut in with a rattle, and the sunlights din the airlock.", 
 
-" ''Favor,’ Tam Rosse stammers. <br> <br> The old man hunkers down and grabs Tam Rosse’s wounded hand painfully. Tam gags as he smells Brady: a long-unwashed smell of urine, bad breath and body girt. The old man peers at the crossed-out gene-tattoo. <br> <br> ‘They cut you, boy? Or burn you? No? Then I got a use for you.’ ",
+" 'Favor,' Tam Rosse stammers. <br> <br> The old man hunkers down and grabs Tam Rosse’s wounded hand painfully. Tam gags as he smells Brady: a long-unwashed smell of urine, bad breath and body girt. The old man peers at the crossed-out gene-tattoo. <br> <br> ‘They cut you, boy? Or burn you? No? Then I got a use for you.’ ",
 
 "Brady pushes Tam toward the door of a beat-up little cargo pod: the horizator. <br> <br> The old man taps a corroded node-speaker by the horizator buttons. <br> <br> ‘‘ Nii, you listening? Nii, this one’s - what’s your name, boy? Rosse. Tam Rosse. Favored to me. Goes where I say and nowhere else.’’ <br> <br> The horizator does nothing. ",
 
