@@ -322,7 +322,7 @@ header .container .menu div.buttons>* {
 #newft {
   min-height: 1080px;
   margin: 0 auto;
-  padding: 5rem;
+  padding: 2rem;
   position: relative;
   background-color: #5A7C7C;
 }
@@ -332,6 +332,7 @@ header .container .menu div.buttons>* {
   text-align: center;
   font-size: 40px;
   padding-bottom: 100px;
+  padding-top: 2rem;
 }
 
 .ftgridcontainer {
@@ -344,18 +345,15 @@ header .container .menu div.buttons>* {
   background: white;
   border: 10px solid #434A52;
   color: black;
-  padding: 2rem;
   font-size: 18px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
+  line-height: 30px;
+  margin: 0 auto;
 }
 
 .ftitem2 {
-  color: white;
-  padding: 2rem;
-  font-size: 18px;
-  text-align: center;
+  vertical-align: bottom;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -541,6 +539,17 @@ footer {
 
   #newft {
     min-height: 540px;
+    padding-bottom: 100px;
+  }
+
+
+  .ftimg {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+
+  .ftitem2 {
+    vertical-align: bottom;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -704,6 +713,15 @@ footer {
 
   #newft {
     min-height: 800px;
+  }
+
+  .ftimg {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+
+  .ftitem2 {
+    vertical-align: bottom;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -942,6 +960,20 @@ footer {
 
   #newft {
     min-height: 800px;
+  }
+
+  .ftitem {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .ftimg {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+
+  .ftitem2 {
+    vertical-align: bottom;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1214,7 +1246,7 @@ footer {
   #newft {
     min-height: 800px;
     margin: 0 auto;
-    padding: 5rem;
+    padding: 2rem;
     position: relative;
     background-color: #5A7C7C;
   }
@@ -1224,6 +1256,7 @@ footer {
     text-align: center;
     font-size: 40px;
     padding-bottom: 100px;
+    padding-top: 2rem;
     font-weight: 500;
     letter-spacing: 3px;
   }
@@ -1238,16 +1271,20 @@ footer {
     background: white;
     border: 10px solid #434A52;
     color: black;
-    padding: 2rem;
     font-size: 18px;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .ftitem2 {
-    color: white;
-    padding: 2rem;
-    font-size: 18px;
-    text-align: center;
+    vertical-align: bottom;
+  }
+
+
+  .ftimg {
+    max-width: 100%;
+    vertical-align: bottom;
   }
 
   /* ///////////////////// End Section /////////////////////// */
