@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
   color: #D6DCD5;
   font-size: 20px;
   line-height: 1.7em;
@@ -11,15 +10,40 @@ body {
   height: 100vh;
 }
 
-#wrapper2 {
+#wrapper-kitchen {
   width: 60%;
-  margin: auto;
+  margin: 5% auto 0 auto;
+  font-family: 'Montserrat';
+  color: #D6DCD5;
+  font-size: 20px;
+  line-height: 1.7em;
+}
+
+#wrapper-kitchen li {
+  list-style-type: disc;
+  font-size: 20px;
 }
 
 #tea-directions {
     width: 49%;
     float: left;
 }
+
+#menu-2 {
+  width: 49%;
+  float: left;
+}
+
+#elephantKettle {
+  width: 49%;
+  float: right;
+}
+
+#tea-kettle {
+  margin: auto;
+  position: static;
+}
+
 
 /*-----KITCHEN CLOSET-----*/
 #kitchen-closet {
