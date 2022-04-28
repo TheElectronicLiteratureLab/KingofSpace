@@ -10,7 +10,8 @@ function foundTea(){
 //This function is to check whether or not the player has found the teakettle
 function checkTea(){
     if(hasTea == true){ //Tea Kettle image will go in the second section here. id=teaKettle-image
-        wrapper2.innerHTML = "<section id=\"menu-2\"><p>Good.</p><ol start=\"2\"><li>Fill teakettle with water.<br>(Kettle will automatically add tea.)</li><li>Put kettle on stove.<br>(Burner will automatically light.)</li><li>Wait until water boils.</li><li>Serve.</li></ol></section><section id=\"teaKettle-image\"></section>";
+        wrapper2.innerHTML = "<section id=\"menu-2\"><p>Good.</p><ol start=\"2\"><li>Fill teakettle with water.<br>(Kettle will automatically add tea.)</li><li>Put kettle on stove.<br>(Burner will automatically light.)</li><li>Wait until water boils.</li><li>Serve.</li></ol></section>";
+
         wrapper2.innerHTML += "<button id=\"kettle-faucet\" onclick=\"bringToFaucet();\">Bring teakettle to faucet</button>";
     } else {
         wrapper2.innerHTML = "<section id=\"tea-warning\"><p>First find the teakettle.<p><section>";

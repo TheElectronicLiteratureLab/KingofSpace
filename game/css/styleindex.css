@@ -1,11 +1,11 @@
 body  {
   padding: 0%;
   margin: 0%;
-  overflow: hidden;
   font-family: 'Montserrat', sans-serif;
-  background-image:url(../img/Asset\ 9.png);
-  background-repeat:no-repeat;
+  background-image:url(../img/maingame-starbackground.png);
+  background-repeat:repeat-x;
   background-position: bottom;
+  background-size: 100%;
   /* background-size: 2000px 300px; */
   /* font-size: 20px; */
 }
@@ -13,12 +13,25 @@ body  {
 p{
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  max-width: 65ch;
   color: #D6DCD5;
+}
+#personimg{
+  width: 400px;
+  height: 400px;
+  left: 0%;
+  bottom: 25%;
+  background-size: 100%;
+  
+}
+#buttonalign{
+
+  width: ;
 }
 
 #wrapper  {
   width: 100%;
-  height:100%;
+  min-height:100vh;
   margin: 0;
 }
 
@@ -105,14 +118,9 @@ p{
 }
 
 #myBtn, #myBtn2, #myBtn3, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7{
-	position: fixed;
-	/* height: 30px;
-	width: 100px; */
-	/* top: 450px;
-	left: 60px; */
-
-  top: 70%;
-	left: 50%;
+	position: absolute;
+  top: 70vh;
+	left: 50vw;
   padding:.5rem;
   background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
   color: white;
@@ -122,6 +130,7 @@ p{
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   font-family: 'Montserrat', sans-serif;
+  visibility: hidden;
 }
 
 #myBtn:hover,#myBtn2:hover, #myBtn3:hover, #myBtn3:hover, #myBtn4:hover, #myBtn5:hover, #myBtn6:hover, #myBtn7:hover{
@@ -184,23 +193,30 @@ p{
 }
 
 /* The Close Button */
-.close {
-  color: #FFFFFF;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+.close, .close2, .close3, .close4, .close5, .close6, .close7 {
+  color: #78CBC4;
+  /* float: right; */
+  /* margin-left: 95%;    <--- We should not use margins to position items. the margin causes the content under it to be pushed down. I changed this to fixed positioning - Cullen
+  margin-top:.2%; */
+  position: fixed;
+  top: 10px;
+  right: 20px;    
+  font-size: 60px;
+  /* font-weight: bold; */
 }
 
-.close:hover,
-.close:focus {
-  color: #000;
+.close:hover, .close2:hover, .close3:hover, .close4:hover, .close5:hover, .close6:hover, .close7:hover,
+.close:focus, .close2:focus, .close3:focus, .close4:focus, .close5:focus, .close6:focus, .close7:focus {
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
 
-.close2 {
+/* .close2 {
   color: #FFFFFF;
-  float: right;
+  position: fixed;
+  right: 15px;
+  top: 10px;
   font-size: 28px;
   font-weight: bold;
 }
@@ -280,7 +296,7 @@ p{
   color: #000;
   text-decoration: none;
   cursor: pointer;
-}
+} */
 
 
 .rectanglelarge {
@@ -318,10 +334,10 @@ p{
 	position: fixed;
   bottom:100px;
   left:75%;
+
+  /* margin: 50px 25px 0 auto; */
 	height: 25px;
 	width: 100px;
-	/* top: 600px;
-	left: 60px; */
 	background: none;
 	background-image: url(../img/arrow.png);
 	background-size: 100%;
@@ -340,14 +356,9 @@ p{
 	left: 900px;
 }
 
-#choiceone, #choicetwo, #choicethree{
-	/* position: fixed;
-	height: 40px;
-	width: 200px;
-	top: 500px;
-	left: 130px; */
-  margin: 5% auto;
-  /* display:inline-block; */
+#choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven, #choiceeight, .minigamebutton{
+	
+  /* margin: 5% auto;
   max-width: 65ch;
   background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
   color: white;
@@ -357,34 +368,42 @@ p{
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   padding: .5rem;
+  font-family: 'Montserrat', sans-serif; */
+  margin:  auto;
+  padding-top: 20px;
+  color: #78CBC4;
+  text-align: left;
+  border: none;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
+	background: none;
+  /* background-image: url(../img/choice-arrow.png);
+  background-size: 175px 25px;
+  background-repeat:no-repeat;
+  background-position: 90% center;
+  background-clip: border-box; */
+	border: none;
+  outline: none;
+  filter: drop-shadow(0px 0px 5px #78CBC4);
+  cursor:pointer;
 }
 
-#choiceone:hover, #choicetwo:hover, #choicethree:hover{
-  background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
-  color: white;
+#choiceone:hover, #choicetwo:hover, #choicethree:hover, #choicefour:hover, #choicefive:hover, #choicesix:hover, #choiceseven:hover, #choiceeight:hover, .minigamebutton:hover{
+  color: #fff;
+  /* border-bottom: 3px solid #78CBC4; */
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
 }
 
-/* #choicetwo{
-	position: fixed;
-	height: 40px;
-	width: 200px;
-	top: 500px;
-	left: 400px;
+#choice-arrow{
+  width:150px;
+  margin:auto;
 }
-
-#choicethree{
-	position: fixed;
-	height: 40px;
-	width: 200px;
-	top: 500px;
-	left: 600px;
-} */
 
 #playboxmain{
-color: white; 
-text-align: left;
-font-size: 16px;
+  color: white; 
+  text-align: left;
+  font-size: 16px;
 }
 
 #radar-puzzle{
@@ -403,16 +422,18 @@ font-size: 16px;
 #mainstory{
 	background-size: 100%;
 	background-repeat: no-repeat;
-  margin: 50px auto;
-  width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+  max-width: 1000px;
   height: 600px;
 }
 
 #mainstory p{
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #D6DCD5;
   line-height: 1.7;
+  max-width: 65ch;
 }
 
 .rectanglelargeblack { /*--- removed float and relative positioning, changed margin to auto, dropped opacity a bit*/
@@ -429,14 +450,89 @@ font-size: 16px;
 .rectanglelargeblack p{
   margin: auto;
   padding-top:30px;
-  align-content: center ;
+  padding-bottom:30px;
+  align-content: center;
+  max-width: 65ch;
+}
+
+/*////////////////////Tablet Main Story Styles//////////*/
+
+@media only screen and (max-width: 1001px) and (min-width: 601px){
+  .rectanglelargeblack {
+    padding: 30px;
+  }
+  #mainstory p{
+    font-size: 18px;
+  }
+  #Next{
+    /* position: fixed;
+    bottom:125px;
+    left:75%; */
+    height: 25px;
+    width: 100px;
+    background: none;
+    background-image: url(../img/arrow.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 5px #78CBC4);
+    cursor: pointer;	
+  }
+  #choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven, #choiceeight{
+    margin: 25px auto;
+    width:100%;
+    height:100px;
+    color: #78CBC4;
+    text-align: left;
+    border: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    /* background-image: url(../img/choice-arrow.png);
+    background-size: 175px 25px;
+    background-repeat:no-repeat;
+    background-position:0px bottom;
+    background-clip: border-box; */
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 5px #78CBC4);
+    cursor: pointer;	
+  }
+}
+/*////////////////////Tablet Main Story Styles//////////*/
+@media only screen and (max-width: 600px){
+  .rectanglelargeblack {
+    padding: 15px;
+  }
+  #mainstory p{
+    font-size: 16px;
+  }
+  #Next{
+    position: fixed;
+    bottom:100px;
+    left:75%;
+    height: 25px;
+    width: 100px;
+    background: none;
+    background-image: url(../img/arrow.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 5px #78CBC4);
+    cursor: pointer;	
+  }
+  #choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven{
+ 
+  }
 }
 
 /* radar puzzle  css   */
 
 #playbox{
 color: white; 
-text-align: center;
+text-align: left;
 font-size: 20px;
 }
 
@@ -453,15 +549,37 @@ font-size: 20px;
 	right: 10px;
 } 
 #main-radar{
+  height: 600px;
+  width: 1000px;
+  margin: auto;
+  background-image: url(../../img/kos_radarGame_final3.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
-#stars{
-  position: relative;
-  height: 109px;
+#radarimgon{
+position: absolute;
+ 
   width: 230px;
-  top: 52px;
-  left:  317px;
+  top:  26.6%;
+  left:  66.5%;
+  
+ 
+}
+#stars{
+  position: absolute;
+  height: px;
+  width: 240px;
+  top:  6.3%;
+  left:  66.5%;
+  z-index: -1;
+}
+#kal{
+  position: absolute;
+  height: 170px;
+  width: 200px;
+  top: 3%;
+  left: 18.3%;
+   z-index: -1;
 }
 
 .rectanglelsmaller {
@@ -484,12 +602,12 @@ font-size: 20px;
 }
 
 #switchone  {
-	position: fixed;
-	
-	left: 304px;
+  position: absolute;
+  
+  left: 35.1%;
   height: 50px;
   width: 32px;
-  top: 56px;
+  top: 3.4%;
   background: none;
  
   background-size: 90%;
@@ -498,12 +616,12 @@ font-size: 20px;
   outline: none;
 }
 #switchonept{
-  position: fixed;
+  position: absolute;
   
-  left: 304px;
+  left: 35.1%;
   height: 50px;
   width: 32px;
-  top: 80px;
+  top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -514,12 +632,12 @@ font-size: 20px;
 
 
 #switchtwo{
-	position: fixed;
-	
-	left: 370px;
+  position: absolute;
+  
+  left: 40%;
   height: 50px;
   width: 32px;
-  top: 80px;
+ top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -528,12 +646,12 @@ font-size: 20px;
   outline: none;
 }
 #switchtwopt{
-position: fixed;
+position: absolute;
   
-  left: 370px;
+  left: 40%;
   height: 50px;
   width: 32px;
-  top: 56px;
+  top: 3.4%;
   background: none;
  
   background-size: 90%;
@@ -543,12 +661,12 @@ position: fixed;
 
 }
 #switchthree{
-	position: fixed;
-	
-	left: 437px;
+  position: absolute;
+  
+  left: 44.5%;
   height: 48px;
   width: 32px;
-  top: 79px;
+  top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -557,12 +675,12 @@ position: fixed;
   outline: none;
 }
 #switchthreept{
-position: fixed;
+position: absolute;
   
-  left: 437px;
+  left: 44.5%;
   height: 50px;
   width: 32px;
-  top: 56px;
+  top: 3.4%;
   background: none;
  
   background-size: 90%;
@@ -573,12 +691,12 @@ position: fixed;
 }
 
 #switchfour{
-	position: fixed;
-	
-	left: 505px;	
+  position: absolute;
+  
+  left: 49.3%;  
   height: 50px;
   width: 32px;
-  top: 56px;
+ top: 3.4%;
 background: none;
  
   background-size: 90%;
@@ -587,12 +705,12 @@ background: none;
   outline: none;
 }
 #switchfourpt{
-  position: fixed;
+  position: absolute;
   
-  left: 505px;  
+  left: 49.3%;  
   height: 50px;
   width: 32px;
-  top: 80px;
+  top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -602,12 +720,12 @@ background: none;
 }
 
 #switchfive{
-	position: fixed;
+  position: absolute;
 
-	left: 571px;
+  left: 54%;
   height: 50px;
   width: 32px;
-  top: 56px;
+  top: 3.4%;
   background: none;
  
   background-size: 90%;
@@ -616,12 +734,12 @@ background: none;
   outline: none;
 }
 #switchfivept{
-  position: fixed;
+  position: absolute;
   
-  left: 571px;
+  left: 54%;
   height: 50px;
   width: 32px;
-  top: 80px;
+  top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -631,11 +749,11 @@ background: none;
 }
 
 #switchsix{
-	position: fixed;
-	height: 50px;
-	width: 32px;
-	top: 56px;
-	left: 636px;
+  position: absolute;
+  height: 50px;
+  width: 32px;
+  top: 3.4%;
+  left: 58.4%;
  background: none;
  
   background-size: 90%;
@@ -645,12 +763,12 @@ background: none;
   
 }
 #switchsixpt{
-  position: fixed;
+  position: absolute;
   
-  left: 636px;
+  left: 58.4%;
   height: 50px;
   width: 32px;
-  top: 80px;
+  top: 6.5%;
   background: none;
  
   background-size: 90%;
@@ -660,11 +778,11 @@ background: none;
 }
 
 #buttonone{
-	position: fixed;
-	height: 30px;
-	width: 30px;
-	top: 300px;
-	left: 78px;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 36%;
+  left: 19.4%;
   
   background: none;
  
@@ -676,11 +794,11 @@ background: none;
 }
 
 #buttontwo{
-	position: fixed;
-	height: 30px;
-	width: 30px;
-	top: 340px;
-	left: 78px;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 41%;
+  left: 19.4%;
   
   background: none;
   background-size: 100%;
@@ -692,11 +810,11 @@ background: none;
 }
 
 #buttonthree{
-	position: fixed;
-	height: 30px;
-	width: 30px;
-	top: 378px;
-	left: 78px;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 46.4%;
+  left: 19.4%;
   background: none;
  
   background-size: 100%;
@@ -707,11 +825,11 @@ background: none;
 }
 
 #buttonfour{
-	position: fixed;
-	height: 30px;
-	width: 30px;
-	top: 415px;
-	left: 78px;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 51.6%;
+  left: 19.4%;
   
   background: none;
  background-size: 100%;
@@ -722,11 +840,11 @@ background: none;
 }
 
 #buttonfive{
-	position: fixed;
-	height: 30px;
-	width: 30px;
-	top: 458px;
-	left: 78px;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 56.7%;
+  left: 19.4%;
   
   background: none;
  background-size: 100%;
@@ -748,7 +866,9 @@ background: none;
 }
 
 #table {
-  padding-top: 30%;
+  padding-top: 10%;
+  width: 480px;
+  margin: auto;
 }
 
 .tiles {
@@ -816,16 +936,35 @@ background: none;
   cursor: pointer;
   border: 1px solid white;
 }
+
+
+@media only screen and (max-width: 600px){
+
+  #table{
+    width: 240px;
+  }
+
+  .tiles{
+    width: 60px;
+    height: 60px;
+  }
+  .tile16 {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+
+
+
+
 /* END tiger puzzle  css   */
-
-
-
 
 .grid {
   display: grid;
   grid-template-columns: 300px 320px 200px;
 }
- 
+
 .left-column {
   display: flex;
   flex-direction: column;
@@ -858,14 +997,13 @@ img {
   left: 170px;
 }
 
-
 /* HORIZATOR PUZZLE CSS */
 
 .rectanglelarge {
   position: absolute;
   height: 660px;
   width: 1000px;
- 	top: 1%;
+  top: 1%;
   margin: 1%;
   float: left;
   border: 2px solid black;
@@ -881,7 +1019,7 @@ img {
 	position: absolute;
   height: 560px;
   width: 800px;
- 	top: 1%;
+  top: 1%;
   margin: 1%;
   float: left;
   border: 2px solid black;
@@ -953,9 +1091,6 @@ font-size: 20px;
 
 /* story css */
 
-
-
-
 /* Library */
 
 /* body  {
@@ -979,77 +1114,180 @@ font-size: 20px;
 
 #playboxmain-horizator{
   position: absolute;
-top: 20%;
-right: 30%;
-width: 50%;
+  top: 20%;
+  right: 30%;
+  width: 50%;
   text-align: left;
   float: right;
   font-size: 20px;
 }
 
 /* Library */
+
 /* BEGIN troop */
-/* END troop */
-
-/* BEGIN kitchen */
-#tea-directions {
-  width: 49%;
-  float: left;
-}
-
-#makeTea-continue {
-  clear: both;
-}
-
 /*----troop  carrer---*/
-#troop-wrapper  {
+/* #troop-wrapper  {
   width: 100%;
   height:2000px;
   margin: 10%;
   padding: 10%;
+} */
+
+p {
+  margin-top: 0;
+}
+
+#troop-wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+#tc-puzzle {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  background-image: url(../minigamesingame/troop-carrier/img/kos-troopcarrier.png);
+}
+
+/*----------CHECKBOXES----------*/
+.tc-box {
+  height: 40px;
+  width: 40px;
+  opacity: 0;
+}
+
+.tc-box:hover {
+  cursor: grab;
+}
+
+.tc-box:active {
+  cursor: grabbing;
+}
+
+#tc-1 {
+  position: absolute;
+  top: 150px;
+  left: 677px;
+}
+
+#tc-2 {
+  position: absolute;
+  top: 225px;
+  left: 1245px;
+}
+
+#tc-3 {
+  position: absolute;
+  top: 150px;
+  left: 817px;
+}
+
+#tc-4 {
+  position: absolute;
+  top: 900px;
+  left: 635px;
+}
+
+#tc-5 {
+  position: absolute;
+  top: 195px;
+  left: 1325px;
+}
+
+#tc-6 {
+  position: absolute;
+  top: 160px;
+  left: 1447px;
+}
+
+#tc-7 {
+  position: absolute;
+  top: 150px;
+  left: 1085px;
+}
+
+#tc-8 {
+  position: absolute;
+  top: 415px;
+  left: 1245px;
+}
+
+#tc-9 {
+  position: absolute;
+  top: 415px;
+  left: 1330px;
+}
+
+#tc-10 {
+  position: absolute;
+  top: 635px;
+  left: 1545px;
+}
+
+/*----------RESPONSES----------*/
+#tc-text-1, #tc-text-2, #tc-text-3, #tc-text-4, #tc-text-5, #tc-text-6, #tc-text-7, #tc-text-8, #tc-text-9, #tc-text-10 {
+  margin: 0 auto;
+  max-width: 800px;
+  height: 600px;
+  padding-top: 50px;
+}
+/* END troop */
+
+/* BEGIN kitchen */
+#wrapper2 {
+  width: 60%;
+  margin: auto;
+  color: #D6DCD5;
+  list-style-type: disc;
+  font-size: 20px;
+  line-height: 1.7;
+  margin-top: 5%;
+}
+
+#wrapper2 li {
+  list-style-type: disc;
+  font-size: 20px;
+} 
+
+#tea-directions {
+    width: 49%;
+    float: left;
 }
 
 /*-----KITCHEN CLOSET-----*/
-#wrapper2  {
-  width: 100%;
-  height:2000px;
-  margin: 0;
-  color: white;
-}
 #kitchen-closet {
-  width: 49%;
-  float: right;
+    width: 49%;
+    float: right;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 5px;
-}
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+  }
 
-.grid-item {
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
+  .grid-item {
+    border: 1px solid #D6DCD5;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
 
-#found-teaKettle:hover {
-  cursor: grab;
-}
+  #found-teaKettle:hover {
+    cursor: grab;
+  }
 
-#found-teaKettle:active {
-  cursor: grabbing;
-}
+  #found-teaKettle:active {
+    cursor: grabbing;
+  }
 
-/*-----CUCUMBER SANDWICH-----*/
-#cucmber-sandwich:hover {
-  cursor: grab;
-}
+  /*-----CUCUMBER SANDWICH-----*/
+  #cucmber-sandwich:hover {
+    cursor: grab;
+  }
 
-#cucumber-sandwich:active {
-  cursor: grabbing;
-}
-
+  #cucumber-sandwich:active {
+    cursor: grabbing;
+  }
 /* END kitchen */
-

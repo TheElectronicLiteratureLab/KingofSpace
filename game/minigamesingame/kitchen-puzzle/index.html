@@ -5,10 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/kitchen.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../../css/styleindex.css">
+    <link rel="stylesheet" type="text/css" href="../../css/gamestyles.css">
+    <title>The Kitchen</title>
 </head>
 <body>
     <div id="wrapper2">
+    <!-- Hamburger Menu -->
+    <header>
+        <div class="container">
+            <input class="hamburger-button" type="checkbox" id="hamburger-button" />
+            <label for="hamburger-button">
+                <div></div>
+            </label>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="../../game.html">Title Screen</a></li>
+                            <!-- <li><a href="/">How to Play</a></li> -->
+                            <li><a href="../../prologue.html">About The World</a></li>
+                            <li><a href="../../characters.html">Characters</a></li>
+                            <li><a href="../../gameonly.html">Game Only Mode</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- End of Hamburger Menu  -->
         <section id="rules">
             <h2>Rules of the Kitchen</h2>
             <ul>
@@ -20,7 +45,7 @@
                 <li>Be careful of the mirrors.</li>
                 <li>Enjoy the pie</li>
             </ul>
-            <button onclick="menu();">Continue</button>
+            <button class="minigamebutton" onclick="menu();">Continue</button>
         </section>
     </div>
 
