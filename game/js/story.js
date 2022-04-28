@@ -990,11 +990,13 @@ function story(temp) {
 
 
 			case 215:
+			hide('personimg');
 				z.style.backgroundImage= "url(imgstory/kos-brady-leftquarterface.png)";
 				current++;
 				break;
 			
 			case 216:
+
 				z.style.backgroundImage= "url(img/maingame-starbackground.png)";
 				current++;
 				break;

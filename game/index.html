@@ -42,7 +42,8 @@
 
     <!--*************main game section start ***************-->
     <div  id="mainstory", class="rectanglelargeblack"> <!-- Start mainstory Div -->
-      <p id="playboxmain"></p>
+      <p id="playboxmain" ></p>
+      <div id="buttonalign"> 
       <button id="choiceone" style="display: block;" class="S1" onclick="story('one')"> O</button>
       <button id="choicetwo" style="display: block;" class="S2"  onclick="story('two')">T</button>
       <button id="choicethree" style="display: block;" class="S3"  onclick="story('three')">T</button>
@@ -52,12 +53,10 @@
       <button id="choiceseven" style="display: block;" class="S7"  onclick="story('seven')">S</button>
       <button id="choiceeight" style="display: block;" class="S8"  onclick="story('eight')">E</button>
       <button id="Next" style="display: none" onclick="story('next')"></button>
-      
-
-    </div> <!-- End mainstory Div -->
-    <!--<img src="imgstory/kos-watercenter-3d-final.mp4" id="pond"> -->
-    <div id="personimg">
     </div>
+      <img id="personimg" style="z-index: -1;">
+    </div> <!-- End mainstory Div -->
+    
   </div> <!-- End Wrapper Div -->
   <!--****************main game section end ********************** -->
 
@@ -337,6 +336,7 @@
       hide('choicesix');
       hide('choiceseven');
       hide('choiceeight');
+      hide('personimg');
       hide('Next');
       hide('myBtn');// radar
       hide('myBtn2');//slider puzzle / tiger

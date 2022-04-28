@@ -17,11 +17,16 @@ p{
   color: #D6DCD5;
 }
 #personimg{
-  width: 200px;
-  height: 200px;
-  left: 30%;
-  top: 60%;
+  width: 400px;
+  height: 400px;
+  left: 0%;
+  bottom: 25%;
   background-size: 100%;
+  
+}
+#buttonalign{
+
+  width: ;
 }
 
 #wrapper  {
@@ -527,7 +532,7 @@ p{
 
 #playbox{
 color: white; 
-text-align: center;
+text-align: left;
 font-size: 20px;
 }
 

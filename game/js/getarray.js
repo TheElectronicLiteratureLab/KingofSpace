@@ -2,7 +2,7 @@
 
 function getstory (current){
 	
-let story= ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches from Venus to Mars. The Emperor reigns here with his Children, the Priestess and the Red King. The Terrans flourish on three worlds, two inhabited moons, and hundreds of bata, the spacebore colonies run by the six Houses. <br> <br>Darkside lies the Lo-Europa Complex, home of the inhumans, rebels against the Empire. <br> <br> Between them are the Rocks-the Asteroid Belt, quarantined against men and unmen.", // 0
+let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretches from Venus to Mars. The Emperor reigns here with his Children, the Priestess and the Red King. The Terrans flourish on three worlds, two inhabited moons, and hundreds of bata, the spacebore colonies run by the six Houses. <br> <br>Darkside lies the Lo-Europa Complex, home of the inhumans, rebels against the Empire. <br> <br> Between them are the Rocks-the Asteroid Belt, quarantined against men and unmen.", // 0
 
 "It is a place of unimaginable emptiness. In 690 billion square miles, only three asteroids can support a Class A town: Pallas the spa, Circe the prison, and Ceres the Bureaucracy. From these three asteroids, hidden behind glass screens and virus filters, the Terran administrators try to hold a territory larger than all of the empire. <br><br> The Independent Trading Colonies scratch out a living in Beltspace. Each ITC supports perhaps 50 to 100 humans. But between the ITCs and the three, there is emptiness, desertion, and silence. <br> <br>50 years ago, it was different. But then the Incarnations came, the Priestess and the Red King…<br><br>And after them, the Plague…",// 1
 
