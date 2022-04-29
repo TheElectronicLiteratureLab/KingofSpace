@@ -1308,11 +1308,13 @@ p {
   font-size: 20px;
   line-height: 1.7;
   margin-top: 5%;
+   background-color:rgba(21, 30, 36, 0.5);
 }
 
 #wrapper2 li {
   list-style-type: disc;
   font-size: 20px;
+   background-color:rgba(21, 30, 36, 0.5);
 } 
 
 #tea-directions {
@@ -1320,23 +1322,83 @@ p {
     float: left;
 }
 
+
+
+
 /*-----KITCHEN CLOSET-----*/
 #kitchen-closet {
-    width: 49%;
+    width: 50%;
     float: right;
+    color: #151E24;
+     border: none;
+
+}
+#koi-cabnet-closed{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+ width: 25%;
+   
+    padding: 5%;
+}
+#koi-cabnet-open{
+  position: absolute;
+  top: 0%;
+  left: 40%;
+ width: 50%;
+ 
+    z-index: -1;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 5px;
+    padding: 2%;
+    border: none;
+
+
   }
 
   .grid-item {
-    border: 1px solid #D6DCD5;
+   margin: 7px;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    border: none;
+    color: #151E24;
+  }
+
+  #tea-kettle{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+ width: 300%;
+    z-index: -1;
+    
+  }
+  #walkinfreezer{
+    
+     
+     font-size: 20px;
+     padding: 5%;
+    background-color:rgba(21, 30, 36, 0.5);
+  }
+  #cucmber-sandwich{
+    position: absolute;
+  top: 0%;
+  left: 40%;
+ width: 25%;
+   
+    padding: 5%;
+  }
+  
+  #freezer{
+    position: absolute;
+  top: 0%;
+  left: 0%;
+ width: 100%;
+    z-index: -1;
+    
   }
 
   #found-teaKettle:hover {

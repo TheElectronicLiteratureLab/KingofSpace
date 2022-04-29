@@ -21,7 +21,7 @@ function checkTea(){
 
 //kitchen menu generation
 function menu(){
-    wrapper2.innerHTML += "<section id=\"menu\"><p>Expertly caligraphed on the refrigerator door is a message:</p><p>Menu</p><p>Japanese Tea</p><p>Cucumber Sandwiches</p><p>That ough to be easy enough for you!</p><p><i>--The Lady Nii.</i></p></section>";
+    wrapper2.innerHTML += "<section id=\"menu\"><p>Expertly caligraphed on the refrigerator door is a message:</p><p>Menu</p><p>Japanese Tea</p><p>Cucumber Sandwiches</p><p>That ough to be easy enough for you!</p><p><i>--The Lady Nii.</i></p></section><section id=\"koicabnetclosed\"><img id=\"koi-cabnet-closed\" src=\"./img/kos-shelves3.png\"></section>";
     wrapper2.innerHTML += "<section id=\"kitchen-buttons\"><br><button class=\"minigamebutton\" id=\"tea\" onclick=\"teaDirections();\">Make Tea</button><br><br><button class=\"minigamebutton\" id=\"sandwhich\" onclick=\"getSandwiches();\")>Get Sandwiches</button></section>";
     
     let rules = document.getElementById("rules");
@@ -35,7 +35,7 @@ function teaDirections(){
 
     wrapper2.innerHTML = "<section id=\"tea-directions\"><p>To make tea:</p><ol><li>Find the teakettle in the closet.</li><li>Fill teakettle with water.<br>(Kettle will automatically add tea.)</li><li>Put kettle on stove.<br>(Burner will automatically light.)</li><li>Wait until water boils.</li><li>Serve.</li></ol><button class=\"minigamebutton\" id=\"makeTea-continue\" onclick=\"checkTea();\">Continue</button></section>";
 
-    wrapper2.innerHTML += "<section id=\"kitchen-closet\" class=\"grid-container\"><div class=\"grid-item\">1</div><div class=\"grid-item\">2</div><div class=\"grid-item\">3</div><div class=\"grid-item\">4</div><div id=\"found-teaKettle\" class=\"grid-item\" onclick=\"foundTea();\">5</div><div class=\"grid-item\">6</div><div class=\"grid-item\">7</div><div class=\"grid-item\">8</div></section>";
+    wrapper2.innerHTML += "<section id=\"kitchen-closet\" class=\"grid-container\"><div class=\"grid-item\">1</div><div class=\"grid-item\">2</div><div class=\"grid-item\">3</div><div class=\"grid-item\">4</div><div id=\"found-teaKettle\" class=\"grid-item\" onclick=\"foundTea();\">5</div><div class=\"grid-item\">6</div><div class=\"grid-item\">7</div><div class=\"grid-item\">8</div></section><section id=\"koicabnetopen\"><img id=\"koi-cabnet-open\" src=\"./img/kos-shelves1.png\"></section>";
 }
 
 //bring kettle to faucet option
@@ -82,7 +82,7 @@ function wait(){
 }
 
 function getSandwiches(){
-    wrapper2.innerHTML = "<p>There's the refrigerator...</p><p>Tam hauls open the door and warily enters its cold, black depths.</p>";
+    wrapper2.innerHTML = "<section id=\"walkinfreezer\"><p>There's the refrigerator...</p><p>Tam hauls open the door and warily enters its cold, black depths.</p></section><section id=\"walkinfreezerimg\"><img id=\"freezer\" src=\"./img/kos-walkin-freezer.png\"></section>";
 
     wrapper2.innerHTML += "<button class=\"minigamebutton\" id=\"get-sandwiches-2\" onclick=\"getSandwiches2();\">Continue</button>";
 }
@@ -215,7 +215,7 @@ function getSandwiches18(){
 }
 
 function foundSandwich(){
-    wrapper2.innerHTML = "<p>Here is a cucumber sandwich!</p><img id=\"cucmber-sandwich\" onclick=\"grabSandwich();\" src=\"./img/cucumber-sandwich.jpg\">";
+    wrapper2.innerHTML = "<p>Here is a cucumber sandwich!</p><img id=\"cucmber-sandwich\" onclick=\"grabSandwich();\" src=\"img/kos-sandwich-01.png\">";
 }
 
 function grabSandwich(){
@@ -244,9 +244,18 @@ function teaReady(){
 }
 
 function grabKettle(){
-    wrapper2.innerHTML = "<p>There's hot steam toward the ceiling, hot rain at waist level, and pools of hot water down by the floor.</p><p>Tam grabs the kettle and runs for the exit, splashing hot water at every step.</p><br><button class=\"minigamebutton\" id=\"ouch-ouch\" onclick=\"hide('myModal7'); story('next');\">Ouch ouch ouch</button>";
+    wrapper2.innerHTML = "<p>There's hot steam toward the ceiling, hot rain at waist level, and pools of hot water down by the floor.</p><p>Tam grabs the kettle and runs for the exit, splashing hot water at every step.</p><br><button class=\"minigamebutton\" id=\"ouch-ouch\" onclick=\"hide('wrapper-kitchen'); \">Ouch ouch ouch</button>";
 }
 
+function hide(button) {
+        var temp = button;
+      var x = document.getElementById(temp);
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
 // function leaveKitchen(){
 //     wrapper2.innerHTML = "<p>With tea in cup and sandwicch in plastic wrap, Tam gets out of the kitchen into the corridor. The red flickering lights have gone away. . .</p><p>Of course. King Brady told the ship to show him the way to the kitchen. It didn't say to show him the way back.</p>";
 
