@@ -657,6 +657,316 @@ justify-content: center;
   }
 }
 
+/* //////// library //////////*/
+#library{
+  font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    color: #78CBC4;
+}
+#library:hover{
+  color: white;
+    border-bottom:3px solid #78CBC4;
+    -webkit-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+}
+
+#library-button-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap:3%;
+
+}
+#library-text{
+ 
+  font-size: 20px;
+  text-align: center;
+max-width: 100%;
+  padding: 5%;
+  margin-bottom:5% ;
+}
+
+#bookone{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+
+#booktwo{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+
+#bookthree{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+
+#bookfour{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+
+#bookfive{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+
+#booksix{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+
+#bookseven{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+#bookeight{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+#booknine{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+#bookten{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+#bookeleven{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+#booktwelve{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+#bookthirteen{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+#bookfourteen{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+#bookfifteen{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+#booksixteen{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
+#bookseventeen{
+  color: #D6DCD5;
+  background-color: #151E24;
+  filter: drop-shadow(3px 3px 3px #78CBC4);
+  border:none;
+  height:100px;
+  width:150px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 2%;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s;
+  font-size: 20px;
+  margin: 2% 0;
+}
 
 /*//////////////////// location  styles /////////////////*/
   /* body {

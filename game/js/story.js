@@ -124,6 +124,33 @@ function story(temp) {
 				current++;
 				break;
 
+
+			case 9:
+				x.style.backgroundImage= "url(img/maingame-starbackground.png)";
+				hide('Next');
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `Next <b>&#8250;</b> `;
+				document.getElementById('choicetwo').innerHTML = ` Greatship Map <b>&#8250;</b>`;
+
+				if(temp === 'one'){ 
+					current ++; // next
+					// print out array
+					getstory(current);
+					console.log(story('next'));
+				}
+				else if(temp === 'two'){
+			
+					current = 325; // Great ship 
+					// print out array
+					getstory(current);
+					console.log(story('next'));
+				}
+				break;
+
+
+
+
 			case 11:
 				//play animation of great ship or life ship...?
 
@@ -234,6 +261,17 @@ function story(temp) {
 				break;
 
 			
+			case 46:
+				hide('personimgright');
+				r.style.backgroundImage="url(imgstory/kos_flowercolordrafttransparent.png)";
+				current++;
+				break;
+
+				case 47:
+				hide('personimgright');
+				current++;
+				break;
+
 
 			case 48:
 			x.style.backgroundImage="url(img/maingame-starbackground.png)";
@@ -1385,6 +1423,11 @@ function story(temp) {
 					// dose not do anything... rework to main menu
 					console.log(story('next')); 
 				}
+				break;
+
+				case 325:
+					current = 9;
+					x.style.backgroundImage= "url(imgstory/kos-greatshipmap2.png)";
 				break;
 
 			default:

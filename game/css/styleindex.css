@@ -59,6 +59,7 @@ position: absolute;
   z-index: -1;
 }
 
+
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -130,6 +131,18 @@ position: absolute;
 }
 
 .modal7 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  left: 0;
+  top: 0;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,1); /* Black w/ opacity */
+}
+
+.modal-library{
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   left: 0;
@@ -215,6 +228,28 @@ position: absolute;
   margin: auto;
   padding: 0px;
 }
+
+.modal-content-library{
+  margin: auto;
+  padding: 0px;
+}
+
+.close-library{
+  color: #78CBC4;
+  /* float: right; */
+  /* margin-left: 95%;    <--- We should not use margins to position items. the margin causes the content under it to be pushed down. I changed this to fixed positioning - Cullen
+  margin-top:.2%; */
+  position: fixed;
+  top: 10px;
+  right: 20px;    
+  font-size: 60px;
+  /* font-weight: bold; */
+}
+.close-library:hover{
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  }
 
 /* The Close Button */
 .close, .close2, .close3, .close4, .close5, .close6, .close7 {
