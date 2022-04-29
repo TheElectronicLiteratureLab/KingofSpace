@@ -70,13 +70,20 @@ function story(temp) {
 	var x = document.getElementById('body');
 	var z = document.getElementById('personimg');
 	var r = document.getElementById('personimgright');
-
-
+	var a = document.getElementById('clickone');
+	var b = document.getElementById('clicktwo');
+	
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
 	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'three'|| temp === 'four' || temp === 'five' || temp === 'six' || temp === 'seven' || temp === 'eight'){
 		//console.log('im here in next')
-	
+		if(temp === 'next' ){
+			a.play();
+		}
+		else{
+			b.play();
+		}
+		
 		//console.log ("made it to while loop");
 		switch(current){
 			
@@ -1320,7 +1327,7 @@ function story(temp) {
 				// hide next 
 
 				//hide('Next');
-				hide('myBtn5'); //library
+				//hide('myBtn5'); //library
 				//hide('choicetwo');
 				//hide('choicethree');
 				//hide('choicefour');
@@ -1378,7 +1385,7 @@ function story(temp) {
 				break;
 
 			case 294:
-			hide('myBtn5'); //tetris 
+			//hide('myBtn5'); //tetris 
 				
 				//tetrus
 				current ++;
@@ -1387,7 +1394,7 @@ function story(temp) {
 			case 311:  
 				// print out array 
 
-				hide('myBtn3'); //tetris 
+				//hide('myBtn3'); //tetris 
 				
 
 				//tetrus

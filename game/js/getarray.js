@@ -42,13 +42,13 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 
 "The Priestess. But there is no Red King with her. <br><br> Tam's head echoes with the warm bass tones of the Scriptures he heard as a child and no longer believes in. <br><br> &emsp; <i>The Emperor mated with Terra, and their Daughter was Space.<br> &emsp; Space is a virgin whose skin is dark and whose body is coverd with <br> &emsp; stars. The moon hangs in her ear. In her womb are all the seeds of life...</i><br><br> The halo of silver seeds extends through the ice around her. In that gel is the genetic code of everything from algae to humans. On Venus, criminals kill to get algae. Algae make oxygen; you can eat algae. With algae you can live. <br><br> Where is her Red King?",//15
 
-"Where is the poor bastard? <br><br> &emsp; <i> Because she was lonely for a lover, she made a man out of Mars-dust, and by concours with her in the ceremony he gaind life. He is the Red King, the trickster, but he is also her true love, mated to Space for life.</i> <br><br> Mated to Space for life...",//16
+"Where is the poor bastard? <br><br> <i> Because she was lonely for a lover, she made a man out of Mars-dust, and by concours with her in the ceremony he gaind life. He is the Red King, the trickster, but he is also her true love, mated to Space for life.</i> <br><br> Mated to Space for life...",//16
 
 "He sould be on the couch,<br> frozen in the coldsleep gel<br> with her.",//17
 
 "Tam's neck chills. This Priestess is still wearing the Virgin's Moon. <br><br> Her earring is a thin sickle of silver, a virgin's earring. Until she shairs her earring, she has no powers.<br><br> The Priestesses get their ''powers'' through computer linkage, and the linking-up happens during the sharring. A Priestess on her virgin voyage finds a man and mates with him. After sex, she gets her powers. Sex is magic.<br><br> But during the sex- this is a bad religion- the Priestess infects her lover with the most virulent form of Plague. Whoever she finds, the poor bastard becomes her Red King. Her bodyguard. Totally, fanatically, dedicated to her. <br><br> Mated to Space? No. Mated to her. For life.",//18
 
-"Tam Rosse looks down at his red prison jumpsuit and grins wryly. The Red King.<br> &emsp; <i> And all who love the Emperer's Saughter shall know and love the Emperor.</i> <br> He makes his sacred left hand into a fist. Nothing makes him love the Emperor. But he needs the Priestess's knowledge.",//19
+"Tam Rosse looks down at his red prison jumpsuit and grins wryly. The Red King.<br> &emsp; <i> And all who love the Emperer's Daughter shall know and love the Emperor.</i> <br> He makes his sacred left hand into a fist. Nothing makes him love the Emperor. But he needs the Priestess's knowledge.",//19
 
 //21 ch1 The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally.
 
@@ -154,15 +154,15 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 //70
 "On one wall of the lifeship there is a control to bring her out of sleep. <br><br> The half-moon of ice melts slowly, rivulets flowing down in to the surface of the egg-ship. <br><br> The rich air becomes even richer, intoxicating, like the air of spring. It's too much for him, coming from Circe prison, and he steps back and licks his lips nervously. He know it's a trick, scents of grass and vegtables mingling with the smell of woman sex, but it makes him want to roll with her in that grass, he can smell the crished scent of it underneath their bodies. ",//68
 
-"He wants to worship her, to protect her. He wants to give her his whole loyalty.<br> The feeling is as strong as a mell inside his head.<br><br> Wow.<br><br> What's happening? <br><br> Slowly the girl sits up. He tries not to look at the stars glowing on her bare skin.",//
+"He wants to worship her, to protect her. He wants to give her his whole loyalty.<br> The feeling is as strong as a smell inside his head.<br><br> Wow.<br><br> What's happening? <br><br> Slowly the girl sits up. He tries not to look at the stars glowing on her bare skin.",//
 
-"She shakes the drops of jelly from her dusky skin. She looks him up and down; she is seeing his jumpsuit, the red of Circe prison. <br><br> ''Uh, I won't hurt you,'' he stammers. <br><br> He could no more hut her than turn his dagger against himself. The stars glow on her glowing skin, he smells the fragrance of her body, fresh from the cold sleep, and he is overwhelmed by helpless tenderness, a violent sweet loyalty. He wants to fall down in front of her, worship her body inch by inch, protect her, love her, live for her until he dies.<br><br> Whoa. Reset. These are NOT HIS FEELINGS. ",
+"She shakes the drops of jelly from her dusky skin. She looks him up and down; she is seeing his jumpsuit, the red of Circe prison. <br><br> ''Uh, I won't hurt you,'' he stammers. <br><br> He could no more hurt her than turn his dagger against himself. The stars glow on her glowing skin, he smells the fragrance of her body, fresh from the cold sleep, and he is overwhelmed by helpless tenderness, a violent sweet loyalty. He wants to fall down in front of her, worship her body inch by inch, protect her, love her, live for her until he dies.<br><br> Whoa. Reset. These are NOT HIS FEELINGS. ",
 
 "She begins to pick seeds from the shoulder of his suit. ''These will grow here. Give them to me''",
 
 // 73 choice 1 Tam Rosse gives her the seeds 
 
-"He does not want to touch her. The woman is a black hole. A gravity well. He can feel himself falling into her. <br><br> He shrugs her hand away and brushes the seeds toward her, half giving them, half pushing her away. <br><br> '' Ah,'' he says. ''There's a deserted station outside. It's derelict. My ship'd oxygen-producing algae are dead. I need live algae.'' <br><br> I've got to stop breathing the same air with this woman <br><br> He fumbles for his siot's air supply and begins breathing through it. It's not exausted yet.",
+"He does not want to touch her. The woman is a black hole. A gravity well. He can feel himself falling into her. <br><br> He shrugs her hand away and brushes the seeds toward her, half giving them, half pushing her away. <br><br> '' Ah,'' he says. ''There's a deserted station outside. It's derelict. My ship'd oxygen-producing algae are dead. I need live algae.'' <br><br> I've got to stop breathing the same air with this woman <br><br> He fumbles for his suit's air supply and begins breathing through it. It's not exausted yet.",
 
 "She touches a small moon-shaped earring in her right ear. <br><br> ''I don't have my full powers yet,'' she says, ''but I can do this much.'' <br><br> Suprising him, she runs her long fingers across the nerve scars on his wrist. Deadend nerves tingle and flare back to life. <br><br> ''Ouch!'' <br><br> He looks in amazement at his palm. It's healed. The scar is pink.",
 
@@ -170,9 +170,9 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 
 // 76 choice 1 He says yes 
 
-"It's as if she's done something, turned up the power on his feeling. He wants her, he can't help himself. <br><br> He can't stand it. <br><br> ''Yes!'' he babbles. ''You want me? Sure! I'm a blasphemer! I don't even believe in you! Hate your guts! The Emperor your father too-'' <br><br> He clenches his teeth on the nouthpiece of his air supply tube. Wow. Rubber. Foul horrible ozone-tasting tank-smelling air. Close your eyes and think of the Uprising. <br><br> He propels himself down the corridor, away fromher and the girl-laden air. But he looks over his shoulder to make sure she is following.",
+"It's as if she's done something, turned up the power on his feeling. He wants her, he can't help himself. <br><br> He can't stand it. <br><br> ''Yes!'' he babbles. ''You want me? Sure! I'm a blasphemer! I don't even believe in you! Hate your guts! The Emperor your father too-'' <br><br> He clenches his teeth on the mouthpiece of his air supply tube. Wow. Rubber. Foul horrible ozone-tasting tank-smelling air. Close your eyes and think of the Uprising. <br><br> He propels himself down the corridor, away from her and the girl-laden air. But he looks over his shoulder to make sure she is following.",
 
-"He propels himself down the pitted and murky prot-corridor towards the greatship. He can see the white plume of air leaking from his suit. He slaps a seal-patch over it. <br><br> The priestess needs no sit here. She is spacehabbed. <br><br> Around the lock is a little delta of old water impurities Great. Atmosphere leaks.",
+"He propels himself down the pitted and murky port-corridor towards the greatship. He can see the white plume of air leaking from his suit. He slaps a seal-patch over it. <br><br> The priestess needs no suit here. She is spacehabbed. <br><br> Around the lock is a little delta of old water impurities, Great. Atmosphere leaks.",
 
 "The outside of the ship is scarred from meteors and hard radiation. ",
 
@@ -184,7 +184,7 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 
 "",// 82 black with boxs
 
-"Inside the airlock waits an old, old man. <br><br> The dirt on him would set records. Lice crawl in his matted gray hair (lice! Who let loose the genes for those?). He looks past them as if he is trying to see beyond their sholders all the way to Terra. <br><br> And then he focuses on the Priestess. His eyes light up with a filthy gleam.",//
+"Inside the airlock waits an old, old man. <br><br> The dirt on him would set records. Lice crawl in his matted gray hair (lice! Who let loose the genes for those?). He looks past them as if he is trying to see beyond their shoulders all the way to Terra. <br><br> And then he focuses on the Priestess. His eyes light up with a filthy gleam.",//
 
 "''Priestess'' says the old man, awed. <br><br> The priestess does something to the stars on her body. For a moment she glows like a sunlight. The old man blinks and smiles all over his dirty face. <br><br> ''My Priestess,'' he coos. <br><br> In the glare, Tam Rosse blinks and looks around the place where they're standing. Maybe one time it was a standared airlock/ decontamination room. Not big-- freight goes in to the ship onthe lower-G levels, Not up here at 1.0-- but after the supply ship and the lifeship, it looks like you could fit Saturn into it, rings and all.",//
 
@@ -711,7 +711,7 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 " ", //261
 // passes out after picking something out no air… 
 
-" As Tam bends down to look his vision blurs…",//262
+" As Tam bends down to look, his vision blurs…",//262
 
 "Oxygen starvation swoops at him like a big dark fist… <br><br> He is lying on a transparent surface… his throat and lungs ach for air, but there’s no air here… He has to breath… he can see darkness and stars. His faceplate is gon. … On Circe … at end of shift, Tam stayed behind, trying for his first escape… ‘‘ Fool, don’t you know they cycle the are when the count’s short?’’<br><br> Something digs into his hip, the lasergun. They are in the horizator, halfway between the troop carrier and the nearest entry port. <br><br> Too far away–  ",
 
@@ -759,7 +759,7 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 
 "They are breathing in rhythm now, matches in struggle. He's laughing because he can't believe what they're doing, because he's so afraid, so overwhelmed by sexual need for her, he doesn't know where it's coming from. Inside his skintite he is rigid and aching. He touches the skintite and the front falls open, he pushes himself inside her, plushing with her warmth, gasping... <br><br> This isn't happening to me <br><br> I can't help myself.",
 
-"He screams <br><br> and is drained, <br><br> he is released, <br><br> let go, abondoned.",
+"He screams <br><br> and is drained, <br><br> he is released, <br><br> let go, abandoned.",
 
 "The horizator is still, lying in the lee of a small meteorite that has become part of the Nii's cargo hold. Tam is lying on the floor against the warmth of the Priestess. <br><br> She sleeps like an ordinary woman. Ordinarily warm and soft. <br><br> He feels a terrible tenderness for her. He must give her his protection. he needs to be with her always. The smell of their sex is in the air- the smell - it's the key to something about himself he didn't even know, he needs to have it, he needs to rub the smell of her over himself... <br><br> And another part of his mind screams. <br><br> ''So you got what you wanted,'' he whispers, forcing his bitterness to fight against his need for her.",
 

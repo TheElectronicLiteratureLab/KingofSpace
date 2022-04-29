@@ -5,7 +5,7 @@ body  {
   background-image:url(../img/maingame-starbackground.png);
   background-repeat:repeat-x;
   background-position: bottom;
-  background-size: 95%;
+  background-size: 100%;
 
   /* background-size: 2000px 300px; */
   /* font-size: 20px; */
@@ -34,8 +34,8 @@ p{
 #personimgright{
 position: absolute;
 
-  width: 300px;
-  height: 500px;
+  width: 250px;
+  height: 300px;
   right: 0%;
   top: 0%;
   background-size: 90%;
@@ -1372,7 +1372,7 @@ p {
     position: absolute;
   top: 50%;
   left: 50%;
- width: 300%;
+ width: 160%;
     z-index: -1;
     
   }
