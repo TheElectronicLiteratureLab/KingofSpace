@@ -289,11 +289,17 @@ header .container .menu div.buttons>* {
 
 /* ///////////////////// Characters Section /////////////////////// */
 #chars {
-  min-height: 1080px;
+  min-height: 800px;
   margin: 0 auto;
   padding: 2rem;
   position: relative;
   background-color: #434A52;
+  padding-bottom: 100px;
+}
+
+#charwrapper {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .chheader {
@@ -311,7 +317,6 @@ header .container .menu div.buttons>* {
   grid-gap: 3rem;
 }
 
-
 .chitem {
   background-image: url("../img/starpattern.png");
   border: 10px solid #69B7AE;
@@ -327,7 +332,6 @@ header .container .menu div.buttons>* {
   opacity: 0.7;
 }
 
-
 .chname {
   color: white;
   font-size: 28px;
@@ -335,21 +339,23 @@ header .container .menu div.buttons>* {
   margin-top: 1rem;
 }
 
-/*.shitem2 {
-  color: white;
-  padding: 2rem;
-  font-size: 20px;
-  text-align: center;
-} */
+
 /* ///////////////////// End Section /////////////////////// */
 
-/* ///////////////////// Restoration Teams Section /////////////////////// */
+/* ///////////////////// Spaceship Section /////////////////////// */
 #ships {
-  min-height: 1080px;
+  min-height: 800px;
   margin: 0 auto;
-  padding: 5rem;
+  padding: 2rem;
   position: relative;
+  background-color: #434A52;
+  padding-bottom: 100px;
   background-color: #5A7C7C;
+}
+
+#shipwrapper {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .shgridcontainer2 {
@@ -536,32 +542,15 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// About Mobile (S) /////////////////////// */
-  #abtgame {
-    padding: 2rem;
-  }
-
-  .abtgridcontainer {
-    grid-template-columns: 1fr;
-  }
-
-  .abtitem2 {
-    padding: 0;
-  }
-
-  .trailer {
-    width: 100%;
-    height: 100%;
-    min-height: 200px;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// New Features Mobile (S) /////////////////////// */
+  /* ///////////////////// Characters Section Mobile (S) /////////////////////// */
   .chgridcontainer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
+  }
+
+  #charwrapper {
+    width: 100%;
   }
 
   .shheader {
@@ -574,70 +563,11 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// Restoration Teams Mobile (S) /////////////////////// */
-  .restgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
+  /* ///////////////////// Spaceship Section Mobile (S) /////////////////////// */
+  #shipwrapper {
+    width: 100%;
+    margin: 0 auto;
   }
-
-  .restheader {
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    padding-bottom: 80px;
-    font-weight: 500;
-    letter-spacing: 3px;
-  }
-
-  #ships {
-    min-height: 540px;
-  }
-
-  .teamimgs {
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: bottom;
-    border: 10px solid #69B7AE;
-    transform: scale(1);
-    opacity: 1;
-    transition: opacity 0.4s, transform 0.4s;
-    overflow: hidden;
-  }
-
-  .teamimgs:hover {
-    transform: scale(0.9);
-    opacity: 0.7;
-  }
-
-  .img_wrap {
-    position: relative;
-  }
-
-  .teamimg_description {
-    position: absolute;
-    top: 50%;
-    left: 52%;
-    background: #5A7C7C;
-    color: white;
-    visibility: visible;
-    opacity: 1;
-    transition: opacity .2s, visibility .2s;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 5px;
-    font-size: 25px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-shadow: 2px 2px black;
-  }
-
-  .img_wrap:hover .teamimg_description {
-    visibility: visible;
-    opacity: 1;
-  }
-
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -695,34 +625,15 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-
-  /* ///////////////////// About Mobile (L) /////////////////////// */
-  #abtgame {
-    padding: 2rem;
-    min-height: 800px;
-  }
-
-  .abtgridcontainer {
-    grid-template-columns: 1fr;
-  }
-
-  .abtitem2 {
-    padding: 0;
-  }
-
-  .trailer {
-    width: 100%;
-    height: 100%;
-    min-height: 400px;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// New Features Mobile (L) /////////////////////// */
+  /* ///////////////////// Characters Section Mobile (L) /////////////////////// */
   .chgridcontainer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
+  }
+
+  #charwrapper {
+    width: 90%;
   }
 
   .shheader {
@@ -735,69 +646,14 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// Restoration Teams Mobile (L) /////////////////////// */
-  .restgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  }
-
-  .restheader {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-  }
-
-  .teamimgs {
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: bottom;
-    border: 10px solid #69B7AE;
-    transform: scale(1);
-    opacity: 1;
-    transition: opacity 0.4s, transform 0.4s;
-    overflow: hidden;
-  }
-
-  .teamimgs:hover {
-    transform: scale(0.9);
-    opacity: 0.7;
-  }
-
-  .img_wrap {
-    position: relative;
-  }
-
-  .teamimg_description {
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    background: #5A7C7C;
-    color: white;
-    visibility: visible;
-    opacity: 1;
-    transition: opacity .2s, visibility .2s;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 5px;
-    font-size: 25px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-shadow: 2px 2px black;
-  }
-
-  .img_wrap:hover .teamimg_description {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .restitem {
-    border: 10px solid #69B7AE;
-  }
+  /* ///////////////////// Spaceship Section Mobile (L) /////////////////////// */
 
   #ships {
     min-height: 540px;
+  }
+
+  #shipwrapper {
+    width: 90%;
   }
 
 
@@ -941,34 +797,17 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// About Tablet /////////////////////// */
-  #abtgame {
-    padding: 2rem;
-    min-height: 800px;
-  }
-
-  .abtgridcontainer {
-    grid-template-columns: 1fr;
-  }
-
-  .abtitem2 {
-    padding: 0;
-  }
-
-  .trailer {
-    width: 100%;
-    height: 100%;
-    min-height: 400px;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// New Features Tablet /////////////////////// */
+  /* ///////////////////// Character Section Tablet /////////////////////// */
   .chgridcontainer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
   }
+
+  #charwrapper {
+    width: 50%;
+  }
+
 
   .shheader {
     font-size: 30px;
@@ -980,69 +819,14 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// Restoration Teams Tablet /////////////////////// */
-  .restgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  }
-
-  .restheader {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-  }
-
-  .teamimgs {
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: bottom;
-    border: 10px solid #69B7AE;
-    transform: scale(1);
-    opacity: 1;
-    transition: opacity 0.4s, transform 0.4s;
-    overflow: hidden;
-  }
-
-  .teamimgs:hover {
-    transform: scale(0.9);
-    opacity: 0.7;
-  }
-
-  .img_wrap {
-    position: relative;
-  }
-
-  .teamimg_description {
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    background: #5A7C7C;
-    color: white;
-    visibility: visible;
-    opacity: 1;
-    transition: opacity .2s, visibility .2s;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 5px;
-    font-size: 25px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-shadow: 2px 2px black;
-  }
-
-  .img_wrap:hover .teamimg_description {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .restitem {
-    border: 10px solid #69B7AE;
-  }
+  /* ///////////////////// Spaceship Section Tablet /////////////////////// */
 
   #ships {
     min-height: 540px;
+  }
+
+  #shipwrapper {
+    width: 100%;
   }
 
 
@@ -1213,59 +997,22 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// About the Game Desktop /////////////////////// */
-  #abtgame {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    min-height: 540px;
-    margin: 0 auto;
-    padding-left: 3rem;
-    position: relative;
-    background-color: #434A52;
-    padding-bottom: 5rem;
-  }
-
-  .abtlogo {
-    width: 20vw;
-    text-align: center;
-  }
-
-  .abtgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    padding-top: 3.5rem;
-  }
-
-  .abtitem {
-    background: white;
-    border: 10px solid #69B7AE;
-    text-align: center;
-  }
-
-  .abtitem2 {
-    color: white;
-    font-size: 18px;
-    padding: 7rem;
-    text-align: left;
-  }
-
-  .trailer {
-    width: 100%;
-    height: 100%;
-    min-height: 500px;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// New Features Desktop /////////////////////// */
+  /* ///////////////////// Characters Section Desktop /////////////////////// */
   #chars {
-    min-height: 800px;
+    min-height: 400px;
     margin: 0 auto;
-    padding: 5rem;
+    padding: 2rem;
     position: relative;
     background-color: #434A52;
+    padding-bottom: 100px;
+    padding-top: 100px;
   }
+
+  #charwrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
 
   .shheader {
     color: white;
@@ -1306,7 +1053,7 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// Restoration Teams Desktop /////////////////////// */
+  /* ///////////////////// Spaceship Section Desktop /////////////////////// */
   #ships {
     min-height: 540px;
     margin: 0 auto;
@@ -1315,63 +1062,9 @@ footer {
     background-color: #5A7C7C;
   }
 
-  .restgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 3rem;
-  }
-
-  .teamimgs {
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: bottom;
-    border: 10px solid #69B7AE;
-    transform: scale(1);
-    opacity: 1;
-    transition: opacity 0.4s, transform 0.4s;
-    overflow: hidden;
-  }
-
-  .teamimgs:hover {
-    transform: scale(0.9);
-    opacity: 0.7;
-  }
-
-  .img_wrap {
-    position: relative;
-  }
-
-  .teamimg_description {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background: #5A7C7C;
-    color: white;
-    visibility: visible;
-    opacity: 1;
-    transition: opacity .2s, visibility .2s;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 5px;
-    font-size: 25px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-shadow: 2px 2px black;
-  }
-
-  .img_wrap:hover .teamimg_description {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .restheader {
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    padding-bottom: 100px;
-    font-weight: 500;
-    letter-spacing: 3px;
+  #shipwrapper {
+    width: 80%;
+    margin: 0 auto;
   }
 
   /* ///////////////////// End Section /////////////////////// */

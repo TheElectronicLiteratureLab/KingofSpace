@@ -297,6 +297,11 @@ header .container .menu div.buttons>* {
   position: relative;
 }
 
+#bkgwrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .bkgheader {
   color: white;
   text-align: center;
@@ -498,6 +503,10 @@ footer {
     padding: 2rem;
   }
 
+  #bkgwrapper {
+    width: 100%;
+  }
+
   .bkggridcontainer {
     grid-template-columns: 1fr;
   }
@@ -596,6 +605,10 @@ footer {
   #bkg {
     padding: 2rem;
     min-height: 800px;
+  }
+
+  #bkgwrapper {
+    width: 90%;
   }
 
   .bkgheader {
@@ -780,6 +793,10 @@ footer {
   #bkg {
     padding: 2rem;
     min-height: 800px;
+  }
+
+  #bkgwrapper {
+    width: 80%;
   }
 
   .bkgheader {
@@ -996,6 +1013,11 @@ footer {
     margin: 0 auto;
     padding: 5rem;
     position: relative;
+  }
+
+  #bkgwrapper {
+    width: 80%;
+    margin: 0 auto;
   }
 
   .bkgheader {

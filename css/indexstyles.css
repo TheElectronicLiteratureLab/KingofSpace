@@ -275,10 +275,13 @@ header .container .menu div.buttons>* {
   box-sizing: border-box;
   min-height: 540px;
   margin: 0 auto;
-  padding-left: 3rem;
   position: relative;
   background-color: #434A52;
-  padding-bottom: 5rem;
+}
+
+#abtwrapper {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .abtlogo {
@@ -294,11 +297,11 @@ header .container .menu div.buttons>* {
 }
 
 .abtitem {
-  background: white;
-  border: 10px solid #69B7AE;
+  color: white;
+  font-size: 18px;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
+  margin: 0 auto;
+  width: 80%;
 }
 
 .abtitem2 {
@@ -312,19 +315,25 @@ header .container .menu div.buttons>* {
 
 .trailer {
   width: 100%;
-  height: 100%;
-  min-height: 500px;
+  height: 10%;
+  border: 10px solid #69B7AE;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 /* ///////////////////// End Section /////////////////////// */
 
 /* ///////////////////// New Features Section /////////////////////// */
 #newft {
-  min-height: 1080px;
+  min-height: 800px;
   margin: 0 auto;
-  padding: 2rem;
   position: relative;
   background-color: #5A7C7C;
+}
+
+#ftwrapper {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .ftheader {
@@ -352,6 +361,10 @@ header .container .menu div.buttons>* {
   margin: 0 auto;
 }
 
+.ftitem:hover {
+  transform: scale(1.05);
+}
+
 .ftitem2 {
   vertical-align: bottom;
 }
@@ -362,9 +375,13 @@ header .container .menu div.buttons>* {
 #rest {
   min-height: 540px;
   margin: 0 auto;
-  padding: 5rem;
   position: relative;
   background-color: #434A52;
+}
+
+#restwrapper {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .restgridcontainer {
@@ -382,8 +399,7 @@ header .container .menu div.buttons>* {
   text-align: center;
   font-size: 40px;
   padding-bottom: 100px;
-  font-weight: 500;
-  letter-spacing: 3px;
+  padding-top: 2rem;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -507,19 +523,27 @@ footer {
 
   /* ///////////////////// About Mobile (S) /////////////////////// */
   #abtgame {
-    padding: 2rem;
+    padding-bottom: 100px;
   }
 
   .abtgridcontainer {
     grid-template-columns: 1fr;
   }
 
+  #abtwrapper {
+    width: 100%;
+  }
+
+  .abtitem {
+    width: 100%;
+  }
+
   .abtitem2 {
-    padding: 0;
+    padding: 2rem;
   }
 
   .trailer {
-    width: 100%;
+    width: 90%;
     height: 100%;
     min-height: 200px;
   }
@@ -531,6 +555,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
+  }
+
+  #ftwrapper {
+    width: 90%;
   }
 
   .ftheader {
@@ -572,6 +600,12 @@ footer {
 
   #rest {
     min-height: 540px;
+    padding-bottom: 100px;
+  }
+
+  #restwrapper {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .teamimgs {
@@ -594,12 +628,13 @@ footer {
 
   .img_wrap {
     position: relative;
+    margin: 0 auto;
   }
 
   .teamimg_description {
     position: absolute;
     top: 50%;
-    left: 52%;
+    left: 50%;
     background: #5A7C7C;
     color: white;
     visibility: visible;
@@ -680,20 +715,28 @@ footer {
 
   /* ///////////////////// About Mobile (L) /////////////////////// */
   #abtgame {
-    padding: 2rem;
     min-height: 800px;
+    padding-bottom: 100px;
   }
 
   .abtgridcontainer {
     grid-template-columns: 1fr;
   }
 
+  #abtwrapper {
+    width: 100%;
+  }
+
+  .abtitem {
+    width: 100%;
+  }
+
   .abtitem2 {
-    padding: 0;
+    padding: 2rem;
   }
 
   .trailer {
-    width: 100%;
+    width: 90%;
     height: 100%;
     min-height: 400px;
   }
@@ -707,12 +750,18 @@ footer {
     grid-gap: 3rem;
   }
 
+  #ftwrapper {
+    width: 90%;
+  }
+
   .ftheader {
     font-size: 30px;
   }
 
   #newft {
     min-height: 800px;
+    padding-bottom: 100px;
+
   }
 
   .ftimg {
@@ -729,7 +778,7 @@ footer {
   /* ///////////////////// Restoration Teams Mobile (L) /////////////////////// */
   .restgridcontainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 3rem;
   }
 
@@ -759,12 +808,13 @@ footer {
 
   .img_wrap {
     position: relative;
+    margin: 0 auto;
   }
 
   .teamimg_description {
     position: absolute;
     top: 50%;
-    left: 55%;
+    left: 50%;
     background: #5A7C7C;
     color: white;
     visibility: visible;
@@ -785,12 +835,14 @@ footer {
     opacity: 1;
   }
 
-  .restitem {
-    border: 10px solid #69B7AE;
-  }
-
   #rest {
     min-height: 540px;
+    padding-bottom: 100px;
+  }
+
+  #restwrapper {
+    width: 100%;
+    margin: 0 auto;
   }
 
 
@@ -927,12 +979,22 @@ footer {
 
   /* ///////////////////// About Tablet /////////////////////// */
   #abtgame {
-    padding: 2rem;
     min-height: 800px;
+    padding-bottom: 100px;
   }
 
   .abtgridcontainer {
     grid-template-columns: 1fr;
+  }
+
+  #abtwrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .abtitem {
+    width: 80%;
+    padding-bottom: 100px;
   }
 
   .abtitem2 {
@@ -954,12 +1016,17 @@ footer {
     grid-gap: 3rem;
   }
 
+  #ftwrapper {
+    width: 100%;
+  }
+
   .ftheader {
     font-size: 30px;
   }
 
   #newft {
     min-height: 800px;
+    padding-bottom: 100px;
   }
 
   .ftitem {
@@ -1016,7 +1083,7 @@ footer {
   .teamimg_description {
     position: absolute;
     top: 50%;
-    left: 55%;
+    left: 50%;
     background: #5A7C7C;
     color: white;
     visibility: visible;
@@ -1043,6 +1110,11 @@ footer {
 
   #rest {
     min-height: 540px;
+  }
+
+  #restwrapper {
+    width: 80%;
+    margin: 0 auto;
   }
 
 
@@ -1201,10 +1273,14 @@ footer {
     box-sizing: border-box;
     min-height: 540px;
     margin: 0 auto;
-    padding-left: 3rem;
     position: relative;
     background-color: #434A52;
-    padding-bottom: 5rem;
+    padding: 2rem;
+  }
+
+  #abtwrapper {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .abtlogo {
@@ -1220,24 +1296,27 @@ footer {
   }
 
   .abtitem {
-    background: white;
-    border: 10px solid #69B7AE;
+    color: black;
+    font-size: 18px;
     text-align: center;
+    padding: 2rem;
+    padding-bottom: 100px;
   }
 
   .abtitem2 {
     color: white;
     font-size: 18px;
-    padding: 7rem;
     text-align: left;
     line-height: 30px;
-
+    padding: 2rem;
   }
 
   .trailer {
     width: 100%;
     height: 100%;
-    min-height: 500px;
+    border: 10px solid #69B7AE;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1249,6 +1328,11 @@ footer {
     padding: 2rem;
     position: relative;
     background-color: #5A7C7C;
+  }
+
+  #ftwrapper {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .ftheader {
@@ -1293,10 +1377,16 @@ footer {
   #rest {
     min-height: 540px;
     margin: 0 auto;
-    padding: 5rem;
     position: relative;
     background-color: #434A52;
+    padding: 2rem;
   }
+
+  #restwrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
 
   .restgridcontainer {
     display: grid;
@@ -1324,6 +1414,7 @@ footer {
 
   .img_wrap {
     position: relative;
+    margin: 0 auto;
   }
 
   .teamimg_description {
