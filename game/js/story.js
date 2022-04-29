@@ -71,6 +71,7 @@ function story(temp) {
 	var z = document.getElementById('personimg');
 	var r = document.getElementById('personimgright');
 
+
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
 	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'three'|| temp === 'four' || temp === 'five' || temp === 'six' || temp === 'seven' || temp === 'eight'){
@@ -81,7 +82,7 @@ function story(temp) {
 			
 			case 2:
 			hide('personimg');
-				z.style.backgroundImage="url(imgstory/kos-tam-leftquarterface.png)";
+				z.src = "imgstory/kos-tam-leftquarterface.png";
 				current++;
 				break;
 			case 3:
@@ -97,7 +98,7 @@ function story(temp) {
 			case 7 : 
 				// print out array 
 				hide('personimg');
-				z.style.backgroundImage="url(imgstory/kos-radar-compleet.png)";
+				z.src = "imgstory/kos-radar-compleet.png";
 				hide('myBtn')
 
 				//window.alert('radar game');
@@ -199,7 +200,7 @@ function story(temp) {
 			case 16:
 				x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 			hide('personimgright');
-				r.style.backgroundImage="url(imgstory/kos-aster-earring-3d-final.mp4)";
+				r.src = "imgstory/kos-aster-earring-3d-final.mp4";
 				current++;
 				break;
 
@@ -213,7 +214,7 @@ function story(temp) {
 
 			case 20:
 				hide('personimgright');
-				r.style.backgroundImage="url(imgstory/kos-aster-earring-3d-final.mp4)";
+				r.src = "imgstory/kos-aster-earring-3d-final.mp4";
 				current++;
 				break;
 				
@@ -263,7 +264,7 @@ function story(temp) {
 			
 			case 46:
 				hide('personimgright');
-				r.style.backgroundImage="url(imgstory/kos_flowercolordrafttransparent.png)";
+				r.src = "imgstory/kos_flowercolordrafttransparent.png";
 				current++;
 				break;
 
@@ -277,7 +278,7 @@ function story(temp) {
 			x.style.backgroundImage="url(img/maingame-starbackground.png)";
 
 				hide('personimgright');
-				r.style.backgroundImage="url(imgstory/kos-spyfly-3d-final.mp4)";
+				r.src = "imgstory/kos-spyfly-3d-final.mp4";
 				current++;
 				break;
 			case 49:
@@ -297,7 +298,7 @@ function story(temp) {
 
 			case 72:
 			hide('personimgright');
-			r.style.backgroundImage="url(imgstory/kos-seed-3d-final.mp4)";
+			r.src = "imgstory/kos-seed-3d-final.mp4";
 			current++;
 			break;
 			case 73:	
@@ -380,7 +381,7 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `next <b>&#8250;</b> `;
+				document.getElementById('choiceone').innerHTML = `Next <b>&#8250;</b> `;
 				document.getElementById('choicetwo').innerHTML = ` Favor <b>&#8250;</b>`;
 
 				if(temp === 'one'){ 
@@ -1085,6 +1086,11 @@ function story(temp) {
 				current = 79 ;
 				break;
 
+			case 204:
+				hide('personimgright');
+				current++;
+				break;
+
 			case 206:
 
 				current = 79 ;
@@ -1120,7 +1126,7 @@ function story(temp) {
 			// unhide choise buttons 
 				// hide next 
 				hide('personimgright');
-				r.style.backgroundImage= "url(imgstory/kos_dagger_final-02.png)";
+			r.src = "imgstory/kos_dagger_final-02.png";
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
@@ -1156,13 +1162,13 @@ function story(temp) {
 			break;
 			case 215:
 			hide('personimg');
-				z.style.backgroundImage= "url(imgstory/kos-brady-leftquarterface.png)";
+				z.src = "imgstory/kos-brady-leftquarterface.png";
 				current++;
 				break;
 			
 			case 216:
 		hide('personimg');
-				z.style.backgroundImage= "url(img/maingame-starbackground.png)";
+				z.src = "img/maingame-starbackground.png";
 				current++;
 				break;
 
@@ -1206,7 +1212,7 @@ function story(temp) {
 
 			case 247:
 				hide('personimgright');
-				r.style.backgroundImage="url(imgstory/kos-spyfly-3d-final.mp4)";
+			r.src = "imgstory/kos-spyfly-3d-final.mp4";
 				current++;
 				break;
 			case 248:
@@ -1264,7 +1270,7 @@ function story(temp) {
 				hide('personimg');
 				//window.alert('troopcarrior game');
 				//miniGame("troop");
-				z.style.backgroundImage="url(imgstory/kos-tam-blurred2.png)";
+				z.src = "imgstory/kos-tam-blurred2.png";
 				 //hide('myBtn6'); // troop
 				// pop up option for mini game 
 				//console.log ("case  15");
