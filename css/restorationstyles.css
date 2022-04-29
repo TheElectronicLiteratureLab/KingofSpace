@@ -288,7 +288,7 @@ header .container .menu div.buttons>* {
 /* ///////////////////// End Section /////////////////////// */
 
 
-
+/* ///////////////////// Timeline Section /////////////////////// */
 .wrapper {
   background-color: #434A52;
   width: auto;
@@ -345,8 +345,6 @@ header .container .menu div.buttons>* {
   line-height: 30px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
-
 }
 
 .each-event:before {
@@ -392,8 +390,11 @@ header .container .menu div.buttons>* {
   background-color: #aaa;
 }
 
+/* ///////////////////// End Section /////////////////////// */
+
+
 /* ///////////////////// Restoration Teams Section /////////////////////// */
-#assets {
+#teams {
   min-height: 540px;
   margin: 0 auto;
   padding: 5rem;
@@ -401,7 +402,7 @@ header .container .menu div.buttons>* {
   background-color: #5A7C7C;
 }
 
-.assetsheader {
+.teamsheader {
   color: white;
   text-align: center;
   font-size: 40px;
@@ -422,7 +423,27 @@ header .container .menu div.buttons>* {
   margin-right: auto;
 }
 
+#myBtn {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin: 0 auto;
+  padding: 1rem 2rem 1rem 2rem;
+  background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
+  display: grid;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+}
 
+#myBtn:hover {
+  background-image: linear-gradient(to top, #29352b 0%, #526d54 100%);
+  cursor: pointer;
+}
+
+.viewteamsbtn {
+  text-align: center;
+}
 
 
 /* ///////////////////// Play Game Section /////////////////////// */
@@ -547,28 +568,6 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// About Mobile (S) /////////////////////// */
-  #abtgame {
-    padding: 2rem;
-  }
-
-  .abtgridcontainer {
-    grid-template-columns: 1fr;
-  }
-
-  .abtitem2 {
-    padding: 0;
-  }
-
-  .trailer {
-    width: 100%;
-    height: 100%;
-    min-height: 200px;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// Restoration Teams Mobile (S) /////////////////////// */
   .wrapper {
     background-color: #434A52;
     width: 100%;
@@ -580,17 +579,19 @@ footer {
     box-sizing: border-box;
   }
 
+  /* ///////////////////// Restoration Teams Mobile (S) /////////////////////// */
+
   .assetsgridcontainer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
   }
 
-  .assetsheader {
+  .teamsheader {
     font-size: 30px;
   }
 
-  #assets {
+  #teams {
     padding: 2rem;
     min-height: 540px;
   }
@@ -655,46 +656,6 @@ footer {
   .playbtn {
     padding: 1rem 2rem 1rem 2rem;
     font-size: 15px;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-
-  /* ///////////////////// About Mobile (L) /////////////////////// */
-  #abtgame {
-    padding: 2rem;
-    min-height: 800px;
-  }
-
-  .abtgridcontainer {
-    grid-template-columns: 1fr;
-  }
-
-  .abtitem2 {
-    padding: 0;
-  }
-
-  .trailer {
-    width: 100%;
-    height: 100%;
-    min-height: 400px;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// New Features Mobile (L) /////////////////////// */
-  .ftgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
-  }
-
-  .ftheader {
-    font-size: 30px;
-  }
-
-  #newft {
-    min-height: 800px;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -902,40 +863,18 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// About Tablet /////////////////////// */
-  #abtgame {
-    padding: 2rem;
-    min-height: 800px;
-  }
-
-  .abtgridcontainer {
-    grid-template-columns: 1fr;
-  }
-
-  .abtitem2 {
-    padding: 0;
-  }
-
-  .trailer {
-    width: 100%;
-    height: 100%;
-    min-height: 400px;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// Original Assets Tablet /////////////////////// */
+  /* ///////////////////// Restoration Teams Tablet /////////////////////// */
   .assetsgridcontainer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
   }
 
-  .assetsheader {
+  .teamsheader {
     font-size: 30px;
   }
 
-  #assets {
+  #teams {
     padding: 2rem;
     min-height: 540px;
   }
@@ -1115,53 +1054,8 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// About the Game Desktop /////////////////////// */
-  #abtgame {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    min-height: 540px;
-    margin: 0 auto;
-    padding-left: 3rem;
-    position: relative;
-    background-color: #434A52;
-    padding-bottom: 5rem;
-  }
-
-  .abtlogo {
-    width: 20vw;
-    text-align: center;
-  }
-
-  .abtgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    padding-top: 3.5rem;
-  }
-
-  .abtitem {
-    background: white;
-    border: 10px solid #69B7AE;
-    text-align: center;
-  }
-
-  .abtitem2 {
-    color: white;
-    font-size: 18px;
-    padding: 7rem;
-    text-align: left;
-  }
-
-  .trailer {
-    width: 100%;
-    height: 100%;
-    min-height: 500px;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// Original Assets Desktop /////////////////////// */
-  #assets {
+  /* ///////////////////// Restoration Teams Desktop /////////////////////// */
+  #teams {
     min-height: 1000px;
     margin: 0 auto;
     padding-left: 10rem;
@@ -1175,7 +1069,7 @@ footer {
     width: 100%;
   }
 
-  .assetsheader {
+  .teamsheader {
     color: white;
     text-align: center;
     font-size: 40px;

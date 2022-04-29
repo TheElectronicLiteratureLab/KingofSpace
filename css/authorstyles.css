@@ -290,16 +290,20 @@ header .container .menu div.buttons>* {
 
 /* ///////////////////// End Section /////////////////////// */
 
-/* ///////////////////// About the Game Section /////////////////////// */
-#abtgame {
+/* ///////////////////// About the Author Section /////////////////////// */
+#abtauthor {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 540px;
   margin: 0 auto;
-  padding-left: 3rem;
   position: relative;
   background-color: #434A52;
-  padding-bottom: 5rem;
+  padding-bottom: 100px;
+}
+
+#abtwrapper {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .abtlogo {
@@ -311,26 +315,24 @@ header .container .menu div.buttons>* {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-  padding-top: 3.5rem;
 }
 
 .abtitem {
-  text-align: center;
   color: white;
   font-size: 18px;
-  padding: 2rem;
-  text-align: left;
-  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
 
 }
 
 .abtitem2 {
   color: white;
   font-size: 18px;
-  padding: 2rem;
   text-align: left;
   line-height: 30px;
 }
+
 
 .statementvid {
   background: black;
@@ -348,7 +350,6 @@ header .container .menu div.buttons>* {
 .authorstatement {
   color: white;
   font-size: 18px;
-  padding: 2rem;
   text-align: left;
   line-height: 30px;
   width: 50%;
@@ -358,14 +359,11 @@ header .container .menu div.buttons>* {
 .statementheader {
   color: white;
   font-size: 30px;
-  padding-top: 5rem;
-  padding-left: 2rem;
   text-align: center;
   letter-spacing: 3px;
   font-weight: 500;
   margin: 0 auto;
   width: 50%;
-  padding-bottom: 20px;
 }
 
 em {
@@ -379,7 +377,7 @@ em {
   border: 10px solid #69B7AE;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
+  margin: 0 auto;
 }
 
 /* The Modal (background) */
@@ -496,9 +494,15 @@ em {
 #awards {
   min-height: 540px;
   margin: 0 auto;
-  padding: 5rem;
+  padding: 2rem;
   position: relative;
   background-color: #5A7C7C;
+  padding-bottom: 100px;
+}
+
+#awwrapper {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .awheader {
@@ -516,12 +520,6 @@ em {
   grid-gap: 3rem;
 }
 
-.awgridcontainer2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 3rem;
-}
-
 .awitem {
   background: white;
   border: 10px solid #434A52;
@@ -530,7 +528,6 @@ em {
   font-size: 18px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
 }
 
 .awitem2 {
@@ -549,9 +546,15 @@ em {
 #otherworks {
   min-height: 540px;
   margin: 0 auto;
-  padding: 5rem;
   position: relative;
   background-color: #434A52;
+  padding-bottom: 100px;
+  padding: 2rem;
+}
+
+#owwrapper {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .owheader {
@@ -568,9 +571,6 @@ em {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 3rem;
 }
-
-
-/* ///////////////////// End Section /////////////////////// */
 
 .teams {
   display: flex;
@@ -671,13 +671,21 @@ h2 {
   opacity: 0.7;
 }
 
+/* ///////////////////// End Section /////////////////////// */
+
 /* ///////////////////// KOS Origin Info /////////////////////// */
 #origin {
   background-color: #5A7C7C;
   min-height: 1080px;
   margin: 0 auto;
-  padding: 5rem;
+  padding: 2rem;
   position: relative;
+  padding-bottom: 100px;
+}
+
+#ognwrapper {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .ognheader {
@@ -702,17 +710,24 @@ h2 {
 }
 
 .ognitem {
-  background: white;
-  border: 10px solid #434A52;
+  color: black;
+  font-size: 18px;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ognimg {
+  max-width: 100%;
+  vertical-align: bottom;
+  border: 10px solid #434A52;
 
 }
 
 .ognitem2 {
   color: white;
   font-size: 18px;
-  padding: 7rem;
+  padding-top: 4rem;
   text-align: left;
   line-height: 30px;
 }
@@ -842,16 +857,24 @@ footer {
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// About Mobile (S) /////////////////////// */
-  #abtgame {
-    padding: 2rem;
+  #abtauthor {
+    padding-bottom: 100px;
+  }
+
+  #abtwrapper {
+    width: 100%;
   }
 
   .abtgridcontainer {
     grid-template-columns: 1fr;
   }
 
+  .abtitem {
+    width: 100%;
+  }
+
   .abtitem2 {
-    padding: 0;
+    padding: 2rem;
   }
 
   .authorstatement {
@@ -860,11 +883,14 @@ footer {
     width: 100%;
   }
 
+  .sarahimg {
+    width: 90%;
+    margin-top: 50px;
+  }
+
   .statementheader {
-    color: white;
-    font-size: 30px;
     padding: 5rem 0 2rem 0;
-    text-align: left;
+    text-align: center;
     width: 100%;
   }
 
@@ -877,9 +903,7 @@ footer {
   }
 
   .statementvid {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
     margin-bottom: 18px;
     text-align: center;
   }
@@ -904,10 +928,8 @@ footer {
     grid-gap: 3rem;
   }
 
-  .awgridcontainer2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
+  #awwrapper {
+    width: 100%;
   }
 
   .awheader {
@@ -925,6 +947,14 @@ footer {
     font-size: 30px;
   }
 
+  #otherworks {
+    padding-bottom: 100px;
+  }
+
+  #owwrapper {
+    width: 100%;
+  }
+
   .owgridcontainer {
     grid-template-columns: 1fr;
   }
@@ -937,8 +967,17 @@ footer {
     font-size: 30px;
   }
 
+  #ognwrapper {
+    width: 100%;
+  }
+
   .ogngridcontainer {
     grid-template-columns: 1fr;
+  }
+
+  .ognimg {
+    max-width: 100%;
+    vertical-align: bottom;
   }
 
   .ognitem2 {
@@ -1003,17 +1042,30 @@ footer {
 
 
   /* ///////////////////// About Mobile (L) /////////////////////// */
-  #abtgame {
-    padding: 2rem;
+  #abtauthor {
+    padding-bottom: 100px;
     min-height: 800px;
+  }
+
+  #abtwrapper {
+    width: 90%;
+  }
+
+  .sarahimg {
+    width: 60%;
+    margin-top: 50px;
   }
 
   .abtgridcontainer {
     grid-template-columns: 1fr;
   }
 
+  .abtitem {
+    width: 100%;
+  }
+
   .abtitem2 {
-    padding: 0;
+    padding: 2rem;
   }
 
   .trailer {
@@ -1023,9 +1075,16 @@ footer {
     vertical-align: bottom;
   }
 
-  .statementvid {
-    width: 80%;
+  .statementheader {
+    padding: 5rem 0 2rem 0;
     text-align: center;
+    width: 100%;
+  }
+
+  .statementvid {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 50px;
   }
 
 
@@ -1038,11 +1097,10 @@ footer {
     grid-gap: 3rem;
   }
 
-  .awgridcontainer2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
+  #awwrapper {
+    width: 90%;
   }
+
 
   .awheader {
     font-size: 30px;
@@ -1059,6 +1117,14 @@ footer {
     font-size: 30px;
   }
 
+  #otherworks {
+    padding-bottom: 100px;
+  }
+
+  #owwrapper {
+    width: 90%;
+  }
+
   .owgridcontainer {
     grid-template-columns: 1fr;
   }
@@ -1070,12 +1136,21 @@ footer {
     font-size: 30px;
   }
 
+  #ognwrapper {
+    width: 90%;
+  }
+
   .ogngridcontainer {
     grid-template-columns: 1fr;
   }
 
   .ognitem2 {
     padding: 0;
+  }
+
+  .ognimg {
+    max-width: 100%;
+    vertical-align: bottom;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1219,17 +1294,31 @@ footer {
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// About Tablet /////////////////////// */
-  #abtgame {
-    padding: 2rem;
+  #abtauthor {
+    padding-bottom: 100px;
     min-height: 800px;
+  }
+
+  #abtwrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .sarahimg {
+    width: 90%;
+    margin-top: 50px;
   }
 
   .abtgridcontainer {
     grid-template-columns: 1fr;
   }
 
+  .abtitem {
+    width: 80%;
+  }
+
   .abtitem2 {
-    padding: 0;
+    padding: 2rem;
   }
 
   .trailer {
@@ -1240,10 +1329,10 @@ footer {
   }
 
   .statementvid {
-    width: 80%;
+    width: 90%;
     text-align: center;
+    margin-bottom: 50px;
   }
-
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -1252,6 +1341,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
+  }
+
+  #awwrapper {
+    width: 80%;
   }
 
   .awheader {
@@ -1269,6 +1362,14 @@ footer {
     font-size: 30px;
   }
 
+  #otherworks {
+    padding-bottom: 100px;
+  }
+
+  #owwrapper {
+    width: 100%;
+  }
+
   .owgridcontainer {
     grid-template-columns: 1fr;
   }
@@ -1281,12 +1382,22 @@ footer {
     font-size: 30px;
   }
 
+  #ognwrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
   .ogngridcontainer {
     grid-template-columns: 1fr;
   }
 
   .ognitem2 {
     padding: 0;
+  }
+
+  .ognimg {
+    max-width: 100%;
+    vertical-align: bottom;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1454,16 +1565,27 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// About the Game Desktop /////////////////////// */
-  #abtgame {
+  /* ///////////////////// About the Author Desktop /////////////////////// */
+
+  #abtauthor {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     min-height: 540px;
     margin: 0 auto;
-    padding-left: 3rem;
     position: relative;
     background-color: #434A52;
-    padding-bottom: 5rem;
+    padding: 2rem;
+    padding-bottom: 100px;
+  }
+
+  #abtwrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .sarahimg {
+    width: 90%;
+    margin-top: 0;
   }
 
   .abtlogo {
@@ -1475,22 +1597,21 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-    padding-top: 3.5rem;
   }
 
   .abtitem {
     text-align: center;
     color: white;
     font-size: 18px;
-    padding-top: 2rem;
+    padding: 2rem;
     line-height: 30px;
   }
 
   .abtitem2 {
     color: white;
     font-size: 18px;
-    padding: 2rem 5rem 0rem 2rem;
     text-align: left;
+    padding: 2rem;
   }
 
   .trailer {
@@ -1506,6 +1627,7 @@ footer {
     margin-right: auto;
     margin-bottom: 20px;
     text-align: center;
+    margin-bottom: 50px;
   }
 
 
@@ -1515,9 +1637,14 @@ footer {
   #awards {
     min-height: 540px;
     margin: 0 auto;
-    padding: 5rem;
+    padding: 2rem;
     position: relative;
     background-color: #5A7C7C;
+  }
+
+  #awwrapper {
+    width: 80%;
+    margin: 0 auto;
   }
 
   .awheader {
@@ -1525,6 +1652,7 @@ footer {
     text-align: center;
     font-size: 40px;
     padding-bottom: 100px;
+    padding-top: 2rem;
     font-weight: 500;
     letter-spacing: 3px;
   }
@@ -1534,12 +1662,6 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3rem;
     margin-bottom: 3.5rem;
-  }
-
-  .awgridcontainer2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 3rem;
   }
 
   .awitem {
@@ -1565,9 +1687,16 @@ footer {
   #otherworks {
     min-height: 540px;
     margin: 0 auto;
-    padding: 5rem;
+    padding: 2rem;
     position: relative;
     background-color: #434A52;
+    padding-bottom: 100px;
+
+  }
+
+  #owwrapper {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .owheader {
@@ -1575,6 +1704,7 @@ footer {
     text-align: center;
     font-size: 40px;
     padding-bottom: 100px;
+    padding-top: 2rem;
     font-weight: 500;
     letter-spacing: 3px;
   }
@@ -1589,11 +1719,16 @@ footer {
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// KOS Origin Desktop /////////////////////// */
+  #ognwrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
   #origin {
     background-color: #5A7C7C;
     min-height: 1080px;
     margin: 0 auto;
-    padding: 5rem;
+    padding: 2rem;
     position: relative;
   }
 
@@ -1615,21 +1750,30 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-    padding-top: 0rem;
   }
 
   .ognitem {
-    background: white;
-    border: 10px solid #434A52;
+    color: black;
+    font-size: 18px;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .ognimg {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: 10px solid #434A52;
+    margin-bottom: 100px;
   }
 
   .ognitem2 {
     color: white;
     font-size: 18px;
-    padding: 7rem;
     text-align: left;
     line-height: 30px;
+    width: 70%;
+    margin: 0 auto;
   }
 
   /* ///////////////////// End Section /////////////////////// */

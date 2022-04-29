@@ -480,6 +480,11 @@ section ul li:hover {
   background-color: #5A7C7C;
 }
 
+#progwrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .proginfogridcontainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -706,12 +711,19 @@ footer {
     font-size: 35px;
   }
 
+  .teamsheader {
+    font-size: 30px;
+  }
 
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Program Info Mobile (S) /////////////////////// */
   #proginfo {
     padding: 2rem;
+  }
+
+  #progwrapper {
+    width: 100%;
   }
 
   .proginfogridcontainer {
@@ -734,6 +746,11 @@ footer {
     flex: 100%;
     max-width: 100%;
   }
+
+  .candidheader {
+    font-size: 30px;
+  }
+
 
   .column img {
     margin-top: 8px;
@@ -806,11 +823,19 @@ footer {
     font-size: 15px;
   }
 
+  .teamsheader {
+    font-size: 30px;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Program Info Mobile (L) /////////////////////// */
   #proginfo {
     padding: 2rem;
+  }
+
+  #progwrapper {
+    width: 100%;
   }
 
   .proginfogridcontainer {
@@ -847,6 +872,10 @@ footer {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .candidheader {
+    font-size: 30px;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -966,8 +995,24 @@ footer {
 
   /* ///////////////////// Restoration Teams Mobile (S) /////////////////////// */
 
-  .teamsheader {
-    padding-bottom: 50px;
+  #proginfo {
+    padding: 2rem;
+  }
+
+  #progwrapper {
+    width: 100%;
+  }
+
+  .proginfogridcontainer {
+    grid-template-columns: 1fr;
+  }
+
+  .proginfoitem2 {
+    padding: 0;
+  }
+
+  .proginfoheader {
+    font-size: 30px;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -975,6 +1020,10 @@ footer {
   /* ///////////////////// Program Info Tablet /////////////////////// */
   #proginfo {
     padding: 2rem;
+  }
+
+  #progwrapper {
+    width: 80%;
   }
 
   .proginfogridcontainer {
@@ -1018,6 +1067,10 @@ footer {
 
   .candidwrapper {
     width: 100%;
+  }
+
+  .candidheader {
+    font-size: 30px;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1196,7 +1249,11 @@ footer {
     padding: 5rem;
     position: relative;
     background-color: #5A7C7C;
+  }
 
+  #progwrapper {
+    width: 80%;
+    margin: 0 auto;
   }
 
   .proginfogridcontainer {
