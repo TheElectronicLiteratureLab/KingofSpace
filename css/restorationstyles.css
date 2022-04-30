@@ -33,6 +33,11 @@ a.button.primary:hover {
   color: white;
 }
 
+.active {
+  background: #769979;
+  color: white;
+}
+
 /* Header */
 header {
   position: fixed;
