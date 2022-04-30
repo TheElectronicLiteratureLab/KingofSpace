@@ -269,8 +269,8 @@ header .container .menu div.buttons>* {
 
 /* ///////////////////// End Section /////////////////////// */
 
-/* ///////////////////// About the Game Section /////////////////////// */
-#abtgame {
+/* ///////////////////// Ships Section /////////////////////// */
+#ships {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 1080px;
@@ -278,24 +278,47 @@ header .container .menu div.buttons>* {
   position: relative;
   background-color: #434A52;
   padding-top: 10rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
 }
 
-.abtlogo {
-  width: 20vw;
+.shgridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  padding-bottom: 5rem;
+}
+
+.shheader {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 100px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.shgridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  padding-bottom: 5rem;
+}
+
+.shitem {
   text-align: center;
 }
 
-.abtgridcontainer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1rem;
+.shname {
+  color: white;
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.shname:hover {
+  color: #49817b
 }
 
 .abtitem {
   text-align: center;
-  padding-bottom: 30px;
 }
 
 .abtitem2 {
@@ -303,6 +326,14 @@ header .container .menu div.buttons>* {
   font-size: 18px;
   text-align: left;
   line-height: 30px;
+  padding-top: 2rem;
+}
+
+.abtgridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  padding-bottom: 5rem;
 }
 
 video {
@@ -311,7 +342,9 @@ video {
   vertical-align: bottom;
   border: 10px solid #69B7AE;
   overflow: hidden;
-  width: 50%;
+  max-width: 100%;
+  vertical-align: bottom;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .abtwrapper {
@@ -320,7 +353,26 @@ video {
   margin-right: auto;
 }
 
+.shwrapper {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.profile {
+  background-image: url("../img/starpattern.png");
+  border: 5px solid #69B7AE;
+  color: black;
+  font-size: 18px;
+  padding: 1rem 1rem 0rem 1rem;
+  max-width: 50%;
+  max-height: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.profile:hover {
+  transform: scale(1.05);
+}
 
 
 /* ///////////////////// End Section /////////////////////// */
@@ -334,7 +386,7 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
-  padding: 15rem;
+  padding: 10rem;
   background-color: #151E24;
   text-align: center;
 }
