@@ -34,6 +34,11 @@ a.button.primary:hover {
   color: white;
 }
 
+.active {
+  background: #769979;
+  color: white;
+}
+
 /* Header */
 header {
   position: fixed;
@@ -213,11 +218,6 @@ header .container .menu div.buttons>* {
 }
 
 /* ///////////////////// Landing Page Section /////////////////////// */
-.mainlogo {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .page-content {
   -webkit-box-sizing: border-box;
@@ -286,6 +286,10 @@ header .container .menu div.buttons>* {
   background-color: #151E24;
 }
 
+em {
+  font-style: italic;
+}
+
 /* ///////////////////// End Section /////////////////////// */
 
 /* ///////////////////// Background / Creation Section /////////////////////// */
@@ -323,21 +327,27 @@ header .container .menu div.buttons>* {
   padding-top: 0rem;
 }
 
-.bkgitem {
-  background: white;
-  border: 10px solid #69B7AE;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
-}
-
 .bkgitem2 {
   color: white;
-  font-size: 20px;
-  padding: 7rem;
+  font-size: 18px;
+  padding-top: 4rem;
   text-align: left;
   line-height: 30px;
+}
 
+.bkgitem {
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.bkgimg {
+  max-width: 100%;
+  vertical-align: bottom;
+  border: 10px solid #69B7AE;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 /* ///////////////////// End Section /////////////////////// */
@@ -356,7 +366,7 @@ header .container .menu div.buttons>* {
   color: white;
   text-align: center;
   font-size: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
   font-weight: 500;
   letter-spacing: 3px;
 }
@@ -369,9 +379,21 @@ header .container .menu div.buttons>* {
 }
 
 .fotorama {
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.caption {
+  text-align: left;
+  color: white;
+  line-height: 30px;
+  padding-bottom: 100px;
+}
+
+#assetwrapper {
+  width: 50%;
+  margin: 0 auto;
 }
 
 
@@ -545,6 +567,10 @@ footer {
     margin: 0 auto;
   }
 
+  #assetwrapper {
+    width: 100%;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Footer Mobile (S) /////////////////////// */
@@ -647,6 +673,10 @@ footer {
 
   .fotorama__wrap {
     margin: 0 auto;
+  }
+
+  #assetwrapper {
+    width: 100%;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -796,7 +826,7 @@ footer {
   }
 
   #bkgwrapper {
-    width: 80%;
+    width: 90%;
   }
 
   .bkgheader {
@@ -835,6 +865,10 @@ footer {
 
   .fotorama__wrap {
     margin: 0 auto;
+  }
+
+  #assetwrapper {
+    width: 50%;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1039,17 +1073,28 @@ footer {
   }
 
   .bkgitem {
-    background: white;
-    border: 10px solid #69B7AE;
+    color: black;
+    font-size: 18px;
     text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
   }
 
   .bkgitem2 {
     color: white;
     font-size: 18px;
-    padding: 7rem;
+    padding-top: 4rem;
     text-align: left;
+    line-height: 30px;
   }
+
+  .bkgimg {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: 10px solid #69B7AE;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -1070,7 +1115,7 @@ footer {
     color: white;
     text-align: center;
     font-size: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 
   .assetsgridcontainer {
@@ -1083,6 +1128,9 @@ footer {
     margin: 0 auto;
   }
 
+  #assetwrapper {
+    width: 38%;
+  }
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -1095,7 +1143,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    padding: 15rem;
+    padding: 10rem;
     background-color: #151E24;
     text-align: center;
   }

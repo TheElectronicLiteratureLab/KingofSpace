@@ -33,6 +33,11 @@ a.button.primary:hover {
   color: white;
 }
 
+.active {
+  background: #769979;
+  color: white;
+}
+
 /* Header */
 header {
   position: fixed;
@@ -345,6 +350,7 @@ header .container .menu div.buttons>* {
   line-height: 30px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border: 5px solid #69B7AE;
 }
 
 .each-event:before {
@@ -1096,7 +1102,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    padding: 15rem;
+    padding: 10rem;
     background-color: #151E24;
     text-align: center;
   }
