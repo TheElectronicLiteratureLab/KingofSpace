@@ -545,24 +545,10 @@ position: absolute;
     cursor: pointer;	
   }
   #choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven, #choiceeight{
-    margin: 25px auto;
     width:100%;
-    height:100px;
     color: #78CBC4;
-    text-align: left;
-    border: none;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    background: none;
-    /* background-image: url(../img/choice-arrow.png);
-    background-size: 175px 25px;
-    background-repeat:no-repeat;
-    background-position:0px bottom;
-    background-clip: border-box; */
-    border: none;
-    outline: none;
-    filter: drop-shadow(0px 0px 5px #78CBC4);
-    cursor: pointer;	
+    font-size: 18px;
+    margin:auto 4%;
   }
 }
 /*////////////////////Tablet Main Story Styles//////////*/
@@ -589,7 +575,8 @@ position: absolute;
     cursor: pointer;	
   }
   #choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven{
- 
+    margin:auto 1%;
+    font-size: 16px;
   }
 }
 
