@@ -47,19 +47,20 @@ body {
 
 /*-----KITCHEN CLOSET-----*/
 #kitchen-closet {
-    width: 49%;
+    width: 34%;
     float: right;
+    margin-right: 83px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
+    gap: 18px;
     padding: 5px;
   }
 
   .grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    height: 100px;
     font-size: 30px;
     text-align: center;
   }
