@@ -545,24 +545,10 @@ position: absolute;
     cursor: pointer;	
   }
   #choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven, #choiceeight{
-    margin: 25px auto;
     width:100%;
-    height:100px;
     color: #78CBC4;
-    text-align: left;
-    border: none;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    background: none;
-    /* background-image: url(../img/choice-arrow.png);
-    background-size: 175px 25px;
-    background-repeat:no-repeat;
-    background-position:0px bottom;
-    background-clip: border-box; */
-    border: none;
-    outline: none;
-    filter: drop-shadow(0px 0px 5px #78CBC4);
-    cursor: pointer;	
+    font-size: 18px;
+    margin:auto 4%;
   }
 }
 /*////////////////////Tablet Main Story Styles//////////*/
@@ -589,7 +575,8 @@ position: absolute;
     cursor: pointer;	
   }
   #choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven{
- 
+    margin:auto 1%;
+    font-size: 16px;
   }
 }
 
@@ -1198,7 +1185,7 @@ font-size: 20px;
   padding: 10%;
 } */
 
-p {
+/* p {
   margin-top: 0;
 }
 
@@ -1216,7 +1203,7 @@ p {
 }
 
 /*----------CHECKBOXES----------*/
-.tc-box {
+/* .tc-box {
   height: 40px;
   width: 40px;
   opacity: 0;
@@ -1291,16 +1278,16 @@ p {
 }
 
 /*----------RESPONSES----------*/
-#tc-text-1, #tc-text-2, #tc-text-3, #tc-text-4, #tc-text-5, #tc-text-6, #tc-text-7, #tc-text-8, #tc-text-9, #tc-text-10 {
+/*#tc-text-1, #tc-text-2, #tc-text-3, #tc-text-4, #tc-text-5, #tc-text-6, #tc-text-7, #tc-text-8, #tc-text-9, #tc-text-10 {
   margin: 0 auto;
   max-width: 800px;
   height: 600px;
   padding-top: 50px;
-}
+} */ 
 /* END troop */
 
 /* BEGIN kitchen */
-#wrapper2 {
+/* #wrapper2 {
   width: 60%;
   margin: auto;
   color: #D6DCD5;
@@ -1320,47 +1307,44 @@ p {
 #tea-directions {
     width: 49%;
     float: left;
-}
+} */
 
 
 
 
 /*-----KITCHEN CLOSET-----*/
 #kitchen-closet {
-    width: 50%;
-    float: right;
-    color: #151E24;
-     border: none;
-
+  width: 50%;
+  float: right;
+  color: #151E24;
+  border: none;
 }
+
 #koi-cabnet-closed{
   position: absolute;
   top: 10%;
   left: 50%;
- width: 25%;
-   
-    padding: 5%;
+  width: 25%;
+  padding: 5%;
 }
 #koi-cabnet-open{
   position: absolute;
   top: 0%;
   left: 40%;
- width: 50%;
- 
-    z-index: -1;
+  width: 50%;
+  z-index: -1;
 }
 
+/*
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     padding: 2%;
     border: none;
-
-
   }
 
   .grid-item {
-   margin: 7px;
+    margin: 7px;
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -1370,37 +1354,38 @@ p {
 
   #tea-kettle{
     position: absolute;
+
   top: 50%;
   left: 50%;
  width: 160%;
+
+    
+
     z-index: -1;
-    
   }
+*/
   #walkinfreezer{
-    
-     
-     font-size: 20px;
-     padding: 5%;
+    font-size: 20px;
+    padding: 5%;
     background-color:rgba(21, 30, 36, 0.5);
   }
+
   #cucmber-sandwich{
     position: absolute;
-  top: 0%;
-  left: 40%;
- width: 25%;
-   
+    top: 0%;
+    left: 40%;
+    width: 25%  ;
     padding: 5%;
   }
   
   #freezer{
     position: absolute;
-  top: 0%;
-  left: 0%;
- width: 100%;
+    top: 0%;
+    left: 0%;
+    width: 100%;
     z-index: -1;
-    
   }
-
+/*
   #found-teaKettle:hover {
     cursor: grab;
   }
@@ -1410,11 +1395,11 @@ p {
   }
 
   /*-----CUCUMBER SANDWICH-----*/
-  #cucmber-sandwich:hover {
+  /* #cucmber-sandwich:hover {
     cursor: grab;
   }
 
   #cucumber-sandwich:active {
     cursor: grabbing;
-  }
+  } */
 /* END kitchen */

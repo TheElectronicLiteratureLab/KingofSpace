@@ -33,6 +33,11 @@ a.button.primary:hover {
   color: white;
 }
 
+.active {
+  background: #769979;
+  color: white;
+}
+
 /* Header */
 header {
   position: fixed;
@@ -320,7 +325,6 @@ header .container .menu div.buttons>* {
 .chitem {
   background-image: url("../img/starpattern.png");
   border: 10px solid #69B7AE;
-  color: black;
   padding: 2rem;
   font-size: 20px;
   text-align: center;
@@ -328,8 +332,7 @@ header .container .menu div.buttons>* {
 }
 
 .chitem:hover {
-  border: 10px solid #55948d;
-  opacity: 0.7;
+  transform: scale(1.05);
 }
 
 .chname {
@@ -337,6 +340,7 @@ header .container .menu div.buttons>* {
   font-size: 28px;
   text-align: center;
   margin-top: 1rem;
+  letter-spacing: 3px;
 }
 
 
@@ -348,7 +352,6 @@ header .container .menu div.buttons>* {
   margin: 0 auto;
   padding: 2rem;
   position: relative;
-  background-color: #434A52;
   padding-bottom: 100px;
   background-color: #5A7C7C;
 }
@@ -360,15 +363,8 @@ header .container .menu div.buttons>* {
 
 .shgridcontainer2 {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1rem;
-  min-height: 540px;
-}
-
-.shgridcontainer3 {
-  display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
+  grid-gap: 3rem;
 }
 
 .shname {
@@ -376,38 +372,29 @@ header .container .menu div.buttons>* {
   font-size: 28px;
   text-align: center;
   margin-top: 1rem;
+  letter-spacing: 3px;
 }
 
 .shitem {
   background-image: url("../img/starpattern.png");
   border: 10px solid #434A52;
-  color: white;
   padding: 2rem;
   font-size: 20px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
+  max-width: 100%;
 }
 
-.btnitem2 {
-  background: #769979;
-  margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  padding: 1rem;
-  font-size: 20px;
-  text-align: center;
-  justify-content: center;
-  border-color: black;
-  border-radius: 5px;
-  align-items: center;
-  max-width: 124px;
-  max-height: 24px;
+.greatship {
+  max-width: 100%;
 }
 
-.btnitem2:hover {
-  background: #6a8b6c
+.lifeship {
+  max-width: 100%;
+}
+
+.shitem:hover {
+  transform: scale(1.05);
 }
 
 .shheader {
@@ -554,7 +541,7 @@ footer {
   }
 
   .shheader {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   #chars {
@@ -567,6 +554,12 @@ footer {
   #shipwrapper {
     width: 100%;
     margin: 0 auto;
+  }
+
+  .shgridcontainer2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1044,13 +1037,6 @@ footer {
 
   }
 
-  .shitem2 {
-    color: white;
-    padding: 1rem;
-    font-size: 18px;
-    text-align: center;
-  }
-
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Spaceship Section Desktop /////////////////////// */
@@ -1067,18 +1053,32 @@ footer {
     margin: 0 auto;
   }
 
+  .shitem {
+    background-image: url("../img/starpattern.png");
+    border: 10px solid #434A52;
+    padding: 2rem;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #151E24;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Play Game Desktop /////////////////////// */
   .parallax {
     background-image: url("../img/starpattern.png");
-    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    padding: 15rem;
+    padding: 10rem;
     background-color: #151E24;
     text-align: center;
   }

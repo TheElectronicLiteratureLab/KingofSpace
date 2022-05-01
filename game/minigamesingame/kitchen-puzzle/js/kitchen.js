@@ -35,7 +35,7 @@ function teaDirections(){
 
     wrapper2.innerHTML = "<section id=\"tea-directions\"><p>To make tea:</p><ol><li>Find the teakettle in the closet.</li><li>Fill teakettle with water.<br>(Kettle will automatically add tea.)</li><li>Put kettle on stove.<br>(Burner will automatically light.)</li><li>Wait until water boils.</li><li>Serve.</li></ol><button class=\"minigamebutton\" id=\"makeTea-continue\" onclick=\"checkTea();\">Continue</button></section>";
 
-    wrapper2.innerHTML += "<section id=\"kitchen-closet\" class=\"grid-container\"><div class=\"grid-item\">1</div><div class=\"grid-item\">2</div><div class=\"grid-item\">3</div><div class=\"grid-item\">4</div><div id=\"found-teaKettle\" class=\"grid-item\" onclick=\"foundTea();\">5</div><div class=\"grid-item\">6</div><div class=\"grid-item\">7</div><div class=\"grid-item\">8</div></section><section id=\"koicabnetopen\"><img id=\"koi-cabnet-open\" src=\"./img/kos-shelves1.png\"></section>";
+    wrapper2.innerHTML += "<section id=\"kitchen-closet\" class=\"grid-container\"><div class=\"grid-item\"></div><div class=\"grid-item\"></div><div class=\"grid-item\"></div><div class=\"grid-item\"></div><div id=\"found-teaKettle\" class=\"grid-item\" onclick=\"foundTea();\"></div><div class=\"grid-item\"></div><div class=\"grid-item\"></div><div class=\"grid-item\"></div></section><section id=\"koicabnetopen\"><img id=\"koi-cabnet-open\" src=\"./img/kos-shelves1.png\"></section>";
 }
 
 //bring kettle to faucet option

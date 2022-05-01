@@ -11,15 +11,19 @@ body {
   height: 100vh;
 }
 
+#sp-header {
+  font-weight: bold;
+}
+
 #wrapper-slide {
-  width: 60%;
+  width: 485px;
   margin: 0 auto;
   position: relative;
-  top: 10%;
+  top: 5%;
 }
 
 #table {
-  width: 50%;
+  width: 481px;
   margin: auto;
 }
     
@@ -90,18 +94,6 @@ body {
   border: 1px solid white;
 }
 
-#sp-options{
-  margin: auto;
-  width:100%;
-  display:flex;
-  justify-content: space-between;
-  justify-items:center;
-  align-content: center;
-}
-
-@media only screen and (max-width: 600px){
-
-  #table{
-    width: 20%;
-  }
+#sp-button1 {
+  margin-left: 0;
 }

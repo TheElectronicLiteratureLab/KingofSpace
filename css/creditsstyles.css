@@ -33,6 +33,11 @@ a.button.primary:hover {
   color: white;
 }
 
+.active {
+  background: #769979;
+  color: white;
+}
+
 /* Header */
 header {
   position: fixed;
@@ -506,7 +511,7 @@ section ul li:hover {
   border: 10px solid #434A52;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
+  max-width: 100%;
 }
 
 .proginfoitem2 {
@@ -1538,7 +1543,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    padding: 15rem;
+    padding: 10rem;
     background-color: #151E24;
     text-align: center;
   }
