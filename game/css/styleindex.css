@@ -20,7 +20,7 @@ p{
 #personimg{
   position: absolute;
   width: 400px;
-  height: 400px;
+  
   left: 0%;
   bottom: 0%;
   background: none;
@@ -35,7 +35,7 @@ p{
 position: absolute;
 
   width: 250px;
-  height: 300px;
+  
   right: 0%;
   top: 0%;
   background-size: 90%;
