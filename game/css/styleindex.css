@@ -1367,6 +1367,7 @@ font-size: 20px;
   #walkinfreezer{
     font-size: 20px;
     padding: 5%;
+    height: 200px;
     background-color:rgba(21, 30, 36, 0.5);
   }
 

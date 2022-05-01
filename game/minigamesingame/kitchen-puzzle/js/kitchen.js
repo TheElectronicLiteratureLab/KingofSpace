@@ -84,7 +84,7 @@ function wait(){
 function getSandwiches(){
     wrapper2.innerHTML = "<section id=\"walkinfreezer\"><p>There's the refrigerator...</p><p>Tam hauls open the door and warily enters its cold, black depths.</p></section><section id=\"walkinfreezerimg\"><img id=\"freezer\" src=\"./img/kos-walkin-freezer.png\"></section>";
 
-    wrapper2.innerHTML += "<button class=\"minigamebutton\" id=\"get-sandwiches-2\" onclick=\"getSandwiches2();\">Continue</button>";
+    document.getElementById("walkinfreezer").innerHTML += "<button class=\"minigamebutton\" id=\"get-sandwiches-2\" onclick=\"getSandwiches2();\">Continue</button>";
 }
 
 function getSandwiches2(){

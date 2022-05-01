@@ -15,12 +15,29 @@ body {
     width: 60%;
     margin: 0 auto;
     position: relative;
-    top: 10%;
-}           
+    top: 5%;
+} 
+
+h1#erotogenerator-header {
+    margin-top: 0;
+    font-weight: bold;
+}
 
 /*----TABLE----*/
 td, th {
     border: 1px solid black;  
+    padding: 5px;
+}
+
+th {
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #78CBC4;
+    color: #151E24;
+}
+
+td:hover {
+    background-color: #769979;
 }
 
 table {
@@ -47,7 +64,8 @@ label {
 
 .minigamebutton, #continue{
 margin:  auto;
-padding-top: 20px;
+padding-top: 25px;
+margin-top: 20px;
 color: #78CBC4;
 text-align: left;
 border: none;
@@ -62,7 +80,7 @@ cursor:pointer;
 
 .minigamebutton:hover, #continue:hover{
     color: #fff;
-  /* border-bottom: 3px solid #78CBC4; */
-  -webkit-transition: 0.35s ease-in-out;
-  transition: 0.35s ease-in-out;
+    /* border-bottom: 3px solid #78CBC4; */
+    -webkit-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
 }
