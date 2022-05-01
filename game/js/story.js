@@ -1443,7 +1443,7 @@ function story(temp) {
 
 				case 325:
 					current = 9;
-					x.style.backgroundImage= "url(imgstory/kos-greatshipmap2.png)";
+					x.style.backgroundImage= "url(imgstory/kos-greatshipmap.png)";
 				break;
 
 			default:
