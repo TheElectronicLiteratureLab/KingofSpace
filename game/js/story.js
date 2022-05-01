@@ -73,6 +73,8 @@ function story(temp) {
 	var a = document.getElementById('clickone');
 	var b = document.getElementById('clicktwo');
 	
+
+
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
 	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'three'|| temp === 'four' || temp === 'five' || temp === 'six' || temp === 'seven' || temp === 'eight'){
@@ -106,6 +108,7 @@ function story(temp) {
 				// print out array 
 				hide('personimg');
 				z.src = "imgstory/kos-radar-compleet.png";
+				
 				hide('myBtn')
 
 				//window.alert('radar game');
