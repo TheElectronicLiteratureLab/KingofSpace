@@ -204,7 +204,7 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 
 "The old man is looking for something. He straightens up, carefully holding something heavy by its stem. <br><br> ''Priestess. For you,'' the old man says. <br><br> The priestess looks into the cup. She smiles. Tam Rosse gets all odd inside when she smiles.<br><br> But her smile is for the old man, the filthy old man, Brady.",
 
-"The Priestess raises the cup between her two hands. Studded with jewels, the dark cup blends in to her dusky hands. Tam's heart melts. He can feel it dripping away.<br><br> ''The Ceremony begins,'' she murmurs. ''I plege you King.'' She sips. <br><br> The old man drinks. ''I pledge you, Mistress. Tour my ship wit me.'' <br><br>''First the tour,'' she agrees,''then the banquet and dancing.''<br><br> The old man chuckles. ''Gotta get my attendants, Mistress. My Ceremony clothes.'' <br><br> ''Of course.'' <br><br> ''Attendant!''",
+"The Priestess raises the cup between her two hands. Studded with jewels, the dark cup blends in to her dusky hands. Tam's heart melts. He can feel it dripping away.<br><br> ''The Ceremony begins,'' she murmurs. ''I pledge you King.'' She sips. <br><br> The old man drinks. ''I pledge you, Mistress. Tour my ship wit me.'' <br><br>''First the tour,'' she agrees,''then the banquet and dancing.''<br><br> The old man chuckles. ''Gotta get my attendants, Mistress. My Ceremony clothes.'' <br><br> ''Of course.'' <br><br> ''Attendant!''",
 
 "''Attendant!'' <br><br> ''Wait a second,'' Tam says. ''Even I know you have to do Ceremony with a young man.'' Not that he wants to.<br><br> The Priestess smiles at him. ''But there is no young man, Tam Rosse. Will you prepare our banquet? The kitchen will show you how.'' The Priestess waves her hand like a lady of the Empire dismissing a servant.",
 
@@ -234,18 +234,18 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 
 "Maybe the kitchen.. <br><br> ''Getting thirsty?'' the walls murmur. ",//103
 
-"An iris in the wall creaks open. Flickering streaks of red light point the way leftward down a corridor. <br><br> They spell out in small letters, ''This Way to the Kitchen!'' <br><br> With an exclamation Point, yet. <br><br> The corridor also leads off rightward.",
+"An iris in the wall creaks open. Flickering streaks of red light point the way leftward down a corridor. <br><br> They spell out in small letters, ''This Way to the Kitchen!'' <br><br> With an exclamation point, yet. <br><br> The corridor also leads off rightward.",
 
 // 104 choice 1 Go left 
 
 "Look, here's a handy Horizator. <br><br> The door iris open. Inside the horizator it is small, dark and crowded with obscure controls. The floor is worn and the machine has the jaded air of an old taxi in a developing country. <br><br> There are two large buttons on the panel. <br><br> Directions and Help <br><br> The horizator begins to hum. It seen to be humming the ''Internationale.'' ",
 
 //105 button 1 horizator 
-" Since the Lady Nii is devided in to many modules, with empty space between, the Nii uses horizators. These small automated guided vehicles offer full life-support capacity and onboard entertainment, including chess, inflight movies, and several varieties of psychiatric help. <br><br> Context-sensitive, labled directional buttons for easy access to all open areas of the ship. Dirctions are given in four coordinates: gravitic value, latitude from Central Entry, longityde form Central Entry, and classification level, A being Open Classification. To reach frequently used routes, oress the labeled buttons. Other routes may be entered through the Library Function. <br><br> Please enjoy your ride in your modern, up-to-date Class A Horizator. ",// 
+" Since the Lady Nii is devided in to many modules, with empty space between, the Nii uses horizators. These small automated guided vehicles offer full life-support capacity and onboard entertainment, including chess, inflight movies, and several varieties of psychiatric help. <br><br> Context-sensitive, labled directional buttons for easy access to all open areas of the ship. Dirctions are given in four coordinates: gravitic value, latitude from Central Entry, longityde form Central Entry, and classification level, A being Open Classification. To reach frequently used routes, press the labeled buttons. Other routes may be entered through the Library Function. <br><br> Please enjoy your ride in your modern, up-to-date Class A Horizator. ",// 
 // 106 Button 1 library fuction
 "*** SOME LIBRARY FUNCTIONS ARE TEMPORARILY SUSPENDED*** <br><br> *** SERVICE WILL BE RESTORED SHORTLY!*** <br><br> In emergency, contact D.A. Jabur, Assistant Librarian<br><br> (dated) 1300 hours 8.1.869",//
 // 106 button 2 important note:
-"Do not attempt to enter''E'' Classification Level without authorization! These areas are open to ship staff only. Trespassers are subject to sever penalties. If you are in dout as to your Classification Level Authorization, please consult the Library Function. ",
+"Do not attempt to enter ''E'' Classification Level without authorization! These areas are open to ship staff only. Trespassers are subject to sever penalties. If you are in dout as to your Classification Level Authorization, please consult the Library Function. ",
 
 //106 next 
 //to important note 
@@ -272,7 +272,7 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 
 "With tea in cup and sandwhich in plastic wrap, Tam gets out of the kitchen in to the corridor. The red flickering lights have gone away...<br><br> Of course. King Brady told the ship to show him the way to the kitchen. It didn't say to show him the way back.",//first line back from the kitchen
 
-"For once the horizator has nothing to say.<br><br> Tam sets sown tea and cucumber sandwhichs, then reaches out to select the button for the Great Hall.<br><br> At that moment he catches of himself reflected in the horizator's walls.",//
+"For once the horizator has nothing to say.<br><br> Tam sets down tea and cucumber sandwhichs, then reaches out to select the button for the Great Hall.<br><br> At that moment he catches of himself reflected in the horizator's walls.",//
 
 "Slowly unbelieving, Tam Rose holds out his right hand. <br> <br> The nerve-trembling is gone. For the first time in years he can move his fingers as he should.<br><br> But the hand is thin, yellow, covered with dirt. The nails are black, thick and curved, like claws.",//
 
@@ -280,7 +280,7 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 
 // 116 choice 1 Where are Brady and the Priestess? 
 
-"Meanwhile, back at the airlock, King Brady admires the Priestess.<br><br> She's maybe twenty standard years, a Beauty, tall like the Pallas girls he remembers from his youth. He blinks and wonders if his is one of the dreams tha Nii gives him. She's dark-haird, dark-skinned, freckled with luminous stars. Her body is barly covered in a mist of silver flying seeds. Through the silver misther stars shine through. He looksfor the little human imoerfections that tell him she's not one of Nii's dreams. Her toes spread as they grip the floor. That is real.<br><br> ''Nii, put my Ceremony clothes on,'' Brady says.<br><br> And Nii clothes him in splendor.",
+"Meanwhile, back at the airlock, King Brady admires the Priestess.<br><br> She's maybe twenty standard years, a Beauty, tall like the Pallas girls he remembers from his youth. He blinks and wonders if his is one of the dreams that Nii gives him. She's dark-haird, dark-skinned, freckled with luminous stars. Her body is barly covered in a mist of silver flying seeds. Through the silver misther stars shine through. He looks for the little human imperfections that tell him she's not one of Nii's dreams. Her toes spread as they grip the floor. That is real.<br><br> ''Nii, put my Ceremony clothes on,'' Brady says.<br><br> And Nii clothes him in splendor.",
 
 "He is in the red robe that the Red King wears. He has waited all his life to put it on.<br><br> The attendants drift in, each one holding a candle, Nii's own touch. The ship is so rich that they can make fat that is not for eating, burn oxygen for light. For a moment Brady cannot hear them speaking, then he concentrates and hears laughter, the voices of his friends.",//
 
@@ -299,92 +299,92 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 
 //122 choise Drydock
 
-"The doors iris open on to vast space. They are poised at the top of a huge chamber, half a klick across. A little yacht hangs in the middle of the space, a bumby web held by guy cables. A group of attendants dance near the yacht, far away, tiny, snowflacks driftting through air. Closer, Quigg catches his liquor in a covered cup, laughing. Royce and Stephens spread their silk winesleeves and hover in space, flapping and laughing like to birds.<br><br> ''Inside of a comet,'' Brady call to the Priestess. ''Store air here.''<br><br> The sunlights are on, turning the comet into a vast, green-whitespace. They float like balloons in sweet gravityless stillness.",
+"The doors iris open on to vast space. They are poised at the top of a huge chamber, half a klick across. A little yacht hangs in the middle of the space, a bumby web held by guy cables. A group of attendants dance near the yacht, far away, tiny, snowflakes driftting through air. Closer, Quigg catches his liquor in a covered cup, laughing. Royce and Stephens spread their silk wine sleeves and hover in space, flapping and laughing like to birds.<br><br> ''Inside of a comet,'' Brady call to the Priestess. ''Store air here.''<br><br> The sunlights are on, turning the comet into a vast, green-whitespace. They float like balloons in sweet gravityless stillness.",
 //go's back to 122
 
-//122 choise The Exercise Room
+//122 choice The Exercise Room
 
 "The horizator doors squeal open in the high gravity. The gravity suck at them, makes them both fall to the floor. Pain jabs into Brady's ribs.<br><br> On the wrestling mats, heavy-grav sumo warriors grunt and sweat.<br><br> One wrestler falls on another with a thump that shakes the steel floor.",
 
-"The horizator jets out, a soft acceleration, and gravity eases around them. Brady sits up shakily. The pain habs and twists as if he's broken a rib. <br><br> <i> Sorry, </i> Nii whispers in his ear.<i> Look. </i> <br><br> She shows him pictures of the boy struggling with the kitchen. brady laughs. The Priestess asks ''What is it?'' Sh can't see what Nii show him. Nii's got lines into his herves, his head. Part of being Captain and wearing the crown.",
+"The horizator jets out, a soft acceleration, and gravity eases around them. Brady sits up shakily. The pain jabs and twists as if he's broken a rib. <br><br> <i> Sorry, </i> Nii whispers in his ear.<i> Look. </i> <br><br> She shows him pictures of the boy struggling with the kitchen. Brady laughs. The Priestess asks ''What is it?'' She can't see what Nii shows him. Nii's got lines into his nerves, his head. Part of being Captain and wearing the crown.",
 //go's back to 122
 
 //122 choise central storage 
 
-"Central Storage is a vast space in the center of Nii's web. There are no walls; it is open to hard vacuum. The horizator drifts out of the web of stars into immense darknesses, cargo pods that shut out all light.<br><br> The horizator walls go transparent. Insid the cargo oods it is placeless, senseless, darker than blindness. <br><br> ''Come to Ceremony with me,'' King Brady whispers, frightened.",
+"Central Storage is a vast space in the center of Nii's web. There are no walls; it is open to hard vacuum. The horizator drifts out of the web of stars into immense darknesses, cargo pods that shut out all light.<br><br> The horizator walls go transparent. Inside the cargo pods it is placeless, senseless, darker than blindness. <br><br> ''Come to Ceremony with me,'' King Brady whispers, frightened.",
 //go's back to 122
 
-//122 choise Central control
+//122 choice Central control
 
 "***NOT AVAILABLE FOR TOUR AT THIS TIME***",
 //go's back to 122
 
-//122 choise Ask the priestess for help
+//122 choice Ask the priestess for help
 
 "The Priestess puts her hand on the horizator panel.",// 129 
 
-//129 choise The water center
+//129 choice The water center
 
 "As the doors open, the soft moisture of the Water Center envelops them. The air is misty, oxygen-rich, inviting. They lean over the water of the Great Tank, and the Priestess touches the surface of the water. The koi kiss her hand with their whiskered mouths.",
 // go back to 129
 
-//129 choise Drydock
+//129 choice Drydock
 
-"The doors iris open on to vast space. They are poised at the top of a huge chamber, half a klick across. A little yacht hangs in the middle of the space, a bumby web held by guy cables. A group of attendants dance near the yacht, far away, tiny, snowflacks driftting through air. <br><br> Far away but recognizable, Quigg, Royce, and Stephens dance in the air.",
+"The doors iris open on to vast space. They are poised at the top of a huge chamber, half a klick across. A little yacht hangs in the middle of the space, a bumby web held by guy cables. A group of attendants dance near the yacht, far away, tiny, snowflakes driftting through air. <br><br> Far away but recongizeable, Quigg, Royce, and Stephens dance in the air.",
 //go's back to 129
 
-//129 choise The exercise Room
+//129 choice The exercise Room
 
 "The horizator doors squeal open in the high gravity.<br><br> On the wrestling mats, heavy-grav sumo warriors grunt and sweat. Their weight tugs at them. A red-bearded man falls under his opponet's weight.",
 //go's back to 129
 
-//129 choise Central Storage
+//129 choice Central Storage
 
-"Central Storage is a vast space in the center of Nii's web. There are no walls; it is open to hard vacuum. <br><br> The horizator walls fo transparent. They are standing in darkness speckled with hard chips of light. <br><br> The horizator dirgts ou of the web of stars in to immense darknesses, cargo pods that shut out all light, all sense of place. <br><br> Inside the cargo pods it is darker thatn blindness. <br><br> They drift against one wall of the horizator. Given gravity only by their motion, he and she are weightless, bodiless, twin seeds drigting together.",
+"Central Storage is a vast space in the center of Nii's web. There are no walls; it is open to hard vacuum. <br><br> The horizator walls fo transparent. They are standing in darkness speckled with hard chips of light. <br><br> The horizator dirfts out of the web of stars in to immense darknesses, cargo pods that shut out all light, all sense of place. <br><br> Inside the cargo pods it is darker thatn blindness. <br><br> They drift against one wall of the horizator. Given gravity only by their motion, he and she are weightless, bodiless, twin seeds drigting together.",
 //go's back to 129
 
-//130 choise central control
+//130 choice central control
 
 "*** NOT AVAILABLE***",
 //go's back to 129
 
-//130 choise grate hall 
+//130 choice grate hall 
 
 "The doors iris open with a whisper of music. <br><br> The Great Hall is covered with mirrors: floor, wall, ceiling. Weight here is a little light: Brady feels free, capable of bigger feats, grander gestures. <br><br> On the floor two candles stand in candlesticks of gold and silica. The Ceremony is not ready. The banquet is not yet prepared, nor their attendants come. Brady and the Priestess stand in the hall of mirrors, a black-haired young man dressed in red, a young woman whose body is covered in stars. The mirrors reflect a crowd of black-haired men and starry women, standing reversed in all directions, upside down above them, foot to their foot below. They are the center of a dim-lit universe of phantoms like themselves, lit by candles and stars. ",
 
-"One of the mirrors shimmers. Its surface darkens adn from underneath it a vast picture emerges. It is of a Priestess and a Red King lying in space like Michelangelo's God and his Adam. The Priestess's finger, outstreched, touches the hand of the Red King.Behind them are the solar system: Sun, planets,the Asteroids in the center. Around the edge of the panel stand people from every inhabited place in the solarsystem: pale-faced pioneersfrom the rocky depths of Ganymende and Callisto; thin, burly water-miners form lo, Hazies form Titan in their glowing spacesuits; cold-suited soldigers from Castra Martis; biggest city outside of Earth; Venusian algae seeder, building a new world in the tunnels of Maxwell's Mountain.",
+"One of the mirrors shimmers. Its surface darkens and from underneath it a vast picture emerges. It is of a Priestess and a Red King lying in space like Michelangelo's God and his Adam. The Priestess's finger, outstreched, touches the hand of the Red King. Behind them are the solar system: Sun, planets, the Asteroids in the center. Around the edge of the panel stand people from every inhabited place in the solarsystem: pale-faced pioneersfrom the rocky depths of Ganymende and Callisto; thin, burly water-miners form lo, Hazies form Titan in their glowing spacesuits; cold-suited soldiers from Castra Martis; biggest city outside of Earth; Venusian algae seeder, building a new world in the tunnels of Maxwell's Mountain.",
 
-"The solar system begins to wheel. The sun spreads out rays of flame, lighting the mirrored room as brightly as a thousand candles. It is more bright, more warm, than anything Brady has ever seen, though he has been as close to the Sun as the very inner ege of the asteroids. Long ago, when Brady's teachersprepared him for the Ceremony,they had toldhim that the picture would move.<br><br> But they did not tell him thatthe Solar System is around him now, that he is lying on infintie space, and that the Priestess has become the whole of the Solar System itself.",
+"The solar system begins to wheel. The sun spreads out rays of flame, lighting the mirrored room as brightly as a thousand candles. It is more bright, more warm, than anything Brady has ever seen, though he has been as close to the sun as the very inner ege of the asteroids. Long ago, when Brady's teachers prepared him for the Ceremony,they had told him that the picture would move.<br><br> But they did not tell him that the Solar System is around him now, that he is lying on infintie space, and that the Priestess has become the whole of the Solar System itself.",
 
 "The Priestess is haloed with the sun. Her womb is Terra. Mars and Venus are her body, and her sweat-slicked skin glows with stars. THe asteroids circle her with a silver corona of seeds. In the space that the two of them make, she is his universe, his star-studded infinity, his sun.",
 
-"He stretches out his arms to the truth that is the Priestess.<br><br> All women carry in them all the seed of life, even the seed that bring men out of death; and no man is alive until a Priestess has touched him and taken him init her womb.<br><br> Brady has never touched God. Now he dances with ehr.He circles round her, he worships her; he is her liegemanby force of gravity, bound to her a manspace is bound to the Sun.",
+"He stretches out his arms to the truth that is the Priestess.<br><br> All women carry in them all the seed of life, even the seed that bring men out of death; and no man is alive until a Priestess has touched him and taken him init her womb.<br><br> Brady has never touched God. Now he dances with her. .He circles round her, he worships her,  he is her liegemanby force of gravity, bound to her a manspace is bound to the Sun.",
 
 "The asteroids buzz round him like quarocks. He makes a misstep in the dance and they are on him<br><br> For her he dances with all of them,<br> dodging and laughing<br> like a man dodging mosquitoes. <br><br> They sting his handsand neck, little bites like flung gravel. They are a maze, a sword dance of flying cuts. He dances exhilarated like Bee-walker, whose priests lice naked among the ship's insects, feeding the mosquitoes, helping he bees to die.",
 
 "He stands inside the Asteroid Belt, panting, hot, triumphant. An experienced Red King would strip naked, then dance, so everyone could see his body inmarked by any sting. <br><br> Brady's clothes weigh in him, soaked with sweat. The cloth is frayed and cut with quaroc stings. His hands and face are stung bloody.<br><br> But nothing matters; he is a King.",
 
-"Now he must dance for Mars. The next part of the Ceremony must be slow and hard, for life doesnot come easy on cold Mars. <br><br> The King's attendants have arrived, drifting to surround Brady and the Priestess as sparks surround a fire. He sees themin the greatcoldmirrors,holding candleslikesparks ofsun. The King must turn his face away from the sun his beloved. He sees her only in the sunlight on the faces of Phobos and Deimos, Royce and Stephens, as they dance attendance on him.<br><br> His legs ache form the hip bone to the ball of his foot. His back creaks with pain and th waight of his own arms is agony, held in the postures of the dance. One of his calves is cramped and stiff.",
+"Now he must dance for Mars. The next part of the Ceremony must be slow and hard, for life doesnot come easy on cold Mars. <br><br> The King's attendants have arrived, drifting to surround Brady and the Priestess as sparks surround a fire. He sees them in the great cold mirrors, holding candles like sparks of sun. The King must turn his face away from the sun his beloved. He sees her only in the sunlight on the faces of Phobos and Deimos, Royce and Stephens, as they dance attendance on him.<br><br> His legs ache from the hip bone to the ball of his foot. His back creaks with pain and the weight of his own arms is agony, held in the postures of the dance. One of his calves is cramped and stiff.",
 
 "He spirals inward, trying to balance on cold aching feet. He nearly topples, but teeters inward, triumphant, into the orbit of Terra.<br><br> The Priestess is his sun, but she is Terra too, she has come to Terra to meethim. She dances around him The virgin Moon glitters in her ear.",
 
-"Oh woman, mystery, Terra-- He dances all Her mystery, all her vast enigmatic arcology, mirroring Her. In that faraway place, the Moon has such great gravity that the tides and the winds follow it around the planet. There, great Terra exerts such force that air does not rise but held down by its won weight. There, look up: the air is open to the stars. What could be more dangerous or more magnificent? In space not a bee can escape its place int he arcology, but there, on Terra, animals hace breathed their whole lives and died, unseen by any human, as if man were hot the king of space. <br><br> Great Terra, unique among plants, Lover and Mother of Man! You alone Man has not conquered, naked in your crule and spendthrift innocence; you are dark hear of space; you are a Lover for a King.",
+"Oh woman, mystery, Terra-- He dances all Her mystery, all her vast enigmatic arcology, mirroring Her. In that faraway place, the Moon has such great gravity that the tides and the winds follow it around the planet. There, great Terra exerts such force that air does not rise but held down by its won weight. There, look up: the air is open to the stars. What could be more dangerous or more magnificent? In space not a bee can escape its place int he arcology, but there, on Terra, animals have breathed their whole lives and died, unseen by any human, as if man were hot the king of space. <br><br> Great Terra, unique among plants, Lover and Mother of Man! You alone Man has not conquered, naked in your crule and spendthrift innocence; you are dark hear of space; you are a Lover for a King.",
 
-"And King Brady dances with the Moon and tries to catch it, but it pulls its gravity-fingers across his chest and makes his heart pound. He jumps to catch the wind, buthis legs craps up and he rolls on the floor, he pounds at his leg to unlock the painful muscles.<br><br> He looks in the mirror,a nd it seems strange to see a young man bent and cramoed like an old one. <br><br> He--",
+"And King Brady dances with the Moon and tries to catch it, but it pulls its gravity-fingers across his chest and makes his heart pound. He jumps to catch the wind, but his legs craps up and he rolls on the floor, he pounds at his leg to unlock the painful muscles.<br><br> He looks in the mirror, and it seems strange to see a young man bent and cramped like an old one. <br><br> He--",
 
 "The planets have stopped moving in their orbits. They are only lines of fire on the mirrored floor, and Brady has fallen out of the orbit of Terra. He sits down on the floor, gasping, his hear clawing at his chest<br><br> The Priestess is sitting in the place of the Sun, legs crossed. Their attendants stand dim and unmoving against the walls. Not even their candles flicker in their hands.<br><br> Tam Rosse, the boy, stands in front of him. It is strange to see him, a young man, holding himself like a old one. <br><br> ''Give me back my body!'' the boy says.",
 
 "In the mirror, two men, one young, one old. Brady does not know which one he is; he feels like the old one. <br><br> His legs cannot hold him; he falls on his side. His heart pounds his hurt ribs like a fist.",
 
-"He can feel his own skinny- ribbed chest under his crossed arms. His body is a map of pain, old muscles strained as if they were young. Illusions only go so far. Nii forgets to block the sense of touch. <br><br> <i> Nii, </i> he wispers to her. <i> I haven't seen Quigg for years. NOt Royce, not Stephens. . .. HOw long was it, Nii, that I waited for the Priestess? </i> <br><br> <i> Not long, my Captain. </i> <br><br> <i> Quigg got old but I never did. </i><br><br><i> Never, </i> says Nii.",
+"He can feel his own skinny- ribbed chest under his crossed arms. His body is a map of pain, old muscles strained as if they were young. Illusions only go so far. Nii forgets to block the sense of touch. <br><br> <i> Nii, </i> he wispers to her. <i> I haven't seen Quigg for years. Not Royce, not Stephens. . .. How long was it, Nii, that I waited for the Priestess? </i> <br><br> <i> Not long, my Captain. </i> <br><br> <i> Quigg got old but I never did. </i><br><br><i> Never, </i> says Nii.",
 
-"He looks up at the Solar System, spread out abouve him. Two faces lean abouve him. He raises one aching arm and touches their skin. It is a shock, like the sense-memory of Terra stored in Terra's orbit. Nii never quite got skin right. It was too hot or too cold, sticky like rubber or solft but crisp like silk.<br><br> This is skin<br><br> He puts his hand on the young man's head, touches the woman's arm. <br><br><i> Show me, </i> he says to Nii ",
+"He looks up at the Solar System, spread out above him. Two faces lean above him. He raises one aching arm and touches their skin. It is a shock, like the sense-memory of Terra stored in Terra's orbit. Nii never quite got skin right. It was too hot or too cold, sticky like rubber or soft but crisp like silk.<br><br> This is skin<br><br> He puts his hand on the young man's head, touches the woman's arm. <br><br><i> Show me, </i> he says to Nii ",
 
-"He is watching the Red King and the Priestess. Around them the mirroed hall dissolves. One half-exausted sunlight gutters in a tiny cabin. The space is barly big enough fo rthe three of them. He remembers dancing in great orbits, but his dusty footprints are crowded together on the floor.<br><br> On the walls are comm-jacks and screens, instrument panels. A few lights still flicker. Long ago, sumeone attached a striped plague-flag to the instument panel. Long ago, someone smashed a screen.<br><br> The solar system still wheels abouve him, an astrogator's toy, no wider than the teach of his arms.Jupiter flickers as it it were about to go out.<br><br> Bit the Priestess and the Red King are just as they were.",
+"He is watching the Red King and the Priestess. Around them the mirrored hall dissolves. One half-exausted sunlight gutters in a tiny cabin. The space is barly big enough for the three of them. He remembers dancing in great orbits, but his dusty footprints are crowded together on the floor.<br><br> On the walls are comm-jacks and screens, instrument panels. A few lights still flicker. Long ago, sumeone attached a striped plague-flag to the instument panel. Long ago, someone smashed a screen.<br><br> The solar system still wheels above him, an astrogator's toy, no wider than the teach of his arms. Jupiter flickers as it it were about to go out.<br><br> But the Priestess and the Red King are just as they were.",
 
-"And now they are back in the mirrored Great Hall, and the dance is over. The flutes whistle and the drums beat. The Attendants of the Bedchamber cover the lovers in red and blue silk robes. Someone has brought a try of food to refresh the lovers. The doors of the inner chamber open and the lovers withdraw., followed by their attendants. There is only one person left in the Great Hall, an old man lying on the floor. <br><br> Someone brings a blanket to cover him and put a pillow under his head. Some one sits down by him <br><br> <i>Nii?</i>",
+"And now they are back in the mirrored Great Hall, and the dance is over. The flutes whistle and the drums beat. The Attendants of the Bed chamber cover the lovers in red and blue silk robes. Someone has brought a try of food to refresh the lovers. The doors of the inner chamber open and the lovers withdraw., followed by their attendants. There is only one person left in the Great Hall, an old man lying on the floor. <br><br> Someone brings a blanket to cover him and put a pillow under his head. Some one sits down by him <br><br> <i>Nii?</i>",
 
-"He has not seen her like this before. She is old, her eyes surrounded by laughing wrinkles, her long black hair streaked with gray. She wears a magnigicent cortesan's kimono dyed with a design of apple blossoms. Sh has brought green tea and sandwiches for him. Her hand against his cheek is soft and thin as old silk.She spreads her wide sleeves. <i>Am I not beautiful?</i> the old woman says.<br><br> <i>You are always beautiful.</i> <br><br> <i>Spring is coming,</i> she smiles, <i>even if we are old.</i> <br><br> Far away, the attendants of the bedchamber rejoice. The Priestess and the RedKing have come. <br><br> All through the ship it begins to be spring",// go to end
+"He has not seen her like this before. She is old, her eyes surrounded by laughing wrinkles, her long black hair streaked with gray. She wears a magnificent cortesan's kimono dyed with a design of apple blossoms. She has brought green tea and sandwiches for him. Her hand against his cheek is soft and thin as old silk. She spreads her wide sleeves. <i>Am I'm not beautiful?</i> the old woman says.<br><br> <i>You are always beautiful.</i> <br><br> <i>Spring is coming,</i> she smiles, <i>even if we are old.</i> <br><br> Far away, the attendants of the bed chamber rejoice. The Priestess and the Red King have come. <br><br> All through the ship it begins to be spring",// go to end
 // an end last line jump. 
 
 
@@ -395,7 +395,7 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 
 "''You're an illusion,'' he says. <br><br> She smiles and bows. In the dyed flowers of her kimono hover hummingbirds sewn from golden thread. <br><br>The man who looks like Tam is throwing his body from side to side in front of the Priestess. The Priestess turns her head to look at him. <br><br> ''What's he doing?'' Tam asks the Priestess. <br><br> ''He is dancing,'' Nii replies. ''An illusion of dancing. For the Emperor and Terra.'' <br><br>''He shouldn't look like me. Give me back my body,'' Tam says to the Priestess.",
 
-"''Which body do you want, old man, young man? When in your life is the body that is yours? What part of it is yours, and not mine, or his, or hers?'' <br><br> Nii draws from her obi a simple dancing fan. She snaps it ope and shows him both sides. One side is gilded, showing the sun, a hummingbird, a spray of goldenrod. The other is silvered, showing the moon, a mirror, a trickle of water.",
+"''Which body do you want, old man, young man? When in your life is the body that is yours? What part of it is yours, and not mine, or his, or hers?'' <br><br> Nii draws from her obi a simple dancing fan. She snaps it open and shows him both sides. One side is gilded, showing the sun, a hummingbird, a spray of goldenrod. The other is silvered, showing the moon, a mirror, a trickle of water.",
 
 "She fans the silver side at him, and he is standing in rotting trash, an old man, bent, cramped with pain, in a broken control room. <br><br> She fans the golden side at him, and he has his own body again, but he is dressed in red Ceremony robes and standing in a vaulted rich place, A crowd of people press around him holding candles, and the walls are mirrored as far as he can see.",
 
