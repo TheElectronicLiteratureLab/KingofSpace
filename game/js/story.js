@@ -72,8 +72,8 @@ function story(temp) {
 	var r = document.getElementById('personimgright');
 	var a = document.getElementById('clickone');
 	var b = document.getElementById('clicktwo');
-	
-
+	var p =  document.getElementById('pond');
+	var v = document.getElementById('personvidright');
 
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
@@ -98,6 +98,7 @@ function story(temp) {
 			hide('personimg');
 				//z.style.backgroundImage= "url(img/maingame-starbackground.png)";
 				hide('pond');
+				p.play();
 				current++;
 			break;
 			case 4:
@@ -209,13 +210,14 @@ function story(temp) {
 					break;
 			case 16:
 				x.style.backgroundImage= "url(img/maingame-starbackground.png)";
-			hide('personimgright');
-				r.src = "imgstory/kos-aster-earring-3d-final.mp4";
+				//hide('personvidright');
+				v.src = "imgstory/kos-aster-earring-3d-final.mp4";
+				v.play();
 				current++;
 				break;
 
 			case 17:
-				hide('personimgright');
+			//	hide('personvidright');
 				
 				current++;
 				break;
@@ -223,8 +225,9 @@ function story(temp) {
 				
 
 			case 20:
-				hide('personimgright');
-				r.src = "imgstory/kos-aster-earring-3d-final.mp4";
+				hide('personvidright');
+				v.src = "imgstory/kos-aster-earring-3d-final.mp4";
+				v.play();
 				current++;
 				break;
 				
@@ -262,7 +265,7 @@ function story(temp) {
 				
 
 				case 23:
-				hide('personimgright');
+				hide('personvidright');
 				current++;
 				break;
 
@@ -287,12 +290,13 @@ function story(temp) {
 			case 48:
 			x.style.backgroundImage="url(img/maingame-starbackground.png)";
 
-				hide('personimgright');
-				r.src = "imgstory/kos-spyfly-3d-final.mp4";
+				hide('personvidright');
+				v.src = "imgstory/kos-spyfly-3d-final.mp4";
+				v.play();
 				current++;
 				break;
 			case 49:
-				hide('personimgright');
+				hide('personvidright');
 				current++;
 				break;
 
@@ -307,8 +311,9 @@ function story(temp) {
 				break;
 
 			case 72:
-			hide('personimgright');
-			r.src = "imgstory/kos-seed-3d-final.mp4";
+			hide('personvidright');
+			v.src = "imgstory/kos-seed-3d-final.mp4";
+			v.play();
 			current++;
 			break;
 			case 73:	
@@ -335,7 +340,7 @@ function story(temp) {
 				break;
 
 			case 74:
-				hide('personimgright');
+				hide('personvidright');
 				current++;
 				break;
 
@@ -1221,12 +1226,13 @@ function story(temp) {
 				break;
 
 			case 247:
-				hide('personimgright');
-			r.src = "imgstory/kos-spyfly-3d-final.mp4";
+				hide('personvidright');
+			v.src = "imgstory/kos-spyfly-3d-final.mp4";
+			v.play();
 				current++;
 				break;
 			case 248:
-				hide('personimgright');
+				hide('personvidright');
 				current++;
 				break;
 

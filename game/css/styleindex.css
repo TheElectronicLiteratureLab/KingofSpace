@@ -43,6 +43,18 @@ position: absolute;
   border: none;
 
 }
+#personvidright{
+position: absolute;
+
+  width: 250px;
+  
+  right: 0%;
+  top: 0%;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+
+}
 #buttonalign{
 
   width: ;

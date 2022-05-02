@@ -55,10 +55,15 @@
       <button id="choiceeight" style="display: block;" class="S8"  onclick="story('eight')">E</button>
       <button id="Next" style="display: none" onclick="story('next')"></button>
     </div>
+    <video id="personvidright" style="z-index: -1;" loop>
+  
+  
+</video>
+  <img id="personimgright" src="imgstory/kos-tam-leftquarterface.png" style="z-index: -1;">
       <img id="personimg" src="imgstory/kos-tam-leftquarterface.png" style="z-index: -1;">
-      <img id="personimgright" style="z-index: -1;">
+
     </div> <!-- End mainstory Div -->
-    <img src="imgstory/kos-watercenter-3d-final.mp4" id="pond">
+    <video src="imgstory/kos-watercenter-3d-final.mp4" id="pond"  loop></video>
     <audio id="clickone">  <source src="audio/Buttons & Switches/kos-button-01.wav" type="audio/mp3">  </audio>
     <audio id="clicktwo">  <source src="audio/Buttons & Switches/kos-button-02.wav" type="audio/mp3">  </audio>
 
@@ -538,6 +543,8 @@ let library = ["<b>Arcoculture</b> <br><br> The study of gardening and ecologica
     </script>
   <script type="text/javascript" src="js/getarray.js"></script>
   <script type="text/javascript" src="js/story.js"></script>
+  <script type="text/javascript" src="js/library2.js"></script>
+   <script type="text/javascript" src="js/library.js"></script>
   
   <script type="text/javascript" src="minigamesingame/kitchen-puzzle/js/kitchen.js"></script>
   <script type="text/javascript" src="minigamesingame/troop-carrier/js/tc-main.js"></script>
