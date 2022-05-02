@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>King of Space: Reconstruction of a Narrative Game</title>
     <link rel="shortcut icon" type="image/png" href="../../../img/kosabt.png">
-    <link rel="stylesheet" type="text/css" href="./css/puzzle-2.css">
     <link rel="stylesheet" type="text/css" href="../../css/gamestyles.css">
     <link rel="stylesheet" type="text/css" href="../../css/styleindex.css">
+    <link rel="stylesheet" type="text/css" href="./css/puzzle-2.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
     <title>Slide Puzzle</title>
 </head>
 <body>
@@ -23,11 +24,12 @@
                 <div class="menu">
                     <nav>
                         <ul>
-                            <li><a href="../../game.html">Title Screen</a></li>
+                            <li><a href="../../game.html">Main</a></li>
                             <!-- <li><a href="/">How to Play</a></li> -->
                             <li><a href="../../prologue.html">About The World</a></li>
                             <li><a href="../../characters.html">Characters</a></li>
                             <li><a href="../../gameonly.html">Game Only Mode</a></li>
+                            <li><a href="../../library.html">Game Library</a></li>
     
                         </ul>
                     </nav>
@@ -35,11 +37,10 @@
             </div>
         </header>
         <!-- End of Hamburger Menu  -->
-        <section id="sp-options"> <!--sp = slide puzzle-->
-            <!-- <button class="minigamebutton" onclick="location.href='../../gameonly.html'">&#8249; Back to Game Menu</button> -->
-            <button id="sp-button1" onclick="shuffle();" class="minigamebutton">Restart</button>
-        </section>
+        
     <div id="wrapper-slide">
+        <h1 id="sp-header">Slide Puzzle</h1>
+
         <!--Pretty straight forward table with 4 rows and 4 columns it's an oldschool setup, I may adjust the code to meet HTML 5 standards (table tag and tr/td tags) although, i am not sure how that will effect the css. Guess I'll try it and find out. The onClick function is using the first digit and second digit from the I numbers to separate each cell.-->
         <section id="table">
             <div id="row1">
@@ -66,6 +67,11 @@
                 <div id="tile-43" class="tile15 tiles" onClick="clickTile(4,3);"></div>
                 <div id="tile-44" class="tile16" onClick="clickTile(4,4);"></div>
             </div>
+        </section>
+        <br>
+        <section id="sp-options"> <!--sp = slide puzzle-->
+            <!-- <button class="minigamebutton" onclick="location.href='../../gameonly.html'">&#8249; Back to Game Menu</button> -->
+            <button id="sp-button1" onclick="shuffle();" class="minigamebutton">Restart</button>
         </section>
     </div>
     <script type="text/javascript" src="./js/puzzle-2.js"></script>

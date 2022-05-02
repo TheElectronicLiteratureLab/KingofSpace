@@ -1,11 +1,4 @@
-function Lhide(temp) {
-	  var x = document.getElementById(temp);
-	  if (x.style.display === "none") {
-	    x.style.display = "block";
-	  } else {
-	    x.style.display = "none";
-	  }
-	}
+
 
 function hudeoptions(){
 	Lhide('bookone');

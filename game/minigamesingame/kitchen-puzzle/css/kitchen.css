@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
   color: #D6DCD5;
   font-size: 20px;
   line-height: 1.7em;
@@ -11,9 +10,27 @@ body {
   height: 100vh;
 }
 
-#wrapper2 {
+p {
+  font-size: 20px;
+}
+
+#wrapper-kitchen {
   width: 60%;
-  margin: auto;
+  height: 100vh;
+  margin: 5% auto 0 auto;
+  font-family: 'Montserrat';
+  color: #D6DCD5;
+  font-size: 20px;
+  line-height: 1.7em;
+}
+
+button.minigamebutton {
+  margin: 0;
+}
+
+#wrapper-kitchen li {
+  list-style-type: disc;
+  font-size: 20px;
 }
 
 #tea-directions {
@@ -21,21 +38,38 @@ body {
     float: left;
 }
 
+#menu-2 {
+  width: 34%;
+  float: left;
+}
+
+#elephantKettle {
+  width: 66%;
+  float: right;
+  background-image: url("/game/minigamesingame/kitchen-puzzle/img/kos-teapot-shadow.png");
+}
+
+#tea-kettle {
+  margin: auto;
+  position: static;
+}
+
 /*-----KITCHEN CLOSET-----*/
 #kitchen-closet {
-    width: 49%;
+    width: 34%;
     float: right;
+    margin-right: 83px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
+    gap: 18px;
     padding: 5px;
   }
 
   .grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    height: 100px;
     font-size: 30px;
     text-align: center;
   }

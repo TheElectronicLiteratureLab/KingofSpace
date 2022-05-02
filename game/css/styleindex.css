@@ -6,6 +6,7 @@ body  {
   background-repeat:repeat-x;
   background-position: bottom;
   background-size: 100%;
+
   /* background-size: 2000px 300px; */
   /* font-size: 20px; */
 }
@@ -17,12 +18,42 @@ p{
   color: #D6DCD5;
 }
 #personimg{
+  position: absolute;
   width: 400px;
-  height: 400px;
-  left: 0%;
-  bottom: 25%;
-  background-size: 100%;
   
+  left: 0%;
+  bottom: 0%;
+  background: none;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: none;
+
+
+  
+}
+#personimgright{
+position: absolute;
+
+  width: 250px;
+  
+  right: 0%;
+  top: 0%;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+
+}
+#personvidright{
+position: absolute;
+
+  width: 250px;
+  
+  right: 0%;
+  top: 0%;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: none;
+
 }
 #buttonalign{
 
@@ -34,6 +65,14 @@ p{
   min-height:100vh;
   margin: 0;
 }
+#pond{
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+}
+
 
 .modal {
   display: none; /* Hidden by default */
@@ -117,6 +156,22 @@ p{
   background-color: rgba(0,0,0,1); /* Black w/ opacity */
 }
 
+.modal-library{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  left: 0;
+  top: 0;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+   margin:0;
+  padding:0;
+  background-color: #151E24;
+  background-image:url(../img/maingame-starbackground.png);
+  background-repeat:repeat-x;
+  background-position: bottom;
+}
+
 #myBtn, #myBtn2, #myBtn3, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7{
 	position: absolute;
   top: 70vh;
@@ -191,6 +246,28 @@ p{
   margin: auto;
   padding: 0px;
 }
+
+.modal-content-library{
+  margin: auto;
+  padding: 0px;
+}
+
+.close-library{
+  color: #78CBC4;
+  /* float: right; */
+  /* margin-left: 95%;    <--- We should not use margins to position items. the margin causes the content under it to be pushed down. I changed this to fixed positioning - Cullen
+  margin-top:.2%; */
+  position: fixed;
+  top: 10px;
+  right: 20px;    
+  font-size: 60px;
+  /* font-weight: bold; */
+}
+.close-library:hover{
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  }
 
 /* The Close Button */
 .close, .close2, .close3, .close4, .close5, .close6, .close7 {
@@ -369,7 +446,7 @@ p{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   padding: .5rem;
   font-family: 'Montserrat', sans-serif; */
-  margin:  auto;
+  margin: auto 5%;
   padding-top: 20px;
   color: #78CBC4;
   text-align: left;
@@ -480,24 +557,10 @@ p{
     cursor: pointer;	
   }
   #choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven, #choiceeight{
-    margin: 25px auto;
     width:100%;
-    height:100px;
     color: #78CBC4;
-    text-align: left;
-    border: none;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    background: none;
-    /* background-image: url(../img/choice-arrow.png);
-    background-size: 175px 25px;
-    background-repeat:no-repeat;
-    background-position:0px bottom;
-    background-clip: border-box; */
-    border: none;
-    outline: none;
-    filter: drop-shadow(0px 0px 5px #78CBC4);
-    cursor: pointer;	
+    font-size: 18px;
+    margin:auto 4%;
   }
 }
 /*////////////////////Tablet Main Story Styles//////////*/
@@ -524,7 +587,8 @@ p{
     cursor: pointer;	
   }
   #choiceone, #choicetwo, #choicethree, #choicefour, #choicefive, #choicesix, #choiceseven{
- 
+    margin:auto 1%;
+    font-size: 16px;
   }
 }
 
@@ -989,13 +1053,13 @@ background: none;
   cursor: pointer;
 }
 
-img {
+/*img {
   position: fixed;
   width: 490;
   height: 470;
   top: 480px;
   left: 170px;
-}
+}*/
 
 /* HORIZATOR PUZZLE CSS */
 
@@ -1133,7 +1197,7 @@ font-size: 20px;
   padding: 10%;
 } */
 
-p {
+/* p {
   margin-top: 0;
 }
 
@@ -1151,7 +1215,7 @@ p {
 }
 
 /*----------CHECKBOXES----------*/
-.tc-box {
+/* .tc-box {
   height: 40px;
   width: 40px;
   opacity: 0;
@@ -1226,16 +1290,16 @@ p {
 }
 
 /*----------RESPONSES----------*/
-#tc-text-1, #tc-text-2, #tc-text-3, #tc-text-4, #tc-text-5, #tc-text-6, #tc-text-7, #tc-text-8, #tc-text-9, #tc-text-10 {
+/*#tc-text-1, #tc-text-2, #tc-text-3, #tc-text-4, #tc-text-5, #tc-text-6, #tc-text-7, #tc-text-8, #tc-text-9, #tc-text-10 {
   margin: 0 auto;
   max-width: 800px;
   height: 600px;
   padding-top: 50px;
-}
+} */ 
 /* END troop */
 
 /* BEGIN kitchen */
-#wrapper2 {
+/* #wrapper2 {
   width: 60%;
   margin: auto;
   color: #D6DCD5;
@@ -1243,37 +1307,98 @@ p {
   font-size: 20px;
   line-height: 1.7;
   margin-top: 5%;
+   background-color:rgba(21, 30, 36, 0.5);
 }
 
 #wrapper2 li {
   list-style-type: disc;
   font-size: 20px;
+   background-color:rgba(21, 30, 36, 0.5);
 } 
 
 #tea-directions {
     width: 49%;
     float: left;
-}
+} */
+
+
+
 
 /*-----KITCHEN CLOSET-----*/
 #kitchen-closet {
-    width: 49%;
-    float: right;
+  width: 50%;
+  float: right;
+  color: #151E24;
+  border: none;
 }
 
+#koi-cabnet-closed{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 25%;
+  padding: 5%;
+}
+#koi-cabnet-open{
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  width: 50%;
+  z-index: -1;
+}
+
+/*
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 5px;
+    padding: 2%;
+    border: none;
   }
 
   .grid-item {
-    border: 1px solid #D6DCD5;
+    margin: 7px;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    border: none;
+    color: #151E24;
   }
 
+  #tea-kettle{
+    position: absolute;
+
+  top: 50%;
+  left: 50%;
+ width: 160%;
+
+    
+
+    z-index: -1;
+  }
+*/
+  #walkinfreezer{
+    font-size: 20px;
+    padding: 5%;
+    height: 200px;
+    background-color:rgba(21, 30, 36, 0.5);
+  }
+
+  #cucmber-sandwich{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    width: 25%  ;
+    padding: 5%;
+  }
+  
+  #freezer{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -1;
+  }
+/*
   #found-teaKettle:hover {
     cursor: grab;
   }
@@ -1283,11 +1408,11 @@ p {
   }
 
   /*-----CUCUMBER SANDWICH-----*/
-  #cucmber-sandwich:hover {
+  /* #cucmber-sandwich:hover {
     cursor: grab;
   }
 
   #cucumber-sandwich:active {
     cursor: grabbing;
-  }
+  } */
 /* END kitchen */

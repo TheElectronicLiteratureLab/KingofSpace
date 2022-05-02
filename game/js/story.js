@@ -28,6 +28,8 @@ function onstart(){
     hide('myBtn6'); // troop
     hide('myBtn7');	// kitchen 
 	hide('Next');
+	hide('pond');
+
 }
 
 	//function playAudio(){
@@ -67,21 +69,48 @@ function story(temp) {
 
 	var x = document.getElementById('body');
 	var z = document.getElementById('personimg');
+	var r = document.getElementById('personimgright');
+	var a = document.getElementById('clickone');
+	var b = document.getElementById('clicktwo');
+	var p =  document.getElementById('pond');
+	var v = document.getElementById('personvidright');
 
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
 
 	if(temp === 'next' || temp === 'one' || temp === 'two' || temp === 'three'|| temp === 'four' || temp === 'five' || temp === 'six' || temp === 'seven' || temp === 'eight'){
 		//console.log('im here in next')
-	
+		if(temp === 'next' ){
+			a.play();
+		}
+		else{
+			b.play();
+		}
+		
 		//console.log ("made it to while loop");
 		switch(current){
-			//case 4:
-				//x.style.backgroundImage= "url(imgstory/kos-watercenter-3d-final.mp4)";
-			//break;
+			
+			case 2:
+			hide('personimg');
+				z.src = "imgstory/kos-tam-leftquarterface.png";
+				current++;
+				break;
+			case 3:
+			hide('personimg');
+				//z.style.backgroundImage= "url(img/maingame-starbackground.png)";
+				hide('pond');
+				p.play();
+				current++;
+			break;
+			case 4:
+				hide('pond');
+				current++;
+				break;
 			case 7 : 
 				// print out array 
-
-				hide('myBtn');
+				hide('personimg');
+				z.src = "imgstory/kos-radar-compleet.png";
+				
+				hide('myBtn')
 
 				//window.alert('radar game');
 				/*if(confirm("do you want to play a mini game? radar game")){
@@ -101,17 +130,56 @@ function story(temp) {
 
 				break; 
 			case 8:
+			hide('personimg');
+			//x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 				hide('myBtn');
 				current++;
 				break;
 
+
+			case 9:
+				x.style.backgroundImage= "url(img/maingame-starbackground.png)";
+				hide('Next');
+				hide('choiceone');
+				hide('choicetwo');
+				document.getElementById('choiceone').innerHTML = `Next <b>&#8250;</b> `;
+				document.getElementById('choicetwo').innerHTML = ` Greatship Map <b>&#8250;</b>`;
+
+				if(temp === 'one'){ 
+					current ++; // next
+					// print out array
+					getstory(current);
+					console.log(story('next'));
+				}
+				else if(temp === 'two'){
+			
+					current = 325; // Great ship 
+					// print out array
+					getstory(current);
+					console.log(story('next'));
+				}
+				break;
+
+
+
+
 			case 11:
 				//play animation of great ship or life ship...?
+
+				current++;
+				break;
+
+			case 12:
+				//play animation of great ship or life ship...?
+				//hide('personimg');
+				x.style.backgroundImage="url(img/lifeship.png)";
 				current++;
 				break;
 
 			case 13:
+			//hide('personimg');
 				// unhide choise buttons 
+				x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 				// hide next 
 				hide('Next');
 				hide('choiceone');
@@ -141,13 +209,33 @@ function story(temp) {
 						current++;
 					break;
 			case 16:
-				x.style.backgroundImage = "none";
+				x.style.backgroundImage= "url(img/maingame-starbackground.png)";
+				//hide('personvidright');
+				v.src = "imgstory/kos-aster-earring-3d-final.mp4";
+				v.play();
 				current++;
 				break;
 
+			case 17:
+			//	hide('personvidright');
+				
+				current++;
+				break;
+
+				
+
+			case 20:
+				hide('personvidright');
+				v.src = "imgstory/kos-aster-earring-3d-final.mp4";
+				v.play();
+				current++;
+				break;
+				
+			
 			case 21:
 				// unhide choise buttons 
 				// hide next 
+				//hide('personimgright');
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
@@ -159,6 +247,9 @@ function story(temp) {
 					// print out array
 					getstory(current);
 					console.log(story('next'));
+					//hide('personimgright');
+					//r.style.backgroundImage="url(imgstory/kos_aster_earing.png)";
+				
 
 				} else if(temp === 'two'){
 					current = 70 ; // wake her up with controles  
@@ -169,11 +260,62 @@ function story(temp) {
 
 				break;
 
+				
+
+				
+
+				case 23:
+				hide('personvidright');
+				current++;
+				break;
+
+			case 40:
+				x.style.backgroundImage="url(imgstory/kos-watercenter-2-final.png)";
+				current++;
+				break;
+
+			
+			case 46:
+				hide('personimgright');
+				r.src = "imgstory/kos_flowercolordrafttransparent.png";
+				current++;
+				break;
+
+				case 47:
+				hide('personimgright');
+				current++;
+				break;
+
+
+			case 48:
+			x.style.backgroundImage="url(img/maingame-starbackground.png)";
+
+				hide('personvidright');
+				v.src = "imgstory/kos-spyfly-3d-final.mp4";
+				v.play();
+				current++;
+				break;
+			case 49:
+				hide('personvidright');
+				current++;
+				break;
+
 			case 69: 
 				current = 323;//an end 
 
 				break;
 
+				case 70:
+				hide('personimgright');
+				current++;
+				break;
+
+			case 72:
+			hide('personvidright');
+			v.src = "imgstory/kos-seed-3d-final.mp4";
+			v.play();
+			current++;
+			break;
 			case 73:	
 			// unhide choise buttons 
 				// hide next 
@@ -195,6 +337,11 @@ function story(temp) {
 					getstory(current);
 					console.log(story('next'));
 				}
+				break;
+
+			case 74:
+				hide('personvidright');
+				current++;
 				break;
 
 			case 76:	
@@ -249,7 +396,7 @@ function story(temp) {
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
-				document.getElementById('choiceone').innerHTML = `next <b>&#8250;</b> `;
+				document.getElementById('choiceone').innerHTML = `Next <b>&#8250;</b> `;
 				document.getElementById('choicetwo').innerHTML = ` Favor <b>&#8250;</b>`;
 
 				if(temp === 'one'){ 
@@ -453,7 +600,7 @@ function story(temp) {
 
 
 			case 111:
-
+				x.style.backgroundImage="url(imgstory/kos-foxdoor-final.png)";
 				//window.alert('horizator');
 				hide('myBtn4');
 				//miniGame("horizator");
@@ -463,7 +610,7 @@ function story(temp) {
 
 				break;
 			case 112:
-
+				x.style.backgroundImage="url(img/maingame-starbackground.png)";
 				//window.alert('horizator');
 				hide('myBtn4');
 				hide('myBtn7');
@@ -508,6 +655,7 @@ function story(temp) {
 				break;
 			
 			case 122:
+			x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
@@ -562,13 +710,14 @@ function story(temp) {
 				else if (temp  === 'seven'){
 					current = 129; // Ask the priestess for help
 					getstory(current);
+					
 					console.log(story('next'));
 				}
 
 				break;
 
 			case 123:
-
+				x.style.backgroundImage="url(imgstory/kos-watercenter-2-final.png)";
 				current = 122;
 				break;
 
@@ -590,6 +739,7 @@ function story(temp) {
 				break;
 
 			case 129:
+			x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
@@ -626,6 +776,7 @@ function story(temp) {
 					current = 135;// great hall
 					// print out array
 					getstory(current);
+
 					console.log(story('next'));
 				}
 				if(temp === 'five'){
@@ -642,7 +793,7 @@ function story(temp) {
 				break;
 
 			case 130:
-
+				x.style.backgroundImage="url(imgstory/kos-watercenter-2-final.png)";
 				current = 129;
 				break;
 
@@ -663,10 +814,32 @@ function story(temp) {
 				current = 129;
 				break;
 
+			case 135:
+			x.style.backgroundImage="url(imgstory/kos-greathall.png)";
+			
+			current++;
+			break;
+
+		case 136:
+			
+			x.style.backgroundImage= "url(img/maingame-starbackground.png)";
+			current++;
+			break;
+
 			case 152:
 				current =  323; //last line.... 
 
 				break;
+
+			case 153:
+				x.style.backgroundImage="url(imgstory/kos-greathall.png)";
+				current++;
+				break;
+
+			case 154:
+				x.style.backgroundImage= "url(img/maingame-starbackground.png)";
+				current++;
+			break;
 
 			case 159:
 				current = 193;
@@ -798,6 +971,7 @@ function story(temp) {
 				break;
 
 			case 177:
+			x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
@@ -864,7 +1038,7 @@ function story(temp) {
 				break;
 
 			case 178:
-
+				x.style.backgroundImage = "url(imgstory/kos-watercenter-final.jpg)";
 				current = 177;
 				break;
 
@@ -927,6 +1101,11 @@ function story(temp) {
 				current = 79 ;
 				break;
 
+			case 204:
+				hide('personimgright');
+				current++;
+				break;
+
 			case 206:
 
 				current = 79 ;
@@ -961,7 +1140,8 @@ function story(temp) {
 			case 211:
 			// unhide choise buttons 
 				// hide next 
-				x.style.backgroundImage= "url(imgstory/kos_dagger_final-01.png)";
+				hide('personimgright');
+			r.src = "imgstory/kos_dagger_final-02.png";
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
@@ -972,32 +1152,38 @@ function story(temp) {
 					current = 212;// life ship 
 					// print out array
 					getstory(current);
-					x.style.backgroundImage= "url(img/maingame-starbackground.png)";
+					hide('personimgright');
+					//x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 					console.log(story('next'));
 
 				} else if(temp === 'two'){
 					current = 213 ; // comm box
 					// print out array
 					getstory(current);
-					x.style.backgroundImage= "url(img/maingame-starbackground.png)";
+					hide('personimgright');
+					//x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 					console.log(story('next'));
 				}
 				break;
 
 			case 212:
+			hide('personimgright');
 				current = 211;
 				break;
 
-
+			case 213:
+			hide('personimgright');
+			current++;
+			break;
 			case 215:
 			hide('personimg');
-				z.style.backgroundImage= "url(imgstory/kos-brady-leftquarterface.png)";
+				z.src = "imgstory/kos-brady-leftquarterface.png";
 				current++;
 				break;
 			
 			case 216:
-
-				z.style.backgroundImage= "url(img/maingame-starbackground.png)";
+		hide('personimg');
+				z.src = "img/maingame-starbackground.png";
 				current++;
 				break;
 
@@ -1039,6 +1225,17 @@ function story(temp) {
 					current = 241;
 				break;
 
+			case 247:
+				hide('personvidright');
+			v.src = "imgstory/kos-spyfly-3d-final.mp4";
+			v.play();
+				current++;
+				break;
+			case 248:
+				hide('personvidright');
+				current++;
+				break;
+
 			case 257:
 				// unhide choise buttons 
 				// hide next 
@@ -1062,6 +1259,15 @@ function story(temp) {
 				}
 				break;
 
+				case 255:
+				x.style.backgroundImage="url(imgstory/kos-storagebays.png)";
+					current++;
+					break;
+					case 256:
+				x.style.backgroundImage="url(img/maingame-starbackground.png)";
+					current++;
+					break;
+
 				case 258:
 					current = 261;
 					break;
@@ -1070,22 +1276,30 @@ function story(temp) {
 				//window.alert('troopcarrior game');
 				//miniGame("troop");
 				
-				hide('myBtn6'); // troop
+				//hide('myBtn6'); // troop
 				// pop up option for mini game 
 				console.log ("troop game here");
 				current ++;
 
 				break;
-			case 262:  
+			case 262: 
+				hide('personimg');
 				//window.alert('troopcarrior game');
 				//miniGame("troop");
-				
-				 hide('myBtn6'); // troop
+				z.src = "imgstory/kos-tam-blurred2.png";
+				 //hide('myBtn6'); // troop
 				// pop up option for mini game 
 				//console.log ("case  15");
 				current ++;
 
 				break;
+
+			case 263:
+			hide('personimg');
+			current++;
+			break;
+
+
 
 			case 264:
 				// unhide choise buttons 
@@ -1122,7 +1336,7 @@ function story(temp) {
 				// hide next 
 
 				//hide('Next');
-				hide('myBtn5'); //library
+				//hide('myBtn5'); //library
 				//hide('choicetwo');
 				//hide('choicethree');
 				//hide('choicefour');
@@ -1180,7 +1394,7 @@ function story(temp) {
 				break;
 
 			case 294:
-			hide('myBtn5'); //tetris 
+			//hide('myBtn5'); //tetris 
 				
 				//tetrus
 				current ++;
@@ -1189,7 +1403,7 @@ function story(temp) {
 			case 311:  
 				// print out array 
 
-				hide('myBtn3'); //tetris 
+				//hide('myBtn3'); //tetris 
 				
 
 				//tetrus
@@ -1231,6 +1445,11 @@ function story(temp) {
 					// dose not do anything... rework to main menu
 					console.log(story('next')); 
 				}
+				break;
+
+				case 325:
+					current = 9;
+					x.style.backgroundImage= "url(imgstory/kos-greatshipmap.png)";
 				break;
 
 			default:
