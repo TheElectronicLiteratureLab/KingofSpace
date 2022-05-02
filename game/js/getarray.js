@@ -302,7 +302,7 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 "The doors iris open on to vast space. They are poised at the top of a huge chamber, half a klick across. A little yacht hangs in the middle of the space, a bumby web held by guy cables. A group of attendants dance near the yacht, far away, tiny, snowflakes drifting through air. Closer, Quigg catches his liquor in a covered cup, laughing. Royce and Stephens spread their silk winesleeves and hover in space, flapping and laughing like birds.<br><br>''Inside of a comet,'' Brady call to the Priestess. ''Store air here.''<br><br>The sunlights are on, turning the comet into a vast, green-white space. They float like balloons in sweet gravityless stillness.",
 //go's back to 122
 
-//122 choise The Exercise Room
+//122 choice The Exercise Room
 
 "The horizator doors squeal open in the high gravity. The gravity suck at them, makes them both fall to the floor. Pain jabs into Brady's ribs.<br><br>On the wrestling mats, heavy-grav sumo warriors grunt and sweat.<br><br>One wrestler falls on another with a thump that shakes the steel floor.",
 
@@ -314,41 +314,41 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 "Central Storage is a vast space in the center of Nii's web. There are no walls; it is open to hard vacuum. The horizator drifts out of the web of stars into immense darknesses, cargo pods that shut out all light.<br><br>The horizator walls go transparent. Inside the cargo pods it is placeless, senseless, darker than blindness. <br><br>''Come to Ceremony with me,'' King Brady whispers, frightened.",
 //go's back to 122
 
-//122 choise Central control
+//122 choice Central control
 
 "***NOT AVAILABLE FOR TOUR AT THIS TIME***",
 //go's back to 122
 
-//122 choise Ask the priestess for help
+//122 choice Ask the priestess for help
 
 "The Priestess puts her hand on the horizator panel.",// 129 
 
-//129 choise The water center
+//129 choice The water center
 
 "As the doors open, the soft moisture of the Water Center envelops them. The air is misty, oxygen-rich, inviting. They lean over the water of the Great Tank, and the Priestess touches the surface of the water. The koi kiss her hand with their whiskered mouths.",
 // go back to 129
 
-//129 choise Drydock
+//129 choice Drydock
 
 "The doors iris open on to vast space. They are poised at the top of a huge chamber, half a klick across. A little yacht hangs in the middle of the space, a bumby web held by guy cables. A group of attendants dance near the yacht, far away, tiny, snowflakes drifting through air. <br><br>Far away but recognizable, Quigg, Royce, and Stephens dance in the air.",
 //go's back to 129
 
-//129 choise The exercise Room
+//129 choice The exercise Room
 
 "The horizator doors squeal open in the high gravity.<br><br>On the wrestling mats, heavy-grav sumo warriors grunt and sweat. Their weight tugs at them. A red-bearded man falls under his opponent's weight.",
 //go's back to 129
 
-//129 choise Central Storage
+//129 choice Central Storage
 
 "Central Storage is a vast space in the center of Nii's web. There are no walls; it is open to hard vacuum. <br><br>The horizator walls fo transparent. They are standing in darkness speckled with hard chips of light. <br><br>The horizator drifts ou of the web of stars into immense darknesses, cargo pods that shut out all light, all sense of place. <br><br>Inside the cargo pods it is darker than blindness. <br><br>They drift against one wall of the horizator. Given gravity only by their motion, he and she are weightless, bodiless, twin seeds drifting together.",
 //go's back to 129
 
-//130 choise central control
+//130 choice central control
 
 "*** NOT AVAILABLE***",
 //go's back to 129
 
-//130 choise grate hall 
+//130 choice grate hall 
 
 "The doors iris open with a whisper of music. <br><br>The Great Hall is covered with mirrors: floor, wall, ceiling. Weight here is a little light: Brady feels free, capable of bigger feats, grander gestures. <br><br>On the floor two candles stand in candlesticks of gold and silica. The Ceremony is not ready. The banquet is not yet prepared, nor their attendants come. Brady and the Priestess stand in the hall of mirrors, a black-haired young man dressed in red, a young woman whose body is covered in stars. The mirrors reflect a crowd of black-haired men and starry women, standing reversed in all directions, upside down above them, foot to their foot below. They are the center of a dim-lit universe of phantoms like themselves, lit by candles and stars. ",
 
