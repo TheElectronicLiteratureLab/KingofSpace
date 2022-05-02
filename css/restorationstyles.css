@@ -334,6 +334,7 @@ header .container .menu div.buttons>* {
 
 .event-picture {
   text-align: center;
+  border: 5px solid #69B7AE;
 }
 
 .each-event {
@@ -350,7 +351,6 @@ header .container .menu div.buttons>* {
   line-height: 30px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  border: 5px solid #69B7AE;
 }
 
 .each-event:before {
