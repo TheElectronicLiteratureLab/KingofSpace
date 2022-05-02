@@ -678,68 +678,6 @@ h2 {
 
 /* ///////////////////// End Section /////////////////////// */
 
-/* ///////////////////// KOS Origin Info /////////////////////// */
-#origin {
-  background-color: #5A7C7C;
-  min-height: 1080px;
-  margin: 0 auto;
-  padding: 2rem;
-  position: relative;
-  padding-bottom: 100px;
-}
-
-#ognwrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.ognheader {
-  color: white;
-  text-align: center;
-  font-size: 40px;
-  padding-bottom: 100px;
-  font-weight: 500;
-  letter-spacing: 3px;
-}
-
-.ognlogo {
-  width: 20vw;
-  text-align: center;
-}
-
-.ogngridcontainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
-  padding-top: 0rem;
-}
-
-.ognitem {
-  color: black;
-  font-size: 18px;
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-
-}
-
-.ognimg {
-  max-width: 100%;
-  vertical-align: bottom;
-  border: 10px solid #434A52;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-
-.ognitem2 {
-  color: white;
-  font-size: 18px;
-  padding-top: 4rem;
-  text-align: left;
-  line-height: 30px;
-}
-
-/* ///////////////////// End Section /////////////////////// */
-
 /* ///////////////////// Play Game Section /////////////////////// */
 .parallax {
   background-image: url("../img/starpattern.png");
@@ -968,29 +906,6 @@ footer {
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// KOS Origin Mobile (S) /////////////////////// */
-  .ognheader {
-    font-size: 30px;
-  }
-
-  #ognwrapper {
-    width: 100%;
-  }
-
-  .ogngridcontainer {
-    grid-template-columns: 1fr;
-  }
-
-  .ognimg {
-    max-width: 100%;
-    vertical-align: bottom;
-  }
-
-  .ognitem2 {
-    padding: 0;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Footer Mobile (S)/////////////////////// */
   .footergridcontainer {
@@ -1014,7 +929,7 @@ footer {
     padding: 1rem;
   }
 
-  .parallax .parallax_header {
+  .parallax {
     background-attachment: scroll;
   }
 
@@ -1133,30 +1048,6 @@ footer {
 
   .owgridcontainer {
     grid-template-columns: 1fr;
-  }
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// KOS Origin Mobile (L) /////////////////////// */
-  .ognheader {
-    font-size: 30px;
-  }
-
-  #ognwrapper {
-    width: 90%;
-  }
-
-  .ogngridcontainer {
-    grid-template-columns: 1fr;
-  }
-
-  .ognitem2 {
-    padding: 0;
-  }
-
-  .ognimg {
-    max-width: 100%;
-    vertical-align: bottom;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1380,31 +1271,6 @@ footer {
     grid-template-columns: 1fr;
   }
 
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// KOS Origin Tablet /////////////////////// */
-  .ognheader {
-    font-size: 30px;
-  }
-
-  #ognwrapper {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .ogngridcontainer {
-    grid-template-columns: 1fr;
-  }
-
-  .ognitem2 {
-    padding: 0;
-  }
-
-  .ognimg {
-    max-width: 100%;
-    vertical-align: bottom;
-  }
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -1721,66 +1587,6 @@ footer {
     grid-gap: 3rem;
   }
 
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// KOS Origin Desktop /////////////////////// */
-  #ognwrapper {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  #origin {
-    background-color: #5A7C7C;
-    min-height: 1080px;
-    margin: 0 auto;
-    padding: 2rem;
-    position: relative;
-  }
-
-  .ognheader {
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    padding-bottom: 100px;
-    font-weight: 500;
-    letter-spacing: 3px;
-  }
-
-  .ognlogo {
-    width: 20vw;
-    text-align: center;
-  }
-
-  .ogngridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-  }
-
-  .ognitem {
-    color: black;
-    font-size: 18px;
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .ognimg {
-    max-width: 100%;
-    vertical-align: bottom;
-    border: 10px solid #434A52;
-    margin-bottom: 100px;
-  }
-
-  .ognitem2 {
-    color: white;
-    font-size: 18px;
-    text-align: left;
-    line-height: 30px;
-    width: 70%;
-    margin: 0 auto;
-  }
 
   /* ///////////////////// End Section /////////////////////// */
 

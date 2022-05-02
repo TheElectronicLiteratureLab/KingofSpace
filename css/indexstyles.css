@@ -366,10 +366,12 @@ header .container .menu div.buttons>* {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   line-height: 30px;
   margin: 0 auto;
+  transition: transform 0.4s;
 }
 
 .ftitem:hover {
   transform: scale(1.05);
+  transition: transform 0.4s;
 }
 
 .ftitem2 {
@@ -549,6 +551,13 @@ header .container .menu div.buttons>* {
 
 #myBtn {
   cursor: pointer;
+}
+
+.caption {
+  text-align: left;
+  color: white;
+  line-height: 30px;
+  padding-bottom: 100px;
 }
 
 
@@ -775,6 +784,15 @@ footer {
     width: 100%;
   }
 
+  .show-mobile {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Restoration Teams Mobile (S) /////////////////////// */
@@ -810,15 +828,14 @@ footer {
     border: 10px solid #69B7AE;
     transform: scale(1);
     opacity: 1;
-    transition: opacity 0.4s, transform 0.4s;
+    transition: transform 0.4s;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
   }
 
   .teamimgs:hover {
-    transform: scale(0.9);
-    opacity: 0.7;
+    transform: scale(1.05);
   }
 
   .img_wrap {
@@ -980,6 +997,15 @@ footer {
     width: 100%;
   }
 
+  .show-mobile {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Restoration Teams Mobile (L) /////////////////////// */
@@ -1002,15 +1028,14 @@ footer {
     border: 10px solid #69B7AE;
     transform: scale(1);
     opacity: 1;
-    transition: opacity 0.4s, transform 0.4s;
+    transition: transform 0.4s;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
   }
 
   .teamimgs:hover {
-    transform: scale(0.9);
-    opacity: 0.7;
+    transform: scale(1.05);
   }
 
   .img_wrap {
@@ -1262,6 +1287,17 @@ footer {
     width: 100%;
   }
 
+  .show-mobile {
+    display: block;
+    padding-bottom: 0;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Restoration Teams Tablet /////////////////////// */
@@ -1284,15 +1320,14 @@ footer {
     border: 10px solid #69B7AE;
     transform: scale(1);
     opacity: 1;
-    transition: opacity 0.4s, transform 0.4s;
+    transition: transform 0.4s;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
   }
 
   .teamimgs:hover {
-    transform: scale(0.9);
-    opacity: 0.7;
+    transform: scale(1.05);
   }
 
   .img_wrap {
@@ -1600,6 +1635,14 @@ footer {
     width: 100%;
   }
 
+  .show-mobile {
+    display: none;
+  }
+
+  .hide-mobile {
+    display: block;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Restoration Teams Desktop /////////////////////// */
@@ -1630,15 +1673,15 @@ footer {
     border: 10px solid #69B7AE;
     transform: scale(1);
     opacity: 1;
-    transition: opacity 0.4s, transform 0.4s;
+    transition: transform 0.4s;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
   }
 
   .teamimgs:hover {
-    transform: scale(0.9);
-    opacity: 0.7;
+    transform: scale(1.05);
+    opacity: 1;
   }
 
   .img_wrap {

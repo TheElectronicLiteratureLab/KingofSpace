@@ -329,10 +329,12 @@ header .container .menu div.buttons>* {
   font-size: 20px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: 0.4s;
 }
 
 .chitem:hover {
   transform: scale(1.05);
+  transition: 0.4s;
 }
 
 .chname {
@@ -383,6 +385,7 @@ header .container .menu div.buttons>* {
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   max-width: 100%;
+  transition: 0.4s;
 }
 
 .greatship {
@@ -395,6 +398,7 @@ header .container .menu div.buttons>* {
 
 .shitem:hover {
   transform: scale(1.05);
+  transition: 0.4s;
 }
 
 .shheader {

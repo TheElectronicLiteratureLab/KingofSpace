@@ -280,13 +280,6 @@ header .container .menu div.buttons>* {
   padding-top: 10rem;
 }
 
-.shgridcontainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
-  padding-bottom: 5rem;
-}
-
 .shheader {
   color: white;
   text-align: center;
@@ -299,12 +292,13 @@ header .container .menu div.buttons>* {
 .shgridcontainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
+  grid-gap: 3rem;
   padding-bottom: 5rem;
 }
 
 .shitem {
   text-align: center;
+  margin: 0 auto;
 }
 
 .shname {
@@ -331,7 +325,7 @@ header .container .menu div.buttons>* {
 
 .abtgridcontainer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 1rem;
   padding-bottom: 5rem;
 }
@@ -355,8 +349,7 @@ video {
 
 .shwrapper {
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .profile {
@@ -368,10 +361,12 @@ video {
   max-width: 50%;
   max-height: 50%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: 0.4s;
 }
 
 .profile:hover {
   transform: scale(1.05);
+  transition: 0.4s;
 }
 
 
@@ -468,6 +463,224 @@ footer {
 
 /* ///////////////////// End Section /////////////////////// */
 
+/* --------------------------SMALL MOBILE STYLES-------------------------------- */
+@media only screen and (max-width: 699px) {
+
+  /* ///////////////////// Landing Page Mobile (S) /////////////////////// */
+  .page-content {
+    min-height: 700px;
+  }
+
+  .mainlogo {
+    width: 100%;
+    padding-top: 10rem;
+  }
+
+  .parallax {
+    padding: 5rem;
+  }
+
+  .playbtn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 15px;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Ships Mobile (S) /////////////////////// */
+
+  .abtgridcontainer {
+    grid-template-columns: 1fr;
+  }
+
+  .abtitem {
+    padding-bottom: 30px;
+  }
+
+  .abtitem2 {
+    padding-bottom: 5rem;
+    text-align: left;
+  }
+
+  video {
+    width: 100%;
+    max-height: 100%;
+    vertical-align: bottom;
+    border: 10px solid #69B7AE;
+    overflow: hidden;
+  }
+
+  .abtwrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profile {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  .shgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6rem;
+    padding-bottom: 5rem;
+  }
+
+  .shwrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .shitem {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Footer Mobile (S) /////////////////////// */
+  .footergridcontainer {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .footeritem {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  #footer {
+    min-height: 350px;
+  }
+
+  .footerlogo {
+    width: 40vw;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+  }
+
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  hr {
+    width: 70vw;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+}
+
+/* --------------------------LARGE MOBILE STYLES-------------------------------- */
+@media only screen and (min-width: 600px) {
+
+  /* ///////////////////// Landing Page Mobile (L) /////////////////////// */
+  .page-content {
+    min-height: 700px;
+  }
+
+  .mainlogo {
+    width: 100%;
+    padding-top: 10rem;
+  }
+
+  .parallax {
+    padding: 5rem;
+  }
+
+  .playbtn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 15px;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Ships Mobile (L) /////////////////////// */
+
+  .abtgridcontainer {
+    grid-template-columns: 1fr;
+  }
+
+  .abtitem {
+    padding-bottom: 30px;
+  }
+
+  .abtitem2 {
+    padding-bottom: 5rem;
+    text-align: left;
+  }
+
+  video {
+    width: 100%;
+    max-height: 100%;
+    vertical-align: bottom;
+    border: 10px solid #69B7AE;
+    overflow: hidden;
+  }
+
+  .abtwrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profile {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  .shgridcontainer {
+    grid-gap: 6rem;
+  }
+
+  .shwrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .shitem {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Footer Mobile (L) /////////////////////// */
+  .footergridcontainer {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .footeritem {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  #footer {
+    min-height: 350px;
+  }
+
+  .footerlogo {
+    width: 30vw;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+  }
+
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  hr {
+    width: 70vw;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+}
 
 /* Tablet */
 @media only screen and (min-width: 800px) {
@@ -547,9 +760,88 @@ footer {
     text-align: center;
   }
 
-  /* ///////////////////// About Tablet /////////////////////// */
+  /* ///////////////////// Ships Tablet /////////////////////// */
+
   .abtgridcontainer {
     grid-template-columns: 1fr;
+  }
+
+  .abtitem {
+    padding-bottom: 30px;
+  }
+
+  .abtitem2 {
+    padding-bottom: 5rem;
+    text-align: left;
+  }
+
+  video {
+    width: 100%;
+    max-height: 100%;
+    vertical-align: bottom;
+    border: 10px solid #69B7AE;
+    overflow: hidden;
+  }
+
+  .abtwrapper {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profile {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  .shgridcontainer {
+    grid-gap: 6rem;
+  }
+
+  .shwrapper {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .shname {
+    text-align: center;
+  }
+
+  .shitem {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Footer Tablet /////////////////////// */
+  .footergridcontainer {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .footeritem {
+    padding: 1rem;
+    font-size: 16px;
+  }
+
+  #footer {
+    min-height: 350px;
+  }
+
+  .footerlogo {
+    width: 30vw;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+  }
+
+  .parallax .parallax_header {
+    background-attachment: scroll;
+  }
+
+  hr {
+    width: 70vw;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -557,7 +849,7 @@ footer {
 
 
 /* Desktop */
-@media only screen and (min-width: 1040px) {
+@media only screen and (min-width: 1300px) {
 
   header {
     height: 5.2rem;
@@ -612,98 +904,210 @@ footer {
   .abtgridcontainer {
     grid-template-columns: 1fr;
   }
-}
 
-/* --------------------------MOBILE STYLES-------------------------------- */
-@media only screen and (max-width: 799px) {
-
-  /* ///////////////////// Landing Page Mobile /////////////////////// */
-  .page-content {
-    min-height: 700px;
-  }
-
-  .mainlogo {
-    width: 100%;
+  /* ///////////////////// Ships Desktop /////////////////////// */
+  #ships {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 1080px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #434A52;
     padding-top: 10rem;
   }
 
-  .parallax {
-    padding: 5rem;
+  .shgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    padding-bottom: 5rem;
   }
 
-  .playbtn {
-    padding: 1rem 2rem 1rem 2rem;
-    font-size: 15px;
+  .shheader {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 100px;
+    font-weight: 500;
+    letter-spacing: 3px;
   }
 
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// About Mobile /////////////////////// */
-  #abtgame {
-    padding-top: 10rem;
-    min-height: 540px;
+  .shitem {
+    text-align: center;
   }
 
-  .abtgridcontainer {
-    grid-template-columns: 1fr;
+  .shname {
+    color: white;
+    font-size: 18px;
+    margin-top: 1rem;
+  }
+
+  .shname:hover {
+    color: #49817b
   }
 
   .abtitem {
-    padding: 10px;
-    padding-bottom: 30px;
+    text-align: center;
   }
 
   .abtitem2 {
-    padding-bottom: 5rem;
+    color: white;
+    font-size: 18px;
     text-align: left;
+    line-height: 30px;
+    padding-top: 2rem;
+  }
+
+  .abtgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding-bottom: 5rem;
   }
 
   video {
-    width: 100%;
+    max-width: 100%;
     max-height: 100%;
     vertical-align: bottom;
     border: 10px solid #69B7AE;
     overflow: hidden;
+    max-width: 100%;
+    vertical-align: bottom;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
 
   .abtwrapper {
-    width: 100%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .shwrapper {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .profile {
+    background-image: url("../img/starpattern.png");
+    border: 5px solid #69B7AE;
+    color: black;
+    font-size: 18px;
+    padding: 1rem 1rem 0rem 1rem;
+    max-width: 50%;
+    max-height: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+  .profile:hover {
+    transform: scale(1.05);
+  }
+
+  .shwrapper {
+    width: 50%;
+  }
+
+  .shitem {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// Footer Mobile /////////////////////// */
+  /* ///////////////////// Play Game Desktop /////////////////////// */
+  .parallax {
+    background-image: url("../img/starpattern.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 10rem;
+    background-color: #151E24;
+    text-align: center;
+  }
+
+  .playbtn {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 0 auto;
+    padding: 2rem 3rem 2rem 3rem;
+    background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
+    display: grid;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Footer Desktop /////////////////////// */
+  #footer {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 540px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #434A52;
+    text-align: center;
+  }
+
+  .footerlogo {
+    width: 18vw;
+    text-align: center;
+    cursor: pointer;
+    padding: 3rem;
+  }
+
   .footergridcontainer {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding-bottom: 5rem;
+    margin-left: 30vw;
+    margin-right: 30vw;
   }
 
   .footeritem {
     padding: 1rem;
-    font-size: 14px;
-  }
-
-  #footer {
-    min-height: 350px;
-  }
-
-  .footerlogo {
-    width: 40vw;
+    font-size: 16px;
     text-align: center;
-    cursor: pointer;
-    padding: 1rem;
   }
 
-  .parallax {
-    background-attachment: scroll;
+  .footeritem a {
+    color: white;
+  }
+
+  .footeritem a:hover {
+    color: #769979;
+  }
+
+  .socialgridcontainer {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+  }
+
+  .socialitem {
+    padding: 10px;
+    width: 2rem;
+    text-align: center;
+  }
+
+  .socialitem:hover {
+    opacity: 0.5;
+    cursor: pointer;
   }
 
   hr {
-    width: 70vw;
+    width: 40%;
   }
 
   /* ///////////////////// End Section /////////////////////// */
-
 }

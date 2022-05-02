@@ -306,12 +306,12 @@ header .container .menu div.buttons>* {
 }
 
 video {
-  max-width: 100%;
+  width: 100%;
   max-height: 100%;
   vertical-align: bottom;
   border: 10px solid #69B7AE;
   overflow: hidden;
-  width: 50%;
+  width: 100%;
   vertical-align: bottom;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
@@ -467,6 +467,224 @@ footer {
 
 /* ///////////////////// End Section /////////////////////// */
 
+/* --------------------------SMALL MOBILE STYLES-------------------------------- */
+@media only screen and (max-width: 699px) {
+
+  /* ///////////////////// Landing Page Mobile (S) /////////////////////// */
+  .page-content {
+    min-height: 700px;
+  }
+
+  .mainlogo {
+    width: 100%;
+    padding-top: 10rem;
+  }
+
+  .parallax {
+    padding: 5rem;
+  }
+
+  .playbtn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 15px;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// About Mobile (S) /////////////////////// */
+  #abtgame {
+    padding-top: 10rem;
+    min-height: 540px;
+  }
+
+  .abtgridcontainer {
+    grid-template-columns: 1fr;
+  }
+
+  .abtitem {
+    padding: 10px;
+    padding-bottom: 50px;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .abtitem2 {
+    padding-bottom: 5rem;
+    line-height: 30px;
+  }
+
+  video {
+    width: 100%;
+    max-height: 100%;
+    vertical-align: bottom;
+    border: 10px solid #69B7AE;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .abtwrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .chwrapper {
+    width: 100%;
+  }
+
+  .chgridcontainer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Footer Mobile (S) /////////////////////// */
+  .footergridcontainer {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .footeritem {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  #footer {
+    min-height: 350px;
+  }
+
+  .footerlogo {
+    width: 40vw;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+  }
+
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  hr {
+    width: 70vw;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+}
+
+/* --------------------------Large MOBILE STYLES-------------------------------- */
+@media only screen and (min-width: 600px) {
+
+  /* ///////////////////// Landing Page Mobile (L) /////////////////////// */
+  .page-content {
+    min-height: 700px;
+  }
+
+  .mainlogo {
+    width: 100%;
+    padding-top: 10rem;
+  }
+
+  .parallax {
+    padding: 5rem;
+  }
+
+  .playbtn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 15px;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// About Mobile (L) /////////////////////// */
+  #abtgame {
+    padding-top: 10rem;
+    min-height: 540px;
+  }
+
+  .abtgridcontainer {
+    grid-template-columns: 1fr;
+  }
+
+  .abtitem {
+    padding: 10px;
+    padding-bottom: 50px;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .abtitem2 {
+    padding-bottom: 5rem;
+    line-height: 30px;
+  }
+
+  video {
+    width: 100%;
+    max-height: 100%;
+    vertical-align: bottom;
+    border: 10px solid #69B7AE;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .abtwrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .chwrapper {
+    width: 100%;
+  }
+
+  .chgridcontainer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Footer Mobile (L) /////////////////////// */
+  .footergridcontainer {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .footeritem {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  #footer {
+    min-height: 350px;
+  }
+
+  .footerlogo {
+    width: 30vw;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+  }
+
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  hr {
+    width: 70vw;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+}
 
 /* Tablet */
 @media only screen and (min-width: 800px) {
@@ -547,15 +765,83 @@ footer {
   }
 
   /* ///////////////////// About Tablet /////////////////////// */
+  #abtgame {
+    padding-top: 10rem;
+    min-height: 540px;
+  }
+
   .abtgridcontainer {
     grid-template-columns: 1fr;
   }
 
-  .chgridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
+  .abtitem {
+    padding: 10px;
+    padding-bottom: 50px;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .abtitem2 {
     padding-bottom: 5rem;
+    line-height: 30px;
+  }
+
+  video {
+    width: 100%;
+    max-height: 100%;
+    vertical-align: bottom;
+    border: 10px solid #69B7AE;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .abtwrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .chwrapper {
+    width: 100%;
+  }
+
+  .chgridcontainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Footer Tablet /////////////////////// */
+  .footergridcontainer {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .footeritem {
+    padding: 1rem;
+    font-size: 16px;
+  }
+
+  #footer {
+    min-height: 350px;
+  }
+
+  .footerlogo {
+    width: 30vw;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+  }
+
+  .parallax .parallax_header {
+    background-attachment: scroll;
+  }
+
+  hr {
+    width: 70vw;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -563,7 +849,7 @@ footer {
 
 
 /* Desktop */
-@media only screen and (min-width: 1040px) {
+@media only screen and (min-width: 1300px) {
 
   header {
     height: 5.2rem;
@@ -615,22 +901,57 @@ footer {
     padding: 1.25rem 1.5rem;
   }
 
+  /* ///////////////////// About the Game Desktop /////////////////////// */
+  #abtgame {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 1080px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #434A52;
+    padding-top: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .abtlogo {
+    width: 20vw;
+    text-align: center;
+  }
+
   .abtgridcontainer {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding-bottom: 5rem;
+  }
+
+  .abtitem {
+    text-align: center;
+  }
+
+  .abtitem2 {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
   }
 
   video {
-    max-width: 100%;
+    width: 100%;
     max-height: 100%;
     vertical-align: bottom;
     border: 10px solid #69B7AE;
     overflow: hidden;
-    width: 50%;
+    width: 100%;
     vertical-align: bottom;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
 
   .abtwrapper {
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .chwrapper {
@@ -657,7 +978,6 @@ footer {
 
   .chitem {
     text-align: center;
-    scale: 1;
   }
 
   .profile {
@@ -668,122 +988,121 @@ footer {
     padding: 1rem 1rem 0rem 1rem;
     width: 50%;
     height: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 0.4s;
+  }
+
+  .profile:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
   }
 
   .chname {
     color: white;
     font-size: 18px;
     margin-top: 1rem;
-    text-align: center;
-  }
-}
-
-/* --------------------------MOBILE STYLES-------------------------------- */
-@media only screen and (max-width: 799px) {
-
-  /* ///////////////////// Landing Page Mobile /////////////////////// */
-  .page-content {
-    min-height: 700px;
   }
 
-  .mainlogo {
-    width: 100%;
-    padding-top: 10rem;
+  .chname:hover {
+    color: #49817b
   }
 
+  /* ///////////////////// End Section /////////////////////// */
+
+  /* ///////////////////// Play Game Desktop /////////////////////// */
   .parallax {
-    padding: 5rem;
+    background-image: url("../img/starpattern.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 10rem;
+    background-color: #151E24;
+    text-align: center;
   }
 
   .playbtn {
-    padding: 1rem 2rem 1rem 2rem;
-    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 0 auto;
+    padding: 2rem 3rem 2rem 3rem;
+    background-image: linear-gradient(to top, #3B4D3D 0%, #769979 100%);
+    display: grid;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
   }
 
   /* ///////////////////// End Section /////////////////////// */
 
-  /* ///////////////////// About Mobile /////////////////////// */
-  #abtgame {
-    padding-top: 10rem;
+  /* ///////////////////// Footer Desktop /////////////////////// */
+  #footer {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     min-height: 540px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #434A52;
+    text-align: center;
   }
 
-  .abtgridcontainer {
-    grid-template-columns: 1fr;
+  .footerlogo {
+    width: 18vw;
+    text-align: center;
+    cursor: pointer;
+    padding: 3rem;
   }
 
-  .abtitem {
-    padding: 10px;
-    padding-bottom: 50px;
-    width: 50%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .abtitem2 {
-    padding-bottom: 5rem;
-    line-height: 30px;
-  }
-
-  video {
-    width: 100%;
-    max-height: 100%;
-    vertical-align: bottom;
-    border: 10px solid #69B7AE;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .abtwrapper {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .chwrapper {
-    width: 100%;
-  }
-
-  .chgridcontainer {
-    grid-template-columns: 1fr 1fr;
-  }
-
-
-
-  /* ///////////////////// End Section /////////////////////// */
-
-  /* ///////////////////// Footer Mobile /////////////////////// */
   .footergridcontainer {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding-bottom: 5rem;
+    margin-left: 30vw;
+    margin-right: 30vw;
   }
 
   .footeritem {
     padding: 1rem;
-    font-size: 14px;
-  }
-
-  #footer {
-    min-height: 350px;
-  }
-
-  .footerlogo {
-    width: 40vw;
+    font-size: 16px;
     text-align: center;
-    cursor: pointer;
-    padding: 1rem;
   }
 
-  .parallax {
-    background-attachment: scroll;
+  .footeritem a {
+    color: white;
+  }
+
+  .footeritem a:hover {
+    color: #769979;
+  }
+
+  .socialgridcontainer {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+  }
+
+  .socialitem {
+    padding: 10px;
+    width: 2rem;
+    text-align: center;
+  }
+
+  .socialitem:hover {
+    opacity: 0.5;
+    cursor: pointer;
   }
 
   hr {
-    width: 70vw;
+    width: 40%;
   }
 
   /* ///////////////////// End Section /////////////////////// */
-
 }

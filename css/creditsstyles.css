@@ -507,11 +507,18 @@ section ul li:hover {
 }
 
 .proginfoitem {
-  background: white;
-  border: 10px solid #434A52;
+  color: black;
+  font-size: 18px;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.progimg {
   max-width: 100%;
+  vertical-align: bottom;
+  border: 10px solid #434A52;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .proginfoitem2 {
@@ -743,6 +750,15 @@ footer {
     font-size: 30px;
   }
 
+  .show-mobile {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Candid Images Mobile (S) /////////////////////// */
@@ -853,6 +869,15 @@ footer {
 
   .proginfoheader {
     font-size: 30px;
+  }
+
+  .show-mobile {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .hide-mobile {
+    display: none;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1020,6 +1045,15 @@ footer {
     font-size: 30px;
   }
 
+  .show-mobile {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Program Info Tablet /////////////////////// */
@@ -1047,6 +1081,14 @@ footer {
     padding-top: 15rem;
     padding-bottom: 5rem;
     letter-spacing: 20px;
+  }
+
+  .show-mobile {
+    display: none;
+  }
+
+  .hide-mobile {
+    display: block;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1269,9 +1311,18 @@ footer {
   }
 
   .proginfoitem {
-    background: white;
-    border: 10px solid #434A52;
+    color: black;
+    font-size: 18px;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .progimg {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: 10px solid #434A52;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
 
   .proginfoitem2 {
@@ -1290,6 +1341,15 @@ footer {
     font-weight: 500;
     letter-spacing: 3px;
   }
+
+  .show-mobile {
+    display: none;
+  }
+
+  .hide-mobile {
+    display: block;
+  }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
