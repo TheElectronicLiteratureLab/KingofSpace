@@ -385,7 +385,7 @@ a{
   background-size:cover;
 }
 #tetris{
-
+  visibility: hidden;
 }
 #troop{
   background-image:url(../img/kos-troopcarrier.png);
