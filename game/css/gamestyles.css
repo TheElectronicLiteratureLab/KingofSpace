@@ -390,9 +390,13 @@ a{
 #troop{
   background-image:url(../img/kos-troopcarrier.png);
   background-size:cover;
+  display: flex;
+  justify-self: right;
 }
 #kitchen{
   background-image:url(../img/kos_sandwich_final.jpg);
+  display: flex;
+  justify-self: left;
 }
 #slide-puzzle{
   background-image:url(../img/foxmask.png);
@@ -404,11 +408,21 @@ a{
     place-items: center;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr repeat(5);
+    grid-template-rows: 1fr repeat(4);
     column-gap: auto;
     row-gap: 50px;
   }
-
+  #troop{
+    display: block;
+    justify-self: center;
+  }
+  #kitchen{
+    display: block;
+    justify-self: center;
+  }
+  #tetris{
+    display: none;
+  }
   .game-button{
     width:200px;
     height:200px;
@@ -421,9 +435,20 @@ a{
     place-items: center;
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr repeat(10);
+    grid-template-rows: 1fr repeat(4);
     column-gap: auto;
     row-gap: 50px;
+  }
+  #troop{
+    display: block;
+    justify-self: center;
+  }
+  #kitchen{
+    display: block;
+    justify-self: center;
+  }
+  #tetris{
+    display: none;
   }
   .game-button{
     width:250px;
