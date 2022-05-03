@@ -182,7 +182,7 @@ function story(temp) {
 
 			case 13:
 			//hide('personimg');
-				// unhide choise buttons 
+				// unhide choice buttons 
 				x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 				// hide next 
 				hide('Next');
@@ -237,7 +237,7 @@ function story(temp) {
 				
 			
 			case 21:
-				// unhide choise buttons 
+				// unhide choice buttons 
 				// hide next 
 				//hide('personimgright');
 				hide('Next');
@@ -322,7 +322,7 @@ function story(temp) {
 			current++;
 			break;
 			case 73:	
-			// unhide choise buttons 
+			// unhide choice buttons 
 				// hide next 
 				hide('Next');
 				hide('choiceone');
@@ -350,7 +350,7 @@ function story(temp) {
 				break;
 
 			case 76:	
-			// unhide choise buttons 
+			// unhide choice buttons 
 				// hide next 
 				hide('Next');
 				hide('choiceone');
@@ -420,7 +420,7 @@ function story(temp) {
 				break;
 
 			case 98:	
-			// unhide choise buttons 
+			// unhide choice buttons 
 				// hide next 
 				hide('Next');
 				hide('choiceone');
@@ -443,7 +443,7 @@ function story(temp) {
 				break;
 
 			case 100:	
-			// unhide choise buttons 
+			// unhide choice buttons 
 				
 				hide('Next');
 				hide('choiceone');
@@ -482,7 +482,7 @@ function story(temp) {
 				current = 100;
 				break;
 			case 104:
-			// unhide choise buttons 
+			// unhide choice buttons 
 				
 				hide('Next');
 				hide('choiceone');
@@ -512,7 +512,7 @@ function story(temp) {
 				break;
 
 			case 105:
-					// unhide choise buttons 
+					// unhide choice buttons 
 				
 				hide('Next');
 				hide('choiceone');
@@ -549,7 +549,7 @@ function story(temp) {
 				break;
 
 			case 106:
-	// unhide choise buttons 
+	// unhide choice buttons 
 				
 				hide('Next');
 				hide('choiceone');
@@ -637,7 +637,7 @@ function story(temp) {
 				break;
 
 			case 116:	
-			// unhide choise buttons 
+			// unhide choice buttons 
 				// hide next 
 				hide('Next');
 				hide('choiceone');
@@ -853,7 +853,7 @@ function story(temp) {
 
 			case 160:
 				
-			// unhide choise buttons 
+			// unhide choice buttons 
 				
 				hide('Next');
 				hide('choiceone');
@@ -921,7 +921,7 @@ function story(temp) {
 				break;
 
 			case 169:
-				// unhide choise buttons 
+				// unhide choice buttons 
 				
 				//hide('Next');
 				//hide('choiceone');
@@ -1065,7 +1065,7 @@ function story(temp) {
 				break;
 
 			case 193:
-				// unhide choise buttons 
+				// unhide choice buttons 
 				// hide next 
 				hide('Next');
 				hide('choiceone');
@@ -1143,7 +1143,7 @@ function story(temp) {
 				break;
 
 			case 211:
-			// unhide choise buttons 
+			// unhide choice buttons 
 				// hide next 
 				hide('personimgright');
 				r.src = "imgstory/kos_dagger_final-02.png";
@@ -1193,7 +1193,7 @@ function story(temp) {
 				break;
 
 			case 241: 
- 				// unhide choise buttons 
+ 				// unhide choice buttons 
 				// hide next 
 				hide('Next');
 				hide('choiceone');
@@ -1242,7 +1242,7 @@ function story(temp) {
 				break;
 
 			case 257:
-				// unhide choise buttons 
+				// unhide choice buttons 
 				// hide next 
 				hide('Next');
 				hide('choiceone');
@@ -1307,7 +1307,7 @@ function story(temp) {
 
 
 			case 264:
-				// unhide choise buttons 
+				// unhide choice buttons 
 				// hide next 
 				hide('Next');
 				hide('choiceone');
