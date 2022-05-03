@@ -304,6 +304,7 @@ header .container .menu div.buttons>* {
   position: relative;
   background-color: #434A52;
   padding-bottom: 100px;
+  padding: 2rem;
 }
 
 #abtwrapper {
@@ -817,9 +818,6 @@ footer {
     width: 100%;
   }
 
-  .abtitem2 {
-    padding: 2rem;
-  }
 
   .authorstatement {
     color: white;
@@ -983,10 +981,6 @@ footer {
 
   .abtitem {
     width: 100%;
-  }
-
-  .abtitem2 {
-    padding: 2rem;
   }
 
   .trailer {
@@ -1212,10 +1206,6 @@ footer {
 
   .abtitem {
     width: 80%;
-  }
-
-  .abtitem2 {
-    padding: 2rem;
   }
 
   .trailer {
