@@ -301,24 +301,25 @@ header .container .menu div.buttons>* {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 100px;
 }
 
 .teamswrapper {
   min-height: 1080px;
   margin: 0 auto;
-  padding: 5rem;
   position: relative;
   background-color: #434A52;
-  width: 60%;
+  width: 70%;
 }
 
 .teamsheader {
   color: white;
   text-align: center;
   font-size: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   font-weight: 500;
   letter-spacing: 3px;
+  padding-top: 2rem;
 }
 
 h1 {
@@ -480,9 +481,10 @@ section ul li:hover {
 #proginfo {
   min-height: 540px;
   margin: 0 auto;
-  padding: 5rem;
+  padding: 2rem;
   position: relative;
   background-color: #5A7C7C;
+  padding-bottom: 100px;
 }
 
 #progwrapper {
@@ -501,7 +503,7 @@ section ul li:hover {
   color: white;
   text-align: center;
   font-size: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   font-weight: 500;
   letter-spacing: 3px;
 }
@@ -524,7 +526,6 @@ section ul li:hover {
 .proginfoitem2 {
   color: white;
   font-size: 18px;
-  padding: 7rem;
   text-align: left;
   line-height: 30px;
 }
@@ -540,7 +541,7 @@ section ul li:hover {
   position: relative;
   background-color: #434A52;
   padding-bottom: 5rem;
-  padding: 3rem;
+  padding: 2rem;
   text-align: center;
 }
 
@@ -555,7 +556,7 @@ section ul li:hover {
   color: white;
   text-align: center;
   font-size: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   font-weight: 500;
   letter-spacing: 3px;
 }
@@ -589,6 +590,7 @@ section ul li:hover {
   flex: 20%;
   max-width: 25%;
   padding: 0 15px;
+  padding-bottom: 100px;
 }
 
 .column img {
@@ -727,11 +729,16 @@ footer {
     font-size: 30px;
   }
 
+  .teamswrapper {
+    width: 100%;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Program Info Mobile (S) /////////////////////// */
   #proginfo {
     padding: 2rem;
+    padding-bottom: 100px;
   }
 
   #progwrapper {
@@ -758,6 +765,8 @@ footer {
   .hide-mobile {
     display: none;
   }
+
+
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -848,15 +857,20 @@ footer {
     font-size: 30px;
   }
 
+  .teamswrapper {
+    width: 100%;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Program Info Mobile (L) /////////////////////// */
   #proginfo {
     padding: 2rem;
+    padding-bottom: 100px;
   }
 
   #progwrapper {
-    width: 100%;
+    width: 90%;
   }
 
   .proginfogridcontainer {
@@ -1023,35 +1037,10 @@ footer {
     text-align: center;
   }
 
-  /* ///////////////////// Restoration Teams Mobile (S) /////////////////////// */
+  /* ///////////////////// Restoration Teams Tablet /////////////////////// */
 
-  #proginfo {
-    padding: 2rem;
-  }
-
-  #progwrapper {
-    width: 100%;
-  }
-
-  .proginfogridcontainer {
-    grid-template-columns: 1fr;
-  }
-
-  .proginfoitem2 {
-    padding: 0;
-  }
-
-  .proginfoheader {
-    font-size: 30px;
-  }
-
-  .show-mobile {
-    display: block;
-    padding-bottom: 0;
-  }
-
-  .hide-mobile {
-    display: none;
+  .teamswrapper {
+    width: 80%;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1062,7 +1051,7 @@ footer {
   }
 
   #progwrapper {
-    width: 80%;
+    width: 70%;
   }
 
   .proginfogridcontainer {
@@ -1084,11 +1073,12 @@ footer {
   }
 
   .show-mobile {
-    display: none;
+    display: block;
+    padding-bottom: 0;
   }
 
   .hide-mobile {
-    display: block;
+    display: none;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1098,7 +1088,7 @@ footer {
 
   .column {
     -ms-flex: 50%;
-    flex: 50%;
+    flex: 20%;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -1293,9 +1283,10 @@ footer {
   #proginfo {
     min-height: 540px;
     margin: 0 auto;
-    padding: 5rem;
+    padding: 2rem;
     position: relative;
     background-color: #5A7C7C;
+    padding-bottom: 100px;
   }
 
   #progwrapper {
@@ -1328,8 +1319,8 @@ footer {
   .proginfoitem2 {
     color: white;
     font-size: 18px;
-    padding: 7rem;
     text-align: left;
+    padding: 2rem;
   }
 
 
@@ -1337,7 +1328,7 @@ footer {
     color: white;
     text-align: center;
     font-size: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     font-weight: 500;
     letter-spacing: 3px;
   }
@@ -1361,8 +1352,7 @@ footer {
     margin: 0 auto;
     position: relative;
     background-color: #434A52;
-    padding-bottom: 5rem;
-    padding: 3rem;
+    padding: 2rem;
   }
 
   .candidwrapper {
@@ -1375,7 +1365,6 @@ footer {
     color: white;
     text-align: center;
     font-size: 40px;
-    padding-bottom: 100px;
     font-weight: 500;
     letter-spacing: 3px;
   }
@@ -1397,6 +1386,7 @@ footer {
     flex: 20%;
     max-width: 25%;
     padding: 0 15px;
+    padding-bottom: 100px;
   }
 
   .column img {
@@ -1422,10 +1412,9 @@ footer {
   .teamswrapper {
     min-height: 1080px;
     margin: 0 auto;
-    padding: 5rem;
     position: relative;
     background-color: #434A52;
-    width: 60%;
+    width: 70%;
   }
 
   .teamsheader {
@@ -1461,6 +1450,9 @@ footer {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    text-shadow: 2px 2px black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
   }
 
   section ul {

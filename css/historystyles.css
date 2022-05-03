@@ -347,7 +347,6 @@ em {
 .ognitem2 {
   color: white;
   font-size: 18px;
-  padding-top: 4rem;
   text-align: left;
   line-height: 30px;
 }
@@ -360,7 +359,7 @@ em {
   background-color: #434A52;
   min-height: 1080px;
   margin: 0 auto;
-  padding: 5rem;
+  padding: 2rem;
   position: relative;
 }
 
@@ -393,7 +392,6 @@ em {
 .bkgitem2 {
   color: white;
   font-size: 18px;
-  padding-top: 4rem;
   text-align: left;
   line-height: 30px;
 }
@@ -419,7 +417,7 @@ em {
 #assets {
   min-height: 800px;
   margin: 0 auto;
-  padding-top: 5rem;
+  padding-top: 2rem;
   position: relative;
   background-color: #5A7C7C;
 
@@ -1012,7 +1010,7 @@ footer {
   }
 
   #bkgwrapper {
-    width: 90%;
+    width: 65%;
   }
 
   .bkgheader {
@@ -1290,7 +1288,6 @@ footer {
     font-size: 18px;
     text-align: left;
     line-height: 30px;
-    width: 70%;
     margin: 0 auto;
   }
 
@@ -1309,7 +1306,7 @@ footer {
     background-color: #434A52;
     min-height: 1080px;
     margin: 0 auto;
-    padding: 5rem;
+    padding: 2rem;
     position: relative;
   }
 
@@ -1340,14 +1337,13 @@ footer {
     color: black;
     font-size: 18px;
     text-align: center;
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
   }
 
   .bkgitem2 {
     color: white;
     font-size: 18px;
-    padding-top: 4rem;
     text-align: left;
     line-height: 30px;
   }
@@ -1357,6 +1353,7 @@ footer {
     vertical-align: bottom;
     border: 10px solid #69B7AE;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-bottom: 50px;
   }
 
   .show-mobile {
@@ -1374,7 +1371,7 @@ footer {
   #assets {
     min-height: 800px;
     margin: 0 auto;
-    padding-top: 5rem;
+    padding-top: 2rem;
     position: relative;
     background-color: #5A7C7C;
   }
