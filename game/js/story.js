@@ -72,7 +72,7 @@ function story(temp) {
 	var r = document.getElementById('personimgright');
 	var a = document.getElementById('clickone');
 	var b = document.getElementById('clicktwo');
-	var p =  document.getElementById('pond');
+	var p = document.getElementById('pond');
 	var v = document.getElementById('personvidright');
 
 	//document.getElementById('playboxmain').innerHTML = `  ${array[current]} `
@@ -215,7 +215,8 @@ function story(temp) {
 			case 16:
 				x.style.backgroundImage= "url(img/maingame-starbackground.png)";
 				hide('personimgright');
-				r.src = "imgstory/kos-earring.png";
+				v.src = "imgstory/kos-aster-earring-3d-final.mp4";
+				console.log("Case 16");
 				//r.play();
 				current++;
 				break;
@@ -230,7 +231,8 @@ function story(temp) {
 
 			case 20:
 				hide('personimgright');
-				r.src = "imgstory/kos-earring.png";
+				v.src = "./imgstory/kos-aster-earring-3d-final.mp4";
+				console.log("Case 20")
 				//v.play();
 				current++;
 				break;
@@ -295,6 +297,7 @@ function story(temp) {
 			case 48:
 				hide('personimgright');
 				r.src = "imgstory/kos-spyfly.png";
+				console.log("case 48");
 				//v.play();
 				x.style.backgroundImage="url(img/maingame-starbackground.png)";
 				current++;
@@ -1231,14 +1234,14 @@ function story(temp) {
 				break;
 
 			case 247:
-				hide('personimgright');
-			r.src = "imgstory/kos-spyfly.png";
-			//v.play();
+				v.src = "imgstory/kos-spyfly-3d-final.mp4";
+				console.log("case 247");
+				//v.play();
 				current++;
 				break;
 			case 248:
-				hide('personimgright');
-				current++;
+				hide('personvidright');
+				current++;vid
 				break;
 
 			case 257:
