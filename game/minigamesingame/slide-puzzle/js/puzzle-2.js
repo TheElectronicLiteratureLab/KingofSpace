@@ -1,8 +1,10 @@
+let a = document.getElementById("slide1");
 /* this is the function used to swap tiles tile1 and tile2 are the first and second digits of the numbers given to each tile in the id */
 function swapTiles(tile1,tile2) {
   var temp = document.getElementById(tile1).className;
   document.getElementById(tile1).className = document.getElementById(tile2).className;
   document.getElementById(tile2).className = temp;
+  a.play();
 }
 
 /* this is the function used to randomize the tiles by calling the swap tiles function within it. */

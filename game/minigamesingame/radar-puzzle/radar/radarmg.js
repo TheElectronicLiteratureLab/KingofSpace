@@ -78,6 +78,13 @@ function openModal(modal){
    let B5 = document.getElementById('buttonfive');
 	B5.style.backgroundImage =  "url(img/buttonoff.png)";
 
+
+	let a = document.getElementById('click');
+	let b = document.getElementById('toggleone');
+	let c = document.getElementById('toggletwo');
+	let d = document.getElementById('woo');
+
+
    	let Sone = true;
 	let Stwo = false;
 	let Sthree = false;
@@ -142,6 +149,7 @@ const Emergency = [" Oxygen Reserves Critical<br>"];
 			hide('switchone');
 			hide('switchonept');
 			hide('kal');
+			b.play();
 
 		}
 		else{
@@ -154,6 +162,7 @@ const Emergency = [" Oxygen Reserves Critical<br>"];
 			hide('switchonept');
 			hide('switchone');
 			hide('kal');
+			c.play();
 	}
 
 	}
@@ -165,6 +174,7 @@ const Emergency = [" Oxygen Reserves Critical<br>"];
 			hide('switchtwo');
 			hide('switchtwopt');
 			hide('radarimg');
+			b.play();
 	}
 	else{
 		Stwo = true;
@@ -173,6 +183,7 @@ const Emergency = [" Oxygen Reserves Critical<br>"];
 			hide('switchtwopt');
 			hide('switchtwo');
 			hide('radarimg');
+			c.play();
 	}
 }
 if (temp === 'switchthree'|| temp === 'switchthreept'){
@@ -182,6 +193,7 @@ if (temp === 'switchthree'|| temp === 'switchthreept'){
 			//S3.style.backgroundImage =  "url(img/switchdown.png)";
 			hide('switchthree');
 			hide('switchthreept');
+			b.play();
 
 		}
 		else{
@@ -190,6 +202,7 @@ if (temp === 'switchthree'|| temp === 'switchthreept'){
 			//S3.style.backgroundImage =  "url(img/switchup.png)";
 			hide('switchthreept');
 			hide('switchthree');
+			c.play();
 	}
 	}
 if (temp === 'switchfour'|| temp === 'switchfourpt'){
@@ -199,6 +212,7 @@ if (temp === 'switchfour'|| temp === 'switchfourpt'){
 			//S4.style.backgroundImage =  "url(img/switchdown.png)";
 			hide('switchfour');
 			hide('switchfourpt');
+			b.play();
 
 		}
 		else{
@@ -207,6 +221,7 @@ if (temp === 'switchfour'|| temp === 'switchfourpt'){
 			//S4.style.backgroundImage =  "url(img/switchup.png)";
 			hide('switchfourpt');
 			hide('switchfour');
+			c.play();
 	}
 	}
 if (temp === 'switchfive'||temp === 'switchfivept'){
@@ -216,6 +231,7 @@ if (temp === 'switchfive'||temp === 'switchfivept'){
 			//S5.style.backgroundImage =  "url(img/switchdown.png)";
 			hide('switchfive');
 			hide('switchfivept');
+			b.play();
 
 		}
 		else{
@@ -224,6 +240,7 @@ if (temp === 'switchfive'||temp === 'switchfivept'){
 			//S5.style.backgroundImage =  "url(img/switchup.png)";
 			hide('switchfivept');
 			hide('switchfive');
+			c.play();
 	}
 	}
 if (temp === 'switchsix'|| temp === 'switchsixpt'){
@@ -233,6 +250,7 @@ if (temp === 'switchsix'|| temp === 'switchsixpt'){
 			//S6.style.backgroundImage =  "url(img/switchdown.png)";
 			hide('switchsix');
 			hide('switchsixpt');
+			b.play();
 
 		}
 		else{
@@ -241,6 +259,7 @@ if (temp === 'switchsix'|| temp === 'switchsixpt'){
 			//S6.style.backgroundImage =  "url(img/switchup.png)";
 			hide('switchsixpt');
 			hide('switchsix');
+			c.play();
 	}
 	}
 	if (temp === 'buttonone'){
@@ -248,12 +267,14 @@ if (temp === 'switchsix'|| temp === 'switchsixpt'){
 			Bone = false;
 			//document.getElementById('playbox').innerHTML = ` `;
 			B1.style.backgroundImage =  "url(img/buttonoff.png)";
+			a.play();
 
 		}
 		else{
 			Bone = true;
 			Emergency.push( "ignition! <br>");
 			B1.style.backgroundImage =  "url(img/buttonon.png)";
+			a.play();
 	}
 	}
 	if (temp === 'buttontwo'){
@@ -261,12 +282,14 @@ if (temp === 'switchsix'|| temp === 'switchsixpt'){
 			Btwo = false;
 			//document.getElementById('playbox').innerHTML = `  ${Bone} `;
 			B2.style.backgroundImage =  "url(img/buttonoff.png)";
+			a.play();
 
 		}
 		else{
 			Btwo = true;
 			//document.getElementById('playbox').innerHTML = ` switchone is true`;
 			B2.style.backgroundImage =  "url(img/buttonon.png)";
+			a.play();
 	}
 	}
 	if (temp === 'buttonthree'){
@@ -274,12 +297,14 @@ if (temp === 'switchsix'|| temp === 'switchsixpt'){
 			Bthree = false;
 			//document.getElementById('playbox').innerHTML = `  ${Bone} `;
 			B3.style.backgroundImage =  "url(img/buttonoff.png)";
+			a.play();
 
 		}
 		else{
 			Bthree = true;
 			Emergency.push(" laser inoperative<br> "); 
 			B3.style.backgroundImage =  "url(img/buttonon.png)";
+			a.play();
 	}
 	}
 	if (temp === 'buttonfour'){
@@ -287,6 +312,7 @@ if (temp === 'switchsix'|| temp === 'switchsixpt'){
 			Bfour = false;
 			//document.getElementById('playbox').innerHTML = `  ${Bone} `;
 			B4.style.backgroundImage =  "url(img/buttonoff.png)";
+			a.play();
 
 		}
 		else{
@@ -300,12 +326,14 @@ if (temp === 'switchsix'|| temp === 'switchsixpt'){
 			Bfive = false;
 			//document.getElementById('playbox').innerHTML = `  ${Bone} `;
 			B5.style.backgroundImage =  "url(img/buttonoff.png)";
+			a.play();
 
 		}
 		else{
 			Bfive = true;
 			Emergency.push(" not docked<br> "); 
 			B5.style.backgroundImage =  "url(img/buttonon.png)";
+			a.play();
 	}
 	}
 	if (Sone === false && Bone === true){
@@ -319,7 +347,7 @@ if (temp === 'switchsix'|| temp === 'switchsixpt'){
 		
 		//document.getElementById('completed').innerHTML = ` congrats you completed the puzzle`;
 		Emergency.push(" locked on to beacon<br>");
-
+d.play();
 hide('radarimg');
 hide('radarimgon');
 		setTimeout(()=>{hide('main-radar');}, 2000);

@@ -72,6 +72,7 @@ function story(temp) {
 	var r = document.getElementById('personimgright');
 	var a = document.getElementById('clickone');
 	var b = document.getElementById('clicktwo');
+	var c = document.getElementById('sushum');
 	var p = document.getElementById('pond');
 	var v = document.getElementById('personvidright');
 
@@ -214,7 +215,7 @@ function story(temp) {
 					break;
 			case 16:
 				x.style.backgroundImage= "url(img/maingame-starbackground.png)";
-				hide('personimgright');
+				//hide('personvidright');
 				v.src = "imgstory/kos-aster-earring-3d-final.mp4";
 				console.log("Case 16");
 				//r.play();
@@ -223,7 +224,7 @@ function story(temp) {
 
 			case 17:
 			hide('personvidright');
-			hide('personimgright');
+			//hide('personimgright');
 				
 				current++;
 				break;
@@ -231,8 +232,8 @@ function story(temp) {
 				
 
 			case 20:
-				hide('personimgright');
-				v.src = "./imgstory/kos-aster-earring-3d-final.mp4";
+				hide('personvidright');
+				v.src = "imgstory/kos-aster-earring-3d-final.mp4";
 				console.log("Case 20")
 				//v.play();
 				current++;
@@ -273,7 +274,7 @@ function story(temp) {
 				
 
 				case 22:
-				hide('personimgright');
+				hide('personvidright');
 				current++;
 				break;
 
@@ -301,7 +302,7 @@ function story(temp) {
 
 
 			case 48:
-				hide('personimgright');
+				hide('personvidright');
 				//r.src = "imgstory/kos-spyfly.png";
 				v.src = 'imgstory/kos-spyfly-3d-final.mp4';
 				console.log("case 48");
@@ -322,12 +323,12 @@ function story(temp) {
 				break;
 
 				case 70:
-				hide('personimgright');
+				hide('personvidright');
 				current++;
 				break;
 
 			case 72:
-			hide('personimgright');
+			hide('personvidright');
 			//r.src = "imgstory/kos-seed.png";
 			v.src = "imgstory/kos-seed-3d-final.mp4";
 			console.log("case 72");
@@ -360,7 +361,7 @@ function story(temp) {
 				break;
 
 			case 74:
-				hide('personimgright');
+				//hide('personimgright');
 				hide('personvidright');
 				current++;
 				break;
@@ -868,7 +869,7 @@ function story(temp) {
 			
 
 			case 160:
-				
+				c.play();
 			// unhide choice buttons 
 				
 				hide('Next');

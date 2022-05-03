@@ -3,6 +3,8 @@ let table2 = document.getElementById("table-2");
 let wrapper = document.getElementById("wrapper");
 let button1 = document.getElementById("table1-btn");
 let button2 = document.getElementById("table2-btn");
+let sound1 = document.getElementById("buttonsound1");//add sound1.play();
+let sound2 = document.getElementById("buttonsound2");//add sound2.play();
 let gameOver = [];
 
 /*counter to be used for switching to the larger table */
