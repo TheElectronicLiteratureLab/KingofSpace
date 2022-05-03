@@ -26,7 +26,7 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 
 "Abandoned since the Plague struck. <br><br>Fifty years abandoned. <br><br>Yet this ship, the Lady Nii, may still have some life. Oxygen, algae… <br><br>Enough to live on. Enough to make a place with, in these dead asteroids. By the Emperor and his Mother, Tam could live… <br><br>And Tam's are supposed to be resistant to Plague. <br><br>How resistant?",//10
 
- /*"Greatship animation goes here"*/,//image of great ship or life ship? animation 11 
+" ",//image of great ship or life ship? animation 11 
 
 "What in the Lady's name is that? <br><br>It is an opal set in jet, a white smoothness, curved roundly like a woman. A lifeship. <br><br>Tam throws back his head and laughs.<br><br>What a present from the Emperor-worshippers! Lifeships are full of genetic material. The little white moon can restock an entire planet. <br><br>It can restock a Greatship.",//11
 
@@ -44,7 +44,7 @@ let story = ["Sunside of the Asteroid Belt, the fertile Empire of Terra stretche
 
 "Where is the poor bastard? <br><br><i> Because she was lonely for a lover, she made a man out of Mars dust, and by concourse with her in the ceremony he gained life. He is the Red King, the trickster, but he is also her true love, mated to Space for life.</i> <br><br>Mated to Space for life...",//16
 
-"He should be on the couch,<br>frozen in the coldsleep gel<br>with her.",//17
+"He should be on the couch,<br>frozen in the coldsleep gel<br>with her.",//19
 
 "Tam's neck chills. This Priestess is still wearing the Virgin's Moon. <br><br>Her earring is a thin sickle of silver, a virgin's earring. Until she shares her earring, she has no powers.<br><br>The Priestesses get their ''powers'' through computer linkage, and the linking-up happens during the sharing. A Priestess on her virgin voyage finds a man and mates with him. After sex, she gets her powers. Sex is magic.<br><br>But during the sex-- this is a bad religion-- the Priestess infects her lover with the most virulent from of Plague. Whoever she finds, the poor bastard becomes her Red King. Her bodyguard. Totally, fanatically, dedicated to her. <br><br>Mated to Space? No. Mated to her. For life.",//18
 

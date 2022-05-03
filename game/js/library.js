@@ -1,5 +1,5 @@
 
-
+/*
 function hudeoptions(){
 	Lhide('bookone');
 	Lhide('booktwo');
@@ -172,7 +172,7 @@ function Goto(button){
 
 }
 
-
+*/
 
 function library (cur){
 	
