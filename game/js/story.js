@@ -222,6 +222,7 @@ function story(temp) {
 				break;
 
 			case 17:
+			hide('personvidright');
 			hide('personimgright');
 				
 				current++;
@@ -242,6 +243,7 @@ function story(temp) {
 				// unhide choice buttons 
 				// hide next 
 				//hide('personimgright');
+				
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
@@ -284,19 +286,24 @@ function story(temp) {
 			case 46:
 				hide('personimgright');
 				r.src = "imgstory/kos_flowercolordrafttransparent.png";
+				//v.src = 'imgstory/kos-ceremonial-flower-3d-final.mp4';
+				console.log("case 46");
+
 				//v.play();
 				current++;
 				break;
 
 			case 47:
 				hide('personimgright');
+				//hide('personvidright');
 				current++;
 				break;
 
 
 			case 48:
 				hide('personimgright');
-				r.src = "imgstory/kos-spyfly.png";
+				//r.src = "imgstory/kos-spyfly.png";
+				v.src = 'imgstory/kos-spyfly-3d-final.mp4';
 				console.log("case 48");
 				//v.play();
 				x.style.backgroundImage="url(img/maingame-starbackground.png)";
@@ -304,7 +311,8 @@ function story(temp) {
 				break;
 
 			case 49:
-				hide('personimgright');
+				//hide('personimgright');
+				hide('personvidright');
 				current++;
 				break;
 
@@ -320,13 +328,17 @@ function story(temp) {
 
 			case 72:
 			hide('personimgright');
-			r.src = "imgstory/kos-seed.png";
+			//r.src = "imgstory/kos-seed.png";
+			v.src = "imgstory/kos-seed-3d-final.mp4";
+			console.log("case 72");
 			//v.play();
 			current++;
 			break;
+
 			case 73:	
 			// unhide choice buttons 
 				// hide next 
+				
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
@@ -349,6 +361,7 @@ function story(temp) {
 
 			case 74:
 				hide('personimgright');
+				hide('personvidright');
 				current++;
 				break;
 
@@ -1241,7 +1254,7 @@ function story(temp) {
 				break;
 			case 248:
 				hide('personvidright');
-				current++;vid
+				current++;
 				break;
 
 			case 257:
