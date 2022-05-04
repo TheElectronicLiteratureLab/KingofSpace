@@ -265,6 +265,7 @@ header .container .menu div.buttons>* {
   border: none;
   border-radius: 5px;
   font-size: 18px;
+  margin: 10px;
 }
 
 .playbtn:hover {
@@ -1104,6 +1105,7 @@ footer {
 
   .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {
@@ -1398,6 +1400,7 @@ footer {
 
   .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {
@@ -1512,6 +1515,7 @@ footer {
     border: none;
     border-radius: 5px;
     font-size: 18px;
+    margin: 10px;
   }
 
   .playbtn:hover {

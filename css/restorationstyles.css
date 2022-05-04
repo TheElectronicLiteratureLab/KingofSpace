@@ -449,6 +449,8 @@ header .container .menu div.buttons>* {
 
 .viewteamsbtn {
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 
@@ -571,6 +573,10 @@ footer {
     font-size: 30px;
   }
 
+  .parallax_header {
+    background-attachment: scroll;
+  }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -664,6 +670,10 @@ footer {
     font-size: 15px;
   }
 
+  .parallax_header {
+    background-attachment: scroll;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Restoration Teams Mobile (L) /////////////////////// */
@@ -676,6 +686,10 @@ footer {
   .restheader {
     color: white;
     text-align: center;
+    font-size: 30px;
+  }
+
+  .teamsheader {
     font-size: 30px;
   }
 
@@ -758,6 +772,7 @@ footer {
 
   .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {
@@ -867,6 +882,10 @@ footer {
     letter-spacing: 20px;
   }
 
+  .parallax_header {
+    background-attachment: scroll;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Restoration Teams Tablet /////////////////////// */
@@ -919,6 +938,7 @@ footer {
 
   .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {

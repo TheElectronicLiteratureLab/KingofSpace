@@ -365,7 +365,7 @@ header .container .menu div.buttons>* {
 
 .shgridcontainer2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 3rem;
 }
 
@@ -393,6 +393,10 @@ header .container .menu div.buttons>* {
 }
 
 .lifeship {
+  max-width: 100%;
+}
+
+.escapepod {
   max-width: 100%;
 }
 
@@ -531,6 +535,10 @@ footer {
     font-size: 30px;
   }
 
+  .parallax_header {
+    background-attachment: scroll;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Characters Section Mobile (S) /////////////////////// */
@@ -552,6 +560,10 @@ footer {
     min-height: 540px;
   }
 
+  .chitem {
+    background-attachment: scroll;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Spaceship Section Mobile (S) /////////////////////// */
@@ -564,6 +576,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
+  }
+
+  .shitem {
+    background-attachment: scroll;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -620,6 +636,10 @@ footer {
     font-size: 15px;
   }
 
+  .parallax_header {
+    background-attachment: scroll;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Characters Section Mobile (L) /////////////////////// */
@@ -641,6 +661,10 @@ footer {
     min-height: 800px;
   }
 
+  .chitem {
+    background-attachment: scroll;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Spaceship Section Mobile (L) /////////////////////// */
@@ -653,6 +677,9 @@ footer {
     width: 90%;
   }
 
+  .shitem {
+    background-attachment: scroll;
+  }
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -680,6 +707,7 @@ footer {
 
   .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {
@@ -792,6 +820,10 @@ footer {
     color: white;
   }
 
+  .parallax_header {
+    background-attachment: scroll;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Character Section Tablet /////////////////////// */
@@ -814,6 +846,10 @@ footer {
     min-height: 800px;
   }
 
+  .chitem {
+    background-attachment: scroll;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Spaceship Section Tablet /////////////////////// */
@@ -826,6 +862,9 @@ footer {
     width: 100%;
   }
 
+  .shitem {
+    background-attachment: scroll;
+  }
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -853,6 +892,7 @@ footer {
 
   .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {
@@ -1070,6 +1110,12 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #151E24;
+  }
+
+  .shgridcontainer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
   }
 
   /* ///////////////////// End Section /////////////////////// */

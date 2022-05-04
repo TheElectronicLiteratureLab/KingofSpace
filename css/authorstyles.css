@@ -798,6 +798,10 @@ footer {
     font-size: 30px;
   }
 
+  .parallax_header {
+    background-attachment: scroll;
+  }
+
 
   /* ///////////////////// End Section /////////////////////// */
 
@@ -957,6 +961,10 @@ footer {
     font-size: 15px;
   }
 
+  .parallax_header {
+    background-attachment: scroll;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
 
@@ -1068,8 +1076,9 @@ footer {
     padding: 1rem;
   }
 
-  .parallax .parallax_header {
+  .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {
@@ -1182,6 +1191,10 @@ footer {
     color: white;
   }
 
+  .parallax_header {
+    background-attachment: scroll;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// About Tablet /////////////////////// */
@@ -1286,12 +1299,13 @@ footer {
     padding: 1rem;
   }
 
-  .parallax .parallax_header {
+  .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {
-    width: 70vw;
+    width: 40vw;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1423,6 +1437,16 @@ footer {
     cursor: pointer;
   }
 
+  .parallax_header {
+    background-image: url("../img/starpattern.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-color: #151E24;
+  }
 
 
   /* ///////////////////// End Section /////////////////////// */

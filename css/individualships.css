@@ -291,7 +291,7 @@ header .container .menu div.buttons>* {
 
 .shgridcontainer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 3rem;
   padding-bottom: 5rem;
 }
@@ -672,6 +672,7 @@ footer {
 
   .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {
@@ -836,8 +837,9 @@ footer {
     padding: 1rem;
   }
 
-  .parallax .parallax_header {
+  .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {
@@ -918,7 +920,7 @@ footer {
 
   .shgridcontainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3rem;
     padding-bottom: 5rem;
   }
