@@ -287,7 +287,7 @@ function story(temp) {
 			case 46:
 				hide('personimgright');
 				r.src = "imgstory/kos_flowercolordrafttransparent.png";
-				//v.src = 'imgstory/kos-ceremonial-flower-3d-final.mp4';
+				//v.src = 'imgstory/kos-cerimonial-flower-3d-final.mp4';
 				console.log("case 46");
 
 				//v.play();
