@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head> 
+<meta charset="utf-8">
+<title>Radar</title>
+<link rel="stylesheet" type="text/css" href="../../../css/gamestyles.css" />
+<link rel="stylesheet" type="text/css" href="css/styleindex.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+
+</head>
+
+<body>
+  <!-- Hamburger Menu -->
+    <header>
+        <div class="container">
+            <input class="hamburger-button" type="checkbox" id="hamburger-button" />
+            <label for="hamburger-button">
+                <div></div>
+            </label>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="../../../game.html">Main</a></li>
+                            <!-- <li><a href="/">How to Play</a></li> -->
+                            <li><a href="../../../prologue.html">About The World</a></li>
+                            <li><a href="../../../characters.html">Characters</a></li>
+                            <li><a href="../../../gameonly.html">Game Only Mode</a></li>
+                            <li><a href="../../../library.html">Game Library</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- End of Hamburger Menu  -->
+      <!-- <button id="close-button"> &times; </button>-->
+      
+
+      <div id="main-radar" > <!-- Start main-radar Div -->
+  
+        <button id="switchone" class="S1" onclick="radar('switchone')"></button>
+        <button id="switchonept" class="S12" onclick="radar('switchonept')"></button>
+        <button id="switchtwo" class="S2"  onclick="radar('switchtwo')"></button>
+        <button id="switchthree" onclick="radar('switchthree')"></button>
+        <button id="switchfour" onclick="radar('switchfour')"></button>
+        <button id="switchfive" onclick="radar('switchfive')"></button>
+        <button id="switchsix" onclick="radar('switchsix')"></button>
+        <button id="switchtwopt" class="S22"  onclick="radar('switchtwopt')"></button>
+        <button id="switchthreept" onclick="radar('switchthreept')"></button>
+        <button id="switchfourpt" onclick="radar('switchfourpt')"></button>
+        <button id="switchfivept" onclick="radar('switchfivept')"></button>
+        <button id="switchsixpt" onclick="radar('switchsixpt')"></button>
+        <button id="buttonone" onclick="radar('buttonone')"></button>
+        <button id="buttontwo" onclick="radar('buttontwo')"></button>
+        <button id="buttonthree" onclick="radar('buttonthree')"></button>
+        <button id="buttonfour" onclick="radar('buttonfour')"></button>
+        <button id="buttonfive" onclick="radar('buttonfive')"></button>
+      
+        <div class="rectanglelsmaller"> <!-- Start rectanglesmaller Div -->
+          <p id="const"> EMERGENCY </p>
+          <p id="playbox"><br>Oxygen Reserves Critical</p>
+        </div> <!-- End rectanlgesmaller Div-->
+        <div >
+            <video src="./img/kos-radarstars-2d-final.mp4" autoplay mute loop id="stars"></video>
+            <video src="./img/kos-radarkaleidoscope-2d-final.mp4" autoplay mute loop id="kal"></video>
+            <img src="./img/kos_radarGame_radar.png" id="radarimg">
+            <img src="./img/kos_radarGame_radaron.png" id="radarimgon">
+
+            <audio id="click">  <source src="audio/kos-button-press&release-01.wav" type="audio/mp3">  </audio>
+            <audio id="toggleone">  <source src="audio/kos-switch-toggle-01.wav" type="audio/mp3">  </audio>
+            <audio id="toggletwo">  <source src="audio/kos-switch-toggle-02.wav" type="audio/mp3">  </audio>
+            <audio id="woo">  <source src="audio/kos-beep-success-01.wav" type="audio/mp3">  </audio>
+        </div>
+
+      </div> <!-- End mymodal modal-conent Div -->
+    
+<!--<div id="overlay"> </div>-->
+<script type="text/javascript" src="./js/radarmg.js"></script>
+
+</body>
+</html>
