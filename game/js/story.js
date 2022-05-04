@@ -249,7 +249,7 @@ function story(temp) {
 				hide('choiceone');
 				hide('choicetwo');
 				document.getElementById('choiceone').innerHTML = `The Ceremony ritual is just an excuse; removing the earring is the key to her powers. He'll try that, then talk with her rationally. <b>&#8250;</b> `;
-				document.getElementById('choicetwo').innerHTML = ` Maiting with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. <b>&#8250;</b> `;
+				document.getElementById('choicetwo').innerHTML = ` Mating with this woman would me like a dangerous drug.... It's been a long time since he had a dangerous drug. <b>&#8250;</b> `;
 				
 				if(temp === 'one'){
 					current = 22;// forgets memory 
