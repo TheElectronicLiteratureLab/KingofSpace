@@ -339,7 +339,7 @@ function story(temp) {
 			case 73:	
 			// unhide choice buttons 
 				// hide next 
-				
+				hide("personvidright");
 				hide('Next');
 				hide('choiceone');
 				hide('choicetwo');
