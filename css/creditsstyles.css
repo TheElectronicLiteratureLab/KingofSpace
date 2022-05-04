@@ -732,6 +732,10 @@ footer {
     width: 100%;
   }
 
+  .parallax_header {
+    background-attachment: scroll;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Program Info Mobile (S) /////////////////////// */
@@ -860,6 +864,10 @@ footer {
     width: 100%;
   }
 
+  .parallax_header {
+    background-attachment: scroll;
+  }
+
   /* ///////////////////// End Section /////////////////////// */
 
   /* ///////////////////// Program Info Mobile (L) /////////////////////// */
@@ -948,6 +956,7 @@ footer {
 
   .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {
@@ -1040,6 +1049,10 @@ footer {
 
   .teamswrapper {
     width: 80%;
+  }
+
+  .parallax_header {
+    background-attachment: scroll;
   }
 
   /* ///////////////////// End Section /////////////////////// */
@@ -1138,6 +1151,7 @@ footer {
 
   .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {

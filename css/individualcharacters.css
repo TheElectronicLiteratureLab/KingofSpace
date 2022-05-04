@@ -677,6 +677,7 @@ footer {
 
   .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {
@@ -764,6 +765,7 @@ footer {
     text-align: center;
   }
 
+
   /* ///////////////////// About Tablet /////////////////////// */
   #abtgame {
     padding-top: 10rem;
@@ -836,8 +838,9 @@ footer {
     padding: 1rem;
   }
 
-  .parallax .parallax_header {
+  .parallax {
     background-attachment: scroll;
+    padding: 5rem;
   }
 
   hr {
