@@ -1455,7 +1455,7 @@ function story(temp) {
 				break;
 				case 324:
 
-				hide('choiceone');
+				//hide('choiceone');
 				
 				if(confirm("do you want to restart and play again")){// tetrus game
 					current = 0;// states story over. 
