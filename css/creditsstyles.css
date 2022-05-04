@@ -540,7 +540,6 @@ section ul li:hover {
   margin: 0 auto;
   position: relative;
   background-color: #434A52;
-  padding-bottom: 5rem;
   padding: 2rem;
   text-align: center;
 }
@@ -571,6 +570,7 @@ section ul li:hover {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 100px;
 }
 
 .row {
@@ -590,7 +590,6 @@ section ul li:hover {
   flex: 20%;
   max-width: 25%;
   padding: 0 15px;
-  padding-bottom: 100px;
 }
 
 .column img {
