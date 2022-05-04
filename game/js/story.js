@@ -1448,8 +1448,8 @@ function story(temp) {
 
 			case 323:
 
-				hide('choiceone');
-				document.getElementById('choiceone').innerHTML = `Acknowledgments`;
+				//hide('choiceone');
+				//document.getElementById('choiceone').innerHTML = `Acknowledgments`;
 
 				current++;
 				break;
