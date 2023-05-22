@@ -11,6 +11,10 @@ hr {
   width: 40%;
 }
 
+em {
+  font-style: italic;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
@@ -370,10 +374,6 @@ header .container .menu div.buttons>* {
   font-weight: 500;
   margin: 0 auto;
   width: 50%;
-}
-
-em {
-  font-style: italic;
 }
 
 .sarahimg {

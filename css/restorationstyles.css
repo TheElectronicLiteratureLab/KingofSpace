@@ -11,6 +11,10 @@ hr {
   width: 40%;
 }
 
+em {
+  font-style: italic;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
@@ -341,6 +345,12 @@ a {
 .event-picture {
   text-align: center;
   border: 5px solid #69B7AE;
+}
+
+#event-jan12th {
+    display: block;
+    width: 60%;
+    margin: 0 21% 9px 19%;
 }
 
 .each-event {

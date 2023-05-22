@@ -11,6 +11,10 @@ hr {
   width: 40%;
 }
 
+em {
+  font-style: italic;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
