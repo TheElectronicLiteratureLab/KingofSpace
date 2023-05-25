@@ -44,19 +44,19 @@
         <h1>Characters</h1>
             <div id="character-button-container">
                 <!-- Tam  -->
-                <button id="tam-button", autofocus class="character-button" onclick="show('tam');">
+                <button id="tam-button", autofocus class="character-button" onclick="show('tam', false);">
                     <p class="button-overlay">Tam Rosse</p>                 
                 </button>
                 <!-- Lady Nii -->
-                <button id="nii-button", class="character-button"  onclick="show('nii');">
+                <button id="nii-button", class="character-button"  onclick="show('nii', false);">
                     <p class="button-overlay">Lady Nii</p> 
                 </button>
                 <!-- Brady -->
-                <button id="brady-button", class="character-button" onclick="show('brady');">
+                <button id="brady-button", class="character-button" onclick="show('brady', false);">
                     <p class="button-overlay">King Brady</p> 
                 </button>
                 <!-- Aster -->
-                <button id="aster-button", class="character-button" onclick="show('aster');">
+                <button id="aster-button", class="character-button" onclick="show('aster', false);">
                     <p class="button-overlay">Aster</p>
                 </button>
             </div>
@@ -117,6 +117,75 @@
             </div>
      <!-- Closes wrapper  -->
     </div>
+
+    <!-- Ships Divider -->
+    <h1>Ships</h1>
+    <div id="character-button-container">
+        <!-- Lifeship  -->
+        <button id="lifeship-button", autofocus class="character-button" onclick="show('lifeship', true);">
+            <p class="button-overlay">Lifeship</p>                 
+        </button>
+        <!-- Greatship -->
+        <button id="greatship-button", class="character-button"  onclick="show('greatship', true);">
+            <p class="button-overlay">Greatship</p> 
+        </button>
+        <!-- Escape Pod -->
+        <button id="escapepod-button", class="character-button" onclick="show('escapepod', true);">
+            <p class="button-overlay">Escape Pod</p> 
+        </button>
+    </div>
+
+     <!-- Ship Writeups and Videos  -->
+    <div id="lifeship" class="character-info">
+
+        <!-- Lifeship -->
+        <div class="ship-container" id="lifeship-info">
+            <video autoplay loop>
+                <source src="../img/3d-lifeship.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+        <div class="character-description" id="lifeship-description">
+            <h2>Lifeship</h2>
+                <p>
+                    Point-of-view character for three out of the five story lines. He is twenty-three, an airvent repairman who is not sympathetic to official Terran religion. He got involved in the "Uprising", a Belt-based movement for independence, and was imprisoned in the cold mines on Circe. He has recently escaped. He is young, handsome, tough, and a little sullen.
+                </p>
+        </div>
+    </div>
+
+    <!-- Greatship -->
+    <div id="greatship" class="character-info">
+        <div class="ship-container">
+            <video autoplay loop>
+                <source src="../img/3d-greatship.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+        <div class="character-description" id="greatship-description">
+            <h2>Greatship</h2>
+                <p>
+                    The intelligence of the Greatship. She appears in the bodies of cargo waldoes and guard robots and in illusory form as a Japanese woman, young or old. She also speaks mentally with the Priestess and King Brady, who are directly linked with her. She may appear in several guises at once. Sometimes she is devoted to the principles of the Terran religion, sometimes she is bitterly critical of them. She took her name from a Japanese noblewoman in the Heike Monogatari who drowned herself, holding her infant Emperor, after the disastrous battle of Lake Biwa.
+                </p>
+        </div>
+    </div>
+
+    <!-- Escapepod -->
+    <div id="escapepod" class="character-info">
+        <div class="ship-container">
+            <video autoplay loop>
+                <source src="../img/3d-escapepod.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+        <div class="character-description" id="escapepod-description">
+            <h2>Escape Pod</h2>
+                <p>
+                    As a young man in the service of the Lady Nii, he prepared to be a Red King. But when Nicholsun’s Plague broke out and the Nii was found to be an infected area, Brady was left on the semi-abandoned ship with the rest of the plague-stricken. That was fifty years ago. He is the last survivor.
+                </p>
+        </div>
+    </div>
+<!-- Closes wrapper  -->
+</div>
 </body>
 
 </html>

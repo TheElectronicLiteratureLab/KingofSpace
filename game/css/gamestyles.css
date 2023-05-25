@@ -505,6 +505,30 @@ a{
   background-size: 200px;
 }
 
+#lifeship-button{
+  background-image: url(../../img/lifeship.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+}
+#lifeship-button:focus{
+  outline:none;
+}
+
+#greatship-button{
+  background-image: url(../../img/greatship.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+}
+
+#escapepod-button{
+  background-image: url(../../img/escapepod.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+}
+
 .character-info{
   margin-top:40px;
   display:grid;
@@ -525,7 +549,12 @@ a{
   max-width:300px;
 }
 
-#nii, #brady, #aster{
+.ship-container video{
+  margin:auto;
+  max-width:100%;
+}
+
+#nii, #brady, #aster, #lifeship, #greatship, #escapepod{
   display:none;
 }
 

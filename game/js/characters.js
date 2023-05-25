@@ -1,30 +1,44 @@
 // ////////Toggles through different character divs on button click////////////////////////////
 var divs = ["tam","nii","brady","aster"];
-let visibleId = null;
+var shipdivs = ["lifeship","greatship","escapepod"];
 
-// function start(){
-//   //show("tam");
-//   hide();
-// }
+let visibleId = "tam";
+let visibleShipId = "lifeship";
 
-function show(id) {
-  if(visibleId !== id) {
-    visibleId = id;
-  } 
+function start(){
+  show("tam", false);
+  hide();
+}
+
+function show(id, isShip = false) {
+  if (isShip == true) {
+    if(visibleShipId !== id) {
+      visibleShipId = id;
+    } 
+  } else
+    if(visibleId !== id) {
+      visibleId = id;
+  }
   hide();
 }
 
 function hide() {
-  let div, i, id;
-  for(i = 0; i < divs.length; i++) {
-    id = divs[i];
-    div = document.getElementById(id);
+  divs.forEach(id => {
+    let div = document.getElementById(id);
     if(visibleId === id) {
       div.style.display = "grid";
     } else {
       div.style.display = "none";
     }
-  }
-}
+  });
 
-// window.onload = document.getElementById('tam-button').focus();
+  shipdivs.forEach(id => {
+    let div = document.getElementById(id);
+    if(visibleShipId === id) {
+      // document.getElementById(visibleId).style.display = "grid";
+      div.style.display = "grid";
+    } else {
+      div.style.display = "none";
+    }
+  });
+}
