@@ -35,7 +35,6 @@ function hide() {
   shipdivs.forEach(id => {
     let div = document.getElementById(id);
     if(visibleShipId === id) {
-      // document.getElementById(visibleId).style.display = "grid";
       div.style.display = "grid";
     } else {
       div.style.display = "none";
