@@ -29,8 +29,12 @@ function onstart(){
     hide('myBtn7');	// kitchen 
 	hide('Next');
 	hide('pond');
-
 }
+
+
+document.addEventListener('click', function() {
+    document.getElementById('sushum').play();
+});
 
 	//function playAudio(){
 	//audio.play();
@@ -89,7 +93,6 @@ function story(temp) {
 		
 		//console.log ("made it to while loop");
 		switch(current){
-			
 			case 2:
 			hide('personimg');
 				z.src = "imgstory/kos-tam-leftquarterface.png";
